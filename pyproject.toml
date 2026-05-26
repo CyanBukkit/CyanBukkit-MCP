@@ -1,0 +1,16 @@
+[project]
+name = "cyanbukkit-mcp"
+version = "0.1.0"
+description = "MCP server for Bukkit, Spigot, NMS, ProtocolLib, PlaceholderAPI, and Vault documentation."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastmcp>=2.0.0",
+]
+
+[project.scripts]
+cyanbukkit-mcp = "cyanbukkit_mcp.server:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
