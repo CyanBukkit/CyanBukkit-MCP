@@ -8,7 +8,7 @@ import sys
 from pathlib import Path
 
 # 添加项目根目录到 Python 路径
-project_root = Path(__file__).parent
+project_root = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(project_root / "src"))
 
 def test_knowledge_base():
@@ -31,13 +31,13 @@ def test_knowledge_base():
         # 测试搜索功能
         print("=== Testing Search Functions ===")
         
-        # 1. 测试 search_classes (用于 search_spigot_javadoc)
-        print("1. Testing search_classes('Player')...")
-        results = kb.search_classes(query="Player", limit=5)
-        print(f"   Found {len(results)} artifacts with 'Player' in class names")
+        # 1. 测试 search_javadoc
+        print("1. Testing search_javadoc('Player')...")
+        results = kb.search_javadoc(query="Player", limit=5)
+        print(f"   Found {len(results)} javadoc classes")
         if results:
             for r in results[:3]:
-                print(f"   - {r['artifact']}: {len(r.get('matching_classes', []))} matching classes")
+                print(f"   - {r.get('class_name', 'Unknown')}: score={r.get('score', 0)}")
         print()
         
         # 2. 测试 search_javadoc
@@ -70,10 +70,10 @@ def test_knowledge_base():
             print(f"   [ERR] {class_info.get('error', 'Unknown error')}")
         print()
         
-        # 5. 测试 list_artifacts
+        # 5. 测试 list_available_artifacts
         print("5. Testing list_available_artifacts()...")
-        artifacts = kb.list_artifacts(limit=5)
-        print(f"   Found {len(artifacts)} artifacts (showing first 5)")
+        artifacts = sorted(list(kb.cache.keys()))[:5]
+        print(f"   Found {len(kb.cache)} artifacts (showing first 5)")
         for a in artifacts[:5]:
             print(f"   - {a}")
         print()

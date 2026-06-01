@@ -1,0 +1,36 @@
+{
+  "rate_limit_rps": 1,
+  "max_concurrency": 2,
+  "sources": [
+    {
+      "name": "spigotmc_wiki_full",
+      "urls": [
+        "https://www.spigotmc.org/wiki/index/"
+      ]
+    },
+    {
+      "name": "paper_docs",
+      "urls": [
+        "https://docs.papermc.io/"
+      ]
+    },
+    {
+      "name": "plugin_api_docs",
+      "urls": [
+        "https://github.com/dmulloy2/ProtocolLib/wiki",
+        "https://github.com/PlaceholderAPI/PlaceholderAPI/wiki",
+        "https://github.com/MilkBowl/VaultAPI"
+      ]
+    },
+    {
+      "name": "crawl4ai_docs",
+      "urls": [
+        "https://docs.crawl4ai.com/"
+      ]
+    },
+    {
+      "name": "user_urls",
+      "urls": []
+    }
+  ]
+}

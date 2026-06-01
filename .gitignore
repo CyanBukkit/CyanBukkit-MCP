@@ -14,3 +14,9 @@ assets/icon.ico
 # Local logs / scratch outputs
 stdout.txt
 stderr.txt
+
+# Generated knowledge outputs
+knowledge/raw/maven_jars/
+knowledge/raw/decompiled_nms/
+knowledge/processed/nms_classes/
+knowledge/processed/nms_index/

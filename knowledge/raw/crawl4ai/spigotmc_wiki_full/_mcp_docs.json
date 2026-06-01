@@ -1,0 +1,313 @@
+{
+  "source": "spigotmc_wiki_full",
+  "document_count": 43,
+  "documents": [
+    {
+      "doc_id": "spigotmc_wiki_full_www.spigotmc.org_wiki_about-bungeecord_902c7ffe5bc5",
+      "title": "About BungeeCord | SpigotMC - High Performance Minecraft Software",
+      "source_url": "https://www.spigotmc.org/wiki/about-bungeecord/",
+      "fingerprint": "902c7ffe5bc5596761423e86baca79b99ae88cdc3ac0a8691aaf57e2b759d1cb",
+      "markdown_chars": 11527
+    },
+    {
+      "doc_id": "spigotmc_wiki_full_www.spigotmc.org_wiki_about-spigot_ffe69f429929",
+      "title": "about-spigot | SpigotMC - High Performance Minecraft Software",
+      "source_url": "https://www.spigotmc.org/wiki/about-spigot/",
+      "fingerprint": "ffe69f42992905a876d6b8589b05346981804100d9804789c3f225893d6d6024",
+      "markdown_chars": 8235
+    },
+    {
+      "doc_id": "spigotmc_wiki_full_www.spigotmc.org_wiki_buildtools_79e9860128f5",
+      "title": "BuildTools | SpigotMC - High Performance Minecraft Software",
+      "source_url": "https://www.spigotmc.org/wiki/buildtools/",
+      "fingerprint": "79e9860128f51d59363d2c59f105cb48347a5bf041a5dbcf84ab62ed85039108",
+      "markdown_chars": 50066
+    },
+    {
+      "doc_id": "spigotmc_wiki_full_www.spigotmc.org_wiki_bungeecord-commands_de719df9b831",
+      "title": "BungeeCord Commands | SpigotMC - High Performance Minecraft Software",
+      "source_url": "https://www.spigotmc.org/wiki/bungeecord-commands/",
+      "fingerprint": "de719df9b8316692794ff019ec1cb600d6471db624a32c11a574684df377be25",
+      "markdown_chars": 13950
+    },
+    {
+      "doc_id": "spigotmc_wiki_full_www.spigotmc.org_wiki_bungeecord-configuration-guide_71eb55273eed",
+      "title": "BungeeCord Configuration Guide | SpigotMC - High Performance Minecraft Software",
+      "source_url": "https://www.spigotmc.org/wiki/bungeecord-configuration-guide/",
+      "fingerprint": "71eb55273eedaaedc5cc57384dcec7650f3beaceed10fe7d31b2b4285c21a547",
+      "markdown_chars": 20323
+    },
+    {
+      "doc_id": "spigotmc_wiki_full_www.spigotmc.org_wiki_bungeecord-faq_647f3d53cebf",
+      "title": "BungeeCord FAQ | SpigotMC - High Performance Minecraft Software",
+      "source_url": "https://www.spigotmc.org/wiki/bungeecord-faq/",
+      "fingerprint": "647f3d53cebf18fb854bed2e81508d8e62f959fd61d8d053a7b845c3b1fefdf4",
+      "markdown_chars": 14070
+    },
+    {
+      "doc_id": "spigotmc_wiki_full_www.spigotmc.org_wiki_bungeecord-installation_288747a9a04d",
+      "title": "BungeeCord Installation | SpigotMC - High Performance Minecraft Software",
+      "source_url": "https://www.spigotmc.org/wiki/bungeecord-installation/",
+      "fingerprint": "288747a9a04d8438ed903671b990023b707fae20c2eb848b20eccd39d97c9fa8",
+      "markdown_chars": 19560
+    },
+    {
+      "doc_id": "spigotmc_wiki_full_www.spigotmc.org_wiki_bungeecord-maven_a5e31483379e",
+      "title": "BungeeCord Maven | SpigotMC - High Performance Minecraft Software",
+      "source_url": "https://www.spigotmc.org/wiki/bungeecord-maven/",
+      "fingerprint": "a5e31483379ed76622c1a05e75ca6451a9f66ce0ae176ee18328d6f9d93d773a",
+      "markdown_chars": 10517
+    },
+    {
+      "doc_id": "spigotmc_wiki_full_www.spigotmc.org_wiki_bungeecord-modules_fe60b53a1678",
+      "title": "BungeeCord Modules | SpigotMC - High Performance Minecraft Software",
+      "source_url": "https://www.spigotmc.org/wiki/bungeecord-modules/",
+      "fingerprint": "fe60b53a167845d150eabe85026ac82cf673c3d11bde46d33d084756f6efdb2b",
+      "markdown_chars": 10022
+    },
+    {
+      "doc_id": "spigotmc_wiki_full_www.spigotmc.org_wiki_bungeecord-plugin-development_1c412400623a",
+      "title": "BungeeCord Plugin Development | SpigotMC - High Performance Minecraft Software",
+      "source_url": "https://www.spigotmc.org/wiki/bungeecord-plugin-development/",
+      "fingerprint": "1c412400623ae0da9d5da2f3e0ddf77ac0fec151e5d0afa784cc2e4ce7e1b8b5",
+      "markdown_chars": 12141
+    },
+    {
+      "doc_id": "spigotmc_wiki_full_www.spigotmc.org_wiki_bungeecord_d25f175da1a4",
+      "title": "BungeeCord | SpigotMC - High Performance Minecraft Software",
+      "source_url": "https://www.spigotmc.org/wiki/bungeecord/",
+      "fingerprint": "d25f175da1a4a7c1bfbe39060b05fb85986e4ca7116ded2b1abcbebdcd8d3229",
+      "markdown_chars": 10150
+    },
+    {
+      "doc_id": "spigotmc_wiki_full_www.spigotmc.org_wiki_changelog_461966c7f611",
+      "title": "Spigot Changelog | SpigotMC - High Performance Minecraft Software",
+      "source_url": "https://www.spigotmc.org/wiki/changelog",
+      "fingerprint": "461966c7f61184ea48eb3b5c2b09fc2c9012c012b05a1d5a8d3a91edcc20b3d6",
+      "markdown_chars": 18057
+    },
+    {
+      "doc_id": "spigotmc_wiki_full_www.spigotmc.org_wiki_cla_169d2226012c",
+      "title": "Contributing to the Project | SpigotMC - High Performance Minecraft Software",
+      "source_url": "https://www.spigotmc.org/wiki/cla/",
+      "fingerprint": "169d2226012c322a87f808207cc6751e30317d3fb2e5cd7aaaf6e39f1b84dce4",
+      "markdown_chars": 16333
+    },
+    {
+      "doc_id": "spigotmc_wiki_full_www.spigotmc.org_wiki_compatible-plugins-by-release_36f6a11fbb07",
+      "title": "Compatible Plugins By Release | SpigotMC - High Performance Minecraft Software",
+      "source_url": "https://www.spigotmc.org/wiki/compatible-plugins-by-release/",
+      "fingerprint": "36f6a11fbb07c2440477602c3e80a2cd08264455374a29ddc3f3766f943db9b7",
+      "markdown_chars": 21929
+    },
+    {
+      "doc_id": "spigotmc_wiki_full_www.spigotmc.org_wiki_creating-basic-command-functions-in-bungeecord_dab50348953f",
+      "title": "Creating basic command functions in BungeeCord | SpigotMC - High Performance Minecraft Software",
+      "source_url": "https://www.spigotmc.org/wiki/creating-basic-command-functions-in-bungeecord/",
+      "fingerprint": "dab50348953f53f2d05bf22571d8db041ab773e9320bb0d4e24c1f18c16e14c7",
+      "markdown_chars": 12230
+    },
+    {
+      "doc_id": "spigotmc_wiki_full_www.spigotmc.org_wiki_faq_4db59f77e867",
+      "title": "Frequently Asked Questions | SpigotMC - High Performance Minecraft Software",
+      "source_url": "https://www.spigotmc.org/wiki/faq/",
+      "fingerprint": "4db59f77e867f44a73ace8fc4ca0cf402bb63aae656852be55aeedab866ea963",
+      "markdown_chars": 18585
+    },
+    {
+      "doc_id": "spigotmc_wiki_full_www.spigotmc.org_wiki_firewall-guide_e19a9bd6c740",
+      "title": "Firewall Guide | SpigotMC - High Performance Minecraft Software",
+      "source_url": "https://www.spigotmc.org/wiki/firewall-guide",
+      "fingerprint": "e19a9bd6c7404ff81d99c473ef3221925606fa5eb5cb9dccf64d67057470a6b8",
+      "markdown_chars": 16780
+    },
+    {
+      "doc_id": "spigotmc_wiki_full_www.spigotmc.org_wiki_forums_aebcfc405695",
+      "title": "Forums | SpigotMC - High Performance Minecraft Software",
+      "source_url": "https://www.spigotmc.org/wiki/forums/",
+      "fingerprint": "aebcfc4056952595bd859fef53ad980887bc2c796de18459a4d4de0b7f4f03ff",
+      "markdown_chars": 9938
+    },
+    {
+      "doc_id": "spigotmc_wiki_full_www.spigotmc.org_wiki_glossary_6ac400669fbb",
+      "title": "Glossary | SpigotMC - High Performance Minecraft Software",
+      "source_url": "https://www.spigotmc.org/wiki/glossary/",
+      "fingerprint": "6ac400669fbb3d22309ff4b1243ecb2fdf8d2e1cd8e6b58793fca9f5a5a0d9e0",
+      "markdown_chars": 32711
+    },
+    {
+      "doc_id": "spigotmc_wiki_full_www.spigotmc.org_wiki_guide-contributing-to-spigot_d45731d9dcfe",
+      "title": "Contributing to Spigot | SpigotMC - High Performance Minecraft Software",
+      "source_url": "https://www.spigotmc.org/wiki/guide-contributing-to-spigot/",
+      "fingerprint": "d45731d9dcfe417d9fa662b92617ef87eff7cd5c8fdae76616559a8184877ab1",
+      "markdown_chars": 23192
+    },
+    {
+      "doc_id": "spigotmc_wiki_full_www.spigotmc.org_wiki_how-to-learn-the-spigot-api_a9a6feb90b41",
+      "title": "How to learn the Spigot API | SpigotMC - High Performance Minecraft Software",
+      "source_url": "https://www.spigotmc.org/wiki/how-to-learn-the-spigot-api/",
+      "fingerprint": "a9a6feb90b41ec8eefda5341b01a911c64d1bc4b2bc05f365387900799172aae",
+      "markdown_chars": 10616
+    },
+    {
+      "doc_id": "spigotmc_wiki_full_www.spigotmc.org_wiki_index_b7062b775fbe",
+      "title": "Wiki Index | SpigotMC - High Performance Minecraft Software",
+      "source_url": "https://www.spigotmc.org/wiki/index/",
+      "fingerprint": "b7062b775fbefbaa10aac43866fe7a6f4f3a4742daae6eefe7d86d260f675e59",
+      "markdown_chars": 10749
+    },
+    {
+      "doc_id": "spigotmc_wiki_full_www.spigotmc.org_wiki_languages_cf1b508588d1",
+      "title": "Languages | SpigotMC - High Performance Minecraft Software",
+      "source_url": "https://www.spigotmc.org/wiki/languages/",
+      "fingerprint": "cf1b508588d152ac98c86e06bbdc2920590af458b69bf4aa6aa3d418d53632a2",
+      "markdown_chars": 13684
+    },
+    {
+      "doc_id": "spigotmc_wiki_full_www.spigotmc.org_wiki_plugin-snippets_3ccda1ee37bf",
+      "title": "Plugin Snippets | SpigotMC - High Performance Minecraft Software",
+      "source_url": "https://www.spigotmc.org/wiki/plugin-snippets/",
+      "fingerprint": "3ccda1ee37bf28b95fa28fb32554115b6e2b22ac381a82b2455e29d3fcdd0c89",
+      "markdown_chars": 17101
+    },
+    {
+      "doc_id": "spigotmc_wiki_full_www.spigotmc.org_wiki_plugin-yml_1f349ca0a607",
+      "title": "Plugin.yml | SpigotMC - High Performance Minecraft Software",
+      "source_url": "https://www.spigotmc.org/wiki/plugin-yml/",
+      "fingerprint": "1f349ca0a60721fd79732768f61e7ecdc53903e90b0a6da7d59576959a7d3e19",
+      "markdown_chars": 25407
+    },
+    {
+      "doc_id": "spigotmc_wiki_full_www.spigotmc.org_wiki_server-icon_a2e0d09705b2",
+      "title": "Server Icon | SpigotMC - High Performance Minecraft Software",
+      "source_url": "https://www.spigotmc.org/wiki/server-icon/",
+      "fingerprint": "a2e0d09705b2d0104e96ea749e1e62b774715be8130e6edc7805b8a728c43dea",
+      "markdown_chars": 11358
+    },
+    {
+      "doc_id": "spigotmc_wiki_full_www.spigotmc.org_wiki_special_pages_18415b21dfd5",
+      "title": "Page List | SpigotMC - High Performance Minecraft Software",
+      "source_url": "https://www.spigotmc.org/wiki/special/pages",
+      "fingerprint": "18415b21dfd56fe1c55cc476d7d441393585d184a28e41482b12c71244bc0e4a",
+      "markdown_chars": 6194
+    },
+    {
+      "doc_id": "spigotmc_wiki_full_www.spigotmc.org_wiki_special_recent_bc9f590d406e",
+      "title": "Recent Activity | SpigotMC - High Performance Minecraft Software",
+      "source_url": "https://www.spigotmc.org/wiki/special/recent",
+      "fingerprint": "bc9f590d406e31898fbea50344089737df652b3b706d753c82571e4d7862cfa4",
+      "markdown_chars": 19036
+    },
+    {
+      "doc_id": "spigotmc_wiki_full_www.spigotmc.org_wiki_spigot-commands_1d97773c9841",
+      "title": "Spigot Commands and Permissions | SpigotMC - High Performance Minecraft Software",
+      "source_url": "https://www.spigotmc.org/wiki/spigot-commands/",
+      "fingerprint": "1d97773c9841f3ed6d9f58931303668c799d0356bfa157c481084cc648938941",
+      "markdown_chars": 12386
+    },
+    {
+      "doc_id": "spigotmc_wiki_full_www.spigotmc.org_wiki_spigot-configuration-server-properties_274bf48d25d5",
+      "title": "Spigot Configuration (server.properties) | SpigotMC - High Performance Minecraft Software",
+      "source_url": "https://www.spigotmc.org/wiki/spigot-configuration-server-properties/",
+      "fingerprint": "274bf48d25d5f7ac6eee654cf7e1f5385d46b88510367b2fb09a4fb188671425",
+      "markdown_chars": 15737
+    },
+    {
+      "doc_id": "spigotmc_wiki_full_www.spigotmc.org_wiki_spigot-configuration_dcc0bf52cbf4",
+      "title": "Spigot Configuration (spigot.yml) | SpigotMC - High Performance Minecraft Software",
+      "source_url": "https://www.spigotmc.org/wiki/spigot-configuration/",
+      "fingerprint": "dcc0bf52cbf48fa1748a0779356188004858d87b23fc7313722c558aa18db1f3",
+      "markdown_chars": 36267
+    },
+    {
+      "doc_id": "spigotmc_wiki_full_www.spigotmc.org_wiki_spigot-gradle_ce0d289a844f",
+      "title": "Spigot Gradle | SpigotMC - High Performance Minecraft Software",
+      "source_url": "https://www.spigotmc.org/wiki/spigot-gradle/",
+      "fingerprint": "ce0d289a844f77e8a92a452c2945f1ca92a2bcb9a61db538a96936dc8942a963",
+      "markdown_chars": 13586
+    },
+    {
+      "doc_id": "spigotmc_wiki_full_www.spigotmc.org_wiki_spigot-installation_282befc5cf3e",
+      "title": "Installation | SpigotMC - High Performance Minecraft Software",
+      "source_url": "https://www.spigotmc.org/wiki/spigot-installation/",
+      "fingerprint": "282befc5cf3edfb62e54d102f84683afd04b4528560908fea65527432235fe02",
+      "markdown_chars": 17875
+    },
+    {
+      "doc_id": "spigotmc_wiki_full_www.spigotmc.org_wiki_spigot-maven_09e2a078f5ec",
+      "title": "Spigot Maven | SpigotMC - High Performance Minecraft Software",
+      "source_url": "https://www.spigotmc.org/wiki/spigot-maven",
+      "fingerprint": "09e2a078f5ec4300e73126d1c90fdbf2c90651a61bda3f46fb042a97724778cb",
+      "markdown_chars": 12285
+    },
+    {
+      "doc_id": "spigotmc_wiki_full_www.spigotmc.org_wiki_spigot-plugin-development_79b8c9d05595",
+      "title": "Spigot Plugin Development | SpigotMC - High Performance Minecraft Software",
+      "source_url": "https://www.spigotmc.org/wiki/spigot-plugin-development/",
+      "fingerprint": "79b8c9d05595e6e7f4599cd12da2244fcb4becfaa59f43dd08cca4d1b3403a4c",
+      "markdown_chars": 21943
+    },
+    {
+      "doc_id": "spigotmc_wiki_full_www.spigotmc.org_wiki_spigot-privacy_3a14d3c45914",
+      "title": "SpigotMC Privacy Policy | SpigotMC - High Performance Minecraft Software",
+      "source_url": "https://www.spigotmc.org/wiki/spigot-privacy/",
+      "fingerprint": "3a14d3c45914d4ea2bf618513f05256fc54d1c8e5c4a74e3086b4a8851d92d91",
+      "markdown_chars": 23530
+    },
+    {
+      "doc_id": "spigotmc_wiki_full_www.spigotmc.org_wiki_spigot-rules_1cefe3624a02",
+      "title": "Spigot Forum Rules | SpigotMC - High Performance Minecraft Software",
+      "source_url": "https://www.spigotmc.org/wiki/spigot-rules/",
+      "fingerprint": "1cefe3624a02afaa687750c5161f6fda30f3a32b939af00f072582ab14fda603",
+      "markdown_chars": 20733
+    },
+    {
+      "doc_id": "spigotmc_wiki_full_www.spigotmc.org_wiki_spigot-server-with-version-1-8-1-16_4d72573b0157",
+      "title": "Installation | SpigotMC - High Performance Minecraft Software",
+      "source_url": "https://www.spigotmc.org/wiki/spigot-server-with-version-1-8-1-16/",
+      "fingerprint": "4d72573b0157ea9d84ea9b3a5986d8ba092f2135ac09fe0b132bdf4956b6b9ff",
+      "markdown_chars": 18134
+    },
+    {
+      "doc_id": "spigotmc_wiki_full_www.spigotmc.org_wiki_spigot-terms_0132a6f698a9",
+      "title": "SpigotMC Terms of Use | SpigotMC - High Performance Minecraft Software",
+      "source_url": "https://www.spigotmc.org/wiki/spigot-terms/",
+      "fingerprint": "0132a6f698a96650c20b36521259b42dae099e52b1c821bc7eaf5951e334f2a4",
+      "markdown_chars": 30759
+    },
+    {
+      "doc_id": "spigotmc_wiki_full_www.spigotmc.org_wiki_spigot_8342a10cf9e8",
+      "title": "Spigot | SpigotMC - High Performance Minecraft Software",
+      "source_url": "https://www.spigotmc.org/wiki/spigot/",
+      "fingerprint": "8342a10cf9e839a53969a19e85be0ab58e2b8668f094dd48dba32e74bcaeb9af",
+      "markdown_chars": 11427
+    },
+    {
+      "doc_id": "spigotmc_wiki_full_www.spigotmc.org_wiki_start-up-parameters_68ad2f6ffaf9",
+      "title": "Start-up Parameters | SpigotMC - High Performance Minecraft Software",
+      "source_url": "https://www.spigotmc.org/wiki/start-up-parameters/",
+      "fingerprint": "68ad2f6ffaf9bc5c7cc4dc4e589af6ff3468a2b6dfe4cb4c118bedfbb2f2ed5d",
+      "markdown_chars": 16823
+    },
+    {
+      "doc_id": "spigotmc_wiki_full_www.spigotmc.org_wiki_tips-tricks-tutorials_2ae1de9f7aab",
+      "title": "Tips, Tricks & Tutorials | SpigotMC - High Performance Minecraft Software",
+      "source_url": "https://www.spigotmc.org/wiki/tips-tricks-tutorials/",
+      "fingerprint": "2ae1de9f7aab54ffbdceabccaa9fddea3ab703522a7dc4c86971275c7c8fe1cf",
+      "markdown_chars": 15024
+    },
+    {
+      "doc_id": "spigotmc_wiki_full_www.spigotmc.org_wiki_using-the-event-api_ecc807e84263",
+      "title": "Using the Event API | SpigotMC - High Performance Minecraft Software",
+      "source_url": "https://www.spigotmc.org/wiki/using-the-event-api/",
+      "fingerprint": "ecc807e8426305774cacef3730ddf44657313ba3fb55994e0c1d1ba0ec6e521d",
+      "markdown_chars": 23010
+    }
+  ],
+  "mcp_tools": [
+    "search_crawled_docs(query, source='spigotmc_wiki_full')",
+    "get_crawled_doc(doc_id)",
+    "search_all_knowledge(query)"
+  ],
+  "usage": "Bundled Crawl4AI SpigotMC wiki documents are loaded from knowledge/raw/crawl4ai/spigotmc_wiki_full by the MCP server; users do not need to crawl them."
+}

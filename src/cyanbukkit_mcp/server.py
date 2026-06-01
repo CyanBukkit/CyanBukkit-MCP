@@ -42,6 +42,42 @@ def get_artifact_info(artifact_name: str) -> Dict[str, Any]:
         return info
     return {'error': f'Artifact "{artifact_name}" not found'}
 
+@mcp.tool
+def search_crawled_docs(query: str, source: Optional[str] = None, limit: int = 10) -> List[Dict[str, Any]]:
+    """Search Crawl4AI-crawled documentation stored in the knowledge base."""
+    return kb.search_crawled_docs(query=query, source=source, limit=limit)
+
+@mcp.tool
+def get_crawled_doc(doc_id: str) -> Dict[str, Any]:
+    """Get a full Crawl4AI-crawled document by id."""
+    result = kb.get_crawled_doc(doc_id)
+    if result:
+        return result
+    return {'error': f'Crawled document "{doc_id}" not found'}
+
+@mcp.tool
+def search_nms(query: str, mc_version: Optional[str] = None, limit: int = 10) -> List[Dict[str, Any]]:
+    """Search NMS net.minecraft.server classes by name, package, or method signature."""
+    return kb.search_nms(query=query, mc_version=mc_version, limit=limit)
+
+@mcp.tool
+def get_nms_class(class_name: str, mc_version: Optional[str] = None) -> Dict[str, Any]:
+    """Get detailed NMS class information for an optional Minecraft version."""
+    result = kb.get_nms_class(class_name=class_name, mc_version=mc_version)
+    if result:
+        return result
+    return {'error': f'NMS class "{class_name}" not found'}
+
+@mcp.tool
+def list_nms_versions() -> List[str]:
+    """List Minecraft versions with generated NMS knowledge indexes."""
+    return kb.list_nms_versions()
+
+@mcp.tool
+def search_all_knowledge(query: str, limit: int = 10) -> Dict[str, Any]:
+    """Search JavaDoc, wiki, plugin API docs, Crawl4AI docs, and NMS indexes together."""
+    return kb.search_all(query=query, limit=limit)
+
 def main():
     mcp.run()
 

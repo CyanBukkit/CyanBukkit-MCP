@@ -5,6 +5,9 @@ import glob
 from typing import Optional, List, Dict, Any
 from pathlib import Path
 
+from cyanbukkit_mcp.crawled_knowledge import CrawledKnowledgeLoader
+from cyanbukkit_mcp.nms_knowledge import NMSKnowledgeBase
+
 
 class BukkitKnowledgeBase:
     """Manages the knowledge base of Bukkit/Spigot/Paper API information and SpigotMC Wiki."""
@@ -31,12 +34,17 @@ class BukkitKnowledgeBase:
         self.javadoc_dir = self.raw_knowledge_dir / "paper_javadoc"
         self.javadoc_index_file = self.processed_knowledge_dir / "javadoc_index" / "master_index.json"
         self.plugin_apis_dir = self.raw_knowledge_dir / "plugin_apis"
+        self.crawled_docs_dir = self.raw_knowledge_dir / "crawl4ai"
+        self.nms_index_dir = self.processed_knowledge_dir / "nms_index"
+        self.nms_classes_dir = self.processed_knowledge_dir / "nms_classes"
         
         self.cache = {}
         self.wiki_cache = {}
         self.javadoc_cache = {}
         self.javadoc_index = []
         self.plugin_api_cache = {}
+        self.crawled_kb = CrawledKnowledgeLoader(self.crawled_docs_dir)
+        self.nms_kb = NMSKnowledgeBase(self.nms_index_dir, self.nms_classes_dir)
         
         # Ensure directories exist
         for d in [self.knowledge_dir, self.wiki_dir, self.javadoc_dir, self.plugin_apis_dir]:
@@ -72,7 +80,7 @@ class BukkitKnowledgeBase:
                                 'file': str(json_file),
                                 'class_count': len(data.get('classes', [])),
                                 'all_classes': data.get('classes', []),
-                                'artifact': artifact_id,
+                                'artifact': artifact_name,
                                 'version': data['pom'].get('version', '')
                             }
                         else:
@@ -254,6 +262,35 @@ class BukkitKnowledgeBase:
             result['sections'] = data.get('sections', [])[:20]
         
         return result
+    def search_crawled_docs(self, query: str, source: str = None, limit: int = 10) -> List[Dict[str, Any]]:
+        """Search Crawl4AI-crawled documentation."""
+        return self.crawled_kb.search(query=query, source=source, limit=limit)
+
+    def get_crawled_doc(self, doc_id: str) -> Optional[Dict[str, Any]]:
+        """Get one crawled document by id."""
+        return self.crawled_kb.get_doc(doc_id)
+
+    def search_nms(self, query: str, mc_version: str = None, limit: int = 10) -> List[Dict[str, Any]]:
+        """Search versioned NMS classes."""
+        return self.nms_kb.search(query=query, mc_version=mc_version, limit=limit)
+
+    def get_nms_class(self, class_name: str, mc_version: str = None) -> Optional[Dict[str, Any]]:
+        """Get one NMS class by class name and optional Minecraft version."""
+        return self.nms_kb.get_class(class_name=class_name, mc_version=mc_version)
+
+    def list_nms_versions(self) -> List[str]:
+        """List Minecraft versions with NMS indexes."""
+        return self.nms_kb.list_versions()
+
+    def search_all(self, query: str, limit: int = 10) -> Dict[str, Any]:
+        """Search all available knowledge sources."""
+        return {
+            'javadoc': self.search_javadoc(query=query, limit=limit),
+            'wiki': self.search_wiki(query=query, limit=limit),
+            'plugin_apis': self.search_plugin_apis(query=query, limit=limit),
+            'crawled_docs': self.search_crawled_docs(query=query, limit=limit),
+            'nms': self.search_nms(query=query, limit=limit),
+        }
 
 
 _kb_instance = None
