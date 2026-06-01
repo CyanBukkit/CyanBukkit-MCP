@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.Rotation",
+  "methods": [
+    "public static org.bukkit.Rotation[] values()",
+    "public static org.bukkit.Rotation valueOf(java.lang.String)",
+    "public org.bukkit.Rotation rotateClockwise()",
+    "public org.bukkit.Rotation rotateCounterClockwise()"
+  ],
+  "method_count": 4
+}

@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.ExplosionResult",
+  "methods": [
+    "public static org.bukkit.ExplosionResult[] values()",
+    "public static org.bukkit.ExplosionResult valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

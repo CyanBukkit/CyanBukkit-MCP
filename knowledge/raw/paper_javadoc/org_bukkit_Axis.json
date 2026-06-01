@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.Axis",
+  "methods": [
+    "public static org.bukkit.Axis[] values()",
+    "public static org.bukkit.Axis valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

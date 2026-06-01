@@ -1,0 +1,14 @@
+{
+  "class_name": "org.bukkit.block.sign.SignSide",
+  "methods": [
+    "public abstract java.util.List<net.kyori.adventure.text.Component> lines()",
+    "public abstract net.kyori.adventure.text.Component line(int)",
+    "public abstract void line(int, net.kyori.adventure.text.Component)",
+    "public abstract java.lang.String[] getLines()",
+    "public abstract java.lang.String getLine(int)",
+    "public abstract void setLine(int, java.lang.String)",
+    "public abstract boolean isGlowingText()",
+    "public abstract void setGlowingText(boolean)"
+  ],
+  "method_count": 8
+}

@@ -1,0 +1,14 @@
+{
+  "class_name": "org.bukkit.plugin.RegisteredListener",
+  "methods": [
+    "public org.bukkit.plugin.RegisteredListener(org.bukkit.event.Listener, org.bukkit.plugin.EventExecutor, org.bukkit.event.EventPriority, org.bukkit.plugin.Plugin, boolean)",
+    "public org.bukkit.event.Listener getListener()",
+    "public org.bukkit.plugin.Plugin getPlugin()",
+    "public org.bukkit.event.EventPriority getPriority()",
+    "public void callEvent(org.bukkit.event.Event)",
+    "public boolean isIgnoringCancelled()",
+    "public org.bukkit.plugin.EventExecutor getExecutor()",
+    "public java.lang.String toString()"
+  ],
+  "method_count": 8
+}

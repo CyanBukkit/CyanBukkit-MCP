@@ -1,0 +1,494 @@
+{
+  "origin": "https://www.spigotmc.org/wiki/spigot-configuration/",
+  "refs": {
+    "e1": {
+      "name": "Spigot Configuration (spigot.yml)",
+      "role": "heading"
+    },
+    "e10": {
+      "name": "Spigot",
+      "role": "link"
+    },
+    "e100": {
+      "name": "Zrips",
+      "role": "link"
+    },
+    "e101": {
+      "name": "Home",
+      "role": "link"
+    },
+    "e102": {
+      "name": "\uf0d7",
+      "role": "link"
+    },
+    "e103": {
+      "name": "Forums",
+      "role": "link"
+    },
+    "e104": {
+      "name": "\uf0d7",
+      "role": "link"
+    },
+    "e105": {
+      "name": "Resources",
+      "role": "link"
+    },
+    "e106": {
+      "name": "\uf0d7",
+      "role": "link"
+    },
+    "e107": {
+      "name": "Wiki",
+      "role": "link"
+    },
+    "e108": {
+      "name": "Team",
+      "role": "link"
+    },
+    "e109": {
+      "name": "\uf0d7",
+      "role": "link"
+    },
+    "e11": {
+      "name": "SpigotMC \uf0d7",
+      "role": "link"
+    },
+    "e110": {
+      "name": "Downloads",
+      "role": "link"
+    },
+    "e111": {
+      "name": "\uf0d7",
+      "role": "link"
+    },
+    "e112": {
+      "name": "Discord",
+      "role": "link"
+    },
+    "e113": {
+      "name": "Hub",
+      "role": "link"
+    },
+    "e114": {
+      "name": "Issues",
+      "role": "link"
+    },
+    "e115": {
+      "name": "\uf141",
+      "role": "link"
+    },
+    "e116": {
+      "name": "Log in",
+      "role": "link"
+    },
+    "e117": {
+      "name": "Wiki Index",
+      "role": "link"
+    },
+    "e118": {
+      "name": "Page List",
+      "role": "link"
+    },
+    "e119": {
+      "name": "Recent Activity",
+      "role": "link"
+    },
+    "e12": {
+      "name": "FAQ",
+      "role": "link"
+    },
+    "e120": {
+      "name": "",
+      "role": "generic"
+    },
+    "e121": {
+      "name": "Enter your search and hit enter",
+      "role": "searchbox"
+    },
+    "e122": {
+      "name": "Search...",
+      "role": "searchbox"
+    },
+    "e13": {
+      "name": "Contact Us",
+      "role": "link"
+    },
+    "e14": {
+      "name": "Terms",
+      "role": "link"
+    },
+    "e15": {
+      "name": "Rules",
+      "role": "link"
+    },
+    "e16": {
+      "name": "Privacy Policy",
+      "role": "link"
+    },
+    "e17": {
+      "name": "\uf0e0",
+      "role": "link"
+    },
+    "e18": {
+      "name": "\uf09e",
+      "role": "link"
+    },
+    "e19": {
+      "name": "ThemeHouse",
+      "role": "link"
+    },
+    "e2": {
+      "name": "\uf0e8",
+      "role": "link"
+    },
+    "e20": {
+      "name": "SpigotMC - High Performance Minecraft Software",
+      "role": "link"
+    },
+    "e21": {
+      "name": "here",
+      "role": "link"
+    },
+    "e22": {
+      "name": "Discussion (118)",
+      "role": "link"
+    },
+    "e23": {
+      "name": "Page",
+      "role": "link"
+    },
+    "e24": {
+      "name": "History",
+      "role": "link"
+    },
+    "e25": {
+      "name": "Editors",
+      "role": "link"
+    },
+    "e26": {
+      "name": "Contents",
+      "role": "heading"
+    },
+    "e27": {
+      "name": "Commands (top)",
+      "role": "heading"
+    },
+    "e28": {
+      "name": "Messages (top)",
+      "role": "heading"
+    },
+    "e29": {
+      "name": "Stats (top)",
+      "role": "heading"
+    },
+    "e3": {
+      "name": "Home",
+      "role": "link"
+    },
+    "e30": {
+      "name": "Advancements (top)",
+      "role": "heading"
+    },
+    "e31": {
+      "name": "Main, ungrouped settings (top)",
+      "role": "heading"
+    },
+    "e32": {
+      "name": "Per-world settings (top)",
+      "role": "heading"
+    },
+    "e33": {
+      "name": "Minecraft spawn mechanics",
+      "role": "link"
+    },
+    "e34": {
+      "name": "\uf004 SPONSORS",
+      "role": "heading"
+    },
+    "e35": {
+      "name": "Sign up now!",
+      "role": "link"
+    },
+    "e36": {
+      "name": "\uf152 WIKI NAVIGATION",
+      "role": "heading"
+    },
+    "e37": {
+      "name": "\uf152 WIKI INDEX",
+      "role": "heading"
+    },
+    "e38": {
+      "name": "\uf152 TOP EDITORS",
+      "role": "heading"
+    },
+    "e39": {
+      "name": "\uf152 WIKI STATISTICS",
+      "role": "heading"
+    },
+    "e4": {
+      "name": "Wiki",
+      "role": "link"
+    },
+    "e40": {
+      "name": "the appropriate number or letter",
+      "role": "link"
+    },
+    "e41": {
+      "name": "Spoiler: List of all advancements",
+      "role": "button"
+    },
+    "e42": {
+      "name": "this",
+      "role": "link"
+    },
+    "e43": {
+      "name": "this",
+      "role": "link"
+    },
+    "e44": {
+      "name": "Minecraft Server List",
+      "role": "link"
+    },
+    "e45": {
+      "name": "Aternos",
+      "role": "link"
+    },
+    "e46": {
+      "name": "Tebex Donation Plugin & Webstore",
+      "role": "link"
+    },
+    "e47": {
+      "name": "WIKI INDEX",
+      "role": "link"
+    },
+    "e48": {
+      "name": "Enter your search and hit enter",
+      "role": "searchbox"
+    },
+    "e49": {
+      "name": "Advertisement",
+      "role": "Iframe"
+    },
+    "e5": {
+      "name": "Spigot",
+      "role": "link"
+    },
+    "e50": {
+      "name": "",
+      "role": "listitem"
+    },
+    "e51": {
+      "name": "",
+      "role": "listitem"
+    },
+    "e52": {
+      "name": "",
+      "role": "listitem"
+    },
+    "e53": {
+      "name": "",
+      "role": "listitem"
+    },
+    "e54": {
+      "name": "",
+      "role": "listitem"
+    },
+    "e55": {
+      "name": "",
+      "role": "listitem"
+    },
+    "e56": {
+      "name": "Commands",
+      "role": "link"
+    },
+    "e57": {
+      "name": "Messages",
+      "role": "link"
+    },
+    "e58": {
+      "name": "Stats",
+      "role": "link"
+    },
+    "e59": {
+      "name": "Advancements",
+      "role": "link"
+    },
+    "e6": {
+      "name": "",
+      "role": "LabelText"
+    },
+    "e60": {
+      "name": "Main, ungrouped settings",
+      "role": "link"
+    },
+    "e61": {
+      "name": "Per-world settings",
+      "role": "link"
+    },
+    "e62": {
+      "name": "top",
+      "role": "link"
+    },
+    "e63": {
+      "name": "top",
+      "role": "link"
+    },
+    "e64": {
+      "name": "top",
+      "role": "link"
+    },
+    "e65": {
+      "name": "top",
+      "role": "link"
+    },
+    "e66": {
+      "name": "top",
+      "role": "link"
+    },
+    "e67": {
+      "name": "top",
+      "role": "link"
+    },
+    "e68": {
+      "name": "Spigot",
+      "role": "link"
+    },
+    "e69": {
+      "name": "About SpigotMC",
+      "role": "link"
+    },
+    "e7": {
+      "name": "\uf0e8",
+      "role": "link"
+    },
+    "e70": {
+      "name": "BuildTools",
+      "role": "link"
+    },
+    "e71": {
+      "name": "Compatible Plugins By Release",
+      "role": "link"
+    },
+    "e72": {
+      "name": "Contributing to Spigot",
+      "role": "link"
+    },
+    "e73": {
+      "name": "Contributing to the Project",
+      "role": "link"
+    },
+    "e74": {
+      "name": "Frequently Asked Questions",
+      "role": "link"
+    },
+    "e75": {
+      "name": "How to learn the Spigot API",
+      "role": "link"
+    },
+    "e76": {
+      "name": "Installation",
+      "role": "link"
+    },
+    "e77": {
+      "name": "Plugin Snippets",
+      "role": "link"
+    },
+    "e78": {
+      "name": "Server Icon",
+      "role": "link"
+    },
+    "e79": {
+      "name": "Spigot Changelog",
+      "role": "link"
+    },
+    "e8": {
+      "name": "Home",
+      "role": "link"
+    },
+    "e80": {
+      "name": "Spigot Commands and Permissions",
+      "role": "link"
+    },
+    "e81": {
+      "name": "Spigot Configuration (server.properties)",
+      "role": "link"
+    },
+    "e82": {
+      "name": "Spigot Gradle",
+      "role": "link"
+    },
+    "e83": {
+      "name": "Spigot Maven",
+      "role": "link"
+    },
+    "e84": {
+      "name": "Spigot Plugin Development",
+      "role": "link"
+    },
+    "e85": {
+      "name": "Spigot Server with version: 1.8-1.16",
+      "role": "link"
+    },
+    "e86": {
+      "name": "Start-up Parameters",
+      "role": "link"
+    },
+    "e87": {
+      "name": "Tips, Tricks & Tutorials",
+      "role": "link"
+    },
+    "e88": {
+      "name": "BungeeCord",
+      "role": "link"
+    },
+    "e89": {
+      "name": "Forums",
+      "role": "link"
+    },
+    "e9": {
+      "name": "Wiki",
+      "role": "link"
+    },
+    "e90": {
+      "name": "Spigot",
+      "role": "link"
+    },
+    "e91": {
+      "name": "Mineplugins",
+      "role": "link"
+    },
+    "e92": {
+      "name": "smmmadden",
+      "role": "link"
+    },
+    "e93": {
+      "name": "Jeppa",
+      "role": "link"
+    },
+    "e94": {
+      "name": "RockinChaos",
+      "role": "link"
+    },
+    "e95": {
+      "name": "Maximvdw",
+      "role": "link"
+    },
+    "e96": {
+      "name": "Blackixx",
+      "role": "link"
+    },
+    "e97": {
+      "name": "Indyuce",
+      "role": "link"
+    },
+    "e98": {
+      "name": "BrettPlays",
+      "role": "link"
+    },
+    "e99": {
+      "name": "Phoenix616",
+      "role": "link"
+    }
+  },
+  "snapshot": "- link \"SpigotMC - High Performance Minecraft Software\" [ref=e20]\n- Iframe \"Advertisement\" [ref=e49] focusable [tabindex]\n- link \"here\" [ref=e21]\n- listitem \"Home\" [level=1, ref=e50] clickable [cursor:pointer]\n  - link \"Home\" [ref=e101]\n  - link \"\uf0d7\" [ref=e102]\n- listitem \"Forums\" [level=1, ref=e51] clickable [cursor:pointer]\n  - link \"Forums\" [ref=e103]\n  - link \"\uf0d7\" [ref=e104]\n- listitem \"Resources\" [level=1, ref=e52] clickable [cursor:pointer]\n  - link \"Resources\" [ref=e105]\n  - link \"\uf0d7\" [ref=e106]\n- link \"Wiki\" [ref=e107]\n- link \"Wiki Index\" [ref=e117]\n- link \"Page List\" [ref=e118]\n- link \"Recent Activity\" [ref=e119]\n- generic [ref=e120] clickable [cursor:pointer, onclick]\n- searchbox \"Enter your search and hit enter\" [ref=e121]\n- searchbox \"Search...\" [ref=e122]\n- listitem \"Team\" [level=1, ref=e53] clickable [cursor:pointer]\n  - link \"Team\" [ref=e108]\n  - link \"\uf0d7\" [ref=e109]\n- listitem \"Downloads\" [level=1, ref=e54] clickable [cursor:pointer]\n  - link \"Downloads\" [ref=e110]\n  - link \"\uf0d7\" [ref=e111]\n- link \"Discord\" [ref=e112]\n- link \"Hub\" [ref=e113]\n- link \"Issues\" [ref=e114]\n- listitem \"Menu\" [level=1, ref=e55] clickable [cursor:pointer]\n  - link \"\uf141\" [ref=e115]\n- link \"Log in\" [ref=e116]\n- link \"\uf0e8\" [ref=e2]\n- link \"Home\" [ref=e3]\n- link \"Wiki\" [ref=e4]\n- link \"Spigot\" [ref=e5]\n- heading \"Spigot Configuration (spigot.yml)\" [level=1, ref=e1]\n- link \"Discussion (118)\" [ref=e22]\n- link \"Page\" [ref=e23]\n- link \"History\" [ref=e24]\n- link \"Editors\" [ref=e25]\n- heading \"Contents\" [level=2, ref=e26]\n- link \"Commands\" [ref=e56]\n- link \"Messages\" [ref=e57]\n- link \"Stats\" [ref=e58]\n- link \"Advancements\" [ref=e59]\n- link \"Main, ungrouped settings\" [ref=e60]\n- link \"Per-world settings\" [ref=e61]\n- heading \"Commands (top)\" [level=2, ref=e27]\n  - link \"top\" [ref=e62]\n- heading \"Messages (top)\" [level=2, ref=e28]\n  - link \"top\" [ref=e63]\n- link \"the appropriate number or letter\" [ref=e40]\n- heading \"Stats (top)\" [level=2, ref=e29]\n  - link \"top\" [ref=e64]\n- heading \"Advancements (top)\" [level=2, ref=e30]\n  - link \"top\" [ref=e65]\n- button \"Spoiler: List of all advancements\" [ref=e41]\n- heading \"Main, ungrouped settings (top)\" [level=2, ref=e31]\n  - link \"top\" [ref=e66]\n- heading \"Per-world settings (top)\" [level=2, ref=e32]\n  - link \"top\" [ref=e67]\n- link \"Minecraft spawn mechanics\" [ref=e33]\n- link \"this\" [ref=e42]\n- link \"this\" [ref=e43]\n- heading \"\uf004 SPONSORS\" [level=3, ref=e34]\n- link \"Minecraft Server List\" [ref=e44]\n- link \"Aternos\" [ref=e45]\n- link \"Tebex Donation Plugin & Webstore\" [ref=e46]\n- LabelText \"Sign up now!\" [ref=e6] clickable [cursor:pointer]\n  - link \"Sign up now!\" [ref=e35]\n- heading \"\uf152 WIKI NAVIGATION\" [level=3, ref=e36]\n- link \"Spigot\" [ref=e68]\n- link \"About SpigotMC\" [ref=e69]\n- link \"BuildTools\" [ref=e70]\n- link \"Compatible Plugins By Release\" [ref=e71]\n- link \"Contributing to Spigot\" [ref=e72]\n- link \"Contributing to the Project\" [ref=e73]\n- link \"Frequently Asked Questions\" [ref=e74]\n- link \"How to learn the Spigot API\" [ref=e75]\n- link \"Installation\" [ref=e76]\n- link \"Plugin Snippets\" [ref=e77]\n- link \"Server Icon\" [ref=e78]\n- link \"Spigot Changelog\" [ref=e79]\n- link \"Spigot Commands and Permissions\" [ref=e80]\n- link \"Spigot Configuration (server.properties)\" [ref=e81]\n- link \"Spigot Gradle\" [ref=e82]\n- link \"Spigot Maven\" [ref=e83]\n- link \"Spigot Plugin Development\" [ref=e84]\n- link \"Spigot Server with version: 1.8-1.16\" [ref=e85]\n- link \"Start-up Parameters\" [ref=e86]\n- link \"Tips, Tricks & Tutorials\" [ref=e87]\n- heading \"\uf152 WIKI INDEX\" [level=3, ref=e37]\n  - link \"WIKI INDEX\" [ref=e47]\n- link \"BungeeCord\" [ref=e88]\n- link \"Forums\" [ref=e89]\n- link \"Spigot\" [ref=e90]\n- searchbox \"Enter your search and hit enter\" [ref=e48]\n- heading \"\uf152 TOP EDITORS\" [level=3, ref=e38]\n- link \"Mineplugins\" [ref=e91]\n- link \"smmmadden\" [ref=e92]\n- link \"Jeppa\" [ref=e93]\n- link \"RockinChaos\" [ref=e94]\n- link \"Maximvdw\" [ref=e95]\n- link \"Blackixx\" [ref=e96]\n- link \"Indyuce\" [ref=e97]\n- link \"BrettPlays\" [ref=e98]\n- link \"Phoenix616\" [ref=e99]\n- link \"Zrips\" [ref=e100]\n- heading \"\uf152 WIKI STATISTICS\" [level=3, ref=e39]\n- link \"\uf0e8\" [ref=e7]\n- link \"Home\" [ref=e8]\n- link \"Wiki\" [ref=e9]\n- link \"Spigot\" [ref=e10]\n- link \"SpigotMC \uf0d7\" [ref=e11]\n- link \"FAQ\" [ref=e12]\n- link \"Contact Us\" [ref=e13]\n- link \"Terms\" [ref=e14]\n- link \"Rules\" [ref=e15]\n- link \"Privacy Policy\" [ref=e16]\n- link \"\uf0e0\" [ref=e17]\n- link \"\uf09e\" [ref=e18]\n- link \"ThemeHouse\" [ref=e19]"
+}

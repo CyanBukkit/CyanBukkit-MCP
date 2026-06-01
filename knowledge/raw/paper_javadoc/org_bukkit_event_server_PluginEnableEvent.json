@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.event.server.PluginEnableEvent",
+  "methods": [
+    "public org.bukkit.event.server.PluginEnableEvent(org.bukkit.plugin.Plugin)",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 3
+}

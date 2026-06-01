@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.entity.Frog$Variant",
+  "methods": [
+    "public static org.bukkit.entity.Frog$Variant[] values()",
+    "public static org.bukkit.entity.Frog$Variant valueOf(java.lang.String)",
+    "public org.bukkit.NamespacedKey getKey()"
+  ],
+  "method_count": 3
+}

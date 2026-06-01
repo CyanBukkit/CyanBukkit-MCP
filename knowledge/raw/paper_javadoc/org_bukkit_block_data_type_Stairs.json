@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.data.type.Stairs",
+  "methods": [
+    "public abstract org.bukkit.block.data.type.Stairs$Shape getShape()",
+    "public abstract void setShape(org.bukkit.block.data.type.Stairs$Shape)"
+  ],
+  "method_count": 2
+}

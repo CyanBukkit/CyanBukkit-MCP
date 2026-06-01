@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.util.ChatPaginator$ChatPage",
+  "methods": [
+    "public org.bukkit.util.ChatPaginator$ChatPage(java.lang.String[], int, int)",
+    "public int getPageNumber()",
+    "public int getTotalPages()",
+    "public java.lang.String[] getLines()"
+  ],
+  "method_count": 4
+}

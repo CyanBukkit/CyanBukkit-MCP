@@ -1,0 +1,14 @@
+{
+  "class_name": "org.bukkit.inventory.view.BrewingStandView",
+  "methods": [
+    "public abstract org.bukkit.inventory.BrewerInventory getTopInventory()",
+    "public abstract int getFuelLevel()",
+    "public abstract int getBrewingTicks()",
+    "public abstract void setFuelLevel(int)",
+    "public abstract void setBrewingTicks(int)",
+    "public abstract void setRecipeBrewTime(int)",
+    "public abstract int getRecipeBrewTime()",
+    "public default org.bukkit.inventory.Inventory getTopInventory()"
+  ],
+  "method_count": 8
+}

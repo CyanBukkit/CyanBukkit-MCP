@@ -1,0 +1,14 @@
+{
+  "class_name": "org.bukkit.entity.Trident",
+  "methods": [
+    "public abstract boolean hasGlint()",
+    "public abstract void setGlint(boolean)",
+    "public abstract int getLoyaltyLevel()",
+    "public abstract void setLoyaltyLevel(int)",
+    "public abstract boolean hasDealtDamage()",
+    "public abstract void setHasDealtDamage(boolean)",
+    "public abstract void setDamage(double)",
+    "public abstract double getDamage()"
+  ],
+  "method_count": 8
+}

@@ -1,0 +1,13 @@
+{
+  "class_name": "org.bukkit.entity.Sniffer",
+  "methods": [
+    "public abstract java.util.Collection<org.bukkit.Location> getExploredLocations()",
+    "public abstract void removeExploredLocation(org.bukkit.Location)",
+    "public abstract void addExploredLocation(org.bukkit.Location)",
+    "public abstract org.bukkit.entity.Sniffer$State getState()",
+    "public abstract void setState(org.bukkit.entity.Sniffer$State)",
+    "public abstract org.bukkit.Location findPossibleDigLocation()",
+    "public abstract boolean canDig()"
+  ],
+  "method_count": 7
+}

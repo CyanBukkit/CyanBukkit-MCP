@@ -1,0 +1,42 @@
+[
+  {
+    "jar": "D:\\Program Files\\gradle\\repo\\caches\\paperweight-userdev\\v2\\work\\extractFromBundler_76ce26545e6ad0e31753656bfd91609f0ca604b3fa7d8584126382f5e06b0629\\minecraftLibraries\\io\\netty\\netty-transport-native-unix-common\\4.1.97.Final\\netty-transport-native-unix-common-4.1.97.Final.jar",
+    "artifact": "netty-transport-native-unix-common/4.1.97.Final/netty-transport-native-unix-common-4.1.97.Final",
+    "class_count": 32,
+    "classes_sample": [
+      "io.netty.channel.unix.Buffer",
+      "io.netty.channel.unix.ServerDomainSocketChannel",
+      "io.netty.channel.unix.DomainDatagramChannel",
+      "io.netty.channel.unix.DomainDatagramSocketAddress",
+      "io.netty.channel.unix.DomainSocketAddress",
+      "io.netty.channel.unix.DatagramSocketAddress",
+      "io.netty.channel.unix.DomainSocketChannelConfig",
+      "io.netty.channel.unix.UnixChannelOption",
+      "io.netty.channel.unix.DomainDatagramChannelConfig",
+      "io.netty.channel.unix.DomainSocketReadMode",
+      "io.netty.channel.unix.IovArray",
+      "io.netty.channel.unix.Errors$NativeIoException",
+      "io.netty.channel.unix.SegmentedDatagramPacket",
+      "io.netty.channel.unix.IntegerUnixChannelOption",
+      "io.netty.channel.unix.ErrorsStaticallyReferencedJniMethods",
+      "io.netty.channel.unix.Errors$NativeConnectException",
+      "io.netty.channel.unix.PreferredDirectByteBufAllocator",
+      "io.netty.channel.unix.Errors",
+      "io.netty.channel.unix.DomainDatagramPacket",
+      "io.netty.channel.unix.FileDescriptor",
+      "io.netty.channel.unix.Limits",
+      "io.netty.channel.unix.UnixChannel",
+      "io.netty.channel.unix.RawUnixChannelOption",
+      "io.netty.channel.unix.Unix",
+      "io.netty.channel.unix.Socket",
+      "io.netty.channel.unix.SocketWritableByteChannel",
+      "io.netty.channel.unix.UnixChannelUtil",
+      "io.netty.channel.unix.LimitsStaticallyReferencedJniMethods",
+      "io.netty.channel.unix.DomainSocketChannel",
+      "io.netty.channel.unix.PeerCredentials",
+      "io.netty.channel.unix.GenericUnixChannelOption",
+      "io.netty.channel.unix.NativeInetAddress"
+    ],
+    "truncated": false
+  }
+]

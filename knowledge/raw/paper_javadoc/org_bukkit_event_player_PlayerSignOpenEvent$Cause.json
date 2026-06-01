@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.event.player.PlayerSignOpenEvent$Cause",
+  "methods": [
+    "public static org.bukkit.event.player.PlayerSignOpenEvent$Cause[] values()",
+    "public static org.bukkit.event.player.PlayerSignOpenEvent$Cause valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

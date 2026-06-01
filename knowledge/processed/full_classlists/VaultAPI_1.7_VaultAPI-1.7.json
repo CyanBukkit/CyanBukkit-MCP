@@ -1,0 +1,14 @@
+{
+  "jar": "C:\\Users\\SmallXY\\.m2\\repository\\net\\milkbowl\\vault\\VaultAPI\\1.7\\VaultAPI-1.7.jar",
+  "artifact": "VaultAPI/1.7/VaultAPI-1.7",
+  "class_count": 6,
+  "all_classes": [
+    "net.milkbowl.vault.chat.Chat",
+    "net.milkbowl.vault.economy.EconomyResponse",
+    "net.milkbowl.vault.economy.Economy",
+    "net.milkbowl.vault.economy.EconomyResponse$ResponseType",
+    "net.milkbowl.vault.economy.AbstractEconomy",
+    "net.milkbowl.vault.permission.Permission"
+  ],
+  "truncated": false
+}

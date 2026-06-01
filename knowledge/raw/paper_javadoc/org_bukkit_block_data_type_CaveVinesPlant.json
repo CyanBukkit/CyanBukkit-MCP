@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.block.data.type.CaveVinesPlant",
+  "methods": [
+    "public default boolean isBerries()",
+    "public abstract boolean hasBerries()",
+    "public abstract void setBerries(boolean)"
+  ],
+  "method_count": 3
+}

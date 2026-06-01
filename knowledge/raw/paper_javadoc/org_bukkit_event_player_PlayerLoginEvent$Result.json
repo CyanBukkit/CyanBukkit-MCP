@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.event.player.PlayerLoginEvent$Result",
+  "methods": [
+    "public static org.bukkit.event.player.PlayerLoginEvent$Result[] values()",
+    "public static org.bukkit.event.player.PlayerLoginEvent$Result valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

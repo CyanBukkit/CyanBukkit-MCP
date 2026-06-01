@@ -1,0 +1,12 @@
+{
+  "class_name": "org.bukkit.entity.Dolphin",
+  "methods": [
+    "public abstract int getMoistness()",
+    "public abstract void setMoistness(int)",
+    "public abstract void setHasFish(boolean)",
+    "public abstract boolean hasFish()",
+    "public abstract org.bukkit.Location getTreasureLocation()",
+    "public abstract void setTreasureLocation(org.bukkit.Location)"
+  ],
+  "method_count": 6
+}

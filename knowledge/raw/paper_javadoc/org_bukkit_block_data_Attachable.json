@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.data.Attachable",
+  "methods": [
+    "public abstract boolean isAttached()",
+    "public abstract void setAttached(boolean)"
+  ],
+  "method_count": 2
+}

@@ -1,0 +1,11 @@
+{
+  "class_name": "org.bukkit.inventory.view.CrafterView",
+  "methods": [
+    "public abstract org.bukkit.inventory.CrafterInventory getTopInventory()",
+    "public abstract boolean isSlotDisabled(int)",
+    "public abstract boolean isPowered()",
+    "public abstract void setSlotDisabled(int, boolean)",
+    "public default org.bukkit.inventory.Inventory getTopInventory()"
+  ],
+  "method_count": 5
+}

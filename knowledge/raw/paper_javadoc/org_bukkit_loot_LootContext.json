@@ -1,0 +1,11 @@
+{
+  "class_name": "org.bukkit.loot.LootContext",
+  "methods": [
+    "public org.bukkit.Location getLocation()",
+    "public float getLuck()",
+    "public int getLootingModifier()",
+    "public org.bukkit.entity.Entity getLootedEntity()",
+    "public org.bukkit.entity.HumanEntity getKiller()"
+  ],
+  "method_count": 5
+}

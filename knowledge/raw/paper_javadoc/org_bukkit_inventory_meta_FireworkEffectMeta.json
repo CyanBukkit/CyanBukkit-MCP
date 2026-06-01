@@ -1,0 +1,11 @@
+{
+  "class_name": "org.bukkit.inventory.meta.FireworkEffectMeta",
+  "methods": [
+    "public abstract void setEffect(org.bukkit.FireworkEffect)",
+    "public abstract boolean hasEffect()",
+    "public abstract org.bukkit.FireworkEffect getEffect()",
+    "public abstract org.bukkit.inventory.meta.FireworkEffectMeta clone()",
+    "public default org.bukkit.inventory.meta.ItemMeta clone()"
+  ],
+  "method_count": 5
+}

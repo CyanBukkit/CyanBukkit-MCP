@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.data.type.CommandBlock",
+  "methods": [
+    "public abstract boolean isConditional()",
+    "public abstract void setConditional(boolean)"
+  ],
+  "method_count": 2
+}

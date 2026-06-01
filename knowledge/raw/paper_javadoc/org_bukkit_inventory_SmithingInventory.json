@@ -1,0 +1,15 @@
+{
+  "class_name": "org.bukkit.inventory.SmithingInventory",
+  "methods": [
+    "public abstract org.bukkit.inventory.ItemStack getResult()",
+    "public abstract void setResult(org.bukkit.inventory.ItemStack)",
+    "public abstract org.bukkit.inventory.Recipe getRecipe()",
+    "public default org.bukkit.inventory.ItemStack getInputTemplate()",
+    "public default void setInputTemplate(org.bukkit.inventory.ItemStack)",
+    "public default org.bukkit.inventory.ItemStack getInputEquipment()",
+    "public default void setInputEquipment(org.bukkit.inventory.ItemStack)",
+    "public default org.bukkit.inventory.ItemStack getInputMineral()",
+    "public default void setInputMineral(org.bukkit.inventory.ItemStack)"
+  ],
+  "method_count": 9
+}

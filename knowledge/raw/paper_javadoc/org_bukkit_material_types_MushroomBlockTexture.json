@@ -1,0 +1,12 @@
+{
+  "class_name": "org.bukkit.material.types.MushroomBlockTexture",
+  "methods": [
+    "public static org.bukkit.material.types.MushroomBlockTexture[] values()",
+    "public static org.bukkit.material.types.MushroomBlockTexture valueOf(java.lang.String)",
+    "public byte getData()",
+    "public org.bukkit.block.BlockFace getCapFace()",
+    "public static org.bukkit.material.types.MushroomBlockTexture getByData(byte)",
+    "public static org.bukkit.material.types.MushroomBlockTexture getCapByFace(org.bukkit.block.BlockFace)"
+  ],
+  "method_count": 6
+}

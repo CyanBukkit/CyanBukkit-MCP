@@ -1,0 +1,22 @@
+{
+  "class_name": "org.bukkit.material.Comparator",
+  "methods": [
+    "public org.bukkit.material.Comparator()",
+    "public org.bukkit.material.Comparator(org.bukkit.block.BlockFace)",
+    "public org.bukkit.material.Comparator(org.bukkit.block.BlockFace, boolean)",
+    "public org.bukkit.material.Comparator(org.bukkit.block.BlockFace, boolean, boolean)",
+    "public org.bukkit.material.Comparator(org.bukkit.Material)",
+    "public org.bukkit.material.Comparator(org.bukkit.Material, byte)",
+    "public void setSubtractionMode(boolean)",
+    "public boolean isSubtractionMode()",
+    "public void setFacingDirection(org.bukkit.block.BlockFace)",
+    "public org.bukkit.block.BlockFace getFacing()",
+    "public java.lang.String toString()",
+    "public org.bukkit.material.Comparator clone()",
+    "public boolean isPowered()",
+    "public boolean isBeingPowered()",
+    "public org.bukkit.material.MaterialData clone()",
+    "public java.lang.Object clone()"
+  ],
+  "method_count": 16
+}

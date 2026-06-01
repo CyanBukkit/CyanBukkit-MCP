@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.map.MapCursor$Type",
+  "methods": [
+    "public abstract byte getValue()",
+    "public static org.bukkit.map.MapCursor$Type byValue(byte)",
+    "public static org.bukkit.map.MapCursor$Type valueOf(java.lang.String)",
+    "public static org.bukkit.map.MapCursor$Type[] values()"
+  ],
+  "method_count": 4
+}

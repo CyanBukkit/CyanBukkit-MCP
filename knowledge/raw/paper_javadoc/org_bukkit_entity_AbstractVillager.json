@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.entity.AbstractVillager",
+  "methods": [
+    "public abstract org.bukkit.inventory.Inventory getInventory()",
+    "public abstract void resetOffers()"
+  ],
+  "method_count": 2
+}

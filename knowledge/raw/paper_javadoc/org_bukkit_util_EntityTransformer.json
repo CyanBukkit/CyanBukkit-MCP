@@ -1,0 +1,7 @@
+{
+  "class_name": "org.bukkit.util.EntityTransformer",
+  "methods": [
+    "public abstract boolean transform(org.bukkit.generator.LimitedRegion, int, int, int, org.bukkit.entity.Entity, boolean)"
+  ],
+  "method_count": 1
+}

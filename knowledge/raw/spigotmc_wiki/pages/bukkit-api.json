@@ -1,0 +1,850 @@
+{
+  "origin": "https://www.spigotmc.org/wiki/spigot-plugin-development/",
+  "refs": {
+    "e1": {
+      "name": "Spigot Plugin Development",
+      "role": "heading"
+    },
+    "e10": {
+      "name": "Spigot",
+      "role": "link"
+    },
+    "e100": {
+      "name": "NoSQL/MongoDB integration with your plugin",
+      "role": "link"
+    },
+    "e101": {
+      "name": "MongoDB with Morphia",
+      "role": "link"
+    },
+    "e102": {
+      "name": "MySQL database integration with your plugin",
+      "role": "link"
+    },
+    "e103": {
+      "name": "Plugin.yml",
+      "role": "link"
+    },
+    "e104": {
+      "name": "Spigot Source Code",
+      "role": "link"
+    },
+    "e105": {
+      "name": "Spigot Javadoc",
+      "role": "link"
+    },
+    "e106": {
+      "name": "User contributed resources and guides",
+      "role": "link"
+    },
+    "e107": {
+      "name": "Spigot Plugin Development forum section",
+      "role": "link"
+    },
+    "e108": {
+      "name": "Spigot",
+      "role": "link"
+    },
+    "e109": {
+      "name": "About SpigotMC",
+      "role": "link"
+    },
+    "e11": {
+      "name": "SpigotMC \uf0d7",
+      "role": "link"
+    },
+    "e110": {
+      "name": "BuildTools",
+      "role": "link"
+    },
+    "e111": {
+      "name": "Compatible Plugins By Release",
+      "role": "link"
+    },
+    "e112": {
+      "name": "Contributing to Spigot",
+      "role": "link"
+    },
+    "e113": {
+      "name": "Contributing to the Project",
+      "role": "link"
+    },
+    "e114": {
+      "name": "Frequently Asked Questions",
+      "role": "link"
+    },
+    "e115": {
+      "name": "How to learn the Spigot API",
+      "role": "link"
+    },
+    "e116": {
+      "name": "Installation",
+      "role": "link"
+    },
+    "e117": {
+      "name": "Plugin Snippets",
+      "role": "link"
+    },
+    "e118": {
+      "name": "Server Icon",
+      "role": "link"
+    },
+    "e119": {
+      "name": "Spigot Changelog",
+      "role": "link"
+    },
+    "e12": {
+      "name": "FAQ",
+      "role": "link"
+    },
+    "e120": {
+      "name": "Spigot Commands and Permissions",
+      "role": "link"
+    },
+    "e121": {
+      "name": "Spigot Configuration (server.properties)",
+      "role": "link"
+    },
+    "e122": {
+      "name": "Spigot Configuration (spigot.yml)",
+      "role": "link"
+    },
+    "e123": {
+      "name": "Spigot Gradle",
+      "role": "link"
+    },
+    "e124": {
+      "name": "Spigot Maven",
+      "role": "link"
+    },
+    "e125": {
+      "name": "Build you Spigot plugin with Gradle Groovy",
+      "role": "link"
+    },
+    "e126": {
+      "name": "Bukkit inventory views \u2013 Raw slot IDs",
+      "role": "link"
+    },
+    "e127": {
+      "name": "Clean Code",
+      "role": "link"
+    },
+    "e128": {
+      "name": "Command Alias",
+      "role": "link"
+    },
+    "e129": {
+      "name": "Crash Course to Java",
+      "role": "link"
+    },
+    "e13": {
+      "name": "Contact Us",
+      "role": "link"
+    },
+    "e130": {
+      "name": "Creating & Maintaining a Resource",
+      "role": "link"
+    },
+    "e131": {
+      "name": "Creating a blank Spigot plugin in Eclipse",
+      "role": "link"
+    },
+    "e132": {
+      "name": "Creating a blank Spigot plugin in IntelliJ IDEA",
+      "role": "link"
+    },
+    "e133": {
+      "name": "Creating a blank Spigot plugin in NetBeans",
+      "role": "link"
+    },
+    "e134": {
+      "name": "Creating a blank Spigot plugin in VS Code",
+      "role": "link"
+    },
+    "e135": {
+      "name": "Creating a Config File",
+      "role": "link"
+    },
+    "e136": {
+      "name": "Creating a plugin with Maven using Eclipse",
+      "role": "link"
+    },
+    "e137": {
+      "name": "Creating a plugin with Maven using IntelliJ IDEA",
+      "role": "link"
+    },
+    "e138": {
+      "name": "Creating an update checker that checks for updates",
+      "role": "link"
+    },
+    "e139": {
+      "name": "Creating external Libraries",
+      "role": "link"
+    },
+    "e14": {
+      "name": "Terms",
+      "role": "link"
+    },
+    "e140": {
+      "name": "Creating offline Javadoc for the Spigot API",
+      "role": "link"
+    },
+    "e141": {
+      "name": "Creating your development workspace",
+      "role": "link"
+    },
+    "e142": {
+      "name": "Eclipse: Debug your Plugin",
+      "role": "link"
+    },
+    "e143": {
+      "name": "Extra Resources for Learning Java",
+      "role": "link"
+    },
+    "e144": {
+      "name": "Guide - How to auto-export your plugin using ant",
+      "role": "link"
+    },
+    "e145": {
+      "name": "How to learn Java programming",
+      "role": "link"
+    },
+    "e146": {
+      "name": "How to use Kotlin in your plugins",
+      "role": "link"
+    },
+    "e147": {
+      "name": "Included libraries in Spigot",
+      "role": "link"
+    },
+    "e148": {
+      "name": "IntelliJ: Debug Your Plugin",
+      "role": "link"
+    },
+    "e149": {
+      "name": "List with all item names",
+      "role": "link"
+    },
+    "e15": {
+      "name": "Rules",
+      "role": "link"
+    },
+    "e150": {
+      "name": "Mojang UUID Rate Limit",
+      "role": "link"
+    },
+    "e151": {
+      "name": "MongoDB With Morphia",
+      "role": "link"
+    },
+    "e152": {
+      "name": "MultiThreading - Completable Futures",
+      "role": "link"
+    },
+    "e153": {
+      "name": "MySQL database integration with your plugin.",
+      "role": "link"
+    },
+    "e154": {
+      "name": "Particle list 1.8.8",
+      "role": "link"
+    },
+    "e155": {
+      "name": "Plugin.yml",
+      "role": "link"
+    },
+    "e156": {
+      "name": "Premium Resource Placeholders & Identifiers",
+      "role": "link"
+    },
+    "e157": {
+      "name": "Reading and Understanding stack-traces",
+      "role": "link"
+    },
+    "e158": {
+      "name": "Send title to player - Packets",
+      "role": "link"
+    },
+    "e159": {
+      "name": "Setting up the WorldEdit API",
+      "role": "link"
+    },
+    "e16": {
+      "name": "Privacy Policy",
+      "role": "link"
+    },
+    "e160": {
+      "name": "SettingsManager instructions",
+      "role": "link"
+    },
+    "e161": {
+      "name": "Spigot NMS and Minecraft Versions - 1.10-1.15",
+      "role": "link"
+    },
+    "e162": {
+      "name": "Spigot NMS and Minecraft Versions - 1.16+",
+      "role": "link"
+    },
+    "e163": {
+      "name": "Spigot NMS and Minecraft Versions - 1.21+",
+      "role": "link"
+    },
+    "e164": {
+      "name": "Spigot Plugin.yml Annotations",
+      "role": "link"
+    },
+    "e165": {
+      "name": "Spigot/Bukkit Plugin Development",
+      "role": "link"
+    },
+    "e166": {
+      "name": "Testing with WatchWolf",
+      "role": "link"
+    },
+    "e167": {
+      "name": "Using Dependency Injection",
+      "role": "link"
+    },
+    "e168": {
+      "name": "Using the Event API",
+      "role": "link"
+    },
+    "e169": {
+      "name": "Spigot Server with version: 1.8-1.16",
+      "role": "link"
+    },
+    "e17": {
+      "name": "\uf0e0",
+      "role": "link"
+    },
+    "e170": {
+      "name": "Start-up Parameters",
+      "role": "link"
+    },
+    "e171": {
+      "name": "Tips, Tricks & Tutorials",
+      "role": "link"
+    },
+    "e172": {
+      "name": "BungeeCord",
+      "role": "link"
+    },
+    "e173": {
+      "name": "Forums",
+      "role": "link"
+    },
+    "e174": {
+      "name": "Spigot",
+      "role": "link"
+    },
+    "e175": {
+      "name": "Mineplugins",
+      "role": "link"
+    },
+    "e176": {
+      "name": "smmmadden",
+      "role": "link"
+    },
+    "e177": {
+      "name": "Jeppa",
+      "role": "link"
+    },
+    "e178": {
+      "name": "RockinChaos",
+      "role": "link"
+    },
+    "e179": {
+      "name": "Maximvdw",
+      "role": "link"
+    },
+    "e18": {
+      "name": "\uf09e",
+      "role": "link"
+    },
+    "e180": {
+      "name": "Blackixx",
+      "role": "link"
+    },
+    "e181": {
+      "name": "Indyuce",
+      "role": "link"
+    },
+    "e182": {
+      "name": "BrettPlays",
+      "role": "link"
+    },
+    "e183": {
+      "name": "Phoenix616",
+      "role": "link"
+    },
+    "e184": {
+      "name": "Zrips",
+      "role": "link"
+    },
+    "e185": {
+      "name": "Home",
+      "role": "link"
+    },
+    "e186": {
+      "name": "\uf0d7",
+      "role": "link"
+    },
+    "e187": {
+      "name": "Forums",
+      "role": "link"
+    },
+    "e188": {
+      "name": "\uf0d7",
+      "role": "link"
+    },
+    "e189": {
+      "name": "Resources",
+      "role": "link"
+    },
+    "e19": {
+      "name": "ThemeHouse",
+      "role": "link"
+    },
+    "e190": {
+      "name": "\uf0d7",
+      "role": "link"
+    },
+    "e191": {
+      "name": "Wiki",
+      "role": "link"
+    },
+    "e192": {
+      "name": "Team",
+      "role": "link"
+    },
+    "e193": {
+      "name": "\uf0d7",
+      "role": "link"
+    },
+    "e194": {
+      "name": "Downloads",
+      "role": "link"
+    },
+    "e195": {
+      "name": "\uf0d7",
+      "role": "link"
+    },
+    "e196": {
+      "name": "Discord",
+      "role": "link"
+    },
+    "e197": {
+      "name": "Hub",
+      "role": "link"
+    },
+    "e198": {
+      "name": "Issues",
+      "role": "link"
+    },
+    "e199": {
+      "name": "\uf141",
+      "role": "link"
+    },
+    "e2": {
+      "name": "\uf0e8",
+      "role": "link"
+    },
+    "e20": {
+      "name": "SpigotMC - High Performance Minecraft Software",
+      "role": "link"
+    },
+    "e200": {
+      "name": "Log in",
+      "role": "link"
+    },
+    "e201": {
+      "name": "IntelliJ IDEA and Maven",
+      "role": "link"
+    },
+    "e202": {
+      "name": "IntelliJ IDEA and Gradle",
+      "role": "link"
+    },
+    "e203": {
+      "name": "IntelliJ IDEA",
+      "role": "link"
+    },
+    "e204": {
+      "name": "Eclipse",
+      "role": "link"
+    },
+    "e205": {
+      "name": "NetBeans",
+      "role": "link"
+    },
+    "e206": {
+      "name": "Wiki Index",
+      "role": "link"
+    },
+    "e207": {
+      "name": "Page List",
+      "role": "link"
+    },
+    "e208": {
+      "name": "Recent Activity",
+      "role": "link"
+    },
+    "e209": {
+      "name": "",
+      "role": "generic"
+    },
+    "e21": {
+      "name": "here",
+      "role": "link"
+    },
+    "e210": {
+      "name": "Enter your search and hit enter",
+      "role": "searchbox"
+    },
+    "e211": {
+      "name": "Search...",
+      "role": "searchbox"
+    },
+    "e22": {
+      "name": "Discussion (36)",
+      "role": "link"
+    },
+    "e23": {
+      "name": "Page",
+      "role": "link"
+    },
+    "e24": {
+      "name": "History",
+      "role": "link"
+    },
+    "e25": {
+      "name": "Editors",
+      "role": "link"
+    },
+    "e26": {
+      "name": "Advertisement",
+      "role": "Iframe"
+    },
+    "e27": {
+      "name": "\uf004 SPONSORS",
+      "role": "heading"
+    },
+    "e28": {
+      "name": "Sign up now!",
+      "role": "link"
+    },
+    "e29": {
+      "name": "\uf152 WIKI NAVIGATION",
+      "role": "heading"
+    },
+    "e3": {
+      "name": "Home",
+      "role": "link"
+    },
+    "e30": {
+      "name": "\uf152 WIKI INDEX",
+      "role": "heading"
+    },
+    "e31": {
+      "name": "\uf152 TOP EDITORS",
+      "role": "heading"
+    },
+    "e32": {
+      "name": "\uf152 WIKI STATISTICS",
+      "role": "heading"
+    },
+    "e33": {
+      "name": "Build you Spigot plugin with Gradle Groovy",
+      "role": "link"
+    },
+    "e34": {
+      "name": "Bukkit inventory views \u2013 Raw slot IDs",
+      "role": "link"
+    },
+    "e35": {
+      "name": "Clean Code",
+      "role": "link"
+    },
+    "e36": {
+      "name": "Command Alias",
+      "role": "link"
+    },
+    "e37": {
+      "name": "Crash Course to Java",
+      "role": "link"
+    },
+    "e38": {
+      "name": "Part 0: Sources",
+      "role": "link"
+    },
+    "e39": {
+      "name": "Creating & Maintaining a Resource",
+      "role": "link"
+    },
+    "e4": {
+      "name": "Wiki",
+      "role": "link"
+    },
+    "e40": {
+      "name": "Creating a blank Spigot plugin in Eclipse",
+      "role": "link"
+    },
+    "e41": {
+      "name": "Creating a blank Spigot plugin in IntelliJ IDEA",
+      "role": "link"
+    },
+    "e42": {
+      "name": "Creating a blank Spigot plugin in NetBeans",
+      "role": "link"
+    },
+    "e43": {
+      "name": "Creating a blank Spigot plugin in VS Code",
+      "role": "link"
+    },
+    "e44": {
+      "name": "Creating a Config File",
+      "role": "link"
+    },
+    "e45": {
+      "name": "Creating a plugin with Maven using Eclipse",
+      "role": "link"
+    },
+    "e46": {
+      "name": "Creating a plugin with Maven using IntelliJ IDEA",
+      "role": "link"
+    },
+    "e47": {
+      "name": "Creating an update checker that checks for updates",
+      "role": "link"
+    },
+    "e48": {
+      "name": "Creating external Libraries",
+      "role": "link"
+    },
+    "e49": {
+      "name": "Creating offline Javadoc for the Spigot API",
+      "role": "link"
+    },
+    "e5": {
+      "name": "Spigot",
+      "role": "link"
+    },
+    "e50": {
+      "name": "Creating your development workspace",
+      "role": "link"
+    },
+    "e51": {
+      "name": "Eclipse: Debug your Plugin",
+      "role": "link"
+    },
+    "e52": {
+      "name": "Extra Resources for Learning Java",
+      "role": "link"
+    },
+    "e53": {
+      "name": "Guide - How to auto-export your plugin using ant",
+      "role": "link"
+    },
+    "e54": {
+      "name": "How to learn Java programming",
+      "role": "link"
+    },
+    "e55": {
+      "name": "How to use Kotlin in your plugins",
+      "role": "link"
+    },
+    "e56": {
+      "name": "Included libraries in Spigot",
+      "role": "link"
+    },
+    "e57": {
+      "name": "IntelliJ: Debug Your Plugin",
+      "role": "link"
+    },
+    "e58": {
+      "name": "List with all item names",
+      "role": "link"
+    },
+    "e59": {
+      "name": "Mojang UUID Rate Limit",
+      "role": "link"
+    },
+    "e6": {
+      "name": "",
+      "role": "LabelText"
+    },
+    "e60": {
+      "name": "MongoDB With Morphia",
+      "role": "link"
+    },
+    "e61": {
+      "name": "MultiThreading - Completable Futures",
+      "role": "link"
+    },
+    "e62": {
+      "name": "MySQL database integration with your plugin.",
+      "role": "link"
+    },
+    "e63": {
+      "name": "Particle list 1.8.8",
+      "role": "link"
+    },
+    "e64": {
+      "name": "Plugin.yml",
+      "role": "link"
+    },
+    "e65": {
+      "name": "Premium Resource Placeholders & Identifiers",
+      "role": "link"
+    },
+    "e66": {
+      "name": "Reading and Understanding stack-traces",
+      "role": "link"
+    },
+    "e67": {
+      "name": "Send title to player - Packets",
+      "role": "link"
+    },
+    "e68": {
+      "name": "Setting up the WorldEdit API",
+      "role": "link"
+    },
+    "e69": {
+      "name": "SettingsManager instructions",
+      "role": "link"
+    },
+    "e7": {
+      "name": "\uf0e8",
+      "role": "link"
+    },
+    "e70": {
+      "name": "Spigot NMS and Minecraft Versions - 1.10-1.15",
+      "role": "link"
+    },
+    "e71": {
+      "name": "Spigot NMS and Minecraft Versions - 1.16+",
+      "role": "link"
+    },
+    "e72": {
+      "name": "Spigot NMS and Minecraft Versions - 1.21+",
+      "role": "link"
+    },
+    "e73": {
+      "name": "Spigot Plugin.yml Annotations",
+      "role": "link"
+    },
+    "e74": {
+      "name": "Spigot/Bukkit Plugin Development",
+      "role": "link"
+    },
+    "e75": {
+      "name": "Scheduler Programming",
+      "role": "link"
+    },
+    "e76": {
+      "name": "Testing with WatchWolf",
+      "role": "link"
+    },
+    "e77": {
+      "name": "Auto-run integration tests",
+      "role": "link"
+    },
+    "e78": {
+      "name": "Stress testing with WatchWolf",
+      "role": "link"
+    },
+    "e79": {
+      "name": "Using Dependency Injection",
+      "role": "link"
+    },
+    "e8": {
+      "name": "Home",
+      "role": "link"
+    },
+    "e80": {
+      "name": "Using the Event API",
+      "role": "link"
+    },
+    "e81": {
+      "name": "Minecraft Server List",
+      "role": "link"
+    },
+    "e82": {
+      "name": "Aternos",
+      "role": "link"
+    },
+    "e83": {
+      "name": "Tebex Donation Plugin & Webstore",
+      "role": "link"
+    },
+    "e84": {
+      "name": "WIKI INDEX",
+      "role": "link"
+    },
+    "e85": {
+      "name": "Enter your search and hit enter",
+      "role": "searchbox"
+    },
+    "e86": {
+      "name": "Advertisement",
+      "role": "Iframe"
+    },
+    "e87": {
+      "name": "",
+      "role": "listitem"
+    },
+    "e88": {
+      "name": "",
+      "role": "listitem"
+    },
+    "e89": {
+      "name": "",
+      "role": "listitem"
+    },
+    "e9": {
+      "name": "Wiki",
+      "role": "link"
+    },
+    "e90": {
+      "name": "",
+      "role": "listitem"
+    },
+    "e91": {
+      "name": "",
+      "role": "listitem"
+    },
+    "e92": {
+      "name": "",
+      "role": "listitem"
+    },
+    "e93": {
+      "name": "Crash Course to Java",
+      "role": "link"
+    },
+    "e94": {
+      "name": "Creating offline Javadoc",
+      "role": "link"
+    },
+    "e95": {
+      "name": "Create and register a basic command",
+      "role": "link"
+    },
+    "e96": {
+      "name": "Using the Event API",
+      "role": "link"
+    },
+    "e97": {
+      "name": "Creating a Config File",
+      "role": "link"
+    },
+    "e98": {
+      "name": "Plugin debug with Eclipse",
+      "role": "link"
+    },
+    "e99": {
+      "name": "IntelliJ IDEA Plugin Debug",
+      "role": "link"
+    }
+  },
+  "snapshot": "- link \"SpigotMC - High Performance Minecraft Software\" [ref=e20]\n- Iframe \"Advertisement\" [ref=e86] focusable [tabindex]\n- link \"here\" [ref=e21]\n- listitem \"Home\" [level=1, ref=e87] clickable [cursor:pointer]\n  - link \"Home\" [ref=e185]\n  - link \"\uf0d7\" [ref=e186]\n- listitem \"Forums\" [level=1, ref=e88] clickable [cursor:pointer]\n  - link \"Forums\" [ref=e187]\n  - link \"\uf0d7\" [ref=e188]\n- listitem \"Resources\" [level=1, ref=e89] clickable [cursor:pointer]\n  - link \"Resources\" [ref=e189]\n  - link \"\uf0d7\" [ref=e190]\n- link \"Wiki\" [ref=e191]\n- link \"Wiki Index\" [ref=e206]\n- link \"Page List\" [ref=e207]\n- link \"Recent Activity\" [ref=e208]\n- generic [ref=e209] clickable [cursor:pointer, onclick]\n- searchbox \"Enter your search and hit enter\" [ref=e210]\n- searchbox \"Search...\" [ref=e211]\n- listitem \"Team\" [level=1, ref=e90] clickable [cursor:pointer]\n  - link \"Team\" [ref=e192]\n  - link \"\uf0d7\" [ref=e193]\n- listitem \"Downloads\" [level=1, ref=e91] clickable [cursor:pointer]\n  - link \"Downloads\" [ref=e194]\n  - link \"\uf0d7\" [ref=e195]\n- link \"Discord\" [ref=e196]\n- link \"Hub\" [ref=e197]\n- link \"Issues\" [ref=e198]\n- listitem \"Menu\" [level=1, ref=e92] clickable [cursor:pointer]\n  - link \"\uf141\" [ref=e199]\n- link \"Log in\" [ref=e200]\n- link \"\uf0e8\" [ref=e2]\n- link \"Home\" [ref=e3]\n- link \"Wiki\" [ref=e4]\n- link \"Spigot\" [ref=e5]\n- heading \"Spigot Plugin Development\" [level=1, ref=e1]\n- link \"Discussion (36)\" [ref=e22]\n- link \"Page\" [ref=e23]\n- link \"History\" [ref=e24]\n- link \"Editors\" [ref=e25]\n- link \"Build you Spigot plugin with Gradle Groovy\" [ref=e33]\n- link \"Bukkit inventory views \u2013 Raw slot IDs\" [ref=e34]\n- link \"Clean Code\" [ref=e35]\n- link \"Command Alias\" [ref=e36]\n- link \"Crash Course to Java\" [ref=e37]\n- link \"Part 0: Sources\" [ref=e38]\n- link \"Creating & Maintaining a Resource\" [ref=e39]\n- link \"Creating a blank Spigot plugin in Eclipse\" [ref=e40]\n- link \"Creating a blank Spigot plugin in IntelliJ IDEA\" [ref=e41]\n- link \"Creating a blank Spigot plugin in NetBeans\" [ref=e42]\n- link \"Creating a blank Spigot plugin in VS Code\" [ref=e43]\n- link \"Creating a Config File\" [ref=e44]\n- link \"Creating a plugin with Maven using Eclipse\" [ref=e45]\n- link \"Creating a plugin with Maven using IntelliJ IDEA\" [ref=e46]\n- link \"Creating an update checker that checks for updates\" [ref=e47]\n- link \"Creating external Libraries\" [ref=e48]\n- link \"Creating offline Javadoc for the Spigot API\" [ref=e49]\n- link \"Creating your development workspace\" [ref=e50]\n- link \"Eclipse: Debug your Plugin\" [ref=e51]\n- link \"Extra Resources for Learning Java\" [ref=e52]\n- link \"Guide - How to auto-export your plugin using ant\" [ref=e53]\n- link \"How to learn Java programming\" [ref=e54]\n- link \"How to use Kotlin in your plugins\" [ref=e55]\n- link \"Included libraries in Spigot\" [ref=e56]\n- link \"IntelliJ: Debug Your Plugin\" [ref=e57]\n- link \"List with all item names\" [ref=e58]\n- link \"Mojang UUID Rate Limit\" [ref=e59]\n- link \"MongoDB With Morphia\" [ref=e60]\n- link \"MultiThreading - Completable Futures\" [ref=e61]\n- link \"MySQL database integration with your plugin.\" [ref=e62]\n- link \"Particle list 1.8.8\" [ref=e63]\n- link \"Plugin.yml\" [ref=e64]\n- link \"Premium Resource Placeholders & Identifiers\" [ref=e65]\n- link \"Reading and Understanding stack-traces\" [ref=e66]\n- link \"Send title to player - Packets\" [ref=e67]\n- link \"Setting up the WorldEdit API\" [ref=e68]\n- link \"SettingsManager instructions\" [ref=e69]\n- link \"Spigot NMS and Minecraft Versions - 1.10-1.15\" [ref=e70]\n- link \"Spigot NMS and Minecraft Versions - 1.16+\" [ref=e71]\n- link \"Spigot NMS and Minecraft Versions - 1.21+\" [ref=e72]\n- link \"Spigot Plugin.yml Annotations\" [ref=e73]\n- link \"Spigot/Bukkit Plugin Development\" [ref=e74]\n- link \"Scheduler Programming\" [ref=e75]\n- link \"Testing with WatchWolf\" [ref=e76]\n- link \"Auto-run integration tests\" [ref=e77]\n- link \"Stress testing with WatchWolf\" [ref=e78]\n- link \"Using Dependency Injection\" [ref=e79]\n- link \"Using the Event API\" [ref=e80]\n- link \"Crash Course to Java\" [ref=e93]\n- link \"IntelliJ IDEA and Maven\" [ref=e201]\n- link \"IntelliJ IDEA and Gradle\" [ref=e202]\n- link \"IntelliJ IDEA\" [ref=e203]\n- link \"Eclipse\" [ref=e204]\n- link \"NetBeans\" [ref=e205]\n- link \"Creating offline Javadoc\" [ref=e94]\n- link \"Create and register a basic command\" [ref=e95]\n- link \"Using the Event API\" [ref=e96]\n- link \"Creating a Config File\" [ref=e97]\n- link \"Plugin debug with Eclipse\" [ref=e98]\n- link \"IntelliJ IDEA Plugin Debug\" [ref=e99]\n- link \"NoSQL/MongoDB integration with your plugin\" [ref=e100]\n- link \"MongoDB with Morphia\" [ref=e101]\n- link \"MySQL database integration with your plugin\" [ref=e102]\n- link \"Plugin.yml\" [ref=e103]\n- link \"Spigot Source Code\" [ref=e104]\n- link \"Spigot Javadoc\" [ref=e105]\n- link \"User contributed resources and guides\" [ref=e106]\n- link \"Spigot Plugin Development forum section\" [ref=e107]\n- Iframe \"Advertisement\" [ref=e26]\n- heading \"\uf004 SPONSORS\" [level=3, ref=e27]\n- link \"Minecraft Server List\" [ref=e81]\n- link \"Aternos\" [ref=e82]\n- link \"Tebex Donation Plugin & Webstore\" [ref=e83]\n- LabelText \"Sign up now!\" [ref=e6] clickable [cursor:pointer]\n  - link \"Sign up now!\" [ref=e28]\n- heading \"\uf152 WIKI NAVIGATION\" [level=3, ref=e29]\n- link \"Spigot\" [ref=e108]\n- link \"About SpigotMC\" [ref=e109]\n- link \"BuildTools\" [ref=e110]\n- link \"Compatible Plugins By Release\" [ref=e111]\n- link \"Contributing to Spigot\" [ref=e112]\n- link \"Contributing to the Project\" [ref=e113]\n- link \"Frequently Asked Questions\" [ref=e114]\n- link \"How to learn the Spigot API\" [ref=e115]\n- link \"Installation\" [ref=e116]\n- link \"Plugin Snippets\" [ref=e117]\n- link \"Server Icon\" [ref=e118]\n- link \"Spigot Changelog\" [ref=e119]\n- link \"Spigot Commands and Permissions\" [ref=e120]\n- link \"Spigot Configuration (server.properties)\" [ref=e121]\n- link \"Spigot Configuration (spigot.yml)\" [ref=e122]\n- link \"Spigot Gradle\" [ref=e123]\n- link \"Spigot Maven\" [ref=e124]\n- link \"Build you Spigot plugin with Gradle Groovy\" [ref=e125]\n- link \"Bukkit inventory views \u2013 Raw slot IDs\" [ref=e126]\n- link \"Clean Code\" [ref=e127]\n- link \"Command Alias\" [ref=e128]\n- link \"Crash Course to Java\" [ref=e129]\n- link \"Creating & Maintaining a Resource\" [ref=e130]\n- link \"Creating a blank Spigot plugin in Eclipse\" [ref=e131]\n- link \"Creating a blank Spigot plugin in IntelliJ IDEA\" [ref=e132]\n- link \"Creating a blank Spigot plugin in NetBeans\" [ref=e133]\n- link \"Creating a blank Spigot plugin in VS Code\" [ref=e134]\n- link \"Creating a Config File\" [ref=e135]\n- link \"Creating a plugin with Maven using Eclipse\" [ref=e136]\n- link \"Creating a plugin with Maven using IntelliJ IDEA\" [ref=e137]\n- link \"Creating an update checker that checks for updates\" [ref=e138]\n- link \"Creating external Libraries\" [ref=e139]\n- link \"Creating offline Javadoc for the Spigot API\" [ref=e140]\n- link \"Creating your development workspace\" [ref=e141]\n- link \"Eclipse: Debug your Plugin\" [ref=e142]\n- link \"Extra Resources for Learning Java\" [ref=e143]\n- link \"Guide - How to auto-export your plugin using ant\" [ref=e144]\n- link \"How to learn Java programming\" [ref=e145]\n- link \"How to use Kotlin in your plugins\" [ref=e146]\n- link \"Included libraries in Spigot\" [ref=e147]\n- link \"IntelliJ: Debug Your Plugin\" [ref=e148]\n- link \"List with all item names\" [ref=e149]\n- link \"Mojang UUID Rate Limit\" [ref=e150]\n- link \"MongoDB With Morphia\" [ref=e151]\n- link \"MultiThreading - Completable Futures\" [ref=e152]\n- link \"MySQL database integration with your plugin.\" [ref=e153]\n- link \"Particle list 1.8.8\" [ref=e154]\n- link \"Plugin.yml\" [ref=e155]\n- link \"Premium Resource Placeholders & Identifiers\" [ref=e156]\n- link \"Reading and Understanding stack-traces\" [ref=e157]\n- link \"Send title to player - Packets\" [ref=e158]\n- link \"Setting up the WorldEdit API\" [ref=e159]\n- link \"SettingsManager instructions\" [ref=e160]\n- link \"Spigot NMS and Minecraft Versions - 1.10-1.15\" [ref=e161]\n- link \"Spigot NMS and Minecraft Versions - 1.16+\" [ref=e162]\n- link \"Spigot NMS and Minecraft Versions - 1.21+\" [ref=e163]\n- link \"Spigot Plugin.yml Annotations\" [ref=e164]\n- link \"Spigot/Bukkit Plugin Development\" [ref=e165]\n- link \"Testing with WatchWolf\" [ref=e166]\n- link \"Using Dependency Injection\" [ref=e167]\n- link \"Using the Event API\" [ref=e168]\n- link \"Spigot Server with version: 1.8-1.16\" [ref=e169]\n- link \"Start-up Parameters\" [ref=e170]\n- link \"Tips, Tricks & Tutorials\" [ref=e171]\n- heading \"\uf152 WIKI INDEX\" [level=3, ref=e30]\n  - link \"WIKI INDEX\" [ref=e84]\n- link \"BungeeCord\" [ref=e172]\n- link \"Forums\" [ref=e173]\n- link \"Spigot\" [ref=e174]\n- searchbox \"Enter your search and hit enter\" [ref=e85]\n- heading \"\uf152 TOP EDITORS\" [level=3, ref=e31]\n- link \"Mineplugins\" [ref=e175]\n- link \"smmmadden\" [ref=e176]\n- link \"Jeppa\" [ref=e177]\n- link \"RockinChaos\" [ref=e178]\n- link \"Maximvdw\" [ref=e179]\n- link \"Blackixx\" [ref=e180]\n- link \"Indyuce\" [ref=e181]\n- link \"BrettPlays\" [ref=e182]\n- link \"Phoenix616\" [ref=e183]\n- link \"Zrips\" [ref=e184]\n- heading \"\uf152 WIKI STATISTICS\" [level=3, ref=e32]\n- link \"\uf0e8\" [ref=e7]\n- link \"Home\" [ref=e8]\n- link \"Wiki\" [ref=e9]\n- link \"Spigot\" [ref=e10]\n- link \"SpigotMC \uf0d7\" [ref=e11]\n- link \"FAQ\" [ref=e12]\n- link \"Contact Us\" [ref=e13]\n- link \"Terms\" [ref=e14]\n- link \"Rules\" [ref=e15]\n- link \"Privacy Policy\" [ref=e16]\n- link \"\uf0e0\" [ref=e17]\n- link \"\uf09e\" [ref=e18]\n- link \"ThemeHouse\" [ref=e19]"
+}

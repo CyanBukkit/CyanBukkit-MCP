@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.inventory.LecternInventory",
+  "methods": [
+    "public abstract org.bukkit.block.Lectern getHolder()",
+    "public default org.bukkit.inventory.ItemStack getBook()",
+    "public default void setBook(org.bukkit.inventory.ItemStack)",
+    "public default org.bukkit.inventory.InventoryHolder getHolder()"
+  ],
+  "method_count": 4
+}

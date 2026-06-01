@@ -1,0 +1,7 @@
+{
+  "class_name": "org.bukkit.command.RemoteConsoleCommandSender",
+  "methods": [
+    "public abstract java.net.SocketAddress getAddress()"
+  ],
+  "method_count": 1
+}

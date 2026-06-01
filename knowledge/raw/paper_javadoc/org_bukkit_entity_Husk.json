@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.entity.Husk",
+  "methods": [
+    "public abstract boolean isConverting()",
+    "public abstract int getConversionTime()",
+    "public abstract void setConversionTime(int)"
+  ],
+  "method_count": 3
+}

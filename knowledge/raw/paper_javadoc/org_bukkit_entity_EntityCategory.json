@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.entity.EntityCategory",
+  "methods": [
+    "public static org.bukkit.entity.EntityCategory[] values()",
+    "public static org.bukkit.entity.EntityCategory valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

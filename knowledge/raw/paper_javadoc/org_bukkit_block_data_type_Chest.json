@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.data.type.Chest",
+  "methods": [
+    "public abstract org.bukkit.block.data.type.Chest$Type getType()",
+    "public abstract void setType(org.bukkit.block.data.type.Chest$Type)"
+  ],
+  "method_count": 2
+}

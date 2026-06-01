@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.util.StringUtil",
+  "methods": [
+    "public org.bukkit.util.StringUtil()",
+    "public static <T extends java.util.Collection<? super java.lang.String>> T copyPartialMatches(java.lang.String, java.lang.Iterable<java.lang.String>, T)",
+    "public static boolean startsWithIgnoreCase(java.lang.String, java.lang.String)"
+  ],
+  "method_count": 3
+}

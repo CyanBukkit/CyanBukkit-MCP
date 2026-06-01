@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.conversations.PluginNameConversationPrefix",
+  "methods": [
+    "public org.bukkit.conversations.PluginNameConversationPrefix(org.bukkit.plugin.Plugin)",
+    "public org.bukkit.conversations.PluginNameConversationPrefix(org.bukkit.plugin.Plugin, java.lang.String, org.bukkit.ChatColor)",
+    "public java.lang.String getPrefix(org.bukkit.conversations.ConversationContext)"
+  ],
+  "method_count": 3
+}

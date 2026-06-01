@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.block.data.type.Beehive",
+  "methods": [
+    "public abstract int getHoneyLevel()",
+    "public abstract void setHoneyLevel(int)",
+    "public abstract int getMaximumHoneyLevel()"
+  ],
+  "method_count": 3
+}

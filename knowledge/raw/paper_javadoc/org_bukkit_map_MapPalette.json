@@ -1,0 +1,12 @@
+{
+  "class_name": "org.bukkit.map.MapPalette",
+  "methods": [
+    "public static java.awt.image.BufferedImage resizeImage(java.awt.Image)",
+    "public static byte[] imageToBytes(java.awt.Image)",
+    "public static byte matchColor(int, int, int)",
+    "public static byte matchColor(java.awt.Color)",
+    "public static java.awt.Color getColor(byte)",
+    "public static void setMapColorCache(org.bukkit.map.MapPalette$MapColorCache)"
+  ],
+  "method_count": 6
+}

@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.event.world.WorldSaveEvent",
+  "methods": [
+    "public org.bukkit.event.world.WorldSaveEvent(org.bukkit.World)",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 3
+}

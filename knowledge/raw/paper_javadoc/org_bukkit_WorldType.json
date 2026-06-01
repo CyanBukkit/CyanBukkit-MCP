@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.WorldType",
+  "methods": [
+    "public static org.bukkit.WorldType[] values()",
+    "public static org.bukkit.WorldType valueOf(java.lang.String)",
+    "public java.lang.String getName()",
+    "public static org.bukkit.WorldType getByName(java.lang.String)"
+  ],
+  "method_count": 4
+}

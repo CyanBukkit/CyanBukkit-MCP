@@ -1,0 +1,12 @@
+{
+  "class_name": "org.bukkit.potion.PotionBrewer",
+  "methods": [
+    "public abstract void addPotionMix(io.papermc.paper.potion.PotionMix)",
+    "public abstract void removePotionMix(org.bukkit.NamespacedKey)",
+    "public abstract void resetPotionMixes()",
+    "public default org.bukkit.potion.PotionEffect createEffect(org.bukkit.potion.PotionEffectType, int, int)",
+    "public default java.util.Collection<org.bukkit.potion.PotionEffect> getEffectsFromDamage(int)",
+    "public abstract java.util.Collection<org.bukkit.potion.PotionEffect> getEffects(org.bukkit.potion.PotionType, boolean, boolean)"
+  ],
+  "method_count": 6
+}

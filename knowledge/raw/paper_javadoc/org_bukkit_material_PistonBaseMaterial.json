@@ -1,0 +1,16 @@
+{
+  "class_name": "org.bukkit.material.PistonBaseMaterial",
+  "methods": [
+    "public org.bukkit.material.PistonBaseMaterial(org.bukkit.Material)",
+    "public org.bukkit.material.PistonBaseMaterial(org.bukkit.Material, byte)",
+    "public void setFacingDirection(org.bukkit.block.BlockFace)",
+    "public org.bukkit.block.BlockFace getFacing()",
+    "public boolean isPowered()",
+    "public void setPowered(boolean)",
+    "public boolean isSticky()",
+    "public org.bukkit.material.PistonBaseMaterial clone()",
+    "public org.bukkit.material.MaterialData clone()",
+    "public java.lang.Object clone()"
+  ],
+  "method_count": 10
+}

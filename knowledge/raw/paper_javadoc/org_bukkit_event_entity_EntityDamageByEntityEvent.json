@@ -1,0 +1,11 @@
+{
+  "class_name": "org.bukkit.event.entity.EntityDamageByEntityEvent",
+  "methods": [
+    "public org.bukkit.event.entity.EntityDamageByEntityEvent(org.bukkit.entity.Entity, org.bukkit.entity.Entity, org.bukkit.event.entity.EntityDamageEvent$DamageCause, double)",
+    "public org.bukkit.event.entity.EntityDamageByEntityEvent(org.bukkit.entity.Entity, org.bukkit.entity.Entity, org.bukkit.event.entity.EntityDamageEvent$DamageCause, org.bukkit.damage.DamageSource, double)",
+    "public org.bukkit.entity.Entity getDamager()",
+    "public boolean isCritical()",
+    "public org.bukkit.damage.DamageSource getDamageSource()"
+  ],
+  "method_count": 5
+}

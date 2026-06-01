@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.entity.Parrot",
+  "methods": [
+    "public abstract org.bukkit.entity.Parrot$Variant getVariant()",
+    "public abstract void setVariant(org.bukkit.entity.Parrot$Variant)",
+    "public abstract boolean isDancing()"
+  ],
+  "method_count": 3
+}

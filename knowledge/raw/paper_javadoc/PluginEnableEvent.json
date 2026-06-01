@@ -1,0 +1,9 @@
+{
+  "class_name": "PluginEnableEvent",
+  "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/event/server/PluginEnableEvent.html",
+  "description": "public class\nPluginEnableEvent\nextends\nPluginEvent\nCalled when a plugin is enabled.",
+  "methods": [],
+  "nested_classes": [],
+  "full_text": "Package\norg.bukkit.event.server\nClass PluginEnableEvent\njava.lang.Object\norg.bukkit.event.Event\norg.bukkit.event.server.ServerEvent\norg.bukkit.event.server.PluginEvent\norg.bukkit.event.server.PluginEnableEvent\npublic class\nPluginEnableEvent\nextends\nPluginEvent\nCalled when a plugin is enabled.\nNested Class Summary\nNested classes/interfaces inherited from class org.bukkit.event.\nEvent\nEvent.Result\nConstructor Summary\nConstructors\nConstructor\nDescription\nPluginEnableEvent\n(\n@NotNull\nPlugin\nplugin)\nMethod Summary\nAll Methods\nStatic Methods\nInstance Methods\nConcrete Methods\nModifier and Type\nMethod\nDescription\nstatic\n@NotNull\nHandlerList\ngetHandlerList\n()\n@NotNull\nHandlerList\ngetHandlers\n()\nMethods inherited from class org.bukkit.event.server.\nPluginEvent\ngetPlugin\nMethods inherited from class org.bukkit.event.\nEvent\ncallEvent\n,\ngetEventName\n,\nisAsynchronous\nMethods inherited from class java.lang.\nObject\nclone\n,\nequals\n,\nfinalize\n,\ngetClass\n,\nhashCode\n,\nnotify\n,\nnotifyAll\n,\ntoString\n,\nwait\n,\nwait\n,\nwait\nConstructor Details\nPluginEnableEvent\npublic\nPluginEnableEvent\n(\n@NotNull\n@NotNull\nPlugin\nplugin)\nMethod Details\ngetHandlers\n@NotNull\npublic\n@NotNull\nHandlerList\ngetHandlers\n()\nSpecified by:\ngetHandlers\nin class\nEvent\ngetHandlerList\n@NotNull\npublic static\n@NotNull\nHandlerList\ngetHandlerList\n()",
+  "method_count": 0
+}

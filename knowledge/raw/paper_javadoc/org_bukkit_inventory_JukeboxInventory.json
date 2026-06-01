@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.inventory.JukeboxInventory",
+  "methods": [
+    "public abstract void setRecord(org.bukkit.inventory.ItemStack)",
+    "public abstract org.bukkit.inventory.ItemStack getRecord()",
+    "public abstract org.bukkit.block.Jukebox getHolder()",
+    "public default org.bukkit.inventory.InventoryHolder getHolder()"
+  ],
+  "method_count": 4
+}

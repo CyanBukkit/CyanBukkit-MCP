@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.entity.Slime",
+  "methods": [
+    "public abstract int getSize()",
+    "public abstract void setSize(int)",
+    "public abstract boolean canWander()",
+    "public abstract void setWander(boolean)"
+  ],
+  "method_count": 4
+}

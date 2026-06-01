@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.event.entity.EntityDamageEvent$DamageCause",
+  "methods": [
+    "public static org.bukkit.event.entity.EntityDamageEvent$DamageCause[] values()",
+    "public static org.bukkit.event.entity.EntityDamageEvent$DamageCause valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

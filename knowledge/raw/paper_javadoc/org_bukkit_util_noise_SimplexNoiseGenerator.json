@@ -1,0 +1,21 @@
+{
+  "class_name": "org.bukkit.util.noise.SimplexNoiseGenerator",
+  "methods": [
+    "protected org.bukkit.util.noise.SimplexNoiseGenerator()",
+    "public org.bukkit.util.noise.SimplexNoiseGenerator(org.bukkit.World)",
+    "public org.bukkit.util.noise.SimplexNoiseGenerator(long)",
+    "public org.bukkit.util.noise.SimplexNoiseGenerator(java.util.Random)",
+    "protected static double dot(int[], double, double)",
+    "protected static double dot(int[], double, double, double)",
+    "protected static double dot(int[], double, double, double, double)",
+    "public static double getNoise(double)",
+    "public static double getNoise(double, double)",
+    "public static double getNoise(double, double, double)",
+    "public static double getNoise(double, double, double, double)",
+    "public double noise(double, double, double)",
+    "public double noise(double, double)",
+    "public double noise(double, double, double, double)",
+    "public static org.bukkit.util.noise.SimplexNoiseGenerator getInstance()"
+  ],
+  "method_count": 15
+}

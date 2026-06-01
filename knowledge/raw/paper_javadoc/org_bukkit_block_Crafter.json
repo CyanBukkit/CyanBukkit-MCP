@@ -1,0 +1,12 @@
+{
+  "class_name": "org.bukkit.block.Crafter",
+  "methods": [
+    "public abstract int getCraftingTicks()",
+    "public abstract void setCraftingTicks(int)",
+    "public abstract boolean isSlotDisabled(int)",
+    "public abstract void setSlotDisabled(int, boolean)",
+    "public abstract boolean isTriggered()",
+    "public abstract void setTriggered(boolean)"
+  ],
+  "method_count": 6
+}

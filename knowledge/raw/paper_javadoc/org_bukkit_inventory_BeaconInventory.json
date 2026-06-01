@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.inventory.BeaconInventory",
+  "methods": [
+    "public abstract void setItem(org.bukkit.inventory.ItemStack)",
+    "public abstract org.bukkit.inventory.ItemStack getItem()"
+  ],
+  "method_count": 2
+}

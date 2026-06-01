@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.event.server.ServerLoadEvent$LoadType",
+  "methods": [
+    "public static org.bukkit.event.server.ServerLoadEvent$LoadType[] values()",
+    "public static org.bukkit.event.server.ServerLoadEvent$LoadType valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

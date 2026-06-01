@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.plugin.ServicePriority",
+  "methods": [
+    "public static org.bukkit.plugin.ServicePriority[] values()",
+    "public static org.bukkit.plugin.ServicePriority valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

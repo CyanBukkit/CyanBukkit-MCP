@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.MinecraftExperimental$Requires",
+  "methods": [
+    "public static org.bukkit.MinecraftExperimental$Requires[] values()",
+    "public static org.bukkit.MinecraftExperimental$Requires valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

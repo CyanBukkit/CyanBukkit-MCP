@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.inventory.EnchantingInventory",
+  "methods": [
+    "public abstract void setItem(org.bukkit.inventory.ItemStack)",
+    "public abstract org.bukkit.inventory.ItemStack getItem()",
+    "public abstract void setSecondary(org.bukkit.inventory.ItemStack)",
+    "public abstract org.bukkit.inventory.ItemStack getSecondary()"
+  ],
+  "method_count": 4
+}

@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.data.type.CopperGolemStatue",
+  "methods": [
+    "public abstract org.bukkit.block.data.type.CopperGolemStatue$Pose getCopperGolemPose()",
+    "public abstract void setCopperGolemPose(org.bukkit.block.data.type.CopperGolemStatue$Pose)"
+  ],
+  "method_count": 2
+}

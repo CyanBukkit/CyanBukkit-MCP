@@ -1,0 +1,24 @@
+[
+  {
+    "jar": "D:\\Program Files\\gradle\\repo\\caches\\paperweight-userdev\\v2\\work\\extractFromBundler_e491abcda02ea198ba2fc0478772abd926c959c560babfab2b2a490c7102d114\\minecraftLibraries\\com\\mojang\\logging\\1.5.10\\logging-1.5.10.jar",
+    "artifact": "logging/1.5.10/logging-1.5.10",
+    "class_count": 14,
+    "classes_sample": [
+      "com.mojang.logging.plugins.QueueLogAppender",
+      "com.mojang.logging.plugins.LegacyXMLLayout",
+      "com.mojang.logging.plugins.package-info",
+      "com.mojang.logging.plugins.ListenerLogAppender",
+      "com.mojang.logging.LogQueues",
+      "com.mojang.logging.LogUtils",
+      "com.mojang.logging.package-info",
+      "com.mojang.logging.LogListeners",
+      "com.mojang.logging.LogListeners$Target",
+      "com.mojang.logging.LogListeners$Listener",
+      "com.mojang.logging.LogUtils$1",
+      "com.mojang.logging.LogUtils$1ToString",
+      "com.mojang.logging.annotations.MethodsReturnNonnullByDefault",
+      "com.mojang.logging.annotations.FieldsAreNonnullByDefault"
+    ],
+    "truncated": false
+  }
+]

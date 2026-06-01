@@ -1,0 +1,12 @@
+{
+  "class_name": "org.bukkit.entity.Chicken",
+  "methods": [
+    "public abstract org.bukkit.entity.Chicken$Variant getVariant()",
+    "public abstract void setVariant(org.bukkit.entity.Chicken$Variant)",
+    "public abstract boolean isChickenJockey()",
+    "public abstract void setIsChickenJockey(boolean)",
+    "public abstract int getEggLayTime()",
+    "public abstract void setEggLayTime(int)"
+  ],
+  "method_count": 6
+}

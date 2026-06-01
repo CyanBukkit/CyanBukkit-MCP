@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.conversations.MessagePrompt",
+  "methods": [
+    "public org.bukkit.conversations.MessagePrompt()",
+    "public boolean blocksForInput(org.bukkit.conversations.ConversationContext)",
+    "public org.bukkit.conversations.Prompt acceptInput(org.bukkit.conversations.ConversationContext, java.lang.String)",
+    "protected abstract org.bukkit.conversations.Prompt getNextPrompt(org.bukkit.conversations.ConversationContext)"
+  ],
+  "method_count": 4
+}

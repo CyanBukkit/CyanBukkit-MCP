@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.data.type.Vault$State",
+  "methods": [
+    "public static org.bukkit.block.data.type.Vault$State[] values()",
+    "public static org.bukkit.block.data.type.Vault$State valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

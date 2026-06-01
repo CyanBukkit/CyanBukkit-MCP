@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.Dispenser",
+  "methods": [
+    "public abstract org.bukkit.projectiles.BlockProjectileSource getBlockProjectileSource()",
+    "public abstract boolean dispense()"
+  ],
+  "method_count": 2
+}

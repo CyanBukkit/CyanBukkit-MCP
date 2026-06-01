@@ -1,0 +1,7 @@
+{
+  "class_name": "org.bukkit.conversations.ConversationPrefix",
+  "methods": [
+    "public abstract java.lang.String getPrefix(org.bukkit.conversations.ConversationContext)"
+  ],
+  "method_count": 1
+}

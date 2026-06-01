@@ -1,0 +1,15 @@
+{
+  "class_name": "org.bukkit.event.entity.HorseJumpEvent",
+  "methods": [
+    "public org.bukkit.event.entity.HorseJumpEvent(org.bukkit.entity.AbstractHorse, float)",
+    "public org.bukkit.entity.AbstractHorse getEntity()",
+    "public float getPower()",
+    "public void setPower(float)",
+    "public boolean isCancelled()",
+    "public void setCancelled(boolean)",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()",
+    "public org.bukkit.entity.Entity getEntity()"
+  ],
+  "method_count": 9
+}

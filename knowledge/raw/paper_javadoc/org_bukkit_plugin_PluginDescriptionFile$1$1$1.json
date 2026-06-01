@@ -1,0 +1,7 @@
+{
+  "class_name": "org.bukkit.plugin.PluginDescriptionFile$1$1$1",
+  "methods": [
+    "public java.lang.Object construct(org.yaml.snakeyaml.nodes.Node)"
+  ],
+  "method_count": 1
+}

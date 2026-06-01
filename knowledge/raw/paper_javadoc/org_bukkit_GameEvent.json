@@ -1,0 +1,11 @@
+{
+  "class_name": "org.bukkit.GameEvent",
+  "methods": [
+    "public org.bukkit.GameEvent()",
+    "public static org.bukkit.GameEvent getByKey(org.bukkit.NamespacedKey)",
+    "public static java.util.Collection<org.bukkit.GameEvent> values()",
+    "public abstract int getRange()",
+    "public abstract int getVibrationLevel()"
+  ],
+  "method_count": 5
+}

@@ -1,0 +1,14 @@
+{
+  "class_name": "org.bukkit.conversations.NumericPrompt",
+  "methods": [
+    "public org.bukkit.conversations.NumericPrompt()",
+    "protected boolean isInputValid(org.bukkit.conversations.ConversationContext, java.lang.String)",
+    "protected boolean isNumberValid(org.bukkit.conversations.ConversationContext, java.lang.Number)",
+    "protected org.bukkit.conversations.Prompt acceptValidatedInput(org.bukkit.conversations.ConversationContext, java.lang.String)",
+    "protected abstract org.bukkit.conversations.Prompt acceptValidatedInput(org.bukkit.conversations.ConversationContext, java.lang.Number)",
+    "protected java.lang.String getFailedValidationText(org.bukkit.conversations.ConversationContext, java.lang.String)",
+    "protected java.lang.String getInputNotNumericText(org.bukkit.conversations.ConversationContext, java.lang.String)",
+    "protected java.lang.String getFailedValidationText(org.bukkit.conversations.ConversationContext, java.lang.Number)"
+  ],
+  "method_count": 8
+}

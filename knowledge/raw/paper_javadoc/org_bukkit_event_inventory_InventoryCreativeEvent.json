@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.event.inventory.InventoryCreativeEvent",
+  "methods": [
+    "public org.bukkit.event.inventory.InventoryCreativeEvent(org.bukkit.inventory.InventoryView, org.bukkit.event.inventory.InventoryType$SlotType, int, org.bukkit.inventory.ItemStack)",
+    "public org.bukkit.inventory.ItemStack getCursor()",
+    "public void setCursor(org.bukkit.inventory.ItemStack)"
+  ],
+  "method_count": 3
+}

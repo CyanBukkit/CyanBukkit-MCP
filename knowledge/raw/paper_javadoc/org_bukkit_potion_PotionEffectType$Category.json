@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.potion.PotionEffectType$Category",
+  "methods": [
+    "public static org.bukkit.potion.PotionEffectType$Category[] values()",
+    "public static org.bukkit.potion.PotionEffectType$Category valueOf(java.lang.String)",
+    "public net.kyori.adventure.text.format.TextColor getColor()"
+  ],
+  "method_count": 3
+}

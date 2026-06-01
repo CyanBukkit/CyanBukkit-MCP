@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.plugin.messaging.ReservedChannelException",
+  "methods": [
+    "public org.bukkit.plugin.messaging.ReservedChannelException()",
+    "public org.bukkit.plugin.messaging.ReservedChannelException(java.lang.String)"
+  ],
+  "method_count": 2
+}

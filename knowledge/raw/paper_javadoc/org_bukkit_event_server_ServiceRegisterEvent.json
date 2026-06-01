@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.event.server.ServiceRegisterEvent",
+  "methods": [
+    "public org.bukkit.event.server.ServiceRegisterEvent(org.bukkit.plugin.RegisteredServiceProvider<?>)",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 3
+}

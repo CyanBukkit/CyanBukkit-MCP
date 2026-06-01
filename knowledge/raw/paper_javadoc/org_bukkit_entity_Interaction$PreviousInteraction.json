@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.entity.Interaction$PreviousInteraction",
+  "methods": [
+    "public abstract org.bukkit.OfflinePlayer getPlayer()",
+    "public abstract long getTimestamp()"
+  ],
+  "method_count": 2
+}

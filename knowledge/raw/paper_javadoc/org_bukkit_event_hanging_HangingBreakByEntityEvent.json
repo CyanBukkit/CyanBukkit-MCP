@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.event.hanging.HangingBreakByEntityEvent",
+  "methods": [
+    "public org.bukkit.event.hanging.HangingBreakByEntityEvent(org.bukkit.entity.Hanging, org.bukkit.entity.Entity)",
+    "public org.bukkit.event.hanging.HangingBreakByEntityEvent(org.bukkit.entity.Hanging, org.bukkit.entity.Entity, org.bukkit.event.hanging.HangingBreakEvent$RemoveCause)",
+    "public org.bukkit.entity.Entity getRemover()"
+  ],
+  "method_count": 3
+}

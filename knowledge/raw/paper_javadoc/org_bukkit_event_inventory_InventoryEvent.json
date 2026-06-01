@@ -1,0 +1,12 @@
+{
+  "class_name": "org.bukkit.event.inventory.InventoryEvent",
+  "methods": [
+    "public org.bukkit.event.inventory.InventoryEvent(org.bukkit.inventory.InventoryView)",
+    "public org.bukkit.inventory.Inventory getInventory()",
+    "public java.util.List<org.bukkit.entity.HumanEntity> getViewers()",
+    "public org.bukkit.inventory.InventoryView getView()",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 6
+}

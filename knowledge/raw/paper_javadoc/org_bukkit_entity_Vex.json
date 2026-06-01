@@ -1,0 +1,19 @@
+{
+  "class_name": "org.bukkit.entity.Vex",
+  "methods": [
+    "public abstract boolean isCharging()",
+    "public abstract void setCharging(boolean)",
+    "public abstract org.bukkit.Location getBound()",
+    "public abstract void setBound(org.bukkit.Location)",
+    "public abstract int getLifeTicks()",
+    "public abstract void setLifeTicks(int)",
+    "public abstract boolean hasLimitedLife()",
+    "public abstract org.bukkit.entity.Mob getSummoner()",
+    "public abstract void setSummoner(org.bukkit.entity.Mob)",
+    "public abstract boolean hasLimitedLifetime()",
+    "public abstract void setLimitedLifetime(boolean)",
+    "public abstract int getLimitedLifetimeTicks()",
+    "public abstract void setLimitedLifetimeTicks(int)"
+  ],
+  "method_count": 13
+}

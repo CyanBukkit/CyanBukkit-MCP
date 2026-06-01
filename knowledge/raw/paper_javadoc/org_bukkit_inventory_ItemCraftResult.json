@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.inventory.ItemCraftResult",
+  "methods": [
+    "public abstract org.bukkit.inventory.ItemStack getResult()",
+    "public abstract org.bukkit.inventory.ItemStack[] getResultingMatrix()",
+    "public abstract java.util.List<org.bukkit.inventory.ItemStack> getOverflowItems()"
+  ],
+  "method_count": 3
+}

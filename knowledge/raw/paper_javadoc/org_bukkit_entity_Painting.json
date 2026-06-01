@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.entity.Painting",
+  "methods": [
+    "public abstract org.bukkit.Art getArt()",
+    "public abstract boolean setArt(org.bukkit.Art)",
+    "public abstract boolean setArt(org.bukkit.Art, boolean)"
+  ],
+  "method_count": 3
+}

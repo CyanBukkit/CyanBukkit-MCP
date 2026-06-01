@@ -1,0 +1,12 @@
+{
+  "class_name": "org.bukkit.event.inventory.InventoryCloseEvent",
+  "methods": [
+    "public org.bukkit.event.inventory.InventoryCloseEvent(org.bukkit.inventory.InventoryView)",
+    "public org.bukkit.event.inventory.InventoryCloseEvent(org.bukkit.inventory.InventoryView, org.bukkit.event.inventory.InventoryCloseEvent$Reason)",
+    "public final org.bukkit.entity.HumanEntity getPlayer()",
+    "public org.bukkit.event.inventory.InventoryCloseEvent$Reason getReason()",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 6
+}

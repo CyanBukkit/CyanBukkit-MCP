@@ -1,0 +1,19 @@
+{
+  "class_name": "org.bukkit.material.CocoaPlant",
+  "methods": [
+    "public org.bukkit.material.CocoaPlant()",
+    "public org.bukkit.material.CocoaPlant(org.bukkit.Material, byte)",
+    "public org.bukkit.material.CocoaPlant(org.bukkit.material.CocoaPlant$CocoaPlantSize)",
+    "public org.bukkit.material.CocoaPlant(org.bukkit.material.CocoaPlant$CocoaPlantSize, org.bukkit.block.BlockFace)",
+    "public org.bukkit.material.CocoaPlant$CocoaPlantSize getSize()",
+    "public void setSize(org.bukkit.material.CocoaPlant$CocoaPlantSize)",
+    "public org.bukkit.block.BlockFace getAttachedFace()",
+    "public void setFacingDirection(org.bukkit.block.BlockFace)",
+    "public org.bukkit.block.BlockFace getFacing()",
+    "public org.bukkit.material.CocoaPlant clone()",
+    "public java.lang.String toString()",
+    "public org.bukkit.material.MaterialData clone()",
+    "public java.lang.Object clone()"
+  ],
+  "method_count": 13
+}

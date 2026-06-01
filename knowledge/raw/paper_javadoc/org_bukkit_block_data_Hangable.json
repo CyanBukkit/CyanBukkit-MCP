@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.data.Hangable",
+  "methods": [
+    "public abstract boolean isHanging()",
+    "public abstract void setHanging(boolean)"
+  ],
+  "method_count": 2
+}

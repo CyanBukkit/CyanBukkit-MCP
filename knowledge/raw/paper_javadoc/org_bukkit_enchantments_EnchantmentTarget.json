@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.enchantments.EnchantmentTarget",
+  "methods": [
+    "public static org.bukkit.enchantments.EnchantmentTarget[] values()",
+    "public static org.bukkit.enchantments.EnchantmentTarget valueOf(java.lang.String)",
+    "public abstract boolean includes(org.bukkit.Material)",
+    "public boolean includes(org.bukkit.inventory.ItemStack)"
+  ],
+  "method_count": 4
+}

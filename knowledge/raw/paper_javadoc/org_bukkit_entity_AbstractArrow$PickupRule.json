@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.entity.AbstractArrow$PickupRule",
+  "methods": [
+    "public static org.bukkit.entity.AbstractArrow$PickupRule[] values()",
+    "public static org.bukkit.entity.AbstractArrow$PickupRule valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

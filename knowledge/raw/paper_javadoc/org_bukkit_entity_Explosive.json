@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.entity.Explosive",
+  "methods": [
+    "public abstract void setYield(float)",
+    "public abstract float getYield()",
+    "public abstract void setIsIncendiary(boolean)",
+    "public abstract boolean isIncendiary()"
+  ],
+  "method_count": 4
+}

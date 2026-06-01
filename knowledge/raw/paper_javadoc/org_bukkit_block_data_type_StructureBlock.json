@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.data.type.StructureBlock",
+  "methods": [
+    "public abstract org.bukkit.block.data.type.StructureBlock$Mode getMode()",
+    "public abstract void setMode(org.bukkit.block.data.type.StructureBlock$Mode)"
+  ],
+  "method_count": 2
+}

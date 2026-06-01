@@ -1,0 +1,16 @@
+{
+  "class_name": "org.bukkit.event.entity.CreeperPowerEvent",
+  "methods": [
+    "public org.bukkit.event.entity.CreeperPowerEvent(org.bukkit.entity.Creeper, org.bukkit.entity.LightningStrike, org.bukkit.event.entity.CreeperPowerEvent$PowerCause)",
+    "public org.bukkit.event.entity.CreeperPowerEvent(org.bukkit.entity.Creeper, org.bukkit.event.entity.CreeperPowerEvent$PowerCause)",
+    "public org.bukkit.entity.Creeper getEntity()",
+    "public org.bukkit.entity.LightningStrike getLightning()",
+    "public org.bukkit.event.entity.CreeperPowerEvent$PowerCause getCause()",
+    "public boolean isCancelled()",
+    "public void setCancelled(boolean)",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()",
+    "public org.bukkit.entity.Entity getEntity()"
+  ],
+  "method_count": 10
+}

@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.data.type.Piston",
+  "methods": [
+    "public abstract boolean isExtended()",
+    "public abstract void setExtended(boolean)"
+  ],
+  "method_count": 2
+}

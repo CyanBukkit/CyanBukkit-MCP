@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.data.type.TrialSpawner$State",
+  "methods": [
+    "public static org.bukkit.block.data.type.TrialSpawner$State[] values()",
+    "public static org.bukkit.block.data.type.TrialSpawner$State valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

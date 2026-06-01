@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.data.type.SculkCatalyst",
+  "methods": [
+    "public abstract boolean isBloom()",
+    "public abstract void setBloom(boolean)"
+  ],
+  "method_count": 2
+}

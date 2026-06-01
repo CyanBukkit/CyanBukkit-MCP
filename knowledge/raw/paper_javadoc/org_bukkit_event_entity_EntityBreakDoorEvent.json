@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.event.entity.EntityBreakDoorEvent",
+  "methods": [
+    "public org.bukkit.event.entity.EntityBreakDoorEvent(org.bukkit.entity.LivingEntity, org.bukkit.block.Block, org.bukkit.block.data.BlockData)",
+    "public org.bukkit.entity.LivingEntity getEntity()",
+    "public org.bukkit.entity.Entity getEntity()"
+  ],
+  "method_count": 3
+}

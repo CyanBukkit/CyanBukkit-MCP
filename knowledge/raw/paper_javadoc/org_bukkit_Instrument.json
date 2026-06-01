@@ -1,0 +1,11 @@
+{
+  "class_name": "org.bukkit.Instrument",
+  "methods": [
+    "public static org.bukkit.Instrument[] values()",
+    "public static org.bukkit.Instrument valueOf(java.lang.String)",
+    "public org.bukkit.Sound getSound()",
+    "public byte getType()",
+    "public static org.bukkit.Instrument getByType(byte)"
+  ],
+  "method_count": 5
+}

@@ -1,0 +1,11 @@
+{
+  "class_name": "org.bukkit.event.block.LeavesDecayEvent",
+  "methods": [
+    "public org.bukkit.event.block.LeavesDecayEvent(org.bukkit.block.Block)",
+    "public boolean isCancelled()",
+    "public void setCancelled(boolean)",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 5
+}

@@ -1,0 +1,14 @@
+{
+  "class_name": "org.bukkit.event.vehicle.VehicleExitEvent",
+  "methods": [
+    "public org.bukkit.event.vehicle.VehicleExitEvent(org.bukkit.entity.Vehicle, org.bukkit.entity.LivingEntity, boolean)",
+    "public org.bukkit.event.vehicle.VehicleExitEvent(org.bukkit.entity.Vehicle, org.bukkit.entity.LivingEntity)",
+    "public org.bukkit.entity.LivingEntity getExited()",
+    "public boolean isCancelled()",
+    "public void setCancelled(boolean)",
+    "public boolean isCancellable()",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 8
+}

@@ -1,0 +1,7 @@
+{
+  "class_name": "org.bukkit.util.io.Wrapper",
+  "methods": [
+    "static org.bukkit.util.io.Wrapper<com.google.common.collect.ImmutableMap<java.lang.String, ?>> newWrapper(org.bukkit.configuration.serialization.ConfigurationSerializable)"
+  ],
+  "method_count": 1
+}

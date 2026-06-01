@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.block.data.Segmentable",
+  "methods": [
+    "public abstract int getSegmentAmount()",
+    "public abstract void setSegmentAmount(int)",
+    "public abstract int getMinimumSegmentAmount()",
+    "public abstract int getMaximumSegmentAmount()"
+  ],
+  "method_count": 4
+}

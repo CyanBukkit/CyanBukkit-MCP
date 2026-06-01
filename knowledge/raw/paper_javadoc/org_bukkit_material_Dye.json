@@ -1,0 +1,16 @@
+{
+  "class_name": "org.bukkit.material.Dye",
+  "methods": [
+    "public org.bukkit.material.Dye()",
+    "public org.bukkit.material.Dye(org.bukkit.Material)",
+    "public org.bukkit.material.Dye(org.bukkit.Material, byte)",
+    "public org.bukkit.material.Dye(org.bukkit.DyeColor)",
+    "public org.bukkit.DyeColor getColor()",
+    "public void setColor(org.bukkit.DyeColor)",
+    "public java.lang.String toString()",
+    "public org.bukkit.material.Dye clone()",
+    "public org.bukkit.material.MaterialData clone()",
+    "public java.lang.Object clone()"
+  ],
+  "method_count": 10
+}

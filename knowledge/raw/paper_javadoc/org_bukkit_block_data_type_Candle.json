@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.block.data.type.Candle",
+  "methods": [
+    "public abstract int getCandles()",
+    "public abstract void setCandles(int)",
+    "public abstract int getMaximumCandles()",
+    "public abstract int getMinimumCandles()"
+  ],
+  "method_count": 4
+}

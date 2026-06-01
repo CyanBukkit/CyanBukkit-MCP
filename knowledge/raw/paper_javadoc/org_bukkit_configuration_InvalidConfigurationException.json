@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.configuration.InvalidConfigurationException",
+  "methods": [
+    "public org.bukkit.configuration.InvalidConfigurationException()",
+    "public org.bukkit.configuration.InvalidConfigurationException(java.lang.String)",
+    "public org.bukkit.configuration.InvalidConfigurationException(java.lang.Throwable)",
+    "public org.bukkit.configuration.InvalidConfigurationException(java.lang.String, java.lang.Throwable)"
+  ],
+  "method_count": 4
+}

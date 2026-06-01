@@ -1,0 +1,7 @@
+{
+  "class_name": "org.bukkit.advancement.AdvancementRequirements",
+  "methods": [
+    "public abstract java.util.List<org.bukkit.advancement.AdvancementRequirement> getRequirements()"
+  ],
+  "method_count": 1
+}

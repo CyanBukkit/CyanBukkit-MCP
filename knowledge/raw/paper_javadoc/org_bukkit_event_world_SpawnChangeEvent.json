@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.event.world.SpawnChangeEvent",
+  "methods": [
+    "public org.bukkit.event.world.SpawnChangeEvent(org.bukkit.World, org.bukkit.Location)",
+    "public org.bukkit.Location getPreviousLocation()",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 4
+}

@@ -1,0 +1,11 @@
+{
+  "class_name": "org.bukkit.event.vehicle.VehicleMoveEvent",
+  "methods": [
+    "public org.bukkit.event.vehicle.VehicleMoveEvent(org.bukkit.entity.Vehicle, org.bukkit.Location, org.bukkit.Location)",
+    "public org.bukkit.Location getFrom()",
+    "public org.bukkit.Location getTo()",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 5
+}

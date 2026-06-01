@@ -1,0 +1,631 @@
+{
+  "class_name": "Bukkit",
+  "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/Bukkit.html",
+  "description": "kkit extends Object Represents the Bukkit core, for version and Server singleton handling Method Summary All Methods Static Methods Concrete Methods Deprecated Methods Modifier and Type Method Description static boolean addRecipe ( @Nullable Recipe recipe) Adds a recipe to the crafting manager",
+  "methods": [
+    {
+      "name": "addRecipe",
+      "signature": "static boolean addRecipe(@Nullable Recipe recipe, boolean resendRecipes)",
+      "return_type": "static boolean",
+      "params": [
+        "@Nullable Recipe recipe",
+        "boolean resendRecipes"
+      ],
+      "description": "Adds a recipe to the crafting manager."
+    },
+    {
+      "name": "advancementIterator",
+      "signature": "NotNull Iterator < Advancement > advancementIterator()",
+      "return_type": "NotNull\nIterator\n<\nAdvancement\n>",
+      "params": [],
+      "description": "Get an iterator through all advancements."
+    },
+    {
+      "name": "banIP",
+      "signature": "static void banIP(@NotNull String address)",
+      "return_type": "static void",
+      "params": [
+        "@NotNull String address"
+      ],
+      "description": "Deprecated."
+    },
+    {
+      "name": "banIP",
+      "signature": "see banIP(InetAddress)",
+      "return_type": "see",
+      "params": [
+        "InetAddress"
+      ],
+      "description": "stati"
+    },
+    {
+      "name": "banIP",
+      "signature": "c void banIP(@NotNull InetAddress address)",
+      "return_type": "c void",
+      "params": [
+        "@NotNull InetAddress address"
+      ],
+      "description": "Bans the specified address from the server."
+    },
+    {
+      "name": "broadcast",
+      "signature": "static int broadcast(@NotNull String message, @NotNull String permission)",
+      "return_type": "static int",
+      "params": [
+        "@NotNull String message",
+        "@NotNull String permission"
+      ],
+      "description": "Deprecated."
+    },
+    {
+      "name": "broadcast",
+      "signature": "in favour of broadcast(net.kyori.adventure.text.Component, String)",
+      "return_type": "in favour of",
+      "params": [
+        "net.kyori.adventure.text.Component",
+        "String"
+      ],
+      "description": "stati"
+    },
+    {
+      "name": "broadcast",
+      "signature": "c int broadcast(@NotNull Component message)",
+      "return_type": "c int",
+      "params": [
+        "@NotNull Component message"
+      ],
+      "description": "Broadcast a message to all players."
+    },
+    {
+      "name": "broadcast",
+      "signature": "static int broadcast(@NotNull Component message, @NotNull String permission)",
+      "return_type": "static int",
+      "params": [
+        "@NotNull Component message",
+        "@NotNull String permission"
+      ],
+      "description": "Broadcasts the specified message to every user with the given"
+    },
+    {
+      "name": "broadcast",
+      "signature": "static void broadcast(net.md_5.bungee.api.chat.BaseComponent component)",
+      "return_type": "static void",
+      "params": [
+        "net.md_5.bungee.api.chat.BaseComponent component"
+      ],
+      "description": "Deprecated."
+    },
+    {
+      "name": "getServer",
+      "signature": "use sendMessage methods on getServer()",
+      "return_type": "use\nsendMessage\nmethods on",
+      "params": [],
+      "description": "that"
+    },
+    {
+      "name": "broadcast",
+      "signature": "accept Component static void broadcast(net.md_5.bungee.api.chat.BaseComponent... components)",
+      "return_type": "accept\nComponent\nstatic void",
+      "params": [
+        "net.md_5.bungee.api.chat.BaseComponent... components"
+      ],
+      "description": "Deprecated."
+    },
+    {
+      "name": "broadcastMessage",
+      "signature": "accept Component static int broadcastMessage(@NotNull String message)",
+      "return_type": "accept\nComponent\nstatic int",
+      "params": [
+        "@NotNull String message"
+      ],
+      "description": "Deprecated."
+    },
+    {
+      "name": "clearRecipes",
+      "signature": "static void clearRecipes()",
+      "return_type": "static void",
+      "params": [],
+      "description": "Clears the list of crafting recipes."
+    },
+    {
+      "name": "craftItem",
+      "signature": "NotNull ItemStack craftItem(@NotNull ItemStack @NotNull [] craftingMatrix, @NotNull World world)",
+      "return_type": "NotNull\nItemStack",
+      "params": [
+        "@NotNull ItemStack @NotNull [] craftingMatrix",
+        "@NotNull World world"
+      ],
+      "description": "Get the crafted item using the list of"
+    },
+    {
+      "name": "craftItem",
+      "signature": "NotNull ItemStack craftItem(@NotNull ItemStack @NotNull [] craftingMatrix, @NotNull World world, @NotNull Player player)",
+      "return_type": "NotNull\nItemStack",
+      "params": [
+        "@NotNull ItemStack @NotNull [] craftingMatrix",
+        "@NotNull World world",
+        "@NotNull Player player"
+      ],
+      "description": "Get the crafted item using the list of"
+    },
+    {
+      "name": "craftItemResult",
+      "signature": "NotNull ItemCraftResult craftItemResult(@NotNull ItemStack @NotNull [] craftingMatrix, @NotNull World world)",
+      "return_type": "NotNull\nItemCraftResult",
+      "params": [
+        "@NotNull ItemStack @NotNull [] craftingMatrix",
+        "@NotNull World world"
+      ],
+      "description": "Get the crafted item using the list of"
+    },
+    {
+      "name": "craftItemResult",
+      "signature": "NotNull ItemCraftResult craftItemResult(@NotNull ItemStack @NotNull [] craftingMatrix, @NotNull World world, @NotNull Player player)",
+      "return_type": "NotNull\nItemCraftResult",
+      "params": [
+        "@NotNull ItemStack @NotNull [] craftingMatrix",
+        "@NotNull World world",
+        "@NotNull Player player"
+      ],
+      "description": "Get the crafted item using the list of"
+    },
+    {
+      "name": "createBlockData",
+      "signature": "NotNull BlockData createBlockData(@NotNull String data)",
+      "return_type": "NotNull\nBlockData",
+      "params": [
+        "@NotNull String data"
+      ],
+      "description": "Creates a new"
+    },
+    {
+      "name": "createBlockData",
+      "signature": "NotNull BlockData createBlockData(@NotNull Material material)",
+      "return_type": "NotNull\nBlockData",
+      "params": [
+        "@NotNull Material material"
+      ],
+      "description": "Creates a new"
+    },
+    {
+      "name": "createBlockData",
+      "signature": "NotNull BlockData createBlockData(@NotNull Material material, @Nullable Consumer <? super BlockData > consumer)",
+      "return_type": "NotNull\nBlockData",
+      "params": [
+        "@NotNull Material material",
+        "@Nullable Consumer <? super BlockData > consumer"
+      ],
+      "description": "Creates a new"
+    },
+    {
+      "name": "createBlockData",
+      "signature": "NotNull BlockData createBlockData(@Nullable Material material, @Nullable String data)",
+      "return_type": "NotNull\nBlockData",
+      "params": [
+        "@Nullable Material material",
+        "@Nullable String data"
+      ],
+      "description": "Creates a new"
+    },
+    {
+      "name": "createBossBar",
+      "signature": "NotNull BossBar createBossBar(@Nullable String title, @NotNull BarColor color, @NotNull BarStyle style, @NotNull BarFlag ... flags)",
+      "return_type": "NotNull\nBossBar",
+      "params": [
+        "@Nullable String title",
+        "@NotNull BarColor color",
+        "@NotNull BarStyle style",
+        "@NotNull BarFlag ... flags"
+      ],
+      "description": "Creates a boss bar instance to display to players."
+    },
+    {
+      "name": "createBossBar",
+      "signature": "NotNull KeyedBossBar createBossBar(@NotNull NamespacedKey key, @Nullable String title, @NotNull BarColor color, @NotNull BarStyle style, @NotNull BarFlag ... flags)",
+      "return_type": "NotNull\nKeyedBossBar",
+      "params": [
+        "@NotNull NamespacedKey key",
+        "@Nullable String title",
+        "@NotNull BarColor color",
+        "@NotNull BarStyle style",
+        "@NotNull BarFlag ... flags"
+      ],
+      "description": "Creates a boss bar instance to display to players."
+    },
+    {
+      "name": "createChunkData",
+      "signature": "ChunkData createChunkData(@NotNull World world)",
+      "return_type": "ChunkData",
+      "params": [
+        "@NotNull World world"
+      ],
+      "description": "Create a ChunkData for use in a generator."
+    },
+    {
+      "name": "createCommandSender",
+      "signature": "NotNull CommandSender createCommandSender(Consumer <? super Component > feedback)",
+      "return_type": "NotNull\nCommandSender",
+      "params": [
+        "Consumer <? super Component > feedback"
+      ],
+      "description": "Creates a special"
+    },
+    {
+      "name": "createExplorerMap",
+      "signature": "NotNull ItemStack createExplorerMap(@NotNull World world, @NotNull Location location, @NotNull StructureType structureType)",
+      "return_type": "NotNull\nItemStack",
+      "params": [
+        "@NotNull World world",
+        "@NotNull Location location",
+        "@NotNull StructureType structureType"
+      ],
+      "description": "Deprecated."
+    },
+    {
+      "name": "createExplorerMap",
+      "signature": "NotNull ItemStack createExplorerMap(@NotNull World world, @NotNull Location location, @NotNull StructureType structureType, int radius, boolean findUnexplored)",
+      "return_type": "NotNull\nItemStack",
+      "params": [
+        "@NotNull World world",
+        "@NotNull Location location",
+        "@NotNull StructureType structureType",
+        "int radius",
+        "boolean findUnexplored"
+      ],
+      "description": "Deprecated."
+    },
+    {
+      "name": "createExplorerMap",
+      "signature": "Nullable ItemStack createExplorerMap(@NotNull World world, @NotNull Location location, StructureType structureType, MapCursor.Type mapIcon)",
+      "return_type": "Nullable\nItemStack",
+      "params": [
+        "@NotNull World world",
+        "@NotNull Location location",
+        "StructureType structureType",
+        "MapCursor.Type mapIcon"
+      ],
+      "description": "Create a new explorer map targeting the closest nearby structure of a"
+    },
+    {
+      "name": "createExplorerMap",
+      "signature": "Nullable ItemStack createExplorerMap(@NotNull World world, @NotNull Location location, StructureType structureType, MapCursor.Type mapIcon, int radius, boolean findUnexplored)",
+      "return_type": "Nullable\nItemStack",
+      "params": [
+        "@NotNull World world",
+        "@NotNull Location location",
+        "StructureType structureType",
+        "MapCursor.Type mapIcon",
+        "int radius",
+        "boolean findUnexplored"
+      ],
+      "description": "Create a new explorer map targeting the closest nearby structure of a"
+    },
+    {
+      "name": "createInventory",
+      "signature": "NotNull Inventory createInventory(@Nullable InventoryHolder owner, int size)",
+      "return_type": "NotNull\nInventory",
+      "params": [
+        "@Nullable InventoryHolder owner",
+        "int size"
+      ],
+      "description": "Creates an empty inventory of type"
+    },
+    {
+      "name": "createInventory",
+      "signature": "NotNull Inventory createInventory(@Nullable InventoryHolder owner, int size, @NotNull String title)",
+      "return_type": "NotNull\nInventory",
+      "params": [
+        "@Nullable InventoryHolder owner",
+        "int size",
+        "@NotNull String title"
+      ],
+      "description": "Deprecated."
+    },
+    {
+      "name": "createInventory",
+      "signature": "in favour of createInventory(InventoryHolder, InventoryType, net.kyori.adventure.text.Component)",
+      "return_type": "in favour of",
+      "params": [
+        "InventoryHolder",
+        "InventoryType",
+        "net.kyori.adventure.text.Component"
+      ],
+      "description": "static"
+    },
+    {
+      "name": "createInventory",
+      "signature": "NotNull Inventory createInventory(@Nullable InventoryHolder owner, int size, @NotNull Component title)",
+      "return_type": "NotNull\nInventory",
+      "params": [
+        "@Nullable InventoryHolder owner",
+        "int size",
+        "@NotNull Component title"
+      ],
+      "description": "Creates an empty inventory of type"
+    },
+    {
+      "name": "createInventory",
+      "signature": "NotNull Inventory createInventory(@Nullable InventoryHolder owner, @NotNull InventoryType type)",
+      "return_type": "NotNull\nInventory",
+      "params": [
+        "@Nullable InventoryHolder owner",
+        "@NotNull InventoryType type"
+      ],
+      "description": "Creates an empty inventory with the specified type."
+    },
+    {
+      "name": "createInventory",
+      "signature": "NotNull Inventory createInventory(@Nullable InventoryHolder owner, @NotNull InventoryType type, @NotNull String title)",
+      "return_type": "NotNull\nInventory",
+      "params": [
+        "@Nullable InventoryHolder owner",
+        "@NotNull InventoryType type",
+        "@NotNull String title"
+      ],
+      "description": "Deprecated."
+    },
+    {
+      "name": "createInventory",
+      "signature": "NotNull Inventory createInventory(@Nullable InventoryHolder owner, @NotNull InventoryType type, @NotNull Component title)",
+      "return_type": "NotNull\nInventory",
+      "params": [
+        "@Nullable InventoryHolder owner",
+        "@NotNull InventoryType type",
+        "@NotNull Component title"
+      ],
+      "description": "Creates an empty inventory with the specified type and title."
+    },
+    {
+      "name": "createMap",
+      "signature": "NotNull MapView createMap(@NotNull World world)",
+      "return_type": "NotNull\nMapView",
+      "params": [
+        "@NotNull World world"
+      ],
+      "description": "Create a new map with an automatically assigned ID."
+    },
+    {
+      "name": "createMerchant",
+      "signature": "NotNull Merchant createMerchant()",
+      "return_type": "NotNull\nMerchant",
+      "params": [],
+      "description": "Creates an empty merchant."
+    },
+    {
+      "name": "createMerchant",
+      "signature": "NotNull Merchant createMerchant(@Nullable String title)",
+      "return_type": "NotNull\nMerchant",
+      "params": [
+        "@Nullable String title"
+      ],
+      "description": "Deprecated."
+    },
+    {
+      "name": "createMerchant",
+      "signature": "in favour of createMerchant(net.kyori.adventure.text.Component)",
+      "return_type": "in favour of",
+      "params": [
+        "net.kyori.adventure.text.Component"
+      ],
+      "description": ". static"
+    },
+    {
+      "name": "createMerchant",
+      "signature": "NotNull Merchant createMerchant(@Nullable Component title)",
+      "return_type": "NotNull\nMerchant",
+      "params": [
+        "@Nullable Component title"
+      ],
+      "description": "Deprecated."
+    },
+    {
+      "name": "createPlayerProfile",
+      "signature": "NotNull PlayerProfile createPlayerProfile(@NotNull String name)",
+      "return_type": "NotNull\nPlayerProfile",
+      "params": [
+        "@NotNull String name"
+      ],
+      "description": "Deprecated."
+    },
+    {
+      "name": "createPlayerProfile",
+      "signature": "NotNull PlayerProfile createPlayerProfile(@NotNull UUID uniqueId)",
+      "return_type": "NotNull\nPlayerProfile",
+      "params": [
+        "@NotNull UUID uniqueId"
+      ],
+      "description": "Deprecated."
+    },
+    {
+      "name": "createPlayerProfile",
+      "signature": "NotNull PlayerProfile createPlayerProfile(@Nullable UUID uniqueId, @Nullable String name)",
+      "return_type": "NotNull\nPlayerProfile",
+      "params": [
+        "@Nullable UUID uniqueId",
+        "@Nullable String name"
+      ],
+      "description": "Deprecated."
+    },
+    {
+      "name": "createProfile",
+      "signature": "c PlayerProfile createProfile(@NotNull String name)",
+      "return_type": "c\nPlayerProfile",
+      "params": [
+        "@NotNull String name"
+      ],
+      "description": "Creates a PlayerProfile for the specified name, with UUID as null."
+    },
+    {
+      "name": "createProfile",
+      "signature": "static PlayerProfile createProfile(@NotNull UUID uuid)",
+      "return_type": "static\nPlayerProfile",
+      "params": [
+        "@NotNull UUID uuid"
+      ],
+      "description": "Creates a PlayerProfile for the specified uuid, with name as null."
+    },
+    {
+      "name": "createProfile",
+      "signature": "static PlayerProfile createProfile(@Nullable UUID uuid, @Nullable String name)",
+      "return_type": "static\nPlayerProfile",
+      "params": [
+        "@Nullable UUID uuid",
+        "@Nullable String name"
+      ],
+      "description": "Creates a PlayerProfile for the specified name/uuid"
+    },
+    {
+      "name": "createProfileExact",
+      "signature": "static PlayerProfile createProfileExact(@Nullable UUID uuid, @Nullable String name)",
+      "return_type": "static\nPlayerProfile",
+      "params": [
+        "@Nullable UUID uuid",
+        "@Nullable String name"
+      ],
+      "description": "Creates an exact PlayerProfile for the specified name/uuid"
+    },
+    {
+      "name": "createWorld",
+      "signature": "Nullable World createWorld(@NotNull WorldCreator creator)",
+      "return_type": "Nullable\nWorld",
+      "params": [
+        "@NotNull WorldCreator creator"
+      ],
+      "description": "Creates or loads a world with the given name using the specified"
+    },
+    {
+      "name": "createWorldBorder",
+      "signature": "NotNull WorldBorder createWorldBorder()",
+      "return_type": "NotNull\nWorldBorder",
+      "params": [],
+      "description": "Create a new virtual"
+    },
+    {
+      "name": "dispatchCommand",
+      "signature": "static boolean dispatchCommand(@NotNull CommandSender sender, @NotNull String commandLine)",
+      "return_type": "static boolean",
+      "params": [
+        "@NotNull CommandSender sender",
+        "@NotNull String commandLine"
+      ],
+      "description": "Dispatches a command on this server, and executes it if found."
+    },
+    {
+      "name": "getAdvancement",
+      "signature": "Nullable Advancement getAdvancement(@NotNull NamespacedKey key)",
+      "return_type": "Nullable\nAdvancement",
+      "params": [
+        "@NotNull NamespacedKey key"
+      ],
+      "description": "Get the advancement specified by this key."
+    },
+    {
+      "name": "getAllowEnd",
+      "signature": "static boolean getAllowEnd()",
+      "return_type": "static boolean",
+      "params": [],
+      "description": "Gets whether this server allows the End or not."
+    },
+    {
+      "name": "getAllowFlight",
+      "signature": "static boolean getAllowFlight()",
+      "return_type": "static boolean",
+      "params": [],
+      "description": "Gets whether this server allows flying or not."
+    },
+    {
+      "name": "getAllowNether",
+      "signature": "static boolean getAllowNether()",
+      "return_type": "static boolean",
+      "params": [],
+      "description": "Gets whether this server allows the Nether or not."
+    },
+    {
+      "name": "getAmbientSpawnLimit",
+      "signature": "static int getAmbientSpawnLimit()",
+      "return_type": "static int",
+      "params": [],
+      "description": "Deprecated."
+    },
+    {
+      "name": "getSpawnLimit",
+      "signature": "Deprecated in favor of getSpawnLimit(SpawnCategory)",
+      "return_type": "Deprecated in favor of",
+      "params": [
+        "SpawnCategory"
+      ],
+      "description": "stati"
+    },
+    {
+      "name": "getAnimalSpawnLimit",
+      "signature": "c int getAnimalSpawnLimit()",
+      "return_type": "c int",
+      "params": [],
+      "description": "Deprecated."
+    },
+    {
+      "name": "getAsyncScheduler",
+      "signature": "c AsyncScheduler getAsyncScheduler()",
+      "return_type": "c\nAsyncScheduler",
+      "params": [],
+      "description": "Returns the async task scheduler."
+    },
+    {
+      "name": "getAverageTickTime",
+      "signature": "static double getAverageTickTime()",
+      "return_type": "static double",
+      "params": [],
+      "description": "Get the average tick time (in millis)"
+    },
+    {
+      "name": "getBanList",
+      "signature": "static <B extends BanList <E>, E> B getBanList(@NotNull BanListType <B> type)",
+      "return_type": "static <B extends\nBanList\n<E>,\nE>\nB",
+      "params": [
+        "@NotNull BanListType <B> type"
+      ],
+      "description": "Gets a ban list for the supplied type."
+    },
+    {
+      "name": "getBanList",
+      "signature": "> T getBanList(BanList.Type type)",
+      "return_type": ">>\nT",
+      "params": [
+        "BanList.Type type"
+      ],
+      "description": "Deprecated."
+    },
+    {
+      "name": "getBannedPlayers",
+      "signature": "NotNull Set < OfflinePlayer > getBannedPlayers()",
+      "return_type": "NotNull\nSet\n<\nOfflinePlayer\n>",
+      "params": [],
+      "description": "Gets a set containing all banned players."
+    },
+    {
+      "name": "getBossBar",
+      "signature": "Nullable KeyedBossBar getBossBar(@NotNull NamespacedKey key)",
+      "return_type": "Nullable\nKeyedBossBar",
+      "params": [
+        "@NotNull NamespacedKey key"
+      ],
+      "description": "Gets the"
+    },
+    {
+      "name": "getBossBars",
+      "signature": "NotNull Iterator < KeyedBossBar > getBossBars()",
+      "return_type": "NotNull\nIterator\n<\nKeyedBossBar\n>",
+      "params": [],
+      "description": "Gets an unmodifiable iterator through all persistent bossbars."
+    },
+    {
+      "name": "getBukkitVersion",
+      "signature": "NotNull String getBukkitVersion()",
+      "return_type": "NotNull\nString",
+      "params": [],
+      "description": "Gets the Bukkit version that this server"
+    }
+  ],
+  "method_count": 67,
+  "full_text": "Bukkit (paper-api 1.21.4-R0.1-SNAPSHOT API)\nJavaScript is disabled on your browser.\nYou are looking at old Javadocs for Paper 1.21.4.\n    Click here to look at Paper 26.1.2 instead.\nSkip navigation links\nOverview\nPackage\nClass\nUse\nTree\nDeprecated\nIndex\nHelp\nSummary:\nNested\nField\nConstr\nMethod\nDetail:\nField\nConstr\nMethod\nSummary:\nNested |\nField |\nConstr |\nMethod\nDetail:\nField |\nConstr |\nMethod\nSEARCH\nPackage\norg.bukkit\nClass Bukkit\njava.lang.Object\norg.bukkit.Bukkit\npublic final class\nBukkit\nextends\nObject\nRepresents the Bukkit core, for version and Server singleton handling\nMethod Summary\nAll Methods\nStatic Methods\nConcrete Methods\nDeprecated Methods\nModifier and Type\nMethod\nDescription\nstatic boolean\naddRecipe\n(\n@Nullable\nRecipe\nrecipe)\nAdds a recipe to the crafting manager.\nstatic boolean\naddRecipe\n(\n@Nullable\nRecipe\nrecipe,\n boolean resendRecipes)\nAdds a recipe to the crafting manager.\nstatic\n@NotNull\nIterator\n<\nAdvancement\n>\nadvancementIterator\n()\nGet an iterator through all advancements.\nstatic void\nbanIP\n(\n@NotNull\nString\naddress)\nDeprecated.\nsee\nbanIP(InetAddress)\nstatic void\nbanIP\n(\n@NotNull\nInetAddress\naddress)\nBans the specified address from the server.\nstatic int\nbroadcast\n(\n@NotNull\nString\nmessage,\n@NotNull\nString\npermission)\nDeprecated.\nin favour of\nbroadcast(net.kyori.adventure.text.Component, String)\nstatic int\nbroadcast\n(\n@NotNull\nComponent\nmessage)\nBroadcast a message to all players.\nstatic int\nbroadcast\n(\n@NotNull\nComponent\nmessage,\n@NotNull\nString\npermission)\nBroadcasts the specified message to every user with the given\n permission name.\nstatic void\nbroadcast\n(net.md_5.bungee.api.chat.BaseComponent component)\nDeprecated.\nuse\nsendMessage\nmethods on\ngetServer()\nthat accept\nComponent\nstatic void\nbroadcast\n(net.md_5.bungee.api.chat.BaseComponent... components)\nDeprecated.\nuse\nsendMessage\nmethods on\ngetServer()\nthat accept\nComponent\nstatic int\nbroadcastMessage\n(\n@NotNull\nString\nmessage)\nDeprecated.\nin favour of\nServer.broadcast(net.kyori.adventure.text.Component)\nstatic void\nclearRecipes\n()\nClears the list of crafting recipes.\nstatic\n@NotNull\nItemStack\ncraftItem\n(\n@NotNull\nItemStack\n@NotNull\n[] craftingMatrix,\n@NotNull\nWorld\nworld)\nGet the crafted item using the list of\nItemStack\nprovided.\nstatic\n@NotNull\nItemStack\ncraftItem\n(\n@NotNull\nItemStack\n@NotNull\n[] craftingMatrix,\n@NotNull\nWorld\nworld,\n@NotNull\nPlayer\nplayer)\nGet the crafted item using the list of\nItemStack\nprovided.\nstatic\n@NotNull\nItemCraftResult\ncraftItemResult\n(\n@NotNull\nItemStack\n@NotNull\n[] craftingMatrix,\n@NotNull\nWorld\nworld)\nGet the crafted item using the list of\nItemStack\nprovided.\nstatic\n@NotNull\nItemCraftResult\ncraftItemResult\n(\n@NotNull\nItemStack\n@NotNull\n[] craftingMatrix,\n@NotNull\nWorld\nworld,\n@NotNull\nPlayer\nplayer)\nGet the crafted item using the list of\nItemStack\nprovided.\nstatic\n@NotNull\nBlockData\ncreateBlockData\n(\n@NotNull\nString\ndata)\nCreates a new\nBlockData\ninstance with material and properties\n parsed from provided data.\nstatic\n@NotNull\nBlockData\ncreateBlockData\n(\n@NotNull\nMaterial\nmaterial)\nCreates a new\nBlockData\ninstance for the specified Material, with\n all properties initialized to unspecified defaults.\nstatic\n@NotNull\nBlockData\ncreateBlockData\n(\n@NotNull\nMaterial\nmaterial,\n@Nullable\nConsumer\n<? super\nBlockData\n> consumer)\nCreates a new\nBlockData\ninstance for the specified Material, with\n all properties initialized to unspecified defaults.\nstatic\n@NotNull\nBlockData\ncreateBlockData\n(\n@Nullable\nMaterial\nmaterial,\n@Nullable\nString\ndata)\nCreates a new\nBlockData\ninstance for the specified Material, with\n all properties initialized to unspecified defaults, except for those\n provided in data.\nstatic\n@NotNull\nBossBar\ncreateBossBar\n(\n@Nullable\nString\ntitle,\n@NotNull\nBarColor\ncolor,\n@NotNull\nBarStyle\nstyle,\n@NotNull\nBarFlag\n... flags)\nCreates a boss bar instance to display to players.\nstatic\n@NotNull\nKeyedBossBar\ncreateBossBar\n(\n@NotNull\nNamespacedKey\nkey,\n@Nullable\nString\ntitle,\n@NotNull\nBarColor\ncolor,\n@NotNull\nBarStyle\nstyle,\n@NotNull\nBarFlag\n... flags)\nCreates a boss bar instance to display to players.\nstatic\nChunkGenerator.ChunkData\ncreateChunkData\n(\n@NotNull\nWorld\nworld)\nCreate a ChunkData for use in a generator.\nstatic\n@NotNull\nCommandSender\ncreateCommandSender\n(\nConsumer\n<? super\nComponent\n> feedback)\nCreates a special\nCommandSender\nwhich redirects command feedback (in the form of chat messages) to the\n specified listener.\nstatic\n@NotNull\nItemStack\ncreateExplorerMap\n(\n@NotNull\nWorld\nworld,\n@NotNull\nLocation\nlocation,\n@NotNull\nStructureType\nstructureType)\nDeprecated.\nuse\ncreateExplorerMap(World, Location, org.bukkit.generator.structure.StructureType, org.bukkit.map.MapCursor.Type)\nstatic\n@NotNull\nItemStack\ncreateExplorerMap\n(\n@NotNull\nWorld\nworld,\n@NotNull\nLocation\nlocation,\n@NotNull\nStructureType\nstructureType,\n int radius,\n boolean findUnexplored)\nDeprecated.\nuse\ncreateExplorerMap(World, Location, org.bukkit.generator.structure.StructureType, org.bukkit.map.MapCursor.Type, int, boolean)\nstatic\n@Nullable\nItemStack\ncreateExplorerMap\n(\n@NotNull\nWorld\nworld,\n@NotNull\nLocation\nlocation,\nStructureType\nstructureType,\nMapCursor.Type\nmapIcon)\nCreate a new explorer map targeting the closest nearby structure of a\n given\nStructureType\n.\nstatic\n@Nullable\nItemStack\ncreateExplorerMap\n(\n@NotNull\nWorld\nworld,\n@NotNull\nLocation\nlocation,\nStructureType\nstructureType,\nMapCursor.Type\nmapIcon,\n int radius,\n boolean findUnexplored)\nCreate a new explorer map targeting the closest nearby structure of a\n given\nStructureType\n.\nstatic\n@NotNull\nInventory\ncreateInventory\n(\n@Nullable\nInventoryHolder\nowner,\n int size)\nCreates an empty inventory of type\nInventoryType.CHEST\nwith the\n specified size.\nstatic\n@NotNull\nInventory\ncreateInventory\n(\n@Nullable\nInventoryHolder\nowner,\n int size,\n@NotNull\nString\ntitle)\nDeprecated.\nin favour of\ncreateInventory(InventoryHolder, InventoryType, net.kyori.adventure.text.Component)\nstatic\n@NotNull\nInventory\ncreateInventory\n(\n@Nullable\nInventoryHolder\nowner,\n int size,\n@NotNull\nComponent\ntitle)\nCreates an empty inventory of type\nInventoryType.CHEST\nwith the\n specified size and title.\nstatic\n@NotNull\nInventory\ncreateInventory\n(\n@Nullable\nInventoryHolder\nowner,\n@NotNull\nInventoryType\ntype)\nCreates an empty inventory with the specified type.\nstatic\n@NotNull\nInventory\ncreateInventory\n(\n@Nullable\nInventoryHolder\nowner,\n@NotNull\nInventoryType\ntype,\n@NotNull\nString\ntitle)\nDeprecated.\nin favour of\ncreateInventory(InventoryHolder, InventoryType, net.kyori.adventure.text.Component)\nstatic\n@NotNull\nInventory\ncreateInventory\n(\n@Nullable\nInventoryHolder\nowner,\n@NotNull\nInventoryType\ntype,\n@NotNull\nComponent\ntitle)\nCreates an empty inventory with the specified type and title.\nstatic\n@NotNull\nMapView\ncreateMap\n(\n@NotNull\nWorld\nworld)\nCreate a new map with an automatically assigned ID.\nstatic\n@NotNull\nMerchant\ncreateMerchant\n()\nCreates an empty merchant.\nstatic\n@NotNull\nMerchant\ncreateMerchant\n(\n@Nullable\nString\ntitle)\nDeprecated.\nin favour of\ncreateMerchant(net.kyori.adventure.text.Component)\n.\nstatic\n@NotNull\nMerchant\ncreateMerchant\n(\n@Nullable\nComponent\ntitle)\nDeprecated.\nThe title parameter is no-longer needed when used with\nMenuType.MERCHANT\nand\nMenuType.Typed.builder()\n.\nstatic\n@NotNull\nPlayerProfile\ncreatePlayerProfile\n(\n@NotNull\nString\nname)\nDeprecated.\nuse\ncreateProfile(String)\nstatic\n@NotNull\nPlayerProfile\ncreatePlayerProfile\n(\n@NotNull\nUUID\nuniqueId)\nDeprecated.\nuse\ncreateProfile(UUID)\nstatic\n@NotNull\nPlayerProfile\ncreatePlayerProfile\n(\n@Nullable\nUUID\nuniqueId,\n@Nullable\nString\nname)\nDeprecated.\nuse\ncreateProfile(UUID, String)\nstatic\nPlayerProfile\ncreateProfile\n(\n@NotNull\nString\nname)\nCreates a PlayerProfile for the specified name, with UUID as null.\nstatic\nPlayerProfile\ncreateProfile\n(\n@NotNull\nUUID\nuuid)\nCreates a PlayerProfile for the specified uuid, with name as null.\nstatic\nPlayerProfile\ncreateProfile\n(\n@Nullable\nUUID\nuuid,\n@Nullable\nString\nname)\nCreates a PlayerProfile for the specified name/uuid\n\n Both UUID and Name can not be null at same time.\nstatic\nPlayerProfile\ncreateProfileExact\n(\n@Nullable\nUUID\nuuid,\n@Nullable\nString\nname)\nCreates an exact PlayerProfile for the specified name/uuid\n\n Both UUID and Name can not be null at same time.\nstatic\n@Nullable\nWorld\ncreateWorld\n(\n@NotNull\nWorldCreator\ncreator)\nCreates or loads a world with the given name using the specified\n options.\nstatic\n@NotNull\nWorldBorder\ncreateWorldBorder\n()\nCreate a new virtual\nWorldBorder\n.\nstatic boolean\ndispatchCommand\n(\n@NotNull\nCommandSender\nsender,\n@NotNull\nString\ncommandLine)\nDispatches a command on this server, and executes it if found.\nstatic\n@Nullable\nAdvancement\ngetAdvancement\n(\n@NotNull\nNamespacedKey\nkey)\nGet the advancement specified by this key.\nstatic boolean\ngetAllowEnd\n()\nGets whether this server allows the End or not.\nstatic boolean\ngetAllowFlight\n()\nGets whether this server allows flying or not.\nstatic boolean\ngetAllowNether\n()\nGets whether this server allows the Nether or not.\nstatic int\ngetAmbientSpawnLimit\n()\nDeprecated.\nDeprecated in favor of\ngetSpawnLimit(SpawnCategory)\nstatic int\ngetAnimalSpawnLimit\n()\nDeprecated.\nDeprecated in favor of\ngetSpawnLimit(SpawnCategory)\nstatic\nAsyncScheduler\ngetAsyncScheduler\n()\nReturns the async task scheduler.\nstatic double\ngetAverageTickTime\n()\nGet the average tick time (in millis)\nstatic <B extends\nBanList\n<E>,\nE>\nB\ngetBanList\n(\n@NotNull\nBanListType\n<B> type)\nGets a ban list for the supplied type.\nstatic <T extends\nBanList\n<?>>\nT\ngetBanList\n(\nBanList.Type\ntype)\nDeprecated.\nuse\ngetBanList(io.papermc.paper.ban.BanListType)\nto enforce the correct return value at compile time.\nstatic\n@NotNull\nSet\n<\nOfflinePlayer\n>\ngetBannedPlayers\n()\nGets a set containing all banned players.\nstatic\n@Nullable\nKeyedBossBar\ngetBossBar\n(\n@NotNull\nNamespacedKey\nkey)\nGets the\nKeyedBossBar\nspecified by this key.\nstatic\n@NotNull\nIterator\n<\nKeyedBossBar\n>\ngetBossBars\n()\nGets an unmodifiable iterator through all persistent bossbars.\nstatic\n@NotNull\nString\ngetBukkitVersion\n()\nGets the Bukkit version that this server"
+}

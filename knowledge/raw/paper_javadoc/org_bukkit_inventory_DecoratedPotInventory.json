@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.inventory.DecoratedPotInventory",
+  "methods": [
+    "public abstract void setItem(org.bukkit.inventory.ItemStack)",
+    "public abstract org.bukkit.inventory.ItemStack getItem()",
+    "public abstract org.bukkit.block.DecoratedPot getHolder()",
+    "public default org.bukkit.inventory.InventoryHolder getHolder()"
+  ],
+  "method_count": 4
+}

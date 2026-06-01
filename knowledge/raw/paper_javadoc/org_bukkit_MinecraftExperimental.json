@@ -1,0 +1,7 @@
+{
+  "class_name": "org.bukkit.MinecraftExperimental",
+  "methods": [
+    "public abstract org.bukkit.MinecraftExperimental$Requires value()"
+  ],
+  "method_count": 1
+}

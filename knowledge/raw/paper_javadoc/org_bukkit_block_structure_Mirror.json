@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.structure.Mirror",
+  "methods": [
+    "public static org.bukkit.block.structure.Mirror[] values()",
+    "public static org.bukkit.block.structure.Mirror valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

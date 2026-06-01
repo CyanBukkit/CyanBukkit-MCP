@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.data.type.Chest$Type",
+  "methods": [
+    "public static org.bukkit.block.data.type.Chest$Type[] values()",
+    "public static org.bukkit.block.data.type.Chest$Type valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

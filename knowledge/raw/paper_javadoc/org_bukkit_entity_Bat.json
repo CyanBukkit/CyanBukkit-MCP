@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.entity.Bat",
+  "methods": [
+    "public abstract boolean isAwake()",
+    "public abstract void setAwake(boolean)",
+    "public abstract org.bukkit.Location getTargetLocation()",
+    "public abstract void setTargetLocation(org.bukkit.Location)"
+  ],
+  "method_count": 4
+}

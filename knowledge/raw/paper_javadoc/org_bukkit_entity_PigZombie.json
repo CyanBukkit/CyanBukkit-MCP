@@ -1,0 +1,13 @@
+{
+  "class_name": "org.bukkit.entity.PigZombie",
+  "methods": [
+    "public abstract int getAnger()",
+    "public abstract void setAnger(int)",
+    "public abstract void setAngry(boolean)",
+    "public abstract boolean isAngry()",
+    "public abstract boolean isConverting()",
+    "public abstract int getConversionTime()",
+    "public abstract void setConversionTime(int)"
+  ],
+  "method_count": 7
+}

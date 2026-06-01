@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.inventory.recipe.CookingBookCategory",
+  "methods": [
+    "public static org.bukkit.inventory.recipe.CookingBookCategory[] values()",
+    "public static org.bukkit.inventory.recipe.CookingBookCategory valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

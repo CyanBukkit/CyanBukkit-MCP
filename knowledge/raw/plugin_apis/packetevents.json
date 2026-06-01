@@ -1,0 +1,209 @@
+{
+  "name": "PacketEvents",
+  "version": "unknown",
+  "source": "GitBook / GitHub",
+  "source_url": "https://github.com/retrooper/packetevents",
+  "platform": "Spigot, Velocity, BungeeCord, Fabric, Sponge",
+  "language": "java",
+  "description": "Minecraft packet processing library for Java Edition",
+  "sections": [
+    {
+      "title": "Advanced PacketEvents Example: Combining our Knowledge",
+      "content": "In this example, we will develop a Minecraft Bukkit plugin that will spawn a client-sided Armor Stand, providing a click counter for each player.\\&#x20;\n\n\n\nFirst, we'll spawn an Armor Stand for the client whenever they join the server. Next, we'll wait for the client to send an \"Interact\" packet. We'll check if the client had interacted with our client-sided Armor Stand. If so, we'll increment the click counter for that player.\n\n\n\nPreviously, we mentioned that packets provide direct communication with the client, allowing us to give each user a unique experience. \"Client-sided entity\" in this context merely means that an entity is spawned for a particular client. Most importantly, the server is not informed of said entity, thus it will only be visible to the users you present it to.\\&#x20;\n\n\n\n```java\n\nimport com.github.retrooper.packetevents.event.PacketListener;\n\nimport com.github.retrooper.packetevents.event.PacketReceiveEvent;\n\nimport com.github.retrooper.packetevents.event.UserLoginEvent;\n\nimport com.github.retrooper.packetevents.protocol.entity.type.EntityTypes;\n\nimport com.github.retrooper.packetevents.protocol.packettype.PacketType;\n\nimport com.github.retrooper.packetevents.protocol.player.User;\n\nimport com.github.retrooper.packetevents.protocol.world.Location;\n\nimport com.github.retrooper.packetevents.wrapper.play.client.WrapperPlayClientInteractEntity;\n\nimport com.github.retrooper.packetevents.wrapper.play.server.WrapperPlayServerSpawnEntity;\n\nimport io.github.retrooper.packetevents.util.SpigotConversionUtil;\n\nimport io.github.retrooper.packetevents.util.SpigotReflectionUtil;\n\nimport org.bukkit.entity.Player;\n\n\n\nimport java.util.Map;\n\nimport java.util.UUID;\n\nimport java.util.concurrent.ConcurrentHashMap;\n\n\n\npublic class PacketEventsPacketListener implements PacketListener {\n\n&nbsp;   private FakeArmorStand fakeArmorStand = null;\n\n\n\n&nbsp;   @Override\n\n&nbsp;   public void onUserLogin(UserLoginEvent event) {\n\n&nbsp;       User user = event.getUser();\n\n&nbsp;       Player player = event.getPlayer();\n\n\n\n&nbsp;       // Create the Armor Stand (if we haven't already)\n\n&nbsp;       if (fakeArmorStand == null) {\n\n&nbsp;           // Generate a random UUID\n\n&nbsp;           UUID uuid = UUID.randomUUID();\n\n&nbsp;           // Generate an Entity ID\n\n&nbsp;           int entityId = SpigotReflectionUtil.generateEntityId();\n\n\n\n&nbsp;           fakeArmorStand = new FakeArmorStand(uuid, entityId);\n\n&nbsp;       }\n\n&nbsp;       \n\n&nbsp;       // Spawn the Armor Stand at the user's current location\n\n&nbsp;       Location spawnLocation = SpigotConversionUtil.fromBukkitLocation(player.getLocation());\n\n&nbsp;       fakeArmorStand.spawn(user, spawnLocation);\n\n&nbsp;   }\n\n\n\n&nbsp;   @Override\n\n&nbsp;   public void onPacketReceive(PacketReceiveEvent event) {\n\n&nbsp;       User user = event.getUser();\n\n&nbsp;       if (event.getPacketType() != PacketType.Play.Client.INTERACT\\_ENTITY) \n\n&nbsp;           return;\n\n&nbsp;       // They interacted with an entity.\n\n&nbsp;       WrapperPlayClientInteractEntity packet = new WrapperPlayClientInteractEntity(event);\n\n&nbsp;       // Retrieve that entity's ID\n\n&nbsp;       int entityId = packet.getEntityId();\n\n\n\n&nbsp;       // Check if the client interacted with the Armor Stand\n\n&nbsp;       if (entityId == fakeArmorStand.entityId) {\n\n&nbsp;           // Increment their clicks\n\n&nbsp;           int clicks = fakeArmorStand.clicks.getOrDefault(user.getUUID(), 0) + 1;\n\n&nbsp;           fakeArmorStand.clicks.put(user.getUUID(), clicks);\n\n&nbsp;           user.sendMessage(\"You now have \" + clicks + \" clicks on the Armor Stand!\");\n\n&nbsp;       }\n\n&nbsp;   }\n\n\n\n&nbsp;   private static class FakeArmorStand {\n\n&nbsp;       private final int entityId;\n\n&nbsp;       private final UUID uuid;\n\n&nbsp;       // Track their clicks\n\n&nbsp;       private final Map<UUID, Integer> clicks = new ConcurrentHashMap<>();\n\n\n\n&nbsp;       public FakeArmorStand(UUID uuid, int entityId) {\n\n&nbsp;           this.uuid = uuid;\n\n&nbsp;           this.entityId = entityId;\n\n&nbsp;       }\n\n&nbsp;       \n\n&nbsp;       public void spawn(User user, Location location) {\n\n&nbsp;           WrapperPlayServerSpawnEntity packet = new WrapperPlayServerSpawnEntity(\n\n&nbsp;                   entityId,\n\n&nbsp;                   uuid,\n\n&nbsp;                   EntityTypes.ARMOR\\_STAND,\n\n&nbsp;                   location,\n\n&nbsp;                   location.getYaw(), // Head yaw\n\n&nbsp;                   0, // No additional data\n\n&nbsp;                   null // We won't specify any initial velocity\n\n&nbsp;           );\n\n&nbsp;           user.sendPacket(packet);\n\n&nbsp;       }\n\n&nbsp;   }\n\n}\n\n```",
+      "source_file": "advanced-packetevents-example-combining-our-knowledge.md"
+    },
+    {
+      "title": "Creating Your First Listener",
+      "content": "We utilize packet listeners to process information transmitted between the client and the server. The \\[PacketReceiveEvent](https://packetevents.github.io/com/github/retrooper/packetevents/event/PacketReceiveEvent.html)resembles incoming packets (from the server's perspective), while the \\[PacketSendEvent](https://packetevents.github.io/com/github/retrooper/packetevents/event/PacketSendEvent.html)is called for outgoing packets.\\&#x20;\n\n\n\nWe'll demonstrate how you can make your own listener in this basic example. Your listener will wait for any client to send a \"Chat Message\" packet. Whenever we detect such a packet, we then proceed by reading its content. Only if the client sends us a \"ping\" message, we'll respond with a \"pong\" message.\n\n\n\n```java\n\nimport com.github.retrooper.packetevents.event.PacketListenerAbstract;\n\nimport com.github.retrooper.packetevents.event.PacketListenerPriority;\n\nimport com.github.retrooper.packetevents.event.PacketReceiveEvent;\n\nimport com.github.retrooper.packetevents.protocol.packettype.PacketType;\n\nimport com.github.retrooper.packetevents.protocol.player.User;\n\nimport com.github.retrooper.packetevents.wrapper.play.client.WrapperPlayClientChatMessage;\n\n\n\npublic class PacketEventsPacketListener implements PacketListener {\n\n&nbsp;   @Override\n\n&nbsp;   public void onPacketReceive(PacketReceiveEvent event) {\n\n&nbsp;       // The user represents the player.\n\n&nbsp;       User user = event.getUser();\n\n&nbsp;       // Identify what kind of packet it is.\n\n&nbsp;       if (event.getPacketType() != PacketType.Play.Client.CHAT\\_MESSAGE)\n\n&nbsp;           return;\n\n&nbsp;       // Use the correct wrapper to process this packet.\n\n&nbsp;       WrapperPlayClientChatMessage chatMessage = new WrapperPlayClientChatMessage(event);\n\n&nbsp;       // Access the data within the wrapper using its \"getters\"\n\n&nbsp;       String message = chatMessage.getMessage();\n\n&nbsp;       // Check if the message is \"ping\"\n\n&nbsp;       if (message.equalsIgnoreCase(\"ping\")) {\n\n&nbsp;           //Respond with a \"pong\" message to the client.\n\n&nbsp;           user.sendMessage(\"pong\");\n\n&nbsp;       }\n\n&nbsp;   }\n\n}\n\n```\n\n\n\nThe user represents the player (or client).\n\n\n\nSince PacketEvents supports multiple platforms, we offer functionality that is capable of running on all those platforms within our User instance.\n\nYou don't have to use our user instance, you could replace it with the Bukkit player:\n\n\n\n\\&#x20;Player player = event.getPlayer();\n\nThe wrapper used to process the packet must match with the packet type, hence you should always check the type of a packet before you process it.\n\nPlease note that Bukkit imposes limitations on asynchronous access, potentially hindering accessibility to certain functionalities within your PacketEvents listener. You'll typically encounter issues with features within Bukkit pertaining to the Minecraft World.\\&#x20;\n\n",
+      "source_file": "creating-your-first-listener.md"
+    },
+    {
+      "title": "Check for updates",
+      "content": "PacketEvents has configurable settings, allowing you to tweak the behavior of the library. However, changing these settings is not recommendedif you are depending on an external version of PacketEvents. This can lead to incompatibilitiesbetween PacketEvents plugins if their demands contradict each other. This is written primarily for users shading the library.\n\n\n\nHere is how you access the current settings instance. Configuration should be done prior to loading the PacketEvents instance.\n\n\n\n```java\n\nPacketEventsSettings settings = instance.getSettings();\n\n```",
+      "source_file": "creating-your-packetevents-instance-specifying-packetevents-settings.md"
+    },
+    {
+      "title": "Debug",
+      "content": "By default, PacketEvents will always check for updates as soon as you \\*\\*initialize\\*\\* your PacketEvents instance. Here is how you can configure this action.\n\n\n\n```java\n\nsettings.checkForUpdates(false);\n\n```",
+      "source_file": "creating-your-packetevents-instance-specifying-packetevents-settings.md"
+    },
+    {
+      "title": "Timestamp Mode",
+      "content": "This determines whether PacketEvents should print debug messages to your console. Connecting clients (and some of their information) can be debugged. (if this is toggled on)\n\n\n\n```java\n\nsettings.debug(false);\n\n```",
+      "source_file": "creating-your-packetevents-instance-specifying-packetevents-settings.md"
+    },
+    {
+      "title": "You can also specify all the settings in one line like this.",
+      "content": "Events in PacketEvents provide a timestamp. This allows developers to accurately assess when an event occurred. This setting allows developers to configure what unit of time should be used when measuring. In other words, how precise should the timestamp measurement be?\n\n\n\n```java\n\nsettings.timeStampMode(TimeStampMode.MILLIS);\n\n```",
+      "source_file": "creating-your-packetevents-instance-specifying-packetevents-settings.md"
+    },
+    {
+      "title": "You can also specify all the settings in one line like this.",
+      "content": "```java\n\nsettings.checkForUpdates(false).debug(false);\n\n```",
+      "source_file": "creating-your-packetevents-instance-specifying-packetevents-settings.md"
+    },
+    {
+      "title": "Creating Your PacketEvents Instance",
+      "content": "Here is an example of a class that initializes and terminates a PacketEvents instance on Bukkit.\n\n\n\n```java\n\nimport com.github.retrooper.packetevents.PacketEvents;\n\nimport com.github.retrooper.packetevents.event.PacketListenerPriority;\n\nimport io.github.retrooper.packetevents.factory.spigot.SpigotPacketEventsBuilder;\n\nimport org.bukkit.plugin.java.JavaPlugin;\n\n\n\npublic class Main extends JavaPlugin {\n\n\n\n&nbsp;   @Override\n\n&nbsp;   public void onLoad() {\n\n&nbsp;       PacketEvents.setAPI(SpigotPacketEventsBuilder.build(this));\n\n&nbsp;       //On Bukkit, calling this here is essential, hence the name \"load\"\n\n&nbsp;       PacketEvents.getAPI().load();\n\n&nbsp;   }\n\n\n\n&nbsp;   @Override\n\n&nbsp;   public void onEnable() {\n\n&nbsp;       //Initialize!\n\n&nbsp;       PacketEvents.getAPI().init();\n\n&nbsp;   }\n\n\n\n&nbsp;   @Override\n\n&nbsp;   public void onDisable() {\n\n&nbsp;       //Terminate the instance (clean up process)\n\n&nbsp;       PacketEvents.getAPI().terminate();\n\n&nbsp;   }\n\n}\n\n```\n\n\n\nMore examples are available on our \\*\\*examples repository\\*\\*\n\n{% embed url=\"<https://github.com/retrooper/packetevents-example>\" fullWidth=\"false\" %}",
+      "source_file": "creating-your-packetevents-instance.md"
+    },
+    {
+      "title": "Does PacketEvents have a Discord Server?",
+      "content": "Do not worry if you haven't grasped all the answers just yet. This section assumes a certain level of familiarity with the library. Consider it a TL;DR to get oriented, and feel free to navigate directly to the detailed guide if needed.",
+      "source_file": "faq.md"
+    },
+    {
+      "title": "Is PacketEvents free software?",
+      "content": "Yes. You can ask for support on the \\[discord server](https://discord.gg/DVHxPPxHZc). If you wish to report a bug, please resort to our \\[GitHub issues](https://github.com/retrooper/packetevents/issues) section.",
+      "source_file": "faq.md"
+    },
+    {
+      "title": "Should I shade the PacketEvents API into my plugin?",
+      "content": "Yes. PacketEvents is free software. Learn more about what that means \\[here](https://www.gnu.org/philosophy/free-sw.html). Moreover, PacketEvents is licensed under the GPLv3.",
+      "source_file": "faq.md"
+    },
+    {
+      "title": "Cause #2",
+      "content": "Your server probably can't find the PacketEvents API. You can fix this by shading the dependency into your plugin or downloading the plugin version from SpigotMC or Modrinth on your server.",
+      "source_file": "faq.md"
+    },
+    {
+      "title": "Cause #2",
+      "content": "The version of PacketEvents your plugin is using is not compatible with the version that is being shaded into your plugin or that is present on the server.",
+      "source_file": "faq.md"
+    },
+    {
+      "title": "\\*\\*To use PacketEvents in your project, you will need to add the following repository and dependency:\\*\\*",
+      "content": "PacketEvents runs on various platforms, thus encompassing multiple modules. To ensure correct implementation, it's vital to specify the module you'll be utilizing.\n\n\n\nThe code blocks provided below include a placeholder \\*\\*PLATFORM\\*\\*; please substitute it with one of the supported modules: \\*\\*\\*spigot, velocity, bungeecord, fabric, sponge\\*\\*\\*",
+      "source_file": "getting-started.md"
+    },
+    {
+      "title": "Repository",
+      "content": "{% tabs %}\n\n{% tab title=\"Maven\" %}",
+      "source_file": "getting-started.md"
+    },
+    {
+      "title": "Dependency",
+      "content": "<pre class=\"language-xml\" data-full-width=\"false\"><code class=\"lang-xml\">\\&#x3C;repository>\n\n&nbsp;   \\&#x3C;id>codemc-releases\\&#x3C;/id>\n\n<strong>    \\&#x3C;url>https://repo.codemc.io/repository/maven-releases/\\&#x3C;/url>\n\n</strong>\\&#x3C;/repository>\n\n<strong>\\&#x3C;repository>\n\n</strong>    \\&#x3C;id>codemc-snapshots\\&#x3C;/id>\n\n&nbsp;   \\&#x3C;url>https://repo.codemc.io/repository/maven-snapshots/\\&#x3C;/url>\n\n\\&#x3C;/repository>\n\n</code></pre>",
+      "source_file": "getting-started.md"
+    },
+    {
+      "title": "Repository",
+      "content": "```xml\n\n<dependency>\n\n&nbsp;   <groupId>com.github.retrooper</groupId>\n\n&nbsp;   <artifactId>packetevents-PLATFORM</artifactId>\n\n&nbsp;   <version>2.10.1</version>\n\n&nbsp;   <scope>provided</scope>\n\n</dependency>\n\n```\n\n\n\n{% endtab %}\n\n\n\n{% tab title=\"Gradle\" %}",
+      "source_file": "getting-started.md"
+    },
+    {
+      "title": "Dependency",
+      "content": "{% code fullWidth=\"false\" %}\n\n\n\n```gradle\n\nmaven { url = uri(\"https://repo.codemc.io/repository/maven-releases/\") }\n\n\n\nmaven { url = uri(\"https://repo.codemc.io/repository/maven-snapshots/\") }\n\n```\n\n\n\n{% endcode %}",
+      "source_file": "getting-started.md"
+    },
+    {
+      "title": "Dependency",
+      "content": "```gradle\n\ncompileOnly(\"com.github.retrooper:packetevents-PLATFORM:2.10.1\")\n\n```\n\n\n\n{% endtab %}\n\n{% endtabs %}",
+      "source_file": "getting-started.md"
+    },
+    {
+      "title": "Instance Creation",
+      "content": "The majority of features offered by PacketEvents are accessible through the PacketEvents instance. If you decide to shade the library, you are responsible for initializing and terminating the instance.",
+      "source_file": "master.md"
+    },
+    {
+      "title": "Settings",
+      "content": "The PacketEvents instance is your friend and allows you to access functionality within our API. This instance can be created using the `PacketEvents builder` of your `PacketEvents implementation`.\n\n\n\nE.g. SpigotPacketEventsBuilder (for Minecraft Spigot-based platforms)\n\n",
+      "source_file": "master.md"
+    },
+    {
+      "title": "Initialization",
+      "content": "Settings in your `PacketEvents` instance can change the way the API behaves. Only do this if you are shading the library. Modifying certain settings on an external version of `PacketEvents` could break other plugins.",
+      "source_file": "master.md"
+    },
+    {
+      "title": "Termination",
+      "content": "The `PacketEvents` instance offers two functions for initialization: the `load` method and the `init` method.\\&#x20;\n\n\n\nMost importantly, initialization should only be done if you are shading the library. The `load` method must be called before the `init` method. Normally, the `init` method is sufficient, but for Spigot, it is crucial to call `load` as soon as the plugin loads and then call `init` once the plugin is enabled.",
+      "source_file": "master.md"
+    },
+    {
+      "title": "Termination",
+      "content": "Once you have finished using your PacketEvents instance, terminate it! (if you aren't shading) You usually want to terminate the instance as soon as your plugin has been disabled.",
+      "source_file": "master.md"
+    },
+    {
+      "title": "Prerequisites",
+      "content": "Previously, we mentioned that PacketEvents is a library that facilitates the transmission and processing of packets on Minecraft. Thus, some knowledge of the Minecraft Protocol is definitely necessary. PacketEvents simply wraps the protocol; it is not here to explain the intricacies of the protocol to you. The Minecraft Protocol constantly changes and therefore requires you to frequently follow up and stay up to date.\n\n\n\nMoreover, this is a Minecraft networking library; hence, networking knowledge is also a prerequisite. Minecraft Java Edition uses the TCP/IP protocol, and thus it would be great to have some knowledge about that. Developers utilize packets for direct communication with clients. This is powerful because it lets you provide each player with a unique experience.\n\n\n\nFurthermore, experience with threading and concurrency is essential. It is well known that packets are typically processed asynchronously. Slow transmission of packets is not supposed to make your game stutter. If Minecraft was actually implemented on just one thread, having high ping would drop your framerate. Since we're working with a multi-threaded system, this mandates you to design your project with caution.\n\n\n\nBasic Networking\n\nMinecraft Java Edition Protocol\n\nJava's Threading and Concurrency.\n\n",
+      "source_file": "prerequisites.md"
+    },
+    {
+      "title": "Registering a Packet Listener",
+      "content": "Finally, you've now created your packet listener class. Let's make it effective by registering it!\n\n\n\n<pre class=\"language-java\"><code class=\"lang-java\">@Override\n\npublic void onLoad() {\n\n<strong>    /\\* We will register our packet listeners in the onLoad method \\*/\n\n</strong>    PacketEvents.getAPI().getEventManager().registerListener(\n\n&nbsp;       new PacketEventsPacketListener(), PacketListenerPriority.NORMAL);\n\n&nbsp;   \n\n}\n\n</code></pre>",
+      "source_file": "registering-a-packet-listener.md"
+    },
+    {
+      "title": "Sending Packets using the PacketEvents Cross-Platform User",
+      "content": "Sending packets is another feature provided by PacketEvents. Firstly, you need to know what kind of packet you want to send to the client. The next step is finding the appropriate wrapper in PacketEvents. You'll then create an instance of the wrapper, and finally, you'll send it to the client using our API.\\&#x20;\n\n\n\nWe'll illustrate how you can send packets using an example. Let's send the client an \"Update Health\" packet, resetting their food and health values. Information about this specific packet is available \\[here](https://minecraft.wiki/w/Minecraft\\_Wiki:Projects/wiki.vg\\_merge/Protocol).",
+      "source_file": "sending-and-simulating-packets.md"
+    },
+    {
+      "title": "Sending Packets using the Bukkit (or Velocity) Player",
+      "content": "```java\n\nUser user = ...;\n\n// Create the packet (feed it all the data it needs).\n\nWrapperPlayServerUpdateHealth packet = new WrapperPlayServerUpdateHealth(\n\n&nbsp;   20.0F, // Health (0-20)\n\n&nbsp;   20, // Food (0-20)\n\n&nbsp;   5.0F); // Food saturation (0-5)\n\n// Finally, send it to the user.\n\nuser.sendPacket(packet);\n\n```",
+      "source_file": "sending-and-simulating-packets.md"
+    },
+    {
+      "title": "Sending Packets using the BungeeCord ProxiedPlayer",
+      "content": "```java\n\nPlayer player = ...;\n\n// Create the packet (feed it all the data it needs).\n\nWrapperPlayServerUpdateHealth packet = new WrapperPlayServerUpdateHealth(\n\n&nbsp;   20.0F, // Health (0-20)\n\n&nbsp;   20, // Food (0-20)\n\n&nbsp;   5.0F); // Food saturation (0-5)\n\n// Finally, send it to the player.\n\nPacketEvents.getAPI().getPlayerManager().sendPacket(player, packet);\n\n```",
+      "source_file": "sending-and-simulating-packets.md"
+    },
+    {
+      "title": "Simulating Packets",
+      "content": "```java\n\nProxiedPlayer player = ...;\n\n// Create the packet (feed it all the data it needs).\n\nWrapperPlayServerUpdateHealth packet = new WrapperPlayServerUpdateHealth(\n\n&nbsp;   20.0F, // Health (0-20)\n\n&nbsp;   20, // Food (0-20)\n\n&nbsp;   5.0F); // Food saturation (0-5)\n\n// Finally, send it to the player.\n\nPacketEvents.getAPI().getPlayerManager().sendPacket(player, packet);\n\n```\n\n\n\nConfirm that the packet you are sending is supported by your Minecraft version.\n\n",
+      "source_file": "sending-and-simulating-packets.md"
+    },
+    {
+      "title": "Simulating Packets using the PacketEvents Cross-Platform User",
+      "content": "Packet simulation is also supported in PacketEvents. Now, what do we mean by \"packet simulation\"? From the server's perspective, sending packets means that the server is the one sending information to the client. It therefore follows that the reception of packets, in this context, means that the server is receiving information from a client. PacketEvents allows us to \"trick\" the server and send a fake packet on behalf of a client. Be cautious, readers! Using this feature can break the functionality of other pluginson your server; hence, you should avoid it whenever possible.\n\n\n\nWe'll demonstrate how you can simulate packets using an example. Let's simulate an Animation (Swing Arm) packet, making it appear like the client swung their arm. More information about this specific packet is available \\[here](https://minecraft.wiki/w/Minecraft\\_Wiki:Projects/wiki.vg\\_merge/Protocol#Swing\\_Arm).\n\n\n\nThis feature might break the functionality of other plugins\n\n",
+      "source_file": "sending-and-simulating-packets.md"
+    },
+    {
+      "title": "Simulating Packets using the Bukkit (or Velocity) Player",
+      "content": "```java\n\nUser user = ...;\n\n// Create the packet (feed it all the data it needs).\n\nWrapperPlayClientAnimation packet = new WrapperPlayClientAnimation(\n\n&nbsp;   InteractionHand.MAIN\\_HAND);\n\n// Finally, fake the incoming packet.\n\nuser.receivePacket(packet);\n\n```",
+      "source_file": "sending-and-simulating-packets.md"
+    },
+    {
+      "title": "Simulating Packets using the BungeeCord ProxiedPlayer",
+      "content": "```java\n\nPlayer player = ...;\n\n// Create the packet (feed it all the data it needs).\n\nWrapperPlayClientAnimation packet = new WrapperPlayClientAnimation(\n\n&nbsp;   InteractionHand.MAIN\\_HAND);\n\n// Finally, fake the incoming packet.\n\nPacketEvents.getAPI().getPlayerManager().receivePacket(player, packet);\n\n\n\n```",
+      "source_file": "sending-and-simulating-packets.md"
+    },
+    {
+      "title": "Sending and Simulating Packets... Silently?",
+      "content": "```java\n\nProxiedPlayer player = ...;\n\nWrapperPlayClientAnimation packet = new WrapperPlayClientAnimation(\n\n&nbsp;   InteractionHand.MAIN\\_HAND);\n\n// Finally, fake the incoming packet.\n\nPacketEvents.getAPI().getPlayerManager().receivePacket(player, packet);\n\n```",
+      "source_file": "sending-and-simulating-packets.md"
+    },
+    {
+      "title": "Sending Packets Silently",
+      "content": "The title might seem a tad bit confusing, so we'll clarify what we mean by that. Above, you not only learned how to send packets, but also how to fake incoming packets. These features are useful to many developers, yet still might cause some issues (E.g. StackOverflowException). You might want to differentiate between the packets that you caused and the packets that you did not cause. The simplest way of doing so is by sending or simulating packets \"silently\". This will still perform the action, but it will not trigger your packet listener. Yet again, this is something you want to be cautious with. This feature can break compatibility with other plugins, thus please avoid it if possible.\n\n\n\nThis feature might break the functionality of other plugins\n\n",
+      "source_file": "sending-and-simulating-packets.md"
+    },
+    {
+      "title": "Simulating Packets Silently",
+      "content": "```java\n\nUser user = ...;\n\n//Create the packet (feed it all the data it needs).\n\nWrapperPlayServerUpdateHealth packet = new WrapperPlayServerUpdateHealth(\n\n&nbsp;   20.0F, // Health (0-20)\n\n&nbsp;   20, // Food (0-20)\n\n&nbsp;   5.0F); // Food saturation (0-5)\n\n//Finally, send it to the user without triggering their listeners.\n\nuser.sendPacketSilently(packet);\n\n```",
+      "source_file": "sending-and-simulating-packets.md"
+    },
+    {
+      "title": "Simulating Packets Silently",
+      "content": "```java\n\nUser user = ...;\n\n// Create the packet (feed it all the data it needs).\n\nWrapperPlayClientAnimation packet = new WrapperPlayClientAnimation(\n\n&nbsp;   InteractionHand.MAIN\\_HAND);\n\n// Finally, fake the incoming packet without triggering their listeners.\n\nuser.receivePacketSilently(packet);\n\n```",
+      "source_file": "sending-and-simulating-packets.md"
+    },
+    {
+      "title": "Listener Priorities",
+      "content": "The packet listener is a feature provided by PacketEvents to read, modify, cancel, and delay packets. All packets in the game invoke the packet listener. Moreover, PacketEvents offers the PacketType registry, which allows you to detect what kind of packet is being sent or received. Once you have detected your desired packet, you may utilize our wrappers for reading and/or modification.\n\n\n\nFurthermore, if you wish to modify a packet in your listener, simply using setters in your packet wrappers does not suffice. PacketEvents optimizesperformance by only applying changes to the packet if you explicitly markthe event to be re-encoded.\n\n\n\nMark the event to be re-encoded whenever you apply changes to a packet.\n\n",
+      "source_file": "what-is-a-packetevents-listener.md"
+    },
+    {
+      "title": "Listener Priorities",
+      "content": "You can register as many listeners as you want; hence, having some sort of order in PacketEvents is necessary. Just like the Bukkit API, PacketEvents allows you to assign priorities to your listeners. The LOWESTpriority is the first to be invoked, while the MONITORpriority is the last to be invoked. The listener with the HIGHESTpriority has the final say on the state of packets.\n\n\n\nValid priorities can be viewed \\[here](https://packetevents.github.io/com/github/retrooper/packetevents/event/PacketListenerPriority.html).\\&#x20;\n\n\n\nPlease avoid modifyingpackets in the MONITORpriority:\n\n\n\n\\* Only use this priority if you want to perform logic based on the outcome of the event.\n\n&nbsp; If possible, pick the NORMALpriority:\n\n\n\n\\* This allows other projects to easily overturn your decisions.\n\n&nbsp; ",
+      "source_file": "what-is-a-packetevents-listener.md"
+    }
+  ],
+  "section_count": 39,
+  "artifact": "com.github.retrooper:packetevents-api",
+  "repository": "https://repo.codemc.io/repository/maven-releases/"
+}

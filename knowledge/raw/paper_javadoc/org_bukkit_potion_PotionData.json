@@ -1,0 +1,13 @@
+{
+  "class_name": "org.bukkit.potion.PotionData",
+  "methods": [
+    "public org.bukkit.potion.PotionData(org.bukkit.potion.PotionType, boolean, boolean)",
+    "public org.bukkit.potion.PotionData(org.bukkit.potion.PotionType)",
+    "public org.bukkit.potion.PotionType getType()",
+    "public boolean isUpgraded()",
+    "public boolean isExtended()",
+    "public int hashCode()",
+    "public boolean equals(java.lang.Object)"
+  ],
+  "method_count": 7
+}

@@ -1,0 +1,12 @@
+{
+  "class_name": "org.bukkit.block.data.type.Crafter",
+  "methods": [
+    "public abstract boolean isCrafting()",
+    "public abstract void setCrafting(boolean)",
+    "public abstract boolean isTriggered()",
+    "public abstract void setTriggered(boolean)",
+    "public abstract org.bukkit.block.Orientation getOrientation()",
+    "public abstract void setOrientation(org.bukkit.block.Orientation)"
+  ],
+  "method_count": 6
+}

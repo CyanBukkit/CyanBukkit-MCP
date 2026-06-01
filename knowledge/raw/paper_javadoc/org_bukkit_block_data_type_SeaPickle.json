@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.block.data.type.SeaPickle",
+  "methods": [
+    "public abstract int getPickles()",
+    "public abstract void setPickles(int)",
+    "public abstract int getMinimumPickles()",
+    "public abstract int getMaximumPickles()"
+  ],
+  "method_count": 4
+}

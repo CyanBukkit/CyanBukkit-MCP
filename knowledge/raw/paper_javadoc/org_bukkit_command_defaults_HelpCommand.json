@@ -1,0 +1,11 @@
+{
+  "class_name": "org.bukkit.command.defaults.HelpCommand",
+  "methods": [
+    "public org.bukkit.command.defaults.HelpCommand()",
+    "public boolean execute(org.bukkit.command.CommandSender, java.lang.String, java.lang.String[])",
+    "public java.util.List<java.lang.String> tabComplete(org.bukkit.command.CommandSender, java.lang.String, java.lang.String[])",
+    "protected org.bukkit.help.HelpTopic findPossibleMatches(java.lang.String)",
+    "protected static int damerauLevenshteinDistance(java.lang.String, java.lang.String)"
+  ],
+  "method_count": 5
+}

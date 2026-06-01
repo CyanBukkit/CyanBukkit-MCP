@@ -1,0 +1,22 @@
+{
+  "class_name": "org.bukkit.Registry",
+  "methods": [
+    "public abstract T get(org.bukkit.NamespacedKey)",
+    "public default T get(net.kyori.adventure.key.Key)",
+    "public default T get(io.papermc.paper.registry.TypedKey<T>)",
+    "public default T getOrThrow(net.kyori.adventure.key.Key)",
+    "public default T getOrThrow(io.papermc.paper.registry.TypedKey<T>)",
+    "public default org.bukkit.NamespacedKey getKeyOrThrow(T)",
+    "public abstract org.bukkit.NamespacedKey getKey(T)",
+    "public abstract boolean hasTag(io.papermc.paper.registry.tag.TagKey<T>)",
+    "public abstract io.papermc.paper.registry.tag.Tag<T> getTag(io.papermc.paper.registry.tag.TagKey<T>)",
+    "public default java.util.Collection<T> getTagValues(io.papermc.paper.registry.tag.TagKey<T>)",
+    "public abstract java.util.Collection<io.papermc.paper.registry.tag.Tag<T>> getTags()",
+    "public default T getOrThrow(org.bukkit.NamespacedKey)",
+    "public abstract java.util.stream.Stream<T> stream()",
+    "public abstract java.util.stream.Stream<org.bukkit.NamespacedKey> keyStream()",
+    "public default T match(java.lang.String)",
+    "public abstract int size()"
+  ],
+  "method_count": 16
+}

@@ -1,0 +1,17 @@
+{
+  "class_name": "org.bukkit.material.Dispenser",
+  "methods": [
+    "public org.bukkit.material.Dispenser()",
+    "public org.bukkit.material.Dispenser(org.bukkit.block.BlockFace)",
+    "public org.bukkit.material.Dispenser(org.bukkit.Material)",
+    "public org.bukkit.material.Dispenser(org.bukkit.Material, byte)",
+    "public void setFacingDirection(org.bukkit.block.BlockFace)",
+    "public org.bukkit.block.BlockFace getFacing()",
+    "public org.bukkit.material.Dispenser clone()",
+    "public org.bukkit.material.FurnaceAndDispenser clone()",
+    "public org.bukkit.material.DirectionalContainer clone()",
+    "public org.bukkit.material.MaterialData clone()",
+    "public java.lang.Object clone()"
+  ],
+  "method_count": 11
+}

@@ -1,0 +1,7 @@
+{
+  "class_name": "org.bukkit.inventory.InventoryHolder",
+  "methods": [
+    "public abstract org.bukkit.inventory.Inventory getInventory()"
+  ],
+  "method_count": 1
+}

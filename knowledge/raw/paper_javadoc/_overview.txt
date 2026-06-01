@@ -1,0 +1,382 @@
+Overview (paper-api 1.21.4-R0.1-SNAPSHOT API)
+JavaScript is disabled on your browser.
+You are looking at old Javadocs for Paper 1.21.4.
+    Click here to look at Paper 26.1.2 instead.
+Skip navigation links
+Overview
+Package
+Class
+Use
+Tree
+Deprecated
+Index
+Help
+SEARCH
+paper-api 1.21.4-R0.1-SNAPSHOT API
+Bukkit, the plugin development framework.
+The documentation is for developing plugins and is split into the
+    respective packages for each subject matter. This documentation does not
+    cover running a server, contributing code back to the project, or setting
+    up a workspace. Working knowledge of the Java language is a prerequisite
+    for developing plugins.
+For basic plugin development, see the
+plugin
+    package
+. It covers the basic requirements of a plugin jar.
+For handling events and triggered code, see the
+event package
+.
+Note: While the Bukkit API makes every effort to ensure stability, this is
+    not guaranteed, especially across major versions. In particular the
+    following is a (incomplete) list of things that are
+not
+API.
+Implementing interfaces or extending classes. The Bukkit API is designed to only be
+    implemented by server software. Unless a class/interface is obviously
+    designed for extension (eg
+BukkitRunnable
+), or
+    explicitly marked as such, it should not be implemented or extended by plugins. Although
+    this can sometimes work, it is not guaranteed to do so and resulting bugs
+    will be disregarded.
+Constructing inbuilt events. Although backwards compatibility is
+    attempted where possible, it is sometimes not possible to add new fields to
+    events without breaking existing constructors. To ensure that the API
+    continues to evolve, event constructors are therefore not plugin API.
+Implementation classes. Concrete implementation classes packaged with
+    Bukkit (eg those beginning with Simple) are not API. You should access them
+    via their interfaces instead.
+The "enumness" of enums which implement
+Keyed
+.
+    Such enums are liable to conversion to regular classes and therefore
+    usages deriving from their status as an enum (including, but not limited
+    to, use in switch statements and classes such as
+EnumSet
+)
+    should be avoided.
+Packages
+Package
+Description
+co.aikar.timings
+co.aikar.util
+com.destroystokyo.paper
+com.destroystokyo.paper.block
+com.destroystokyo.paper.brigadier
+com.destroystokyo.paper.entity
+com.destroystokyo.paper.entity.ai
+com.destroystokyo.paper.entity.villager
+com.destroystokyo.paper.event.block
+com.destroystokyo.paper.event.brigadier
+com.destroystokyo.paper.event.entity
+com.destroystokyo.paper.event.inventory
+com.destroystokyo.paper.event.player
+com.destroystokyo.paper.event.profile
+com.destroystokyo.paper.event.server
+com.destroystokyo.paper.exception
+com.destroystokyo.paper.inventory.meta
+com.destroystokyo.paper.loottable
+com.destroystokyo.paper.network
+com.destroystokyo.paper.profile
+com.destroystokyo.paper.util
+com.destroystokyo.paper.utils
+io.papermc.paper
+io.papermc.paper.advancement
+io.papermc.paper.annotation
+io.papermc.paper.ban
+io.papermc.paper.block
+io.papermc.paper.block.fluid
+io.papermc.paper.block.fluid.type
+io.papermc.paper.brigadier
+io.papermc.paper.chat
+io.papermc.paper.command
+io.papermc.paper.command.brigadier
+io.papermc.paper.command.brigadier.argument
+io.papermc.paper.command.brigadier.argument.predicate
+io.papermc.paper.command.brigadier.argument.range
+io.papermc.paper.command.brigadier.argument.resolvers
+io.papermc.paper.command.brigadier.argument.resolvers.selector
+io.papermc.paper.datacomponent
+io.papermc.paper.datacomponent.item
+io.papermc.paper.datacomponent.item.consumable
+io.papermc.paper.datapack
+io.papermc.paper.enchantments
+io.papermc.paper.entity
+io.papermc.paper.event.block
+io.papermc.paper.event.entity
+io.papermc.paper.event.executor
+io.papermc.paper.event.packet
+io.papermc.paper.event.player
+io.papermc.paper.event.server
+io.papermc.paper.event.world
+io.papermc.paper.event.world.border
+io.papermc.paper.generated
+io.papermc.paper.inventory
+io.papermc.paper.inventory.tooltip
+io.papermc.paper.item
+io.papermc.paper.math
+io.papermc.paper.persistence
+io.papermc.paper.plugin
+io.papermc.paper.plugin.bootstrap
+io.papermc.paper.plugin.configuration
+The paper configuration package contains the new java representation of a plugins configuration file.
+io.papermc.paper.plugin.lifecycle.event
+io.papermc.paper.plugin.lifecycle.event.handler
+io.papermc.paper.plugin.lifecycle.event.handler.configuration
+io.papermc.paper.plugin.lifecycle.event.registrar
+io.papermc.paper.plugin.lifecycle.event.types
+io.papermc.paper.plugin.loader
+io.papermc.paper.plugin.loader.library
+io.papermc.paper.plugin.loader.library.impl
+io.papermc.paper.plugin.provider.classloader
+io.papermc.paper.plugin.provider.entrypoint
+io.papermc.paper.plugin.provider.util
+io.papermc.paper.potion
+io.papermc.paper.raytracing
+io.papermc.paper.registry
+io.papermc.paper.registry.data
+Collection of registry entry types that may be created or modified via the
+RegistryEvent
+.
+io.papermc.paper.registry.event
+io.papermc.paper.registry.event.type
+io.papermc.paper.registry.keys
+io.papermc.paper.registry.keys.tags
+io.papermc.paper.registry.set
+io.papermc.paper.registry.tag
+io.papermc.paper.scoreboard.numbers
+io.papermc.paper.tag
+io.papermc.paper.text
+io.papermc.paper.threadedregions.scheduler
+io.papermc.paper.util
+io.papermc.paper.world
+io.papermc.paper.world.flag
+org.bukkit
+The root package of the Bukkit API, contains generalized API classes.
+org.bukkit.advancement
+Classes relevant to advancements.
+org.bukkit.attribute
+Classes relevant to attributes.
+org.bukkit.ban
+Classes relevant to bans.
+org.bukkit.block
+Classes used to manipulate the voxels in a
+world
+,
+ including special states.
+org.bukkit.block.banner
+Classes relevant to banner blocks.
+org.bukkit.block.data
+Generalized BlockData classes.
+org.bukkit.block.data.type
+Specific BlockData classes relevant to only a given block or set of blocks.
+org.bukkit.block.sign
+Classes relevant to signs.
+org.bukkit.block.spawner
+Classes relevant to mob spawners.
+org.bukkit.block.structure
+Classes relevant to structure blocks.
+org.bukkit.boss
+Classes concerning the creation of boss bars that appear at the top of the
+ player's screen.
+org.bukkit.command
+Classes relating to handling specialized non-chat player input.
+org.bukkit.command.defaults
+Commands for emulating the Minecraft commands and other necessary ones for
+ use by a Bukkit implementation.
+org.bukkit.configuration
+Classes dedicated to handling a plugin's runtime configuration.
+org.bukkit.configuration.file
+Classes dedicated to facilitating
+configurations
+to be read and
+ stored on the filesystem.
+org.bukkit.configuration.serialization
+Classes dedicated to being able to perform serialization specialized for
+ the Bukkit
+configuration
+implementation.
+org.bukkit.conversations
+Classes dedicated to facilitate direct player-to-plugin communication.
+org.bukkit.damage
+Classes concerning damage types and sources applicable to living entities.
+org.bukkit.enchantments
+Classes relating to the specialized enhancements to
+item stacks
+, as part of the
+meta data
+.
+org.bukkit.entity
+Interfaces for non-voxel objects that can exist in a
+world
+, including all players, monsters, projectiles, etc.
+org.bukkit.entity.boat
+Interfaces for various
+Boat
+types.
+org.bukkit.entity.memory
+Classes concerning an entity's persistent memory.
+org.bukkit.entity.minecart
+Interfaces for various
+Minecart
+types.
+org.bukkit.event
+Classes dedicated to handling triggered code executions.
+org.bukkit.event.block
+Events
+relating to when a
+block
+is changed or interacts with the
+world
+.
+org.bukkit.event.command
+org.bukkit.event.enchantment
+Events
+triggered from an
+enchantment table
+.
+org.bukkit.event.entity
+Events
+relating to
+entities
+, excluding some directly referencing
+ some more specific entity types.
+org.bukkit.event.hanging
+Events
+relating to
+entities that hang
+.
+org.bukkit.event.inventory
+Events
+relating to
+inventory
+manipulation.
+org.bukkit.event.player
+Events
+relating to
+players
+.
+org.bukkit.event.raid
+Events
+related to raids.
+org.bukkit.event.server
+Events
+relating to programmatic state
+ changes on the server.
+org.bukkit.event.vehicle
+Events
+relating to
+vehicular entities
+.
+org.bukkit.event.weather
+Events
+relating to weather.
+org.bukkit.event.world
+Events
+triggered by various
+world
+states or changes.
+org.bukkit.generator
+Classes to facilitate
+world
+generation
+ implementation.
+org.bukkit.generator.structure
+Classes to facilitate world
+Structure
+generation.
+org.bukkit.help
+Classes used to manipulate the default command and topic assistance system.
+org.bukkit.inventory
+Classes involved in manipulating player inventories and item interactions.
+org.bukkit.inventory.meta
+The interfaces used when manipulating extra data can can be stored inside
+item stacks
+.
+org.bukkit.inventory.meta.components
+Isolated components which may form part of item meta.
+org.bukkit.inventory.meta.tags
+Classes that allow attaching custom data to items.
+org.bukkit.inventory.meta.trim
+Armor trim meta types.
+org.bukkit.inventory.recipe
+New location for recipe-related classes.
+org.bukkit.inventory.view
+Package for
+InventoryView
+child interfaces that
+ house further usability for
+InventoryView
+.
+org.bukkit.inventory.view.builder
+A Package that contains builders for building InventoryViews.
+org.bukkit.loot
+Classes relevant to loot table manipulation and generation.
+org.bukkit.map
+Classes to facilitate plugin handling of
+map
+displays.
+org.bukkit.material
+Classes that represents various voxel types and states.
+org.bukkit.material.types
+Classes relevant to specific material types.
+org.bukkit.metadata
+Classes dedicated to providing a layer of plugin specified data on various
+ Minecraft concepts.
+org.bukkit.packs
+Classes dedicated to handling data pack information.
+org.bukkit.permissions
+Classes dedicated to providing binary state properties to players.
+org.bukkit.persistence
+Classes that allow attaching persistent data to various objects.
+org.bukkit.plugin
+Classes specifically relating to loading software modules at runtime.
+org.bukkit.plugin.java
+Classes for handling
+plugins
+written in
+ java.
+org.bukkit.plugin.messaging
+Classes dedicated to specialized plugin to client protocols.
+org.bukkit.potion
+Classes to represent various
+potion
+properties and manipulation.
+org.bukkit.profile
+Classes relevant to player profiles.
+org.bukkit.projectiles
+Classes to represent the source of a projectile
+org.bukkit.scheduler
+Classes dedicated to letting
+plugins
+run
+ code at specific time intervals, including thread safety.
+org.bukkit.scoreboard
+Interfaces used to manage the client side score display system.
+org.bukkit.spawner
+Classes related to entity spawners.
+org.bukkit.structure
+Classes related to creating or using
+structures
+without creating
+Structure
+ blocks
+in the world.
+org.bukkit.tag
+Tag
+-related API.
+org.bukkit.util
+Multi and single purpose classes to facilitate various programmatic
+ concepts.
+org.bukkit.util.io
+Classes used to facilitate stream processing for specific Bukkit concepts.
+org.bukkit.util.noise
+Classes dedicated to facilitating deterministic noise.
+org.bukkit.util.permissions
+Static methods for miscellaneous
+permission
+functionality.
+org.spigotmc
+Spigot-specific classes.
+org.spigotmc.event.player
+Spigot-specific player events.

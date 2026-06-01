@@ -1,0 +1,11 @@
+{
+  "class_name": "org.bukkit.permissions.PermissionAttachmentInfo",
+  "methods": [
+    "public org.bukkit.permissions.PermissionAttachmentInfo(org.bukkit.permissions.Permissible, java.lang.String, org.bukkit.permissions.PermissionAttachment, boolean)",
+    "public org.bukkit.permissions.Permissible getPermissible()",
+    "public java.lang.String getPermission()",
+    "public org.bukkit.permissions.PermissionAttachment getAttachment()",
+    "public boolean getValue()"
+  ],
+  "method_count": 5
+}

@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.PortalType",
+  "methods": [
+    "public static org.bukkit.PortalType[] values()",
+    "public static org.bukkit.PortalType valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

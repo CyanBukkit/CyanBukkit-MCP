@@ -1,0 +1,15 @@
+{
+  "class_name": "org.bukkit.event.inventory.TradeSelectEvent",
+  "methods": [
+    "public org.bukkit.event.inventory.TradeSelectEvent(org.bukkit.inventory.view.MerchantView, int)",
+    "public org.bukkit.inventory.MerchantInventory getInventory()",
+    "public org.bukkit.inventory.Merchant getMerchant()",
+    "public org.bukkit.inventory.view.MerchantView getView()",
+    "public int getIndex()",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()",
+    "public org.bukkit.inventory.InventoryView getView()",
+    "public org.bukkit.inventory.Inventory getInventory()"
+  ],
+  "method_count": 9
+}

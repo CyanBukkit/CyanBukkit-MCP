@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.block.TileState",
+  "methods": [
+    "public abstract org.bukkit.persistence.PersistentDataContainer getPersistentDataContainer()",
+    "public abstract boolean isSnapshot()",
+    "public default io.papermc.paper.persistence.PersistentDataContainerView getPersistentDataContainer()"
+  ],
+  "method_count": 3
+}

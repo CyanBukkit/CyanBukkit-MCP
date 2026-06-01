@@ -1,0 +1,9 @@
+{
+  "class_name": "TabExecutor",
+  "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/command/TabExecutor.html",
+  "description": "All Superinterfaces:\nCommandExecutor\n,\nTabCompleter\nAll Known Subinterfaces:\nPlugin\nAll Known Implementing Classes:\nJavaPlugin\n,\nPluginBase\npublic interface\nTabExecutor\nextends\nTabCompleter\n,\nCommandExecutor\nThis class is provided as a convenience to implement both TabCompleter and\n CommandExecutor.",
+  "methods": [],
+  "nested_classes": [],
+  "full_text": "Package\norg.bukkit.command\nInterface TabExecutor\nAll Superinterfaces:\nCommandExecutor\n,\nTabCompleter\nAll Known Subinterfaces:\nPlugin\nAll Known Implementing Classes:\nJavaPlugin\n,\nPluginBase\npublic interface\nTabExecutor\nextends\nTabCompleter\n,\nCommandExecutor\nThis class is provided as a convenience to implement both TabCompleter and\n CommandExecutor.\nMethod Summary\nMethods inherited from interface org.bukkit.command.\nCommandExecutor\nonCommand\nMethods inherited from interface org.bukkit.command.\nTabCompleter\nonTabComplete",
+  "method_count": 0
+}

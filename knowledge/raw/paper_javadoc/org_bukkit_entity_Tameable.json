@@ -1,0 +1,11 @@
+{
+  "class_name": "org.bukkit.entity.Tameable",
+  "methods": [
+    "public abstract boolean isTamed()",
+    "public abstract void setTamed(boolean)",
+    "public abstract java.util.UUID getOwnerUniqueId()",
+    "public abstract org.bukkit.entity.AnimalTamer getOwner()",
+    "public abstract void setOwner(org.bukkit.entity.AnimalTamer)"
+  ],
+  "method_count": 5
+}

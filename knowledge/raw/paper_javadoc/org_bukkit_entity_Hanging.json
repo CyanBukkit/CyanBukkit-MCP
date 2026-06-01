@@ -1,0 +1,7 @@
+{
+  "class_name": "org.bukkit.entity.Hanging",
+  "methods": [
+    "public abstract boolean setFacingDirection(org.bukkit.block.BlockFace, boolean)"
+  ],
+  "method_count": 1
+}

@@ -1,0 +1,28 @@
+{
+  "class_name": "org.bukkit.block.BlockType",
+  "methods": [
+    "public abstract org.bukkit.block.BlockType$Typed<org.bukkit.block.data.BlockData> typed()",
+    "public abstract <B extends org.bukkit.block.data.BlockData> org.bukkit.block.BlockType$Typed<B> typed(java.lang.Class<B>)",
+    "public abstract boolean hasItemType()",
+    "public abstract org.bukkit.inventory.ItemType getItemType()",
+    "public abstract java.lang.Class<? extends org.bukkit.block.data.BlockData> getBlockDataClass()",
+    "public abstract org.bukkit.block.data.BlockData createBlockData()",
+    "public abstract java.util.Collection<? extends org.bukkit.block.data.BlockData> createBlockDataStates()",
+    "public abstract org.bukkit.block.data.BlockData createBlockData(java.lang.String)",
+    "public abstract boolean isSolid()",
+    "public abstract boolean isFlammable()",
+    "public abstract boolean isBurnable()",
+    "public abstract boolean isOccluding()",
+    "public abstract boolean hasGravity()",
+    "public abstract boolean isInteractable()",
+    "public abstract float getHardness()",
+    "public abstract float getBlastResistance()",
+    "public abstract float getSlipperiness()",
+    "public abstract boolean isAir()",
+    "public abstract boolean isEnabledByFeature(org.bukkit.World)",
+    "public abstract org.bukkit.Material asMaterial()",
+    "public abstract java.lang.String getTranslationKey()",
+    "public abstract boolean hasCollision()"
+  ],
+  "method_count": 22
+}

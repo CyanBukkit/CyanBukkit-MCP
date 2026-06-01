@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.entity.memory.MemoryKey",
+  "methods": [
+    "public org.bukkit.NamespacedKey getKey()",
+    "public java.lang.Class<T> getMemoryClass()",
+    "public static org.bukkit.entity.memory.MemoryKey<?> getByKey(org.bukkit.NamespacedKey)",
+    "public static java.util.Set<org.bukkit.entity.memory.MemoryKey<?>> values()"
+  ],
+  "method_count": 4
+}

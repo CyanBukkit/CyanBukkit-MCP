@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.inventory.BlastingRecipe",
+  "methods": [
+    "public org.bukkit.inventory.BlastingRecipe(org.bukkit.NamespacedKey, org.bukkit.inventory.ItemStack, org.bukkit.Material, float, int)",
+    "public org.bukkit.inventory.BlastingRecipe(org.bukkit.NamespacedKey, org.bukkit.inventory.ItemStack, org.bukkit.inventory.RecipeChoice, float, int)"
+  ],
+  "method_count": 2
+}

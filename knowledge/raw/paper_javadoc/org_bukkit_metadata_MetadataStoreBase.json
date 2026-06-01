@@ -1,0 +1,14 @@
+{
+  "class_name": "org.bukkit.metadata.MetadataStoreBase",
+  "methods": [
+    "public org.bukkit.metadata.MetadataStoreBase()",
+    "public synchronized void setMetadata(T, java.lang.String, org.bukkit.metadata.MetadataValue)",
+    "public java.util.List<org.bukkit.metadata.MetadataValue> getMetadata(T, java.lang.String)",
+    "public boolean hasMetadata(T, java.lang.String)",
+    "public void removeMetadata(T, java.lang.String, org.bukkit.plugin.Plugin)",
+    "public void invalidateAll(org.bukkit.plugin.Plugin)",
+    "public void removeAll(org.bukkit.plugin.Plugin)",
+    "protected abstract java.lang.String disambiguate(T, java.lang.String)"
+  ],
+  "method_count": 8
+}

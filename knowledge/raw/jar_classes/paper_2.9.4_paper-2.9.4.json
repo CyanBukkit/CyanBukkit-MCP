@@ -1,0 +1,23 @@
+[
+  {
+    "jar": "C:\\Users\\SmallXY\\.m2\\repository\\su\\nightexpress\\nightcore\\paper\\2.9.4\\paper-2.9.4.jar",
+    "artifact": "paper/2.9.4/paper-2.9.4",
+    "class_count": 13,
+    "classes_sample": [
+      "su.nightexpress.nightcore.bridge.paper.bossbar.PaperBossBar",
+      "su.nightexpress.nightcore.bridge.paper.bossbar.PaperBossBarAdapter$1",
+      "su.nightexpress.nightcore.bridge.paper.bossbar.PaperBossBarAdapter",
+      "su.nightexpress.nightcore.bridge.paper.dialog.PaperDialogAdapter$1",
+      "su.nightexpress.nightcore.bridge.paper.dialog.PaperDialogAdapter",
+      "su.nightexpress.nightcore.bridge.paper.dialog.PaperDialogListener",
+      "su.nightexpress.nightcore.bridge.paper.PaperBridge",
+      "su.nightexpress.nightcore.bridge.paper.PaperProfile",
+      "su.nightexpress.nightcore.bridge.paper.text.PaperAdapter",
+      "su.nightexpress.nightcore.bridge.paper.text.PaperObjectContantsAdapter",
+      "su.nightexpress.nightcore.bridge.paper.text.PaperTextComponentAdapter$1",
+      "su.nightexpress.nightcore.bridge.paper.text.PaperTextComponentAdapter$Compat",
+      "su.nightexpress.nightcore.bridge.paper.text.PaperTextComponentAdapter"
+    ],
+    "truncated": false
+  }
+]

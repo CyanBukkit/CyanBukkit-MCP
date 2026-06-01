@@ -1,0 +1,12 @@
+{
+  "class_name": "org.bukkit.event.inventory.InventoryInteractEvent",
+  "methods": [
+    "public org.bukkit.event.inventory.InventoryInteractEvent(org.bukkit.inventory.InventoryView)",
+    "public org.bukkit.entity.HumanEntity getWhoClicked()",
+    "public void setResult(org.bukkit.event.Event$Result)",
+    "public org.bukkit.event.Event$Result getResult()",
+    "public boolean isCancelled()",
+    "public void setCancelled(boolean)"
+  ],
+  "method_count": 6
+}

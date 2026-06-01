@@ -1,0 +1,14 @@
+{
+  "class_name": "org.bukkit.entity.Guardian",
+  "methods": [
+    "public abstract boolean setLaser(boolean)",
+    "public abstract boolean hasLaser()",
+    "public abstract int getLaserDuration()",
+    "public abstract void setLaserTicks(int)",
+    "public abstract int getLaserTicks()",
+    "public abstract boolean isElder()",
+    "public abstract void setElder(boolean)",
+    "public abstract boolean isMoving()"
+  ],
+  "method_count": 8
+}

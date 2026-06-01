@@ -1,0 +1,13 @@
+{
+  "class_name": "org.bukkit.Note$Tone",
+  "methods": [
+    "public static org.bukkit.Note$Tone[] values()",
+    "public static org.bukkit.Note$Tone valueOf(java.lang.String)",
+    "public byte getId()",
+    "public byte getId(boolean)",
+    "public boolean isSharpable()",
+    "public boolean isSharped(byte)",
+    "public static org.bukkit.Note$Tone getById(byte)"
+  ],
+  "method_count": 7
+}

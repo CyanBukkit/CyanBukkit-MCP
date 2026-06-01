@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.attribute.Attributable",
+  "methods": [
+    "public abstract org.bukkit.attribute.AttributeInstance getAttribute(org.bukkit.attribute.Attribute)",
+    "public abstract void registerAttribute(org.bukkit.attribute.Attribute)"
+  ],
+  "method_count": 2
+}

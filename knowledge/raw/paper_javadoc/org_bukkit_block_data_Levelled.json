@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.block.data.Levelled",
+  "methods": [
+    "public abstract int getLevel()",
+    "public abstract void setLevel(int)",
+    "public abstract int getMaximumLevel()",
+    "public abstract int getMinimumLevel()"
+  ],
+  "method_count": 4
+}

@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.inventory.MenuType$Typed",
+  "methods": [
+    "public default V create(org.bukkit.entity.HumanEntity)",
+    "public abstract V create(org.bukkit.entity.HumanEntity, java.lang.String)",
+    "public abstract V create(org.bukkit.entity.HumanEntity, net.kyori.adventure.text.Component)",
+    "public abstract B builder()"
+  ],
+  "method_count": 4
+}

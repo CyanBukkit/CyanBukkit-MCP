@@ -1,0 +1,21 @@
+{
+  "class_name": "org.bukkit.event.player.PlayerItemMendEvent",
+  "methods": [
+    "public org.bukkit.event.player.PlayerItemMendEvent(org.bukkit.entity.Player, org.bukkit.inventory.ItemStack, org.bukkit.inventory.EquipmentSlot, org.bukkit.entity.ExperienceOrb, int)",
+    "public org.bukkit.event.player.PlayerItemMendEvent(org.bukkit.entity.Player, org.bukkit.inventory.ItemStack, org.bukkit.inventory.EquipmentSlot, org.bukkit.entity.ExperienceOrb, int, int)",
+    "public org.bukkit.event.player.PlayerItemMendEvent(org.bukkit.entity.Player, org.bukkit.inventory.ItemStack, org.bukkit.entity.ExperienceOrb, int)",
+    "public org.bukkit.inventory.ItemStack getItem()",
+    "public org.bukkit.inventory.EquipmentSlot getSlot()",
+    "public org.bukkit.entity.ExperienceOrb getExperienceOrb()",
+    "public int getRepairAmount()",
+    "public void setRepairAmount(int)",
+    "public int getConsumedExperience()",
+    "public java.util.function.IntUnaryOperator getDurabilityToXpOperation()",
+    "public void setDurabilityToXpOperation(java.util.function.IntUnaryOperator)",
+    "public boolean isCancelled()",
+    "public void setCancelled(boolean)",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 15
+}

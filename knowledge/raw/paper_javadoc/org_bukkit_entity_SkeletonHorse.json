@@ -1,0 +1,12 @@
+{
+  "class_name": "org.bukkit.entity.SkeletonHorse",
+  "methods": [
+    "public abstract boolean isTrapped()",
+    "public abstract void setTrapped(boolean)",
+    "public abstract int getTrapTime()",
+    "public abstract void setTrapTime(int)",
+    "public default boolean isTrap()",
+    "public default void setTrap(boolean)"
+  ],
+  "method_count": 6
+}

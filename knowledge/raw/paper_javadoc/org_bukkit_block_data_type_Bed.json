@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.block.data.type.Bed",
+  "methods": [
+    "public abstract org.bukkit.block.data.type.Bed$Part getPart()",
+    "public abstract void setPart(org.bukkit.block.data.type.Bed$Part)",
+    "public abstract boolean isOccupied()",
+    "public abstract void setOccupied(boolean)"
+  ],
+  "method_count": 4
+}

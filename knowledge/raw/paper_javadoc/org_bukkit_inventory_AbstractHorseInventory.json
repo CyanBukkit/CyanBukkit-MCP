@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.inventory.AbstractHorseInventory",
+  "methods": [
+    "public abstract org.bukkit.inventory.ItemStack getSaddle()",
+    "public abstract void setSaddle(org.bukkit.inventory.ItemStack)"
+  ],
+  "method_count": 2
+}

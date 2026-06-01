@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.block.data.type.Sapling",
+  "methods": [
+    "public abstract int getStage()",
+    "public abstract void setStage(int)",
+    "public abstract int getMaximumStage()"
+  ],
+  "method_count": 3
+}

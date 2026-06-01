@@ -1,0 +1,7 @@
+{
+  "class_name": "org.bukkit.block.Dropper",
+  "methods": [
+    "public abstract void drop()"
+  ],
+  "method_count": 1
+}

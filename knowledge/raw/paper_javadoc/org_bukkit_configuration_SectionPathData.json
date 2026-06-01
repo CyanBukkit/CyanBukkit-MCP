@@ -1,0 +1,13 @@
+{
+  "class_name": "org.bukkit.configuration.SectionPathData",
+  "methods": [
+    "public org.bukkit.configuration.SectionPathData(java.lang.Object)",
+    "public java.lang.Object getData()",
+    "public void setData(java.lang.Object)",
+    "public java.util.List<java.lang.String> getComments()",
+    "public void setComments(java.util.List<java.lang.String>)",
+    "public java.util.List<java.lang.String> getInlineComments()",
+    "public void setInlineComments(java.util.List<java.lang.String>)"
+  ],
+  "method_count": 7
+}

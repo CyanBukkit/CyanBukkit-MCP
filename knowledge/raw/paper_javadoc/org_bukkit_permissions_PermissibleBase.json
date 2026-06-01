@@ -1,0 +1,21 @@
+{
+  "class_name": "org.bukkit.permissions.PermissibleBase",
+  "methods": [
+    "public org.bukkit.permissions.PermissibleBase(org.bukkit.permissions.ServerOperator)",
+    "public boolean isOp()",
+    "public void setOp(boolean)",
+    "public boolean isPermissionSet(java.lang.String)",
+    "public boolean isPermissionSet(org.bukkit.permissions.Permission)",
+    "public boolean hasPermission(java.lang.String)",
+    "public boolean hasPermission(org.bukkit.permissions.Permission)",
+    "public synchronized org.bukkit.permissions.PermissionAttachment addAttachment(org.bukkit.plugin.Plugin, java.lang.String, boolean)",
+    "public synchronized org.bukkit.permissions.PermissionAttachment addAttachment(org.bukkit.plugin.Plugin)",
+    "public synchronized void removeAttachment(org.bukkit.permissions.PermissionAttachment)",
+    "public synchronized void recalculatePermissions()",
+    "public synchronized void clearPermissions()",
+    "public synchronized org.bukkit.permissions.PermissionAttachment addAttachment(org.bukkit.plugin.Plugin, java.lang.String, boolean, int)",
+    "public synchronized org.bukkit.permissions.PermissionAttachment addAttachment(org.bukkit.plugin.Plugin, int)",
+    "public synchronized java.util.Set<org.bukkit.permissions.PermissionAttachmentInfo> getEffectivePermissions()"
+  ],
+  "method_count": 15
+}

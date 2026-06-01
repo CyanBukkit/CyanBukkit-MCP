@@ -1,0 +1,24 @@
+{
+  "class_name": "org.bukkit.event.player.PlayerLoginEvent",
+  "methods": [
+    "public org.bukkit.event.player.PlayerLoginEvent(org.bukkit.entity.Player, java.lang.String, java.net.InetAddress, java.net.InetAddress)",
+    "public org.bukkit.event.player.PlayerLoginEvent(org.bukkit.entity.Player, java.lang.String, java.net.InetAddress)",
+    "public org.bukkit.event.player.PlayerLoginEvent(org.bukkit.entity.Player, java.lang.String, java.net.InetAddress, org.bukkit.event.player.PlayerLoginEvent$Result, java.lang.String, java.net.InetAddress)",
+    "public org.bukkit.event.player.PlayerLoginEvent(org.bukkit.entity.Player, java.lang.String, java.net.InetAddress, org.bukkit.event.player.PlayerLoginEvent$Result, net.kyori.adventure.text.Component, java.net.InetAddress)",
+    "public java.lang.String getHostname()",
+    "public java.net.InetAddress getAddress()",
+    "public java.net.InetAddress getRealAddress()",
+    "public org.bukkit.event.player.PlayerLoginEvent$Result getResult()",
+    "public void setResult(org.bukkit.event.player.PlayerLoginEvent$Result)",
+    "public net.kyori.adventure.text.Component kickMessage()",
+    "public void kickMessage(net.kyori.adventure.text.Component)",
+    "public java.lang.String getKickMessage()",
+    "public void setKickMessage(java.lang.String)",
+    "public void allow()",
+    "public void disallow(org.bukkit.event.player.PlayerLoginEvent$Result, java.lang.String)",
+    "public void disallow(org.bukkit.event.player.PlayerLoginEvent$Result, net.kyori.adventure.text.Component)",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 18
+}

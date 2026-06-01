@@ -1,0 +1,14 @@
+{
+  "class_name": "org.bukkit.inventory.meta.components.CustomModelDataComponent",
+  "methods": [
+    "public abstract java.util.List<java.lang.Float> getFloats()",
+    "public abstract void setFloats(java.util.List<java.lang.Float>)",
+    "public abstract java.util.List<java.lang.Boolean> getFlags()",
+    "public abstract void setFlags(java.util.List<java.lang.Boolean>)",
+    "public abstract java.util.List<java.lang.String> getStrings()",
+    "public abstract void setStrings(java.util.List<java.lang.String>)",
+    "public abstract java.util.List<org.bukkit.Color> getColors()",
+    "public abstract void setColors(java.util.List<org.bukkit.Color>)"
+  ],
+  "method_count": 8
+}

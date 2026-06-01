@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.event.entity.EntityEvent",
+  "methods": [
+    "protected org.bukkit.event.entity.EntityEvent(org.bukkit.entity.Entity)",
+    "public org.bukkit.entity.Entity getEntity()",
+    "public org.bukkit.entity.EntityType getEntityType()"
+  ],
+  "method_count": 3
+}

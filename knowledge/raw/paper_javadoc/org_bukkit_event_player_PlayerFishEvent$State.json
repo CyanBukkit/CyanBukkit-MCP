@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.event.player.PlayerFishEvent$State",
+  "methods": [
+    "public static org.bukkit.event.player.PlayerFishEvent$State[] values()",
+    "public static org.bukkit.event.player.PlayerFishEvent$State valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

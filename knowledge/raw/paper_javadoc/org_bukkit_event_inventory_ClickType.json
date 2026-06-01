@@ -1,0 +1,14 @@
+{
+  "class_name": "org.bukkit.event.inventory.ClickType",
+  "methods": [
+    "public static org.bukkit.event.inventory.ClickType[] values()",
+    "public static org.bukkit.event.inventory.ClickType valueOf(java.lang.String)",
+    "public boolean isKeyboardClick()",
+    "public boolean isMouseClick()",
+    "public boolean isCreativeAction()",
+    "public boolean isRightClick()",
+    "public boolean isLeftClick()",
+    "public boolean isShiftClick()"
+  ],
+  "method_count": 8
+}

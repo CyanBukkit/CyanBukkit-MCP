@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.CreatureSpawner",
+  "methods": [
+    "public abstract void setCreatureTypeByName(java.lang.String)",
+    "public abstract java.lang.String getCreatureTypeName()"
+  ],
+  "method_count": 2
+}

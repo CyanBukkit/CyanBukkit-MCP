@@ -1,0 +1,32 @@
+{
+  "class_name": "org.bukkit.inventory.ItemType",
+  "methods": [
+    "public abstract org.bukkit.inventory.ItemType$Typed<org.bukkit.inventory.meta.ItemMeta> typed()",
+    "public abstract <M extends org.bukkit.inventory.meta.ItemMeta> org.bukkit.inventory.ItemType$Typed<M> typed(java.lang.Class<M>)",
+    "public abstract org.bukkit.inventory.ItemStack createItemStack()",
+    "public abstract org.bukkit.inventory.ItemStack createItemStack(int)",
+    "public abstract boolean hasBlockType()",
+    "public abstract org.bukkit.block.BlockType getBlockType()",
+    "public abstract java.lang.Class<? extends org.bukkit.inventory.meta.ItemMeta> getItemMetaClass()",
+    "public abstract int getMaxStackSize()",
+    "public abstract short getMaxDurability()",
+    "public abstract boolean isEdible()",
+    "public abstract boolean isRecord()",
+    "public abstract boolean isFuel()",
+    "public abstract int getBurnDuration()",
+    "public abstract boolean isCompostable()",
+    "public abstract float getCompostChance()",
+    "public abstract org.bukkit.inventory.ItemType getCraftingRemainingItem()",
+    "public abstract com.google.common.collect.Multimap<org.bukkit.attribute.Attribute, org.bukkit.attribute.AttributeModifier> getDefaultAttributeModifiers()",
+    "public abstract com.google.common.collect.Multimap<org.bukkit.attribute.Attribute, org.bukkit.attribute.AttributeModifier> getDefaultAttributeModifiers(org.bukkit.inventory.EquipmentSlot)",
+    "public abstract org.bukkit.inventory.CreativeCategory getCreativeCategory()",
+    "public abstract boolean isEnabledByFeature(org.bukkit.World)",
+    "public abstract org.bukkit.Material asMaterial()",
+    "public abstract java.lang.String getTranslationKey()",
+    "public abstract org.bukkit.inventory.ItemRarity getItemRarity()",
+    "public abstract <T> T getDefaultData(io.papermc.paper.datacomponent.DataComponentType$Valued<T>)",
+    "public abstract boolean hasDefaultData(io.papermc.paper.datacomponent.DataComponentType)",
+    "public abstract java.util.Set<io.papermc.paper.datacomponent.DataComponentType> getDefaultDataTypes()"
+  ],
+  "method_count": 26
+}

@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.block.data.type.Cake",
+  "methods": [
+    "public abstract int getBites()",
+    "public abstract void setBites(int)",
+    "public abstract int getMaximumBites()"
+  ],
+  "method_count": 3
+}

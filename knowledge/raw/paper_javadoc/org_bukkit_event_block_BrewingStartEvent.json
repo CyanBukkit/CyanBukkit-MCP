@@ -1,0 +1,13 @@
+{
+  "class_name": "org.bukkit.event.block.BrewingStartEvent",
+  "methods": [
+    "public org.bukkit.event.block.BrewingStartEvent(org.bukkit.block.Block, org.bukkit.inventory.ItemStack, int)",
+    "public int getTotalBrewTime()",
+    "public void setTotalBrewTime(int)",
+    "public int getRecipeBrewTime()",
+    "public void setRecipeBrewTime(int)",
+    "public int getBrewingTime()",
+    "public void setBrewingTime(int)"
+  ],
+  "method_count": 7
+}

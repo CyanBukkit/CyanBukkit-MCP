@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.entity.ItemDisplay",
+  "methods": [
+    "public abstract org.bukkit.inventory.ItemStack getItemStack()",
+    "public abstract void setItemStack(org.bukkit.inventory.ItemStack)",
+    "public abstract org.bukkit.entity.ItemDisplay$ItemDisplayTransform getItemDisplayTransform()",
+    "public abstract void setItemDisplayTransform(org.bukkit.entity.ItemDisplay$ItemDisplayTransform)"
+  ],
+  "method_count": 4
+}

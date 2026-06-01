@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.event.block.BlockDispenseArmorEvent",
+  "methods": [
+    "public org.bukkit.event.block.BlockDispenseArmorEvent(org.bukkit.block.Block, org.bukkit.inventory.ItemStack, org.bukkit.entity.LivingEntity)",
+    "public org.bukkit.entity.LivingEntity getTargetEntity()"
+  ],
+  "method_count": 2
+}

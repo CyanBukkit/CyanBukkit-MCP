@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.event.block.InventoryBlockStartEvent",
+  "methods": [
+    "public org.bukkit.event.block.InventoryBlockStartEvent(org.bukkit.block.Block, org.bukkit.inventory.ItemStack)",
+    "public org.bukkit.inventory.ItemStack getSource()",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 4
+}

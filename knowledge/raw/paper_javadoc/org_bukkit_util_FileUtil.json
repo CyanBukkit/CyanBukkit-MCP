@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.util.FileUtil",
+  "methods": [
+    "public org.bukkit.util.FileUtil()",
+    "public static boolean copy(java.io.File, java.io.File)"
+  ],
+  "method_count": 2
+}

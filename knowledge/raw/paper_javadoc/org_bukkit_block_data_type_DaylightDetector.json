@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.data.type.DaylightDetector",
+  "methods": [
+    "public abstract boolean isInverted()",
+    "public abstract void setInverted(boolean)"
+  ],
+  "method_count": 2
+}

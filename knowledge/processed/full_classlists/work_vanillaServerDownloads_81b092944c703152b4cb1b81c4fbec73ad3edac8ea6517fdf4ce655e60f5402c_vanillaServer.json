@@ -1,0 +1,12 @@
+{
+  "jar": "D:\\Program Files\\gradle\\repo\\caches\\paperweight-userdev\\v2\\work\\vanillaServerDownloads_81b092944c703152b4cb1b81c4fbec73ad3edac8ea6517fdf4ce655e60f5402c\\vanillaServer.jar",
+  "artifact": "work/vanillaServerDownloads_81b092944c703152b4cb1b81c4fbec73ad3edac8ea6517fdf4ce655e60f5402c/vanillaServer",
+  "class_count": 4,
+  "all_classes": [
+    "net.minecraft.bundler.Main$FileEntry",
+    "net.minecraft.bundler.Main$ResourceParser",
+    "net.minecraft.bundler.Main$Thrower",
+    "net.minecraft.bundler.Main"
+  ],
+  "truncated": false
+}

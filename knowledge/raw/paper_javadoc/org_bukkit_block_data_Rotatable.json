@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.data.Rotatable",
+  "methods": [
+    "public abstract org.bukkit.block.BlockFace getRotation()",
+    "public abstract void setRotation(org.bukkit.block.BlockFace)"
+  ],
+  "method_count": 2
+}

@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.event.inventory.PrepareGrindstoneEvent",
+  "methods": [
+    "public org.bukkit.event.inventory.PrepareGrindstoneEvent(org.bukkit.inventory.InventoryView, org.bukkit.inventory.ItemStack)",
+    "public org.bukkit.inventory.GrindstoneInventory getInventory()",
+    "public org.bukkit.inventory.Inventory getInventory()"
+  ],
+  "method_count": 3
+}

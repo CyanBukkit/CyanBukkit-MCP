@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.World$Environment",
+  "methods": [
+    "public static org.bukkit.World$Environment[] values()",
+    "public static org.bukkit.World$Environment valueOf(java.lang.String)",
+    "public int getId()",
+    "public static org.bukkit.World$Environment getEnvironment(int)"
+  ],
+  "method_count": 4
+}

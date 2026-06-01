@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.help.HelpTopicComparator",
+  "methods": [
+    "public static org.bukkit.help.HelpTopicComparator$TopicNameComparator topicNameComparatorInstance()",
+    "public static org.bukkit.help.HelpTopicComparator helpTopicComparatorInstance()",
+    "public int compare(org.bukkit.help.HelpTopic, org.bukkit.help.HelpTopic)",
+    "public int compare(java.lang.Object, java.lang.Object)"
+  ],
+  "method_count": 4
+}

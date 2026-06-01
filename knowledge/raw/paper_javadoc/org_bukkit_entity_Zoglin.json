@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.entity.Zoglin",
+  "methods": [
+    "public abstract boolean isBaby()",
+    "public abstract void setBaby(boolean)"
+  ],
+  "method_count": 2
+}

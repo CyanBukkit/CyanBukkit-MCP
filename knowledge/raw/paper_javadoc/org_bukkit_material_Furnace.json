@@ -1,0 +1,15 @@
+{
+  "class_name": "org.bukkit.material.Furnace",
+  "methods": [
+    "public org.bukkit.material.Furnace()",
+    "public org.bukkit.material.Furnace(org.bukkit.block.BlockFace)",
+    "public org.bukkit.material.Furnace(org.bukkit.Material)",
+    "public org.bukkit.material.Furnace(org.bukkit.Material, byte)",
+    "public org.bukkit.material.Furnace clone()",
+    "public org.bukkit.material.FurnaceAndDispenser clone()",
+    "public org.bukkit.material.DirectionalContainer clone()",
+    "public org.bukkit.material.MaterialData clone()",
+    "public java.lang.Object clone()"
+  ],
+  "method_count": 9
+}

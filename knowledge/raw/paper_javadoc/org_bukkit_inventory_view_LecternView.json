@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.inventory.view.LecternView",
+  "methods": [
+    "public abstract org.bukkit.inventory.LecternInventory getTopInventory()",
+    "public abstract int getPage()",
+    "public abstract void setPage(int)",
+    "public default org.bukkit.inventory.Inventory getTopInventory()"
+  ],
+  "method_count": 4
+}

@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.inventory.ItemType$Typed",
+  "methods": [
+    "public abstract java.lang.Class<M> getItemMetaClass()",
+    "public abstract org.bukkit.inventory.ItemStack createItemStack(java.util.function.Consumer<? super M>)",
+    "public abstract org.bukkit.inventory.ItemStack createItemStack(int, java.util.function.Consumer<? super M>)"
+  ],
+  "method_count": 3
+}

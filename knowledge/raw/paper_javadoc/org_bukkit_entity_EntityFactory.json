@@ -1,0 +1,7 @@
+{
+  "class_name": "org.bukkit.entity.EntityFactory",
+  "methods": [
+    "org.bukkit.entity.EntitySnapshot createEntitySnapshot(java.lang.String)"
+  ],
+  "method_count": 1
+}

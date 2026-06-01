@@ -1,0 +1,17 @@
+{
+  "class_name": "org.bukkit.block.DoubleChest",
+  "methods": [
+    "public org.bukkit.block.DoubleChest(org.bukkit.inventory.DoubleChestInventory)",
+    "public org.bukkit.inventory.Inventory getInventory()",
+    "public org.bukkit.inventory.InventoryHolder getLeftSide()",
+    "public org.bukkit.inventory.InventoryHolder getRightSide()",
+    "public org.bukkit.inventory.InventoryHolder getLeftSide(boolean)",
+    "public org.bukkit.inventory.InventoryHolder getRightSide(boolean)",
+    "public org.bukkit.Location getLocation()",
+    "public org.bukkit.World getWorld()",
+    "public double getX()",
+    "public double getY()",
+    "public double getZ()"
+  ],
+  "method_count": 11
+}

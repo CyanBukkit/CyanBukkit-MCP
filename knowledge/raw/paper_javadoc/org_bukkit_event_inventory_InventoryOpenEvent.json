@@ -1,0 +1,14 @@
+{
+  "class_name": "org.bukkit.event.inventory.InventoryOpenEvent",
+  "methods": [
+    "public org.bukkit.event.inventory.InventoryOpenEvent(org.bukkit.inventory.InventoryView)",
+    "public final org.bukkit.entity.HumanEntity getPlayer()",
+    "public net.kyori.adventure.text.Component titleOverride()",
+    "public void titleOverride(net.kyori.adventure.text.Component)",
+    "public boolean isCancelled()",
+    "public void setCancelled(boolean)",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 8
+}

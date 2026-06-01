@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.entity.GlowSquid",
+  "methods": [
+    "public abstract int getDarkTicksRemaining()",
+    "public abstract void setDarkTicksRemaining(int)"
+  ],
+  "method_count": 2
+}

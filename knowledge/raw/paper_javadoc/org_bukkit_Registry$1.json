@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.Registry$1",
+  "methods": [
+    "public org.bukkit.advancement.Advancement get(org.bukkit.NamespacedKey)",
+    "public java.util.Iterator<org.bukkit.advancement.Advancement> iterator()",
+    "public org.bukkit.Keyed get(org.bukkit.NamespacedKey)"
+  ],
+  "method_count": 3
+}

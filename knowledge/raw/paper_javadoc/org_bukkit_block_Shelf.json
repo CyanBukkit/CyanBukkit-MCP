@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.block.Shelf",
+  "methods": [
+    "public abstract org.bukkit.inventory.ShelfInventory getInventory()",
+    "public abstract org.bukkit.inventory.ShelfInventory getSnapshotInventory()",
+    "public default org.bukkit.inventory.Inventory getSnapshotInventory()",
+    "public default org.bukkit.inventory.Inventory getInventory()"
+  ],
+  "method_count": 4
+}

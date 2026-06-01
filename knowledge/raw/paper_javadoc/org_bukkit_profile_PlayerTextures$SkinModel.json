@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.profile.PlayerTextures$SkinModel",
+  "methods": [
+    "public static org.bukkit.profile.PlayerTextures$SkinModel[] values()",
+    "public static org.bukkit.profile.PlayerTextures$SkinModel valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

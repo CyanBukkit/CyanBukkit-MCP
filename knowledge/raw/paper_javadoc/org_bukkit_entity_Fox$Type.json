@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.entity.Fox$Type",
+  "methods": [
+    "public static org.bukkit.entity.Fox$Type[] values()",
+    "public static org.bukkit.entity.Fox$Type valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

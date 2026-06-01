@@ -1,0 +1,12 @@
+{
+  "class_name": "org.bukkit.inventory.view.builder.LocationInventoryViewBuilder",
+  "methods": [
+    "public abstract org.bukkit.inventory.view.builder.LocationInventoryViewBuilder<V> copy()",
+    "public abstract org.bukkit.inventory.view.builder.LocationInventoryViewBuilder<V> title(net.kyori.adventure.text.Component)",
+    "public abstract org.bukkit.inventory.view.builder.LocationInventoryViewBuilder<V> checkReachable(boolean)",
+    "public abstract org.bukkit.inventory.view.builder.LocationInventoryViewBuilder<V> location(org.bukkit.Location)",
+    "public default org.bukkit.inventory.view.builder.InventoryViewBuilder title(net.kyori.adventure.text.Component)",
+    "public default org.bukkit.inventory.view.builder.InventoryViewBuilder copy()"
+  ],
+  "method_count": 6
+}

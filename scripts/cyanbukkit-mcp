@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+MCPMAKER_PYTHON="/c/ProgramData/miniconda3/envs/mcpmaker/python.exe"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
+
+if [ ! -f "$MCPMAKER_PYTHON" ]; then
+    echo "ERROR: Python not found at $MCPMAKER_PYTHON"
+    echo "Please ensure conda env 'mcpmaker' exists."
+    exit 1
+fi
+
+export PYTHONPATH="$PROJECT_ROOT/src${PYTHONPATH:+:$PYTHONPATH}"
+exec "$MCPMAKER_PYTHON" -m cyanbukkit_mcp "$@"

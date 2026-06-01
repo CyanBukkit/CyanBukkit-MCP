@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.loot.LootTables",
+  "methods": [
+    "public static org.bukkit.loot.LootTables[] values()",
+    "public static org.bukkit.loot.LootTables valueOf(java.lang.String)",
+    "public org.bukkit.NamespacedKey getKey()",
+    "public org.bukkit.loot.LootTable getLootTable()"
+  ],
+  "method_count": 4
+}

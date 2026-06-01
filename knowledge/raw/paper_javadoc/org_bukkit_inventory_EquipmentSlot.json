@@ -1,0 +1,12 @@
+{
+  "class_name": "org.bukkit.inventory.EquipmentSlot",
+  "methods": [
+    "public static org.bukkit.inventory.EquipmentSlot[] values()",
+    "public static org.bukkit.inventory.EquipmentSlot valueOf(java.lang.String)",
+    "public org.bukkit.inventory.EquipmentSlotGroup getGroup()",
+    "public boolean isHand()",
+    "public org.bukkit.inventory.EquipmentSlot getOppositeHand()",
+    "public boolean isArmor()"
+  ],
+  "method_count": 6
+}

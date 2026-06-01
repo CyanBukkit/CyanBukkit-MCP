@@ -1,0 +1,18 @@
+{
+  "class_name": "org.bukkit.BanList",
+  "methods": [
+    "public abstract <E extends org.bukkit.BanEntry<? super T>> E getBanEntry(java.lang.String)",
+    "public abstract org.bukkit.BanEntry<T> getBanEntry(T)",
+    "public abstract <E extends org.bukkit.BanEntry<? super T>> E addBan(java.lang.String, java.lang.String, java.util.Date, java.lang.String)",
+    "public abstract org.bukkit.BanEntry<T> addBan(T, java.lang.String, java.util.Date, java.lang.String)",
+    "public abstract org.bukkit.BanEntry<T> addBan(T, java.lang.String, java.time.Instant, java.lang.String)",
+    "public abstract org.bukkit.BanEntry<T> addBan(T, java.lang.String, java.time.Duration, java.lang.String)",
+    "public abstract java.util.Set<org.bukkit.BanEntry> getBanEntries()",
+    "public abstract <E extends org.bukkit.BanEntry<? super T>> java.util.Set<E> getEntries()",
+    "public abstract boolean isBanned(T)",
+    "public abstract boolean isBanned(java.lang.String)",
+    "public abstract void pardon(T)",
+    "public abstract void pardon(java.lang.String)"
+  ],
+  "method_count": 12
+}

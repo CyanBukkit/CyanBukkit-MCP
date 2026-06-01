@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.data.type.Door",
+  "methods": [
+    "public abstract org.bukkit.block.data.type.Door$Hinge getHinge()",
+    "public abstract void setHinge(org.bukkit.block.data.type.Door$Hinge)"
+  ],
+  "method_count": 2
+}

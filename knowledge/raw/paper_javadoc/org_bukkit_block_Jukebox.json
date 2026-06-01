@@ -1,0 +1,19 @@
+{
+  "class_name": "org.bukkit.block.Jukebox",
+  "methods": [
+    "public abstract org.bukkit.Material getPlaying()",
+    "public abstract void setPlaying(org.bukkit.Material)",
+    "public abstract boolean hasRecord()",
+    "public abstract org.bukkit.inventory.ItemStack getRecord()",
+    "public abstract void setRecord(org.bukkit.inventory.ItemStack)",
+    "public abstract boolean isPlaying()",
+    "public abstract boolean startPlaying()",
+    "public abstract void stopPlaying()",
+    "public abstract boolean eject()",
+    "public abstract org.bukkit.inventory.JukeboxInventory getInventory()",
+    "public abstract org.bukkit.inventory.JukeboxInventory getSnapshotInventory()",
+    "public default org.bukkit.inventory.Inventory getSnapshotInventory()",
+    "public default org.bukkit.inventory.Inventory getInventory()"
+  ],
+  "method_count": 13
+}

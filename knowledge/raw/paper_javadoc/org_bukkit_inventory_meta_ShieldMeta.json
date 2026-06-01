@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.inventory.meta.ShieldMeta",
+  "methods": [
+    "public abstract org.bukkit.DyeColor getBaseColor()",
+    "public abstract void setBaseColor(org.bukkit.DyeColor)"
+  ],
+  "method_count": 2
+}

@@ -1,0 +1,20 @@
+{
+  "class_name": "org.bukkit.scoreboard.Score",
+  "methods": [
+    "public abstract org.bukkit.OfflinePlayer getPlayer()",
+    "public abstract java.lang.String getEntry()",
+    "public abstract org.bukkit.scoreboard.Objective getObjective()",
+    "public abstract int getScore()",
+    "public abstract void setScore(int)",
+    "public abstract boolean isScoreSet()",
+    "public abstract org.bukkit.scoreboard.Scoreboard getScoreboard()",
+    "public abstract void resetScore()",
+    "public abstract boolean isTriggerable()",
+    "public abstract void setTriggerable(boolean)",
+    "public abstract net.kyori.adventure.text.Component customName()",
+    "public abstract void customName(net.kyori.adventure.text.Component)",
+    "public abstract io.papermc.paper.scoreboard.numbers.NumberFormat numberFormat()",
+    "public abstract void numberFormat(io.papermc.paper.scoreboard.numbers.NumberFormat)"
+  ],
+  "method_count": 14
+}

@@ -1,0 +1,13 @@
+{
+  "class_name": "org.bukkit.event.inventory.InventoryType",
+  "methods": [
+    "public static org.bukkit.event.inventory.InventoryType[] values()",
+    "public static org.bukkit.event.inventory.InventoryType valueOf(java.lang.String)",
+    "public net.kyori.adventure.text.Component defaultTitle()",
+    "public int getDefaultSize()",
+    "public java.lang.String getDefaultTitle()",
+    "public org.bukkit.inventory.MenuType getMenuType()",
+    "public boolean isCreatable()"
+  ],
+  "method_count": 7
+}

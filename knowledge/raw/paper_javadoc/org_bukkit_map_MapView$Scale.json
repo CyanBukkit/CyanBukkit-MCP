@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.map.MapView$Scale",
+  "methods": [
+    "public static org.bukkit.map.MapView$Scale[] values()",
+    "public static org.bukkit.map.MapView$Scale valueOf(java.lang.String)",
+    "public static org.bukkit.map.MapView$Scale valueOf(byte)",
+    "public byte getValue()"
+  ],
+  "method_count": 4
+}

@@ -1,0 +1,16 @@
+{
+  "class_name": "org.bukkit.material.RedstoneTorch",
+  "methods": [
+    "public org.bukkit.material.RedstoneTorch()",
+    "public org.bukkit.material.RedstoneTorch(org.bukkit.Material)",
+    "public org.bukkit.material.RedstoneTorch(org.bukkit.Material, byte)",
+    "public boolean isPowered()",
+    "public java.lang.String toString()",
+    "public org.bukkit.material.RedstoneTorch clone()",
+    "public org.bukkit.material.Torch clone()",
+    "public org.bukkit.material.SimpleAttachableMaterialData clone()",
+    "public org.bukkit.material.MaterialData clone()",
+    "public java.lang.Object clone()"
+  ],
+  "method_count": 10
+}

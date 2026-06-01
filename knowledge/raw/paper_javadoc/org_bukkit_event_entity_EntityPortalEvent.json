@@ -1,0 +1,21 @@
+{
+  "class_name": "org.bukkit.event.entity.EntityPortalEvent",
+  "methods": [
+    "public org.bukkit.event.entity.EntityPortalEvent(org.bukkit.entity.Entity, org.bukkit.Location, org.bukkit.Location)",
+    "public org.bukkit.event.entity.EntityPortalEvent(org.bukkit.entity.Entity, org.bukkit.Location, org.bukkit.Location, int)",
+    "public org.bukkit.event.entity.EntityPortalEvent(org.bukkit.entity.Entity, org.bukkit.Location, org.bukkit.Location, int, boolean, int)",
+    "public org.bukkit.event.entity.EntityPortalEvent(org.bukkit.entity.Entity, org.bukkit.Location, org.bukkit.Location, int, boolean, int, org.bukkit.PortalType)",
+    "public org.bukkit.Location getTo()",
+    "public void setTo(org.bukkit.Location)",
+    "public org.bukkit.PortalType getPortalType()",
+    "public void setSearchRadius(int)",
+    "public int getSearchRadius()",
+    "public boolean getCanCreatePortal()",
+    "public void setCanCreatePortal(boolean)",
+    "public void setCreationRadius(int)",
+    "public int getCreationRadius()",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 15
+}

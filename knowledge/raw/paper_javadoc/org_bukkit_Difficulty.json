@@ -1,0 +1,11 @@
+{
+  "class_name": "org.bukkit.Difficulty",
+  "methods": [
+    "public static org.bukkit.Difficulty[] values()",
+    "public static org.bukkit.Difficulty valueOf(java.lang.String)",
+    "public int getValue()",
+    "public java.lang.String translationKey()",
+    "public static org.bukkit.Difficulty getByValue(int)"
+  ],
+  "method_count": 5
+}

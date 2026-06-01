@@ -1,0 +1,21 @@
+{
+  "class_name": "org.bukkit.event.entity.EntityDamageEvent",
+  "methods": [
+    "public org.bukkit.event.entity.EntityDamageEvent(org.bukkit.entity.Entity, org.bukkit.event.entity.EntityDamageEvent$DamageCause, double)",
+    "public org.bukkit.event.entity.EntityDamageEvent(org.bukkit.entity.Entity, org.bukkit.event.entity.EntityDamageEvent$DamageCause, org.bukkit.damage.DamageSource, double)",
+    "public double getOriginalDamage(org.bukkit.event.entity.EntityDamageEvent$DamageModifier)",
+    "public void setDamage(org.bukkit.event.entity.EntityDamageEvent$DamageModifier, double)",
+    "public double getDamage(org.bukkit.event.entity.EntityDamageEvent$DamageModifier)",
+    "public boolean isApplicable(org.bukkit.event.entity.EntityDamageEvent$DamageModifier)",
+    "public double getDamage()",
+    "public final double getFinalDamage()",
+    "public void setDamage(double)",
+    "public org.bukkit.event.entity.EntityDamageEvent$DamageCause getCause()",
+    "public org.bukkit.damage.DamageSource getDamageSource()",
+    "public boolean isCancelled()",
+    "public void setCancelled(boolean)",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 15
+}

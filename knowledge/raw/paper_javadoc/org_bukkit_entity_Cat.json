@@ -1,0 +1,14 @@
+{
+  "class_name": "org.bukkit.entity.Cat",
+  "methods": [
+    "public abstract org.bukkit.entity.Cat$Type getCatType()",
+    "public abstract void setCatType(org.bukkit.entity.Cat$Type)",
+    "public abstract org.bukkit.DyeColor getCollarColor()",
+    "public abstract void setCollarColor(org.bukkit.DyeColor)",
+    "public abstract void setLyingDown(boolean)",
+    "public abstract boolean isLyingDown()",
+    "public abstract void setHeadUp(boolean)",
+    "public abstract boolean isHeadUp()"
+  ],
+  "method_count": 8
+}

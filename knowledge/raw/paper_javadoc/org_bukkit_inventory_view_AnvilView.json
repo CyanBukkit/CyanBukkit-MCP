@@ -1,0 +1,17 @@
+{
+  "class_name": "org.bukkit.inventory.view.AnvilView",
+  "methods": [
+    "public abstract org.bukkit.inventory.AnvilInventory getTopInventory()",
+    "public abstract java.lang.String getRenameText()",
+    "public abstract int getRepairItemCountCost()",
+    "public abstract int getRepairCost()",
+    "public abstract int getMaximumRepairCost()",
+    "public abstract void setRepairItemCountCost(int)",
+    "public abstract void setRepairCost(int)",
+    "public abstract void setMaximumRepairCost(int)",
+    "public abstract boolean bypassesEnchantmentLevelRestriction()",
+    "public abstract void bypassEnchantmentLevelRestriction(boolean)",
+    "public default org.bukkit.inventory.Inventory getTopInventory()"
+  ],
+  "method_count": 11
+}

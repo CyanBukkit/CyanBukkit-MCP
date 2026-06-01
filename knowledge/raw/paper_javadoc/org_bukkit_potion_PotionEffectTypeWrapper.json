@@ -1,0 +1,15 @@
+{
+  "class_name": "org.bukkit.potion.PotionEffectTypeWrapper",
+  "methods": [
+    "protected org.bukkit.potion.PotionEffectTypeWrapper()",
+    "public org.bukkit.potion.PotionEffectType getType()",
+    "public boolean isInstant()",
+    "public org.bukkit.Color getColor()",
+    "public org.bukkit.NamespacedKey getKey()",
+    "public java.util.Map<org.bukkit.attribute.Attribute, org.bukkit.attribute.AttributeModifier> getEffectAttributes()",
+    "public double getAttributeModifierAmount(org.bukkit.attribute.Attribute, int)",
+    "public org.bukkit.potion.PotionEffectType$Category getEffectCategory()",
+    "public java.lang.String translationKey()"
+  ],
+  "method_count": 9
+}

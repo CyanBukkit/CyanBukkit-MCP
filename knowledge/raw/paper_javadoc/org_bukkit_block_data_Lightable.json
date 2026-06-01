@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.data.Lightable",
+  "methods": [
+    "public abstract boolean isLit()",
+    "public abstract void setLit(boolean)"
+  ],
+  "method_count": 2
+}

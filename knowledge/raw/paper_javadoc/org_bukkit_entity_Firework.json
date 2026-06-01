@@ -1,0 +1,26 @@
+{
+  "class_name": "org.bukkit.entity.Firework",
+  "methods": [
+    "public abstract org.bukkit.inventory.meta.FireworkMeta getFireworkMeta()",
+    "public abstract void setFireworkMeta(org.bukkit.inventory.meta.FireworkMeta)",
+    "public abstract boolean setAttachedTo(org.bukkit.entity.LivingEntity)",
+    "public abstract org.bukkit.entity.LivingEntity getAttachedTo()",
+    "public abstract boolean setLife(int)",
+    "public abstract int getLife()",
+    "public abstract boolean setMaxLife(int)",
+    "public abstract int getMaxLife()",
+    "public abstract void detonate()",
+    "public abstract boolean isDetonated()",
+    "public abstract boolean isShotAtAngle()",
+    "public abstract void setShotAtAngle(boolean)",
+    "public abstract java.util.UUID getSpawningEntity()",
+    "public default org.bukkit.entity.LivingEntity getBoostedEntity()",
+    "public abstract org.bukkit.inventory.ItemStack getItem()",
+    "public abstract void setItem(org.bukkit.inventory.ItemStack)",
+    "public abstract int getTicksFlown()",
+    "public abstract void setTicksFlown(int)",
+    "public abstract int getTicksToDetonate()",
+    "public abstract void setTicksToDetonate(int)"
+  ],
+  "method_count": 20
+}

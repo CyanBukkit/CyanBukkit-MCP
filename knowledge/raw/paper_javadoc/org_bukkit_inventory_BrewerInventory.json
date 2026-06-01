@@ -1,0 +1,12 @@
+{
+  "class_name": "org.bukkit.inventory.BrewerInventory",
+  "methods": [
+    "public abstract org.bukkit.inventory.ItemStack getIngredient()",
+    "public abstract void setIngredient(org.bukkit.inventory.ItemStack)",
+    "public abstract org.bukkit.inventory.ItemStack getFuel()",
+    "public abstract void setFuel(org.bukkit.inventory.ItemStack)",
+    "public abstract org.bukkit.block.BrewingStand getHolder()",
+    "public default org.bukkit.inventory.InventoryHolder getHolder()"
+  ],
+  "method_count": 6
+}

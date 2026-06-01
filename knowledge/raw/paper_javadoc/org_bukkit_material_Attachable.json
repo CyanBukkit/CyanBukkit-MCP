@@ -1,0 +1,7 @@
+{
+  "class_name": "org.bukkit.material.Attachable",
+  "methods": [
+    "public abstract org.bukkit.block.BlockFace getAttachedFace()"
+  ],
+  "method_count": 1
+}

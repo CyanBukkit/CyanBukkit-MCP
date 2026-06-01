@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.data.type.TestBlock",
+  "methods": [
+    "public abstract org.bukkit.block.data.type.TestBlock$Mode getMode()",
+    "public abstract void setMode(org.bukkit.block.data.type.TestBlock$Mode)"
+  ],
+  "method_count": 2
+}

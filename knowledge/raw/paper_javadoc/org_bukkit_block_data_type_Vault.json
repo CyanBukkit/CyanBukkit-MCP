@@ -1,0 +1,12 @@
+{
+  "class_name": "org.bukkit.block.data.type.Vault",
+  "methods": [
+    "public abstract org.bukkit.block.data.type.Vault$State getVaultState()",
+    "public default org.bukkit.block.data.type.Vault$State getTrialSpawnerState()",
+    "public abstract void setVaultState(org.bukkit.block.data.type.Vault$State)",
+    "public default void setTrialSpawnerState(org.bukkit.block.data.type.Vault$State)",
+    "public abstract boolean isOminous()",
+    "public abstract void setOminous(boolean)"
+  ],
+  "method_count": 6
+}

@@ -1,0 +1,13 @@
+{
+  "class_name": "org.bukkit.entity.TNTPrimed",
+  "methods": [
+    "public abstract void setFuseTicks(int)",
+    "public abstract int getFuseTicks()",
+    "public abstract org.bukkit.entity.Entity getSource()",
+    "public abstract void setSource(org.bukkit.entity.Entity)",
+    "public default org.bukkit.Location getSourceLoc()",
+    "public abstract void setBlockData(org.bukkit.block.data.BlockData)",
+    "public abstract org.bukkit.block.data.BlockData getBlockData()"
+  ],
+  "method_count": 7
+}

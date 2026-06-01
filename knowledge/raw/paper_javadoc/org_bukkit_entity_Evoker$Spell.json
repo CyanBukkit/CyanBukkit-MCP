@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.entity.Evoker$Spell",
+  "methods": [
+    "public static org.bukkit.entity.Evoker$Spell[] values()",
+    "public static org.bukkit.entity.Evoker$Spell valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

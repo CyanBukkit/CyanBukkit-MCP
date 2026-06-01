@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.data.type.Jukebox",
+  "methods": [
+    "public abstract boolean hasRecord()",
+    "public abstract void setHasRecord(boolean)"
+  ],
+  "method_count": 2
+}

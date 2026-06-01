@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.event.vehicle.VehicleUpdateEvent",
+  "methods": [
+    "public org.bukkit.event.vehicle.VehicleUpdateEvent(org.bukkit.entity.Vehicle)",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 3
+}

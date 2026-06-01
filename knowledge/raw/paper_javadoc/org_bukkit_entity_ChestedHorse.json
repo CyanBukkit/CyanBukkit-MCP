@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.entity.ChestedHorse",
+  "methods": [
+    "public abstract boolean isCarryingChest()",
+    "public abstract void setCarryingChest(boolean)"
+  ],
+  "method_count": 2
+}

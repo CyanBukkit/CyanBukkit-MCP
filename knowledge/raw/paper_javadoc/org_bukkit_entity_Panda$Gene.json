@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.entity.Panda$Gene",
+  "methods": [
+    "public static org.bukkit.entity.Panda$Gene[] values()",
+    "public static org.bukkit.entity.Panda$Gene valueOf(java.lang.String)",
+    "public boolean isRecessive()"
+  ],
+  "method_count": 3
+}

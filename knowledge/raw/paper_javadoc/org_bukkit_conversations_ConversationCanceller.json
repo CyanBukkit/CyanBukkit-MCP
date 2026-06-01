@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.conversations.ConversationCanceller",
+  "methods": [
+    "public abstract void setConversation(org.bukkit.conversations.Conversation)",
+    "public abstract boolean cancelBasedOnInput(org.bukkit.conversations.ConversationContext, java.lang.String)",
+    "public abstract org.bukkit.conversations.ConversationCanceller clone()"
+  ],
+  "method_count": 3
+}

@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.data.FaceAttachable$AttachedFace",
+  "methods": [
+    "public static org.bukkit.block.data.FaceAttachable$AttachedFace[] values()",
+    "public static org.bukkit.block.data.FaceAttachable$AttachedFace valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

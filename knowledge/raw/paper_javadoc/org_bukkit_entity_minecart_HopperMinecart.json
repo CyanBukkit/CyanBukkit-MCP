@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.entity.minecart.HopperMinecart",
+  "methods": [
+    "public abstract boolean isEnabled()",
+    "public abstract void setEnabled(boolean)",
+    "public abstract int getPickupCooldown()",
+    "public abstract void setPickupCooldown(int)"
+  ],
+  "method_count": 4
+}

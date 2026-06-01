@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.entity.IronGolem",
+  "methods": [
+    "public abstract boolean isPlayerCreated()",
+    "public abstract void setPlayerCreated(boolean)"
+  ],
+  "method_count": 2
+}

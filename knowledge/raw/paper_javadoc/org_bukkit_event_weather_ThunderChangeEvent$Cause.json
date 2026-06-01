@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.event.weather.ThunderChangeEvent$Cause",
+  "methods": [
+    "public static org.bukkit.event.weather.ThunderChangeEvent$Cause[] values()",
+    "public static org.bukkit.event.weather.ThunderChangeEvent$Cause valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.boss.BarColor",
+  "methods": [
+    "public static org.bukkit.boss.BarColor[] values()",
+    "public static org.bukkit.boss.BarColor valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

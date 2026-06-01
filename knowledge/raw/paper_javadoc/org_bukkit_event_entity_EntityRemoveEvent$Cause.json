@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.event.entity.EntityRemoveEvent$Cause",
+  "methods": [
+    "public static org.bukkit.event.entity.EntityRemoveEvent$Cause[] values()",
+    "public static org.bukkit.event.entity.EntityRemoveEvent$Cause valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.metadata.FixedMetadataValue",
+  "methods": [
+    "public org.bukkit.metadata.FixedMetadataValue(org.bukkit.plugin.Plugin, java.lang.Object)",
+    "public void invalidate()",
+    "public java.lang.Object value()"
+  ],
+  "method_count": 3
+}

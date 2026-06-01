@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.plugin.messaging.MessageTooLargeException",
+  "methods": [
+    "public org.bukkit.plugin.messaging.MessageTooLargeException()",
+    "public org.bukkit.plugin.messaging.MessageTooLargeException(byte[])",
+    "public org.bukkit.plugin.messaging.MessageTooLargeException(int)",
+    "public org.bukkit.plugin.messaging.MessageTooLargeException(java.lang.String)"
+  ],
+  "method_count": 4
+}

@@ -1,0 +1,7 @@
+{
+  "class_name": "org.bukkit.ChatColor$16",
+  "methods": [
+    "public net.md_5.bungee.api.ChatColor asBungee()"
+  ],
+  "method_count": 1
+}

@@ -1,0 +1,7 @@
+{
+  "class_name": "org.bukkit.configuration.serialization.ConfigurationSerializable",
+  "methods": [
+    "public abstract java.util.Map<java.lang.String, java.lang.Object> serialize()"
+  ],
+  "method_count": 1
+}

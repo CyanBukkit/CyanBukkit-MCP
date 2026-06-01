@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.entity.EntitySnapshot",
+  "methods": [
+    "public abstract org.bukkit.entity.Entity createEntity(org.bukkit.World)",
+    "public abstract org.bukkit.entity.Entity createEntity(org.bukkit.Location)",
+    "public abstract org.bukkit.entity.EntityType getEntityType()",
+    "public abstract java.lang.String getAsString()"
+  ],
+  "method_count": 4
+}

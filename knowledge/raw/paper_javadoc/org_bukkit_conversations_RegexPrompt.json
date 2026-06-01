@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.conversations.RegexPrompt",
+  "methods": [
+    "public org.bukkit.conversations.RegexPrompt(java.lang.String)",
+    "public org.bukkit.conversations.RegexPrompt(java.util.regex.Pattern)",
+    "protected boolean isInputValid(org.bukkit.conversations.ConversationContext, java.lang.String)"
+  ],
+  "method_count": 3
+}

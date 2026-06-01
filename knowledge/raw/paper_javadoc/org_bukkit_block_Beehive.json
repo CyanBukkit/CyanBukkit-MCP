@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.block.Beehive",
+  "methods": [
+    "public abstract org.bukkit.Location getFlower()",
+    "public abstract void setFlower(org.bukkit.Location)",
+    "public abstract boolean isSedated()"
+  ],
+  "method_count": 3
+}

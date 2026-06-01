@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.event.entity.EntityKnockbackByEntityEvent",
+  "methods": [
+    "public org.bukkit.event.entity.EntityKnockbackByEntityEvent(org.bukkit.entity.LivingEntity, org.bukkit.entity.Entity, org.bukkit.event.entity.EntityKnockbackEvent$KnockbackCause, double, org.bukkit.util.Vector, org.bukkit.util.Vector)",
+    "public org.bukkit.entity.Entity getSourceEntity()"
+  ],
+  "method_count": 2
+}

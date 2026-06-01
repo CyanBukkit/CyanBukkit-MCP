@@ -1,0 +1,7 @@
+{
+  "class_name": "org.bukkit.entity.WindCharge",
+  "methods": [
+    "public abstract void explode()"
+  ],
+  "method_count": 1
+}

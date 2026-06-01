@@ -1,0 +1,24 @@
+{
+  "class_name": "org.bukkit.generator.BiomeParameterPoint",
+  "methods": [
+    "public abstract double getTemperature()",
+    "public abstract double getMaxTemperature()",
+    "public abstract double getMinTemperature()",
+    "public abstract double getHumidity()",
+    "public abstract double getMaxHumidity()",
+    "public abstract double getMinHumidity()",
+    "public abstract double getContinentalness()",
+    "public abstract double getMaxContinentalness()",
+    "public abstract double getMinContinentalness()",
+    "public abstract double getErosion()",
+    "public abstract double getMaxErosion()",
+    "public abstract double getMinErosion()",
+    "public abstract double getDepth()",
+    "public abstract double getMaxDepth()",
+    "public abstract double getMinDepth()",
+    "public abstract double getWeirdness()",
+    "public abstract double getMaxWeirdness()",
+    "public abstract double getMinWeirdness()"
+  ],
+  "method_count": 18
+}

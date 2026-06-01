@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.structure.UsageMode",
+  "methods": [
+    "public static org.bukkit.block.structure.UsageMode[] values()",
+    "public static org.bukkit.block.structure.UsageMode valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

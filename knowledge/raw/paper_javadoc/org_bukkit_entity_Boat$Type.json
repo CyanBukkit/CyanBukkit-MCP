@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.entity.Boat$Type",
+  "methods": [
+    "public static org.bukkit.entity.Boat$Type[] values()",
+    "public static org.bukkit.entity.Boat$Type valueOf(java.lang.String)",
+    "public org.bukkit.Material getMaterial()"
+  ],
+  "method_count": 3
+}

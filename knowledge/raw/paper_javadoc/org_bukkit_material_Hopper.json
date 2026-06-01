@@ -1,0 +1,20 @@
+{
+  "class_name": "org.bukkit.material.Hopper",
+  "methods": [
+    "public org.bukkit.material.Hopper()",
+    "public org.bukkit.material.Hopper(org.bukkit.block.BlockFace)",
+    "public org.bukkit.material.Hopper(org.bukkit.block.BlockFace, boolean)",
+    "public org.bukkit.material.Hopper(org.bukkit.Material)",
+    "public org.bukkit.material.Hopper(org.bukkit.Material, byte)",
+    "public void setActive(boolean)",
+    "public boolean isActive()",
+    "public void setFacingDirection(org.bukkit.block.BlockFace)",
+    "public org.bukkit.block.BlockFace getFacing()",
+    "public java.lang.String toString()",
+    "public org.bukkit.material.Hopper clone()",
+    "public boolean isPowered()",
+    "public org.bukkit.material.MaterialData clone()",
+    "public java.lang.Object clone()"
+  ],
+  "method_count": 14
+}

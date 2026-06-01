@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.structure.StructureRotation",
+  "methods": [
+    "public static org.bukkit.block.structure.StructureRotation[] values()",
+    "public static org.bukkit.block.structure.StructureRotation valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.event.block.EntityBlockFormEvent",
+  "methods": [
+    "public org.bukkit.event.block.EntityBlockFormEvent(org.bukkit.entity.Entity, org.bukkit.block.Block, org.bukkit.block.BlockState)",
+    "public org.bukkit.entity.Entity getEntity()"
+  ],
+  "method_count": 2
+}

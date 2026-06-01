@@ -1,0 +1,14 @@
+{
+  "class_name": "org.bukkit.event.entity.EntityTargetEvent",
+  "methods": [
+    "public org.bukkit.event.entity.EntityTargetEvent(org.bukkit.entity.Entity, org.bukkit.entity.Entity, org.bukkit.event.entity.EntityTargetEvent$TargetReason)",
+    "public org.bukkit.event.entity.EntityTargetEvent$TargetReason getReason()",
+    "public org.bukkit.entity.Entity getTarget()",
+    "public void setTarget(org.bukkit.entity.Entity)",
+    "public boolean isCancelled()",
+    "public void setCancelled(boolean)",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 8
+}

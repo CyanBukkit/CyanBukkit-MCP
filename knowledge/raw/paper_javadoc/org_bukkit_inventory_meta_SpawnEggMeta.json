@@ -1,0 +1,14 @@
+{
+  "class_name": "org.bukkit.inventory.meta.SpawnEggMeta",
+  "methods": [
+    "public abstract org.bukkit.entity.EntityType getSpawnedType()",
+    "public abstract void setSpawnedType(org.bukkit.entity.EntityType)",
+    "public abstract org.bukkit.entity.EntitySnapshot getSpawnedEntity()",
+    "public abstract void setSpawnedEntity(org.bukkit.entity.EntitySnapshot)",
+    "public abstract org.bukkit.entity.EntityType getCustomSpawnedType()",
+    "public abstract void setCustomSpawnedType(org.bukkit.entity.EntityType)",
+    "public abstract org.bukkit.inventory.meta.SpawnEggMeta clone()",
+    "public default org.bukkit.inventory.meta.ItemMeta clone()"
+  ],
+  "method_count": 8
+}

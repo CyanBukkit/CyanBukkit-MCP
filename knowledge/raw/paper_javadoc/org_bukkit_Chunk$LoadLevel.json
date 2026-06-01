@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.Chunk$LoadLevel",
+  "methods": [
+    "public static org.bukkit.Chunk$LoadLevel[] values()",
+    "public static org.bukkit.Chunk$LoadLevel valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

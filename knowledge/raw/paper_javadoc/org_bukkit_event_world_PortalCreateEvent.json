@@ -1,0 +1,15 @@
+{
+  "class_name": "org.bukkit.event.world.PortalCreateEvent",
+  "methods": [
+    "public org.bukkit.event.world.PortalCreateEvent(java.util.List<org.bukkit.block.BlockState>, org.bukkit.World, org.bukkit.event.world.PortalCreateEvent$CreateReason)",
+    "public org.bukkit.event.world.PortalCreateEvent(java.util.List<org.bukkit.block.BlockState>, org.bukkit.World, org.bukkit.entity.Entity, org.bukkit.event.world.PortalCreateEvent$CreateReason)",
+    "public java.util.List<org.bukkit.block.BlockState> getBlocks()",
+    "public org.bukkit.entity.Entity getEntity()",
+    "public org.bukkit.event.world.PortalCreateEvent$CreateReason getReason()",
+    "public boolean isCancelled()",
+    "public void setCancelled(boolean)",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 9
+}

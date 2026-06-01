@@ -1,0 +1,19 @@
+{
+  "class_name": "org.bukkit.inventory.meta.FireworkMeta",
+  "methods": [
+    "public abstract void addEffect(org.bukkit.FireworkEffect)",
+    "public abstract void addEffects(org.bukkit.FireworkEffect...)",
+    "public abstract void addEffects(java.lang.Iterable<org.bukkit.FireworkEffect>)",
+    "public abstract java.util.List<org.bukkit.FireworkEffect> getEffects()",
+    "public abstract int getEffectsSize()",
+    "public abstract void removeEffect(int)",
+    "public abstract void clearEffects()",
+    "public abstract boolean hasEffects()",
+    "public abstract boolean hasPower()",
+    "public abstract int getPower()",
+    "public abstract void setPower(int)",
+    "public abstract org.bukkit.inventory.meta.FireworkMeta clone()",
+    "public default org.bukkit.inventory.meta.ItemMeta clone()"
+  ],
+  "method_count": 13
+}

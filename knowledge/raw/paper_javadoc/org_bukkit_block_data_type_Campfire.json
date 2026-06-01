@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.data.type.Campfire",
+  "methods": [
+    "public abstract boolean isSignalFire()",
+    "public abstract void setSignalFire(boolean)"
+  ],
+  "method_count": 2
+}

@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.conversations.Conversation$ConversationState",
+  "methods": [
+    "public static org.bukkit.conversations.Conversation$ConversationState[] values()",
+    "public static org.bukkit.conversations.Conversation$ConversationState valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

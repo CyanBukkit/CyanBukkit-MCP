@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.entity.PufferFish",
+  "methods": [
+    "public abstract int getPuffState()",
+    "public abstract void setPuffState(int)"
+  ],
+  "method_count": 2
+}

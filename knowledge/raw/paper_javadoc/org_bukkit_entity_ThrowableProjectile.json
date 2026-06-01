@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.entity.ThrowableProjectile",
+  "methods": [
+    "public abstract org.bukkit.inventory.ItemStack getItem()",
+    "public abstract void setItem(org.bukkit.inventory.ItemStack)"
+  ],
+  "method_count": 2
+}

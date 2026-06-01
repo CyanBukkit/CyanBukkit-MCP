@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.SoundCategory",
+  "methods": [
+    "public static org.bukkit.SoundCategory[] values()",
+    "public static org.bukkit.SoundCategory valueOf(java.lang.String)",
+    "public net.kyori.adventure.sound.Sound$Source soundSource()"
+  ],
+  "method_count": 3
+}

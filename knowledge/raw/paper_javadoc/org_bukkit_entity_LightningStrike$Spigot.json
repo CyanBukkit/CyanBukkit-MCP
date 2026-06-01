@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.entity.LightningStrike$Spigot",
+  "methods": [
+    "public org.bukkit.entity.LightningStrike$Spigot()",
+    "public boolean isSilent()"
+  ],
+  "method_count": 2
+}

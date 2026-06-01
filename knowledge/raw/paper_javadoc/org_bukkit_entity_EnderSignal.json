@@ -1,0 +1,15 @@
+{
+  "class_name": "org.bukkit.entity.EnderSignal",
+  "methods": [
+    "public abstract org.bukkit.Location getTargetLocation()",
+    "public abstract void setTargetLocation(org.bukkit.Location)",
+    "public abstract void setTargetLocation(org.bukkit.Location, boolean)",
+    "public abstract boolean getDropItem()",
+    "public abstract void setDropItem(boolean)",
+    "public abstract org.bukkit.inventory.ItemStack getItem()",
+    "public abstract void setItem(org.bukkit.inventory.ItemStack)",
+    "public abstract int getDespawnTimer()",
+    "public abstract void setDespawnTimer(int)"
+  ],
+  "method_count": 9
+}

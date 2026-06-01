@@ -1,0 +1,17 @@
+{
+  "jar": "D:\\Program Files\\gradle\\repo\\caches\\paperweight-userdev\\v2\\work\\extractFromBundler_e491abcda02ea198ba2fc0478772abd926c959c560babfab2b2a490c7102d114\\minecraftLibraries\\com\\mojang\\jtracy\\1.0.29\\jtracy-1.0.29.jar",
+  "artifact": "jtracy/1.0.29/jtracy-1.0.29",
+  "class_count": 9,
+  "all_classes": [
+    "com.mojang.jtracy.DiscontinuousFrame",
+    "com.mojang.jtracy.ContinuousFrame",
+    "com.mojang.jtracy.TracyBindings",
+    "com.mojang.jtracy.Zone",
+    "com.mojang.jtracy.Loader",
+    "com.mojang.jtracy.Plot",
+    "com.mojang.jtracy.TracyClient",
+    "com.mojang.jtracy.MemoryPool",
+    "com.mojang.jtracy.Loader$1"
+  ],
+  "truncated": false
+}

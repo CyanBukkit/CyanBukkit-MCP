@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.event.entity.CreatureSpawnEvent",
+  "methods": [
+    "public org.bukkit.event.entity.CreatureSpawnEvent(org.bukkit.entity.LivingEntity, org.bukkit.event.entity.CreatureSpawnEvent$SpawnReason)",
+    "public org.bukkit.entity.LivingEntity getEntity()",
+    "public org.bukkit.event.entity.CreatureSpawnEvent$SpawnReason getSpawnReason()",
+    "public org.bukkit.entity.Entity getEntity()"
+  ],
+  "method_count": 4
+}

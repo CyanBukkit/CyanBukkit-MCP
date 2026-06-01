@@ -1,0 +1,11 @@
+{
+  "class_name": "org.bukkit.Particle",
+  "methods": [
+    "public static org.bukkit.Particle[] values()",
+    "public static org.bukkit.Particle valueOf(java.lang.String)",
+    "public java.lang.Class<?> getDataType()",
+    "public org.bukkit.NamespacedKey getKey()",
+    "public com.destroystokyo.paper.ParticleBuilder builder()"
+  ],
+  "method_count": 5
+}

@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.entity.Axolotl",
+  "methods": [
+    "public abstract boolean isPlayingDead()",
+    "public abstract void setPlayingDead(boolean)",
+    "public abstract org.bukkit.entity.Axolotl$Variant getVariant()",
+    "public abstract void setVariant(org.bukkit.entity.Axolotl$Variant)"
+  ],
+  "method_count": 4
+}

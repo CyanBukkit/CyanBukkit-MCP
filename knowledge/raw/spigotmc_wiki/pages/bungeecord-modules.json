@@ -1,0 +1,7 @@
+{
+  "title": "BungeeCord Modules",
+  "url": "https://www.spigotmc.org/wiki/bungeecord-modules/",
+  "content": "Mar 23, 2020\nDiscussion (5)\nPage\nHistory\nEditors\nBungeeCord Modules\nBungeeCord Modules\nExtra functionality for BungeeCord\nBungeeCord comes with a module system that allows certain BungeeCord functionality to be split from the main code base. Each module handles the command in its name. For example, \"cmd_alert.jar\" handles the /alert command. For details on what each command does, see\nthis article\n. Some plugins will override the commands included by default in BungeeCord, in order for these plugins to correctly function the module corresponding to the overwritten command may need to be removed so that the command is opened up for the plugin to claim.\nYou need to edit the modules.yml file to remove a module.\nLoading...\nView\nLoading...\nView\n(31864 Views)\nLast Modified: Mar 23, 2020 at 1:29 AM",
+  "content_length": 801,
+  "method": "bs4"
+}

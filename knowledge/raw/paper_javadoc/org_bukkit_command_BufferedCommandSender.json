@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.command.BufferedCommandSender",
+  "methods": [
+    "public org.bukkit.command.BufferedCommandSender()",
+    "public void sendMessage(java.lang.String)",
+    "public java.lang.String getBuffer()",
+    "public void reset()"
+  ],
+  "method_count": 4
+}

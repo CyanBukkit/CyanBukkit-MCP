@@ -1,0 +1,13 @@
+{
+  "class_name": "org.bukkit.scoreboard.Criteria",
+  "methods": [
+    "public abstract java.lang.String getName()",
+    "public abstract boolean isReadOnly()",
+    "public abstract org.bukkit.scoreboard.RenderType getDefaultRenderType()",
+    "public static org.bukkit.scoreboard.Criteria statistic(org.bukkit.Statistic, org.bukkit.Material)",
+    "public static org.bukkit.scoreboard.Criteria statistic(org.bukkit.Statistic, org.bukkit.entity.EntityType)",
+    "public static org.bukkit.scoreboard.Criteria statistic(org.bukkit.Statistic)",
+    "public static org.bukkit.scoreboard.Criteria create(java.lang.String)"
+  ],
+  "method_count": 7
+}

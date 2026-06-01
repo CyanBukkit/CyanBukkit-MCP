@@ -1,0 +1,12 @@
+{
+  "class_name": "org.bukkit.map.MapFont",
+  "methods": [
+    "public org.bukkit.map.MapFont()",
+    "public void setChar(char, org.bukkit.map.MapFont$CharacterSprite)",
+    "public org.bukkit.map.MapFont$CharacterSprite getChar(char)",
+    "public int getWidth(java.lang.String)",
+    "public int getHeight()",
+    "public boolean isValid(java.lang.String)"
+  ],
+  "method_count": 6
+}

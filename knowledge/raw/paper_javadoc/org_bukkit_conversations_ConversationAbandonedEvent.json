@@ -1,0 +1,11 @@
+{
+  "class_name": "org.bukkit.conversations.ConversationAbandonedEvent",
+  "methods": [
+    "public org.bukkit.conversations.ConversationAbandonedEvent(org.bukkit.conversations.Conversation)",
+    "public org.bukkit.conversations.ConversationAbandonedEvent(org.bukkit.conversations.Conversation, org.bukkit.conversations.ConversationCanceller)",
+    "public org.bukkit.conversations.ConversationCanceller getCanceller()",
+    "public org.bukkit.conversations.ConversationContext getContext()",
+    "public boolean gracefulExit()"
+  ],
+  "method_count": 5
+}

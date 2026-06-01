@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.event.player.PlayerQuitEvent$QuitReason",
+  "methods": [
+    "public static org.bukkit.event.player.PlayerQuitEvent$QuitReason[] values()",
+    "public static org.bukkit.event.player.PlayerQuitEvent$QuitReason valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

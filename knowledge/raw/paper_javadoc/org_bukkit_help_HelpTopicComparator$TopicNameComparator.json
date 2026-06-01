@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.help.HelpTopicComparator$TopicNameComparator",
+  "methods": [
+    "public int compare(java.lang.String, java.lang.String)",
+    "public int compare(java.lang.Object, java.lang.Object)"
+  ],
+  "method_count": 2
+}

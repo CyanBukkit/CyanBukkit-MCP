@@ -1,0 +1,13 @@
+{
+  "class_name": "org.bukkit.entity.PiglinAbstract",
+  "methods": [
+    "public abstract boolean isImmuneToZombification()",
+    "public abstract void setImmuneToZombification(boolean)",
+    "public abstract int getConversionTime()",
+    "public abstract void setConversionTime(int)",
+    "public abstract boolean isConverting()",
+    "public abstract boolean isBaby()",
+    "public abstract void setBaby(boolean)"
+  ],
+  "method_count": 7
+}

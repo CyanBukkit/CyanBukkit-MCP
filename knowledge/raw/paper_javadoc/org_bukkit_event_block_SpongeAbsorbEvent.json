@@ -1,0 +1,12 @@
+{
+  "class_name": "org.bukkit.event.block.SpongeAbsorbEvent",
+  "methods": [
+    "public org.bukkit.event.block.SpongeAbsorbEvent(org.bukkit.block.Block, java.util.List<org.bukkit.block.BlockState>)",
+    "public java.util.List<org.bukkit.block.BlockState> getBlocks()",
+    "public boolean isCancelled()",
+    "public void setCancelled(boolean)",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 6
+}

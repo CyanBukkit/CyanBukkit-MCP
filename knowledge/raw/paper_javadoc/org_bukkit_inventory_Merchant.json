@@ -1,0 +1,13 @@
+{
+  "class_name": "org.bukkit.inventory.Merchant",
+  "methods": [
+    "public abstract java.util.List<org.bukkit.inventory.MerchantRecipe> getRecipes()",
+    "public abstract void setRecipes(java.util.List<org.bukkit.inventory.MerchantRecipe>)",
+    "public abstract org.bukkit.inventory.MerchantRecipe getRecipe(int)",
+    "public abstract void setRecipe(int, org.bukkit.inventory.MerchantRecipe)",
+    "public abstract int getRecipeCount()",
+    "public abstract boolean isTrading()",
+    "public abstract org.bukkit.entity.HumanEntity getTrader()"
+  ],
+  "method_count": 7
+}

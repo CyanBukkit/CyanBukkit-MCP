@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.persistence.PersistentDataHolder",
+  "methods": [
+    "public abstract org.bukkit.persistence.PersistentDataContainer getPersistentDataContainer()",
+    "public default io.papermc.paper.persistence.PersistentDataContainerView getPersistentDataContainer()"
+  ],
+  "method_count": 2
+}

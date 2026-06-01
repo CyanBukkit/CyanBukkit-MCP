@@ -1,0 +1,7 @@
+{
+  "class_name": "org.bukkit.map.MinecraftFont",
+  "methods": [
+    "public org.bukkit.map.MinecraftFont()"
+  ],
+  "method_count": 1
+}

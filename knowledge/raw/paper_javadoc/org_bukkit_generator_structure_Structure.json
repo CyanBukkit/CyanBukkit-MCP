@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.generator.structure.Structure",
+  "methods": [
+    "public org.bukkit.generator.structure.Structure()",
+    "public abstract org.bukkit.generator.structure.StructureType getStructureType()",
+    "public abstract org.bukkit.NamespacedKey getKey()",
+    "public net.kyori.adventure.key.Key key()"
+  ],
+  "method_count": 4
+}

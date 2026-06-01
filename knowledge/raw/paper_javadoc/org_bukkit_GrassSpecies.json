@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.GrassSpecies",
+  "methods": [
+    "public static org.bukkit.GrassSpecies[] values()",
+    "public static org.bukkit.GrassSpecies valueOf(java.lang.String)",
+    "public byte getData()",
+    "public static org.bukkit.GrassSpecies getByData(byte)"
+  ],
+  "method_count": 4
+}

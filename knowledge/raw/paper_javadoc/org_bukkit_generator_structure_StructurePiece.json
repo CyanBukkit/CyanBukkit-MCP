@@ -1,0 +1,7 @@
+{
+  "class_name": "org.bukkit.generator.structure.StructurePiece",
+  "methods": [
+    "public abstract org.bukkit.util.BoundingBox getBoundingBox()"
+  ],
+  "method_count": 1
+}

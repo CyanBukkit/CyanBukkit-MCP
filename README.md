@@ -1,29 +1,128 @@
 # CyanBukkit-MCP
 
-CyanBukkit-MCP 是面向 Minecraft Java 服务端生态的 MCP（Model Context Protocol）服务项目，目标是让 AI Agent 能够结构化访问 Bukkit/Spigot/Paper 插件开发资料与常用生态能力，降低开服插件开发门槛。
+CyanBukkit-MCP 是面向 Minecraft Java 服务端生态的 MCP（Model Context Protocol）服务。它把 Bukkit/Spigot/Paper、NMS、ProtocolLib、PlaceholderAPI、Vault 等资料整理成 AI Agent 可以直接调用的 stdio MCP 工具。
 
-项目计划基于 FastMCP 构建，围绕 NMS、ProtocolLib、PlaceholderAPI、Vault 以及全版本 SpigotMC JavaDoc 提供统一的检索、问答、代码辅助与版本差异分析能力。
+## 最傻瓜式使用：直接调用 exe
 
-## 初始目标
+1. 获取或构建 `dist\cyanbukkit-mcp.exe`。
+2. 在 MCP 客户端里把 `command` 指向这个 exe 的绝对路径。
+3. 不需要额外参数，传输方式使用 stdio。
 
-- 接入全版本 SpigotMC JavaDoc，并支持按版本、包名、类名、方法名检索。
-- 建立 NMS 版本映射与差异知识库，辅助跨版本插件开发。
-- 接入 ProtocolLib、PlaceholderAPI、Vault 等主流插件 API 文档。
-- 为 AI Agent 暴露标准 MCP tools/resources/prompts。
-- 支持后续文档统一归类、索引构建与自动更新。
+示例：
 
-## 目录规划
+```json
+{
+  "mcpServers": {
+    "cyanbukkit": {
+      "command": "G:\\Ai_Agent\\CyanBukkit-MCP\\dist\\cyanbukkit-mcp.exe",
+      "args": []
+    }
+  }
+}
+```
+
+更多客户端配置见 [`docs/MCP_CLIENT_CONFIG.md`](docs/MCP_CLIENT_CONFIG.md)。
+
+## 从源码一键构建 exe
+
+本项目默认使用 Conda 环境 `mcpmaker` 构建：
+
+```bat
+build.bat
+```
+
+Git Bash 用户也可以运行：
+
+```bash
+./build.sh
+```
+
+构建完成后会生成：
+
+```text
+dist/cyanbukkit-mcp.exe
+```
+
+默认图标来源：
+
+```text
+F:\综合图片库\青桐桶\108_16x16.ico
+```
+
+如果要指定 PNG 或 ICO：
+
+```bat
+build.bat --icon "F:\综合图片库\青桐桶\28.png"
+```
+
+PNG 图标转换需要 Pillow：
+
+```bat
+conda run -n mcpmaker pip install pillow
+```
+
+## 开发模式运行
+
+不想编译 exe 时，可以直接使用 Conda 环境运行源码。
+
+Windows：
+
+```bat
+scripts\cyanbukkit-mcp.bat
+```
+
+Git Bash：
+
+```bash
+./scripts/cyanbukkit-mcp
+```
+
+这些脚本固定使用：
+
+```text
+C:\ProgramData\miniconda3\envs\mcpmaker\python.exe
+```
+
+## 手动安装开发环境
+
+```bash
+conda create -n mcpmaker python=3.11
+conda run -n mcpmaker pip install -e .[build,dev]
+```
+
+手动启动：
+
+```bash
+conda run -n mcpmaker python -m cyanbukkit_mcp
+```
+
+## 目录说明
 
 ```text
 CyanBukkit-MCP/
-├── docs/                 # 策划案、设计文档、文档归类说明
-├── src/                  # FastMCP 服务端源码
-├── knowledge/            # 原始/整理后的 JavaDoc 与生态文档索引
-├── scripts/              # 文档抓取、清洗、索引生成脚本
-├── tests/                # MCP 工具与索引测试
-└── pyproject.toml        # Python 项目配置
+├── src/cyanbukkit_mcp/      # FastMCP 服务源码
+├── knowledge/               # JavaDoc、Wiki、插件 API 知识库
+├── scripts/                 # 抓取脚本与 Conda 启动脚本
+├── docs/                    # 配置说明与项目文档
+├── build.py                 # PyInstaller exe 构建脚本
+├── build.bat                # Windows 一键构建
+├── build.sh                 # Git Bash 一键构建
+└── pyproject.toml           # Python 项目配置
 ```
 
-## 当前状态
+## 当前 MCP 工具
 
-本仓库处于项目初始化阶段，先建立策划与架构方向。后续可按模块逐步实现 MCP 服务、文档索引器与生态适配器。
+- `search_javadoc`：搜索 Paper/Bukkit JavaDoc。
+- `get_javadoc_class`：获取指定类的完整 JavaDoc。
+- `search_wiki`：搜索 SpigotMC Wiki。
+- `list_available_artifacts`：列出知识库 artifact。
+- `get_artifact_info`：查看 artifact 详情。
+
+## 验证
+
+```bash
+conda run -n mcpmaker python -m cyanbukkit_mcp
+conda run -n mcpmaker python build.py
+pytest
+ruff check
+```

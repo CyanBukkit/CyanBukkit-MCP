@@ -1,0 +1,12 @@
+{
+  "class_name": "org.bukkit.plugin.PluginLoader",
+  "methods": [
+    "public abstract org.bukkit.plugin.Plugin loadPlugin(java.io.File)",
+    "public abstract org.bukkit.plugin.PluginDescriptionFile getPluginDescription(java.io.File)",
+    "public abstract java.util.regex.Pattern[] getPluginFileFilters()",
+    "public abstract java.util.Map<java.lang.Class<? extends org.bukkit.event.Event>, java.util.Set<org.bukkit.plugin.RegisteredListener>> createRegisteredListeners(org.bukkit.event.Listener, org.bukkit.plugin.Plugin)",
+    "public abstract void enablePlugin(org.bukkit.plugin.Plugin)",
+    "public abstract void disablePlugin(org.bukkit.plugin.Plugin)"
+  ],
+  "method_count": 6
+}

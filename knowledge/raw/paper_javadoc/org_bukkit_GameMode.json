@@ -1,0 +1,12 @@
+{
+  "class_name": "org.bukkit.GameMode",
+  "methods": [
+    "public static org.bukkit.GameMode[] values()",
+    "public static org.bukkit.GameMode valueOf(java.lang.String)",
+    "public java.lang.String translationKey()",
+    "public int getValue()",
+    "public static org.bukkit.GameMode getByValue(int)",
+    "public boolean isInvulnerable()"
+  ],
+  "method_count": 6
+}

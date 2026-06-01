@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.util.CachedServerIcon",
+  "methods": [
+    "public abstract java.lang.String getData()",
+    "public default boolean isEmpty()"
+  ],
+  "method_count": 2
+}

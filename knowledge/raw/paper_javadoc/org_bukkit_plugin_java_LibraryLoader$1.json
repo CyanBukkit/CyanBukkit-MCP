@@ -1,0 +1,7 @@
+{
+  "class_name": "org.bukkit.plugin.java.LibraryLoader$1",
+  "methods": [
+    "public void transferStarted(org.eclipse.aether.transfer.TransferEvent)"
+  ],
+  "method_count": 1
+}

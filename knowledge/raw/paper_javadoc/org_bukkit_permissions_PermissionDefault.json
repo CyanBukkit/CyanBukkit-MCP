@@ -1,0 +1,11 @@
+{
+  "class_name": "org.bukkit.permissions.PermissionDefault",
+  "methods": [
+    "public static org.bukkit.permissions.PermissionDefault[] values()",
+    "public static org.bukkit.permissions.PermissionDefault valueOf(java.lang.String)",
+    "public boolean getValue(boolean)",
+    "public static org.bukkit.permissions.PermissionDefault getByName(java.lang.String)",
+    "public java.lang.String toString()"
+  ],
+  "method_count": 5
+}

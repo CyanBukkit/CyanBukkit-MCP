@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.block.data.Rail",
+  "methods": [
+    "public abstract org.bukkit.block.data.Rail$Shape getShape()",
+    "public abstract void setShape(org.bukkit.block.data.Rail$Shape)",
+    "public abstract java.util.Set<org.bukkit.block.data.Rail$Shape> getShapes()"
+  ],
+  "method_count": 3
+}

@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.scoreboard.RenderType",
+  "methods": [
+    "public static org.bukkit.scoreboard.RenderType[] values()",
+    "public static org.bukkit.scoreboard.RenderType valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.data.type.TechnicalPiston$Type",
+  "methods": [
+    "public static org.bukkit.block.data.type.TechnicalPiston$Type[] values()",
+    "public static org.bukkit.block.data.type.TechnicalPiston$Type valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

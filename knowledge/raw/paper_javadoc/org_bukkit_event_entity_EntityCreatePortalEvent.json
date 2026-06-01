@@ -1,0 +1,15 @@
+{
+  "class_name": "org.bukkit.event.entity.EntityCreatePortalEvent",
+  "methods": [
+    "public org.bukkit.event.entity.EntityCreatePortalEvent(org.bukkit.entity.LivingEntity, java.util.List<org.bukkit.block.BlockState>, org.bukkit.PortalType)",
+    "public org.bukkit.entity.LivingEntity getEntity()",
+    "public java.util.List<org.bukkit.block.BlockState> getBlocks()",
+    "public org.bukkit.PortalType getPortalType()",
+    "public boolean isCancelled()",
+    "public void setCancelled(boolean)",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()",
+    "public org.bukkit.entity.Entity getEntity()"
+  ],
+  "method_count": 9
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "jar": "C:\\Users\\SmallXY\\.m2\\repository\\su\\nightexpress\\nightcore\\spigot\\2.9.4\\spigot-2.9.4.jar",
+    "artifact": "spigot/2.9.4/spigot-2.9.4",
+    "class_count": 13,
+    "classes_sample": [
+      "su.nightexpress.nightcore.bridge.spigot.bossbar.SpigotBossBar",
+      "su.nightexpress.nightcore.bridge.spigot.bossbar.SpigotBossBarAdapter$1",
+      "su.nightexpress.nightcore.bridge.spigot.bossbar.SpigotBossBarAdapter",
+      "su.nightexpress.nightcore.bridge.spigot.click.SpigotClickEventAdapter$1",
+      "su.nightexpress.nightcore.bridge.spigot.click.SpigotClickEventAdapter$MC_1_21_7",
+      "su.nightexpress.nightcore.bridge.spigot.click.SpigotClickEventAdapter",
+      "su.nightexpress.nightcore.bridge.spigot.dialog.SpigotDialogAdapter$1",
+      "su.nightexpress.nightcore.bridge.spigot.dialog.SpigotDialogAdapter",
+      "su.nightexpress.nightcore.bridge.spigot.dialog.SpigotDialogListener",
+      "su.nightexpress.nightcore.bridge.spigot.SpigotBridge",
+      "su.nightexpress.nightcore.bridge.spigot.SpigotProfile",
+      "su.nightexpress.nightcore.bridge.spigot.text.SpigotObjectContentsAdapter",
+      "su.nightexpress.nightcore.bridge.spigot.text.SpigotTextComponentAdapter"
+    ],
+    "truncated": false
+  }
+]

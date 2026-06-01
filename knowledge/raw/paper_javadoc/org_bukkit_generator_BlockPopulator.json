@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.generator.BlockPopulator",
+  "methods": [
+    "public org.bukkit.generator.BlockPopulator()",
+    "public void populate(org.bukkit.World, java.util.Random, org.bukkit.Chunk)",
+    "public void populate(org.bukkit.generator.WorldInfo, java.util.Random, int, int, org.bukkit.generator.LimitedRegion)"
+  ],
+  "method_count": 3
+}

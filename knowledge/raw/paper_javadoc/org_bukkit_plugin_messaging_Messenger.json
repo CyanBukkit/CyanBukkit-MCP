@@ -1,0 +1,26 @@
+{
+  "class_name": "org.bukkit.plugin.messaging.Messenger",
+  "methods": [
+    "public abstract boolean isReservedChannel(java.lang.String)",
+    "public abstract void registerOutgoingPluginChannel(org.bukkit.plugin.Plugin, java.lang.String)",
+    "public abstract void unregisterOutgoingPluginChannel(org.bukkit.plugin.Plugin, java.lang.String)",
+    "public abstract void unregisterOutgoingPluginChannel(org.bukkit.plugin.Plugin)",
+    "public abstract org.bukkit.plugin.messaging.PluginMessageListenerRegistration registerIncomingPluginChannel(org.bukkit.plugin.Plugin, java.lang.String, org.bukkit.plugin.messaging.PluginMessageListener)",
+    "public abstract void unregisterIncomingPluginChannel(org.bukkit.plugin.Plugin, java.lang.String, org.bukkit.plugin.messaging.PluginMessageListener)",
+    "public abstract void unregisterIncomingPluginChannel(org.bukkit.plugin.Plugin, java.lang.String)",
+    "public abstract void unregisterIncomingPluginChannel(org.bukkit.plugin.Plugin)",
+    "public abstract java.util.Set<java.lang.String> getOutgoingChannels()",
+    "public abstract java.util.Set<java.lang.String> getOutgoingChannels(org.bukkit.plugin.Plugin)",
+    "public abstract java.util.Set<java.lang.String> getIncomingChannels()",
+    "public abstract java.util.Set<java.lang.String> getIncomingChannels(org.bukkit.plugin.Plugin)",
+    "public abstract java.util.Set<org.bukkit.plugin.messaging.PluginMessageListenerRegistration> getIncomingChannelRegistrations(org.bukkit.plugin.Plugin)",
+    "public abstract java.util.Set<org.bukkit.plugin.messaging.PluginMessageListenerRegistration> getIncomingChannelRegistrations(java.lang.String)",
+    "public abstract java.util.Set<org.bukkit.plugin.messaging.PluginMessageListenerRegistration> getIncomingChannelRegistrations(org.bukkit.plugin.Plugin, java.lang.String)",
+    "public abstract boolean isRegistrationValid(org.bukkit.plugin.messaging.PluginMessageListenerRegistration)",
+    "public abstract boolean isIncomingChannelRegistered(org.bukkit.plugin.Plugin, java.lang.String)",
+    "public abstract boolean isOutgoingChannelRegistered(org.bukkit.plugin.Plugin, java.lang.String)",
+    "public abstract void dispatchIncomingMessage(org.bukkit.entity.Player, java.lang.String, byte[])",
+    "public abstract void dispatchIncomingMessage(io.papermc.paper.connection.PlayerConnection, java.lang.String, byte[])"
+  ],
+  "method_count": 20
+}

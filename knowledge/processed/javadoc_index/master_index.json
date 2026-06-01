@@ -1,0 +1,2382 @@
+[
+  {
+    "class_name": "Animals",
+    "short_name": "Animals",
+    "description": "Represents an Animal.",
+    "method_count": 0,
+    "methods": [],
+    "file": "Animals.json"
+  },
+  {
+    "class_name": "AreaEffectCloudApplyEvent",
+    "short_name": "AreaEffectCloudApplyEvent",
+    "description": "Called when a lingering potion applies its effects. Happens once every 5 ticks",
+    "method_count": 0,
+    "methods": [],
+    "file": "AreaEffectCloudApplyEvent.json"
+  },
+  {
+    "class_name": "ArmorStand",
+    "short_name": "ArmorStand",
+    "description": "Represents types of locking mechanisms for ArmorStand equipment.",
+    "method_count": 0,
+    "methods": [],
+    "file": "ArmorStand.json"
+  },
+  {
+    "class_name": "Arrow",
+    "short_name": "Arrow",
+    "description": "Adds a custom potion effect to this arrow.",
+    "method_count": 0,
+    "methods": [],
+    "file": "Arrow.json"
+  },
+  {
+    "class_name": "AsyncChatEvent",
+    "short_name": "AsyncChatEvent",
+    "description": "An event fired when a Player sends a chat message to the server. This event will sometimes fire synchronously, depending on how it was triggered. If a player is the direct cause of this event by an incoming packet, this event will be asynchronous. If a plugin triggers this event by compelling a play",
+    "method_count": 0,
+    "methods": [],
+    "file": "AsyncChatEvent.json"
+  },
+  {
+    "class_name": "AsyncPlayerChatEvent",
+    "short_name": "AsyncPlayerChatEvent",
+    "description": "All Implemented Interfaces:\nCancellable\nDirect Known Subclasses:\nAsyncPlayerChatPreviewEvent\n@Deprecated\npublic class\nAsyncPlayerChatEvent\nextends\nPlayerEvent\nimplements\nCancellable\nDeprecated.\nuse\nAsyncChatEvent\ninstead\nThis event will sometimes fire synchronously, depending on how it was\n triggere",
+    "method_count": 0,
+    "methods": [],
+    "file": "AsyncPlayerChatEvent.json"
+  },
+  {
+    "class_name": "AsyncPlayerChatEvent",
+    "short_name": "AsyncPlayerChatEvent",
+    "description": "All Implemented Interfaces:\nCancellable\nDirect Known Subclasses:\nAsyncPlayerChatPreviewEvent\n@Deprecated\npublic class\nAsyncPlayerChatEvent\nextends\nPlayerEvent\nimplements\nCancellable\nDeprecated.\nuse\nAsyncChatEvent\ninstead\nThis event will sometimes fire synchronously, depending on how it was\n triggere",
+    "method_count": 15,
+    "methods": [
+      "AsyncPlayerChatEvent",
+      "getFormat",
+      "getHandlerList",
+      "getHandlers",
+      "getMessage",
+      "getRecipients",
+      "isCancelled",
+      "setCancelled",
+      "setFormat",
+      "setMessage"
+    ],
+    "file": "AsyncPlayerChatEvent_full.json"
+  },
+  {
+    "class_name": "Attribute",
+    "short_name": "Attribute",
+    "description": "Types of attributes which may be present on an Attributable .",
+    "method_count": 0,
+    "methods": [],
+    "file": "Attribute.json"
+  },
+  {
+    "class_name": "AttributeModifier",
+    "short_name": "AttributeModifier",
+    "description": "Concrete implementation of an attribute modifier.",
+    "method_count": 0,
+    "methods": [],
+    "file": "AttributeModifier.json"
+  },
+  {
+    "class_name": "BanList",
+    "short_name": "BanList",
+    "description": "",
+    "method_count": 0,
+    "methods": [],
+    "file": "BanList.json"
+  },
+  {
+    "class_name": "BannerMeta",
+    "short_name": "BannerMeta",
+    "description": "Adds a new pattern on top of the existing patterns",
+    "method_count": 0,
+    "methods": [],
+    "file": "BannerMeta.json"
+  },
+  {
+    "class_name": "Block",
+    "short_name": "Block",
+    "description": "Represents a block. This is a live object, and only one Block may exist for any given location in a world. The state of the block may change concurrently to your own handling of it; use block.getState() to get a snapshot state of a block which will not be modified. Note that parts of this class whic",
+    "method_count": 0,
+    "methods": [],
+    "file": "Block.json"
+  },
+  {
+    "class_name": "BlockBreakBlockEvent",
+    "short_name": "BlockBreakBlockEvent",
+    "description": "Called when a block forces another block to break and drop items. Currently called for piston's and liquid flows.",
+    "method_count": 0,
+    "methods": [],
+    "file": "BlockBreakBlockEvent.json"
+  },
+  {
+    "class_name": "BlockBreakEvent",
+    "short_name": "BlockBreakEvent",
+    "description": "All Implemented Interfaces:\nCancellable\npublic class\nBlockBreakEvent\nextends\nBlockExpEvent\nimplements\nCancellable\nCalled when a block is broken by a player.\nIf you wish to have the block drop experience, you must set the experience\n value above 0. By default, experience will be set in the event if:\n",
+    "method_count": 0,
+    "methods": [],
+    "file": "BlockBreakEvent.json"
+  },
+  {
+    "class_name": "BlockBurnEvent",
+    "short_name": "BlockBurnEvent",
+    "description": "Called when a block is destroyed as a result of being burnt by fire. If a Block Burn event is cancelled, the block will not be destroyed as a result of being burnt by fire.",
+    "method_count": 0,
+    "methods": [],
+    "file": "BlockBurnEvent.json"
+  },
+  {
+    "class_name": "BlockCanBuildEvent",
+    "short_name": "BlockCanBuildEvent",
+    "description": "Called when we try to place a block, to see if we can build it here or not. Note: The Block returned by getBlock() is the block we are trying to place on, not the block we are trying to place. If you want to figure out what is being placed, use getMaterial() instead.",
+    "method_count": 0,
+    "methods": [],
+    "file": "BlockCanBuildEvent.json"
+  },
+  {
+    "class_name": "BlockDamageEvent",
+    "short_name": "BlockDamageEvent",
+    "description": "Called when a block is damaged by a player. If a Block Damage event is cancelled, the block will not be damaged.",
+    "method_count": 0,
+    "methods": [],
+    "file": "BlockDamageEvent.json"
+  },
+  {
+    "class_name": "BlockData",
+    "short_name": "BlockData",
+    "description": "Returns a copy of this BlockData.",
+    "method_count": 0,
+    "methods": [],
+    "file": "BlockData.json"
+  },
+  {
+    "class_name": "BlockExplodeEvent",
+    "short_name": "BlockExplodeEvent",
+    "description": "Called when a block explodes. Note that due to the nature of explosions, BlockEvent.getBlock() will always be an air block. getExplodedBlockState() should be used to get information about the block state that exploded. The event isn't called if the GameRule.MOB_GRIEFING is disabled as no block inter",
+    "method_count": 0,
+    "methods": [],
+    "file": "BlockExplodeEvent.json"
+  },
+  {
+    "class_name": "BlockFadeEvent",
+    "short_name": "BlockFadeEvent",
+    "description": "Called when a block fades, melts or disappears based on world conditions Examples: Snow melting due to being near a light source. Ice melting due to being near a light source. Fire burning out after time, without destroying fuel block. Coral fading to dead coral due to lack of water Turtle Egg burst",
+    "method_count": 0,
+    "methods": [],
+    "file": "BlockFadeEvent.json"
+  },
+  {
+    "class_name": "BlockFormEvent",
+    "short_name": "BlockFormEvent",
+    "description": "Called when a block is formed or spreads based on world conditions. Use BlockSpreadEvent to catch blocks that actually spread and don't just \"randomly\" form. Examples: Snow forming due to a snow storm. Ice forming in a snowy Biome like Taiga or Tundra. Obsidian / Cobblestone forming due to contact w",
+    "method_count": 0,
+    "methods": [],
+    "file": "BlockFormEvent.json"
+  },
+  {
+    "class_name": "BlockGrowEvent",
+    "short_name": "BlockGrowEvent",
+    "description": "Called when a block grows naturally in the world. Examples: Wheat Sugar Cane Cactus Watermelon Pumpkin Turtle Egg If a Block Grow event is cancelled, the block will not grow.",
+    "method_count": 0,
+    "methods": [],
+    "file": "BlockGrowEvent.json"
+  },
+  {
+    "class_name": "BlockIgniteEvent",
+    "short_name": "BlockIgniteEvent",
+    "description": "Called when a block is ignited. If you want to catch when a Player places fire, you need to use BlockPlaceEvent . If a Block Ignite event is cancelled, the block will not be ignited.",
+    "method_count": 0,
+    "methods": [],
+    "file": "BlockIgniteEvent.json"
+  },
+  {
+    "class_name": "BlockIterator",
+    "short_name": "BlockIterator",
+    "description": "This class performs ray tracing and iterates along blocks on a line",
+    "method_count": 0,
+    "methods": [],
+    "file": "BlockIterator.json"
+  },
+  {
+    "class_name": "BlockMultiPlaceEvent",
+    "short_name": "BlockMultiPlaceEvent",
+    "description": "Fired when a single block placement action of a player triggers the creation of multiple blocks(e.g. placing a bed block). The block returned by BlockPlaceEvent.getBlockPlaced() and its related methods is the block where the placed block would exist if the placement only affected a single block.",
+    "method_count": 0,
+    "methods": [],
+    "file": "BlockMultiPlaceEvent.json"
+  },
+  {
+    "class_name": "BlockPistonExtendEvent",
+    "short_name": "BlockPistonExtendEvent",
+    "description": "Called when a piston extends",
+    "method_count": 0,
+    "methods": [],
+    "file": "BlockPistonExtendEvent.json"
+  },
+  {
+    "class_name": "BlockPistonRetractEvent",
+    "short_name": "BlockPistonRetractEvent",
+    "description": "Called when a piston retracts",
+    "method_count": 0,
+    "methods": [],
+    "file": "BlockPistonRetractEvent.json"
+  },
+  {
+    "class_name": "BlockPlaceEvent",
+    "short_name": "BlockPlaceEvent",
+    "description": "All Implemented Interfaces:\nCancellable\nDirect Known Subclasses:\nBlockMultiPlaceEvent\npublic class\nBlockPlaceEvent\nextends\nBlockEvent\nimplements\nCancellable\nCalled when a block is placed by a player.\nIf a Block Place event is cancelled, the block will not be placed.",
+    "method_count": 0,
+    "methods": [],
+    "file": "BlockPlaceEvent.json"
+  },
+  {
+    "class_name": "BlockPlaceEvent",
+    "short_name": "BlockPlaceEvent",
+    "description": "All Implemented Interfaces:\nCancellable\nDirect Known Subclasses:\nBlockMultiPlaceEvent\npublic class\nBlockPlaceEvent\nextends\nBlockEvent\nimplements\nCancellable\nCalled when a block is placed by a player.\nIf a Block Place event is cancelled, the block will not be placed.",
+    "method_count": 16,
+    "methods": [
+      "BlockPlaceEvent",
+      "getBlockAgainst",
+      "getBlockPlaced",
+      "getBlockReplacedState",
+      "getHand",
+      "getHandlerList",
+      "getHandlers",
+      "getItemInHand",
+      "getPlayer",
+      "isCancelled"
+    ],
+    "file": "BlockPlaceEvent_full.json"
+  },
+  {
+    "class_name": "BlockPreDispenseEvent",
+    "short_name": "BlockPreDispenseEvent",
+    "description": "Gets the ItemStack to be dispensed.",
+    "method_count": 0,
+    "methods": [],
+    "file": "BlockPreDispenseEvent.json"
+  },
+  {
+    "class_name": "BlockRedstoneEvent",
+    "short_name": "BlockRedstoneEvent",
+    "description": "Called when a redstone current changes",
+    "method_count": 0,
+    "methods": [],
+    "file": "BlockRedstoneEvent.json"
+  },
+  {
+    "class_name": "BlockSpreadEvent",
+    "short_name": "BlockSpreadEvent",
+    "description": "Called when a block spreads based on world conditions. Use BlockFormEvent to catch blocks that \"randomly\" form instead of actually spread. Examples: Mushrooms spreading. Fire spreading. If a Block Spread event is cancelled, the block will not spread.",
+    "method_count": 0,
+    "methods": [],
+    "file": "BlockSpreadEvent.json"
+  },
+  {
+    "class_name": "BlockState",
+    "short_name": "BlockState",
+    "description": "Represents a captured state of a block, which will not change automatically. Unlike Block, which only one object can exist per coordinate, BlockState can exist multiple times for any given Block. Note that another plugin may change the state of the block and you will not know, or they may change the",
+    "method_count": 0,
+    "methods": [],
+    "file": "BlockState.json"
+  },
+  {
+    "class_name": "Boat",
+    "short_name": "Boat",
+    "description": "Represents a boat entity.",
+    "method_count": 0,
+    "methods": [],
+    "file": "Boat.json"
+  },
+  {
+    "class_name": "BookMeta",
+    "short_name": "BookMeta",
+    "description": "Represents a Material.WRITTEN_BOOK that can have a title, an author, and pages. Before using this type, make sure to check the itemstack's material with ItemStack.getType() . instanceof on the meta instance is not sufficient due to unusual inheritance with relation to WritableBookMeta .",
+    "method_count": 0,
+    "methods": [],
+    "file": "BookMeta.json"
+  },
+  {
+    "class_name": "BossBar",
+    "short_name": "BossBar",
+    "description": "All Known Subinterfaces:\nKeyedBossBar\npublic interface\nBossBar",
+    "method_count": 0,
+    "methods": [],
+    "file": "BossBar.json"
+  },
+  {
+    "class_name": "BoundingBox",
+    "short_name": "BoundingBox",
+    "description": "A mutable axis aligned bounding box (AABB). This basically represents a rectangular box (specified by minimum and maximum corners) that can for example be used to describe the position and extents of an object (such as an entity, block, or rectangular region) in 3D space. Its edges and faces are par",
+    "method_count": 0,
+    "methods": [],
+    "file": "BoundingBox.json"
+  },
+  {
+    "class_name": "BrewEvent",
+    "short_name": "BrewEvent",
+    "description": "Called when the brewing of the contents inside the Brewing Stand is complete.",
+    "method_count": 0,
+    "methods": [],
+    "file": "BrewEvent.json"
+  },
+  {
+    "class_name": "Bukkit",
+    "short_name": "Bukkit",
+    "description": "public final class\nBukkit\nextends\nObject\nRepresents the Bukkit core, for version and Server singleton handling",
+    "method_count": 0,
+    "methods": [],
+    "file": "Bukkit.json"
+  },
+  {
+    "class_name": "BukkitObjectOutputStream",
+    "short_name": "BukkitObjectOutputStream",
+    "description": "This class is designed to be used in conjunction with the ConfigurationSerializable API. It translates objects to an internal implementation for later deserialization using BukkitObjectInputStream . Behavior of implementations extending this class is not guaranteed across future versions.",
+    "method_count": 0,
+    "methods": [],
+    "file": "BukkitObjectOutputStream.json"
+  },
+  {
+    "class_name": "BukkitRunnable",
+    "short_name": "BukkitRunnable",
+    "description": "All Implemented Interfaces:\nRunnable\npublic abstract class\nBukkitRunnable\nextends\nObject\nimplements\nRunnable\nThis class is provided as an easy way to handle scheduling tasks.",
+    "method_count": 0,
+    "methods": [],
+    "file": "BukkitRunnable.json"
+  },
+  {
+    "class_name": "BukkitScheduler",
+    "short_name": "BukkitScheduler",
+    "description": "public interface\nBukkitScheduler",
+    "method_count": 0,
+    "methods": [],
+    "file": "BukkitScheduler.json"
+  },
+  {
+    "class_name": "BukkitTask",
+    "short_name": "BukkitTask",
+    "description": "Represents a task being executed by the scheduler",
+    "method_count": 0,
+    "methods": [],
+    "file": "BukkitTask.json"
+  },
+  {
+    "class_name": "BukkitWorker",
+    "short_name": "BukkitWorker",
+    "description": "Represents a worker thread for the scheduler. This gives information about the Thread object for the task, owner of the task and the taskId. Workers are used to execute async tasks.",
+    "method_count": 0,
+    "methods": [],
+    "file": "BukkitWorker.json"
+  },
+  {
+    "class_name": "Bukkit",
+    "short_name": "Bukkit",
+    "description": "kkit extends Object Represents the Bukkit core, for version and Server singleton handling Method Summary All Methods Static Methods Concrete Methods Deprecated Methods Modifier and Type Method Description static boolean addRecipe ( @Nullable Recipe recipe) Adds a recipe to the crafting manager",
+    "method_count": 67,
+    "methods": [
+      "addRecipe",
+      "advancementIterator",
+      "banIP",
+      "banIP",
+      "banIP",
+      "broadcast",
+      "broadcast",
+      "broadcast",
+      "broadcast",
+      "broadcast"
+    ],
+    "file": "Bukkit_full.json"
+  },
+  {
+    "class_name": "Bukkit",
+    "short_name": "Bukkit",
+    "description": "kkit extends Object Represents the Bukkit core, for version and Server singleton handling Method Summary All Methods Static Methods Concrete Methods Deprecated Methods Modifier and Type Method Description static boolean addRecipe ( @Nullable Recipe recipe) Adds a recipe to the crafting manager",
+    "method_count": 67,
+    "methods": [
+      "addRecipe",
+      "advancementIterator",
+      "banIP",
+      "banIP",
+      "banIP",
+      "broadcast",
+      "broadcast",
+      "broadcast",
+      "broadcast",
+      "broadcast"
+    ],
+    "file": "Bukkit_full_full.json"
+  },
+  {
+    "class_name": "Cancellable",
+    "short_name": "Cancellable",
+    "description": "A type characterizing events that may be cancelled by a plugin or the server.",
+    "method_count": 0,
+    "methods": [],
+    "file": "Cancellable.json"
+  },
+  {
+    "class_name": "ChatColor",
+    "short_name": "ChatColor",
+    "description": "All supported color values for chat",
+    "method_count": 0,
+    "methods": [],
+    "file": "ChatColor.json"
+  },
+  {
+    "class_name": "Chest",
+    "short_name": "Chest",
+    "description": "Represents a captured state of a chest.",
+    "method_count": 0,
+    "methods": [],
+    "file": "Chest.json"
+  },
+  {
+    "class_name": "Chunk",
+    "short_name": "Chunk",
+    "description": "All Superinterfaces:\nPersistentDataHolder\n,\nPersistentDataViewHolder\npublic interface\nChunk\nextends\nPersistentDataHolder\nRepresents a chunk of blocks.\n\n If the chunk is not yet fully generated and data is requested from the chunk,\n then the chunk will only be generated as far as it needs to provide ",
+    "method_count": 0,
+    "methods": [],
+    "file": "Chunk.json"
+  },
+  {
+    "class_name": "ChunkLoadEvent",
+    "short_name": "ChunkLoadEvent",
+    "description": "Called when a chunk is loaded",
+    "method_count": 0,
+    "methods": [],
+    "file": "ChunkLoadEvent.json"
+  },
+  {
+    "class_name": "ChunkPopulateEvent",
+    "short_name": "ChunkPopulateEvent",
+    "description": "Thrown when a newly generated chunk has finished being populated. Note: Do not use this to generated blocks in a newly generated chunk. Use a BlockPopulator instead.",
+    "method_count": 0,
+    "methods": [],
+    "file": "ChunkPopulateEvent.json"
+  },
+  {
+    "class_name": "ChunkUnloadEvent",
+    "short_name": "ChunkUnloadEvent",
+    "description": "Called when a chunk is unloaded",
+    "method_count": 0,
+    "methods": [],
+    "file": "ChunkUnloadEvent.json"
+  },
+  {
+    "class_name": "Chunk",
+    "short_name": "Chunk",
+    "description": "All Superinterfaces:\nPersistentDataHolder\n,\nPersistentDataViewHolder\npublic interface\nChunk\nextends\nPersistentDataHolder\nRepresents a chunk of blocks.\n\n If the chunk is not yet fully generated and data is requested from the chunk,\n then the chunk will only be generated as far as it needs to provide ",
+    "method_count": 39,
+    "methods": [
+      "contains",
+      "contains",
+      "getBlock",
+      "getChunkKey",
+      "getChunkKey",
+      "getChunkKey",
+      "getChunkSnapshot",
+      "getChunkSnapshot",
+      "getChunkSnapshot",
+      "getEntities"
+    ],
+    "file": "Chunk_full.json"
+  },
+  {
+    "class_name": "Color",
+    "short_name": "Color",
+    "description": "A container for a color palette. This class is immutable; the set methods return a new color. The color names listed as fields are HTML4 standards, but subject to change.",
+    "method_count": 0,
+    "methods": [],
+    "file": "Color.json"
+  },
+  {
+    "class_name": "Command",
+    "short_name": "Command",
+    "description": "Direct Known Subclasses:\nBukkitCommand\n,\nFormattedCommandAlias\n,\nMultipleCommandAlias\n,\nPluginCommand\npublic abstract class\nCommand\nextends\nObject\nRepresents a Command, which executes various tasks upon user input",
+    "method_count": 0,
+    "methods": [],
+    "file": "Command.json"
+  },
+  {
+    "class_name": "CommandExecutor",
+    "short_name": "CommandExecutor",
+    "description": "All Known Subinterfaces:\nPlugin\n,\nTabExecutor\nAll Known Implementing Classes:\nJavaPlugin\n,\nPluginBase\npublic interface\nCommandExecutor\nRepresents a class which contains a single method for executing commands",
+    "method_count": 0,
+    "methods": [],
+    "file": "CommandExecutor.json"
+  },
+  {
+    "class_name": "CommandSender",
+    "short_name": "CommandSender",
+    "description": "All Superinterfaces:\nAudience\n,\nPermissible\n,\nPointered\n,\nServerOperator\nAll Known Subinterfaces:\nAbstractArrow\n,\nAbstractHorse\n,\nAbstractSkeleton\n,\nAbstractVillager\n,\nAbstractWindCharge\n,\nAcaciaBoat\n,\nAcaciaChestBoat\n,\nAgeable\n,\nAllay\n,\nAmbient\n,\nAnimals\n,\nAreaEffectCloud\n,\nArmadillo\n,\nArmorStand\n,",
+    "method_count": 0,
+    "methods": [],
+    "file": "CommandSender.json"
+  },
+  {
+    "class_name": "CompassMeta",
+    "short_name": "CompassMeta",
+    "description": "Represents a compass that can track a specific location.",
+    "method_count": 0,
+    "methods": [],
+    "file": "CompassMeta.json"
+  },
+  {
+    "class_name": "ConfigurationSection",
+    "short_name": "ConfigurationSection",
+    "description": "All Known Subinterfaces:\nConfiguration\nAll Known Implementing Classes:\nFileConfiguration\n,\nMemoryConfiguration\n,\nMemorySection\n,\nYamlConfiguration\npublic interface\nConfigurationSection\nRepresents a section of a\nConfiguration",
+    "method_count": 0,
+    "methods": [],
+    "file": "ConfigurationSection.json"
+  },
+  {
+    "class_name": "Conversation",
+    "short_name": "Conversation",
+    "description": "The Conversation class is responsible for tracking the current state of a conversation, displaying prompts to the user, and dispatching the user's response to the appropriate place. Conversation objects are not typically instantiated directly. Instead a ConversationFactory is used to construct ident",
+    "method_count": 0,
+    "methods": [],
+    "file": "Conversation.json"
+  },
+  {
+    "class_name": "CraftItemEvent",
+    "short_name": "CraftItemEvent",
+    "description": "Called when the recipe of an Item is completed inside a crafting matrix.",
+    "method_count": 0,
+    "methods": [],
+    "file": "CraftItemEvent.json"
+  },
+  {
+    "class_name": "CreatureSpawnEvent",
+    "short_name": "CreatureSpawnEvent",
+    "description": "Called when a creature is spawned into a world. If a Creature Spawn event is cancelled, the creature will not spawn.",
+    "method_count": 0,
+    "methods": [],
+    "file": "CreatureSpawnEvent.json"
+  },
+  {
+    "class_name": "Creeper",
+    "short_name": "Creeper",
+    "description": "Represents a Creeper",
+    "method_count": 0,
+    "methods": [],
+    "file": "Creeper.json"
+  },
+  {
+    "class_name": "CrossbowMeta",
+    "short_name": "CrossbowMeta",
+    "description": "Adds a charged projectile to this item.",
+    "method_count": 0,
+    "methods": [],
+    "file": "CrossbowMeta.json"
+  },
+  {
+    "class_name": "Damageable",
+    "short_name": "Damageable",
+    "description": "Represents an Entity that has health and can take damage.",
+    "method_count": 0,
+    "methods": [],
+    "file": "Damageable.json"
+  },
+  {
+    "class_name": "DatapackManager",
+    "short_name": "DatapackManager",
+    "description": "Gets the enabled datapacks.",
+    "method_count": 0,
+    "methods": [],
+    "file": "DatapackManager.json"
+  },
+  {
+    "class_name": "Difficulty",
+    "short_name": "Difficulty",
+    "description": "Represents the various difficulty levels that are available.",
+    "method_count": 0,
+    "methods": [],
+    "file": "Difficulty.json"
+  },
+  {
+    "class_name": "DisplaySlot",
+    "short_name": "DisplaySlot",
+    "description": "Locations for displaying objectives to the player",
+    "method_count": 0,
+    "methods": [],
+    "file": "DisplaySlot.json"
+  },
+  {
+    "class_name": "Enchantment",
+    "short_name": "Enchantment",
+    "description": "The various type of enchantments that may be added to armour or weapons",
+    "method_count": 0,
+    "methods": [],
+    "file": "Enchantment.json"
+  },
+  {
+    "class_name": "EnchantmentStorageMeta",
+    "short_name": "EnchantmentStorageMeta",
+    "description": "EnchantmentMeta is specific to items that can store enchantments, as opposed to being enchanted. Material.ENCHANTED_BOOK is an example of an item with enchantment storage.",
+    "method_count": 0,
+    "methods": [],
+    "file": "EnchantmentStorageMeta.json"
+  },
+  {
+    "class_name": "Entity",
+    "short_name": "Entity",
+    "description": "All Superinterfaces:\nAudience\n,\nCommandSender\n,\nHoverEventSource\n<\nHoverEvent.ShowEntity\n>\n,\nMetadatable\n,\nNameable\n,\nPermissible\n,\nPersistentDataHolder\n,\nPersistentDataViewHolder\n,\nPointered\n,\nServerOperator\n,\nSound.Emitter\nAll Known Subinterfaces:\nAbstractArrow\n,\nAbstractHorse\n,\nAbstractSkeleton\n,",
+    "method_count": 0,
+    "methods": [],
+    "file": "Entity.json"
+  },
+  {
+    "class_name": "EntityAirChangeEvent",
+    "short_name": "EntityAirChangeEvent",
+    "description": "Called when the amount of air an entity has remaining changes.",
+    "method_count": 0,
+    "methods": [],
+    "file": "EntityAirChangeEvent.json"
+  },
+  {
+    "class_name": "EntityBreedEvent",
+    "short_name": "EntityBreedEvent",
+    "description": "Called when one Entity breeds with another Entity.",
+    "method_count": 0,
+    "methods": [],
+    "file": "EntityBreedEvent.json"
+  },
+  {
+    "class_name": "EntityChangeBlockEvent",
+    "short_name": "EntityChangeBlockEvent",
+    "description": "Called when any Entity changes a block and a more specific event is not available.",
+    "method_count": 0,
+    "methods": [],
+    "file": "EntityChangeBlockEvent.json"
+  },
+  {
+    "class_name": "EntityCombustEvent",
+    "short_name": "EntityCombustEvent",
+    "description": "Called when an entity combusts. If an Entity Combust event is cancelled, the entity will not combust.",
+    "method_count": 0,
+    "methods": [],
+    "file": "EntityCombustEvent.json"
+  },
+  {
+    "class_name": "EntityDamageEvent",
+    "short_name": "EntityDamageEvent",
+    "description": "All Implemented Interfaces:\nCancellable\nDirect Known Subclasses:\nEntityDamageByBlockEvent\n,\nEntityDamageByEntityEvent\npublic class\nEntityDamageEvent\nextends\nEntityEvent\nimplements\nCancellable\nStores data for damage events",
+    "method_count": 0,
+    "methods": [],
+    "file": "EntityDamageEvent.json"
+  },
+  {
+    "class_name": "EntityDeathEvent",
+    "short_name": "EntityDeathEvent",
+    "description": "All Implemented Interfaces:\nCancellable\nDirect Known Subclasses:\nPlayerDeathEvent\npublic class\nEntityDeathEvent\nextends\nEntityEvent\nimplements\nCancellable\nThrown whenever a LivingEntity dies",
+    "method_count": 0,
+    "methods": [],
+    "file": "EntityDeathEvent.json"
+  },
+  {
+    "class_name": "EntityDismountEvent",
+    "short_name": "EntityDismountEvent",
+    "description": "Called when an entity stops riding another entity.",
+    "method_count": 0,
+    "methods": [],
+    "file": "EntityDismountEvent.json"
+  },
+  {
+    "class_name": "EntityExplodeEvent",
+    "short_name": "EntityExplodeEvent",
+    "description": "Called when an entity explodes interacting with blocks. The event isn't called if the GameRule.MOB_GRIEFING is disabled as no block interaction will occur.",
+    "method_count": 0,
+    "methods": [],
+    "file": "EntityExplodeEvent.json"
+  },
+  {
+    "class_name": "EntityInsideBlockEvent",
+    "short_name": "EntityInsideBlockEvent",
+    "description": "Called when an entity enters the hitbox of a block. Only called for blocks that react when an entity is inside. If cancelled, any action that would have resulted from that entity being in the block will not happen (such as extinguishing an entity in a cauldron). Blocks this is currently called for: ",
+    "method_count": 0,
+    "methods": [],
+    "file": "EntityInsideBlockEvent.json"
+  },
+  {
+    "class_name": "EntityMountEvent",
+    "short_name": "EntityMountEvent",
+    "description": "Called when an entity attempts to ride another entity.",
+    "method_count": 0,
+    "methods": [],
+    "file": "EntityMountEvent.json"
+  },
+  {
+    "class_name": "EntityMoveEvent",
+    "short_name": "EntityMoveEvent",
+    "description": "Holds information for living entity movement events Does not fire for players; use PlayerMoveEvent for player movement.",
+    "method_count": 0,
+    "methods": [],
+    "file": "EntityMoveEvent.json"
+  },
+  {
+    "class_name": "EntityPlaceEvent",
+    "short_name": "EntityPlaceEvent",
+    "description": "Triggered when an entity is created in the world by a player \"placing\" an item on a block. Note that this event is currently only fired for four specific placements: armor stands, boats, minecarts, and end crystals.",
+    "method_count": 0,
+    "methods": [],
+    "file": "EntityPlaceEvent.json"
+  },
+  {
+    "class_name": "EntityPortalEvent",
+    "short_name": "EntityPortalEvent",
+    "description": "Called when a non-player entity is about to teleport because it is in contact with a portal. For players see PlayerPortalEvent",
+    "method_count": 0,
+    "methods": [],
+    "file": "EntityPortalEvent.json"
+  },
+  {
+    "class_name": "EntityRegainHealthEvent",
+    "short_name": "EntityRegainHealthEvent",
+    "description": "Stores data for health-regain events",
+    "method_count": 0,
+    "methods": [],
+    "file": "EntityRegainHealthEvent.json"
+  },
+  {
+    "class_name": "EntityShootBowEvent",
+    "short_name": "EntityShootBowEvent",
+    "description": "Called when a LivingEntity shoots a bow firing an arrow",
+    "method_count": 0,
+    "methods": [],
+    "file": "EntityShootBowEvent.json"
+  },
+  {
+    "class_name": "EntityTameEvent",
+    "short_name": "EntityTameEvent",
+    "description": "Thrown when a LivingEntity is tamed",
+    "method_count": 0,
+    "methods": [],
+    "file": "EntityTameEvent.json"
+  },
+  {
+    "class_name": "EntityTargetEvent",
+    "short_name": "EntityTargetEvent",
+    "description": "Called when a creature targets or untargets another entity",
+    "method_count": 0,
+    "methods": [],
+    "file": "EntityTargetEvent.json"
+  },
+  {
+    "class_name": "EntityType",
+    "short_name": "EntityType",
+    "description": "Mechanical entity with an inventory for placing weapons / armor into.",
+    "method_count": 0,
+    "methods": [],
+    "file": "EntityType.json"
+  },
+  {
+    "class_name": "EquipmentSlot",
+    "short_name": "EquipmentSlot",
+    "description": "Only for certain entities such as horses and wolves.",
+    "method_count": 0,
+    "methods": [],
+    "file": "EquipmentSlot.json"
+  },
+  {
+    "class_name": "EulerAngle",
+    "short_name": "EulerAngle",
+    "description": "EulerAngle is used to represent 3 angles, one for each axis (x, y, z). The angles are in radians",
+    "method_count": 0,
+    "methods": [],
+    "file": "EulerAngle.json"
+  },
+  {
+    "class_name": "Event",
+    "short_name": "Event",
+    "description": "Direct Known Subclasses:\nAsyncPlayerPreLoginEvent\n,\nAsyncTabCompleteEvent\n,\nBlockEvent\n,\nEntityEvent\n,\nFillProfileEvent\n,\nGS4QueryEvent\n,\nHangingEvent\n,\nInventoryEvent\n,\nInventoryMoveItemEvent\n,\nInventoryPickupItemEvent\n,\nLookupProfileEvent\n,\nPlayerConnectionCloseEvent\n,\nPlayerEvent\n,\nPlayerHandshak",
+    "method_count": 0,
+    "methods": [],
+    "file": "Event.json"
+  },
+  {
+    "class_name": "EventExecutor",
+    "short_name": "EventExecutor",
+    "description": "Interface which defines the class for event call backs to plugins",
+    "method_count": 0,
+    "methods": [],
+    "file": "EventExecutor.json"
+  },
+  {
+    "class_name": "EventHandler",
+    "short_name": "EventHandler",
+    "description": "@Target\n(\nMETHOD\n)\n@Retention\n(\nRUNTIME\n)\npublic @interface\nEventHandler\nAn annotation to mark methods as being event handler methods",
+    "method_count": 0,
+    "methods": [],
+    "file": "EventHandler.json"
+  },
+  {
+    "class_name": "EventPriority",
+    "short_name": "EventPriority",
+    "description": "Represents an event's priority in execution. Listeners with lower priority are called first will listeners with higher priority are called last. Listeners are called in following order: LOWEST -&gt; LOW -&gt; NORMAL -&gt; HIGH -&gt; HIGHEST -&gt; MONITOR",
+    "method_count": 0,
+    "methods": [],
+    "file": "EventPriority.json"
+  },
+  {
+    "class_name": "Event",
+    "short_name": "Event",
+    "description": "java.lang.Object org.bukkit.event.Event Direct Known Subclasses: AsyncPlayerPreLoginEvent , AsyncTabCompleteEvent , BlockEvent , EntityEvent , FillProfileEvent , GS4QueryEvent , HangingEvent , InventoryEvent , InventoryMoveItemEvent , InventoryPickupItemEvent , LookupProfileEvent , PlayerConnectionC",
+    "method_count": 13,
+    "methods": [
+      "getHandlers",
+      "Event",
+      "getEventName",
+      "getHandlers",
+      "isAsynchronous",
+      "Event",
+      "isAsynchronous",
+      "Event",
+      "callEvent",
+      "getEventName"
+    ],
+    "file": "Event_full.json"
+  },
+  {
+    "class_name": "Event",
+    "short_name": "Event",
+    "description": "java.lang.Object org.bukkit.event.Event Direct Known Subclasses: AsyncPlayerPreLoginEvent , AsyncTabCompleteEvent , BlockEvent , EntityEvent , FillProfileEvent , GS4QueryEvent , HangingEvent , InventoryEvent , InventoryMoveItemEvent , InventoryPickupItemEvent , LookupProfileEvent , PlayerConnectionC",
+    "method_count": 13,
+    "methods": [
+      "getHandlers",
+      "Event",
+      "getEventName",
+      "getHandlers",
+      "isAsynchronous",
+      "Event",
+      "isAsynchronous",
+      "Event",
+      "callEvent",
+      "getEventName"
+    ],
+    "file": "Event_full_full.json"
+  },
+  {
+    "class_name": "ExplosionPrimeEvent",
+    "short_name": "ExplosionPrimeEvent",
+    "description": "Called when an entity has made a decision to explode.",
+    "method_count": 0,
+    "methods": [],
+    "file": "ExplosionPrimeEvent.json"
+  },
+  {
+    "class_name": "FallingBlock",
+    "short_name": "FallingBlock",
+    "description": "Represents a falling block",
+    "method_count": 0,
+    "methods": [],
+    "file": "FallingBlock.json"
+  },
+  {
+    "class_name": "FileConfiguration",
+    "short_name": "FileConfiguration",
+    "description": "All Implemented Interfaces:\nConfiguration\n,\nConfigurationSection\nDirect Known Subclasses:\nYamlConfiguration\npublic abstract class\nFileConfiguration\nextends\nMemoryConfiguration\nThis is a base class for all File based implementations of\nConfiguration",
+    "method_count": 0,
+    "methods": [],
+    "file": "FileConfiguration.json"
+  },
+  {
+    "class_name": "FileConfiguration",
+    "short_name": "FileConfiguration",
+    "description": "All Implemented Interfaces:\nConfiguration\n,\nConfigurationSection\nDirect Known Subclasses:\nYamlConfiguration\npublic abstract class\nFileConfiguration\nextends\nMemoryConfiguration\nThis is a base class for all File based implementations of\nConfiguration",
+    "method_count": 12,
+    "methods": [
+      "FileConfiguration",
+      "buildHeader",
+      "load",
+      "load",
+      "load",
+      "loadFromString",
+      "options",
+      "save",
+      "save",
+      "saveToString"
+    ],
+    "file": "FileConfiguration_full.json"
+  },
+  {
+    "class_name": "Firework",
+    "short_name": "Firework",
+    "description": "Cause this firework to explode at earliest opportunity, as if it has no remaining fuse.",
+    "method_count": 0,
+    "methods": [],
+    "file": "Firework.json"
+  },
+  {
+    "class_name": "FireworkEffect",
+    "short_name": "FireworkEffect",
+    "description": "Represents a single firework effect.",
+    "method_count": 0,
+    "methods": [],
+    "file": "FireworkEffect.json"
+  },
+  {
+    "class_name": "FireworkMeta",
+    "short_name": "FireworkMeta",
+    "description": "Represents a Material.FIREWORK_ROCKET and its effects.",
+    "method_count": 0,
+    "methods": [],
+    "file": "FireworkMeta.json"
+  },
+  {
+    "class_name": "FoodLevelChangeEvent",
+    "short_name": "FoodLevelChangeEvent",
+    "description": "Called when a human entity's food level changes",
+    "method_count": 0,
+    "methods": [],
+    "file": "FoodLevelChangeEvent.json"
+  },
+  {
+    "class_name": "FurnaceBurnEvent",
+    "short_name": "FurnaceBurnEvent",
+    "description": "Called when an ItemStack is successfully burned as fuel in a furnace-like block such as a Furnace , Smoker , or BlastFurnace .",
+    "method_count": 0,
+    "methods": [],
+    "file": "FurnaceBurnEvent.json"
+  },
+  {
+    "class_name": "FurnaceRecipe",
+    "short_name": "FurnaceRecipe",
+    "description": "Represents a furnace recipe.",
+    "method_count": 0,
+    "methods": [],
+    "file": "FurnaceRecipe.json"
+  },
+  {
+    "class_name": "FurnaceSmeltEvent",
+    "short_name": "FurnaceSmeltEvent",
+    "description": "Called when an ItemStack is successfully smelted in a furnace-like block such as a Furnace , Smoker , or BlastFurnace .",
+    "method_count": 0,
+    "methods": [],
+    "file": "FurnaceSmeltEvent.json"
+  },
+  {
+    "class_name": "GameMode",
+    "short_name": "GameMode",
+    "description": "Represents the various type of game modes that HumanEntity s may have",
+    "method_count": 0,
+    "methods": [],
+    "file": "GameMode.json"
+  },
+  {
+    "class_name": "GameRule",
+    "short_name": "GameRule",
+    "description": "GameRules dictate certain behavior within Minecraft itself For more information please visit the Minecraft Wiki",
+    "method_count": 0,
+    "methods": [],
+    "file": "GameRule.json"
+  },
+  {
+    "class_name": "HandlerList",
+    "short_name": "HandlerList",
+    "description": "A list of event handlers, stored per-event. Based on lahwran's fevents.",
+    "method_count": 0,
+    "methods": [],
+    "file": "HandlerList.json"
+  },
+  {
+    "class_name": "HangingBreakEvent",
+    "short_name": "HangingBreakEvent",
+    "description": "Triggered when a hanging entity is removed",
+    "method_count": 0,
+    "methods": [],
+    "file": "HangingBreakEvent.json"
+  },
+  {
+    "class_name": "HangingPlaceEvent",
+    "short_name": "HangingPlaceEvent",
+    "description": "Triggered when a hanging entity is created in the world",
+    "method_count": 0,
+    "methods": [],
+    "file": "HangingPlaceEvent.json"
+  },
+  {
+    "class_name": "HelpTopic",
+    "short_name": "HelpTopic",
+    "description": "HelpTopic implementations are displayed to the user when the user uses the /help command. Custom implementations of this class can work at two levels. A simple implementation only needs to set the value of name , shortText , and fullText in the constructor. This base class will take care of the rest",
+    "method_count": 0,
+    "methods": [],
+    "file": "HelpTopic.json"
+  },
+  {
+    "class_name": "Instrument",
+    "short_name": "Instrument",
+    "description": "Banjo is normally played when a note block is on top of a hay block.",
+    "method_count": 0,
+    "methods": [],
+    "file": "Instrument.json"
+  },
+  {
+    "class_name": "Inventory",
+    "short_name": "Inventory",
+    "description": "All Superinterfaces:\nIterable\n<\nItemStack\n>\nAll Known Subinterfaces:\nAbstractHorseInventory\n,\nAnvilInventory\n,\nArmoredHorseInventory\n,\nBeaconInventory\n,\nBrewerInventory\n,\nCartographyInventory\n,\nChiseledBookshelfInventory\n,\nCrafterInventory\n,\nCraftingInventory\n,\nDecoratedPotInventory\n,\nDoubleChestInv",
+    "method_count": 0,
+    "methods": [],
+    "file": "Inventory.json"
+  },
+  {
+    "class_name": "InventoryClickEvent",
+    "short_name": "InventoryClickEvent",
+    "description": "This event is called when a player clicks in an inventory. In case of a drag action within an inventory, InventoryClickEvent is never called. Instead, InventoryDragEvent is called at the end of the drag. Because InventoryClickEvent occurs within a modification of the Inventory, not all Inventory rel",
+    "method_count": 0,
+    "methods": [],
+    "file": "InventoryClickEvent.json"
+  },
+  {
+    "class_name": "InventoryCloseEvent",
+    "short_name": "InventoryCloseEvent",
+    "description": "This event is called when a player closes an inventory. Because InventoryCloseEvent occurs within a modification of the Inventory, not all Inventory related methods are safe to use. Methods that change the view a player is looking at should never be invoked by an EventHandler for InventoryCloseEvent",
+    "method_count": 0,
+    "methods": [],
+    "file": "InventoryCloseEvent.json"
+  },
+  {
+    "class_name": "InventoryDragEvent",
+    "short_name": "InventoryDragEvent",
+    "description": "This event is called when the player drags an item in their cursor across the inventory. The ItemStack is distributed across the slots the HumanEntity dragged over. The method of distribution is described by the DragType returned by getType() . Canceling this event will result in none of the changes",
+    "method_count": 0,
+    "methods": [],
+    "file": "InventoryDragEvent.json"
+  },
+  {
+    "class_name": "InventoryHolder",
+    "short_name": "InventoryHolder",
+    "description": "All Known Subinterfaces:\nAbstractHorse\n,\nAbstractVillager\n,\nAcaciaChestBoat\n,\nAllay\n,\nBambooChestRaft\n,\nBarrel\n,\nBirchChestBoat\n,\nBlastFurnace\n,\nBlockInventoryHolder\n,\nBrewingStand\n,\nCamel\n,\nCherryChestBoat\n,\nChest\n,\nChestBoat\n,\nChestedHorse\n,\nChiseledBookshelf\n,\nContainer\n,\nCrafter\n,\nDarkOakChestBo",
+    "method_count": 0,
+    "methods": [],
+    "file": "InventoryHolder.json"
+  },
+  {
+    "class_name": "InventoryMoveItemEvent",
+    "short_name": "InventoryMoveItemEvent",
+    "description": "Called when some entity or block (e.g. hopper) tries to move items directly from one inventory to another. When this event is called, the initiator may already have removed the item from the source inventory and is ready to move it into the destination inventory. If this event is cancelled, the item",
+    "method_count": 0,
+    "methods": [],
+    "file": "InventoryMoveItemEvent.json"
+  },
+  {
+    "class_name": "InventoryOpenEvent",
+    "short_name": "InventoryOpenEvent",
+    "description": "Called when a player opens an inventory",
+    "method_count": 0,
+    "methods": [],
+    "file": "InventoryOpenEvent.json"
+  },
+  {
+    "class_name": "InventoryPickupItemEvent",
+    "short_name": "InventoryPickupItemEvent",
+    "description": "Called when a hopper or hopper minecart picks up a dropped item.",
+    "method_count": 0,
+    "methods": [],
+    "file": "InventoryPickupItemEvent.json"
+  },
+  {
+    "class_name": "InventoryView",
+    "short_name": "InventoryView",
+    "description": "Represents a view linking two inventories and a single player (whose inventory may or may not be one of the two).",
+    "method_count": 0,
+    "methods": [],
+    "file": "InventoryView.json"
+  },
+  {
+    "class_name": "Item",
+    "short_name": "Item",
+    "description": "Represents a dropped item.",
+    "method_count": 0,
+    "methods": [],
+    "file": "Item.json"
+  },
+  {
+    "class_name": "ItemFlag",
+    "short_name": "ItemFlag",
+    "description": "A ItemFlag can hide some Attributes from ItemStacks",
+    "method_count": 0,
+    "methods": [],
+    "file": "ItemFlag.json"
+  },
+  {
+    "class_name": "ItemMeta",
+    "short_name": "ItemMeta",
+    "description": "All Superinterfaces:\nCloneable\n,\nConfigurationSerializable\n,\nPersistentDataHolder\n,\nPersistentDataViewHolder\nAll Known Subinterfaces:\nArmorMeta\n,\nArmorStandMeta\n,\nAxolotlBucketMeta\n,\nBannerMeta\n,\nBlockDataMeta\n,\nBlockStateMeta\n,\nBookMeta\n,\nBundleMeta\n,\nColorableArmorMeta\n,\nCompassMeta\n,\nCrossbowMeta",
+    "method_count": 0,
+    "methods": [],
+    "file": "ItemMeta.json"
+  },
+  {
+    "class_name": "ItemStack",
+    "short_name": "ItemStack",
+    "description": "All Implemented Interfaces:\nPersistentDataViewHolder\n,\nCloneable\n,\nHoverEventSource\n<\nHoverEvent.ShowItem\n>\n,\nTranslatable\n,\nConfigurationSerializable\n,\nTranslatable\npublic class\nItemStack\nextends\nObject\nimplements\nCloneable\n,\nConfigurationSerializable\n,\nTranslatable\n,\nHoverEventSource\n<\nHoverEvent.",
+    "method_count": 0,
+    "methods": [],
+    "file": "ItemStack.json"
+  },
+  {
+    "class_name": "ItemStack",
+    "short_name": "ItemStack",
+    "description": "All Implemented Interfaces:\nPersistentDataViewHolder\n,\nCloneable\n,\nHoverEventSource\n<\nHoverEvent.ShowItem\n>\n,\nTranslatable\n,\nConfigurationSerializable\n,\nTranslatable\npublic class\nItemStack\nextends\nObject\nimplements\nCloneable\n,\nConfigurationSerializable\n,\nTranslatable\n,\nHoverEventSource\n<\nHoverEvent.",
+    "method_count": 33,
+    "methods": [
+      "ItemStack",
+      "setDurability",
+      "ItemStack",
+      "add",
+      "add",
+      "addEnchantment",
+      "addEnchantments",
+      "addItemFlags",
+      "addUnsafeEnchantment",
+      "addUnsafeEnchantments"
+    ],
+    "file": "ItemStack_full.json"
+  },
+  {
+    "class_name": "JavaPlugin",
+    "short_name": "JavaPlugin",
+    "description": "Represents a Java plugin and its main class. It contains fundamental methods and fields for a plugin to be loaded and work properly. This is an indirect implementation of Plugin .",
+    "method_count": 0,
+    "methods": [],
+    "file": "JavaPlugin.json"
+  },
+  {
+    "class_name": "JavaPlugin",
+    "short_name": "JavaPlugin",
+    "description": "java.lang.Object org.bukkit.plugin.PluginBase org.bukkit.plugin.java.JavaPlugin LifecycleEventOwner",
+    "method_count": 53,
+    "methods": [
+      "JavaPlugin",
+      "JavaPlugin",
+      "getCommand",
+      "getConfig",
+      "getDataFolder",
+      "getDefaultBiomeProvider",
+      "getDefaultWorldGenerator",
+      "getFile",
+      "getLifecycleManager",
+      "getLogger"
+    ],
+    "file": "JavaPlugin_full.json"
+  },
+  {
+    "class_name": "JavaPlugin",
+    "short_name": "JavaPlugin",
+    "description": "java.lang.Object org.bukkit.plugin.PluginBase org.bukkit.plugin.java.JavaPlugin LifecycleEventOwner",
+    "method_count": 53,
+    "methods": [
+      "JavaPlugin",
+      "JavaPlugin",
+      "getCommand",
+      "getConfig",
+      "getDataFolder",
+      "getDefaultBiomeProvider",
+      "getDefaultWorldGenerator",
+      "getFile",
+      "getLifecycleManager",
+      "getLogger"
+    ],
+    "file": "JavaPlugin_full_full.json"
+  },
+  {
+    "class_name": "LeatherArmorMeta",
+    "short_name": "LeatherArmorMeta",
+    "description": "Represents leather armor ( Material.LEATHER_BOOTS , Material.LEATHER_LEGGINGS , Material.LEATHER_CHESTPLATE , Material.LEATHER_HELMET , Material.LEATHER_HORSE_ARMOR or Material.WOLF_ARMOR ) that can be colored.",
+    "method_count": 0,
+    "methods": [],
+    "file": "LeatherArmorMeta.json"
+  },
+  {
+    "class_name": "LeavesDecayEvent",
+    "short_name": "LeavesDecayEvent",
+    "description": "Called when leaves are decaying naturally. If a Leaves Decay event is cancelled, the leaves will not decay.",
+    "method_count": 0,
+    "methods": [],
+    "file": "LeavesDecayEvent.json"
+  },
+  {
+    "class_name": "LightningStrikeEvent",
+    "short_name": "LightningStrikeEvent",
+    "description": "Stores data for lightning striking",
+    "method_count": 0,
+    "methods": [],
+    "file": "LightningStrikeEvent.json"
+  },
+  {
+    "class_name": "Listener",
+    "short_name": "Listener",
+    "description": "public interface\nListener\nSimple interface for tagging all EventListeners",
+    "method_count": 0,
+    "methods": [],
+    "file": "Listener.json"
+  },
+  {
+    "class_name": "LivingEntity",
+    "short_name": "LivingEntity",
+    "description": "All Superinterfaces:\nAttributable\n,\nAudience\n,\nCommandSender\n,\nDamageable\n,\nEntity\n,\nFrictional\n,\nHoverEventSource\n<\nHoverEvent.ShowEntity\n>\n,\nMetadatable\n,\nNameable\n,\nPermissible\n,\nPersistentDataHolder\n,\nPersistentDataViewHolder\n,\nPointered\n,\nProjectileSource\n,\nServerOperator\n,\nSound.Emitter\nAll Kn",
+    "method_count": 0,
+    "methods": [],
+    "file": "LivingEntity.json"
+  },
+  {
+    "class_name": "Location",
+    "short_name": "Location",
+    "description": "All Implemented Interfaces:\nFinePosition\n,\nPosition\n,\nCloneable\n,\nConfigurationSerializable\npublic class\nLocation\nextends\nObject\nimplements\nCloneable\n,\nConfigurationSerializable\n,\nFinePosition\nRepresents a 3-dimensional position in a world.\nNo constraints are placed on any angular values other than ",
+    "method_count": 0,
+    "methods": [],
+    "file": "Location.json"
+  },
+  {
+    "class_name": "Location",
+    "short_name": "Location",
+    "description": "All Implemented Interfaces:\nFinePosition\n,\nPosition\n,\nCloneable\n,\nConfigurationSerializable\npublic class\nLocation\nextends\nObject\nimplements\nCloneable\n,\nConfigurationSerializable\n,\nFinePosition\nRepresents a 3-dimensional position in a world.\nNo constraints are placed on any angular values other than ",
+    "method_count": 31,
+    "methods": [
+      "Location",
+      "Location",
+      "add",
+      "add",
+      "add",
+      "add",
+      "addRotation",
+      "addRotation",
+      "checkFinite",
+      "clone"
+    ],
+    "file": "Location_full.json"
+  },
+  {
+    "class_name": "LootContext",
+    "short_name": "LootContext",
+    "description": "Represents additional information a LootTable can use to modify it's generated loot.",
+    "method_count": 0,
+    "methods": [],
+    "file": "LootContext.json"
+  },
+  {
+    "class_name": "LootTable",
+    "short_name": "LootTable",
+    "description": "LootTables are technical files that represent what items should be in naturally generated containers, what items should be dropped when killing a mob, or what items can be fished. See the Minecraft Wiki for more information.",
+    "method_count": 0,
+    "methods": [],
+    "file": "LootTable.json"
+  },
+  {
+    "class_name": "MapInitializeEvent",
+    "short_name": "MapInitializeEvent",
+    "description": "Called when a map is initialized.",
+    "method_count": 0,
+    "methods": [],
+    "file": "MapInitializeEvent.json"
+  },
+  {
+    "class_name": "MapMeta",
+    "short_name": "MapMeta",
+    "description": "Represents a map that can be scalable.",
+    "method_count": 0,
+    "methods": [],
+    "file": "MapMeta.json"
+  },
+  {
+    "class_name": "MapView",
+    "short_name": "MapView",
+    "description": "Represents a map item.",
+    "method_count": 0,
+    "methods": [],
+    "file": "MapView.json"
+  },
+  {
+    "class_name": "Material",
+    "short_name": "Material",
+    "description": "All Implemented Interfaces:\nSerializable\n,\nComparable\n<\nMaterial\n>\n,\nConstable\n,\nKeyed\n,\nTranslatable\n,\nKeyed\n,\nTranslatable\npublic enum\nMaterial\nextends\nEnum\n<\nMaterial\n>\nimplements\nKeyed\n,\nTranslatable\n,\nTranslatable\nAn enum of all material IDs accepted by the official server and client",
+    "method_count": 0,
+    "methods": [],
+    "file": "Material.json"
+  },
+  {
+    "class_name": "MerchantRecipe",
+    "short_name": "MerchantRecipe",
+    "description": "Represents a merchant's trade. Trades can take one or two ingredients, and provide one result. The ingredients' ItemStack amounts are respected in the trade. A trade has a maximum number of uses. A Villager may periodically replenish its trades by resetting the uses of its merchant recipes to 0 , al",
+    "method_count": 0,
+    "methods": [],
+    "file": "MerchantRecipe.json"
+  },
+  {
+    "class_name": "MetadataValue",
+    "short_name": "MetadataValue",
+    "description": "Attempts to convert the value of this metadata item into a boolean.",
+    "method_count": 0,
+    "methods": [],
+    "file": "MetadataValue.json"
+  },
+  {
+    "class_name": "Minecart",
+    "short_name": "Minecart",
+    "description": "Represents a minecart entity.",
+    "method_count": 0,
+    "methods": [],
+    "file": "Minecart.json"
+  },
+  {
+    "class_name": "Mob",
+    "short_name": "Mob",
+    "description": "Represents a Mob. Mobs are living entities with simple AI.",
+    "method_count": 0,
+    "methods": [],
+    "file": "Mob.json"
+  },
+  {
+    "class_name": "Monster",
+    "short_name": "Monster",
+    "description": "Represents a Monster.",
+    "method_count": 0,
+    "methods": [],
+    "file": "Monster.json"
+  },
+  {
+    "class_name": "Monster",
+    "short_name": "Monster",
+    "description": "Represents a Monster.",
+    "method_count": 0,
+    "methods": [],
+    "file": "Monster_full.json"
+  },
+  {
+    "class_name": "Note",
+    "short_name": "Note",
+    "description": "A note class to store a specific note.",
+    "method_count": 0,
+    "methods": [],
+    "file": "Note.json"
+  },
+  {
+    "class_name": "NumberConversions",
+    "short_name": "NumberConversions",
+    "description": "Utils for casting number types to other number types",
+    "method_count": 0,
+    "methods": [],
+    "file": "NumberConversions.json"
+  },
+  {
+    "class_name": "Objective",
+    "short_name": "Objective",
+    "description": "An objective on a scoreboard that can show scores specific to entries. This objective is only relevant to the display of the associated scoreboard .",
+    "method_count": 0,
+    "methods": [],
+    "file": "Objective.json"
+  },
+  {
+    "class_name": "OfflinePlayer",
+    "short_name": "OfflinePlayer",
+    "description": "Represents a reference to a player identity and the data belonging to a player that is stored on the disk and can, thus, be retrieved without the player needing to be online.",
+    "method_count": 0,
+    "methods": [],
+    "file": "OfflinePlayer.json"
+  },
+  {
+    "class_name": "Particle",
+    "short_name": "Particle",
+    "description": "All Implemented Interfaces:\nSerializable\n,\nComparable\n<\nParticle\n>\n,\nConstable\n,\nKeyed\n,\nKeyed\npublic enum\nParticle\nextends\nEnum\n<\nParticle\n>\nimplements\nKeyed",
+    "method_count": 0,
+    "methods": [],
+    "file": "Particle.json"
+  },
+  {
+    "class_name": "Permission",
+    "short_name": "Permission",
+    "description": "Represents a unique permission that may be attached to a Permissible",
+    "method_count": 0,
+    "methods": [],
+    "file": "Permission.json"
+  },
+  {
+    "class_name": "PermissionDefault",
+    "short_name": "PermissionDefault",
+    "description": "Represents the possible default values for permissions",
+    "method_count": 0,
+    "methods": [],
+    "file": "PermissionDefault.json"
+  },
+  {
+    "class_name": "PersistentDataContainer",
+    "short_name": "PersistentDataContainer",
+    "description": "All Superinterfaces:\nPersistentDataContainerView\npublic interface\nPersistentDataContainer\nextends\nPersistentDataContainerView\nThis interface represents a map like object, capable of storing custom tags\n in it.",
+    "method_count": 0,
+    "methods": [],
+    "file": "PersistentDataContainer.json"
+  },
+  {
+    "class_name": "PersistentDataHolder",
+    "short_name": "PersistentDataHolder",
+    "description": "All Superinterfaces:\nPersistentDataViewHolder\nAll Known Subinterfaces:\nAbstractArrow\n,\nAbstractHorse\n,\nAbstractSkeleton\n,\nAbstractVillager\n,\nAbstractWindCharge\n,\nAcaciaBoat\n,\nAcaciaChestBoat\n,\nAgeable\n,\nAllay\n,\nAmbient\n,\nAnimals\n,\nAreaEffectCloud\n,\nArmadillo\n,\nArmorMeta\n,\nArmorStand\n,\nArmorStandMeta",
+    "method_count": 0,
+    "methods": [],
+    "file": "PersistentDataHolder.json"
+  },
+  {
+    "class_name": "PersistentDataHolder",
+    "short_name": "PersistentDataHolder",
+    "description": "All Superinterfaces:\nPersistentDataViewHolder\nAll Known Subinterfaces:\nAbstractArrow\n,\nAbstractHorse\n,\nAbstractSkeleton\n,\nAbstractVillager\n,\nAbstractWindCharge\n,\nAcaciaBoat\n,\nAcaciaChestBoat\n,\nAgeable\n,\nAllay\n,\nAmbient\n,\nAnimals\n,\nAreaEffectCloud\n,\nArmadillo\n,\nArmorMeta\n,\nArmorStand\n,\nArmorStandMeta",
+    "method_count": 2,
+    "methods": [
+      "getPersistentDataContainer",
+      "getPersistentDataContainer"
+    ],
+    "file": "PersistentDataHolder_full.json"
+  },
+  {
+    "class_name": "PersistentDataType",
+    "short_name": "PersistentDataType",
+    "description": "This class represents an enum with a generic content type. It defines the types a custom tag can have. This interface can be used to create your own custom PersistentDataType with different complex types. This may be useful for the likes of a UUIDTagType: public class UUIDTagType implements Persiste",
+    "method_count": 0,
+    "methods": [],
+    "file": "PersistentDataType.json"
+  },
+  {
+    "class_name": "Player",
+    "short_name": "Player",
+    "description": "All Superinterfaces:\nAnimalTamer\n,\nAttributable\n,\nAudience\n,\nBossBarViewer\n,\nCommandSender\n,\nConfigurationSerializable\n,\nConversable\n,\nDamageable\n,\nEntity\n,\nFrictional\n,\nHoverEventSource\n<\nHoverEvent.ShowEntity\n>\n,\nHumanEntity\n,\nIdentified\n,\nInventoryHolder\n,\nLivingEntity\n,\nMetadatable\n,\nNameable\n,\n",
+    "method_count": 0,
+    "methods": [],
+    "file": "Player.json"
+  },
+  {
+    "class_name": "PlayerArmorStandManipulateEvent",
+    "short_name": "PlayerArmorStandManipulateEvent",
+    "description": "Called when a player interacts with an armor stand and will either swap, retrieve or place an item.",
+    "method_count": 0,
+    "methods": [],
+    "file": "PlayerArmorStandManipulateEvent.json"
+  },
+  {
+    "class_name": "PlayerBedEnterEvent",
+    "short_name": "PlayerBedEnterEvent",
+    "description": "This event is fired when the player is almost about to enter the bed.",
+    "method_count": 0,
+    "methods": [],
+    "file": "PlayerBedEnterEvent.json"
+  },
+  {
+    "class_name": "PlayerBedLeaveEvent",
+    "short_name": "PlayerBedLeaveEvent",
+    "description": "This event is fired when the player is leaving a bed.",
+    "method_count": 0,
+    "methods": [],
+    "file": "PlayerBedLeaveEvent.json"
+  },
+  {
+    "class_name": "PlayerBucketEmptyEvent",
+    "short_name": "PlayerBucketEmptyEvent",
+    "description": "Called when a player empties a bucket",
+    "method_count": 0,
+    "methods": [],
+    "file": "PlayerBucketEmptyEvent.json"
+  },
+  {
+    "class_name": "PlayerBucketFillEvent",
+    "short_name": "PlayerBucketFillEvent",
+    "description": "Called when a player fills a bucket",
+    "method_count": 0,
+    "methods": [],
+    "file": "PlayerBucketFillEvent.json"
+  },
+  {
+    "class_name": "PlayerChangedWorldEvent",
+    "short_name": "PlayerChangedWorldEvent",
+    "description": "Called when a player switches to another world.",
+    "method_count": 0,
+    "methods": [],
+    "file": "PlayerChangedWorldEvent.json"
+  },
+  {
+    "class_name": "PlayerDeathEvent",
+    "short_name": "PlayerDeathEvent",
+    "description": "All Implemented Interfaces:\nCancellable\npublic class\nPlayerDeathEvent\nextends\nEntityDeathEvent\nThrown whenever a\nPlayer\ndies",
+    "method_count": 0,
+    "methods": [],
+    "file": "PlayerDeathEvent.json"
+  },
+  {
+    "class_name": "PlayerDropItemEvent",
+    "short_name": "PlayerDropItemEvent",
+    "description": "Thrown when a player drops an item from their inventory",
+    "method_count": 0,
+    "methods": [],
+    "file": "PlayerDropItemEvent.json"
+  },
+  {
+    "class_name": "PlayerEditBookEvent",
+    "short_name": "PlayerEditBookEvent",
+    "description": "Called when a player edits or signs a book and quill item. If the event is cancelled, no changes are made to the BookMeta",
+    "method_count": 0,
+    "methods": [],
+    "file": "PlayerEditBookEvent.json"
+  },
+  {
+    "class_name": "PlayerExpChangeEvent",
+    "short_name": "PlayerExpChangeEvent",
+    "description": "Called when a players experience changes naturally",
+    "method_count": 0,
+    "methods": [],
+    "file": "PlayerExpChangeEvent.json"
+  },
+  {
+    "class_name": "PlayerFishEvent",
+    "short_name": "PlayerFishEvent",
+    "description": "Thrown when a player is fishing",
+    "method_count": 0,
+    "methods": [],
+    "file": "PlayerFishEvent.json"
+  },
+  {
+    "class_name": "PlayerFlowerPotManipulateEvent",
+    "short_name": "PlayerFlowerPotManipulateEvent",
+    "description": "Called when a player places an item in or takes an item out of a flowerpot.",
+    "method_count": 0,
+    "methods": [],
+    "file": "PlayerFlowerPotManipulateEvent.json"
+  },
+  {
+    "class_name": "PlayerGameModeChangeEvent",
+    "short_name": "PlayerGameModeChangeEvent",
+    "description": "Called when the GameMode of the player is changed. NOTE: When getCause() is PlayerGameModeChangeEvent.Cause.DEFAULT_GAMEMODE , the Player from PlayerEvent.getPlayer() might not be fully online at the time this event is fired. Plugins should use OfflinePlayer.isOnline() to check before changing playe",
+    "method_count": 0,
+    "methods": [],
+    "file": "PlayerGameModeChangeEvent.json"
+  },
+  {
+    "class_name": "PlayerInteractEvent",
+    "short_name": "PlayerInteractEvent",
+    "description": "All Implemented Interfaces:\nCancellable\npublic class\nPlayerInteractEvent\nextends\nPlayerEvent\nimplements\nCancellable\nRepresents an event that is called when a player interacts with an object or\n air, potentially fired once for each hand. The hand can be determined using\ngetHand()\n.\nThis event will fi",
+    "method_count": 0,
+    "methods": [],
+    "file": "PlayerInteractEvent.json"
+  },
+  {
+    "class_name": "PlayerInteractEvent",
+    "short_name": "PlayerInteractEvent",
+    "description": "All Implemented Interfaces:\nCancellable\npublic class\nPlayerInteractEvent\nextends\nPlayerEvent\nimplements\nCancellable\nRepresents an event that is called when a player interacts with an object or\n air, potentially fired once for each hand. The hand can be determined using\ngetHand()\n.\nThis event will fi",
+    "method_count": 26,
+    "methods": [
+      "getHand",
+      "PlayerInteractEvent",
+      "getAction",
+      "getBlockFace",
+      "getClickedBlock",
+      "getClickedPosition",
+      "getInteractionPoint",
+      "getHand",
+      "getHandlerList",
+      "getHandlers"
+    ],
+    "file": "PlayerInteractEvent_full.json"
+  },
+  {
+    "class_name": "PlayerInventory",
+    "short_name": "PlayerInventory",
+    "description": "All Superinterfaces:\nInventory\n,\nIterable\n<\nItemStack\n>\npublic interface\nPlayerInventory\nextends\nInventory\nInterface to the inventory of a Player, including the four armor slots and any extra slots.",
+    "method_count": 0,
+    "methods": [],
+    "file": "PlayerInventory.json"
+  },
+  {
+    "class_name": "PlayerItemBreakEvent",
+    "short_name": "PlayerItemBreakEvent",
+    "description": "Fired when a player's item breaks (such as a shovel or flint and steel). After this event, the item's amount will be set to item amount - 1 and its durability will be reset to 0.",
+    "method_count": 0,
+    "methods": [],
+    "file": "PlayerItemBreakEvent.json"
+  },
+  {
+    "class_name": "PlayerItemConsumeEvent",
+    "short_name": "PlayerItemConsumeEvent",
+    "description": "This event will fire when a player is finishing consuming an item (food, potion, milk bucket). If the ItemStack is modified the server will use the effects of the new item and not remove the original one from the player's inventory. If the event is cancelled the effect will not be applied and the it",
+    "method_count": 0,
+    "methods": [],
+    "file": "PlayerItemConsumeEvent.json"
+  },
+  {
+    "class_name": "PlayerItemDamageEvent",
+    "short_name": "PlayerItemDamageEvent",
+    "description": "Called when an item used by the player takes durability damage as a result of being used.",
+    "method_count": 0,
+    "methods": [],
+    "file": "PlayerItemDamageEvent.json"
+  },
+  {
+    "class_name": "PlayerItemFrameChangeEvent",
+    "short_name": "PlayerItemFrameChangeEvent",
+    "description": "Called when an ItemFrame is having an item rotated, added, or removed from it.",
+    "method_count": 0,
+    "methods": [],
+    "file": "PlayerItemFrameChangeEvent.json"
+  },
+  {
+    "class_name": "PlayerJoinEvent",
+    "short_name": "PlayerJoinEvent",
+    "description": "public class\nPlayerJoinEvent\nextends\nPlayerEvent\nCalled when a player joins a server",
+    "method_count": 0,
+    "methods": [],
+    "file": "PlayerJoinEvent.json"
+  },
+  {
+    "class_name": "PlayerLevelChangeEvent",
+    "short_name": "PlayerLevelChangeEvent",
+    "description": "Called when a players level changes",
+    "method_count": 0,
+    "methods": [],
+    "file": "PlayerLevelChangeEvent.json"
+  },
+  {
+    "class_name": "PlayerLoomPatternSelectEvent",
+    "short_name": "PlayerLoomPatternSelectEvent",
+    "description": "Called when a player selects a banner patten in a loom inventory.",
+    "method_count": 0,
+    "methods": [],
+    "file": "PlayerLoomPatternSelectEvent.json"
+  },
+  {
+    "class_name": "PlayerMoveEvent",
+    "short_name": "PlayerMoveEvent",
+    "description": "All Implemented Interfaces:\nCancellable\nDirect Known Subclasses:\nPlayerTeleportEvent\npublic class\nPlayerMoveEvent\nextends\nPlayerEvent\nimplements\nCancellable\nHolds information for player movement events",
+    "method_count": 0,
+    "methods": [],
+    "file": "PlayerMoveEvent.json"
+  },
+  {
+    "class_name": "PlayerPickupItemEvent",
+    "short_name": "PlayerPickupItemEvent",
+    "description": "Thrown when a player picks an item up from the ground",
+    "method_count": 0,
+    "methods": [],
+    "file": "PlayerPickupItemEvent.json"
+  },
+  {
+    "class_name": "PlayerQuitEvent",
+    "short_name": "PlayerQuitEvent",
+    "description": "public class\nPlayerQuitEvent\nextends\nPlayerEvent\nCalled when a player leaves a server",
+    "method_count": 0,
+    "methods": [],
+    "file": "PlayerQuitEvent.json"
+  },
+  {
+    "class_name": "PlayerRespawnEvent",
+    "short_name": "PlayerRespawnEvent",
+    "description": "Called when a player respawns. If changing player state, see PlayerPostRespawnEvent because the player is \"reset\" between this event and that event and some changes won't persist.",
+    "method_count": 0,
+    "methods": [],
+    "file": "PlayerRespawnEvent.json"
+  },
+  {
+    "class_name": "PlayerShearEntityEvent",
+    "short_name": "PlayerShearEntityEvent",
+    "description": "Called when a player shears an entity",
+    "method_count": 0,
+    "methods": [],
+    "file": "PlayerShearEntityEvent.json"
+  },
+  {
+    "class_name": "PlayerStatisticIncrementEvent",
+    "short_name": "PlayerStatisticIncrementEvent",
+    "description": "Called when a player statistic is incremented. This event is not called for some high frequency statistics, e.g. movement based statistics.",
+    "method_count": 0,
+    "methods": [],
+    "file": "PlayerStatisticIncrementEvent.json"
+  },
+  {
+    "class_name": "PlayerSwapHandItemsEvent",
+    "short_name": "PlayerSwapHandItemsEvent",
+    "description": "Called when a player swap items between main hand and off hand using the hotkey.",
+    "method_count": 0,
+    "methods": [],
+    "file": "PlayerSwapHandItemsEvent.json"
+  },
+  {
+    "class_name": "PlayerTeleportEvent",
+    "short_name": "PlayerTeleportEvent",
+    "description": "Holds information for player teleport events",
+    "method_count": 0,
+    "methods": [],
+    "file": "PlayerTeleportEvent.json"
+  },
+  {
+    "class_name": "PlayerToggleFlightEvent",
+    "short_name": "PlayerToggleFlightEvent",
+    "description": "Called when a player toggles their flying state",
+    "method_count": 0,
+    "methods": [],
+    "file": "PlayerToggleFlightEvent.json"
+  },
+  {
+    "class_name": "PlayerToggleSneakEvent",
+    "short_name": "PlayerToggleSneakEvent",
+    "description": "Called when a player toggles their sneaking state",
+    "method_count": 0,
+    "methods": [],
+    "file": "PlayerToggleSneakEvent.json"
+  },
+  {
+    "class_name": "PlayerToggleSprintEvent",
+    "short_name": "PlayerToggleSprintEvent",
+    "description": "Called when a player toggles their sprinting state",
+    "method_count": 0,
+    "methods": [],
+    "file": "PlayerToggleSprintEvent.json"
+  },
+  {
+    "class_name": "PlayerTradeEvent",
+    "short_name": "PlayerTradeEvent",
+    "description": "Called when a player trades with a villager or wandering trader",
+    "method_count": 0,
+    "methods": [],
+    "file": "PlayerTradeEvent.json"
+  },
+  {
+    "class_name": "Player",
+    "short_name": "Player",
+    "description": "wer , NetworkClient Represents a player, connected or not Nested Class Summary Nested Classes Modifier and Type Interface Description static class Player",
+    "method_count": 72,
+    "methods": [
+      "activeBossBars",
+      "addAdditionalChatCompletions",
+      "addResourcePack",
+      "applyMending",
+      "asHoverEvent",
+      "ban",
+      "ban",
+      "ban",
+      "banIp",
+      "banIp"
+    ],
+    "file": "Player_full.json"
+  },
+  {
+    "class_name": "Player",
+    "short_name": "Player",
+    "description": "wer , NetworkClient Represents a player, connected or not Nested Class Summary Nested Classes Modifier and Type Interface Description static class Player",
+    "method_count": 72,
+    "methods": [
+      "activeBossBars",
+      "addAdditionalChatCompletions",
+      "addResourcePack",
+      "applyMending",
+      "asHoverEvent",
+      "ban",
+      "ban",
+      "ban",
+      "banIp",
+      "banIp"
+    ],
+    "file": "Player_full_full.json"
+  },
+  {
+    "class_name": "Plugin",
+    "short_name": "Plugin",
+    "description": "All Superinterfaces:\nCommandExecutor\n,\nLifecycleEventOwner\n,\nTabCompleter\n,\nTabExecutor\nAll Known Implementing Classes:\nJavaPlugin\n,\nPluginBase\npublic interface\nPlugin\nextends\nTabExecutor\n,\nLifecycleEventOwner\nRepresents a Plugin\nThe use of\nPluginBase\nis recommended for actual Implementation",
+    "method_count": 0,
+    "methods": [],
+    "file": "Plugin.json"
+  },
+  {
+    "class_name": "PluginDisableEvent",
+    "short_name": "PluginDisableEvent",
+    "description": "Called when a plugin is disabled.",
+    "method_count": 0,
+    "methods": [],
+    "file": "PluginDisableEvent.json"
+  },
+  {
+    "class_name": "PluginEnableEvent",
+    "short_name": "PluginEnableEvent",
+    "description": "public class\nPluginEnableEvent\nextends\nPluginEvent\nCalled when a plugin is enabled.",
+    "method_count": 0,
+    "methods": [],
+    "file": "PluginEnableEvent.json"
+  },
+  {
+    "class_name": "PluginLoader",
+    "short_name": "PluginLoader",
+    "description": "Represents a plugin loader, which handles direct access to specific types of plugins",
+    "method_count": 0,
+    "methods": [],
+    "file": "PluginLoader.json"
+  },
+  {
+    "class_name": "PluginManager",
+    "short_name": "PluginManager",
+    "description": "All Superinterfaces:\nPermissionManager\nAll Known Implementing Classes:\nSimplePluginManager\npublic interface\nPluginManager\nextends\nPermissionManager\nHandles all plugin management from the Server",
+    "method_count": 0,
+    "methods": [],
+    "file": "PluginManager.json"
+  },
+  {
+    "class_name": "PortalCreateEvent",
+    "short_name": "PortalCreateEvent",
+    "description": "Called when a portal is created",
+    "method_count": 0,
+    "methods": [],
+    "file": "PortalCreateEvent.json"
+  },
+  {
+    "class_name": "PotionData",
+    "short_name": "PotionData",
+    "description": "Deprecated, for removal: This API element is subject to removal in a future version.",
+    "method_count": 0,
+    "methods": [],
+    "file": "PotionData.json"
+  },
+  {
+    "class_name": "PotionEffect",
+    "short_name": "PotionEffect",
+    "description": "All Implemented Interfaces:\nConfigurationSerializable\npublic class\nPotionEffect\nextends\nObject\nimplements\nConfigurationSerializable\nRepresents a potion effect, that can be added to a\nLivingEntity\n. A\n potion effect has a duration that it will last for, an amplifier that will\n enhance its effects, an",
+    "method_count": 0,
+    "methods": [],
+    "file": "PotionEffect.json"
+  },
+  {
+    "class_name": "PotionEffectType",
+    "short_name": "PotionEffectType",
+    "description": "All Implemented Interfaces:\nFeatureDependant\n,\nKeyed\n,\nTranslatable\n,\nKeyed\n,\nTranslatable\nDirect Known Subclasses:\nPotionEffectTypeWrapper\npublic abstract class\nPotionEffectType\nextends\nObject\nimplements\nKeyed\n,\nTranslatable\n,\nTranslatable\n,\nFeatureDependant\nRepresents a type of potion and its effe",
+    "method_count": 0,
+    "methods": [],
+    "file": "PotionEffectType.json"
+  },
+  {
+    "class_name": "PotionEffectType",
+    "short_name": "PotionEffectType",
+    "description": "All Implemented Interfaces:\nFeatureDependant\n,\nKeyed\n,\nTranslatable\n,\nKeyed\n,\nTranslatable\nDirect Known Subclasses:\nPotionEffectTypeWrapper\npublic abstract class\nPotionEffectType\nextends\nObject\nimplements\nKeyed\n,\nTranslatable\n,\nTranslatable\n,\nFeatureDependant\nRepresents a type of potion and its effe",
+    "method_count": 10,
+    "methods": [
+      "PotionEffectType",
+      "createEffect",
+      "getAttributeModifierAmount",
+      "getById",
+      "getByKey",
+      "getByName",
+      "getCategory",
+      "getColor",
+      "getDurationModifier",
+      "getEffectAttributes"
+    ],
+    "file": "PotionEffectType_full.json"
+  },
+  {
+    "class_name": "PotionEffect",
+    "short_name": "PotionEffect",
+    "description": "All Implemented Interfaces:\nConfigurationSerializable\npublic class\nPotionEffect\nextends\nObject\nimplements\nConfigurationSerializable\nRepresents a potion effect, that can be added to a\nLivingEntity\n. A\n potion effect has a duration that it will last for, an amplifier that will\n enhance its effects, an",
+    "method_count": 31,
+    "methods": [
+      "PotionEffect",
+      "equals",
+      "getColor",
+      "getDuration",
+      "getHiddenPotionEffect",
+      "getType",
+      "hashCode",
+      "hasIcon",
+      "hasParticles",
+      "isAmbient"
+    ],
+    "file": "PotionEffect_full.json"
+  },
+  {
+    "class_name": "PotionMeta",
+    "short_name": "PotionMeta",
+    "description": "Represents a potion or item that can have custom effects.",
+    "method_count": 0,
+    "methods": [],
+    "file": "PotionMeta.json"
+  },
+  {
+    "class_name": "PotionType",
+    "short_name": "PotionType",
+    "description": "This enum reflects and matches each potion state that can be obtained from the Creative mode inventory",
+    "method_count": 0,
+    "methods": [],
+    "file": "PotionType.json"
+  },
+  {
+    "class_name": "PrepareAnvilEvent",
+    "short_name": "PrepareAnvilEvent",
+    "description": "Called when an item is put in a slot for repair by an anvil.",
+    "method_count": 0,
+    "methods": [],
+    "file": "PrepareAnvilEvent.json"
+  },
+  {
+    "class_name": "PrepareItemCraftEvent",
+    "short_name": "PrepareItemCraftEvent",
+    "description": "Gets the primary Inventory involved in this transaction",
+    "method_count": 0,
+    "methods": [],
+    "file": "PrepareItemCraftEvent.json"
+  },
+  {
+    "class_name": "Projectile",
+    "short_name": "Projectile",
+    "description": "Represents a shootable entity.",
+    "method_count": 0,
+    "methods": [],
+    "file": "Projectile.json"
+  },
+  {
+    "class_name": "ProjectileHitEvent",
+    "short_name": "ProjectileHitEvent",
+    "description": "Called when a projectile hits an object",
+    "method_count": 0,
+    "methods": [],
+    "file": "ProjectileHitEvent.json"
+  },
+  {
+    "class_name": "ProjectileLaunchEvent",
+    "short_name": "ProjectileLaunchEvent",
+    "description": "Called when a projectile is launched.",
+    "method_count": 0,
+    "methods": [],
+    "file": "ProjectileLaunchEvent.json"
+  },
+  {
+    "class_name": "ProjectileSource",
+    "short_name": "ProjectileSource",
+    "description": "Represents a valid source of a projectile.",
+    "method_count": 0,
+    "methods": [],
+    "file": "ProjectileSource.json"
+  },
+  {
+    "class_name": "Recipe",
+    "short_name": "Recipe",
+    "description": "Represents some type of crafting recipe.",
+    "method_count": 0,
+    "methods": [],
+    "file": "Recipe.json"
+  },
+  {
+    "class_name": "RegistryAccess",
+    "short_name": "RegistryAccess",
+    "description": "Used for accessing different Registry instances by a RegistryKey . Get the main instance of RegistryAccess with registryAccess() .",
+    "method_count": 0,
+    "methods": [],
+    "file": "RegistryAccess.json"
+  },
+  {
+    "class_name": "RegistryKey",
+    "short_name": "RegistryKey",
+    "description": "Identifier for a specific registry. For use with TypedKey and the registry modification API. There are 2 types of registries, identified as \"built-in\" or \"data-driven\". The former are not changeable by datapacks (which doesn't necessarily mean they aren't changeable in the API) and are loaded first.",
+    "method_count": 0,
+    "methods": [],
+    "file": "RegistryKey.json"
+  },
+  {
+    "class_name": "RemoteServerCommandEvent",
+    "short_name": "RemoteServerCommandEvent",
+    "description": "This event is called when a command is received over RCON. See the javadocs of ServerCommandEvent for more information.",
+    "method_count": 0,
+    "methods": [],
+    "file": "RemoteServerCommandEvent.json"
+  },
+  {
+    "class_name": "Rotation",
+    "short_name": "Rotation",
+    "description": "An enum to specify a rotation based orientation, like that on a clock. It represents how something is viewed, as opposed to cardinal directions.",
+    "method_count": 0,
+    "methods": [],
+    "file": "Rotation.json"
+  },
+  {
+    "class_name": "Scoreboard",
+    "short_name": "Scoreboard",
+    "description": "public interface\nScoreboard\nA scoreboard",
+    "method_count": 0,
+    "methods": [],
+    "file": "Scoreboard.json"
+  },
+  {
+    "class_name": "ScoreboardManager",
+    "short_name": "ScoreboardManager",
+    "description": "public interface\nScoreboardManager\nManager of Scoreboards",
+    "method_count": 0,
+    "methods": [],
+    "file": "ScoreboardManager.json"
+  },
+  {
+    "class_name": "Server",
+    "short_name": "Server",
+    "description": "All Superinterfaces:\nAudience\n,\nForwardingAudience\n,\nPluginMessageRecipient\n,\nPointered\npublic interface\nServer\nextends\nPluginMessageRecipient\n,\nForwardingAudience\nRepresents a server implementation.",
+    "method_count": 0,
+    "methods": [],
+    "file": "Server.json"
+  },
+  {
+    "class_name": "ServerCommandEvent",
+    "short_name": "ServerCommandEvent",
+    "description": "This event is called when a command is run by a non-player. It is called early in the command handling process, and modifications in this event (via setCommand(String) ) will be shown in the behavior. Many plugins will have no use for this event , and you should attempt to avoid using it if it is no",
+    "method_count": 0,
+    "methods": [],
+    "file": "ServerCommandEvent.json"
+  },
+  {
+    "class_name": "ServerListPingEvent",
+    "short_name": "ServerListPingEvent",
+    "description": "Called when a server list ping is coming in. Displayed players can be checked and removed by iterating over this event. Note: The players in iterator() will not be shown in the server info if Bukkit.getHideOnlinePlayers() is true.",
+    "method_count": 0,
+    "methods": [],
+    "file": "ServerListPingEvent.json"
+  },
+  {
+    "class_name": "ServerResourcesReloadedEvent",
+    "short_name": "ServerResourcesReloadedEvent",
+    "description": "Called when resources such as datapacks are reloaded (e.g. /minecraft:reload) Intended for use to re-register custom recipes, advancements that may be lost during a reload like this.",
+    "method_count": 0,
+    "methods": [],
+    "file": "ServerResourcesReloadedEvent.json"
+  },
+  {
+    "class_name": "ShapedRecipe",
+    "short_name": "ShapedRecipe",
+    "description": "Represents a shaped (ie normal) crafting recipe.",
+    "method_count": 0,
+    "methods": [],
+    "file": "ShapedRecipe.json"
+  },
+  {
+    "class_name": "ShapelessRecipe",
+    "short_name": "ShapelessRecipe",
+    "description": "Represents a shapeless recipe, where the arrangement of the ingredients on the crafting grid does not matter.",
+    "method_count": 0,
+    "methods": [],
+    "file": "ShapelessRecipe.json"
+  },
+  {
+    "class_name": "Sign",
+    "short_name": "Sign",
+    "description": "Represents a captured state of either a SignPost or a WallSign.",
+    "method_count": 0,
+    "methods": [],
+    "file": "Sign.json"
+  },
+  {
+    "class_name": "SignChangeEvent",
+    "short_name": "SignChangeEvent",
+    "description": "Called when a sign is changed by a player. If a Sign Change event is cancelled, the sign will not be changed.",
+    "method_count": 0,
+    "methods": [],
+    "file": "SignChangeEvent.json"
+  },
+  {
+    "class_name": "Skeleton",
+    "short_name": "Skeleton",
+    "description": "Represents a Skeleton. This interface only represents the normal skeleton type on the server. Other skeleton-like entities, such as the WitherSkeleton or the Stray are not related to this type.",
+    "method_count": 0,
+    "methods": [],
+    "file": "Skeleton.json"
+  },
+  {
+    "class_name": "SkullMeta",
+    "short_name": "SkullMeta",
+    "description": "Represents a skull that can have an owner.",
+    "method_count": 0,
+    "methods": [],
+    "file": "SkullMeta.json"
+  },
+  {
+    "class_name": "Sound",
+    "short_name": "Sound",
+    "description": "All Superinterfaces:\nComparable\n<\nSound\n>\n,\nKeyed\n,\nKeyed\n,\nOldEnum\n<\nSound\n>\n,\nSound.Type\npublic interface\nSound\nextends\nOldEnum\n<\nSound\n>,\nKeyed\n,\nSound.Type\nAn interface of Sounds the server is able to send to players.\nThe sounds listed in this interface are present in the default server\n or can ",
+    "method_count": 0,
+    "methods": [],
+    "file": "Sound.json"
+  },
+  {
+    "class_name": "SoundCategory",
+    "short_name": "SoundCategory",
+    "description": "An Enum of categories for sounds.",
+    "method_count": 0,
+    "methods": [],
+    "file": "SoundCategory.json"
+  },
+  {
+    "class_name": "SpawnChangeEvent",
+    "short_name": "SpawnChangeEvent",
+    "description": "An event that is called when a world's spawn changes. The world's previous spawn location is included.",
+    "method_count": 0,
+    "methods": [],
+    "file": "SpawnChangeEvent.json"
+  },
+  {
+    "class_name": "Spider",
+    "short_name": "Spider",
+    "description": "Represents a Spider.",
+    "method_count": 0,
+    "methods": [],
+    "file": "Spider.json"
+  },
+  {
+    "class_name": "Spider",
+    "short_name": "Spider",
+    "description": "Represents a Spider. Nested Class Summary Nested classes/interfaces inherited from interface&nbsp;org.bukkit.entity. Entity Entity.Spigot Method Summary Methods inherited from interface&nbsp;org.bukkit.attribute. Attributable getAttribute , registerAttribute Methods inherited from interface&nbsp;net",
+    "method_count": 0,
+    "methods": [],
+    "file": "Spider_full.json"
+  },
+  {
+    "class_name": "Statistic",
+    "short_name": "Statistic",
+    "description": "Represents a countable statistic, which is tracked by the server.",
+    "method_count": 0,
+    "methods": [],
+    "file": "Statistic.json"
+  },
+  {
+    "class_name": "StructureGrowEvent",
+    "short_name": "StructureGrowEvent",
+    "description": "Event that is called when an organic structure attempts to grow (Sapling -&gt; Tree), (Mushroom -&gt; Huge Mushroom), naturally or using bonemeal.",
+    "method_count": 0,
+    "methods": [],
+    "file": "StructureGrowEvent.json"
+  },
+  {
+    "class_name": "TabCompleter",
+    "short_name": "TabCompleter",
+    "description": "All Known Subinterfaces:\nPlugin\n,\nTabExecutor\nAll Known Implementing Classes:\nJavaPlugin\n,\nPluginBase\npublic interface\nTabCompleter\nRepresents a class which can suggest tab completions for commands.",
+    "method_count": 0,
+    "methods": [],
+    "file": "TabCompleter.json"
+  },
+  {
+    "class_name": "TabExecutor",
+    "short_name": "TabExecutor",
+    "description": "All Superinterfaces:\nCommandExecutor\n,\nTabCompleter\nAll Known Subinterfaces:\nPlugin\nAll Known Implementing Classes:\nJavaPlugin\n,\nPluginBase\npublic interface\nTabExecutor\nextends\nTabCompleter\n,\nCommandExecutor\nThis class is provided as a convenience to implement both TabCompleter and\n CommandExecutor.",
+    "method_count": 0,
+    "methods": [],
+    "file": "TabExecutor.json"
+  },
+  {
+    "class_name": "Tag",
+    "short_name": "Tag",
+    "description": "Represents a tag that may be defined by the server or a resource pack to group like things together. Note that whilst all tags defined within this interface must be present in implementations, their existence is not guaranteed across future versions. Custom tags defined by Paper are not present (as ",
+    "method_count": 0,
+    "methods": [],
+    "file": "Tag.json"
+  },
+  {
+    "class_name": "Team",
+    "short_name": "Team",
+    "description": "A team on a scoreboard that has a common display theme and other properties. This team is only relevant to the display of the associated scoreboard .",
+    "method_count": 0,
+    "methods": [],
+    "file": "Team.json"
+  },
+  {
+    "class_name": "TeleportFlag",
+    "short_name": "TeleportFlag",
+    "description": "Represents a flag that can be set on teleportation that may slightly modify the behavior.",
+    "method_count": 0,
+    "methods": [],
+    "file": "TeleportFlag.json"
+  },
+  {
+    "class_name": "ThrownPotion",
+    "short_name": "ThrownPotion",
+    "description": "Represents a thrown potion bottle",
+    "method_count": 0,
+    "methods": [],
+    "file": "ThrownPotion.json"
+  },
+  {
+    "class_name": "ThunderChangeEvent",
+    "short_name": "ThunderChangeEvent",
+    "description": "Stores data for thunder state changing in a world",
+    "method_count": 0,
+    "methods": [],
+    "file": "ThunderChangeEvent.json"
+  },
+  {
+    "class_name": "Vector",
+    "short_name": "Vector",
+    "description": "Represents a mutable vector. Because the components of Vectors are mutable, storing Vectors long term may be dangerous if passing code modifies the Vector later. If you want to keep around a Vector, it may be wise to call clone() in order to get a copy.",
+    "method_count": 0,
+    "methods": [],
+    "file": "Vector.json"
+  },
+  {
+    "class_name": "VehicleCreateEvent",
+    "short_name": "VehicleCreateEvent",
+    "description": "Raised when a vehicle is created.",
+    "method_count": 0,
+    "methods": [],
+    "file": "VehicleCreateEvent.json"
+  },
+  {
+    "class_name": "VehicleDamageEvent",
+    "short_name": "VehicleDamageEvent",
+    "description": "Raised when a vehicle receives damage.",
+    "method_count": 0,
+    "methods": [],
+    "file": "VehicleDamageEvent.json"
+  },
+  {
+    "class_name": "VehicleDestroyEvent",
+    "short_name": "VehicleDestroyEvent",
+    "description": "Raised when a vehicle is destroyed, which could be caused by either a player or the environment. This is not raised if the boat is simply 'removed' due to other means.",
+    "method_count": 0,
+    "methods": [],
+    "file": "VehicleDestroyEvent.json"
+  },
+  {
+    "class_name": "VehicleEnterEvent",
+    "short_name": "VehicleEnterEvent",
+    "description": "Raised when an entity enters a vehicle.",
+    "method_count": 0,
+    "methods": [],
+    "file": "VehicleEnterEvent.json"
+  },
+  {
+    "class_name": "VehicleExitEvent",
+    "short_name": "VehicleExitEvent",
+    "description": "Raised when a living entity exits a vehicle.",
+    "method_count": 0,
+    "methods": [],
+    "file": "VehicleExitEvent.json"
+  },
+  {
+    "class_name": "VehicleMoveEvent",
+    "short_name": "VehicleMoveEvent",
+    "description": "Raised when a vehicle moves.",
+    "method_count": 0,
+    "methods": [],
+    "file": "VehicleMoveEvent.json"
+  },
+  {
+    "class_name": "VehicleUpdateEvent",
+    "short_name": "VehicleUpdateEvent",
+    "description": "Called when a vehicle updates",
+    "method_count": 0,
+    "methods": [],
+    "file": "VehicleUpdateEvent.json"
+  },
+  {
+    "class_name": "Villager",
+    "short_name": "Villager",
+    "description": "Represents a villager NPC",
+    "method_count": 0,
+    "methods": [],
+    "file": "Villager.json"
+  },
+  {
+    "class_name": "Warning",
+    "short_name": "Warning",
+    "description": "This designates the warning state for a specific item. When the server settings dictate 'default' warnings, warnings are printed if the value() is true.",
+    "method_count": 0,
+    "methods": [],
+    "file": "Warning.json"
+  },
+  {
+    "class_name": "WeatherChangeEvent",
+    "short_name": "WeatherChangeEvent",
+    "description": "Stores data for weather changing in a world",
+    "method_count": 0,
+    "methods": [],
+    "file": "WeatherChangeEvent.json"
+  },
+  {
+    "class_name": "World",
+    "short_name": "World",
+    "description": "All Superinterfaces:\nAudience\n,\nFeatureFlagSetHolder\n,\nForwardingAudience\n,\nKeyed\n,\nKeyed\n,\nMetadatable\n,\nPersistentDataHolder\n,\nPersistentDataViewHolder\n,\nPluginMessageRecipient\n,\nPointered\n,\nRegionAccessor\n,\nWorldInfo\npublic interface\nWorld\nextends\nRegionAccessor\n,\nWorldInfo\n,\nPluginMessageRecipie",
+    "method_count": 0,
+    "methods": [],
+    "file": "World.json"
+  },
+  {
+    "class_name": "WorldBorder",
+    "short_name": "WorldBorder",
+    "description": "Gets the current border center.",
+    "method_count": 0,
+    "methods": [],
+    "file": "WorldBorder.json"
+  },
+  {
+    "class_name": "WorldInitEvent",
+    "short_name": "WorldInitEvent",
+    "description": "Called when a World is initializing. To get every world it is recommended to add following to the plugin.yml. load: STARTUP",
+    "method_count": 0,
+    "methods": [],
+    "file": "WorldInitEvent.json"
+  },
+  {
+    "class_name": "WorldSaveEvent",
+    "short_name": "WorldSaveEvent",
+    "description": "Called when a World is saved.",
+    "method_count": 0,
+    "methods": [],
+    "file": "WorldSaveEvent.json"
+  },
+  {
+    "class_name": "WorldType",
+    "short_name": "WorldType",
+    "description": "Represents various types of worlds that may exist",
+    "method_count": 0,
+    "methods": [],
+    "file": "WorldType.json"
+  },
+  {
+    "class_name": "World",
+    "short_name": "World",
+    "description": "ForwardingAudience Represents a world, which may contain entities, chunks and blocks Nested Class Summary Nested Classes Modifier and Type Interface Description static interface World",
+    "method_count": 49,
+    "methods": [
+      "audiences",
+      "canGenerateStructures",
+      "createExplosion",
+      "createExplosion",
+      "createExplosion",
+      "createExplosion",
+      "createExplosion",
+      "createExplosion",
+      "createExplosion",
+      "createExplosion"
+    ],
+    "file": "World_full_full.json"
+  },
+  {
+    "class_name": "YamlConfiguration",
+    "short_name": "YamlConfiguration",
+    "description": "All Implemented Interfaces:\nConfiguration\n,\nConfigurationSection\npublic class\nYamlConfiguration\nextends\nFileConfiguration\nAn implementation of\nConfiguration\nwhich saves all files in Yaml.\n Note that this implementation is not synchronized.",
+    "method_count": 0,
+    "methods": [],
+    "file": "YamlConfiguration.json"
+  },
+  {
+    "class_name": "YamlConfiguration",
+    "short_name": "YamlConfiguration",
+    "description": "All Implemented Interfaces:\nConfiguration\n,\nConfigurationSection\npublic class\nYamlConfiguration\nextends\nFileConfiguration\nAn implementation of\nConfiguration\nwhich saves all files in Yaml.\n Note that this implementation is not synchronized.",
+    "method_count": 14,
+    "methods": [
+      "YamlConfiguration",
+      "loadConfiguration",
+      "loadConfiguration",
+      "loadFromString",
+      "options",
+      "saveToString",
+      "YamlConfiguration",
+      "YamlConfiguration",
+      "loadConfiguration",
+      "loadConfiguration"
+    ],
+    "file": "YamlConfiguration_full.json"
+  },
+  {
+    "class_name": "Zombie",
+    "short_name": "Zombie",
+    "description": "Represents a Zombie.",
+    "method_count": 0,
+    "methods": [],
+    "file": "Zombie.json"
+  }
+]

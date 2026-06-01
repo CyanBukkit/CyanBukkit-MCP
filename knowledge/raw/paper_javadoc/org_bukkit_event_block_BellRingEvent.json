@@ -1,0 +1,13 @@
+{
+  "class_name": "org.bukkit.event.block.BellRingEvent",
+  "methods": [
+    "public org.bukkit.event.block.BellRingEvent(org.bukkit.block.Block, org.bukkit.block.BlockFace, org.bukkit.entity.Entity)",
+    "public org.bukkit.block.BlockFace getDirection()",
+    "public org.bukkit.entity.Entity getEntity()",
+    "public void setCancelled(boolean)",
+    "public boolean isCancelled()",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 7
+}

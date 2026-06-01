@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.block.data.Directional",
+  "methods": [
+    "public abstract org.bukkit.block.BlockFace getFacing()",
+    "public abstract void setFacing(org.bukkit.block.BlockFace)",
+    "public abstract java.util.Set<org.bukkit.block.BlockFace> getFaces()"
+  ],
+  "method_count": 3
+}

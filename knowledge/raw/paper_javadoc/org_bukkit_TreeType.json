@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.TreeType",
+  "methods": [
+    "public static org.bukkit.TreeType[] values()",
+    "public static org.bukkit.TreeType valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

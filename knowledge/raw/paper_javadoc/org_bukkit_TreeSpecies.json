@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.TreeSpecies",
+  "methods": [
+    "public static org.bukkit.TreeSpecies[] values()",
+    "public static org.bukkit.TreeSpecies valueOf(java.lang.String)",
+    "public byte getData()",
+    "public static org.bukkit.TreeSpecies getByData(byte)"
+  ],
+  "method_count": 4
+}

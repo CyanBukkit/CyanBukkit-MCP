@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.data.type.Jigsaw",
+  "methods": [
+    "public abstract org.bukkit.block.Orientation getOrientation()",
+    "public abstract void setOrientation(org.bukkit.block.Orientation)"
+  ],
+  "method_count": 2
+}

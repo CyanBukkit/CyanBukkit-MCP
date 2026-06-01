@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.inventory.ArmoredHorseInventory",
+  "methods": [
+    "public abstract org.bukkit.inventory.ItemStack getArmor()",
+    "public abstract void setArmor(org.bukkit.inventory.ItemStack)"
+  ],
+  "method_count": 2
+}

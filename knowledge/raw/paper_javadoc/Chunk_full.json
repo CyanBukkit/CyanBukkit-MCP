@@ -1,0 +1,326 @@
+{
+  "class_name": "Chunk",
+  "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/Chunk.html",
+  "description": "All Superinterfaces:\nPersistentDataHolder\n,\nPersistentDataViewHolder\npublic interface\nChunk\nextends\nPersistentDataHolder\nRepresents a chunk of blocks.\n\n If the chunk is not yet fully generated and data is requested from the chunk,\n then the chunk will only be generated as far as it needs to provide the\n requested data.",
+  "methods": [
+    {
+      "name": "contains",
+      "signature": "boolean contains(@NotNull Biome biome)",
+      "return_type": "boolean",
+      "params": [
+        "@NotNull Biome biome"
+      ],
+      "description": "Tests if this chunk contains the specified biome."
+    },
+    {
+      "name": "contains",
+      "signature": "boolean contains(@NotNull BlockData block)",
+      "return_type": "boolean",
+      "params": [
+        "@NotNull BlockData block"
+      ],
+      "description": "Tests if this chunk contains the specified block."
+    },
+    {
+      "name": "getBlock",
+      "signature": "NotNull Block getBlock(int x, int y, int z)",
+      "return_type": "NotNull\nBlock",
+      "params": [
+        "int x",
+        "int y",
+        "int z"
+      ],
+      "description": "Gets"
+    },
+    {
+      "name": "getChunkKey",
+      "signature": "a block from this chunk default long getChunkKey()",
+      "return_type": "a block from this chunk\ndefault long",
+      "params": [],
+      "description": "stati"
+    },
+    {
+      "name": "getChunkKey",
+      "signature": "c long getChunkKey(int x, int z)",
+      "return_type": "c long",
+      "params": [
+        "int x",
+        "int z"
+      ],
+      "description": "stati"
+    },
+    {
+      "name": "getChunkKey",
+      "signature": "c long getChunkKey(@NotNull Location loc)",
+      "return_type": "c long",
+      "params": [
+        "@NotNull Location loc"
+      ],
+      "description": "@NotN"
+    },
+    {
+      "name": "getChunkSnapshot",
+      "signature": "ull ChunkSnapshot getChunkSnapshot()",
+      "return_type": "ull\nChunkSnapshot",
+      "params": [],
+      "description": "Capture thread-safe read-only snapshot of chunk data"
+    },
+    {
+      "name": "getChunkSnapshot",
+      "signature": "NotNull ChunkSnapshot getChunkSnapshot(boolean includeMaxblocky, boolean includeBiome, boolean includeBiomeTempRain)",
+      "return_type": "NotNull\nChunkSnapshot",
+      "params": [
+        "boolean includeMaxblocky",
+        "boolean includeBiome",
+        "boolean includeBiomeTempRain"
+      ],
+      "description": "Capture thread-safe read-only snapshot of chunk data"
+    },
+    {
+      "name": "getChunkSnapshot",
+      "signature": "NotNull ChunkSnapshot getChunkSnapshot(boolean includeMaxblocky, boolean includeBiome, boolean includeBiomeTempRain, boolean includeLightData)",
+      "return_type": "NotNull\nChunkSnapshot",
+      "params": [
+        "boolean includeMaxblocky",
+        "boolean includeBiome",
+        "boolean includeBiomeTempRain",
+        "boolean includeLightData"
+      ],
+      "description": "Capture thread-safe read-only snapshot of chunk data"
+    },
+    {
+      "name": "getEntities",
+      "signature": "NotNull [] getEntities()",
+      "return_type": "NotNull\n[]",
+      "params": [],
+      "description": "Get a list of all entities in the chunk."
+    },
+    {
+      "name": "getInhabitedTime",
+      "signature": "long getInhabitedTime()",
+      "return_type": "long",
+      "params": [],
+      "description": "Gets the amount of time in ticks that this chunk has been inhabited."
+    },
+    {
+      "name": "getLoadLevel",
+      "signature": "LoadLevel getLoadLevel()",
+      "return_type": "LoadLevel",
+      "params": [],
+      "description": "Gets the load level of this chunk, which determines what game logic is"
+    },
+    {
+      "name": "getPlayersSeeingChunk",
+      "signature": "NotNull Collection < Player > getPlayersSeeingChunk()",
+      "return_type": "NotNull\nCollection\n<\nPlayer\n>",
+      "params": [],
+      "description": "Get a list of all players who are can view the chunk from their client"
+    },
+    {
+      "name": "getPluginChunkTickets",
+      "signature": "NotNull Collection < Plugin > getPluginChunkTickets()",
+      "return_type": "NotNull\nCollection\n<\nPlugin\n>",
+      "params": [],
+      "description": "Retrieves a collection specifying which plugins have tickets for this"
+    },
+    {
+      "name": "getStructures",
+      "signature": "NotNull Collection < GeneratedStructure > getStructures()",
+      "return_type": "NotNull\nCollection\n<\nGeneratedStructure\n>",
+      "params": [],
+      "description": "Gets all generated structures that intersect this chunk."
+    },
+    {
+      "name": "getStructures",
+      "signature": "NotNull Collection < GeneratedStructure > getStructures(@NotNull Structure structure)",
+      "return_type": "NotNull\nCollection\n<\nGeneratedStructure\n>",
+      "params": [
+        "@NotNull Structure structure"
+      ],
+      "description": "Gets all generated structures of a given"
+    },
+    {
+      "name": "getTileEntities",
+      "signature": "NotNull [] getTileEntities()",
+      "return_type": "NotNull\n[]",
+      "params": [],
+      "description": "Get a list of all tile entities in the chunk."
+    },
+    {
+      "name": "getTileEntities",
+      "signature": "NotNull [] getTileEntities(boolean useSnapshot)",
+      "return_type": "NotNull\n[]",
+      "params": [
+        "boolean useSnapshot"
+      ],
+      "description": "Get a list of all tile entities in the chunk."
+    },
+    {
+      "name": "getTileEntities",
+      "signature": "NotNull Collection < BlockState > getTileEntities(@NotNull Predicate <? super Block > blockPredicate, boolean useSnapshot)",
+      "return_type": "NotNull\nCollection\n<\nBlockState\n>",
+      "params": [
+        "@NotNull Predicate <? super Block > blockPredicate",
+        "boolean useSnapshot"
+      ],
+      "description": "Get a list of all tile entities that match a given predicate in the chunk."
+    },
+    {
+      "name": "getWorld",
+      "signature": "NotNull World getWorld()",
+      "return_type": "NotNull\nWorld",
+      "params": [],
+      "description": "Gets"
+    },
+    {
+      "name": "getX",
+      "signature": "the world containing this chunk int getX()",
+      "return_type": "the world containing this chunk\nint",
+      "params": [],
+      "description": "Gets the X-"
+    },
+    {
+      "name": "getZ",
+      "signature": "coordinate of this chunk int getZ()",
+      "return_type": "coordinate of this chunk\nint",
+      "params": [],
+      "description": "Gets the Z-"
+    },
+    {
+      "name": "isEntitiesLoaded",
+      "signature": "coordinate of this chunk boolean isEntitiesLoaded()",
+      "return_type": "coordinate of this chunk\nboolean",
+      "params": [],
+      "description": "Checks if entities in this chunk are loaded."
+    },
+    {
+      "name": "isForceLoaded",
+      "signature": "boolean isForceLoaded()",
+      "return_type": "boolean",
+      "params": [],
+      "description": "Gets whether the chunk at the specified chunk coordinates is force"
+    },
+    {
+      "name": "isGenerated",
+      "signature": "boolean isGenerated()",
+      "return_type": "boolean",
+      "params": [],
+      "description": "Checks if the chunk is fully generated."
+    },
+    {
+      "name": "isLoaded",
+      "signature": "boolean isLoaded()",
+      "return_type": "boolean",
+      "params": [],
+      "description": "Checks if the chunk is loaded."
+    },
+    {
+      "name": "isSlimeChunk",
+      "signature": "boolean isSlimeChunk()",
+      "return_type": "boolean",
+      "params": [],
+      "description": "Checks if this chunk can spawn slimes without being a swamp biome."
+    },
+    {
+      "name": "load",
+      "signature": "boolean load()",
+      "return_type": "boolean",
+      "params": [],
+      "description": "Loads the chunk."
+    },
+    {
+      "name": "load",
+      "signature": "boolean load(boolean generate)",
+      "return_type": "boolean",
+      "params": [
+        "boolean generate"
+      ],
+      "description": "Loads the chunk."
+    },
+    {
+      "name": "removePluginChunkTicket",
+      "signature": "boolean removePluginChunkTicket(@NotNull Plugin plugin)",
+      "return_type": "boolean",
+      "params": [
+        "@NotNull Plugin plugin"
+      ],
+      "description": "Removes the specified plugin'"
+    },
+    {
+      "name": "setForceLoaded",
+      "signature": "s ticket for this chunk void setForceLoaded(boolean forced)",
+      "return_type": "s ticket for this chunk\nvoid",
+      "params": [
+        "boolean forced"
+      ],
+      "description": "Sets whether the chunk at the specified chunk coordinates is force"
+    },
+    {
+      "name": "setInhabitedTime",
+      "signature": "void setInhabitedTime(long ticks)",
+      "return_type": "void",
+      "params": [
+        "long ticks"
+      ],
+      "description": "Sets the amount of time in ticks that this chunk has been inhabited."
+    },
+    {
+      "name": "unload",
+      "signature": "boolean unload()",
+      "return_type": "boolean",
+      "params": [],
+      "description": "Unloa"
+    },
+    {
+      "name": "unload",
+      "signature": "ds and optionally saves the Chunk boolean unload(boolean save)",
+      "return_type": "ds and optionally saves the Chunk\nboolean",
+      "params": [
+        "boolean save"
+      ],
+      "description": "Unloads and optionally saves the Chunk"
+    },
+    {
+      "name": "getX",
+      "signature": "PersistentDataHolder getPersistentDataContainer Method Details getX int getX()",
+      "return_type": "PersistentDataHolder\ngetPersistentDataContainer\nMethod Detai",
+      "params": [],
+      "description": "Gets the X-coordinate of this chunk"
+    },
+    {
+      "name": "getZ",
+      "signature": "coordinate getZ int getZ()",
+      "return_type": "coordinate\ngetZ\nint",
+      "params": [],
+      "description": "Gets the Z-coordinate of this chunk"
+    },
+    {
+      "name": "getChunkKey",
+      "signature": "coordinate getChunkKey default long getChunkKey()",
+      "return_type": "coordinate\ngetChunkKey\ndefault\nlong",
+      "params": [],
+      "description": "Returns:"
+    },
+    {
+      "name": "getChunkKey",
+      "signature": "The Chunks X and Z coordinates packed into a long getChunkKey static long getChunkKey(@NotNull @NotNull Location loc)",
+      "return_type": "The Chunks X and Z coordinates packed into a long\ngetChunkKe",
+      "params": [
+        "@NotNull @NotNull Location loc"
+      ],
+      "description": "Parameters:"
+    },
+    {
+      "name": "getChunkKey",
+      "signature": "s chunk coordinates packed into a long getChunkKey static long getChunkKey(int x, int z)",
+      "return_type": "s chunk coordinates packed into a long\ngetChunkKey\nstatic\nlo",
+      "params": [
+        "int x",
+        "int z"
+      ],
+      "description": "Parameters:"
+    }
+  ],
+  "method_count": 39,
+  "full_text": "Package\norg.bukkit\nInterface Chunk\nAll Superinterfaces:\nPersistentDataHolder\n,\nPersistentDataViewHolder\npublic interface\nChunk\nextends\nPersistentDataHolder\nRepresents a chunk of blocks.\n\n If the chunk is not yet fully generated and data is requested from the chunk,\n then the chunk will only be generated as far as it needs to provide the\n requested data.\nNested Class Summary\nNested Classes\nModifier and Type\nInterface\nDescription\nstatic enum\nChunk.LoadLevel\nAn enum to specify the load level of a chunk.\nMethod Summary\nAll Methods\nStatic Methods\nInstance Methods\nAbstract Methods\nDefault Methods\nModifier and Type\nMethod\nDescription\nboolean\naddPluginChunkTicket\n(\n@NotNull\nPlugin\nplugin)\nAdds a plugin ticket for this chunk, loading this chunk if it is not\n already loaded.\nboolean\ncontains\n(\n@NotNull\nBiome\nbiome)\nTests if this chunk contains the specified biome.\nboolean\ncontains\n(\n@NotNull\nBlockData\nblock)\nTests if this chunk contains the specified block.\n@NotNull\nBlock\ngetBlock\n(int x,\n int y,\n int z)\nGets a block from this chunk\ndefault long\ngetChunkKey\n()\nstatic long\ngetChunkKey\n(int x,\n int z)\nstatic long\ngetChunkKey\n(\n@NotNull\nLocation\nloc)\n@NotNull\nChunkSnapshot\ngetChunkSnapshot\n()\nCapture thread-safe read-only snapshot of chunk data\n@NotNull\nChunkSnapshot\ngetChunkSnapshot\n(boolean includeMaxblocky,\n boolean includeBiome,\n boolean includeBiomeTempRain)\nCapture thread-safe read-only snapshot of chunk data\n@NotNull\nChunkSnapshot\ngetChunkSnapshot\n(boolean includeMaxblocky,\n boolean includeBiome,\n boolean includeBiomeTempRain,\n boolean includeLightData)\nCapture thread-safe read-only snapshot of chunk data\n@NotNull\nEntity\n@NotNull\n[]\ngetEntities\n()\nGet a list of all entities in the chunk.\nlong\ngetInhabitedTime\n()\nGets the amount of time in ticks that this chunk has been inhabited.\n@NotNull\nChunk.LoadLevel\ngetLoadLevel\n()\nGets the load level of this chunk, which determines what game logic is\n processed.\n@NotNull\nCollection\n<\nPlayer\n>\ngetPlayersSeeingChunk\n()\nGet a list of all players who are can view the chunk from their client\n@NotNull\nCollection\n<\nPlugin\n>\ngetPluginChunkTickets\n()\nRetrieves a collection specifying which plugins have tickets for this\n chunk.\n@NotNull\nCollection\n<\nGeneratedStructure\n>\ngetStructures\n()\nGets all generated structures that intersect this chunk.\n@NotNull\nCollection\n<\nGeneratedStructure\n>\ngetStructures\n(\n@NotNull\nStructure\nstructure)\nGets all generated structures of a given\nStructure\nthat intersect\n this chunk.\ndefault\n@NotNull\nBlockState\n@NotNull\n[]\ngetTileEntities\n()\nGet a list of all tile entities in the chunk.\n@NotNull\nBlockState\n@NotNull\n[]\ngetTileEntities\n(boolean useSnapshot)\nGet a list of all tile entities in the chunk.\n@NotNull\nCollection\n<\nBlockState\n>\ngetTileEntities\n(\n@NotNull\nPredicate\n<? super\nBlock\n> blockPredicate,\n boolean useSnapshot)\nGet a list of all tile entities that match a given predicate in the chunk.\n@NotNull\nWorld\ngetWorld\n()\nGets the world containing this chunk\nint\ngetX\n()\nGets the X-coordinate of this chunk\nint\ngetZ\n()\nGets the Z-coordinate of this chunk\nboolean\nisEntitiesLoaded\n()\nChecks if entities in this chunk are loaded.\nboolean\nisForceLoaded\n()\nGets whether the chunk at the specified chunk coordinates is force\n loaded.\nboolean\nisGenerated\n()\nChecks if the chunk is fully generated.\nboolean\nisLoaded\n()\nChecks if the chunk is loaded.\nboolean\nisSlimeChunk\n()\nChecks if this chunk can spawn slimes without being a swamp biome.\nboolean\nload\n()\nLoads the chunk.\nboolean\nload\n(boolean generate)\nLoads the chunk.\nboolean\nremovePluginChunkTicket\n(\n@NotNull\nPlugin\nplugin)\nRemoves the specified plugin's ticket for this chunk\nvoid\nsetForceLoaded\n(boolean forced)\nSets whether the chunk at the specified chunk coordinates is force\n loaded.\nvoid\nsetInhabitedTime\n(long ticks)\nSets the amount of time in ticks that this chunk has been inhabited.\nboolean\nunload\n()\nUnloads and optionally saves the Chunk\nboolean\nunload\n(boolean save)\nUnloads and optionally saves the Chunk\nMethods inherited from interface org.bukkit.persistence.\nPersistentDataHolder\ngetPersistentDataContainer\nMethod Details\ngetX\nint\ngetX\n()\nGets the X-coordinate of this chunk\nReturns:\nX-coordinate\ngetZ\nint\ngetZ\n()\nGets the Z-coordinate of this chunk\nReturns:\nZ-coordinate\ngetChunkKey\ndefault\nlong\ngetChunkKey\n()\nReturns:\nThe Chunks X and Z coordinates packed into a long\ngetChunkKey\nstatic\nlong\ngetChunkKey\n(\n@NotNull\n@NotNull\nLocation\nloc)\nParameters:\nloc\n- Location to get chunk key\nReturns:\nLocation's chunk coordinates packed into a long\ngetChunkKey\nstatic\nlong\ngetChunkKey\n(int x,\n int z)\nParameters:\nx\n- X Coordinate\nz\n- Z Coordinate\nReturns:\nChunk coordinates packed into a long\ngetWorld\n@NotNull\n@NotNull\nWorld\ngetWorld\n()\nGets the world containing this chunk\nReturns:\nParent World\ngetBlock\n@NotNull\n@NotNull\nBlock\ngetBlock\n(int x,\n int y,\n int z)\nGets a block from this chunk\nParameters:\nx\n- 0-15\ny\n- world minHeight (inclusive) - world maxHeight (exclusive)\nz\n- 0-15\nReturns:\nthe Block\ngetChunkSnapshot\n@NotNull\n@NotNul"
+}

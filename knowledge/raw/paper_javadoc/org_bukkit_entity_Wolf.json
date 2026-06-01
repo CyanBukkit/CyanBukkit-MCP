@@ -1,0 +1,18 @@
+{
+  "class_name": "org.bukkit.entity.Wolf",
+  "methods": [
+    "public abstract boolean isAngry()",
+    "public abstract void setAngry(boolean)",
+    "public abstract org.bukkit.DyeColor getCollarColor()",
+    "public abstract void setCollarColor(org.bukkit.DyeColor)",
+    "public abstract boolean isWet()",
+    "public abstract float getTailAngle()",
+    "public abstract boolean isInterested()",
+    "public abstract void setInterested(boolean)",
+    "public abstract org.bukkit.entity.Wolf$Variant getVariant()",
+    "public abstract void setVariant(org.bukkit.entity.Wolf$Variant)",
+    "public abstract org.bukkit.entity.Wolf$SoundVariant getSoundVariant()",
+    "public abstract void setSoundVariant(org.bukkit.entity.Wolf$SoundVariant)"
+  ],
+  "method_count": 12
+}

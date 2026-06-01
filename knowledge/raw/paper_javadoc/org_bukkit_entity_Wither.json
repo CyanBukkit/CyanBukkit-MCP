@@ -1,0 +1,17 @@
+{
+  "class_name": "org.bukkit.entity.Wither",
+  "methods": [
+    "public abstract void setTarget(org.bukkit.entity.LivingEntity)",
+    "public abstract void setTarget(org.bukkit.entity.Wither$Head, org.bukkit.entity.LivingEntity)",
+    "public abstract org.bukkit.entity.LivingEntity getTarget(org.bukkit.entity.Wither$Head)",
+    "public abstract int getInvulnerabilityTicks()",
+    "public abstract void setInvulnerabilityTicks(int)",
+    "public abstract boolean isCharged()",
+    "public abstract int getInvulnerableTicks()",
+    "public abstract void setInvulnerableTicks(int)",
+    "public abstract boolean canTravelThroughPortals()",
+    "public abstract void setCanTravelThroughPortals(boolean)",
+    "public abstract void enterInvulnerabilityPhase()"
+  ],
+  "method_count": 11
+}

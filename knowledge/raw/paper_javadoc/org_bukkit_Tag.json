@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.Tag",
+  "methods": [
+    "public abstract boolean isTagged(T)",
+    "public abstract java.util.Set<T> getValues()"
+  ],
+  "method_count": 2
+}

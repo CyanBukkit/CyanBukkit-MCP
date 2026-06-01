@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.plugin.messaging.PluginMessageRecipient",
+  "methods": [
+    "public abstract void sendPluginMessage(org.bukkit.plugin.Plugin, java.lang.String, byte[])",
+    "public abstract java.util.Set<java.lang.String> getListeningPluginChannels()"
+  ],
+  "method_count": 2
+}

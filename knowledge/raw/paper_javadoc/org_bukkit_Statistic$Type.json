@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.Statistic$Type",
+  "methods": [
+    "public static org.bukkit.Statistic$Type[] values()",
+    "public static org.bukkit.Statistic$Type valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

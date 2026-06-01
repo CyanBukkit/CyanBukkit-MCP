@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.inventory.meta.BlockStateMeta",
+  "methods": [
+    "public abstract boolean hasBlockState()",
+    "public abstract void clearBlockState()",
+    "public abstract org.bukkit.block.BlockState getBlockState()",
+    "public abstract void setBlockState(org.bukkit.block.BlockState)"
+  ],
+  "method_count": 4
+}

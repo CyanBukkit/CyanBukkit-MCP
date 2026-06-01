@@ -1,0 +1,19 @@
+{
+  "class_name": "org.bukkit.permissions.Permissible",
+  "methods": [
+    "public abstract boolean isPermissionSet(java.lang.String)",
+    "public abstract boolean isPermissionSet(org.bukkit.permissions.Permission)",
+    "public abstract boolean hasPermission(java.lang.String)",
+    "public abstract boolean hasPermission(org.bukkit.permissions.Permission)",
+    "public abstract org.bukkit.permissions.PermissionAttachment addAttachment(org.bukkit.plugin.Plugin, java.lang.String, boolean)",
+    "public abstract org.bukkit.permissions.PermissionAttachment addAttachment(org.bukkit.plugin.Plugin)",
+    "public abstract org.bukkit.permissions.PermissionAttachment addAttachment(org.bukkit.plugin.Plugin, java.lang.String, boolean, int)",
+    "public abstract org.bukkit.permissions.PermissionAttachment addAttachment(org.bukkit.plugin.Plugin, int)",
+    "public abstract void removeAttachment(org.bukkit.permissions.PermissionAttachment)",
+    "public abstract void recalculatePermissions()",
+    "public abstract java.util.Set<org.bukkit.permissions.PermissionAttachmentInfo> getEffectivePermissions()",
+    "public default net.kyori.adventure.util.TriState permissionValue(org.bukkit.permissions.Permission)",
+    "public default net.kyori.adventure.util.TriState permissionValue(java.lang.String)"
+  ],
+  "method_count": 13
+}

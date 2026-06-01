@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.event.Cancellable",
+  "methods": [
+    "public abstract boolean isCancelled()",
+    "public abstract void setCancelled(boolean)"
+  ],
+  "method_count": 2
+}

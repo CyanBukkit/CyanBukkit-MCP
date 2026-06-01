@@ -1,0 +1,7 @@
+{
+  "class_name": "org.bukkit.inventory.Recipe",
+  "methods": [
+    "public abstract org.bukkit.inventory.ItemStack getResult()"
+  ],
+  "method_count": 1
+}

@@ -1,0 +1,25 @@
+[
+  {
+    "jar": "C:\\Users\\SmallXY\\.m2\\repository\\xyz\\upperlevel\\spigot\\book\\spigot-book-api\\1.6\\spigot-book-api-1.6.jar",
+    "artifact": "spigot-book-api/1.6/spigot-book-api-1.6",
+    "class_count": 15,
+    "classes_sample": [
+      "xyz.upperlevel.spigot.book.BookUtil$1",
+      "xyz.upperlevel.spigot.book.BookUtil$BookBuilder",
+      "xyz.upperlevel.spigot.book.BookUtil$ClickAction$SimpleClickAction",
+      "xyz.upperlevel.spigot.book.BookUtil$ClickAction",
+      "xyz.upperlevel.spigot.book.BookUtil$HoverAction$SimpleHoverAction",
+      "xyz.upperlevel.spigot.book.BookUtil$HoverAction",
+      "xyz.upperlevel.spigot.book.BookUtil$PageBuilder",
+      "xyz.upperlevel.spigot.book.BookUtil$TextBuilder",
+      "xyz.upperlevel.spigot.book.BookUtil",
+      "xyz.upperlevel.spigot.book.CustomBookOpenEvent",
+      "xyz.upperlevel.spigot.book.internals.BookHelper",
+      "xyz.upperlevel.spigot.book.internals.NmsBookHelper",
+      "xyz.upperlevel.spigot.book.internals.NmsUtil",
+      "xyz.upperlevel.spigot.book.internals.SpigotBookHelper",
+      "xyz.upperlevel.spigot.book.UnsupportedVersionException"
+    ],
+    "truncated": false
+  }
+]

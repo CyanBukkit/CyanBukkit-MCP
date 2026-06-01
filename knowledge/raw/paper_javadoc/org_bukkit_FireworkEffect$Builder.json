@@ -1,0 +1,18 @@
+{
+  "class_name": "org.bukkit.FireworkEffect$Builder",
+  "methods": [
+    "public org.bukkit.FireworkEffect$Builder with(org.bukkit.FireworkEffect$Type)",
+    "public org.bukkit.FireworkEffect$Builder withFlicker()",
+    "public org.bukkit.FireworkEffect$Builder flicker(boolean)",
+    "public org.bukkit.FireworkEffect$Builder withTrail()",
+    "public org.bukkit.FireworkEffect$Builder trail(boolean)",
+    "public org.bukkit.FireworkEffect$Builder withColor(org.bukkit.Color)",
+    "public org.bukkit.FireworkEffect$Builder withColor(org.bukkit.Color...)",
+    "public org.bukkit.FireworkEffect$Builder withColor(java.lang.Iterable<?>)",
+    "public org.bukkit.FireworkEffect$Builder withFade(org.bukkit.Color)",
+    "public org.bukkit.FireworkEffect$Builder withFade(org.bukkit.Color...)",
+    "public org.bukkit.FireworkEffect$Builder withFade(java.lang.Iterable<?>)",
+    "public org.bukkit.FireworkEffect build()"
+  ],
+  "method_count": 12
+}

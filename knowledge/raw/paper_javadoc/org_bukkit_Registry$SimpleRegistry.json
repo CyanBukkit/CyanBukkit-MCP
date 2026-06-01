@@ -1,0 +1,14 @@
+{
+  "class_name": "org.bukkit.Registry$SimpleRegistry",
+  "methods": [
+    "protected org.bukkit.Registry$SimpleRegistry(java.lang.Class<T>)",
+    "protected org.bukkit.Registry$SimpleRegistry(java.lang.Class<T>, java.util.function.Predicate<T>)",
+    "public T get(org.bukkit.NamespacedKey)",
+    "public int size()",
+    "public java.util.Iterator<T> iterator()",
+    "public java.util.stream.Stream<org.bukkit.NamespacedKey> keyStream()",
+    "public java.lang.Class<T> getType()",
+    "public org.bukkit.Keyed get(org.bukkit.NamespacedKey)"
+  ],
+  "method_count": 8
+}

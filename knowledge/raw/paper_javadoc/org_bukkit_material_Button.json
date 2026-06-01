@@ -1,0 +1,18 @@
+{
+  "class_name": "org.bukkit.material.Button",
+  "methods": [
+    "public org.bukkit.material.Button()",
+    "public org.bukkit.material.Button(org.bukkit.Material)",
+    "public org.bukkit.material.Button(org.bukkit.Material, byte)",
+    "public boolean isPowered()",
+    "public void setPowered(boolean)",
+    "public org.bukkit.block.BlockFace getAttachedFace()",
+    "public void setFacingDirection(org.bukkit.block.BlockFace)",
+    "public java.lang.String toString()",
+    "public org.bukkit.material.Button clone()",
+    "public org.bukkit.material.SimpleAttachableMaterialData clone()",
+    "public org.bukkit.material.MaterialData clone()",
+    "public java.lang.Object clone()"
+  ],
+  "method_count": 12
+}

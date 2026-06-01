@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.inventory.SmokingRecipe",
+  "methods": [
+    "public org.bukkit.inventory.SmokingRecipe(org.bukkit.NamespacedKey, org.bukkit.inventory.ItemStack, org.bukkit.Material, float, int)",
+    "public org.bukkit.inventory.SmokingRecipe(org.bukkit.NamespacedKey, org.bukkit.inventory.ItemStack, org.bukkit.inventory.RecipeChoice, float, int)"
+  ],
+  "method_count": 2
+}

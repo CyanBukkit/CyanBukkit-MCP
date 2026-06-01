@@ -1,0 +1,7 @@
+{
+  "class_name": "org.bukkit.entity.Entity$Spigot",
+  "methods": [
+    "public org.bukkit.entity.Entity$Spigot()"
+  ],
+  "method_count": 1
+}

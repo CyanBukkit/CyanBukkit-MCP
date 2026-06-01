@@ -1,0 +1,18 @@
+{
+  "class_name": "org.bukkit.Art",
+  "methods": [
+    "public abstract int getBlockWidth()",
+    "public abstract int getBlockHeight()",
+    "public abstract int getId()",
+    "public abstract org.bukkit.NamespacedKey getKey()",
+    "public default net.kyori.adventure.key.Key key()",
+    "public abstract net.kyori.adventure.text.Component title()",
+    "public abstract net.kyori.adventure.text.Component author()",
+    "public abstract net.kyori.adventure.key.Key assetId()",
+    "public static org.bukkit.Art getById(int)",
+    "public static org.bukkit.Art getByName(java.lang.String)",
+    "public static org.bukkit.Art valueOf(java.lang.String)",
+    "public static org.bukkit.Art[] values()"
+  ],
+  "method_count": 12
+}

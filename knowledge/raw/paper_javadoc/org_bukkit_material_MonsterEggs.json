@@ -1,0 +1,14 @@
+{
+  "class_name": "org.bukkit.material.MonsterEggs",
+  "methods": [
+    "public org.bukkit.material.MonsterEggs()",
+    "public org.bukkit.material.MonsterEggs(org.bukkit.Material)",
+    "public org.bukkit.material.MonsterEggs(org.bukkit.Material, byte)",
+    "public java.util.List<org.bukkit.Material> getTextures()",
+    "public org.bukkit.material.MonsterEggs clone()",
+    "public org.bukkit.material.TexturedMaterial clone()",
+    "public org.bukkit.material.MaterialData clone()",
+    "public java.lang.Object clone()"
+  ],
+  "method_count": 8
+}

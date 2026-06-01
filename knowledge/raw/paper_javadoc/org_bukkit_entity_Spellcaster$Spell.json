@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.entity.Spellcaster$Spell",
+  "methods": [
+    "public static org.bukkit.entity.Spellcaster$Spell[] values()",
+    "public static org.bukkit.entity.Spellcaster$Spell valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

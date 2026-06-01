@@ -1,0 +1,17 @@
+{
+  "class_name": "org.bukkit.material.Sign",
+  "methods": [
+    "public org.bukkit.material.Sign()",
+    "public org.bukkit.material.Sign(org.bukkit.Material)",
+    "public org.bukkit.material.Sign(org.bukkit.Material, byte)",
+    "public boolean isWallSign()",
+    "public org.bukkit.block.BlockFace getAttachedFace()",
+    "public org.bukkit.block.BlockFace getFacing()",
+    "public void setFacingDirection(org.bukkit.block.BlockFace)",
+    "public java.lang.String toString()",
+    "public org.bukkit.material.Sign clone()",
+    "public org.bukkit.material.MaterialData clone()",
+    "public java.lang.Object clone()"
+  ],
+  "method_count": 11
+}

@@ -1,0 +1,16 @@
+{
+  "class_name": "org.bukkit.metadata.MetadataValueAdapter",
+  "methods": [
+    "protected org.bukkit.metadata.MetadataValueAdapter(org.bukkit.plugin.Plugin)",
+    "public org.bukkit.plugin.Plugin getOwningPlugin()",
+    "public int asInt()",
+    "public float asFloat()",
+    "public double asDouble()",
+    "public long asLong()",
+    "public short asShort()",
+    "public byte asByte()",
+    "public boolean asBoolean()",
+    "public java.lang.String asString()"
+  ],
+  "method_count": 10
+}

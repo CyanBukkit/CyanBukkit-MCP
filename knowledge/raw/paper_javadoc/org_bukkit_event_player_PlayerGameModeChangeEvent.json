@@ -1,0 +1,16 @@
+{
+  "class_name": "org.bukkit.event.player.PlayerGameModeChangeEvent",
+  "methods": [
+    "public org.bukkit.event.player.PlayerGameModeChangeEvent(org.bukkit.entity.Player, org.bukkit.GameMode)",
+    "public org.bukkit.event.player.PlayerGameModeChangeEvent(org.bukkit.entity.Player, org.bukkit.GameMode, org.bukkit.event.player.PlayerGameModeChangeEvent$Cause, net.kyori.adventure.text.Component)",
+    "public org.bukkit.GameMode getNewGameMode()",
+    "public org.bukkit.event.player.PlayerGameModeChangeEvent$Cause getCause()",
+    "public net.kyori.adventure.text.Component cancelMessage()",
+    "public void cancelMessage(net.kyori.adventure.text.Component)",
+    "public boolean isCancelled()",
+    "public void setCancelled(boolean)",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 10
+}

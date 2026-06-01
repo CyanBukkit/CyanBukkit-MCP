@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.inventory.meta.tags.ItemTagType",
+  "methods": [
+    "public abstract java.lang.Class<T> getPrimitiveType()",
+    "public abstract java.lang.Class<Z> getComplexType()",
+    "public abstract T toPrimitive(Z, org.bukkit.inventory.meta.tags.ItemTagAdapterContext)",
+    "public abstract Z fromPrimitive(T, org.bukkit.inventory.meta.tags.ItemTagAdapterContext)"
+  ],
+  "method_count": 4
+}

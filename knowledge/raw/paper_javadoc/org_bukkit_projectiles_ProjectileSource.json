@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.projectiles.ProjectileSource",
+  "methods": [
+    "public default <T extends org.bukkit.entity.Projectile> T launchProjectile(java.lang.Class<? extends T>)",
+    "public default <T extends org.bukkit.entity.Projectile> T launchProjectile(java.lang.Class<? extends T>, org.bukkit.util.Vector)",
+    "public abstract <T extends org.bukkit.entity.Projectile> T launchProjectile(java.lang.Class<? extends T>, org.bukkit.util.Vector, java.util.function.Consumer<? super T>)"
+  ],
+  "method_count": 3
+}

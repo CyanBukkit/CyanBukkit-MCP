@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.conversations.StringPrompt",
+  "methods": [
+    "public org.bukkit.conversations.StringPrompt()",
+    "public boolean blocksForInput(org.bukkit.conversations.ConversationContext)"
+  ],
+  "method_count": 2
+}

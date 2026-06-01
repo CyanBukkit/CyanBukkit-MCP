@@ -1,0 +1,12 @@
+{
+  "class_name": "org.bukkit.event.entity.BatToggleSleepEvent",
+  "methods": [
+    "public org.bukkit.event.entity.BatToggleSleepEvent(org.bukkit.entity.Bat, boolean)",
+    "public boolean isAwake()",
+    "public void setCancelled(boolean)",
+    "public boolean isCancelled()",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 6
+}

@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.conversations.NullConversationPrefix",
+  "methods": [
+    "public org.bukkit.conversations.NullConversationPrefix()",
+    "public java.lang.String getPrefix(org.bukkit.conversations.ConversationContext)"
+  ],
+  "method_count": 2
+}

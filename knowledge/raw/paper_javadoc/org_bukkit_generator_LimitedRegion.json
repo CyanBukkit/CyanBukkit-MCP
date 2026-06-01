@@ -1,0 +1,24 @@
+{
+  "class_name": "org.bukkit.generator.LimitedRegion",
+  "methods": [
+    "public abstract int getBuffer()",
+    "public abstract boolean isInRegion(org.bukkit.Location)",
+    "public abstract boolean isInRegion(int, int, int)",
+    "public abstract java.util.List<org.bukkit.block.BlockState> getTileEntities()",
+    "public default void setBlockData(org.bukkit.util.Vector, org.bukkit.block.data.BlockData)",
+    "public abstract void setBlockState(int, int, int, org.bukkit.block.BlockState)",
+    "public default void setBlockState(org.bukkit.util.Vector, org.bukkit.block.BlockState)",
+    "public default org.bukkit.block.BlockState getBlockState(org.bukkit.util.Vector)",
+    "public abstract void scheduleBlockUpdate(int, int, int)",
+    "public default void scheduleBlockUpdate(org.bukkit.util.Vector)",
+    "public abstract void scheduleFluidUpdate(int, int, int)",
+    "public default void scheduleFluidUpdate(org.bukkit.util.Vector)",
+    "public abstract org.bukkit.World getWorld()",
+    "public default org.bukkit.block.data.BlockData getBlockData(org.bukkit.util.Vector)",
+    "public abstract int getCenterChunkX()",
+    "public default int getCenterBlockX()",
+    "public abstract int getCenterChunkZ()",
+    "public default int getCenterBlockZ()"
+  ],
+  "method_count": 18
+}

@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.attribute.Attribute$Sentiment",
+  "methods": [
+    "public static org.bukkit.attribute.Attribute$Sentiment[] values()",
+    "public static org.bukkit.attribute.Attribute$Sentiment valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

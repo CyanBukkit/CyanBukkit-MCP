@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.Sound",
+  "methods": [
+    "public static org.bukkit.Sound valueOf(java.lang.String)",
+    "public abstract org.bukkit.NamespacedKey getKey()",
+    "public static org.bukkit.Sound[] values()",
+    "public default net.kyori.adventure.key.Key key()"
+  ],
+  "method_count": 4
+}

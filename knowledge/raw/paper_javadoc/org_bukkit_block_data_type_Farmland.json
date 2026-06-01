@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.block.data.type.Farmland",
+  "methods": [
+    "public abstract int getMoisture()",
+    "public abstract void setMoisture(int)",
+    "public abstract int getMaximumMoisture()"
+  ],
+  "method_count": 3
+}

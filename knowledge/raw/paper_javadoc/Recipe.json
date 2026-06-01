@@ -1,0 +1,9 @@
+{
+  "class_name": "Recipe",
+  "full_class": "org.bukkit.inventory.Recipe",
+  "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/inventory/Recipe.html",
+  "description": "Represents some type of crafting recipe.",
+  "methods": [],
+  "method_count": 0,
+  "full_text": "Recipe (paper-api 1.21.4-R0.1-SNAPSHOT API) JavaScript is disabled on your browser. You are looking at old Javadocs for Paper 1.21.4. Click here to look at Paper 26.1.2 instead. &nbsp; &nbsp; &nbsp; Skip navigation links Overview Package Class Use Tree Deprecated Index Help Summary: Nested Field Constr Method Detail: Field Constr Method Summary:&nbsp; Nested&nbsp;|&nbsp; Field&nbsp;|&nbsp; Constr&nbsp;|&nbsp; Method Detail:&nbsp; Field&nbsp;|&nbsp; Constr&nbsp;|&nbsp; Method SEARCH Package &nbsp; org.bukkit.inventory Interface Recipe All Known Subinterfaces: ComplexRecipe All Known Implementing Classes: BlastingRecipe , CampfireRecipe , CookingRecipe , CraftingRecipe , FurnaceRecipe , MerchantRecipe , ShapedRecipe , ShapelessRecipe , SmithingRecipe , SmithingTransformRecipe , SmithingTrimRecipe , SmokingRecipe , StonecuttingRecipe , TransmuteRecipe public interface Recipe Represents some type of crafting recipe. Method Summary All Methods Instance Methods Abstract Methods Modifier and Type Method Description @NotNull ItemStack getResult () Get the result of this recipe. Method Details getResult @NotNull @NotNull ItemStack &nbsp; getResult () Get the result of this recipe. Returns: The result stack"
+}

@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.inventory.MenuType",
+  "methods": [
+    "public abstract org.bukkit.inventory.InventoryView create(org.bukkit.entity.HumanEntity, net.kyori.adventure.text.Component)",
+    "public abstract org.bukkit.inventory.MenuType$Typed<org.bukkit.inventory.InventoryView, org.bukkit.inventory.view.builder.InventoryViewBuilder<org.bukkit.inventory.InventoryView>> typed()",
+    "public abstract <V extends org.bukkit.inventory.InventoryView, B extends org.bukkit.inventory.view.builder.InventoryViewBuilder<V>> org.bukkit.inventory.MenuType$Typed<V, B> typed(java.lang.Class<V>)",
+    "public abstract java.lang.Class<? extends org.bukkit.inventory.InventoryView> getInventoryViewClass()"
+  ],
+  "method_count": 4
+}

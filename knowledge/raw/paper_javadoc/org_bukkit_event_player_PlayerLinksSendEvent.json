@@ -1,0 +1,11 @@
+{
+  "class_name": "org.bukkit.event.player.PlayerLinksSendEvent",
+  "methods": [
+    "public org.bukkit.event.player.PlayerLinksSendEvent(io.papermc.paper.connection.PlayerConfigurationConnection, org.bukkit.ServerLinks)",
+    "public io.papermc.paper.connection.PlayerCommonConnection getConnection()",
+    "public org.bukkit.ServerLinks getLinks()",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 5
+}

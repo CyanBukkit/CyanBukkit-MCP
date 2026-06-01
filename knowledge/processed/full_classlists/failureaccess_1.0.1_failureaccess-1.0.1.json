@@ -1,0 +1,10 @@
+{
+  "jar": "D:\\Program Files\\gradle\\repo\\caches\\paperweight-userdev\\v2\\work\\extractFromBundler_76ce26545e6ad0e31753656bfd91609f0ca604b3fa7d8584126382f5e06b0629\\minecraftLibraries\\com\\google\\guava\\failureaccess\\1.0.1\\failureaccess-1.0.1.jar",
+  "artifact": "failureaccess/1.0.1/failureaccess-1.0.1",
+  "class_count": 2,
+  "all_classes": [
+    "com.google.common.util.concurrent.internal.InternalFutureFailureAccess",
+    "com.google.common.util.concurrent.internal.InternalFutures"
+  ],
+  "truncated": false
+}

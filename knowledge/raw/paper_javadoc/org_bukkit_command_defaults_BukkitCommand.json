@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.command.defaults.BukkitCommand",
+  "methods": [
+    "protected org.bukkit.command.defaults.BukkitCommand(java.lang.String)",
+    "protected org.bukkit.command.defaults.BukkitCommand(java.lang.String, java.lang.String, java.lang.String, java.util.List<java.lang.String>)"
+  ],
+  "method_count": 2
+}

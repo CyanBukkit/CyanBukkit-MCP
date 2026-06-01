@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.loot.LootTable",
+  "methods": [
+    "public abstract java.util.Collection<org.bukkit.inventory.ItemStack> populateLoot(java.util.Random, org.bukkit.loot.LootContext)",
+    "public abstract void fillInventory(org.bukkit.inventory.Inventory, java.util.Random, org.bukkit.loot.LootContext)"
+  ],
+  "method_count": 2
+}

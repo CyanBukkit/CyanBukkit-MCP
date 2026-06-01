@@ -1,0 +1,13 @@
+{
+  "class_name": "org.bukkit.advancement.Advancement",
+  "methods": [
+    "public abstract java.util.Collection<java.lang.String> getCriteria()",
+    "public abstract org.bukkit.advancement.AdvancementRequirements getRequirements()",
+    "public abstract io.papermc.paper.advancement.AdvancementDisplay getDisplay()",
+    "public abstract net.kyori.adventure.text.Component displayName()",
+    "public abstract org.bukkit.advancement.Advancement getParent()",
+    "public abstract java.util.Collection<org.bukkit.advancement.Advancement> getChildren()",
+    "public abstract org.bukkit.advancement.Advancement getRoot()"
+  ],
+  "method_count": 7
+}

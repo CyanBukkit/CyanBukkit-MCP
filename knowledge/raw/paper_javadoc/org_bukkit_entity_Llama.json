@@ -1,0 +1,19 @@
+{
+  "class_name": "org.bukkit.entity.Llama",
+  "methods": [
+    "public abstract org.bukkit.entity.Llama$Color getColor()",
+    "public abstract void setColor(org.bukkit.entity.Llama$Color)",
+    "public abstract int getStrength()",
+    "public abstract void setStrength(int)",
+    "public abstract org.bukkit.inventory.LlamaInventory getInventory()",
+    "public abstract boolean inCaravan()",
+    "public abstract void joinCaravan(org.bukkit.entity.Llama)",
+    "public abstract void leaveCaravan()",
+    "public abstract org.bukkit.entity.Llama getCaravanHead()",
+    "public abstract boolean hasCaravanTail()",
+    "public abstract org.bukkit.entity.Llama getCaravanTail()",
+    "public default org.bukkit.inventory.AbstractHorseInventory getInventory()",
+    "public default org.bukkit.inventory.Inventory getInventory()"
+  ],
+  "method_count": 13
+}

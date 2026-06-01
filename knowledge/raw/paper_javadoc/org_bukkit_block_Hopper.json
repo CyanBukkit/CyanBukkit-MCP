@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.Hopper",
+  "methods": [
+    "public abstract void setTransferCooldown(int)",
+    "public abstract int getTransferCooldown()"
+  ],
+  "method_count": 2
+}

@@ -1,0 +1,14 @@
+{
+  "class_name": "org.bukkit.event.vehicle.VehicleEntityCollisionEvent",
+  "methods": [
+    "public org.bukkit.event.vehicle.VehicleEntityCollisionEvent(org.bukkit.entity.Vehicle, org.bukkit.entity.Entity)",
+    "public org.bukkit.entity.Entity getEntity()",
+    "public boolean isPickupCancelled()",
+    "public void setPickupCancelled(boolean)",
+    "public boolean isCollisionCancelled()",
+    "public void setCollisionCancelled(boolean)",
+    "public boolean isCancelled()",
+    "public void setCancelled(boolean)"
+  ],
+  "method_count": 8
+}

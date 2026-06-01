@@ -1,0 +1,7 @@
+{
+  "title": "BungeeCord Maven",
+  "url": "https://www.spigotmc.org/wiki/bungeecord-maven/",
+  "content": "Jun 13, 2023\nPage\nHistory\nEditors\nBungeeCord Maven\nBungeeCord Artifact Coordinates\nInformation on what to add to your build tool to make a BungeeCord plugin\nContents\nMaven - pom.xml\nGradle KTS - build.gradle.kts\nMaven - pom.xml\n(\ntop\n)\nCode (XML):\n<repositories\n>\n<repository\n>\n<id\n>\nbungeecord-repo\n</id\n>\n<url\n>\nhttps://oss.sonatype.org/content/repositories/snapshots\n</url\n>\n</repository\n>\n</repositories\n>\n<dependencies\n>\n<dependency\n>\n<groupId\n>\nnet.md-5\n</groupId\n>\n<artifactId\n>\nbungeecord-api\n</artifactId\n>\n<version\n>\n1.19-R0.1-SNAPSHOT\n</version\n>\n<type\n>\njar\n</type\n>\n<scope\n>\nprovided\n</scope\n>\n</dependency\n>\n<dependency\n>\n<groupId\n>\nnet.md-5\n</groupId\n>\n<artifactId\n>\nbungeecord-api\n</artifactId\n>\n<version\n>\n1.19-R0.1-SNAPSHOT\n</version\n>\n<type\n>\njavadoc\n</type\n>\n<scope\n>\nprovided\n</scope\n>\n</dependency\n>\n</dependencies\n>\nGradle KTS - build.gradle.kts\n(\ntop\n)\nCode (Kotlin):\nrepositories\n{\nmaven\n(\n\"https://oss.sonatype.org/content/repositories/snapshots\"\n)\n}\ndependencies\n{\ncompileOnly\n(\n\"net.md-5:bungeecord-api:1.19-R0.1-SNAPSHOT\"\n)\n}\nLoading...\nView\nLoading...\nView\n(29768 Views)\nLast Modified: Jun 13, 2023 at 2:24 PM",
+  "content_length": 1139,
+  "method": "bs4"
+}

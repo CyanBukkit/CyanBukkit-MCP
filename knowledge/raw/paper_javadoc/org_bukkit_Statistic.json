@@ -1,0 +1,12 @@
+{
+  "class_name": "org.bukkit.Statistic",
+  "methods": [
+    "public static org.bukkit.Statistic[] values()",
+    "public static org.bukkit.Statistic valueOf(java.lang.String)",
+    "public org.bukkit.Statistic$Type getType()",
+    "public boolean isSubstatistic()",
+    "public boolean isBlock()",
+    "public org.bukkit.NamespacedKey getKey()"
+  ],
+  "method_count": 6
+}

@@ -1,0 +1,18 @@
+{
+  "class_name": "org.bukkit.ChatColor",
+  "methods": [
+    "public static org.bukkit.ChatColor[] values()",
+    "public static org.bukkit.ChatColor valueOf(java.lang.String)",
+    "public net.md_5.bungee.api.ChatColor asBungee()",
+    "public char getChar()",
+    "public java.lang.String toString()",
+    "public boolean isFormat()",
+    "public boolean isColor()",
+    "public static org.bukkit.ChatColor getByChar(char)",
+    "public static org.bukkit.ChatColor getByChar(java.lang.String)",
+    "public static java.lang.String stripColor(java.lang.String)",
+    "public static java.lang.String translateAlternateColorCodes(char, java.lang.String)",
+    "public static java.lang.String getLastColors(java.lang.String)"
+  ],
+  "method_count": 12
+}

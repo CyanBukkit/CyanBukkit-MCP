@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.Warning$WarningState",
+  "methods": [
+    "public static org.bukkit.Warning$WarningState[] values()",
+    "public static org.bukkit.Warning$WarningState valueOf(java.lang.String)",
+    "public boolean printFor(org.bukkit.Warning)",
+    "public static org.bukkit.Warning$WarningState value(java.lang.String)"
+  ],
+  "method_count": 4
+}

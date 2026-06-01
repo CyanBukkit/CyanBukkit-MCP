@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.Warning",
+  "methods": [
+    "public abstract boolean value()",
+    "public abstract java.lang.String reason()"
+  ],
+  "method_count": 2
+}

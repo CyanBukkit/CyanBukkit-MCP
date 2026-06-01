@@ -1,0 +1,12 @@
+{
+  "class_name": "org.bukkit.entity.EnderDragon",
+  "methods": [
+    "public abstract org.bukkit.entity.EnderDragon$Phase getPhase()",
+    "public abstract void setPhase(org.bukkit.entity.EnderDragon$Phase)",
+    "public abstract org.bukkit.boss.DragonBattle getDragonBattle()",
+    "public abstract int getDeathAnimationTicks()",
+    "public abstract org.bukkit.Location getPodium()",
+    "public abstract void setPodium(org.bukkit.Location)"
+  ],
+  "method_count": 6
+}

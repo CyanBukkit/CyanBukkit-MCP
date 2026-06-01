@@ -1,0 +1,15 @@
+{
+  "class_name": "org.bukkit.entity.Warden",
+  "methods": [
+    "public abstract int getAnger()",
+    "public abstract int getAnger(org.bukkit.entity.Entity)",
+    "public abstract int getHighestAnger()",
+    "public abstract void increaseAnger(org.bukkit.entity.Entity, int)",
+    "public abstract void setAnger(org.bukkit.entity.Entity, int)",
+    "public abstract void clearAnger(org.bukkit.entity.Entity)",
+    "public abstract org.bukkit.entity.LivingEntity getEntityAngryAt()",
+    "public abstract void setDisturbanceLocation(org.bukkit.Location)",
+    "public abstract org.bukkit.entity.Warden$AngerLevel getAngerLevel()"
+  ],
+  "method_count": 9
+}

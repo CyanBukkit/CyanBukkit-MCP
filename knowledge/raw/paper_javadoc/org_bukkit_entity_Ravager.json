@@ -1,0 +1,12 @@
+{
+  "class_name": "org.bukkit.entity.Ravager",
+  "methods": [
+    "public abstract int getAttackTicks()",
+    "public abstract void setAttackTicks(int)",
+    "public abstract int getStunnedTicks()",
+    "public abstract void setStunnedTicks(int)",
+    "public abstract int getRoarTicks()",
+    "public abstract void setRoarTicks(int)"
+  ],
+  "method_count": 6
+}

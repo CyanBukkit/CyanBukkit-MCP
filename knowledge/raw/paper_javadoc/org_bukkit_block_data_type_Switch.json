@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.block.data.type.Switch",
+  "methods": [
+    "public abstract org.bukkit.block.data.FaceAttachable$AttachedFace getAttachedFace()",
+    "public abstract void setAttachedFace(org.bukkit.block.data.FaceAttachable$AttachedFace)",
+    "public default org.bukkit.block.data.type.Switch$Face getFace()",
+    "public default void setFace(org.bukkit.block.data.type.Switch$Face)"
+  ],
+  "method_count": 4
+}

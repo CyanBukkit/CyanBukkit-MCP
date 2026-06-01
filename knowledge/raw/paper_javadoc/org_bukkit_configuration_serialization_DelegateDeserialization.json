@@ -1,0 +1,7 @@
+{
+  "class_name": "org.bukkit.configuration.serialization.DelegateDeserialization",
+  "methods": [
+    "public abstract java.lang.Class<? extends org.bukkit.configuration.serialization.ConfigurationSerializable> value()"
+  ],
+  "method_count": 1
+}

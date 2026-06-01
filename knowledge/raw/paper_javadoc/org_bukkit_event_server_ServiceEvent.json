@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.event.server.ServiceEvent",
+  "methods": [
+    "protected org.bukkit.event.server.ServiceEvent(org.bukkit.plugin.RegisteredServiceProvider<?>)",
+    "public org.bukkit.plugin.RegisteredServiceProvider<?> getProvider()"
+  ],
+  "method_count": 2
+}

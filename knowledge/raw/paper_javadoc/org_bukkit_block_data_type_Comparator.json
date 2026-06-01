@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.data.type.Comparator",
+  "methods": [
+    "public abstract org.bukkit.block.data.type.Comparator$Mode getMode()",
+    "public abstract void setMode(org.bukkit.block.data.type.Comparator$Mode)"
+  ],
+  "method_count": 2
+}

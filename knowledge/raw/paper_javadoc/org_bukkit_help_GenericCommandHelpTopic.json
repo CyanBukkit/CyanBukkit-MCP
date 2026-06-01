@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.help.GenericCommandHelpTopic",
+  "methods": [
+    "public org.bukkit.help.GenericCommandHelpTopic(org.bukkit.command.Command)",
+    "public boolean canSee(org.bukkit.command.CommandSender)"
+  ],
+  "method_count": 2
+}

@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.data.type.BigDripleaf",
+  "methods": [
+    "public abstract org.bukkit.block.data.type.BigDripleaf$Tilt getTilt()",
+    "public abstract void setTilt(org.bukkit.block.data.type.BigDripleaf$Tilt)"
+  ],
+  "method_count": 2
+}

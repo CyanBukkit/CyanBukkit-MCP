@@ -1,0 +1,18 @@
+{
+  "class_name": "org.bukkit.material.Bed",
+  "methods": [
+    "public org.bukkit.material.Bed()",
+    "public org.bukkit.material.Bed(org.bukkit.block.BlockFace)",
+    "public org.bukkit.material.Bed(org.bukkit.Material)",
+    "public org.bukkit.material.Bed(org.bukkit.Material, byte)",
+    "public boolean isHeadOfBed()",
+    "public void setHeadOfBed(boolean)",
+    "public void setFacingDirection(org.bukkit.block.BlockFace)",
+    "public org.bukkit.block.BlockFace getFacing()",
+    "public java.lang.String toString()",
+    "public org.bukkit.material.Bed clone()",
+    "public org.bukkit.material.MaterialData clone()",
+    "public java.lang.Object clone()"
+  ],
+  "method_count": 12
+}

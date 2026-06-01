@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.entity.Evoker",
+  "methods": [
+    "public abstract org.bukkit.entity.Evoker$Spell getCurrentSpell()",
+    "public abstract void setCurrentSpell(org.bukkit.entity.Evoker$Spell)",
+    "public abstract org.bukkit.entity.Sheep getWololoTarget()",
+    "public abstract void setWololoTarget(org.bukkit.entity.Sheep)"
+  ],
+  "method_count": 4
+}

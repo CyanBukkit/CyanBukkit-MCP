@@ -1,0 +1,11 @@
+{
+  "class_name": "org.bukkit.entity.Witch",
+  "methods": [
+    "public abstract boolean isDrinkingPotion()",
+    "public abstract int getPotionUseTimeLeft()",
+    "public abstract void setPotionUseTimeLeft(int)",
+    "public abstract org.bukkit.inventory.ItemStack getDrinkingPotion()",
+    "public abstract void setDrinkingPotion(org.bukkit.inventory.ItemStack)"
+  ],
+  "method_count": 5
+}

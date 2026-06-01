@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.event.block.Action",
+  "methods": [
+    "public static org.bukkit.event.block.Action[] values()",
+    "public static org.bukkit.event.block.Action valueOf(java.lang.String)",
+    "public boolean isLeftClick()",
+    "public boolean isRightClick()"
+  ],
+  "method_count": 4
+}

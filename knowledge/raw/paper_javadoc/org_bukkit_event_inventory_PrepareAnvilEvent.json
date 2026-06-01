@@ -1,0 +1,12 @@
+{
+  "class_name": "org.bukkit.event.inventory.PrepareAnvilEvent",
+  "methods": [
+    "public org.bukkit.event.inventory.PrepareAnvilEvent(org.bukkit.inventory.view.AnvilView, org.bukkit.inventory.ItemStack)",
+    "public org.bukkit.inventory.AnvilInventory getInventory()",
+    "public void setResult(org.bukkit.inventory.ItemStack)",
+    "public org.bukkit.inventory.view.AnvilView getView()",
+    "public org.bukkit.inventory.InventoryView getView()",
+    "public org.bukkit.inventory.Inventory getInventory()"
+  ],
+  "method_count": 6
+}

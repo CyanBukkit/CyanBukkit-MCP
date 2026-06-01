@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.event.player.PlayerItemBreakEvent",
+  "methods": [
+    "public org.bukkit.event.player.PlayerItemBreakEvent(org.bukkit.entity.Player, org.bukkit.inventory.ItemStack)",
+    "public org.bukkit.inventory.ItemStack getBrokenItem()",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 4
+}

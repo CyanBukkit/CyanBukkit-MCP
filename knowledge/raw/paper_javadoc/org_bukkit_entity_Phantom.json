@@ -1,0 +1,13 @@
+{
+  "class_name": "org.bukkit.entity.Phantom",
+  "methods": [
+    "public abstract int getSize()",
+    "public abstract void setSize(int)",
+    "public abstract java.util.UUID getSpawningEntity()",
+    "public abstract boolean shouldBurnInDay()",
+    "public abstract void setShouldBurnInDay(boolean)",
+    "public abstract org.bukkit.Location getAnchorLocation()",
+    "public abstract void setAnchorLocation(org.bukkit.Location)"
+  ],
+  "method_count": 7
+}

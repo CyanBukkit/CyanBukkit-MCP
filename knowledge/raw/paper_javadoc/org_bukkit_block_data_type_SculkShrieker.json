@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.block.data.type.SculkShrieker",
+  "methods": [
+    "public abstract boolean isCanSummon()",
+    "public abstract void setCanSummon(boolean)",
+    "public abstract boolean isShrieking()",
+    "public abstract void setShrieking(boolean)"
+  ],
+  "method_count": 4
+}

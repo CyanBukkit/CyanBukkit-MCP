@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.plugin.PluginDescriptionFile$1",
+  "methods": [
+    "protected org.yaml.snakeyaml.Yaml initialValue()",
+    "protected java.lang.Object initialValue()"
+  ],
+  "method_count": 2
+}

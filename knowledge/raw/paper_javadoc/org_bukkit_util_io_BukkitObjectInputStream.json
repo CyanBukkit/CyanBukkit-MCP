@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.util.io.BukkitObjectInputStream",
+  "methods": [
+    "protected org.bukkit.util.io.BukkitObjectInputStream()",
+    "public org.bukkit.util.io.BukkitObjectInputStream(java.io.InputStream)",
+    "protected java.lang.Object resolveObject(java.lang.Object)"
+  ],
+  "method_count": 3
+}

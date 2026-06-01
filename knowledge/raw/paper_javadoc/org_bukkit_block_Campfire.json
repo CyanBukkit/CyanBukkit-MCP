@@ -1,0 +1,18 @@
+{
+  "class_name": "org.bukkit.block.Campfire",
+  "methods": [
+    "public abstract int getSize()",
+    "public abstract org.bukkit.inventory.ItemStack getItem(int)",
+    "public abstract void setItem(int, org.bukkit.inventory.ItemStack)",
+    "public abstract int getCookTime(int)",
+    "public abstract void setCookTime(int, int)",
+    "public abstract int getCookTimeTotal(int)",
+    "public abstract void setCookTimeTotal(int, int)",
+    "public abstract void stopCooking()",
+    "public abstract void startCooking()",
+    "public abstract boolean stopCooking(int)",
+    "public abstract boolean startCooking(int)",
+    "public abstract boolean isCookingDisabled(int)"
+  ],
+  "method_count": 12
+}

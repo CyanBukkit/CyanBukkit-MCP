@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.attribute.Attribute",
+  "methods": [
+    "public abstract org.bukkit.attribute.Attribute$Sentiment getSentiment()",
+    "public static org.bukkit.attribute.Attribute valueOf(java.lang.String)",
+    "public static org.bukkit.attribute.Attribute[] values()"
+  ],
+  "method_count": 3
+}

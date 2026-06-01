@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.entity.EnderCrystal",
+  "methods": [
+    "public abstract boolean isShowingBottom()",
+    "public abstract void setShowingBottom(boolean)",
+    "public abstract org.bukkit.Location getBeamTarget()",
+    "public abstract void setBeamTarget(org.bukkit.Location)"
+  ],
+  "method_count": 4
+}

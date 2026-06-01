@@ -1,0 +1,16 @@
+{
+  "class_name": "org.bukkit.material.Skull",
+  "methods": [
+    "public org.bukkit.material.Skull()",
+    "public org.bukkit.material.Skull(org.bukkit.block.BlockFace)",
+    "public org.bukkit.material.Skull(org.bukkit.Material)",
+    "public org.bukkit.material.Skull(org.bukkit.Material, byte)",
+    "public void setFacingDirection(org.bukkit.block.BlockFace)",
+    "public org.bukkit.block.BlockFace getFacing()",
+    "public java.lang.String toString()",
+    "public org.bukkit.material.Skull clone()",
+    "public org.bukkit.material.MaterialData clone()",
+    "public java.lang.Object clone()"
+  ],
+  "method_count": 10
+}

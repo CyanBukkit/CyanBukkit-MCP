@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.data.type.Slab",
+  "methods": [
+    "public abstract org.bukkit.block.data.type.Slab$Type getType()",
+    "public abstract void setType(org.bukkit.block.data.type.Slab$Type)"
+  ],
+  "method_count": 2
+}

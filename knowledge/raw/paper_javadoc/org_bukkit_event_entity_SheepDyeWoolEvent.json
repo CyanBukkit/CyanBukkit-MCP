@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.event.entity.SheepDyeWoolEvent",
+  "methods": [
+    "public org.bukkit.event.entity.SheepDyeWoolEvent(org.bukkit.entity.Sheep, org.bukkit.DyeColor)",
+    "public org.bukkit.event.entity.SheepDyeWoolEvent(org.bukkit.entity.Sheep, org.bukkit.DyeColor, org.bukkit.entity.Player)",
+    "public org.bukkit.entity.Sheep getEntity()",
+    "public org.bukkit.entity.Entity getEntity()"
+  ],
+  "method_count": 4
+}

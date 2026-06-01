@@ -1,0 +1,16 @@
+{
+  "class_name": "org.bukkit.potion.PotionType",
+  "methods": [
+    "public static org.bukkit.potion.PotionType[] values()",
+    "public static org.bukkit.potion.PotionType valueOf(java.lang.String)",
+    "public org.bukkit.potion.PotionEffectType getEffectType()",
+    "public java.util.List<org.bukkit.potion.PotionEffect> getPotionEffects()",
+    "public boolean isInstant()",
+    "public boolean isUpgradeable()",
+    "public boolean isExtendable()",
+    "public int getMaxLevel()",
+    "public static org.bukkit.potion.PotionType getByEffect(org.bukkit.potion.PotionEffectType)",
+    "public org.bukkit.NamespacedKey getKey()"
+  ],
+  "method_count": 10
+}

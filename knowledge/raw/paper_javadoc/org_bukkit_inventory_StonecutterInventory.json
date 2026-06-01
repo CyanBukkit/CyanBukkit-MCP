@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.inventory.StonecutterInventory",
+  "methods": [
+    "public default org.bukkit.inventory.ItemStack getInputItem()",
+    "public default void setInputItem(org.bukkit.inventory.ItemStack)",
+    "public default org.bukkit.inventory.ItemStack getResult()",
+    "public default void setResult(org.bukkit.inventory.ItemStack)"
+  ],
+  "method_count": 4
+}

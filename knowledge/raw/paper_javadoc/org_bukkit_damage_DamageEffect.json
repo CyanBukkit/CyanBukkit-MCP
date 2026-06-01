@@ -1,0 +1,7 @@
+{
+  "class_name": "org.bukkit.damage.DamageEffect",
+  "methods": [
+    "public abstract org.bukkit.Sound getSound()"
+  ],
+  "method_count": 1
+}

@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.map.MapPalette$MapColorCache",
+  "methods": [
+    "public abstract boolean isCached()",
+    "public abstract byte matchColor(java.awt.Color)"
+  ],
+  "method_count": 2
+}

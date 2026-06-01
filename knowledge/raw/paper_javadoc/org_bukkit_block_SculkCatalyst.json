@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.SculkCatalyst",
+  "methods": [
+    "public abstract void bloom(org.bukkit.block.Block, int)",
+    "public abstract void bloom(io.papermc.paper.math.Position, int)"
+  ],
+  "method_count": 2
+}

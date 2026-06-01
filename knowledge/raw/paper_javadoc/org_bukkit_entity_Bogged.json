@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.entity.Bogged",
+  "methods": [
+    "public abstract boolean isSheared()",
+    "public abstract void setSheared(boolean)"
+  ],
+  "method_count": 2
+}

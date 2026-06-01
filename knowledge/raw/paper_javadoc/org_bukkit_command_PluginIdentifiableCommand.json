@@ -1,0 +1,7 @@
+{
+  "class_name": "org.bukkit.command.PluginIdentifiableCommand",
+  "methods": [
+    "public abstract org.bukkit.plugin.Plugin getPlugin()"
+  ],
+  "method_count": 1
+}

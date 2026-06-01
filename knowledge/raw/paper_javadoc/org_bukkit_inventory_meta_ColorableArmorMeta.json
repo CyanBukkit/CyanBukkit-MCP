@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.inventory.meta.ColorableArmorMeta",
+  "methods": [
+    "public abstract org.bukkit.inventory.meta.ColorableArmorMeta clone()",
+    "public default org.bukkit.inventory.meta.ArmorMeta clone()",
+    "public default org.bukkit.inventory.meta.ItemMeta clone()",
+    "public default org.bukkit.inventory.meta.LeatherArmorMeta clone()"
+  ],
+  "method_count": 4
+}

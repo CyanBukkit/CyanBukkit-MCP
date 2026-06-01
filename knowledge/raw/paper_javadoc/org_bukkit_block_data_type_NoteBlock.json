@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.block.data.type.NoteBlock",
+  "methods": [
+    "public abstract org.bukkit.Instrument getInstrument()",
+    "public abstract void setInstrument(org.bukkit.Instrument)",
+    "public abstract org.bukkit.Note getNote()",
+    "public abstract void setNote(org.bukkit.Note)"
+  ],
+  "method_count": 4
+}

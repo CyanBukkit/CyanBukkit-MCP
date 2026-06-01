@@ -1,0 +1,17 @@
+{
+  "jar": "C:\\Users\\SmallXY\\.m2\\repository\\ca\\bkaw\\paper-nms-maven-plugin\\1.4.10\\paper-nms-maven-plugin-1.4.10.jar",
+  "artifact": "paper-nms-maven-plugin/1.4.10/paper-nms-maven-plugin-1.4.10",
+  "class_count": 9,
+  "all_classes": [
+    "ca.bkaw.papernmsmavenplugin.MojoBase",
+    "ca.bkaw.papernmsmavenplugin.DevBundle$Repository",
+    "ca.bkaw.papernmsmavenplugin.MojoBase$1",
+    "ca.bkaw.papernmsmavenplugin.DevBundle",
+    "ca.bkaw.papernmsmavenplugin.RemapMojo",
+    "ca.bkaw.papernmsmavenplugin.InitMojo",
+    "ca.bkaw.papernmsmavenplugin.RemapMojo$1",
+    "ca.bkaw.papernmsmavenplugin.DevBundle$Artifact",
+    "ca.bkaw.papernmsmavenplugin.RemappedClasses"
+  ],
+  "truncated": false
+}

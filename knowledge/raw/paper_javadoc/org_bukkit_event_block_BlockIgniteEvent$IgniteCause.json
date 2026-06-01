@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.event.block.BlockIgniteEvent$IgniteCause",
+  "methods": [
+    "public static org.bukkit.event.block.BlockIgniteEvent$IgniteCause[] values()",
+    "public static org.bukkit.event.block.BlockIgniteEvent$IgniteCause valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

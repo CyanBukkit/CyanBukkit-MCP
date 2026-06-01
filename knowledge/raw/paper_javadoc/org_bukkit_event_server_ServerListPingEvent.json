@@ -1,0 +1,26 @@
+{
+  "class_name": "org.bukkit.event.server.ServerListPingEvent",
+  "methods": [
+    "public org.bukkit.event.server.ServerListPingEvent(java.lang.String, java.net.InetAddress, java.lang.String, int, int)",
+    "protected org.bukkit.event.server.ServerListPingEvent(java.lang.String, java.net.InetAddress, java.lang.String, int)",
+    "public org.bukkit.event.server.ServerListPingEvent(java.net.InetAddress, net.kyori.adventure.text.Component, int, int)",
+    "public org.bukkit.event.server.ServerListPingEvent(java.lang.String, java.net.InetAddress, net.kyori.adventure.text.Component, int, int)",
+    "protected org.bukkit.event.server.ServerListPingEvent(java.net.InetAddress, net.kyori.adventure.text.Component, int)",
+    "protected org.bukkit.event.server.ServerListPingEvent(java.lang.String, java.net.InetAddress, net.kyori.adventure.text.Component, int)",
+    "public java.lang.String getHostname()",
+    "public java.net.InetAddress getAddress()",
+    "public net.kyori.adventure.text.Component motd()",
+    "public void motd(net.kyori.adventure.text.Component)",
+    "public java.lang.String getMotd()",
+    "public void setMotd(java.lang.String)",
+    "public int getNumPlayers()",
+    "public int getMaxPlayers()",
+    "public void setMaxPlayers(int)",
+    "public boolean shouldSendChatPreviews()",
+    "public void setServerIcon(org.bukkit.util.CachedServerIcon)",
+    "public java.util.Iterator<org.bukkit.entity.Player> iterator()",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 20
+}

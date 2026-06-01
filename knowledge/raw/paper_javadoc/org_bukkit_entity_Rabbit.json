@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.entity.Rabbit",
+  "methods": [
+    "public abstract org.bukkit.entity.Rabbit$Type getRabbitType()",
+    "public abstract void setRabbitType(org.bukkit.entity.Rabbit$Type)",
+    "public abstract void setMoreCarrotTicks(int)",
+    "public abstract int getMoreCarrotTicks()"
+  ],
+  "method_count": 4
+}

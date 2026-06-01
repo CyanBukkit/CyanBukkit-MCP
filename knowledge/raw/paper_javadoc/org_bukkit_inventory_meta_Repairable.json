@@ -1,0 +1,11 @@
+{
+  "class_name": "org.bukkit.inventory.meta.Repairable",
+  "methods": [
+    "public abstract boolean hasRepairCost()",
+    "public abstract int getRepairCost()",
+    "public abstract void setRepairCost(int)",
+    "public abstract org.bukkit.inventory.meta.Repairable clone()",
+    "public default org.bukkit.inventory.meta.ItemMeta clone()"
+  ],
+  "method_count": 5
+}

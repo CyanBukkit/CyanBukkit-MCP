@@ -1,0 +1,15 @@
+{
+  "class_name": "org.bukkit.configuration.file.YamlConfiguration",
+  "methods": [
+    "public org.bukkit.configuration.file.YamlConfiguration()",
+    "public java.lang.String saveToString()",
+    "public void loadFromString(java.lang.String)",
+    "public org.bukkit.configuration.file.YamlConfigurationOptions options()",
+    "public static org.bukkit.configuration.file.YamlConfiguration loadConfiguration(java.io.File)",
+    "public static org.bukkit.configuration.file.YamlConfiguration loadConfiguration(java.io.Reader)",
+    "public org.bukkit.configuration.file.FileConfigurationOptions options()",
+    "public org.bukkit.configuration.MemoryConfigurationOptions options()",
+    "public org.bukkit.configuration.ConfigurationOptions options()"
+  ],
+  "method_count": 9
+}

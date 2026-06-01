@@ -1,0 +1,12 @@
+{
+  "class_name": "org.bukkit.block.banner.PatternType",
+  "methods": [
+    "public default net.kyori.adventure.key.Key key()",
+    "public abstract org.bukkit.NamespacedKey getKey()",
+    "public abstract java.lang.String getIdentifier()",
+    "public static org.bukkit.block.banner.PatternType getByIdentifier(java.lang.String)",
+    "public static org.bukkit.block.banner.PatternType valueOf(java.lang.String)",
+    "public static org.bukkit.block.banner.PatternType[] values()"
+  ],
+  "method_count": 6
+}

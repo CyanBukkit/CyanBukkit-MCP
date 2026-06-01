@@ -1,0 +1,14 @@
+{
+  "class_name": "org.bukkit.entity.ExperienceOrb",
+  "methods": [
+    "public abstract int getExperience()",
+    "public abstract void setExperience(int)",
+    "public abstract int getCount()",
+    "public abstract void setCount(int)",
+    "public default boolean isFromBottle()",
+    "public abstract java.util.UUID getTriggerEntityId()",
+    "public abstract java.util.UUID getSourceEntityId()",
+    "public abstract org.bukkit.entity.ExperienceOrb$SpawnReason getSpawnReason()"
+  ],
+  "method_count": 8
+}

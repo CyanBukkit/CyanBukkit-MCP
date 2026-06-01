@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.entity.Sniffer$State",
+  "methods": [
+    "public static org.bukkit.entity.Sniffer$State[] values()",
+    "public static org.bukkit.entity.Sniffer$State valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

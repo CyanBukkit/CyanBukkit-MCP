@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.plugin.InvalidDescriptionException",
+  "methods": [
+    "public org.bukkit.plugin.InvalidDescriptionException(java.lang.Throwable, java.lang.String)",
+    "public org.bukkit.plugin.InvalidDescriptionException(java.lang.Throwable)",
+    "public org.bukkit.plugin.InvalidDescriptionException(java.lang.String)",
+    "public org.bukkit.plugin.InvalidDescriptionException()"
+  ],
+  "method_count": 4
+}

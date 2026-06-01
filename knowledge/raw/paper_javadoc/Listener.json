@@ -1,0 +1,9 @@
+{
+  "class_name": "Listener",
+  "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/event/Listener.html",
+  "description": "public interface\nListener\nSimple interface for tagging all EventListeners",
+  "methods": [],
+  "nested_classes": [],
+  "full_text": "Package\norg.bukkit.event\nInterface Listener\npublic interface\nListener\nSimple interface for tagging all EventListeners",
+  "method_count": 0
+}

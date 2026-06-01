@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.inventory.InventoryView$Property",
+  "methods": [
+    "public static org.bukkit.inventory.InventoryView$Property[] values()",
+    "public static org.bukkit.inventory.InventoryView$Property valueOf(java.lang.String)",
+    "public org.bukkit.event.inventory.InventoryType getType()",
+    "public int getId()"
+  ],
+  "method_count": 4
+}

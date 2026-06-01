@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.event.server.ServerLoadEvent",
+  "methods": [
+    "public org.bukkit.event.server.ServerLoadEvent(org.bukkit.event.server.ServerLoadEvent$LoadType)",
+    "public org.bukkit.event.server.ServerLoadEvent$LoadType getType()",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 4
+}

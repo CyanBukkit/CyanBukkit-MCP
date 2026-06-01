@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.event.player.PlayerRecipeBookSettingsChangeEvent$RecipeBookType",
+  "methods": [
+    "public static org.bukkit.event.player.PlayerRecipeBookSettingsChangeEvent$RecipeBookType[] values()",
+    "public static org.bukkit.event.player.PlayerRecipeBookSettingsChangeEvent$RecipeBookType valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.block.data.type.FlowerBed",
+  "methods": [
+    "public abstract int getFlowerAmount()",
+    "public abstract void setFlowerAmount(int)",
+    "public abstract int getMinimumFlowerAmount()",
+    "public abstract int getMaximumFlowerAmount()"
+  ],
+  "method_count": 4
+}

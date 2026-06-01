@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.command.ProxiedCommandSender",
+  "methods": [
+    "public abstract org.bukkit.command.CommandSender getCaller()",
+    "public abstract org.bukkit.command.CommandSender getCallee()",
+    "public default void sendMessage(net.kyori.adventure.identity.Identity, net.kyori.adventure.text.Component, net.kyori.adventure.audience.MessageType)",
+    "public default net.kyori.adventure.audience.Audience audience()"
+  ],
+  "method_count": 4
+}

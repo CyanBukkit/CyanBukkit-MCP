@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.entity.AbstractSkeleton",
+  "methods": [
+    "public abstract org.bukkit.entity.Skeleton$SkeletonType getSkeletonType()",
+    "public abstract void setSkeletonType(org.bukkit.entity.Skeleton$SkeletonType)",
+    "public abstract boolean shouldBurnInDay()",
+    "public abstract void setShouldBurnInDay(boolean)"
+  ],
+  "method_count": 4
+}

@@ -1,0 +1,14 @@
+{
+  "class_name": "org.bukkit.Server$Spigot",
+  "methods": [
+    "public org.bukkit.Server$Spigot()",
+    "public org.bukkit.configuration.file.YamlConfiguration getConfig()",
+    "public org.bukkit.configuration.file.YamlConfiguration getBukkitConfig()",
+    "public org.bukkit.configuration.file.YamlConfiguration getSpigotConfig()",
+    "public org.bukkit.configuration.file.YamlConfiguration getPaperConfig()",
+    "public void broadcast(net.md_5.bungee.api.chat.BaseComponent)",
+    "public void broadcast(net.md_5.bungee.api.chat.BaseComponent...)",
+    "public void restart()"
+  ],
+  "method_count": 8
+}

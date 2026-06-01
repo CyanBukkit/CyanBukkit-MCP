@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.entity.Tadpole",
+  "methods": [
+    "public abstract int getAge()",
+    "public abstract void setAge(int)",
+    "public abstract void setAgeLock(boolean)",
+    "public abstract boolean getAgeLock()"
+  ],
+  "method_count": 4
+}

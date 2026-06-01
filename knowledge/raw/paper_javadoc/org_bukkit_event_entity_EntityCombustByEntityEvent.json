@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.event.entity.EntityCombustByEntityEvent",
+  "methods": [
+    "public org.bukkit.event.entity.EntityCombustByEntityEvent(org.bukkit.entity.Entity, org.bukkit.entity.Entity, int)",
+    "public org.bukkit.event.entity.EntityCombustByEntityEvent(org.bukkit.entity.Entity, org.bukkit.entity.Entity, float)",
+    "public org.bukkit.entity.Entity getCombuster()"
+  ],
+  "method_count": 3
+}

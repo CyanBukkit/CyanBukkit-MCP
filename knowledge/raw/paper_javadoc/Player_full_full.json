@@ -1,0 +1,618 @@
+{
+  "class_name": "Player",
+  "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/entity/Player.html",
+  "description": "wer , NetworkClient Represents a player, connected or not Nested Class Summary Nested Classes Modifier and Type Interface Description static class Player",
+  "methods": [
+    {
+      "name": "activeBossBars",
+      "signature": "extends BossBar > activeBossBars()",
+      "return_type": "extends\nBossBar\n>",
+      "params": [],
+      "description": "Gets an unmodifiable view of all known currently active bossbars."
+    },
+    {
+      "name": "addAdditionalChatCompletions",
+      "signature": "void addAdditionalChatCompletions(Collection < String > completions)",
+      "return_type": "void",
+      "params": [
+        "Collection < String > completions"
+      ],
+      "description": "Deprecated."
+    },
+    {
+      "name": "addResourcePack",
+      "signature": "void addResourcePack(UUID id, String url, @org.jspecify.annotations.Nullable byte[] hash, @Nullable String prompt, boolean force)",
+      "return_type": "void",
+      "params": [
+        "UUID id",
+        "String url",
+        "@org.jspecify.annotations.Nullable byte[] hash",
+        "@Nullable String prompt",
+        "boolean force"
+      ],
+      "description": "Request that the player's client download and include another resource pack."
+    },
+    {
+      "name": "applyMending",
+      "signature": "int applyMending(int amount)",
+      "return_type": "int",
+      "params": [
+        "int amount"
+      ],
+      "description": "Applies the mending effect to any items just as picking up an orb would."
+    },
+    {
+      "name": "asHoverEvent",
+      "signature": "ShowEntity > asHoverEvent(UnaryOperator < HoverEvent.ShowEntity > op)",
+      "return_type": "ShowEntity\n>",
+      "params": [
+        "UnaryOperator < HoverEvent.ShowEntity > op"
+      ],
+      "description": "Creates a hover event with value derived from this object."
+    },
+    {
+      "name": "ban",
+      "signature": "Nullable E ban(@Nullable String reason, @Nullable Duration duration, @Nullable String source, boolean kickPlayer)",
+      "return_type": "Nullable\nE",
+      "params": [
+        "@Nullable String reason",
+        "@Nullable Duration duration",
+        "@Nullable String source",
+        "boolean kickPlayer"
+      ],
+      "description": "Adds this user to the"
+    },
+    {
+      "name": "ban",
+      "signature": "Nullable E ban(@Nullable String reason, @Nullable Instant expires, @Nullable String source, boolean kickPlayer)",
+      "return_type": "Nullable\nE",
+      "params": [
+        "@Nullable String reason",
+        "@Nullable Instant expires",
+        "@Nullable String source",
+        "boolean kickPlayer"
+      ],
+      "description": "Adds this user to the"
+    },
+    {
+      "name": "ban",
+      "signature": "Nullable E ban(@Nullable String reason, @Nullable Date expires, @Nullable String source, boolean kickPlayer)",
+      "return_type": "Nullable\nE",
+      "params": [
+        "@Nullable String reason",
+        "@Nullable Date expires",
+        "@Nullable String source",
+        "boolean kickPlayer"
+      ],
+      "description": "Adds this user to the"
+    },
+    {
+      "name": "banIp",
+      "signature": "Nullable BanEntry < InetAddress > banIp(@Nullable String reason, @Nullable Duration duration, @Nullable String source, boolean kickPlayer)",
+      "return_type": "Nullable\nBanEntry\n<\nInetAddress\n>",
+      "params": [
+        "@Nullable String reason",
+        "@Nullable Duration duration",
+        "@Nullable String source",
+        "boolean kickPlayer"
+      ],
+      "description": "Adds this user's current IP address to the"
+    },
+    {
+      "name": "banIp",
+      "signature": "Nullable BanEntry < InetAddress > banIp(@Nullable String reason, @Nullable Instant expires, @Nullable String source, boolean kickPlayer)",
+      "return_type": "Nullable\nBanEntry\n<\nInetAddress\n>",
+      "params": [
+        "@Nullable String reason",
+        "@Nullable Instant expires",
+        "@Nullable String source",
+        "boolean kickPlayer"
+      ],
+      "description": "Adds this user's current IP address to the"
+    },
+    {
+      "name": "banIp",
+      "signature": "Nullable BanEntry < InetAddress > banIp(@Nullable String reason, @Nullable Date expires, @Nullable String source, boolean kickPlayer)",
+      "return_type": "Nullable\nBanEntry\n<\nInetAddress\n>",
+      "params": [
+        "@Nullable String reason",
+        "@Nullable Date expires",
+        "@Nullable String source",
+        "boolean kickPlayer"
+      ],
+      "description": "Adds this user's current IP address to the"
+    },
+    {
+      "name": "banPlayerFull",
+      "signature": "Nullable BanEntry banPlayerFull(@Nullable String reason)",
+      "return_type": "Nullable\nBanEntry",
+      "params": [
+        "@Nullable String reason"
+      ],
+      "description": "Deprecated."
+    },
+    {
+      "name": "banIp",
+      "signature": "and banIp(String, Date, String, boolean)",
+      "return_type": "and",
+      "params": [
+        "String",
+        "Date",
+        "String",
+        "boolean"
+      ],
+      "description": "default"
+    },
+    {
+      "name": "banPlayerFull",
+      "signature": "Nullable BanEntry banPlayerFull(@Nullable String reason, @Nullable String source)",
+      "return_type": "Nullable\nBanEntry",
+      "params": [
+        "@Nullable String reason",
+        "@Nullable String source"
+      ],
+      "description": "Deprecated."
+    },
+    {
+      "name": "banPlayerFull",
+      "signature": "Nullable BanEntry banPlayerFull(@Nullable String reason, @Nullable Date expires)",
+      "return_type": "Nullable\nBanEntry",
+      "params": [
+        "@Nullable String reason",
+        "@Nullable Date expires"
+      ],
+      "description": "Deprecated."
+    },
+    {
+      "name": "banPlayerFull",
+      "signature": "Nullable BanEntry banPlayerFull(@Nullable String reason, @Nullable Date expires, @Nullable String source)",
+      "return_type": "Nullable\nBanEntry",
+      "params": [
+        "@Nullable String reason",
+        "@Nullable Date expires",
+        "@Nullable String source"
+      ],
+      "description": "Deprecated."
+    },
+    {
+      "name": "banPlayerIP",
+      "signature": "Nullable BanEntry banPlayerIP(@Nullable String reason)",
+      "return_type": "Nullable\nBanEntry",
+      "params": [
+        "@Nullable String reason"
+      ],
+      "description": "Deprecated."
+    },
+    {
+      "name": "banPlayerIP",
+      "signature": "Nullable BanEntry banPlayerIP(@Nullable String reason, boolean kickPlayer)",
+      "return_type": "Nullable\nBanEntry",
+      "params": [
+        "@Nullable String reason",
+        "boolean kickPlayer"
+      ],
+      "description": "Deprecated."
+    },
+    {
+      "name": "banPlayerIP",
+      "signature": "Nullable BanEntry banPlayerIP(@Nullable String reason, @Nullable String source)",
+      "return_type": "Nullable\nBanEntry",
+      "params": [
+        "@Nullable String reason",
+        "@Nullable String source"
+      ],
+      "description": "Deprecated."
+    },
+    {
+      "name": "banPlayerIP",
+      "signature": "Nullable BanEntry banPlayerIP(@Nullable String reason, @Nullable String source, boolean kickPlayer)",
+      "return_type": "Nullable\nBanEntry",
+      "params": [
+        "@Nullable String reason",
+        "@Nullable String source",
+        "boolean kickPlayer"
+      ],
+      "description": "Deprecated."
+    },
+    {
+      "name": "banPlayerIP",
+      "signature": "Nullable BanEntry banPlayerIP(@Nullable String reason, @Nullable Date expires)",
+      "return_type": "Nullable\nBanEntry",
+      "params": [
+        "@Nullable String reason",
+        "@Nullable Date expires"
+      ],
+      "description": "Deprecated."
+    },
+    {
+      "name": "banPlayerIP",
+      "signature": "Nullable BanEntry banPlayerIP(@Nullable String reason, @Nullable Date expires, boolean kickPlayer)",
+      "return_type": "Nullable\nBanEntry",
+      "params": [
+        "@Nullable String reason",
+        "@Nullable Date expires",
+        "boolean kickPlayer"
+      ],
+      "description": "Deprecated."
+    },
+    {
+      "name": "banPlayerIP",
+      "signature": "Nullable BanEntry banPlayerIP(@Nullable String reason, @Nullable Date expires, @Nullable String source)",
+      "return_type": "Nullable\nBanEntry",
+      "params": [
+        "@Nullable String reason",
+        "@Nullable Date expires",
+        "@Nullable String source"
+      ],
+      "description": "Deprecated."
+    },
+    {
+      "name": "banPlayerIP",
+      "signature": "Nullable BanEntry banPlayerIP(@Nullable String reason, @Nullable Date expires, @Nullable String source, boolean kickPlayer)",
+      "return_type": "Nullable\nBanEntry",
+      "params": [
+        "@Nullable String reason",
+        "@Nullable Date expires",
+        "@Nullable String source",
+        "boolean kickPlayer"
+      ],
+      "description": "Deprecated."
+    },
+    {
+      "name": "boostElytra",
+      "signature": "Nullable Firework boostElytra(ItemStack firework)",
+      "return_type": "Nullable\nFirework",
+      "params": [
+        "ItemStack firework"
+      ],
+      "description": "Deprecated."
+    },
+    {
+      "name": "breakBlock",
+      "signature": "boolean breakBlock(Block block)",
+      "return_type": "boolean",
+      "params": [
+        "Block block"
+      ],
+      "description": "Force this player to break a Block using the item in their main hand."
+    },
+    {
+      "name": "calculateTotalExperiencePoints",
+      "signature": "int calculateTotalExperiencePoints()",
+      "return_type": "int",
+      "params": [],
+      "description": "Gets the players total amount of experience points he collected to reach the current level and level progress."
+    },
+    {
+      "name": "canSee",
+      "signature": "boolean canSee(Entity entity)",
+      "return_type": "boolean",
+      "params": [
+        "Entity entity"
+      ],
+      "description": "Checks to see if an entity has been visually hidden from this player."
+    },
+    {
+      "name": "canSee",
+      "signature": "boolean canSee(Player player)",
+      "return_type": "boolean",
+      "params": [
+        "Player player"
+      ],
+      "description": "Check"
+    },
+    {
+      "name": "chat",
+      "signature": "s to see if a player has been hidden from this player void chat(String msg)",
+      "return_type": "s to see if a player has been hidden from this player\nvoid",
+      "params": [
+        "String msg"
+      ],
+      "description": "Says a message (or runs a command)."
+    },
+    {
+      "name": "displayName",
+      "signature": "Component displayName()",
+      "return_type": "Component",
+      "params": [],
+      "description": "Gets the \"friendly\" name to display of this player."
+    },
+    {
+      "name": "displayName",
+      "signature": "void displayName(@Nullable Component displayName)",
+      "return_type": "void",
+      "params": [
+        "@Nullable Component displayName"
+      ],
+      "description": "Sets the \"friendly\" name to display of this player."
+    },
+    {
+      "name": "getAddress",
+      "signature": "Nullable InetSocketAddress getAddress()",
+      "return_type": "Nullable\nInetSocketAddress",
+      "params": [],
+      "description": "Gets"
+    },
+    {
+      "name": "getAdvancementProgress",
+      "signature": "the socket address of this player AdvancementProgress getAdvancementProgress(Advancement advancement)",
+      "return_type": "the socket address of this player\nAdvancementProgress",
+      "params": [
+        "Advancement advancement"
+      ],
+      "description": "Return the player's progression on the specified advancement."
+    },
+    {
+      "name": "getAffectsSpawning",
+      "signature": "boolean getAffectsSpawning()",
+      "return_type": "boolean",
+      "params": [],
+      "description": "Get w"
+    },
+    {
+      "name": "getAllowFlight",
+      "signature": "hether the player can affect mob spawning boolean getAllowFlight()",
+      "return_type": "hether the player can affect mob spawning\nboolean",
+      "params": [],
+      "description": "Determines if the Player is allowed to fly via jump key double-tap like"
+    },
+    {
+      "name": "getBedSpawnLocation",
+      "signature": "Nullable Location getBedSpawnLocation()",
+      "return_type": "Nullable\nLocation",
+      "params": [],
+      "description": "Deprecated."
+    },
+    {
+      "name": "getClientBrandName",
+      "signature": "Nullable String getClientBrandName()",
+      "return_type": "Nullable\nString",
+      "params": [],
+      "description": "Returns player's client brand name."
+    },
+    {
+      "name": "getClientOption",
+      "signature": "<T> T getClientOption(ClientOption <T> option)",
+      "return_type": "<T> T",
+      "params": [
+        "ClientOption <T> option"
+      ],
+      "description": "int getClientViewDistance"
+    },
+    {
+      "name": "getCompassTarget",
+      "signature": "Location getCompassTarget()",
+      "return_type": "Location",
+      "params": [],
+      "description": "Get the previously set compass target."
+    },
+    {
+      "name": "getCooldownPeriod",
+      "signature": "float getCooldownPeriod()",
+      "return_type": "float",
+      "params": [],
+      "description": "Retur"
+    },
+    {
+      "name": "getCooledAttackStrength",
+      "signature": "ns the amount of ticks the current cooldown lasts float getCooledAttackStrength(float adjustTicks)",
+      "return_type": "ns the amount of ticks the current cooldown lasts\nfloat",
+      "params": [
+        "float adjustTicks"
+      ],
+      "description": "Returns the percentage of attack power available based on the cooldown (zero to one)."
+    },
+    {
+      "name": "getCurrentInput",
+      "signature": "Input getCurrentInput()",
+      "return_type": "Input",
+      "params": [],
+      "description": "Gets the current movement input, as last provided by the player."
+    },
+    {
+      "name": "getDeathScreenScore",
+      "signature": "int getDeathScreenScore()",
+      "return_type": "int",
+      "params": [],
+      "description": "Get the score that shows in the death screen of the player."
+    },
+    {
+      "name": "getDisplayName",
+      "signature": "String getDisplayName()",
+      "return_type": "String",
+      "params": [],
+      "description": "Deprecated."
+    },
+    {
+      "name": "displayName",
+      "signature": "in favour of displayName()",
+      "return_type": "in favour of",
+      "params": [],
+      "description": "Colle"
+    },
+    {
+      "name": "getEnderPearls",
+      "signature": "ction < EnderPearl > getEnderPearls()",
+      "return_type": "ction\n<\nEnderPearl\n>",
+      "params": [],
+      "description": "Gets the ender pearls currently associated with this entity."
+    },
+    {
+      "name": "getExp",
+      "signature": "float getExp()",
+      "return_type": "float",
+      "params": [],
+      "description": "Gets the players current experience points towards the next level."
+    },
+    {
+      "name": "getExpCooldown",
+      "signature": "int getExpCooldown()",
+      "return_type": "int",
+      "params": [],
+      "description": "Gets the player's cooldown between picking up experience orbs."
+    },
+    {
+      "name": "getExperiencePointsNeededForNextLevel",
+      "signature": "int getExperiencePointsNeededForNextLevel()",
+      "return_type": "int",
+      "params": [],
+      "description": "Gets the total amount of experience points that are needed to reach the next level from zero progress towards it."
+    },
+    {
+      "name": "getFlySpeed",
+      "signature": "float getFlySpeed()",
+      "return_type": "float",
+      "params": [],
+      "description": "Gets the current allowed speed that a client can fly."
+    },
+    {
+      "name": "getHAProxyAddress",
+      "signature": "Nullable InetSocketAddress getHAProxyAddress()",
+      "return_type": "Nullable\nInetSocketAddress",
+      "params": [],
+      "description": "Gets the socket address of this player'"
+    },
+    {
+      "name": "getHealthScale",
+      "signature": "s proxy double getHealthScale()",
+      "return_type": "s proxy\ndouble",
+      "params": [],
+      "description": "Gets the number that health is scaled to for the client."
+    },
+    {
+      "name": "getIdleDuration",
+      "signature": "Duration getIdleDuration()",
+      "return_type": "Duration",
+      "params": [],
+      "description": "The idle duration is reset when the player"
+    },
+    {
+      "name": "getLevel",
+      "signature": "int getLevel()",
+      "return_type": "int",
+      "params": [],
+      "description": "Gets"
+    },
+    {
+      "name": "getLocale",
+      "signature": "the players current experience level String getLocale()",
+      "return_type": "the players current experience level\nString",
+      "params": [],
+      "description": "Deprecated."
+    },
+    {
+      "name": "locale",
+      "signature": "in favour of locale()",
+      "return_type": "in favour of",
+      "params": [],
+      "description": "Strin"
+    },
+    {
+      "name": "getName",
+      "signature": "g getName()",
+      "return_type": "g",
+      "params": [],
+      "description": "Retur"
+    },
+    {
+      "name": "getNoTickViewDistance",
+      "signature": "ns the name of this player default int getNoTickViewDistance()",
+      "return_type": "ns the name of this player\ndefault int",
+      "params": [],
+      "description": "Deprecated."
+    },
+    {
+      "name": "getViewDistance",
+      "signature": "Use getViewDistance()",
+      "return_type": "Use",
+      "params": [],
+      "description": "int getPing"
+    },
+    {
+      "name": "getPlayerListFooter",
+      "signature": "Nullable String getPlayerListFooter()",
+      "return_type": "Nullable\nString",
+      "params": [],
+      "description": "Deprecated."
+    },
+    {
+      "name": "playerListFooter",
+      "signature": "in favour of playerListFooter()",
+      "return_type": "in favour of",
+      "params": [],
+      "description": "@Null"
+    },
+    {
+      "name": "getPlayerListHeader",
+      "signature": "able String getPlayerListHeader()",
+      "return_type": "able\nString",
+      "params": [],
+      "description": "Deprecated."
+    },
+    {
+      "name": "playerListHeader",
+      "signature": "in favour of playerListHeader()",
+      "return_type": "in favour of",
+      "params": [],
+      "description": "Strin"
+    },
+    {
+      "name": "getPlayerListName",
+      "signature": "g getPlayerListName()",
+      "return_type": "g",
+      "params": [],
+      "description": "Deprecated."
+    },
+    {
+      "name": "playerListName",
+      "signature": "in favour of playerListName()",
+      "return_type": "in favour of",
+      "params": [],
+      "description": "int getPlayerListOrder"
+    },
+    {
+      "name": "getPlayerProfile",
+      "signature": "PlayerProfile getPlayerProfile()",
+      "return_type": "PlayerProfile",
+      "params": [],
+      "description": "Gets"
+    },
+    {
+      "name": "getPlayerTime",
+      "signature": "a copy of this players profile long getPlayerTime()",
+      "return_type": "a copy of this players profile\nlong",
+      "params": [],
+      "description": "Returns the player's current timestamp."
+    },
+    {
+      "name": "getPlayerTimeOffset",
+      "signature": "long getPlayerTimeOffset()",
+      "return_type": "long",
+      "params": [],
+      "description": "Returns the player's current time offset relative to server time, or"
+    },
+    {
+      "name": "getPlayerWeather",
+      "signature": "Nullable WeatherType getPlayerWeather()",
+      "return_type": "Nullable\nWeatherType",
+      "params": [],
+      "description": "Returns the type of weather the player is currently experiencing."
+    },
+    {
+      "name": "getPreviousGameMode",
+      "signature": "Nullable GameMode getPreviousGameMode()",
+      "return_type": "Nullable\nGameMode",
+      "params": [],
+      "description": "Gets this player's previous"
+    },
+    {
+      "name": "getResourcePackHash",
+      "signature": "Nullable String getResourcePackHash()",
+      "return_type": "Nullable\nString",
+      "params": [],
+      "description": "Deprecated, for removal: This API element is subject to removal in a future version."
+    }
+  ],
+  "method_count": 72,
+  "full_text": "Player (paper-api 1.21.4-R0.1-SNAPSHOT API)\nJavaScript is disabled on your browser.\nYou are looking at old Javadocs for Paper 1.21.4.\n    Click here to look at Paper 26.1.2 instead.\nSkip navigation links\nOverview\nPackage\nClass\nUse\nTree\nDeprecated\nIndex\nHelp\nSummary:\nNested\nField\nConstr\nMethod\nDetail:\nField\nConstr\nMethod\nSummary:\nNested\n|\nField |\nConstr |\nMethod\nDetail:\nField |\nConstr |\nMethod\nSEARCH\nPackage\norg.bukkit.entity\nInterface Player\nAll Superinterfaces:\nAnimalTamer\n,\nAttributable\n,\nAudience\n,\nBossBarViewer\n,\nCommandSender\n,\nConfigurationSerializable\n,\nConversable\n,\nDamageable\n,\nEntity\n,\nFrictional\n,\nHoverEventSource\n<\nHoverEvent.ShowEntity\n>\n,\nHumanEntity\n,\nIdentified\n,\nInventoryHolder\n,\nLivingEntity\n,\nMetadatable\n,\nNameable\n,\nNetworkClient\n,\nOfflinePlayer\n,\nPermissible\n,\nPersistentDataHolder\n,\nPersistentDataViewHolder\n,\nPluginMessageRecipient\n,\nPointered\n,\nProjectileSource\n,\nServerOperator\n,\nSound.Emitter\n@NullMarked\npublic interface\nPlayer\nextends\nHumanEntity\n,\nConversable\n,\nOfflinePlayer\n,\nPluginMessageRecipient\n,\nIdentified\n,\nBossBarViewer\n,\nNetworkClient\nRepresents a player, connected or not\nNested Class Summary\nNested Classes\nModifier and Type\nInterface\nDescription\nstatic class\nPlayer.Spigot\nMethod Summary\nAll Methods\nInstance Methods\nAbstract Methods\nDefault Methods\nDeprecated Methods\nModifier and Type\nMethod\nDescription\n@UnmodifiableView\nIterable\n<? extends\nBossBar\n>\nactiveBossBars\n()\nGets an unmodifiable view of all known currently active bossbars.\nvoid\naddAdditionalChatCompletions\n(\nCollection\n<\nString\n> completions)\nDeprecated.\nuse\naddCustomChatCompletions(Collection)\nvoid\naddCustomChatCompletions\n(\nCollection\n<\nString\n> completions)\nAdd custom chat completion suggestions shown to the player while typing a\n message.\nvoid\naddResourcePack\n(\nUUID\nid,\nString\nurl,\n @org.jspecify.annotations.Nullable byte[] hash,\n@Nullable\nString\nprompt,\n boolean force)\nRequest that the player's client download and include another resource pack.\nint\napplyMending\n(int amount)\nApplies the mending effect to any items just as picking up an orb would.\ndefault\nHoverEvent\n<\nHoverEvent.ShowEntity\n>\nasHoverEvent\n(\nUnaryOperator\n<\nHoverEvent.ShowEntity\n> op)\nCreates a hover event with value derived from this object.\n<E extends\nBanEntry\n<? super\nPlayerProfile\n>>\n@Nullable\nE\nban\n(\n@Nullable\nString\nreason,\n@Nullable\nDuration\nduration,\n@Nullable\nString\nsource,\n boolean kickPlayer)\nAdds this user to the\nProfileBanList\n.\n<E extends\nBanEntry\n<? super\nPlayerProfile\n>>\n@Nullable\nE\nban\n(\n@Nullable\nString\nreason,\n@Nullable\nInstant\nexpires,\n@Nullable\nString\nsource,\n boolean kickPlayer)\nAdds this user to the\nProfileBanList\n.\n<E extends\nBanEntry\n<? super\nPlayerProfile\n>>\n@Nullable\nE\nban\n(\n@Nullable\nString\nreason,\n@Nullable\nDate\nexpires,\n@Nullable\nString\nsource,\n boolean kickPlayer)\nAdds this user to the\nProfileBanList\n.\n@Nullable\nBanEntry\n<\nInetAddress\n>\nbanIp\n(\n@Nullable\nString\nreason,\n@Nullable\nDuration\nduration,\n@Nullable\nString\nsource,\n boolean kickPlayer)\nAdds this user's current IP address to the\nIpBanList\n.\n@Nullable\nBanEntry\n<\nInetAddress\n>\nbanIp\n(\n@Nullable\nString\nreason,\n@Nullable\nInstant\nexpires,\n@Nullable\nString\nsource,\n boolean kickPlayer)\nAdds this user's current IP address to the\nIpBanList\n.\n@Nullable\nBanEntry\n<\nInetAddress\n>\nbanIp\n(\n@Nullable\nString\nreason,\n@Nullable\nDate\nexpires,\n@Nullable\nString\nsource,\n boolean kickPlayer)\nAdds this user's current IP address to the\nIpBanList\n.\ndefault\n@Nullable\nBanEntry\nbanPlayerFull\n(\n@Nullable\nString\nreason)\nDeprecated.\nuse\nOfflinePlayer.ban(String, Date, String)\nand\nbanIp(String, Date, String, boolean)\ndefault\n@Nullable\nBanEntry\nbanPlayerFull\n(\n@Nullable\nString\nreason,\n@Nullable\nString\nsource)\nDeprecated.\nuse\nOfflinePlayer.ban(String, Date, String)\nand\nbanIp(String, Date, String, boolean)\ndefault\n@Nullable\nBanEntry\nbanPlayerFull\n(\n@Nullable\nString\nreason,\n@Nullable\nDate\nexpires)\nDeprecated.\nuse\nOfflinePlayer.ban(String, Date, String)\nand\nbanIp(String, Date, String, boolean)\ndefault\n@Nullable\nBanEntry\nbanPlayerFull\n(\n@Nullable\nString\nreason,\n@Nullable\nDate\nexpires,\n@Nullable\nString\nsource)\nDeprecated.\nuse\nOfflinePlayer.ban(String, Date, String)\nand\nbanIp(String, Date, String, boolean)\ndefault\n@Nullable\nBanEntry\nbanPlayerIP\n(\n@Nullable\nString\nreason)\nDeprecated.\nuse\nOfflinePlayer.ban(String, Date, String)\nand\nbanIp(String, Date, String, boolean)\ndefault\n@Nullable\nBanEntry\nbanPlayerIP\n(\n@Nullable\nString\nreason,\n boolean kickPlayer)\nDeprecated.\nuse\nOfflinePlayer.ban(String, Date, String)\nand\nbanIp(String, Date, String, boolean)\ndefault\n@Nullable\nBanEntry\nbanPlayerIP\n(\n@Nullable\nString\nreason,\n@Nullable\nString\nsource)\nDeprecated.\nuse\nOfflinePlayer.ban(String, Date, String)\nand\nbanIp(String, Date, String, boolean)\ndefault\n@Nullable\nBanEntry\nbanPlayerIP\n(\n@Nullable\nString\nreason,\n@Nullable\nString\nsource,\n boolean kickPlayer)\nDeprecated.\nuse\nOfflinePlayer.ban(String, Date, String)\nand\nbanIp(String, Date, String, boolean)\ndefault\n@Nullable\nBanEntry\nbanPlayerIP\n(\n@Nullable\nString\nreason,\n@Nullable\nDate\nexpires)\nDeprecated.\nuse\nOfflinePlayer.ban(String, Date, String)\nand\nbanIp(String, Date, String, boolean)\ndefault\n@Nullable\nBanEntry\nbanPlayerIP\n(\n@Nullable\nString\nreason,\n@Nullable\nDate\nexpires,\n boolean kickPlayer)\nDeprecated.\nuse\nOfflinePlayer.ban(String, Date, String)\nand\nbanIp(String, Date, String, boolean)\ndefault\n@Nullable\nBanEntry\nbanPlayerIP\n(\n@Nullable\nString\nreason,\n@Nullable\nDate\nexpires,\n@Nullable\nString\nsource)\nDeprecated.\nuse\nOfflinePlayer.ban(String, Date, String)\nand\nbanIp(String, Date, String, boolean)\ndefault\n@Nullable\nBanEntry\nbanPlayerIP\n(\n@Nullable\nString\nreason,\n@Nullable\nDate\nexpires,\n@Nullable\nString\nsource,\n boolean kickPlayer)\nDeprecated.\nuse\nOfflinePlayer.ban(String, Date, String)\nand\nbanIp(String, Date, String, boolean)\ndefault\n@Nullable\nFirework\nboostElytra\n(\nItemStack\nfirework)\nDeprecated.\nuse\nHumanEntity.fireworkBoost(ItemStack)\ninstead.\nboolean\nbreakBlock\n(\nBlock\nblock)\nForce this player to break a Block using the item in their main hand.\n@org.jetbrains.annotations.Range(from=0L, to=2147483647L) int\ncalculateTotalExperiencePoints\n()\nGets the players total amount of experience points he collected to reach the current level and level progress.\nboolean\ncanSee\n(\nEntity\nentity)\nChecks to see if an entity has been visually hidden from this player.\nboolean\ncanSee\n(\nPlayer\nplayer)\nChecks to see if a player has been hidden from this player\nvoid\nchat\n(\nString\nmsg)\nSays a message (or runs a command).\nComponent\ndisplayName\n()\nGets the \"friendly\" name to display of this player.\nvoid\ndisplayName\n(\n@Nullable\nComponent\ndisplayName)\nSets the \"friendly\" name to display of this player.\n@Nullable\nInetSocketAddress\ngetAddress\n()\nGets the socket address of this player\nAdvancementProgress\ngetAdvancementProgress\n(\nAdvancement\nadvancement)\nReturn the player's progression on the specified advancement.\nboolean\ngetAffectsSpawning\n()\nGet whether the player can affect mob spawning\nboolean\ngetAllowFlight\n()\nDetermines if the Player is allowed to fly via jump key double-tap like\n in creative mode.\n@Nullable\nLocation\ngetBedSpawnLocation\n()\nDeprecated.\nMisleading name.\n@Nullable\nString\ngetClientBrandName\n()\nReturns player's client brand name.\n<T> T\ngetClientOption\n(\nClientOption\n<T> option)\nint\ngetClientViewDistance\n()\nGet the player's current client side view distance.\nLocation\ngetCompassTarget\n()\nGet the previously set compass target.\nfloat\ngetCooldownPeriod\n()\nReturns the amount of ticks the current cooldown lasts\nfloat\ngetCooledAttackStrength\n(float adjustTicks)\nReturns the percentage of attack power available based on the cooldown (zero to one).\nInput\ngetCurrentInput\n()\nGets the current movement input, as last provided by the player.\nint\ngetDeathScreenScore\n()\nGet the score that shows in the death screen of the player.\nString\ngetDisplayName\n()\nDeprecated.\nin favour of\ndisplayName()\nCollection\n<\nEnderPearl\n>\ngetEnderPearls\n()\nGets the ender pearls currently associated with this entity.\nfloat\ngetExp\n()\nGets the players current experience points towards the next level.\nint\ngetExpCooldown\n()\nGets the player's cooldown between picking up experience orbs.\nint\ngetExperiencePointsNeededForNextLevel\n()\nGets the total amount of experience points that are needed to reach the next level from zero progress towards it.\nfloat\ngetFlySpeed\n()\nGets the current allowed speed that a client can fly.\n@Nullable\nInetSocketAddress\ngetHAProxyAddress\n()\nGets the socket address of this player's proxy\ndouble\ngetHealthScale\n()\nGets the number that health is scaled to for the client.\nDuration\ngetIdleDuration\n()\nThe idle duration is reset when the player\n sends specific action packets.\nint\ngetLevel\n()\nGets the players current experience level\nString\ngetLocale\n()\nDeprecated.\nin favour of\nlocale()\nString\ngetName\n()\nReturns the name of this player\ndefault int\ngetNoTickViewDistance\n()\nDeprecated.\nUse\ngetViewDistance()\nint\ngetPing\n()\nGets the player's estimated ping in milliseconds.\n@Nullable\nString\ngetPlayerListFooter\n()\nDeprecated.\nin favour of\nplayerListFooter()\n@Nullable\nString\ngetPlayerListHeader\n()\nDeprecated.\nin favour of\nplayerListHeader()\nString\ngetPlayerListName\n()\nDeprecated.\nin favour of\nplayerListName()\nint\ngetPlayerListOrder\n()\nGets the relative order that the player is shown on the player list.\nPlayerProfile\ngetPlayerProfile\n()\nGets a copy of this players profile\nlong\ngetPlayerTime\n()\nReturns the player's current timestamp.\nlong\ngetPlayerTimeOffset\n()\nReturns the player's current time offset relative to server time, or\n the current player's fixed time if the player's time is absolute.\n@Nullable\nWeatherType\ngetPlayerWeather\n()\nReturns the type of weather the player is currently experiencing.\n@Nullable\nGameMode\ngetPreviousGameMode\n()\nGets this player's previous\nGameMode\ndefault\n@Nullable\nString\ngetResourcePackHash\n()\nDeprecated, for removal: This API element is subject to removal in a future version.\nThis is no longer sent from the client and will always be null\n@Nullable\nPlayerResourcePackStatusEvent.Status\nget"
+}

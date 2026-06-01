@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.inventory.MerchantInventory",
+  "methods": [
+    "public abstract int getSelectedRecipeIndex()",
+    "public abstract org.bukkit.inventory.MerchantRecipe getSelectedRecipe()",
+    "public abstract org.bukkit.inventory.Merchant getMerchant()"
+  ],
+  "method_count": 3
+}

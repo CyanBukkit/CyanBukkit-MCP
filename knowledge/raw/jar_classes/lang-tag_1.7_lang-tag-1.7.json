@@ -1,0 +1,14 @@
+[
+  {
+    "jar": "D:\\Program Files\\gradle\\repo\\caches\\paperweight-userdev\\v2\\work\\extractFromBundler_e491abcda02ea198ba2fc0478772abd926c959c560babfab2b2a490c7102d114\\minecraftLibraries\\com\\nimbusds\\lang-tag\\1.7\\lang-tag-1.7.jar",
+    "artifact": "lang-tag/1.7/lang-tag-1.7",
+    "class_count": 4,
+    "classes_sample": [
+      "com.nimbusds.langtag.LangTagException",
+      "com.nimbusds.langtag.LangTag",
+      "com.nimbusds.langtag.ReadOnlyLangTag",
+      "com.nimbusds.langtag.LangTagUtils"
+    ],
+    "truncated": false
+  }
+]

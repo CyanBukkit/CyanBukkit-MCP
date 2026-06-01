@@ -1,0 +1,11 @@
+{
+  "class_name": "org.bukkit.inventory.CraftingInventory",
+  "methods": [
+    "public abstract org.bukkit.inventory.ItemStack getResult()",
+    "public abstract org.bukkit.inventory.ItemStack[] getMatrix()",
+    "public abstract void setResult(org.bukkit.inventory.ItemStack)",
+    "public abstract void setMatrix(org.bukkit.inventory.ItemStack[])",
+    "public abstract org.bukkit.inventory.Recipe getRecipe()"
+  ],
+  "method_count": 5
+}

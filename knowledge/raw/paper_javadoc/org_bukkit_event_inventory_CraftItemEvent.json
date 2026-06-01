@@ -1,0 +1,11 @@
+{
+  "class_name": "org.bukkit.event.inventory.CraftItemEvent",
+  "methods": [
+    "public org.bukkit.event.inventory.CraftItemEvent(org.bukkit.inventory.Recipe, org.bukkit.inventory.InventoryView, org.bukkit.event.inventory.InventoryType$SlotType, int, org.bukkit.event.inventory.ClickType, org.bukkit.event.inventory.InventoryAction)",
+    "public org.bukkit.event.inventory.CraftItemEvent(org.bukkit.inventory.Recipe, org.bukkit.inventory.InventoryView, org.bukkit.event.inventory.InventoryType$SlotType, int, org.bukkit.event.inventory.ClickType, org.bukkit.event.inventory.InventoryAction, int)",
+    "public org.bukkit.inventory.CraftingInventory getInventory()",
+    "public org.bukkit.inventory.Recipe getRecipe()",
+    "public org.bukkit.inventory.Inventory getInventory()"
+  ],
+  "method_count": 5
+}

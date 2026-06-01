@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.Particle$DustTransition",
+  "methods": [
+    "public org.bukkit.Particle$DustTransition(org.bukkit.Color, org.bukkit.Color, float)",
+    "public org.bukkit.Color getToColor()"
+  ],
+  "method_count": 2
+}

@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.material.CocoaPlant$CocoaPlantSize",
+  "methods": [
+    "public static org.bukkit.material.CocoaPlant$CocoaPlantSize[] values()",
+    "public static org.bukkit.material.CocoaPlant$CocoaPlantSize valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

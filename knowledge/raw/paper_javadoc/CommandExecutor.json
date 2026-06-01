@@ -1,0 +1,9 @@
+{
+  "class_name": "CommandExecutor",
+  "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/command/CommandExecutor.html",
+  "description": "All Known Subinterfaces:\nPlugin\n,\nTabExecutor\nAll Known Implementing Classes:\nJavaPlugin\n,\nPluginBase\npublic interface\nCommandExecutor\nRepresents a class which contains a single method for executing commands",
+  "methods": [],
+  "nested_classes": [],
+  "full_text": "Package\norg.bukkit.command\nInterface CommandExecutor\nAll Known Subinterfaces:\nPlugin\n,\nTabExecutor\nAll Known Implementing Classes:\nJavaPlugin\n,\nPluginBase\npublic interface\nCommandExecutor\nRepresents a class which contains a single method for executing commands\nMethod Summary\nAll Methods\nInstance Methods\nAbstract Methods\nModifier and Type\nMethod\nDescription\nboolean\nonCommand\n(\n@NotNull\nCommandSender\nsender,\n@NotNull\nCommand\ncommand,\n@NotNull\nString\nlabel,\n@NotNull\nString\n@NotNull\n[] args)\nExecutes the given command, returning its success.\nMethod Details\nonCommand\nboolean\nonCommand\n(\n@NotNull\n@NotNull\nCommandSender\nsender,\n@NotNull\n@NotNull\nCommand\ncommand,\n@NotNull\n@NotNull\nString\nlabel,\n@NotNull\n@NotNull\nString\n@NotNull\n[] args)\nExecutes the given command, returning its success.\nIf false is returned, then the \"usage\" plugin.yml entry for this command\n (if defined) will be sent to the player.\nParameters:\nsender\n- Source of the command\ncommand\n- Command which was executed\nlabel\n- Alias of the command which was used\nargs\n- Passed command arguments\nReturns:\ntrue if a valid command, otherwise false",
+  "method_count": 0
+}

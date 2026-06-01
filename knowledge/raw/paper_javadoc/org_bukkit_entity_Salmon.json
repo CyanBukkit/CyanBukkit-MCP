@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.entity.Salmon",
+  "methods": [
+    "public abstract org.bukkit.entity.Salmon$Variant getVariant()",
+    "public abstract void setVariant(org.bukkit.entity.Salmon$Variant)"
+  ],
+  "method_count": 2
+}

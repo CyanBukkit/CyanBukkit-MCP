@@ -1,0 +1,7 @@
+{
+  "title": "BungeeCord Plugin Development",
+  "url": "https://www.spigotmc.org/wiki/bungeecord-plugin-development/",
+  "content": "May 22, 2022\nPage\nHistory\nEditors\nBungeeCord Plugin Development\nBungeeCord Plugin Development\nA list of helpful links for BungeeCord plugin development\nGuides\nCreating your first BungeeCord plugin with Maven (Proxy)\nCreating your first BungeeCord plugin with Gradle\nEvent API Tutorial\nCommon Pitfalls\nCreating basic command functions (Proxy)\nBukkit & BungeeCord Plugin Messaging Channel\nThe Chat Component API\nSending players between servers (Proxy)\nUsing The BungeeCord Configuration System\nCreating a scoreboard via BungeeCord\nResources\nBungeeCord API (GitHub)\nBungeeCord API (JavaDoc)\nBungeeCord API (Chat JavaDoc)\nLoading...\nView\nLoading...\nView\n(220525 Views)\nLast Modified: May 22, 2022 at 8:48 AM",
+  "content_length": 703,
+  "method": "bs4"
+}

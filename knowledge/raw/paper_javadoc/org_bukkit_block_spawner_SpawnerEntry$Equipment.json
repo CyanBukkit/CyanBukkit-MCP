@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.block.spawner.SpawnerEntry$Equipment",
+  "methods": [
+    "public org.bukkit.block.spawner.SpawnerEntry$Equipment(org.bukkit.loot.LootTable, java.util.Map<org.bukkit.inventory.EquipmentSlot, java.lang.Float>)",
+    "public void setEquipmentLootTable(org.bukkit.loot.LootTable)",
+    "public org.bukkit.loot.LootTable getEquipmentLootTable()",
+    "public java.util.Map<org.bukkit.inventory.EquipmentSlot, java.lang.Float> getDropChances()"
+  ],
+  "method_count": 4
+}

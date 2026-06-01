@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.util.OldEnum",
+  "methods": [
+    "public abstract int compareTo(T)",
+    "public abstract java.lang.String name()",
+    "public abstract int ordinal()",
+    "public default int compareTo(java.lang.Object)"
+  ],
+  "method_count": 4
+}

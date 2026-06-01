@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.block.data.type.BrewingStand",
+  "methods": [
+    "public abstract boolean hasBottle(int)",
+    "public abstract void setBottle(int, boolean)",
+    "public abstract java.util.Set<java.lang.Integer> getBottles()",
+    "public abstract int getMaximumBottles()"
+  ],
+  "method_count": 4
+}

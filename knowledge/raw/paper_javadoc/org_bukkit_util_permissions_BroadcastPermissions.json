@@ -1,0 +1,7 @@
+{
+  "class_name": "org.bukkit.util.permissions.BroadcastPermissions",
+  "methods": [
+    "public static org.bukkit.permissions.Permission registerPermissions(org.bukkit.permissions.Permission)"
+  ],
+  "method_count": 1
+}

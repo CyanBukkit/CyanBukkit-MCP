@@ -1,0 +1,13 @@
+{
+  "class_name": "org.bukkit.conversations.Conversable",
+  "methods": [
+    "public abstract boolean isConversing()",
+    "public abstract void acceptConversationInput(java.lang.String)",
+    "public abstract boolean beginConversation(org.bukkit.conversations.Conversation)",
+    "public abstract void abandonConversation(org.bukkit.conversations.Conversation)",
+    "public abstract void abandonConversation(org.bukkit.conversations.Conversation, org.bukkit.conversations.ConversationAbandonedEvent)",
+    "public abstract void sendRawMessage(java.lang.String)",
+    "public abstract void sendRawMessage(java.util.UUID, java.lang.String)"
+  ],
+  "method_count": 7
+}

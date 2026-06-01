@@ -1,0 +1,7 @@
+{
+  "class_name": "org.bukkit.configuration.file.YamlRepresenter$RepresentConfigurationSerializable",
+  "methods": [
+    "public org.yaml.snakeyaml.nodes.Node representData(java.lang.Object)"
+  ],
+  "method_count": 1
+}

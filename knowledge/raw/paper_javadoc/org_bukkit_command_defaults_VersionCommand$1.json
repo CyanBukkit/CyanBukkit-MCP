@@ -1,0 +1,7 @@
+{
+  "class_name": "org.bukkit.command.defaults.VersionCommand$1",
+  "methods": [
+    "public void run()"
+  ],
+  "method_count": 1
+}

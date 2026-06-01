@@ -1,0 +1,12 @@
+{
+  "jar": "C:\\Users\\SmallXY\\.m2\\repository\\su\\nightexpress\\nightcore\\spigot\\2.7.8\\spigot-2.7.8.jar",
+  "artifact": "spigot/2.7.8/spigot-2.7.8",
+  "class_count": 4,
+  "all_classes": [
+    "su.nightexpress.nightcore.bridge.spigot.SpigotBridge",
+    "su.nightexpress.nightcore.bridge.spigot.SpigotComponent$1",
+    "su.nightexpress.nightcore.bridge.spigot.SpigotComponent",
+    "su.nightexpress.nightcore.bridge.spigot.SpigotProfile"
+  ],
+  "truncated": false
+}

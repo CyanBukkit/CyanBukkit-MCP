@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.entity.Rabbit$Type",
+  "methods": [
+    "public static org.bukkit.entity.Rabbit$Type[] values()",
+    "public static org.bukkit.entity.Rabbit$Type valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

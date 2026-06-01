@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.data.type.Switch$Face",
+  "methods": [
+    "public static org.bukkit.block.data.type.Switch$Face[] values()",
+    "public static org.bukkit.block.data.type.Switch$Face valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

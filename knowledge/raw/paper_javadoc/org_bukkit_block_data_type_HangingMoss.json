@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.data.type.HangingMoss",
+  "methods": [
+    "public abstract boolean isTip()",
+    "public abstract void setTip(boolean)"
+  ],
+  "method_count": 2
+}

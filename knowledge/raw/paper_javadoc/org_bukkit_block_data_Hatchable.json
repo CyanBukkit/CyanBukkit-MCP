@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.block.data.Hatchable",
+  "methods": [
+    "public abstract int getHatch()",
+    "public abstract void setHatch(int)",
+    "public abstract int getMaximumHatch()"
+  ],
+  "method_count": 3
+}

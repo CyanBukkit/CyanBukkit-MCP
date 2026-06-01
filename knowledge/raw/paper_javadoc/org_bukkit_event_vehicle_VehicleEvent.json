@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.event.vehicle.VehicleEvent",
+  "methods": [
+    "protected org.bukkit.event.vehicle.VehicleEvent(org.bukkit.entity.Vehicle)",
+    "public final org.bukkit.entity.Vehicle getVehicle()"
+  ],
+  "method_count": 2
+}

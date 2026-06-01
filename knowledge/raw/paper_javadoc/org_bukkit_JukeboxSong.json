@@ -1,0 +1,7 @@
+{
+  "class_name": "org.bukkit.JukeboxSong",
+  "methods": [
+    "public abstract java.lang.String getTranslationKey()"
+  ],
+  "method_count": 1
+}

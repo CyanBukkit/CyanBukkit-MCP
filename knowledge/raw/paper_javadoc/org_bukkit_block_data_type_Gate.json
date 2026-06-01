@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.data.type.Gate",
+  "methods": [
+    "public abstract boolean isInWall()",
+    "public abstract void setInWall(boolean)"
+  ],
+  "method_count": 2
+}

@@ -1,0 +1,13 @@
+{
+  "class_name": "org.bukkit.plugin.TimedRegisteredListener",
+  "methods": [
+    "public org.bukkit.plugin.TimedRegisteredListener(org.bukkit.event.Listener, org.bukkit.plugin.EventExecutor, org.bukkit.event.EventPriority, org.bukkit.plugin.Plugin, boolean)",
+    "public void callEvent(org.bukkit.event.Event)",
+    "public void reset()",
+    "public int getCount()",
+    "public long getTotalTime()",
+    "public java.lang.Class<? extends org.bukkit.event.Event> getEventClass()",
+    "public boolean hasMultiple()"
+  ],
+  "method_count": 7
+}

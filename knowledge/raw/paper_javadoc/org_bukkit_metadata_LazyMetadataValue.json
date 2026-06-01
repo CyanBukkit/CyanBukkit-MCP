@@ -1,0 +1,11 @@
+{
+  "class_name": "org.bukkit.metadata.LazyMetadataValue",
+  "methods": [
+    "public org.bukkit.metadata.LazyMetadataValue(org.bukkit.plugin.Plugin, java.util.concurrent.Callable<java.lang.Object>)",
+    "public org.bukkit.metadata.LazyMetadataValue(org.bukkit.plugin.Plugin, org.bukkit.metadata.LazyMetadataValue$CacheStrategy, java.util.concurrent.Callable<java.lang.Object>)",
+    "protected org.bukkit.metadata.LazyMetadataValue(org.bukkit.plugin.Plugin)",
+    "public java.lang.Object value()",
+    "public synchronized void invalidate()"
+  ],
+  "method_count": 5
+}

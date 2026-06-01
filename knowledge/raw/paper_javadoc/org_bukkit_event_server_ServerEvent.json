@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.event.server.ServerEvent",
+  "methods": [
+    "public org.bukkit.event.server.ServerEvent()",
+    "public org.bukkit.event.server.ServerEvent(boolean)"
+  ],
+  "method_count": 2
+}

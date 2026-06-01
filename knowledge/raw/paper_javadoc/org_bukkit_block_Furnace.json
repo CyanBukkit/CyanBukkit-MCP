@@ -1,0 +1,23 @@
+{
+  "class_name": "org.bukkit.block.Furnace",
+  "methods": [
+    "public abstract short getBurnTime()",
+    "public abstract void setBurnTime(short)",
+    "public abstract short getCookTime()",
+    "public abstract void setCookTime(short)",
+    "public abstract int getCookTimeTotal()",
+    "public abstract void setCookTimeTotal(int)",
+    "public abstract java.util.Map<org.bukkit.inventory.CookingRecipe<?>, java.lang.Integer> getRecipesUsed()",
+    "public abstract double getCookSpeedMultiplier()",
+    "public abstract void setCookSpeedMultiplier(double)",
+    "public abstract int getRecipeUsedCount(org.bukkit.NamespacedKey)",
+    "public abstract boolean hasRecipeUsedCount(org.bukkit.NamespacedKey)",
+    "public abstract void setRecipeUsedCount(org.bukkit.inventory.CookingRecipe<?>, int)",
+    "public abstract void setRecipesUsed(java.util.Map<org.bukkit.inventory.CookingRecipe<?>, java.lang.Integer>)",
+    "public abstract org.bukkit.inventory.FurnaceInventory getInventory()",
+    "public abstract org.bukkit.inventory.FurnaceInventory getSnapshotInventory()",
+    "public default org.bukkit.inventory.Inventory getSnapshotInventory()",
+    "public default org.bukkit.inventory.Inventory getInventory()"
+  ],
+  "method_count": 17
+}

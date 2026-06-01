@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.FluidCollisionMode",
+  "methods": [
+    "public static org.bukkit.FluidCollisionMode[] values()",
+    "public static org.bukkit.FluidCollisionMode valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.plugin.EventExecutor",
+  "methods": [
+    "public abstract void execute(org.bukkit.event.Listener, org.bukkit.event.Event)",
+    "public static org.bukkit.plugin.EventExecutor create(java.lang.reflect.Method, java.lang.Class<? extends org.bukkit.event.Event>)"
+  ],
+  "method_count": 2
+}

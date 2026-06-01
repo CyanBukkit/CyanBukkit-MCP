@@ -1,0 +1,12 @@
+{
+  "class_name": "org.bukkit.inventory.meta.components.JukeboxPlayableComponent",
+  "methods": [
+    "public abstract org.bukkit.JukeboxSong getSong()",
+    "public abstract org.bukkit.NamespacedKey getSongKey()",
+    "public abstract void setSong(org.bukkit.JukeboxSong)",
+    "public abstract void setSongKey(org.bukkit.NamespacedKey)",
+    "public default boolean isShowInTooltip()",
+    "public default void setShowInTooltip(boolean)"
+  ],
+  "method_count": 6
+}

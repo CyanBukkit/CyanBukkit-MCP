@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.event.entity.TrialSpawnerSpawnEvent",
+  "methods": [
+    "public org.bukkit.event.entity.TrialSpawnerSpawnEvent(org.bukkit.entity.Entity, org.bukkit.block.TrialSpawner)",
+    "public org.bukkit.block.TrialSpawner getTrialSpawner()"
+  ],
+  "method_count": 2
+}

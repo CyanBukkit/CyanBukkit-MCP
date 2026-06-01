@@ -1,0 +1,12 @@
+{
+  "class_name": "org.bukkit.inventory.SmithingTrimRecipe",
+  "methods": [
+    "public org.bukkit.inventory.SmithingTrimRecipe(org.bukkit.NamespacedKey, org.bukkit.inventory.RecipeChoice, org.bukkit.inventory.RecipeChoice, org.bukkit.inventory.RecipeChoice, org.bukkit.inventory.meta.trim.TrimPattern)",
+    "public org.bukkit.inventory.SmithingTrimRecipe(org.bukkit.NamespacedKey, org.bukkit.inventory.RecipeChoice, org.bukkit.inventory.RecipeChoice, org.bukkit.inventory.RecipeChoice, org.bukkit.inventory.meta.trim.TrimPattern, boolean)",
+    "public org.bukkit.inventory.SmithingTrimRecipe(org.bukkit.NamespacedKey, org.bukkit.inventory.RecipeChoice, org.bukkit.inventory.RecipeChoice, org.bukkit.inventory.RecipeChoice)",
+    "public org.bukkit.inventory.SmithingTrimRecipe(org.bukkit.NamespacedKey, org.bukkit.inventory.RecipeChoice, org.bukkit.inventory.RecipeChoice, org.bukkit.inventory.RecipeChoice, boolean)",
+    "public org.bukkit.inventory.RecipeChoice getTemplate()",
+    "public org.bukkit.inventory.meta.trim.TrimPattern getTrimPattern()"
+  ],
+  "method_count": 6
+}

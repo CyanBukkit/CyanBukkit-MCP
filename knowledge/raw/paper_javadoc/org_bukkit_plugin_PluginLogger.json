@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.plugin.PluginLogger",
+  "methods": [
+    "public org.bukkit.plugin.PluginLogger(org.bukkit.plugin.Plugin)",
+    "public void log(java.util.logging.LogRecord)"
+  ],
+  "method_count": 2
+}

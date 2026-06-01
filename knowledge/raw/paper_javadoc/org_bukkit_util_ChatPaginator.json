@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.util.ChatPaginator",
+  "methods": [
+    "public org.bukkit.util.ChatPaginator()",
+    "public static org.bukkit.util.ChatPaginator$ChatPage paginate(java.lang.String, int)",
+    "public static org.bukkit.util.ChatPaginator$ChatPage paginate(java.lang.String, int, int, int)",
+    "public static java.lang.String[] wordWrap(java.lang.String, int)"
+  ],
+  "method_count": 4
+}

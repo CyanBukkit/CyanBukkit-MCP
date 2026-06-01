@@ -1,0 +1,12 @@
+{
+  "class_name": "org.bukkit.entity.Display$Brightness",
+  "methods": [
+    "public org.bukkit.entity.Display$Brightness(int, int)",
+    "public int getBlockLight()",
+    "public int getSkyLight()",
+    "public int hashCode()",
+    "public boolean equals(java.lang.Object)",
+    "public java.lang.String toString()"
+  ],
+  "method_count": 6
+}

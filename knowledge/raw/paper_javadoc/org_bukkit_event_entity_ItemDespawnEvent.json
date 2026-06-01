@@ -1,0 +1,14 @@
+{
+  "class_name": "org.bukkit.event.entity.ItemDespawnEvent",
+  "methods": [
+    "public org.bukkit.event.entity.ItemDespawnEvent(org.bukkit.entity.Item, org.bukkit.Location)",
+    "public org.bukkit.entity.Item getEntity()",
+    "public org.bukkit.Location getLocation()",
+    "public boolean isCancelled()",
+    "public void setCancelled(boolean)",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()",
+    "public org.bukkit.entity.Entity getEntity()"
+  ],
+  "method_count": 8
+}

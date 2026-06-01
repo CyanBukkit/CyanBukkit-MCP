@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.data.type.Comparator$Mode",
+  "methods": [
+    "public static org.bukkit.block.data.type.Comparator$Mode[] values()",
+    "public static org.bukkit.block.data.type.Comparator$Mode valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

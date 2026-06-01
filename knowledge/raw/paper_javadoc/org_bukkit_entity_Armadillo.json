@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.entity.Armadillo",
+  "methods": [
+    "public abstract org.bukkit.entity.Armadillo$State getState()",
+    "public abstract void rollUp()",
+    "public abstract void rollOut()"
+  ],
+  "method_count": 3
+}

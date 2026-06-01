@@ -1,0 +1,12 @@
+{
+  "class_name": "org.bukkit.block.data.type.Leaves",
+  "methods": [
+    "public abstract boolean isPersistent()",
+    "public abstract void setPersistent(boolean)",
+    "public abstract int getDistance()",
+    "public abstract void setDistance(int)",
+    "public abstract int getMaximumDistance()",
+    "public abstract int getMinimumDistance()"
+  ],
+  "method_count": 6
+}

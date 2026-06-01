@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.entity.Skeleton",
+  "methods": [
+    "public abstract boolean isConverting()",
+    "public abstract int getConversionTime()",
+    "public abstract void setConversionTime(int)",
+    "public abstract int inPowderedSnowTime()"
+  ],
+  "method_count": 4
+}

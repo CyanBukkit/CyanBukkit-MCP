@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.conversations.ConversationFactory$NotPlayerMessagePrompt",
+  "methods": [
+    "public java.lang.String getPromptText(org.bukkit.conversations.ConversationContext)",
+    "protected org.bukkit.conversations.Prompt getNextPrompt(org.bukkit.conversations.ConversationContext)"
+  ],
+  "method_count": 2
+}

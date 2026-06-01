@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.entity.Cow",
+  "methods": [
+    "public abstract org.bukkit.entity.Cow$Variant getVariant()",
+    "public abstract void setVariant(org.bukkit.entity.Cow$Variant)"
+  ],
+  "method_count": 2
+}

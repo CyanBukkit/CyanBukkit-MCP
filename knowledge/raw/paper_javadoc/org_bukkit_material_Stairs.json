@@ -1,0 +1,18 @@
+{
+  "class_name": "org.bukkit.material.Stairs",
+  "methods": [
+    "public org.bukkit.material.Stairs(org.bukkit.Material)",
+    "public org.bukkit.material.Stairs(org.bukkit.Material, byte)",
+    "public org.bukkit.block.BlockFace getAscendingDirection()",
+    "public org.bukkit.block.BlockFace getDescendingDirection()",
+    "public void setFacingDirection(org.bukkit.block.BlockFace)",
+    "public org.bukkit.block.BlockFace getFacing()",
+    "public boolean isInverted()",
+    "public void setInverted(boolean)",
+    "public java.lang.String toString()",
+    "public org.bukkit.material.Stairs clone()",
+    "public org.bukkit.material.MaterialData clone()",
+    "public java.lang.Object clone()"
+  ],
+  "method_count": 12
+}

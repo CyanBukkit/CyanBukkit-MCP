@@ -1,0 +1,11 @@
+{
+  "class_name": "org.bukkit.packs.ResourcePack",
+  "methods": [
+    "public abstract java.util.UUID getId()",
+    "public abstract java.lang.String getUrl()",
+    "public abstract java.lang.String getHash()",
+    "public abstract java.lang.String getPrompt()",
+    "public abstract boolean isRequired()"
+  ],
+  "method_count": 5
+}

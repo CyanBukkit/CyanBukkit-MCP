@@ -1,0 +1,14 @@
+{
+  "class_name": "org.bukkit.event.player.PlayerJoinEvent",
+  "methods": [
+    "public org.bukkit.event.player.PlayerJoinEvent(org.bukkit.entity.Player, net.kyori.adventure.text.Component)",
+    "public org.bukkit.event.player.PlayerJoinEvent(org.bukkit.entity.Player, java.lang.String)",
+    "public net.kyori.adventure.text.Component joinMessage()",
+    "public void joinMessage(net.kyori.adventure.text.Component)",
+    "public java.lang.String getJoinMessage()",
+    "public void setJoinMessage(java.lang.String)",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 8
+}

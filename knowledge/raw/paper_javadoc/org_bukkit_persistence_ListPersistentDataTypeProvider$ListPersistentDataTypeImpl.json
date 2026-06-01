@@ -1,0 +1,13 @@
+{
+  "class_name": "org.bukkit.persistence.ListPersistentDataTypeProvider$ListPersistentDataTypeImpl",
+  "methods": [
+    "public java.lang.Class<java.util.List<P>> getPrimitiveType()",
+    "public java.lang.Class<java.util.List<C>> getComplexType()",
+    "public java.util.List<P> toPrimitive(java.util.List<C>, org.bukkit.persistence.PersistentDataAdapterContext)",
+    "public java.util.List<C> fromPrimitive(java.util.List<P>, org.bukkit.persistence.PersistentDataAdapterContext)",
+    "public org.bukkit.persistence.PersistentDataType<P, C> elementType()",
+    "public java.lang.Object fromPrimitive(java.lang.Object, org.bukkit.persistence.PersistentDataAdapterContext)",
+    "public java.lang.Object toPrimitive(java.lang.Object, org.bukkit.persistence.PersistentDataAdapterContext)"
+  ],
+  "method_count": 7
+}

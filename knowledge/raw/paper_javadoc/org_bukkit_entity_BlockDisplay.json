@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.entity.BlockDisplay",
+  "methods": [
+    "public abstract org.bukkit.block.data.BlockData getBlock()",
+    "public abstract void setBlock(org.bukkit.block.data.BlockData)"
+  ],
+  "method_count": 2
+}

@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.entity.Warden$AngerLevel",
+  "methods": [
+    "public static org.bukkit.entity.Warden$AngerLevel[] values()",
+    "public static org.bukkit.entity.Warden$AngerLevel valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

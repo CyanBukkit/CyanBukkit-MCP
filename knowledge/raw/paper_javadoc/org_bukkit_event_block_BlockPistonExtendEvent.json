@@ -1,0 +1,12 @@
+{
+  "class_name": "org.bukkit.event.block.BlockPistonExtendEvent",
+  "methods": [
+    "public org.bukkit.event.block.BlockPistonExtendEvent(org.bukkit.block.Block, int, org.bukkit.block.BlockFace)",
+    "public org.bukkit.event.block.BlockPistonExtendEvent(org.bukkit.block.Block, java.util.List<org.bukkit.block.Block>, org.bukkit.block.BlockFace)",
+    "public int getLength()",
+    "public java.util.List<org.bukkit.block.Block> getBlocks()",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 6
+}

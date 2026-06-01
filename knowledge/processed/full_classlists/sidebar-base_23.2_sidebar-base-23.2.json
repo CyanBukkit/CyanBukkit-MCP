@@ -1,0 +1,24 @@
+{
+  "jar": "C:\\Users\\SmallXY\\.m2\\repository\\com\\andrei1058\\spigot\\sidebar\\sidebar-base\\23.2\\sidebar-base-23.2.jar",
+  "artifact": "sidebar-base/23.2/sidebar-base-23.2",
+  "class_count": 16,
+  "all_classes": [
+    "com.andrei1058.spigot.sidebar.ScoreLine",
+    "com.andrei1058.spigot.sidebar.SidebarLine",
+    "com.andrei1058.spigot.sidebar.PlayerTab$PushingRule",
+    "com.andrei1058.spigot.sidebar.SidebarManager",
+    "com.andrei1058.spigot.sidebar.SidebarProvider",
+    "com.andrei1058.spigot.sidebar.Sidebar",
+    "com.andrei1058.spigot.sidebar.PlayerTab",
+    "com.andrei1058.spigot.sidebar.WrappedSidebar",
+    "com.andrei1058.spigot.sidebar.SidebarObjective",
+    "com.andrei1058.spigot.sidebar.SidebarManager$1",
+    "com.andrei1058.spigot.sidebar.PlayerTab$NameTagVisibility",
+    "com.andrei1058.spigot.sidebar.VersionedTabGroup",
+    "com.andrei1058.spigot.sidebar.SidebarLineAnimated",
+    "com.andrei1058.spigot.sidebar.PlaceholderProvider",
+    "com.andrei1058.spigot.sidebar.PAPIAdapter",
+    "com.andrei1058.spigot.sidebar.PAPISupport"
+  ],
+  "truncated": false
+}

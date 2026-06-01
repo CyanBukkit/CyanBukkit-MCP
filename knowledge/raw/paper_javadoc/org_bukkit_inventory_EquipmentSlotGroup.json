@@ -1,0 +1,11 @@
+{
+  "class_name": "org.bukkit.inventory.EquipmentSlotGroup",
+  "methods": [
+    "public boolean test(org.bukkit.inventory.EquipmentSlot)",
+    "public java.lang.String toString()",
+    "public org.bukkit.inventory.EquipmentSlot getExample()",
+    "public static org.bukkit.inventory.EquipmentSlotGroup getByName(java.lang.String)",
+    "public boolean test(java.lang.Object)"
+  ],
+  "method_count": 5
+}

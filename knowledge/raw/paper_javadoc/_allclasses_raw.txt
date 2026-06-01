@@ -1,0 +1,4724 @@
+All Classes and Interfaces (paper-api 1.21.4-R0.1-SNAPSHOT API)
+JavaScript is disabled on your browser.
+You are looking at old Javadocs for Paper 1.21.4.
+    Click here to look at Paper 26.1.2 instead.
+Skip navigation links
+Overview
+Package
+Class
+Use
+Tree
+Deprecated
+Index
+Help
+SEARCH
+All Classes and Interfaces
+All Classes and Interfaces
+Interfaces
+Classes
+Enum Classes
+Record Classes
+Exception Classes
+Annotation Interfaces
+Class
+Description
+AbstractArrow
+Represents an arrow.
+AbstractArrow.PickupRule
+Deprecated.
+AbstractArrow.PickupStatus
+Represents the pickup status of this arrow.
+AbstractChatEvent
+An abstract implementation of a chat event, handling shared logic.
+AbstractHorse
+Represents a Horse-like creature.
+AbstractHorseInventory
+An interface to the inventory of an
+AbstractHorse
+.
+AbstractSkeleton
+This interface defines or represents the abstract concept of skeleton-like
+ entities on the server.
+AbstractVillager
+Represents a villager NPC
+AbstractWindCharge
+Represents a Wind Charge.
+AcaciaBoat
+Represents an acacia boat.
+AcaciaChestBoat
+Represents an acacia chest boat.
+Action
+Advancement
+Represents an advancement that may be awarded to a player.
+AdvancementDisplay
+Describes the display of an advancement.
+AdvancementDisplay
+Deprecated, for removal: This API element is subject to removal in a future version.
+use
+AdvancementDisplay
+AdvancementDisplay.Frame
+Defines how the
+AdvancementDisplay.icon()
+appears in the advancements screen and
+ the color used with the
+advancement name
+.
+AdvancementDisplayType
+Deprecated, for removal: This API element is subject to removal in a future version.
+use
+AdvancementDisplay.Frame
+AdvancementProgress
+The individual status of an advancement for a player.
+AdvancementRequirement
+AdvancementRequirements
+The list of requirements for the advancement.
+Ageable
+'age' represents the different growth stages that a crop-like block can go
+ through.
+Ageable
+Represents an entity that can age.
+Allay
+An Allay.
+Ambient
+Represents an ambient mob
+AmethystCluster
+AnaloguePowerable
+'power' represents the redstone power level currently being emitted or
+ transmitted via this block.
+Animals
+Represents an Animal.
+AnimalTamer
+AnvilDamagedEvent
+Called when an anvil is damaged from being used
+AnvilDamagedEvent.DamageState
+Represents the amount of damage on an anvil block
+AnvilInventory
+Interface to the inventory of an Anvil.
+AnvilView
+An instance of
+InventoryView
+which provides extra methods related to
+ anvil view data.
+AreaEffectCloud
+Represents an area effect cloud which will imbue a potion effect onto
+ entities which enter it.
+AreaEffectCloudApplyEvent
+Called when a lingering potion applies its effects.
+ArgumentResolver<T>
+An
+ArgumentResolver
+is capable of resolving
+ an argument value using a
+CommandSourceStack
+.
+ArgumentTypes
+Vanilla Minecraft includes several custom
+ArgumentType
+s that are recognized by the client.
+Armadillo
+Represents an Armadillo.
+ArmoredHorseInventory
+ArmorMeta
+Represents armor that an entity can equip.
+ArmorStand
+ArmorStand.LockType
+Represents types of locking mechanisms for ArmorStand equipment.
+ArmorStandMeta
+ArmorTrim
+Represents an armor trim that may be applied to an item.
+Arrow
+ArrowBodyCountChangeEvent
+Called when an arrow enters or exists an entity's body.
+Art
+Represents the art on a painting.
+AsyncChatCommandDecorateEvent
+AsyncChatDecorateEvent
+This event is fired when the server decorates a component for chat purposes.
+AsyncChatEvent
+An event fired when a
+Player
+sends a chat message to the server.
+AsyncPlayerChatEvent
+Deprecated.
+use
+AsyncChatEvent
+instead
+AsyncPlayerChatPreviewEvent
+Deprecated.
+chat previews have been removed
+AsyncPlayerPreLoginEvent
+Stores details for players attempting to log in.
+AsyncPlayerPreLoginEvent.Result
+Basic kick reasons for communicating to plugins
+AsyncPlayerSendCommandsEvent<S>
+Fired any time a Brigadier RootCommandNode is generated for a player to inform the client of commands.
+AsyncPlayerSendSuggestionsEvent
+Called when sending
+Suggestions
+to the client.
+AsyncScheduler
+Scheduler that may be used by plugins to schedule tasks to execute asynchronously from the server tick process.
+AsyncStructureGenerateEvent
+This event will sometimes fire synchronously, depending on how it was
+ triggered.
+AsyncStructureGenerateEvent.Cause
+AsyncStructureSpawnEvent
+Called when a
+Structure
+is naturally generated in the world.
+AsyncTabCompleteEvent
+Allows plugins to compute tab completion results asynchronously.
+AsyncTabCompleteEvent.Completion
+A rich tab completion, consisting of a string suggestion, and a nullable
+Component
+tooltip.
+Attachable
+'attached' denotes whether a tripwire hook or string forms a complete
+ tripwire circuit and is ready to trigger.
+Attachable
+Indicates that a block can be attached to another block
+Attributable
+Represents an object which may contain attributes.
+Attribute
+Types of attributes which may be present on an
+Attributable
+.
+AttributeInstance
+Represents a mutable instance of an attribute and its associated modifiers
+ and values.
+AttributeKeys
+Vanilla keys for
+RegistryKey.ATTRIBUTE
+.
+AttributeModifier
+Concrete implementation of an attribute modifier.
+AttributeModifier.Operation
+Enumerable operation to be applied.
+AuthorNagException
+Axis
+Represents a mutually perpendicular axis in 3D Cartesian coordinates.
+Axolotl
+An Axolotl.
+Axolotl.Variant
+Represents the variant of a axolotl - ie its color.
+AxolotlBucketMeta
+Represents a bucket of axolotl.
+Bamboo
+'leaves' represents the size of the leaves on this bamboo block.
+Bamboo.Leaves
+Bamboo leaf size.
+BambooChestRaft
+Represents a bamboo chest raft.
+BambooRaft
+Represents a bamboo raft.
+BanEntry<T>
+A single entry from a ban list.
+BanList<T>
+A ban list, containing bans of some
+BanList.Type
+.
+BanList.Type
+Deprecated.
+use
+BanListType
+to enforce the correct return value at compile time.
+BanListType<T>
+Represents a ban-type that a
+BanList
+may track.
+Banner
+Represents a captured state of a banner.
+Banner
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+BannerMeta
+BannerPatternKeys
+Vanilla keys for
+RegistryKey.BANNER_PATTERN
+.
+BannerPatternLayers
+Holds the layers of patterns on a banner.
+BannerPatternLayers.Builder
+Builder for
+BannerPatternLayers
+.
+BannerPatternRegistryEntry
+A data-centric version-specific registry entry for the
+PatternType
+type.
+BannerPatternRegistryEntry.Builder
+A mutable builder for the
+BannerPatternRegistryEntry
+plugins may change in applicable registry events.
+BannerPatternTagKeys
+Vanilla keys for
+RegistryKey.BANNER_PATTERN
+.
+BarColor
+BarFlag
+Barrel
+Represents a captured state of a Barrel.
+Barrel
+BarStyle
+BaseSpawner
+Represents a basic entity spawner.
+BaseTag<T,
+C>
+BasicCommand
+Implementing this interface allows for easily creating "Bukkit-style"
+String[] args
+commands.
+Bat
+Represents a Bat
+BatToggleSleepEvent
+Called when a bat attempts to sleep or wake up from its slumber.
+Beacon
+Represents a captured state of a beacon.
+BeaconActivatedEvent
+Called when a beacon is activated.
+BeaconDeactivatedEvent
+Called when a beacon is deactivated, either because its base block(s) or itself were destroyed.
+BeaconEffectEvent
+Called when a beacon effect is being applied to a player.
+BeaconInventory
+Interface to the inventory of a Beacon.
+BeaconView
+An instance of
+InventoryView
+which provides extra methods related to
+ beacon view data.
+Bed
+Represents a captured state of a bed.
+Bed
+Similar to
+Bisected
+, 'part' denotes which half of the bed this block
+ corresponds to.
+Bed
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+Bed.Part
+Horizontal half of a bed.
+Bee
+Represents a Bee.
+Beehive
+Represents a captured state of a bee hive.
+Beehive
+'honey_level' represents the amount of honey stored in the hive.
+Bell
+Represents a captured state of Bell.
+Bell
+'attachment' denotes how the bell is attached to its block.
+Bell.Attachment
+What the bell is attached to.
+BellResonateEvent
+Called when a bell resonated after being rung and highlights nearby raiders.
+BellRevealRaiderEvent
+Deprecated.
+use
+BellResonateEvent
+BellRingEvent
+Deprecated.
+use
+BellRingEvent
+BellRingEvent
+Called when a bell is being rung.
+BigDripleaf
+'tilt' indicates how far the leaf is tilted.
+BigDripleaf.Tilt
+The tilt of a leaf.
+Biome
+Holds all accepted Biomes in the server.
+BiomeKeys
+Vanilla keys for
+RegistryKey.BIOME
+.
+BiomeParameterPoint
+Represents the biome noise parameters which may be passed to a world
+ generator.
+BiomeProvider
+Class for providing biomes.
+BiomeSearchResult
+Holds the result of searching for a biome.
+BiomeTagKeys
+Vanilla keys for
+RegistryKey.BIOME
+.
+BirchBoat
+Represents a birch boat.
+BirchChestBoat
+Represents a birch chest boat.
+Bisected
+'half' denotes which half of a two block tall material this block is.
+Bisected.Half
+The half of a vertically bisected block.
+BlastFurnace
+Represents a captured state of a blast furnace.
+BlastingRecipe
+Represents a campfire recipe.
+Blaze
+Represents a Blaze monster
+Block
+Represents a block.
+BlockBreakBlockEvent
+Called when a block forces another block to break and drop items.
+BlockBreakEvent
+Called when a block is broken by a player.
+BlockBreakProgressUpdateEvent
+Called when the progress of a block break is updated.
+BlockBurnEvent
+Called when a block is destroyed as a result of being burnt by fire.
+BlockCanBuildEvent
+Called when we try to place a block, to see if we can build it here or not.
+BlockChangeDelegate
+A delegate for handling block changes.
+BlockCommandSender
+BlockCookEvent
+Called when an ItemStack is successfully cooked in a block.
+BlockDamageAbortEvent
+Called when a player stops damaging a Block.
+BlockDamageEvent
+Called when a block is damaged by a player.
+BlockData
+BlockDataMeta
+BlockDestroyEvent
+Fired anytime the server intends to 'destroy' a block through some triggering reason.
+BlockDispenseArmorEvent
+Called when an equippable item is dispensed from a block and equipped on a
+ nearby entity.
+BlockDispenseEvent
+Called when an item is dispensed from a block.
+BlockDispenseLootEvent
+Called when a block dispenses loot from its designated LootTable.
+BlockDisplay
+Represents a block display entity.
+BlockDropItemEvent
+Called after a block is broken by a player and potential drops are computed, even if said blocks loot table
+ does not define any drops at the point the event is constructed.
+BlockEvent
+Represents a block related event.
+BlockExpEvent
+An event that's called when a block yields experience.
+BlockExplodeEvent
+Called when a block explodes.
+BlockFace
+Represents the face of a block
+BlockFadeEvent
+Called when a block fades, melts or disappears based on world conditions
+BlockFailedDispenseEvent
+Called when a block tries to dispense an item, but its inventory is empty.
+BlockFertilizeEvent
+Called with the block changes resulting from a player fertilizing a given
+ block with bonemeal.
+BlockFormEvent
+Called when a block is formed or spreads based on world conditions.
+BlockFromToEvent
+Represents events with a source block and a destination block, currently
+ only applies to liquid (lava and water) and teleporting dragon eggs.
+BlockGrowEvent
+Called when a block grows naturally in the world.
+BlockIgniteEvent
+Called when a block is ignited.
+BlockIgniteEvent.IgniteCause
+An enum to specify the cause of the ignite
+BlockInventoryHolder
+Represents a block inventory holder - either a BlockState, or a regular
+ Block.
+BlockItemDataProperties
+Holds the
+BlockData
+properties of a block item.
+BlockItemDataProperties.Builder
+Builder for
+BlockItemDataProperties
+.
+BlockIterator
+This class performs ray tracing and iterates along blocks on a line
+BlockLockCheckEvent
+Called when the server tries to check the lock on a lockable block entity.
+BlockMultiPlaceEvent
+Fired when a single block placement action of a player triggers the
+ creation of multiple blocks(e.g.
+BlockPhysicsEvent
+Thrown when a block physics check is called.
+BlockPistonEvent
+Called when a piston block is triggered
+BlockPistonExtendEvent
+Called when a piston extends
+BlockPistonRetractEvent
+Called when a piston retracts
+BlockPlaceEvent
+Called when a block is placed by a player.
+BlockPopulator
+A block populator is responsible for generating a small area of blocks.
+BlockPosition
+A position represented with integers.
+BlockPositionResolver
+An
+ArgumentResolver
+that's capable of resolving
+ a block position argument value using a
+CommandSourceStack
+.
+BlockPredicate
+BlockPredicate.Builder
+BlockPreDispenseEvent
+BlockProjectileSource
+BlockReceiveGameEvent
+Called when a Sculk sensor receives a game event and hence might activate.
+BlockRedstoneEvent
+Called when a redstone current changes
+BlockShearEntityEvent
+Event fired when a dispenser shears a nearby sheep.
+BlockSoundGroup
+Deprecated, for removal: This API element is subject to removal in a future version.
+use
+SoundGroup
+BlockSpreadEvent
+Called when a block spreads based on world conditions.
+BlockState
+Represents a captured state of a block, which will not change
+ automatically.
+BlockStateMeta
+BlockSupport
+Represents a level of support a block can give on one of its faces.
+BlockTransformer
+A BlockTransformer is used to modify blocks that are placed by structure.
+BlockTransformer.TransformationState
+The TransformationState allows access to the original block state and the
+ block state of the block that was at the location of the transformation
+ in the world before the transformation started.
+BlockType
+While this API is in a public interface, it is not intended for use by
+ plugins until further notice.
+BlockType.Typed<B>
+Typed represents a subtype of
+BlockType
+s that have a known block
+ data type at compile time.
+BlockTypeKeys
+Vanilla keys for
+RegistryKey.BLOCK
+.
+BlockTypeTagKeys
+Vanilla keys for
+RegistryKey.BLOCK
+.
+BlockVector
+A vector with a hash function that floors the X, Y, Z components, a la
+ BlockVector in WorldEdit.
+Boat
+Represents a boat entity.
+Boat.Status
+Represents the status of the boat.
+Boat.Type
+Deprecated.
+different boats types are now different entity types
+Bogged
+Represents a Bogged Skeleton.
+BookMeta
+Represents a
+Material.WRITTEN_BOOK
+that can have a title, an author,
+ and pages.
+BookMeta.BookMetaBuilder
+BookMeta.Generation
+Represents the generation (or level of copying) of a written book
+BookMeta.Spigot
+BooleanPrompt
+BooleanPrompt is the base class for any prompt that requires a boolean
+ response from the user.
+BootstrapContext
+Represents the context provided to a
+PluginBootstrap
+during both the bootstrapping and plugin
+ instantiation logic.
+Boss
+Represents the Boss Entity.
+BossBar
+BoundingBox
+A mutable axis aligned bounding box (AABB).
+Breedable
+Represents an entity that can age and breed.
+Breeze
+Represents a Breeze.
+BreezeWindCharge
+Represents a Wind Charge.
+BrewerInventory
+Interface to the inventory of a Brewing Stand.
+BrewEvent
+Called when the brewing of the contents inside the Brewing Stand is
+ complete.
+BrewingStand
+Represents a captured state of a brewing stand.
+BrewingStand
+Interface to the 'has_bottle_0', 'has_bottle_1', 'has_bottle_2' flags on a
+ brewing stand which indicate which bottles are rendered on the outside.
+BrewingStandFuelEvent
+Called when an ItemStack is about to increase the fuel level of a brewing
+ stand.
+BrewingStandView
+An instance of
+InventoryView
+which provides extra methods related to
+ brewing stand view data.
+BrewingStartEvent
+Called when a brewing stand starts to brew.
+BroadcastMessageEvent
+Event triggered for server broadcast messages such as from
+Server.broadcast(net.kyori.adventure.text.Component)
+(String, String)}.
+BroadcastPermissions
+Brushable
+'dusted' represents how far uncovered by brush the block is.
+BrushableBlock
+Represents a captured state of suspicious sand or gravel.
+BubbleColumn
+'drag' indicates whether a force will be applied on entities moving through
+ this block.
+Bucketable
+Represents an entity that can be bucketed.
+BufferedCommandSender
+Deprecated, for removal: This API element is subject to removal in a future version.
+Timings will be removed in the future
+BuildableDataComponent<C,
+B>
+Bukkit
+Represents the Bukkit core, for version and Server singleton handling
+BukkitBrigadierCommand<S>
+Deprecated, for removal: This API element is subject to removal in a future version.
+For removal, see
+Commands
+on how to use the new Brigadier API.
+BukkitBrigadierCommandSource
+Deprecated, for removal: This API element is subject to removal in a future version.
+For removal, see
+Commands
+on how to use the new Brigadier API.
+BukkitCommand
+BukkitObjectInputStream
+Deprecated.
+Object streams on their own are not safe.
+BukkitObjectOutputStream
+Deprecated.
+Object streams on their own are not safe.
+BukkitRunnable
+This class is provided as an easy way to handle scheduling tasks.
+BukkitScheduler
+BukkitTask
+Represents a task being executed by the scheduler
+BukkitWorker
+Represents a worker thread for the scheduler.
+BundleContents
+Holds all items stored inside of a Bundle.
+BundleContents.Builder
+Builder for
+BundleContents
+.
+BundleMeta
+Button
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+CachedServerIcon
+This is a cached version of a server-icon.
+CachedSizeConcurrentLinkedQueue<E>
+Cake
+'bites' represents the amount of bites which have been taken from this slice
+ of cake.
+Cake
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+CalibratedSculkSensor
+Represents a captured state of a calibrated sculk sensor
+CalibratedSculkSensor
+Camel
+Represents a Camel.
+Campfire
+Represents a captured state of a campfire.
+Campfire
+'signal_fire' denotes whether the fire is extra smokey due to having a hay
+ bale placed beneath it.
+CampfireRecipe
+Represents a campfire recipe.
+CampfireStartEvent
+Called when a Campfire starts to cook.
+Cancellable
+A type characterizing events that may be cancelled by a plugin or the server.
+Candle
+'candles' represents the number of candles which are present.
+CartographyInventory
+Interface to the inventory of a Cartography table.
+CartographyItemEvent
+Called when the recipe of an Item is completed inside a cartography table.
+Cat
+Meow.
+Cat.Type
+Represents the various different cat types there are.
+CatVariantKeys
+Vanilla keys for
+RegistryKey.CAT_VARIANT
+.
+CatVariantTagKeys
+Vanilla keys for
+RegistryKey.CAT_VARIANT
+.
+Cauldron
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+CauldronLevelChangeEvent
+CauldronLevelChangeEvent.ChangeReason
+CaveSpider
+Represents a Spider.
+CaveVines
+CaveVinesPlant
+'berries' indicates whether the block has berries.
+Chain
+ChannelNameTooLongException
+Thrown if a Plugin Channel is too long.
+ChannelNotRegisteredException
+Thrown if a Plugin attempts to send a message on an unregistered channel.
+ChargedProjectiles
+Holds all projectiles that have been loaded into a Crossbow.
+ChargedProjectiles.Builder
+Builder for
+ChargedProjectiles
+.
+ChatColor
+Deprecated.
+ChatColor has been deprecated in favor of
+Adventure
+API.
+ChatEvent
+Deprecated.
+Listening to this event forces chat to wait for the main thread, delaying chat messages.
+ChatPaginator
+The ChatPaginator takes a raw string of arbitrary length and breaks it down
+ into an array of strings appropriate for displaying on the Minecraft player
+ console.
+ChatPaginator.ChatPage
+ChatRenderer
+A chat renderer is responsible for rendering chat messages sent by
+Player
+s to the server.
+ChatRenderer.Default
+ChatRenderer.ViewerUnaware
+Similar to
+ChatRenderer
+, but without knowledge of the message viewer.
+CherryBoat
+Represents a cherry boat.
+CherryChestBoat
+Represents a cherry chest boat.
+Chest
+Represents a captured state of a chest.
+Chest
+'type' represents which part of a double chest this block is, or if it is a
+ single chest.
+Chest
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+Chest.Type
+Type of this chest block.
+ChestBoat
+A
+Boat
+with a chest.
+ChestedHorse
+Represents Horse-like creatures which can carry an inventory.
+Chicken
+Represents a Chicken.
+ChiseledBookshelf
+Represents a captured state of a chiseled bookshelf.
+ChiseledBookshelf
+Interface to the 'slot_0_occupied', 'slow_1_occupied' ...
+ChiseledBookshelfInventory
+Interface to the inventory of a chiseled bookshelf.
+Chunk
+Represents a chunk of blocks.
+Chunk.LoadLevel
+An enum to specify the load level of a chunk.
+ChunkEvent
+Represents a Chunk related event
+ChunkGenerator
+A chunk generator is responsible for the initial shaping of an entire
+ chunk.
+ChunkGenerator.BiomeGrid
+Deprecated.
+Biomes are now set with
+BiomeProvider
+ChunkGenerator.ChunkData
+Data for a Chunk.
+ChunkLoadEvent
+Called when a chunk is loaded
+ChunkPopulateEvent
+Thrown when a newly generated chunk has finished being populated.
+ChunkSnapshot
+Represents a static, thread-safe snapshot of chunk of blocks.
+ChunkUnloadEvent
+Called when a chunk is unloaded
+ClassLoaderAccess
+The class loader access interface is an
+internal
+representation of a class accesses' ability to see types
+ from other
+ConfiguredPluginClassLoader
+.
+ClassPathLibrary
+The classpath library interface represents libraries that are capable of registering themselves via
+ClassPathLibrary.register(LibraryStore)
+on any given
+LibraryStore
+.
+ClickType
+What the client did to trigger this action (not the result).
+ClientOption<T>
+ClientOption.ChatVisibility
+ClientOption.ParticleVisibility
+ClientTickEndEvent
+Called when a
+minecraft:client_tick_end
+packet is received by the server.
+Coal
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+CoalType
+Deprecated, for removal: This API element is subject to removal in a future version.
+Cocoa
+CocoaPlant
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+CocoaPlant.CocoaPlantSize
+Cod
+Represents a cod fish.
+CollarColorable
+Entities that can have their collars colored.
+Color
+A container for a color palette.
+Colorable
+An object that can be colored.
+ColorableArmorMeta
+Represents armor that an entity can equip and can also be colored.
+Command
+Represents a Command, which executes various tasks upon user input
+Command
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+CommandBlock
+Represents a captured state of a command block.
+CommandBlock
+'conditional' denotes whether this command block is conditional or not, i.e.
+CommandBlockHolder
+CommandException
+Thrown when an unhandled exception occurs during the execution of a Command
+CommandExecutor
+Represents a class which contains a single method for executing commands
+CommandMap
+CommandMinecart
+CommandPermissions
+CommandRegisteredEvent<S>
+Deprecated.
+For removal, use the new brigadier api.
+CommandRegistrationFlag
+A
+CommandRegistrationFlag
+is used in
+Commands
+registration for internal purposes.
+Commands
+The registrar for custom commands.
+CommandSender
+CommandSender.Spigot
+CommandSourceStack
+The command source type for Brigadier commands registered using Paper API.
+Comparator
+Represents a captured state of an on / off comparator.
+Comparator
+'mode' indicates what mode this comparator will operate in.
+Comparator
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+Comparator.Mode
+The mode in which a comparator will operate in.
+CompassMeta
+Represents a compass that can track a specific location.
+ComplexEntityPart
+Represents a single part of a
+ComplexLivingEntity
+ComplexLivingEntity
+Represents a complex living entity - one that is made up of various smaller
+ parts
+ComplexRecipe
+Represents a complex recipe which has imperative server-defined behavior, eg
+ armor dyeing.
+CompostItemEvent
+Called when an item is about to be composted by a hopper.
+Conduit
+Represents a captured state of a conduit.
+Configuration
+Represents a source of configurable options and settings
+ConfigurationOptions
+Various settings for controlling the input and output of a
+Configuration
+ConfigurationSection
+Represents a section of a
+Configuration
+ConfigurationSerializable
+Represents an object that may be serialized.
+ConfigurationSerialization
+Utility class for storing and retrieving classes for
+Configuration
+.
+ConfiguredPluginClassLoader
+The configured plugin class loader represents an
+internal
+abstraction over the classloaders used by the server
+ to load and access a plugins classes during runtime.
+ConsoleCommandSender
+Consumable
+Holds the properties for this item for when it is consumed.
+Consumable.Builder
+Builder for
+Consumable
+.
+ConsumeEffect
+Effect that occurs when consuming an item.
+ConsumeEffect.ApplyStatusEffects
+Represents a consumable effect that applies potion effects based on a probability on consumption.
+ConsumeEffect.ClearAllStatusEffects
+Represents a consumable effect that clears all effects on consumption.
+ConsumeEffect.PlaySound
+Represents a consumable effect that plays a sound on consumption.
+ConsumeEffect.RemoveStatusEffects
+Represents a consumable effect that removes status effects on consumption.
+ConsumeEffect.TeleportRandomly
+Represents a consumable effect that randomly teleports the entity on consumption.
+Consumer<T>
+Deprecated, for removal: This API element is subject to removal in a future version.
+Use
+Consumer
+instead
+Container
+Represents a captured state of a container block.
+Conversable
+The Conversable interface is used to indicate objects that can have
+ conversations.
+Conversation
+The Conversation class is responsible for tracking the current state of a
+ conversation, displaying prompts to the user, and dispatching the user's
+ response to the appropriate place.
+Conversation.ConversationState
+ConversationAbandonedEvent
+ConversationAbandonedEvent contains information about an abandoned
+ conversation.
+ConversationAbandonedListener
+ConversationCanceller
+A ConversationCanceller is a class that cancels an active
+Conversation
+.
+ConversationContext
+A ConversationContext provides continuity between nodes in the prompt graph
+ by giving the developer access to the subject of the conversation and a
+ generic map for storing values that are shared between all
+Prompt
+invocations.
+ConversationFactory
+A ConversationFactory is responsible for creating a
+Conversation
+from a predefined template.
+ConversationPrefix
+A ConversationPrefix implementation prepends all output from the
+ conversation to the player.
+CookingBookCategory
+Represents categories within the cooking recipe book.
+CookingRecipe<T>
+Represents a cooking recipe.
+CopperBulb
+CoralWallFan
+Counter<T>
+Deprecated, for removal: This API element is subject to removal in a future version.
+Cow
+Represents a Cow.
+Crafter
+Represents a captured state of a crafter.
+Crafter
+'orientation' is the direction the block is facing.
+Crafter.Orientation
+The directions the Crafter can be oriented.
+CrafterCraftEvent
+Event called when a Crafter is about to craft an item.
+CrafterInventory
+Interface to the inventory of a Crafter.
+CrafterView
+An instance of
+InventoryView
+which provides extra methods related to
+ crafter view data.
+CraftingBookCategory
+Represents categories within the crafting recipe book.
+CraftingInventory
+Interface to the crafting inventories
+CraftingRecipe
+Represents a shaped or shapeless crafting recipe.
+CraftItemEvent
+Called when the recipe of an Item is completed inside a crafting matrix.
+Creaking
+Represents a Creaking.
+CreakingHeart
+Represents a captured state of a creaking heart.
+CreakingHeart
+'active' is whether the block is active.
+CreativeCategory
+Represents a category in the creative inventory.
+Creature
+Represents a Creature.
+CreatureSpawner
+Represents a captured state of a creature spawner.
+CreatureSpawnEvent
+Called when a creature is spawned into a world.
+CreatureSpawnEvent.SpawnReason
+An enum to specify the type of spawning
+Creeper
+Represents a Creeper
+CreeperIgniteEvent
+Called when a Creeper is ignited either by a
+ flint and steel,
+Creeper.ignite()
+or
+Creeper.setIgnited(boolean)
+.
+CreeperPowerEvent
+Called when a Creeper is struck by lightning.
+CreeperPowerEvent.PowerCause
+An enum to specify the cause of the change in power
+Criteria
+Represents a scoreboard criteria, either custom or built-in to the Minecraft server, used to
+ keep track of and manually or automatically change scores on a scoreboard.
+Criterias
+Deprecated, for removal: This API element is subject to removal in a future version.
+use the constants declared in
+Criteria
+instead
+Crops
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+CropState
+Deprecated, for removal: This API element is subject to removal in a future version.
+CrossbowMeta
+CustomArgumentType<T,
+N>
+An argument type that wraps around a native-to-vanilla argument type.
+CustomArgumentType.Converted<T,
+N>
+An argument type that wraps around a native-to-vanilla argument type.
+CustomItemTagContainer
+Deprecated, for removal: This API element is subject to removal in a future version.
+this API part has been replaced by the
+PersistentDataHolder
+API.
+CustomModelData
+Holds the custom model data.
+CustomModelData.Builder
+Builder for
+CustomModelData
+.
+CustomModelDataComponent
+Represents a component which adds custom model data.
+CustomTimingsHandler
+Deprecated, for removal: This API element is subject to removal in a future version.
+Damageable
+Represents an
+Entity
+that has health and can take damage.
+Damageable
+Represents an item that has durability and can take damage.
+DamageEffect
+Represents a type of effect that occurs when damage is inflicted.
+DamageResistant
+Holds the contents of damage types that the item entity containing this item is invincible to.
+DamageScaling
+A means of damage scaling with respect to the server's difficulty.
+DamageSource
+Represents a source of damage.
+DamageSource.Builder
+Utility class to make building a
+DamageSource
+easier.
+DamageType
+Represent a type of damage that an entity can receive.
+DamageTypeKeys
+Vanilla keys for
+RegistryKey.DAMAGE_TYPE
+.
+DamageTypeRegistryEntry
+A data-centric version-specific registry entry for the
+DamageType
+type.
+DamageTypeRegistryEntry.Builder
+A mutable builder for the
+DamageTypeRegistryEntry
+plugins may change in applicable registry events.
+DamageTypeTagKeys
+Vanilla keys for
+RegistryKey.DAMAGE_TYPE
+.
+DamageTypeTags
+Vanilla
+DamageType
+tags
+.
+DarkOakBoat
+Represents a dark oak boat.
+DarkOakChestBoat
+Represents a dark oak chest boat.
+DataComponentBuilder<C>
+Base builder type for all component builders.
+DataComponentType
+DataComponentType.NonValued
+DataComponentType.Valued<T>
+DataComponentTypes
+All the different types of data that
+ItemStacks
+and
+ItemTypes
+can have.
+Datapack
+This is a snapshot of a datapack on the server.
+DataPack
+Deprecated, for removal: This API element is subject to removal in a future version.
+use
+Datapack
+Datapack.Compatibility
+DataPack.Compatibility
+Show the compatibility of the data pack with the server.
+Datapack.Position
+Position of the pack in the load order.
+DataPack.Source
+Represent the source of a data pack.
+DatapackManager
+DataPackManager
+Deprecated, for removal: This API element is subject to removal in a future version.
+use
+DatapackManager
+DatapackRegistrar
+The registrar for datapacks.
+DatapackRegistrar.Configurer
+Configures additional, optional, details about a datapack.
+DatapackSource
+Source of a datapack.
+DaylightDetector
+'inverted' denotes whether this daylight detector is in the inverted mode,
+ i.e.
+DaylightDetector
+Represents a captured state of a (possibly inverted) daylight detector.
+DeathMessageType
+Represents a type of death message used by a
+DamageSource
+.
+DeathProtection
+Sets whether this item should protect the entity upon death, and what effects should be played.
+DeathProtection.Builder
+Builder for
+DeathProtection
+.
+DecoratedPot
+DecoratedPot
+Represents a captured state of a decorated pot.
+DecoratedPot.Side
+A side on a decorated pot.
+DecoratedPotInventory
+Interface to the inventory of a DecoratedPot.
+DefaultPermissions
+DelegateDeserialization
+Applies to a
+ConfigurationSerializable
+that will delegate all
+ deserialization to another
+ConfigurationSerializable
+.
+DependencyContext
+A dependency context is a read-only abstraction of a type/concept that can resolve dependencies between plugins.
+DetectorRail
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+Difficulty
+Represents the various difficulty levels that are available.
+Diode
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+Directional
+'facing' represents the face towards which the block is pointing.
+Directional
+DirectionalContainer
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+DiscoveredDatapack
+Represents a snapshot of a datapack that the server has found by
+ searching available sources.
+Dispenser
+Similar to
+Powerable
+, 'triggered' indicates whether or not the
+ dispenser is currently activated.
+Dispenser
+Represents a captured state of a dispenser.
+Dispenser
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+Display
+Represents a display entity which is designed to only have a visual function.
+Display.Billboard
+Describes the axes/points around which the entity can pivot.
+Display.Brightness
+Represents the brightness rendering parameters of the entity.
+DisplaySlot
+Locations for displaying objectives to the player
+Dolphin
+Donkey
+Represents a Donkey - variant of
+ChestedHorse
+.
+DoNotUse
+Annotation used to mark methods or constructors which should not be called.
+Door
+'hinge' indicates which hinge this door is attached to and will rotate around
+ when opened.
+Door
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+Door.Hinge
+The hinge of a door.
+DoubleChest
+Represents a double chest.
+DoubleChestInventory
+Interface to the inventory of a Double Chest.
+DoubleRangeProvider
+A provider for a
+Range
+of doubles.
+DragonBattle
+Represents a dragon battle state for a world with an end environment.
+DragonBattle.RespawnPhase
+Represents a phase in the dragon respawn process.
+DragonEggFormEvent
+Called when the
+EnderDragon
+is defeated (killed) in a
+DragonBattle
+,
+ causing a
+Material.DRAGON_EGG
+(more formally:
+BlockGrowEvent.getNewState()
+)
+ to possibly appear depending on
+BlockGrowEvent.isCancelled()
+.
+DragonFireball
+DragType
+Represents the effect of a drag that will be applied to an Inventory in an
+ InventoryDragEvent.
+Dripleaf
+Dropper
+Represents a captured state of a dropper.
+Drowned
+Drowned zombie.
+Dye
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+DyeColor
+All supported color values for dyes and cloth
+DyedItemColor
+Represents a color applied to a dyeable item.
+DyedItemColor.Builder
+Builder for
+DyedItemColor
+.
+Effect
+A list of effects that the server is able to send to players.
+Effect.Type
+Deprecated.
+not representative of what Effect does
+Egg
+Represents a thrown egg.
+ElderGuardian
+Represents an ElderGuardian - variant of
+Guardian
+.
+ElderGuardianAppearanceEvent
+Is called when an
+ElderGuardian
+appears in front of a
+Player
+.
+Enchantable
+Holds if an item is enchantable, allowing for enchantments of the type to be seen in an enchanting table.
+EnchantingInventory
+Interface to the inventory of an Enchantment Table.
+EnchantingTable
+Represents a captured state of an enchanting table.
+EnchantItemEvent
+Called when an ItemStack is successfully enchanted (currently at
+ enchantment table)
+Enchantment
+The various type of enchantments that may be added to armour or weapons
+EnchantmentKeys
+Vanilla keys for
+RegistryKey.ENCHANTMENT
+.
+EnchantmentOffer
+A class for the available enchantment offers in the enchantment table.
+EnchantmentRarity
+Deprecated, for removal: This API element is subject to removal in a future version.
+Enchantments do not have a "rarity" since 1.20.5
+EnchantmentRegistryEntry
+A data-centric version-specific registry entry for the
+Enchantment
+type.
+EnchantmentRegistryEntry.Builder
+A mutable builder for the
+EnchantmentRegistryEntry
+plugins may change in applicable registry events.
+EnchantmentRegistryEntry.EnchantmentCost
+The enchantment cost interface represents the cost of applying an enchantment, split up into its different components.
+EnchantmentStorageMeta
+EnchantmentMeta is specific to items that can
+store
+enchantments, as
+ opposed to being enchanted.
+EnchantmentTagKeys
+Vanilla keys for
+RegistryKey.ENCHANTMENT
+.
+EnchantmentTarget
+Represents the applicable target for a
+Enchantment
+EnchantmentView
+An instance of
+InventoryView
+which provides extra methods related to
+ enchantment table view data.
+EnchantmentWrapper
+Deprecated, for removal: This API element is subject to removal in a future version.
+only for backwards compatibility, EnchantmentWrapper is no longer used.
+EnderChest
+EnderChest
+Represents a captured state of an ender chest.
+EnderChest
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+EnderCrystal
+A crystal that heals nearby EnderDragons
+EnderDragon
+Represents an Ender Dragon
+EnderDragon.Phase
+Represents a phase or action that an Ender Dragon can perform.
+EnderDragonChangePhaseEvent
+Called when an EnderDragon switches controller phase.
+EnderDragonFireballHitEvent
+Fired when a DragonFireball collides with a block/entity and spawns an AreaEffectCloud
+EnderDragonFlameEvent
+Fired when an EnderDragon spawns an AreaEffectCloud by shooting flames
+EnderDragonPart
+Represents an ender dragon part
+EnderDragonShootFireballEvent
+Fired when an EnderDragon shoots a fireball
+Enderman
+Represents an Enderman.
+EndermanAttackPlayerEvent
+Fired when an Enderman determines if it should attack a player or not.
+EndermanEscapeEvent
+EndermanEscapeEvent.Reason
+Endermite
+EnderPearl
+Represents a thrown Ender Pearl entity
+EnderSignal
+Represents an EnderSignal, which is created upon throwing an ender eye.
+EndGateway
+Represents a captured state of an end gateway.
+EndPortalFrame
+'eye' denotes whether this end portal frame has been activated by having an
+ eye of ender placed in it.
+Enemy
+Represents an Enemy
+EntitiesLoadEvent
+Called when entities are loaded.
+EntitiesUnloadEvent
+Called when entities are unloaded.
+Entity
+Represents a base entity in the world
+Entity.Spigot
+EntityAddToWorldEvent
+Fired any time an entity is being added to the world for any reason (including a chunk loading).
+EntityAirChangeEvent
+Called when the amount of air an entity has remaining changes.
+EntityAttemptSmashAttackEvent
+Called when an entity attempts to perform a smash attack.
+EntityBlockFormEvent
+Called when a block is formed by entities.
+EntityBlockStorage<T>
+Represents a captured state of a block which stores entities.
+EntityBreakDoorEvent
+Called when an
+Entity
+breaks a door
+EntityBreedEvent
+Called when one Entity breeds with another Entity.
+EntityCategory
+A classification of entities which may behave differently than others or be
+ affected uniquely by enchantments and potion effects among other things.
+EntityChangeBlockEvent
+Called when any Entity changes a block and a more specific event is not available.
+EntityCombustByBlockEvent
+Called when a block causes an entity to combust.
+EntityCombustByEntityEvent
+Called when an entity causes another entity to combust.
+EntityCombustEvent
+Called when an entity combusts.
+EntityCompostItemEvent
+Called when an item is about to be composted by an entity.
+EntityCreatePortalEvent
+Deprecated.
+Use
+PortalCreateEvent
+EntityDamageByBlockEvent
+Called when an entity is damaged by a block
+EntityDamageByEntityEvent
+Called when an entity is damaged by an entity
+EntityDamageEvent
+Stores data for damage events
+EntityDamageEvent.DamageCause
+An enum to specify the cause of the damage
+EntityDamageEvent.DamageModifier
+Deprecated.
+This API is responsible for a large number of implementation
+ problems and is in general unsustainable to maintain.
+EntityDamageItemEvent
+Called when an item on or used by an entity takes durability damage as a result of being hit/used.
+EntityDeathEvent
+Thrown whenever a LivingEntity dies
+EntityDismountEvent
+Called when an entity stops riding another entity.
+EntityDropItemEvent
+Thrown when an entity creates an item drop.
+EntityDyeEvent
+Called when an entity is dyed.
+EntityEffect
+A list of all effects that can happen to entities.
+EntityEffectTickEvent
+An event that is triggered when an entity receives a potion effect instantly
+ or when the potion effect is applied on each tick (e.g.
+EntityEnterBlockEvent
+Called when an
+Entity
+enters a block and is stored in that block.
+EntityEnterLoveModeEvent
+Called when an entity enters love mode.
+EntityEquipment
+An interface to a creatures inventory
+EntityEquipmentChangedEvent
+Called whenever a change to an entity's equipment has been detected.
+EntityEquipmentChangedEvent.EquipmentChange
+Represents a change in equipment for a single equipment slot.
+EntityEvent
+Represents an Entity-related event
+EntityExhaustionEvent
+Called when a human entity experiences exhaustion.
+EntityExhaustionEvent.ExhaustionReason
+The reason for why a PlayerExhaustionEvent takes place
+EntityExplodeEvent
+Called when an entity explodes interacting with blocks.
+EntityFactory
+EntityFertilizeEggEvent
+Called when two entities mate and the mating process results in a fertilization.
+EntityInsideBlockEvent
+Called when an entity enters the hitbox of a block.
+EntityInteractEvent
+Called when an entity interacts with an object
+EntityJumpEvent
+Called when an entity jumps
+EntityKnockbackByEntityEvent
+Fired when an Entity is knocked back by the hit of another Entity.
+EntityKnockbackByEntityEvent
+Deprecated, for removal: This API element is subject to removal in a future version.
+use
+EntityKnockbackByEntityEvent
+EntityKnockbackEvent
+Called when an entity receives knockback.
+EntityKnockbackEvent
+Deprecated, for removal: This API element is subject to removal in a future version.
+use
+EntityKnockbackEvent
+EntityKnockbackEvent.Cause
+An enum to specify the cause of the knockback.
+EntityKnockbackEvent.KnockbackCause
+An enum to specify the cause of the knockback.
+EntityLoadCrossbowEvent
+Called when a LivingEntity loads a crossbow with a projectile.
+EntityMountEvent
+Called when an entity attempts to ride another entity.
+EntityMoveEvent
+Holds information for living entity movement events
+EntityPathfindEvent
+Fired when an Entity decides to start moving towards a location.
+EntityPickupItemEvent
+Thrown when an entity picks an item up from the ground
+EntityPlaceEvent
+Triggered when an entity is created in the world by a player "placing" an item
+ on a block.
+EntityPortalEnterEvent
+Called when an entity comes into contact with a portal
+EntityPortalEvent
+Called when a non-player entity is about to teleport because it is in
+ contact with a portal.
+EntityPortalExitEvent
+Called before an entity exits a portal.
+EntityPortalReadyEvent
+Called when an entity is ready to be teleported by a plugin.
+EntityPoseChangeEvent
+Called when an entity changes its pose.
+EntityPotionEffectEvent
+Called when a potion effect is modified on an entity.
+EntityPotionEffectEvent.Action
+An enum to specify the action to be performed.
+EntityPotionEffectEvent.Cause
+An enum to specify the cause why an effect was changed.
+EntityPushedByEntityAttackEvent
+Fired when an entity is pushed by another entity's attack.
+EntityRegainHealthEvent
+Stores data for health-regain events
+EntityRegainHealthEvent.RegainReason
+An enum to specify the type of health regaining that is occurring
+EntityRemoveEvent
+Called when an
+Entity
+is removed.
+EntityRemoveEvent.Cause
+Represents various ways an entity gets removed.
+EntityRemoveFromWorldEvent
+Fired any time an entity is being removed from a world for any reason (including a chunk unloading).
+EntityResurrectEvent
+Called when an entity dies and may have the opportunity to be resurrected.
+EntityScheduler
+An entity can move between worlds with an arbitrary tick delay, be temporarily removed
+ for players (i.e end credits), be partially removed from world state (i.e inactive but not removed),
+ teleport between ticking regions, teleport between worlds, and even be removed entirely from the server.
+EntitySelectorArgumentResolver
+An
+ArgumentResolver
+that's capable of resolving
+ an entity selector argument value using a
+CommandSourceStack
+.
+EntitySerializationFlag
+Represents flags for entity serialization.
+EntitySetTag
+EntityShootBowEvent
+Called when a LivingEntity shoots a bow firing an arrow
+EntitySnapshot
+Represents an immutable copy of an entity's state.
+EntitySpawnEvent
+Called when an entity is spawned into a world.
+EntitySpellCastEvent
+Called when a
+Spellcaster
+casts a spell.
+EntityTags
+All tags in this class are unmodifiable, attempting to modify them will throw an
+UnsupportedOperationException
+.
+EntityTameEvent
+Thrown when a LivingEntity is tamed
+EntityTargetEvent
+Called when a creature targets or untargets another entity
+EntityTargetEvent.TargetReason
+An enum to specify the reason for the targeting
+EntityTargetLivingEntityEvent
+Called when an Entity targets a
+LivingEntity
+and can only target
+ LivingEntity's.
+EntityTeleportEndGatewayEvent
+Fired any time an entity attempts to teleport in an end gateway
+EntityTeleportEvent
+Thrown when a non-player entity is teleported from one location to another.
+EntityToggleGlideEvent
+Sent when an entity's gliding status is toggled with an Elytra.
+EntityToggleSitEvent
+Is called when an entity sits down or stands up.
+EntityToggleSwimEvent
+Sent when an entity's swimming status is toggled.
+EntityTransformer
+A EntityTransformer is used to modify entities that are spawned by structure.
+EntityTransformEvent
+Called when an entity is about to be replaced by another entity.
+EntityTransformEvent.TransformReason
+EntityType
+EntityTypeTagKeys
+Vanilla keys for
+RegistryKey.ENTITY_TYPE
+.
+EntityUnleashEvent
+Called immediately prior to an entity being unleashed.
+EntityUnleashEvent.UnleashReason
+EntityZapEvent
+Fired when lightning strikes an entity
+EquipmentSlot
+EquipmentSlotGroup
+Represents a group of
+EquipmentSlot
+.
+Equippable
+Holds the equippable properties of an item.
+Equippable.Builder
+Builder for
+Equippable
+.
+EquippableComponent
+Represents a component which can turn any item into equippable armor.
+EulerAngle
+EulerAngle is used to represent 3 angles, one for each
+ axis (x, y, z).
+Event
+Represents an event.
+Event.Result
+EventException
+EventExecutor
+Interface which defines the class for event call backs to plugins
+EventExecutorFactory
+EventHandler
+An annotation to mark methods as being event handler methods
+EventPriority
+Represents an event's priority in execution.
+Evoker
+Represents an Evoker "Illager".
+Evoker.Spell
+Deprecated.
+future versions of Minecraft have additional spell casting
+ entities.
+EvokerFangs
+Represents Evoker Fangs.
+ExactMatchConversationCanceller
+An ExactMatchConversationCanceller cancels a conversation if the user
+ enters an exact input string
+ExpBottleEvent
+Called when a ThrownExpBottle hits and releases experience.
+ExperienceOrb
+Represents an Experience Orb.
+ExperienceOrb.SpawnReason
+Reasons for why this Experience Orb was spawned
+ExperienceOrbMergeEvent
+Fired anytime the server is about to merge 2 experience orbs into one
+ExplosionPrimeEvent
+Called when an entity has made a decision to explode.
+ExplosionResult
+Represents the outcome of an explosion.
+Explosive
+A representation of an explosive entity
+ExplosiveMinecart
+Represents a Minecart with TNT inside it that can explode when triggered.
+ExtendedRails
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+FaceAttachable
+'face' represents the face to which a lever or button is stuck.
+FaceAttachable.AttachedFace
+The face to which a switch type block is stuck.
+FallingBlock
+Represents a falling block
+FallingFluidData
+A specific subtype of
+FluidData
+that is returned by the API for fluid data of potentially falling fluids.
+Farmland
+The 'moisture' level of farmland indicates how close it is to a water source
+ (if any).
+FeatureDependant
+Implemented by types in built-in registries that are controlled by
+FeatureFlags
+.
+FeatureFlag
+This represents a Feature Flag for a
+FeatureFlagSetHolder
+.
+FeatureFlagSetHolder
+Implemented by types that hold
+FeatureFlags
+like
+WorldInfo
+and
+RegionAccessor
+.
+Fence
+FileConfiguration
+This is a base class for all File based implementations of
+Configuration
+FileConfigurationOptions
+Various settings for controlling the input and output of a
+FileConfiguration
+FileUtil
+Class containing file utilities
+FillProfileEvent
+Fired once a profiles additional properties (such as textures) has been filled
+Filtered<T>
+Denotes that this type is filterable by the client, and may be shown differently
+ depending on the player's set configuration.
+FinePosition
+A position represented with doubles.
+FinePositionResolver
+An
+ArgumentResolver
+that's capable of resolving
+ a fine position argument value using a
+CommandSourceStack
+.
+Fire
+md_5's mixtape.
+Fireball
+Represents a Fireball.
+Firework
+FireworkEffect
+Represents a single firework effect.
+FireworkEffect.Builder
+This is a builder for FireworkEffects.
+FireworkEffect.Type
+The type or shape of the effect.
+FireworkEffectMeta
+Represents a meta that can store a single FireworkEffect.
+FireworkExplodeEvent
+Called when a firework explodes.
+FireworkMeta
+Represents a
+Material.FIREWORK_ROCKET
+and its effects.
+Fireworks
+Stores all explosions crafted into a Firework Rocket, as well as flight duration.
+Fireworks.Builder
+Builder for
+Fireworks
+.
+Fish
+Represents a fish entity.
+FishHook
+Represents a fishing hook.
+FishHook.HookState
+Represents a state in which a fishing hook may be.
+FixedFormat
+A scoreboard number format that replaces the score number with a chat component.
+FixedMetadataValue
+A FixedMetadataValue is a special case metadata item that contains the same
+ value forever after initialization.
+FixedSetPrompt
+FixedSetPrompt is the base class for any prompt that requires a fixed set
+ response from the user.
+FlowerPot
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+FlowingFluidData
+A specific subtype of
+FluidData
+that is returned by the API for fluid data of potentially falling fluids.
+Fluid
+Represents a fluid type.
+FluidCollisionMode
+Determines the collision behavior when fluids get hit during ray tracing.
+FluidData
+A representation of a fluid in a specific state of data.
+FluidKeys
+Vanilla keys for
+RegistryKey.FLUID
+.
+FluidLevelChangeEvent
+Called when the fluid level of a block changes due to changes in adjacent
+ blocks.
+FluidTagKeys
+Vanilla keys for
+RegistryKey.FLUID
+.
+Flying
+Represents a Flying Entity.
+FoodComponent
+Represents a component which can turn any item into food.
+FoodLevelChangeEvent
+Called when a human entity's food level changes
+FoodProperties
+Holds the food properties of an item.
+FoodProperties.Builder
+Builder for
+FoodProperties
+.
+FormattedCommandAlias
+Fox
+What does the fox say?
+Fox.Type
+Represents the various different fox types there are.
+Frictional
+Represents an
+Entity
+that can experience friction with the air and ground.
+Frog
+A Frog.
+Frog.Variant
+Represents the variant of a frog - ie its color.
+FrogVariantKeys
+Vanilla keys for
+RegistryKey.FROG_VARIANT
+.
+FullServerTickHandler
+Deprecated, for removal: This API element is subject to removal in a future version.
+Timings will be removed in the future
+Furnace
+Furnace
+Represents a captured state of a furnace.
+Furnace
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+FurnaceAndDispenser
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+FurnaceBurnEvent
+Called when an ItemStack is successfully burned as fuel in a furnace-like block such as a
+Furnace
+,
+Smoker
+, or
+BlastFurnace
+.
+FurnaceExtractEvent
+This event is called when a player takes items out of a furnace-like block such as a
+Furnace
+,
+Smoker
+, or
+BlastFurnace
+.
+FurnaceInventory
+Interface to the inventory of a Furnace.
+FurnaceRecipe
+Represents a furnace recipe.
+FurnaceSmeltEvent
+Called when an ItemStack is successfully smelted in a furnace-like block
+ such as a
+Furnace
+,
+Smoker
+,
+ or
+BlastFurnace
+.
+FurnaceStartSmeltEvent
+Called when any of the furnace-like blocks start smelting.
+FurnaceView
+An instance of
+InventoryView
+which provides extra methods related to
+ furnace view data.
+GameEvent
+Represents a generic Mojang game event.
+GameEventKeys
+Vanilla keys for
+RegistryKey.GAME_EVENT
+.
+GameEventRegistryEntry
+A data-centric version-specific registry entry for the
+GameEvent
+type.
+GameEventRegistryEntry.Builder
+A mutable builder for the
+GameEventRegistryEntry
+plugins may change in applicable registry events.
+GameEventTagKeys
+Vanilla keys for
+RegistryKey.GAME_EVENT
+.
+GameMode
+Represents the various type of game modes that
+HumanEntity
+s may
+ have
+GameRule<T>
+GameRules dictate certain behavior within Minecraft itself
+For more information please visit the
+Minecraft
+ Wiki
+Gate
+'in_wall' indicates if the fence gate is attached to a wall, and if true the
+ texture is lowered by a small amount to blend in better.
+Gate
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+GeneratedFrom
+Used to mark classes which are generated from
+ a specific version of minecraft.
+GeneratedStructure
+Represents a structure placed in the world.
+GenericCommandHelpTopic
+Lacking an alternative, the help system will create instances of
+ GenericCommandHelpTopic for each command in the server's CommandMap.
+GenericGameEvent
+Represents a generic Mojang game event.
+Ghast
+Represents a Ghast.
+Giant
+Represents a Giant.
+GlassPane
+GlobalRegionScheduler
+The global region task scheduler may be used to schedule tasks that will execute on the global region.
+GlowItemFrame
+A Glow Item Frame.
+GlowLichen
+GlowSquid
+A Glow Squid.
+Goal<T>
+Represents an AI goal of an entity
+GoalKey<T>
+Used to identify a Goal.
+GoalType
+Represents the subtype of a goal.
+Goat
+A Goat.
+Golem
+A mechanical creature that may harm enemies.
+GrassSpecies
+Deprecated, for removal: This API element is subject to removal in a future version.
+use
+BlockData
+Grindstone
+GrindstoneInventory
+Interface to the inventory of a Grindstone.
+GS4QueryEvent
+This event is fired if server is getting queried over GS4 Query protocol.
+GS4QueryEvent.QueryResponse
+GS4QueryEvent.QueryResponse.Builder
+A builder for
+GS4QueryEvent.QueryResponse
+objects.
+GS4QueryEvent.QueryResponse.PluginInformation
+Plugin information
+GS4QueryEvent.QueryType
+The type of query
+Guardian
+HandlerList
+A list of event handlers, stored per-event.
+Hangable
+'hanging' denotes whether the lantern is hanging from a block.
+Hanging
+Represents a Hanging entity
+HangingBreakByEntityEvent
+Triggered when a hanging entity is removed by an entity
+HangingBreakEvent
+Triggered when a hanging entity is removed
+HangingBreakEvent.RemoveCause
+An enum to specify the cause of the removal
+HangingEvent
+Represents a hanging entity-related event.
+HangingMoss
+'tip' indicates whether this block is a tip.
+HangingPlaceEvent
+Triggered when a hanging entity is created in the world
+HangingSign
+HangingSign
+Represents a captured state of a hanging sign.
+Hatchable
+'hatch' is the number of entities which may hatch from these eggs.
+HeightMap
+Further information regarding heightmaps.
+HelpCommand
+HelpMap
+The HelpMap tracks all help topics registered in a Bukkit server.
+HelpTopic
+HelpTopic implementations are displayed to the user when the user uses the
+ /help command.
+HelpTopicComparator
+Used to impose a custom total ordering on help topics.
+HelpTopicComparator.TopicNameComparator
+HelpTopicFactory<TCommand>
+A HelpTopicFactory is used to create custom
+HelpTopic
+objects from
+ commands that inherit from a common base class or have executors that
+ inherit from a common base class.
+Hoglin
+Represents a Hoglin.
+Hopper
+Similar to
+Powerable
+, 'enabled' indicates whether or not the hopper
+ is currently activated.
+Hopper
+Represents a captured state of a hopper.
+Hopper
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+HopperInventorySearchEvent
+Event that gets called each time a Hopper attempts to find its
+ source/attached containers.
+HopperInventorySearchEvent.ContainerType
+HopperMinecart
+Represents a Minecart with a Hopper inside it
+Horse
+Represents a Horse.
+Horse.Color
+Represents the base color that the horse has.
+Horse.Style
+Represents the style, or markings, that the horse has.
+Horse.Variant
+Deprecated.
+different variants are differing classes
+HorseInventory
+An interface to the inventory of a Horse.
+HorseJumpEvent
+Called when a horse jumps.
+HumanEntity
+Represents a human entity, such as an NPC or a player
+Husk
+Represents a Husk - variant of
+Zombie
+.
+Illager
+Represents a type of "Illager".
+IllegalPacketEvent
+Deprecated, for removal: This API element is subject to removal in a future version.
+Not used
+IllegalPluginAccessException
+Thrown when a plugin attempts to interact with the server when it is not
+ enabled
+Illusioner
+Represents an Illusioner "Illager".
+InactivityConversationCanceller
+An InactivityConversationCanceller will cancel a
+Conversation
+after
+ a period of inactivity by the user.
+IndexHelpTopic
+This help topic generates a list of other help topics.
+InlinedRegistryBuilderProvider
+Input
+Represents a movement input applied to an entity.
+Instrument
+InstrumentKeys
+Vanilla keys for
+RegistryKey.INSTRUMENT
+.
+InstrumentTagKeys
+Vanilla keys for
+RegistryKey.INSTRUMENT
+.
+IntegerRangeProvider
+A provider for a
+Range
+of integers.
+Interaction
+Represents an entity designed to only record interactions.
+Interaction.PreviousInteraction
+Represents a previous interaction with this entity.
+InternalAPIBridge
+Static bridge to the server internals.
+InvalidConfigurationException
+Exception thrown when attempting to load an invalid
+Configuration
+InvalidDescriptionException
+Thrown when attempting to load an invalid PluginDescriptionFile
+InvalidPluginException
+Thrown when attempting to load an invalid Plugin file
+Inventory
+Interface to the various inventories.
+InventoryAction
+An estimation of what the result will be.
+InventoryBlockStartEvent
+Used when:
+ 
+ A Furnace starts smelting
+FurnaceStartSmeltEvent
+A Brewing-Stand starts brewing
+BrewingStartEvent
+A Campfire starts cooking
+CampfireStartEvent
+InventoryClickEvent
+This event is called when a player clicks in an inventory.
+InventoryCloseEvent
+This event is called when a player closes an inventory.
+InventoryCloseEvent.Reason
+InventoryCreativeEvent
+This event is called when a player in creative mode puts down or picks up
+ an item in their inventory / hotbar and when they drop items from their
+ Inventory while in creative mode.
+InventoryDragEvent
+This event is called when the player drags an item in their cursor across
+ the inventory.
+InventoryEvent
+Represents a player related inventory event
+InventoryHolder
+InventoryInteractEvent
+An abstract base class for events that describe an interaction between a
+ HumanEntity and the contents of an Inventory.
+InventoryMoveItemEvent
+Called when some entity or block (e.g.
+InventoryOpenEvent
+Called when a player opens an inventory
+InventoryPickupItemEvent
+Called when a hopper or hopper minecart picks up a dropped item.
+InventoryType
+Represents the different kinds of inventories available in Bukkit.
+InventoryType.SlotType
+InventoryView
+Represents a view linking two inventories and a single player (whose
+ inventory may or may not be one of the two).
+InventoryView.Property
+Deprecated, for removal: This API element is subject to removal in a future version.
+use
+InventoryView
+and its children
+InventoryViewBuilder<V>
+Generic Builder for InventoryView's with no special attributes or parameters
+IpBanList
+A
+BanList
+targeting IP bans.
+IronGolem
+An iron Golem that protects Villages.
+Item
+Represents a dropped item.
+ItemAdventurePredicate
+Controls which blocks a player in Adventure mode can do a certain action with this item.
+ItemAdventurePredicate.Builder
+Builder for
+ItemAdventurePredicate
+.
+ItemArmorTrim
+Holds the trims applied to an item.
+ItemArmorTrim.Builder
+Builder for
+ItemArmorTrim
+.
+ItemAttributeModifiers
+Holds attribute modifiers applied to any item.
+ItemAttributeModifiers.Builder
+Builder for
+ItemAttributeModifiers
+.
+ItemAttributeModifiers.Entry
+Holds an attribute entry.
+ItemContainerContents
+Holds the contents of an item container.
+ItemContainerContents.Builder
+ItemCraftResult
+Container class containing the results of a Crafting event.
+ItemDespawnEvent
+This event is called when a
+Item
+is removed from
+ the world because it has existed for 5 minutes.
+ItemDisplay
+Represents an item display entity.
+ItemDisplay.ItemDisplayTransform
+Represents the item model transform to be applied to the displayed item.
+ItemEnchantments
+Stores a list of enchantments and their levels on an item.
+ItemEnchantments.Builder
+Builder for
+ItemEnchantments
+.
+ItemFactory
+An instance of the ItemFactory can be obtained with
+Server.getItemFactory()
+.
+ItemFlag
+A ItemFlag can hide some Attributes from ItemStacks
+ItemFrame
+Represents an Item Frame
+ItemLore
+Additional lines to include in an item's tooltip.
+ItemLore.Builder
+Builder for
+ItemLore
+.
+ItemMergeEvent
+ItemMeta
+This type represents the storage mechanism for auxiliary item data.
+ItemRarity
+Deprecated, for removal: This API element is subject to removal in a future version.
+use
+ItemRarity
+with
+ItemMeta.getRarity()
+ItemRarity
+A item's rarity determines the default color of its name.
+ItemSpawnEvent
+Called when an item is spawned into a world
+ItemStack
+Represents a stack of items.
+ItemStackPredicate
+A predicate for ItemStack.
+ItemTagAdapterContext
+Deprecated, for removal: This API element is subject to removal in a future version.
+this API part has been replaced by
+PersistentDataHolder
+.
+ItemTagType<T,
+Z>
+Deprecated, for removal: This API element is subject to removal in a future version.
+please use
+PersistentDataType
+as this part of the api is being replaced
+ItemTagType.PrimitiveTagType<T>
+A default implementation that simply exists to pass on the retrieved or
+ inserted value to the next layer.
+ItemType
+While this API is in a public interface, it is not intended for use by
+ plugins until further notice.
+ItemType.Typed<M>
+Typed represents a subtype of
+ItemType
+s that have a known item meta type
+ at compile time.
+ItemTypeKeys
+Vanilla keys for
+RegistryKey.ITEM
+.
+ItemTypeTagKeys
+Vanilla keys for
+RegistryKey.ITEM
+.
+ItemUseAnimation
+Represents the hand animation that is used when a player is consuming this item.
+JarLibrary
+A simple jar library implementation of the
+ClassPathLibrary
+that allows
+PluginLoader
+s to
+ append a jar stored on the local file system into their runtime classloader.
+JarManifests
+JavaPlugin
+Represents a Java plugin and its main class.
+JavaPluginLoader
+Deprecated, for removal: This API element is subject to removal in a future version.
+Jigsaw
+'orientation' is the direction the block is facing.
+Jigsaw
+Represents a captured state of a jigsaw.
+Jigsaw.Orientation
+The directions the Jigsaw can be oriented.
+JSONUtil
+Deprecated, for removal: This API element is subject to removal in a future version.
+JSONUtil.JSONPair
+Simply stores a key and a value, used internally by many methods below.
+Jukebox
+'has_record' is a quick flag to check whether this jukebox has a record
+ inside it.
+Jukebox
+Represents a captured state of a jukebox.
+JukeboxInventory
+Interface to the inventory of a Jukebox.
+JukeboxPlayable
+Holds the jukebox song for an item.
+JukeboxPlayable.Builder
+Builder for
+JukeboxPlayable
+.
+JukeboxPlayableComponent
+Represents a component which can be inserted into a jukebox.
+JukeboxSong
+Represents a song which may play in a Jukebox.
+JukeboxSongKeys
+Vanilla keys for
+RegistryKey.JUKEBOX_SONG
+.
+JungleBoat
+Represents a jungle boat.
+JungleChestBoat
+Represents a jungle chest boat.
+Keyed
+Represents an object which has a
+NamespacedKey
+attached to it.
+KeyedBossBar
+Represents a custom
+BossBar
+that has a
+NamespacedKey
+KnowledgeBookMeta
+Ladder
+Ladder
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+Lantern
+LargeFireball
+Represents a large
+Fireball
+LazyMetadataValue
+The LazyMetadataValue class implements a type of metadata that is not
+ computed until another plugin asks for it.
+LazyMetadataValue.CacheStrategy
+Describes possible caching strategies for metadata.
+Leashable
+Represents an entity that can be leashed.
+LeashHitch
+Represents a Leash Hitch on a fence
+LeatherArmorMeta
+Represents leather armor (
+Material.LEATHER_BOOTS
+,
+Material.LEATHER_LEGGINGS
+,
+Material.LEATHER_CHESTPLATE
+,
+Material.LEATHER_HELMET
+,
+Material.LEATHER_HORSE_ARMOR
+or
+Material.WOLF_ARMOR
+) that can be colored.
+Leaves
+'persistent' indicates whether or not leaves will be checked by the server to
+ see if they are subject to decay or not.
+Leaves
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+LeavesDecayEvent
+Called when leaves are decaying naturally.
+Lectern
+'has_book' is a quick flag to check whether this lectern has a book inside
+ it.
+Lectern
+Represents a captured state of a lectern.
+LecternInventory
+Interface to the inventory of a Lectern.
+LecternView
+An instance of
+InventoryView
+which provides extra methods related to
+ lectern view data.
+Levelled
+'level' represents the amount of fluid contained within this block, either by
+ itself or inside a cauldron.
+Lever
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+LibraryLoader
+LibraryLoadingException
+Indicates that an exception has occured while loading a library.
+LibraryStore
+Represents a storage that stores library jars.
+Lidded
+LifecycleEvent
+Base type for all Lifecycle Events.
+LifecycleEventHandler<E>
+A handler for a specific event.
+LifecycleEventHandlerConfiguration<O>
+Base type for constructing configured event handlers for
+ lifecycle events.
+LifecycleEventManager<O>
+Manages a plugin's lifecycle events.
+LifecycleEventOwner
+Implemented by types that are considered owners
+ of registered handlers for lifecycle events.
+LifecycleEvents
+Holds various types of lifecycle events for
+ use when creating event handler configurations
+ in
+LifecycleEventManager
+.
+LifecycleEventType<O,
+E,
+C>
+Base type for all types of lifecycle events.
+LifecycleEventType.Monitorable<O,
+E>
+Lifecycle event type that supports separate registration
+ of handlers as "monitors" that are run last.
+LifecycleEventType.Prioritizable<O,
+E>
+Lifecycle event type that supports both
+"monitors"
+and
+ specific numeric-based priorities.
+Light
+Lightable
+'lit' denotes whether this block (either a redstone torch or furnace) is
+ currently lit - that is not burned out.
+LightningRod
+LightningStrike
+Represents an instance of a lightning strike.
+LightningStrike.Spigot
+Deprecated, for removal: This API element is subject to removal in a future version.
+Unsupported api
+LightningStrikeEvent
+Stores data for lightning striking
+LightningStrikeEvent.Cause
+LimitedRegion
+A limited region is used in world generation for features which are
+ going over a chunk.
+LingeringPotion
+Deprecated, for removal: This API element is subject to removal in a future version.
+should not be used for anything, use
+ThrownPotion
+and
+ set the potion via the methods there.
+LingeringPotionSplashEvent
+Called when a splash potion hits an area
+Listener
+Simple interface for tagging all EventListeners
+ListPersistentDataType<P,
+C>
+The list persistent data represents a data type that is capable of storing a
+ list of other data types in a
+PersistentDataContainer
+.
+ListPersistentDataTypeProvider
+A provider for list persistent data types that represent the known primitive
+ types exposed by
+PersistentDataType
+.
+LivingEntity
+Represents a living entity, such as a monster or player
+Llama
+Represents a Llama.
+Llama.Color
+Represents the base color that the llama has.
+LlamaInventory
+An interface to the inventory of a
+Llama
+.
+LlamaSpit
+Represents Llama spit.
+LoadingIntMap<V>
+Deprecated, for removal: This API element is subject to removal in a future version.
+LoadingIntMap.Feeder<T>
+Due to java stuff, you will need to cast it to (Function) for some cases
+LoadingMap<K,
+V>
+Deprecated, for removal: This API element is subject to removal in a future version.
+LoadingMap.Feeder<T>
+Due to java stuff, you will need to cast it to (Function) for some cases
+Location
+Represents a 3-dimensional position in a world.
+LocationInventoryViewBuilder<V>
+An InventoryViewBuilder that can be bound by location within the world
+Lockable
+Represents a block (usually a container) that may be locked.
+LockableTileState
+Interface for tile entities that are lockable.
+LodestoneTracker
+If present, specifies the target Lodestone that a Compass should point towards.
+LodestoneTracker.Builder
+Builder for
+LodestoneTracker
+.
+LongGrass
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+LookAnchor
+Represents what part of the entity should be used when determining where to face a position/entity.
+LookupProfileEvent
+Allows a plugin to be notified anytime AFTER a Profile has been looked up from the Mojang API
+ This is an opportunity to view the response and potentially cache things.
+LoomInventory
+Interface to the inventory of a Loom.
+LoomView
+An instance of
+InventoryView
+which provides extra methods related to
+ loom view data.
+Lootable
+Represents a
+Container
+or a
+Mob
+that can have a loot table.
+LootableBlockInventory
+Represents an Inventory that can generate loot, such as Chests inside of Fortresses and Mineshafts
+LootableEntityInventory
+Represents an Inventory that can generate loot, such as Minecarts inside of Mineshafts
+LootableInventory
+Represents an Inventory that contains a Loot Table associated to it that will
+ automatically fill on first open.
+LootableInventoryReplenishEvent
+LootContext
+Represents additional information a
+LootTable
+can use to modify it's
+ generated loot.
+LootContext.Builder
+Utility class to make building
+LootContext
+easier.
+LootGenerateEvent
+Called when a
+LootTable
+is generated in the world for an
+InventoryHolder
+.
+LootTable
+LootTables are technical files that represent what items should be in
+ naturally generated containers, what items should be dropped when killing a
+ mob, or what items can be fished.
+LootTables
+This enum holds a list of all known
+LootTable
+s offered by Mojang.
+MagmaCube
+Represents a MagmaCube.
+MainHand
+Represents the chosen main hand of a player
+MangroveBoat
+Represents a mangrove boat.
+MangroveChestBoat
+Represents a mangrove chest boat.
+MangrovePropagule
+ManuallyAbandonedConversationCanceller
+The ManuallyAbandonedConversationCanceller is only used as part of a
+ConversationAbandonedEvent
+to indicate that the conversation was manually
+ abandoned by programmatically calling the abandon() method on it.
+MapCanvas
+Represents a canvas for drawing to a map.
+MapCursor
+Represents a cursor on a map.
+MapCursor.Type
+Represents the standard types of map cursors.
+MapCursorCollection
+Represents all the map cursors on a
+MapCanvas
+.
+MapDecorations
+Holds a list of markers to be placed on a Filled Map (used for Explorer Maps).
+MapDecorations.Builder
+Builder for
+MapDecorations
+.
+MapDecorations.DecorationEntry
+Decoration present on the map.
+MapDecorationTypeKeys
+Vanilla keys for
+RegistryKey.MAP_DECORATION_TYPE
+.
+MapFont
+Represents a bitmap font drawable to a map.
+MapFont.CharacterSprite
+Represents the graphics for a single character in a MapFont.
+MapId
+References the shared map state holding map contents and markers for a Filled Map.
+MapInitializeEvent
+Called when a map is initialized.
+MapItemColor
+Represents the tint of the decorations on the Filled Map item.
+MapItemColor.Builder
+MapMeta
+Represents a map that can be scalable.
+MapPalette
+Represents the palette that map items use.
+MapPalette.MapColorCache
+Holds cached information for matching map colors of a given RBG color.
+MapPostProcessing
+MapRenderer
+Represents a renderer for a map.
+MapView
+Represents a map item.
+MapView.Scale
+An enum representing all possible scales a map can be set to.
+Marker
+A Marker entity, exists only on the server.
+Material
+An enum of all material IDs accepted by the official server and client
+MaterialData
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+MaterialSetTag
+MaterialTags
+Represents a collection tags to identify materials that share common properties.
+MavenLibraryResolver
+The maven library resolver acts as a resolver for yet to be resolved jar libraries that may be pulled from a
+ remote maven repository.
+MemoryConfiguration
+This is a
+Configuration
+implementation that does not save or load
+ from any source, and stores all values in memory only.
+MemoryConfigurationOptions
+Various settings for controlling the input and output of a
+MemoryConfiguration
+MemoryKey<T>
+Represents a key used for accessing memory values of a
+LivingEntity
+.
+MemorySection
+A type of
+ConfigurationSection
+that is stored in memory.
+MenuType
+Represents different kinds of views, also known as menus, which can be
+ created and viewed by the player.
+MenuType.Typed<V,
+B>
+Typed represents a subtype of
+MenuType
+s that have a known
+InventoryView
+type at compile time.
+MenuTypeKeys
+Vanilla keys for
+RegistryKey.MENU
+.
+Merchant
+Represents a merchant.
+MerchantInventory
+Represents a trading inventory between a player and a merchant.
+MerchantInventoryViewBuilder<V>
+An InventoryViewBuilder for creating merchant views
+MerchantRecipe
+Represents a merchant's trade.
+MerchantView
+An instance of
+InventoryView
+which provides extra methods related to
+ merchant view data.
+MessageCommandSender
+Deprecated, for removal: This API element is subject to removal in a future version.
+Timings will be removed in the future
+MessageComponentSerializer
+A component serializer for converting between
+Message
+and
+Component
+.
+MessagePrompt
+MessagePrompt is the base class for any prompt that only displays a message
+ to the user and requires no input.
+MessageTooLargeException
+Thrown if a Plugin Message is sent that is too large to be sent.
+Messenger
+A class responsible for managing the registrations of plugin channels and
+ their listeners.
+Metadatable
+This interface is implemented by all objects that can provide metadata
+ about themselves.
+MetadataConversionException
+A MetadataConversionException is thrown any time a
+LazyMetadataValue
+attempts to convert a metadata value to an inappropriate
+ data type.
+MetadataEvaluationException
+A MetadataEvaluationException is thrown any time a
+LazyMetadataValue
+fails to evaluate its value due to an exception.
+MetadataStore<T>
+MetadataStoreBase<T>
+MetadataValue
+MetadataValueAdapter
+Optional base class for facilitating MetadataValue implementations.
+Minecart
+Represents a minecart entity.
+MinecraftExperimental
+Indicates that the annotated element (class, method, field, etc.) is part of a
+minecraft experimental feature
+and is subject to changes by Mojang.
+MinecraftExperimental.Requires
+An enum identifying a feature flag required by a
+MinecraftExperimental
+feature.
+MinecraftFont
+Represents the built-in Minecraft font.
+Mirror
+Represents how a
+Structure
+can be mirrored upon
+ being loaded.
+Mob
+Represents a Mob.
+MobEffectKeys
+Vanilla keys for
+RegistryKey.MOB_EFFECT
+.
+MobGoals
+Represents a part of the "brain" of a mob.
+MoistureChangeEvent
+Called when the moisture level of a soil block changes.
+MonitorLifecycleEventHandlerConfiguration<O>
+Handler configuration for event types that allow "monitor" handlers.
+Monster
+Represents a Monster.
+MonsterEggs
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+MoonPhase
+MossyCarpet
+This class encompasses the 'north', 'east', 'south', 'west', height flags
+ which are used to set the height of a face.
+MossyCarpet.Height
+The different heights a face may have.
+MovingPiston
+MRUMapCache<K,
+V>
+Deprecated, for removal: This API element is subject to removal in a future version.
+Mule
+Represents a Mule - variant of
+ChestedHorse
+.
+MultipleCommandAlias
+Represents a command that delegates to one or more other commands
+MultipleFacing
+This class encompasses the 'north', 'east', 'south', 'west', 'up', 'down'
+ boolean flags which are used to set which faces of the block textures are
+ displayed on.
+Mushroom
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+MushroomBlockTexture
+Deprecated, for removal: This API element is subject to removal in a future version.
+use BlockData
+MushroomCow
+Represents a mushroom
+Cow
+MushroomCow.Variant
+Represents the variant of a cow - ie its color.
+MusicInstrument
+MusicInstrumentMeta
+Nameable
+Represents a block, entity, or other object that may receive a custom name.
+Namespaced
+Deprecated, for removal: This API element is subject to removal in a future version.
+NamespacedKey
+Represents a String based key which consists of two components - a namespace
+ and a key.
+NamespacedTag
+Deprecated, for removal: This API element is subject to removal in a future version.
+NameTagVisibility
+Deprecated.
+replaced by
+Team.OptionStatus
+NetherWarts
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+NetherWartsState
+Deprecated, for removal: This API element is subject to removal in a future version.
+use
+BlockData
+and
+Ageable
+NetworkClient
+Represents a client connected to the server.
+NoiseGenerator
+Base class for all noise generators
+Note
+A note class to store a specific note.
+Note.Tone
+An enum holding tones.
+NoteBlock
+'instrument' is the type of sound made when this note block is activated.
+NotePlayEvent
+Called when a note block is being played through player interaction or a
+ redstone current.
+NPC
+Represents a non-player character
+NullConversationPrefix
+NullConversationPrefix is a
+ConversationPrefix
+implementation that
+ displays nothing in front of conversation output.
+NullTimingHandler
+Deprecated, for removal: This API element is subject to removal in a future version.
+Timings will be removed in the future
+NumberConversions
+Utils for casting number types to other number types
+NumberFormat
+Describes a scoreboard number format that applies custom formatting to scoreboard scores.
+NumericPrompt
+NumericPrompt is the base class for any prompt that requires a
+Number
+response from the user.
+OakBoat
+Represents an oak boat.
+OakChestBoat
+Represents an oak chest boat.
+Objective
+An objective on a scoreboard that can show scores specific to entries.
+Observer
+Observer
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+Ocelot
+A wild tameable cat
+Ocelot.Type
+Deprecated.
+Cats are now a separate entity.
+OctaveGenerator
+Creates noise using unbiased octaves
+OfflinePlayer
+Represents a reference to a player identity and the data belonging to a
+ player that is stored on the disk and can, thus, be retrieved without the
+ player needing to be online.
+OldEnum<T>
+Deprecated, for removal: This API element is subject to removal in a future version.
+only for backwards compatibility.
+OminousBottleAmplifier
+Holds the ominous bottle amplifier.
+OminousBottleMeta
+Represents an ominous bottle with an amplifier of the bad omen effect.
+OminousItemSpawner
+Represents an ominous item spawner.
+Openable
+'open' denotes whether this block is currently opened.
+Openable
+Deprecated, for removal: This API element is subject to removal in a future version.
+Orientable
+'axis' represents the axis along whilst this block is oriented.
+Painting
+Represents a Painting.
+PaintingVariantKeys
+Vanilla keys for
+RegistryKey.PAINTING_VARIANT
+.
+PaintingVariantRegistryEntry
+A data-centric version-specific registry entry for the
+Art
+type.
+PaintingVariantRegistryEntry.Builder
+A mutable builder for the
+PaintingVariantRegistryEntry
+plugins may change in applicable registry events.
+PaintingVariantTagKeys
+Vanilla keys for
+RegistryKey.PAINTING_VARIANT
+.
+PaleOakBoat
+Represents a pale oak boat.
+PaleOakChestBoat
+Represents a pale oak chest boat.
+Palette
+Represent a variation of a structure.
+Panda
+Panda entity.
+Panda.Gene
+PaperBrigadier
+Deprecated, for removal: This API element is subject to removal in a future version.
+for removal.
+PaperClassLoaderStorage
+The plugin classloader storage is an
+internal
+type that is used to manage existing classloaders on the server.
+PaperComponents
+Paper API-specific methods for working with
+Component
+s and related.
+PaperPluginLogger
+Prevents plugins (e.g.
+PaperServerListPingEvent
+Extended version of
+ServerListPingEvent
+that allows full control
+ of the response sent to the client.
+PaperServerListPingEvent.ListedPlayerInfo
+Represents a player that will be displayed in the player sample of the server list.
+Parrot
+Represents a Parrot.
+Parrot.Variant
+Represents the variant of a parrot - ie its color.
+Particle
+Particle.DustOptions
+Options which can be applied to dust particles - a particle
+ color and size.
+Particle.DustTransition
+Options which can be applied to a color transitioning dust particles.
+Particle.Trail
+Options which can be applied to trail particles - a location, color and duration.
+ParticleBuilder
+Helps prepare a particle to be sent to players.
+Pathfinder
+Handles pathfinding operations for an Entity
+Pathfinder.PathResult
+Represents the result of a pathfinding calculation
+Pattern
+PatternType
+PerlinNoiseGenerator
+Generates noise using the "classic" perlin generator
+PerlinOctaveGenerator
+Creates perlin noise through unbiased octaves
+Permissible
+Represents an object that may be assigned permissions
+PermissibleBase
+Base Permissible for use in any Permissible object via proxy or extension
+Permission
+Represents a unique permission that may be attached to a
+Permissible
+PermissionAttachment
+Holds information about a permission attachment on a
+Permissible
+object
+PermissionAttachmentInfo
+Holds information on a permission and which
+PermissionAttachment
+provides it
+PermissionDefault
+Represents the possible default values for permissions
+PermissionManager
+A permission manager implementation to keep backwards compatibility partially alive with existing plugins that used
+ the bukkit one before.
+PermissionRemovedExecutor
+Represents a class which is to be notified when a
+PermissionAttachment
+is removed from a
+Permissible
+PersistentDataAdapterContext
+This interface represents the context in which the
+PersistentDataType
+can
+ serialize and deserialize the passed values.
+PersistentDataContainer
+This interface represents a map like object, capable of storing custom tags
+ in it.
+PersistentDataContainerView
+This represents a view of a persistent data container.
+PersistentDataHolder
+The
+PersistentDataHolder
+interface defines an object that can store
+ custom persistent meta data on it.
+PersistentDataType<P,
+C>
+This class represents an enum with a generic content type.
+PersistentDataType.BooleanPersistentDataType
+A convenience implementation to convert between Byte and Boolean as there is
+ no native implementation for booleans.
+PersistentDataType.PrimitivePersistentDataType<P>
+A default implementation that simply exists to pass on the retrieved or
+ inserted value to the next layer.
+PersistentDataViewHolder
+The
+PersistentDataViewHolder
+interface defines an object that can view
+ custom persistent data on it.
+Phantom
+Represents a phantom.
+PhantomPreSpawnEvent
+Called when a phantom is spawned for an exhausted player
+Pig
+Represents a Pig.
+Piglin
+Represents a Piglin.
+PiglinAbstract
+Piglin / Piglin Brute.
+PiglinBarterEvent
+Stores all data related to the bartering interaction with a piglin.
+PiglinBrute
+Represents a Piglin Brute.
+PigZapEvent
+Stores data for pigs being zapped
+PigZombie
+Represents a Pig Zombie.
+PigZombieAngerEvent
+Called when a Pig Zombie is angered by another entity.
+Pillager
+Illager entity.
+PinkPetals
+'flower_amount' represents the number of petals.
+Piston
+'extended' denotes whether the piston head is currently extended or not.
+PistonBaseMaterial
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+PistonExtensionMaterial
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+PistonHead
+'short' denotes this piston head is shorter than the usual amount because it
+ is currently retracting.
+PistonMoveReaction
+Represents how a block or entity will react when interacting with a piston
+ when it is extending or retracting.
+PitcherCrop
+Player
+Represents a player, connected or not
+Player.Spigot
+PlayerAdvancementCriterionGrantEvent
+Called after a player is granted a criteria in an advancement.
+PlayerAdvancementDoneEvent
+Called when a player has completed all criteria in an advancement.
+PlayerAnimationEvent
+Represents a player animation event
+Use
+PlayerArmSwingEvent
+for determining which arm was swung.
+PlayerAnimationType
+Different types of player animations
+PlayerArmorChangeEvent
+Called when the player themselves change their armor items
+PlayerArmorChangeEvent.SlotType
+Deprecated.
+PlayerArmorChangeEvent.SlotType
+does not accurately represent what item types are valid in each slot.
+PlayerArmorStandManipulateEvent
+Called when a player interacts with an armor stand and will either swap, retrieve or
+ place an item.
+PlayerArmSwingEvent
+PlayerAttackEntityCooldownResetEvent
+Called when processing a player's attack on an entity when the player's attack strength cooldown is reset
+PlayerAttemptPickupItemEvent
+Thrown when a player attempts to pick an item up from the ground
+PlayerBedEnterEvent
+This event is fired when the player is almost about to enter the bed.
+PlayerBedEnterEvent.BedEnterResult
+Represents the default possible outcomes of this event.
+PlayerBedFailEnterEvent
+PlayerBedFailEnterEvent.FailReason
+PlayerBedLeaveEvent
+This event is fired when the player is leaving a bed.
+PlayerBucketEmptyEvent
+Called when a player empties a bucket
+PlayerBucketEntityEvent
+This event is called whenever a player captures an entity in a bucket.
+PlayerBucketEvent
+Called when a player interacts with a Bucket
+PlayerBucketFillEvent
+Called when a player fills a bucket
+PlayerBucketFishEvent
+Deprecated.
+Use the more generic
+PlayerBucketEntityEvent
+PlayerChangeBeaconEffectEvent
+Called when a player sets the effect for a beacon
+PlayerChangedMainHandEvent
+Called when a player changes their main hand in the client settings.
+PlayerChangedWorldEvent
+Called when a player switches to another world.
+PlayerChannelEvent
+This event is called after a player registers or unregisters a new plugin
+ channel.
+PlayerChatEvent
+Deprecated.
+Listening to this event forces chat to wait for the main thread, delaying chat messages.
+PlayerChatTabCompleteEvent
+Deprecated.
+This event is no longer fired due to client changes
+PlayerChunkLoadEvent
+Is called when a
+Player
+receives a
+Chunk
+PlayerChunkUnloadEvent
+Is called when a
+Player
+receives a chunk unload packet.
+PlayerClientLoadedWorldEvent
+Called when a player is marked as loaded.
+PlayerClientOptionsChangeEvent
+Called when the player changes their client settings
+PlayerCommandPreprocessEvent
+This event is called whenever a player runs a command (by placing a slash
+ at the start of their message).
+PlayerCommandSendEvent
+This event is called when the list of available server commands is sent to
+ the player.
+PlayerConnectionCloseEvent
+This event is invoked when a player has disconnected.
+PlayerDeathEvent
+Thrown whenever a
+Player
+dies
+PlayerDeepSleepEvent
+Called when a player has slept long enough
+ to count as passing the night/storm.
+PlayerDropItemEvent
+Thrown when a player drops an item from their inventory
+PlayerEditBookEvent
+Called when a player edits or signs a book and quill item.
+PlayerEggThrowEvent
+Called when a player throws an egg and it might hatch
+PlayerElytraBoostEvent
+Fired when a player boosts elytra flight with a firework
+PlayerEvent
+Represents a player related event
+PlayerExpChangeEvent
+Called when a players experience changes naturally
+PlayerExpCooldownChangeEvent
+Called when a player's experience cooldown changes.
+PlayerExpCooldownChangeEvent.ChangeReason
+PlayerFailMoveEvent
+Runs when a player attempts to move, but is prevented from doing so by the server
+PlayerFailMoveEvent.FailReason
+PlayerFishEvent
+Thrown when a player is fishing
+PlayerFishEvent.State
+An enum to specify the state of the fishing
+PlayerFlowerPotManipulateEvent
+Called when a player places an item in or takes an item out of a flowerpot.
+PlayerGameModeChangeEvent
+Called when the GameMode of the player is changed.
+PlayerGameModeChangeEvent.Cause
+PlayerGiveResult
+A result type used by
+Player.give(ItemStack...)
+and its overloads.
+PlayerHandshakeEvent
+This event is fired during a player handshake.
+PlayerHarvestBlockEvent
+This event is called whenever a player harvests a block.
+PlayerHideEntityEvent
+Called when a visible entity is hidden from a player.
+PlayerInputEvent
+This event is called when a player sends updated input to the server.
+PlayerInsertLecternBookEvent
+This event is called when a player clicks on a lectern to insert a book.
+PlayerInteractAtEntityEvent
+Represents an event that is called when a player right clicks an entity that
+ also contains the location where the entity was clicked.
+PlayerInteractEntityEvent
+Represents an event that is called when a player right clicks an entity.
+PlayerInteractEvent
+Represents an event that is called when a player interacts with an object or
+ air, potentially fired once for each hand.
+PlayerInventory
+Interface to the inventory of a Player, including the four armor slots and any extra slots.
+PlayerInventorySlotChangeEvent
+Called when a slot contents change in a player's inventory.
+PlayerItemBreakEvent
+Fired when a player's item breaks (such as a shovel or flint and steel).
+PlayerItemConsumeEvent
+This event will fire when a player is finishing consuming an item (food,
+ potion, milk bucket).
+PlayerItemCooldownEvent
+Fired when a player receives an item cooldown when using an item.
+PlayerItemDamageEvent
+Called when an item used by the player takes durability damage as a result of
+ being used.
+PlayerItemFrameChangeEvent
+Called when an
+ItemFrame
+is having an item rotated, added, or removed from it.
+PlayerItemFrameChangeEvent.ItemFrameChangeAction
+PlayerItemGroupCooldownEvent
+Fired when a player receives an item cooldown.
+PlayerItemHeldEvent
+Fired when a player changes their currently held item
+PlayerItemMendEvent
+Represents when a player has an item repaired via the Mending enchantment.
+PlayerJoinEvent
+Called when a player joins a server
+PlayerJumpEvent
+Called when the server detects the player is jumping.
+PlayerKickEvent
+Called when a player gets kicked from the server
+PlayerKickEvent.Cause
+PlayerLaunchProjectileEvent
+Called when a player shoots a projectile.
+PlayerLeashEntityEvent
+Called immediately prior to a creature being leashed by a player.
+PlayerLecternPageChangeEvent
+PlayerLecternPageChangeEvent.PageChangeDirection
+PlayerLevelChangeEvent
+Called when a players level changes
+PlayerLinksSendEvent
+This event is called when the list of links is sent to the player.
+PlayerLocaleChangeEvent
+Called when a player changes their locale in the client settings.
+PlayerLoginEvent
+Stores details for players attempting to log in.
+PlayerLoginEvent.Result
+Basic kick reasons for communicating to plugins
+PlayerLoomPatternSelectEvent
+Called when a player selects a banner patten in a loom inventory.
+PlayerMoveEvent
+Holds information for player movement events
+PlayerNameEntityEvent
+Called when the player is attempting to rename a mob
+PlayerNamePrompt
+PlayerNamePrompt is the base class for any prompt that requires the player
+ to enter another player's name.
+PlayerNaturallySpawnCreaturesEvent
+Fired when the server is calculating what chunks to try to spawn monsters in every Monster Spawn Tick event
+PlayerOpenSignEvent
+Called when a player begins editing a sign's text.
+PlayerOpenSignEvent.Cause
+The cause of the
+PlayerOpenSignEvent
+.
+PlayerPickItemEvent
+Event that is fired when a player uses the pick item functionality (middle-clicking a block or entity to get the
+ appropriate item).
+PlayerPickupArrowEvent
+Thrown when a player picks up an arrow from the ground.
+PlayerPickupExperienceEvent
+Fired when a player is attempting to pick up an experience orb
+PlayerPickupItemEvent
+Deprecated.
+EntityPickupItemEvent
+PlayerPortalEvent
+Called when a player is about to teleport because it is in contact with a
+ portal which will generate an exit portal.
+PlayerPostRespawnEvent
+Fired after a player has respawned
+PlayerPreLoginEvent
+Deprecated.
+This event causes synchronization from the login thread;
+AsyncPlayerPreLoginEvent
+is preferred to keep the secondary threads
+     asynchronous.
+PlayerPreLoginEvent.Result
+Basic kick reasons for communicating to plugins
+PlayerProfile
+Represents a players profile for the game, such as UUID, Name, and textures.
+PlayerProfile
+Deprecated.
+see
+PlayerProfile
+PlayerProfileListResolver
+An
+ArgumentResolver
+that's capable of resolving
+  argument value using a
+CommandSourceStack
+.
+PlayerPurchaseEvent
+Called when a player trades with a standalone merchant GUI.
+PlayerQuitEvent
+Called when a player leaves a server
+PlayerQuitEvent.QuitReason
+PlayerReadyArrowEvent
+Called when a player is firing a bow and the server is choosing an arrow to use.
+PlayerRecipeBookClickEvent
+Called when a player clicks a recipe in the recipe book
+PlayerRecipeBookClickEvent
+Deprecated, for removal: This API element is subject to removal in a future version.
+use
+PlayerRecipeBookClickEvent
+PlayerRecipeBookSettingsChangeEvent
+Called when a player changes recipe book settings.
+PlayerRecipeBookSettingsChangeEvent.RecipeBookType
+Enum representing the various types of recipe book.
+PlayerRecipeDiscoverEvent
+Called when a player discovers a new recipe in the recipe book.
+PlayerRegisterChannelEvent
+This is called immediately after a player registers for a plugin channel.
+PlayerResourcePackStatusEvent
+Called when a player takes action on a resource pack request.
+PlayerResourcePackStatusEvent.Status
+Status of the resource pack.
+PlayerRespawnEvent
+Called when a player respawns.
+PlayerRespawnEvent.RespawnFlag
+PlayerRespawnEvent.RespawnReason
+An enum to specify the reason a respawn event was called.
+PlayerRiptideEvent
+This event is fired when the player activates the riptide enchantment, using
+ their trident to propel them through the air.
+PlayerSelectorArgumentResolver
+An
+ArgumentResolver
+that's capable of resolving
+ a player selector argument value using a
+CommandSourceStack
+.
+PlayerSetSpawnEvent
+Called when a player's spawn is set, either by themselves or otherwise.
+PlayerSetSpawnEvent.Cause
+PlayerShearBlockEvent
+Called when a player uses shears on a block.
+PlayerShearEntityEvent
+Called when a player shears an entity
+PlayerShieldDisableEvent
+Called whenever a players shield is disabled due to an attack from another entity that was capable of disabling the
+ shield.
+PlayerShowEntityEvent
+Called when a hidden entity is shown to a player.
+PlayerSignCommandPreprocessEvent
+Called when a
+Player
+clicks a side on a sign that causes a command to run.
+PlayerSignOpenEvent
+Deprecated, for removal: This API element is subject to removal in a future version.
+use
+PlayerOpenSignEvent
+PlayerSignOpenEvent.Cause
+PlayerSpawnChangeEvent
+Deprecated, for removal: This API element is subject to removal in a future version.
+use
+PlayerSetSpawnEvent
+PlayerSpawnChangeEvent.Cause
+PlayerSpawnLocationEvent
+Called when player is about to spawn in a world after joining the server.
+PlayerStartSpectatingEntityEvent
+Triggered when a player starts spectating an entity in spectator mode.
+PlayerStatisticIncrementEvent
+Called when a player statistic is incremented.
+PlayerStonecutterRecipeSelectEvent
+PlayerStopSpectatingEntityEvent
+Triggered when a player stops spectating an entity in spectator mode.
+PlayerStopUsingItemEvent
+Called when the server detects a player stopping using an item.
+PlayerSwapHandItemsEvent
+Called when a player swap items between main hand and off hand using the
+ hotkey.
+PlayerTakeLecternBookEvent
+This event is called when a player clicks the button to take a book of a
+ Lectern.
+PlayerTeleportEndGatewayEvent
+Fired when a teleport is triggered for an End Gateway
+PlayerTeleportEvent
+Holds information for player teleport events
+PlayerTeleportEvent.TeleportCause
+PlayerTextures
+Provides access to the textures stored inside a
+PlayerProfile
+.
+PlayerTextures.SkinModel
+The different Minecraft skin models.
+PlayerToggleFlightEvent
+Called when a player toggles their flying state
+PlayerToggleSneakEvent
+Called when a player toggles their sneaking state
+PlayerToggleSprintEvent
+Called when a player toggles their sprinting state
+PlayerTrackEntityEvent
+Is called when a
+Player
+tracks an
+Entity
+.
+PlayerTradeEvent
+Called when a player trades with a villager or wandering trader
+PlayerUnleashEntityEvent
+Called prior to an entity being unleashed due to a player's action.
+PlayerUnregisterChannelEvent
+This is called immediately after a player unregisters for a plugin channel.
+PlayerUntrackEntityEvent
+Is called when a
+Player
+untracks an
+Entity
+.
+PlayerUseUnknownEntityEvent
+Represents an event that is called when a player clicks an unknown entity.
+PlayerVelocityEvent
+Called when the velocity of a player changes.
+Plugin
+Represents a Plugin
+PluginAwareness
+Represents a concept that a plugin is aware of.
+PluginAwareness.Flags
+Each entry here represents a particular plugin's awareness.
+PluginBase
+Represents a base
+Plugin
+PluginBootstrap
+A plugin bootstrap is meant for loading certain parts of the plugin before the server is loaded.
+PluginChannelDirection
+Represents the different directions a plugin channel may go.
+PluginClassLoader
+A ClassLoader for plugins, to allow shared classes across multiple plugins
+PluginClassLoaderGroup
+A plugin classloader group represents a group of classloaders that a plugins classloader may access.
+PluginClasspathBuilder
+A mutable builder that may be used to collect and register all
+ClassPathLibrary
+instances a
+PluginLoader
+aims to provide to its plugin at runtime.
+PluginCommand
+Represents a
+Command
+belonging to a plugin
+PluginCommandYamlParser
+PluginDescriptionFile
+This type is the runtime-container for the information in the plugin.yml.
+PluginDisableEvent
+Called when a plugin is disabled.
+PluginEnableEvent
+Called when a plugin is enabled.
+PluginEvent
+Used for plugin enable and disable events
+PluginIdentifiableCommand
+This interface is used by the help system to group commands into
+ sub-indexes based on the
+Plugin
+they are a part of.
+PluginLoader
+A plugin loader is responsible for creating certain aspects of a plugin before it is created.
+PluginLoader
+Deprecated, for removal: This API element is subject to removal in a future version.
+PluginLoadOrder
+Represents the order in which a plugin should be initialized and enabled
+PluginLogger
+The PluginLogger class is a modified
+Logger
+that prepends all
+ logging calls with the name of the plugin doing the logging.
+PluginManager
+Handles all plugin management from the Server
+PluginMessageListener
+A listener for a specific Plugin Channel, which will receive notifications
+ of messages sent from a client.
+PluginMessageListenerRegistration
+Contains information about a
+Plugin
+s registration to a plugin
+ channel.
+PluginMessageRecipient
+Represents a possible recipient for a Plugin Message.
+PluginMeta
+This class acts as an abstraction for a plugin configuration.
+PluginNameConversationPrefix
+PluginNameConversationPrefix is a
+ConversationPrefix
+implementation
+ that displays the plugin name in front of conversation output.
+PluginProviderContext
+Represents the context provided to a
+PluginBootstrap
+during both the bootstrapping and plugin
+ instantiation logic.
+PluginsCommand
+Deprecated, for removal: This API element is subject to removal in a future version.
+PointedDripstone
+'thickness' represents the dripstone thickness.
+PointedDripstone.Thickness
+Represents the thickness of the dripstone, corresponding to its position
+ within a multi-block dripstone formation.
+PolarBear
+Represents a polar bear.
+PortalCreateEvent
+Called when a portal is created
+PortalCreateEvent.CreateReason
+An enum to specify the various reasons for a portal's creation
+PortalType
+Represents various types of portals that can be made in a world.
+Pose
+Represents an entity body pose.
+Position
+Common interface for
+FinePosition
+and
+BlockPosition
+.
+PositionedRayTraceConfigurationBuilder
+A builder for configuring a raytrace with a starting location
+ and direction.
+PostFlattenTagRegistrar<T>
+Registrar for tags after they have been flattened.
+PotDecorations
+Holds the item types for the decorations on a flower pot.
+PotDecorations.Builder
+Builder for
+PotDecorations
+.
+PotionBrewer
+Used to manage custom
+PotionMix
+s.
+PotionContents
+Holds the contents of a potion (Potion, Splash Potion, Lingering Potion), or potion applied to a Tipped Arrow.
+PotionContents.Builder
+PotionData
+Deprecated, for removal: This API element is subject to removal in a future version.
+Upgraded / extended potions are now their own
+PotionType
+use them instead.
+PotionEffect
+Represents a potion effect, that can be added to a
+LivingEntity
+.
+PotionEffectType
+Represents a type of potion and its effect on an entity.
+PotionEffectType.Category
+Category of
+PotionEffectType
+s
+PotionEffectTypeCategory
+Represents a category of
+PotionEffectType
+and its effect on an entity.
+PotionEffectTypeWrapper
+Deprecated, for removal: This API element is subject to removal in a future version.
+only for backwards compatibility, PotionEffectTypeWrapper is no longer used.
+PotionMeta
+Represents a potion or item that can have custom effects.
+PotionMix
+Represents a potion mix made in a Brewing Stand.
+PotionSplashEvent
+Called when a splash potion hits an area
+PotionType
+This enum reflects and matches each potion state that can be obtained from
+ the Creative mode inventory
+PotionType.InternalPotionData
+Deprecated, for removal: This API element is subject to removal in a future version.
+Do not use, interface will get removed, and the plugin won't run
+Powerable
+'powered' indicates whether this block is in the powered state or not, i.e.
+PoweredMinecart
+Represents a powered minecart.
+PoweredRail
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+PreCreatureSpawnEvent
+WARNING: This event only fires for a limited number of cases, and not for every case that
+CreatureSpawnEvent
+does.
+PreFillProfileEvent
+Fired when the server is requesting to fill in properties of an incomplete profile, such as textures.
+PreFlattenTagRegistrar<T>
+Registrar for tags before they are flattened.
+PreLookupProfileEvent
+Allows a plugin to intercept a Profile Lookup for a Profile by name
+PrepareAnvilEvent
+Called when an item is put in a slot for repair by an anvil.
+PrepareGrindstoneEvent
+Deprecated.
+use
+PrepareGrindstoneEvent
+PrepareGrindstoneEvent
+Called when an item is put in a slot for repair or unenchanting in a grindstone.
+PrepareInventoryResultEvent
+Deprecated.
+use
+PrepareResultEvent
+PrepareItemCraftEvent
+PrepareItemEnchantEvent
+Called when an ItemStack is inserted in an enchantment table - can be
+ called multiple times
+PrepareResultEvent
+Called when an item is put in an inventory containing a result slot
+PrepareSmithingEvent
+Called when an item is put in a slot for upgrade by a Smithing Table.
+PrePlayerAttackEntityEvent
+Called when the player tries to attack an entity.
+PreSpawnerSpawnEvent
+Called before an entity is spawned into a world by a spawner.
+PressurePlate
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+PressureSensor
+PrioritizedLifecycleEventHandlerConfiguration<O>
+Handler configuration that allows both "monitor" and prioritized handlers.
+ProfileBanList
+A
+BanList
+targeting player profile bans.
+ProfileProperty
+Represents a property on a
+PlayerProfile
+ProfileWhitelistVerifyEvent
+Fires when the server needs to verify if a player is whitelisted.
+Projectile
+Represents a shootable entity.
+ProjectileCollideEvent
+Deprecated.
+Deprecated, use
+ProjectileHitEvent
+and check if there is a hit entity
+ProjectileHitEvent
+Called when a projectile hits an object
+ProjectileLaunchEvent
+Called when a projectile is launched.
+ProjectileSource
+Represents a valid source of a projectile.
+Prompt
+A Prompt is the main constituent of a
+Conversation
+.
+ProviderUtil
+An
+internal
+utility type that holds logic for loading a provider-like type from a classloaders.
+ProxiedCommandSender
+PufferFish
+Represents a puffer fish.
+PufferFishStateChangeEvent
+Called just before a
+PufferFish
+inflates or deflates.
+Pumpkin
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+Rabbit
+Rabbit.Type
+Represents the various types a Rabbit might be.
+Raid
+Represents a raid event.
+Raid.RaidStatus
+Represents the status of a
+Raid
+.
+Raider
+RaidEvent
+Represents events related to raids.
+RaidFinishEvent
+This event is called when a
+Raid
+was complete with a clear result.
+RaidSpawnWaveEvent
+Called when a raid wave spawns.
+RaidStopEvent
+Called when a
+Raid
+is stopped.
+RaidStopEvent.Reason
+RaidTriggerEvent
+Called when a
+Raid
+is triggered (e.g: a player with Bad Omen effect
+ enters a village).
+Rail
+'shape' represents the current layout of a minecart rail.
+Rail.Shape
+The different types of shapes a rail block can occupy.
+Rails
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+RangedEntity
+RangeProvider<T>
+A provider for a range of numbers
+Ravager
+Illager beast.
+RayTraceResult
+The hit result of a ray trace.
+RayTraceTarget
+List of Targets a builder can target.
+Recipe
+Represents some type of crafting recipe.
+RecipeChoice
+Represents a potential item match within a recipe.
+RecipeChoice.ExactChoice
+Represents a choice that will be valid only if one of the stacks is
+ exactly matched (aside from stack size).
+RecipeChoice.MaterialChoice
+Represents a choice of multiple matching Materials.
+Redstone
+Deprecated, for removal: This API element is subject to removal in a future version.
+RedstoneRail
+A type of minecart rail which interacts with redstone in one way or another.
+RedstoneTorch
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+RedstoneWallTorch
+RedstoneWire
+'north', 'east', 'south', 'west' represent the types of connections this
+ redstone wire has to adjacent blocks.
+RedstoneWire
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+RedstoneWire.Connection
+The way in which a redstone wire can connect to an adjacent block face.
+Reference<T>
+Deprecated, for removal: This API element is subject to removal in a future version.
+RegexPrompt
+RegexPrompt is the base class for any prompt that requires an input
+ validated by a regular expression.
+RegionAccessor
+A RegionAccessor gives access to getting, modifying and spawning
+Biome
+,
+BlockState
+and
+Entity
+,
+ as well as generating some basic structures.
+RegionScheduler
+The region task scheduler can be used to schedule tasks by location to be executed on the region which owns the location.
+RegisteredListener
+Stores relevant information for plugin listeners
+RegisteredServiceProvider<T>
+A registered service provider.
+Registrar
+To be implemented by types that provide ways to register types
+ either on server start or during a reload
+RegistrarEvent<R>
+A lifecycle event that exposes a
+Registrar
+of some kind
+ to allow management of various things.
+Registry<T>
+Represents a registry of Bukkit objects that may be retrieved by
+NamespacedKey
+.
+Registry.NotARegistry<A>
+Registry.SimpleRegistry<T>
+RegistryAccess
+Used for accessing different
+Registry
+instances
+ by a
+RegistryKey
+.
+RegistryArgumentExtractor
+Utilities for extracting registry-related arguments from a
+CommandContext
+.
+RegistryBuilder<T>
+To be implemented by any type used for modifying registries.
+RegistryBuilderFactory<T,
+B>
+A factory to create a
+RegistryBuilder
+for a given
+TypedKey
+.
+RegistryEntryAddConfiguration<T>
+Specific configuration for
+RegistryEntryAddEvent
+s.
+RegistryEntryAddEvent<T,
+B>
+Event object for
+RegistryEventProvider.entryAdd()
+.
+RegistryEntryAddEventType<T,
+B>
+Lifecycle event type for
+RegistryEntryAddEvent
+s.
+RegistryEvent<T>
+Base type for all registry events.
+RegistryEventProvider<T,
+B>
+Provider for registry events for a specific registry.
+RegistryEvents
+Holds providers for
+RegistryEntryAddEvent
+and
+RegistryFreezeEvent
+handlers for each applicable registry.
+RegistryFreezeEvent<T,
+B>
+Event object for
+RegistryEventProvider.freeze()
+.
+RegistryKey<T>
+Identifier for a specific registry.
+RegistryKeySet<T>
+RegistrySet<T>
+Represents a collection tied to a registry.
+RegistryValueSet<T>
+A collection of anonymous values relating to a registry.
+ReloadableRegistrarEvent<R>
+A lifecycle event that exposes a
+Registrar
+that is
+ reloadable.
+ReloadableRegistrarEvent.Cause
+ReloadCommand
+RemoteConsoleCommandSender
+RemoteServerCommandEvent
+This event is called when a command is received over RCON.
+RenderType
+Controls the way in which an
+Objective
+is rendered client side.
+Repairable
+Holds if this item is repairable, and what item types it can be repaired with.
+Repairable
+Represents an item that can be repaired at an anvil.
+Repeater
+'delay' is the propagation delay of a repeater, i.e.
+Reputation
+A reputation score for a player on a villager.
+ReputationType
+A type of reputation gained with a
+Villager
+.
+ReservedChannelException
+Thrown if a plugin attempts to register for a reserved channel (such as
+ "REGISTER")
+ResinClump
+ResolvableProfile
+Holds player profile data that can be resolved to a
+PlayerProfile
+.
+ResolvableProfile.Builder
+Builder for
+ResolvableProfile
+.
+ResourcePack
+Represents a resource pack.
+RespawnAnchor
+'charges' represents the amount of times the anchor may still be used.
+RideableMinecart
+Represents a minecart that can have certain
+entities
+as passengers.
+Rotatable
+'rotation' represents the current rotation of this block.
+Rotation
+Represents a rotation with specified pitch and yaw values.
+Rotation
+An enum to specify a rotation based orientation, like that on a clock.
+RotationResolver
+An
+ArgumentResolver
+that's capable of resolving
+ a rotation argument value using a
+CommandSourceStack
+.
+Rotations
+Rotations is an immutable object that stores rotations
+ in degrees on each axis (X, Y, Z).
+SaddledHorseInventory
+Salmon
+Represents a salmon fish.
+Salmon.Variant
+Represents the variant of a salmon - ie its size.
+Sandstone
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+SandstoneType
+Deprecated, for removal: This API element is subject to removal in a future version.
+use
+BlockData
+Sapling
+'stage' represents the growth stage of a sapling.
+Sapling
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+Scaffolding
+'bottom' indicates whether the scaffolding is floating or not.
+ScheduledTask
+Represents a task scheduled to a scheduler.
+ScheduledTask.CancelledState
+Represents the result of attempting to cancel a task.
+ScheduledTask.ExecutionState
+Represents the current execution state of the task.
+SchoolableFish
+Represents a fish that can school with other fish.
+Score
+A score entry for an
+entry
+on an
+objective
+.
+Scoreboard
+A scoreboard
+ScoreboardManager
+Manager of Scoreboards
+SculkBloomEvent
+Represents an event triggered when a new cursor is created by a
+SculkCatalyst
+.
+SculkCatalyst
+'bloom' indicates whether the sculk catalyst is actively spreading the sculk
+ or not.
+SculkCatalyst
+Represents a captured state of a sculk catalyst.
+SculkSensor
+'sculk_sensor_phase' indicates the current operational phase of the sensor.
+SculkSensor
+Represents a captured state of a sculk sensor
+SculkSensor.Phase
+The Phase of the sensor.
+SculkShrieker
+'can_summon' indicates whether the sculk shrieker can summon the warden.
+SculkShrieker
+Represents a captured state of a sculk shrieker.
+SculkVein
+SeaPickle
+'pickles' indicates the number of pickles in this block.
+SeededContainerLoot
+Holds the loot table and seed for a container.
+SeededContainerLoot.Builder
+Builder for
+SeededContainerLoot
+.
+SelectorArgumentResolver<T>
+An
+ArgumentResolver
+that's capable of resolving
+ a selector argument value using a
+CommandSourceStack
+.
+SerializableAs
+Represents an "alias" that a
+ConfigurationSerializable
+may be
+ stored as.
+Server
+Represents a server implementation.
+Server.Spigot
+ServerBuildInfo
+Information about the current server build.
+ServerBuildInfo.StringRepresentation
+String representation types.
+ServerCommandEvent
+This event is called when a command is run by a non-player.
+ServerCommandException
+Thrown when a command throws an exception
+ServerEvent
+Miscellaneous server events
+ServerEventException
+Exception thrown when a server event listener throws an exception
+ServerException
+Wrapper exception for all exceptions that are thrown by the server.
+ServerExceptionEvent
+Called whenever an exception is thrown in a recoverable section of the server.
+ServerInternalException
+Thrown when the internal server throws a recoverable exception.
+ServerLinks
+Represents a collections of links which may be sent to a client.
+ServerLinks.ServerLink
+Represents a server link.
+ServerLinks.Type
+Represents a known type of link which will be translated by the client
+ and may have special functionality.
+ServerListPingEvent
+Called when a server list ping is coming in.
+ServerLoadEvent
+This event is called when either the server startup or reload has completed.
+ServerLoadEvent.LoadType
+Represents the context in which the enclosing event has been completed.
+ServerOperator
+Represents an object that may become a server operator, such as a
+Player
+ServerPluginEnableDisableException
+Thrown whenever there is an exception with any enabling or disabling of plugins.
+ServerPluginException
+Wrapper exception for all cases to which a plugin can be immediately blamed for
+ServerPluginMessageException
+Thrown when an incoming plugin message channel throws an exception
+ServerResourcesReloadedEvent
+Called when resources such as datapacks are reloaded (e.g.
+ServerResourcesReloadedEvent.Cause
+ServerSchedulerException
+Thrown when a plugin's scheduler fails with an exception
+ServerTabCompleteException
+Called when a tab-complete request throws an exception
+ServerTickEndEvent
+Called when the server has finished ticking the main loop
+ServerTickManager
+Manages ticking within a server.
+ServerTickStartEvent
+ServiceEvent
+An event relating to a registered service.
+ServicePriority
+Represents various priorities of a provider.
+ServiceRegisterEvent
+This event is called when a service is registered.
+ServicesManager
+Manages services and service providers.
+ServiceUnregisterEvent
+This event is called when a service is unregistered.
+ShapedRecipe
+Represents a shaped (ie normal) crafting recipe.
+ShapelessRecipe
+Represents a shapeless recipe, where the arrangement of the ingredients on
+ the crafting grid does not matter.
+Shearable
+Represents an entity that can be sheared.
+Shearable
+Deprecated, for removal: This API element is subject to removal in a future version.
+Spigots shearable API miserably fails at capturing all entities that may be sheared by a player, like
+ mushroom cows which, once sheared, convert into normal cows.
+Sheep
+Represents a Sheep.
+SheepDyeWoolEvent
+Called when a sheep's wool is dyed
+SheepRegrowWoolEvent
+Called when a sheep regrows its wool
+ShieldMeta
+ShownInTooltip<T>
+Holds the state of whether a data component should be shown
+ in an item's tooltip.
+ShownInTooltip.Builder<B>
+A builder for creating a
+ShownInTooltip
+data component.
+Shulker
+ShulkerBox
+Represents a captured state of a ShulkerBox.
+ShulkerBullet
+ShulkerDuplicateEvent
+Fired when a shulker duplicates itself by spawning a new shulker.
+Side
+Represents the side of sign.
+Sign
+Sign
+Represents a captured state of either a SignPost or a WallSign.
+Sign
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+SignChangeEvent
+Called when a sign is changed by a player.
+SignedMessageResolver
+A resolver for a
+SignedMessage
+SignSide
+Represents a side of a sign.
+Silverfish
+Represents a Silverfish.
+SimpleAttachableMaterialData
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+SimpleCommandMap
+SimplePluginManager
+Deprecated, for removal: This API element is subject to removal in a future version.
+SimpleServicesManager
+A simple services manager.
+SimplexNoiseGenerator
+Generates simplex-based noise.
+SimplexOctaveGenerator
+Creates simplex noise through unbiased octaves
+Sittable
+An entity that can sit still.
+SizedFireball
+Represents a sized fireball.
+Skeleton
+Represents a Skeleton.
+Skeleton.SkeletonType
+Deprecated.
+classes are different types.
+SkeletonHorse
+Represents a SkeletonHorse - variant of
+AbstractHorse
+.
+SkeletonHorseTrapEvent
+Event called when a player gets close to a skeleton horse and triggers the lightning trap
+SkinParts
+Skull
+Skull
+Represents a captured state of a skull block.
+Skull
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+SkullMeta
+Represents a skull that can have an owner.
+SkullType
+Deprecated, for removal: This API element is subject to removal in a future version.
+check
+Material
+instead
+Slab
+'type' represents what state the slab is in - either top, bottom, or a double
+ slab occupying the full block.
+Slab.Type
+The type of the slab.
+Slime
+Represents a Slime.
+SlimeChangeDirectionEvent
+Fired when a Slime decides to change its facing direction.
+SlimePathfindEvent
+Fired when a Slime decides to start pathfinding.
+SlimeSplitEvent
+Called when a Slime splits into smaller Slimes upon death
+SlimeSwimEvent
+Fired when a Slime decides to start jumping while swimming in water/lava.
+SlimeTargetLivingEntityEvent
+Fired when a Slime decides to change direction to target a LivingEntity.
+SlimeWanderEvent
+Fired when a Slime decides to start wandering.
+SmallDripleaf
+SmallFireball
+Represents a small
+Fireball
+SmithingInventory
+Interface to the inventory of a Smithing table.
+SmithingRecipe
+Represents a smithing recipe.
+SmithingTransformRecipe
+Represents a smithing transform recipe.
+SmithingTrimRecipe
+Represents a smithing trim recipe.
+SmithItemEvent
+Called when the recipe of an Item is completed inside a smithing table.
+Smoker
+Represents a captured state of a smoker.
+SmokingRecipe
+Represents a campfire recipe.
+SmoothBrick
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+SneakyThrow
+Sniffer
+Represents a Sniffer.
+Sniffer.State
+Represents the current state of the Sniffer.
+Snow
+'layers' represents the amount of layers of snow which are present in this
+ block.
+Snowable
+'snowy' denotes whether this block has a snow covered side and top texture
+ (normally because the block above is snow).
+Snowball
+Represents a snowball.
+Snowman
+Represents a snowman entity
+Sound
+An interface of Sounds the server is able to send to players.
+SoundCategory
+An Enum of categories for sounds.
+SoundEventKeys
+Vanilla keys for
+RegistryKey.SOUND_EVENT
+.
+SoundGroup
+Represents a group of sounds for blocks that are played when various actions
+ happen (ie stepping, breaking, hitting, etc).
+SpawnCategory
+Represents groups of entities with shared spawn behaviors and mob caps.
+SpawnChangeEvent
+An event that is called when a world's spawn changes.
+SpawnEgg
+Deprecated, for removal: This API element is subject to removal in a future version.
+use
+SpawnEggMeta
+SpawnEggMeta
+Represents a spawn egg and it's spawned type.
+Spawner
+Represents an entity spawner.
+SpawnerEntry
+Represents a weighted spawn potential that can be added to a monster spawner.
+SpawnerEntry.Equipment
+Represents the equipment loot table applied to a spawned entity.
+SpawnerMinecart
+Represents a Minecart with an
+entity spawner
+inside it.
+SpawnerSpawnEvent
+Called when an entity is spawned into a world by a spawner.
+SpawnRule
+Represents a spawn rule that controls what conditions an entity from a
+ monster spawner can spawn.
+SpectralArrow
+Represents a spectral arrow.
+Spellcaster
+Represents a spell casting "Illager".
+Spellcaster.Spell
+Represents the current spell the entity is using.
+Spider
+Represents a Spider.
+SplashPotion
+Deprecated, for removal: This API element is subject to removal in a future version.
+should not be used for anything, use
+ThrownPotion
+and
+ set the potion via the methods there.
+SpongeAbsorbEvent
+Called when a sponge absorbs water from the world.
+SpruceBoat
+Represents a spruce boat.
+SpruceChestBoat
+Represents a spruce chest boat.
+Squid
+Represents a Squid.
+Stairs
+'shape' represents the texture and bounding box shape of these stairs.
+Stairs
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+Stairs.Shape
+The shape of a stair block - used for constructing corners.
+StandardMessenger
+Standard implementation to
+Messenger
+Statistic
+Represents a countable statistic, which is tracked by the server.
+Statistic.Type
+The type of statistic.
+StatusClient
+Represents a client requesting the current status from the server (e.g.
+Steerable
+Represents an entity which may be saddled, ridden and steered using an item.
+Step
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+StonecutterInventory
+Interface to the inventory of a Stonecutter.
+StonecutterView
+An instance of
+InventoryView
+which provides extra methods related to
+ stonecutter view data.
+StonecuttingRecipe
+Represents a Stonecutting recipe.
+StorageMinecart
+Represents a minecart with a chest.
+Stray
+Represents a Stray - variant of
+AbstractSkeleton
+.
+Strider
+Represents a Strider.
+StriderTemperatureChangeEvent
+Called when a
+Strider
+'s temperature has changed as a result of
+ entering or exiting blocks it considers warm.
+StringPrompt
+StringPrompt is the base class for any prompt that accepts an arbitrary
+ string from the user.
+StringUtil
+Structure
+Represents a structure block that can save and load blocks from a file.
+Structure
+Represent a Structure from the world.
+Structure
+Represents a structure.
+StructureBlock
+'mode' represents the different modes in which this structure block may
+ operate.
+StructureBlock.Mode
+Operating mode of a structure block.
+StructureGrowEvent
+Event that is called when an organic structure attempts to grow (Sapling ->
+ Tree), (Mushroom -> Huge Mushroom), naturally or using bonemeal.
+StructureKeys
+Vanilla keys for
+RegistryKey.STRUCTURE
+.
+StructureManager
+StructurePiece
+Represents an individual part of a
+GeneratedStructure
+.
+StructureRotation
+Represents how a
+Structure
+can be rotated.
+StructureSearchResult
+Holds the result of searching for a structure.
+StructuresLocateEvent
+Called
+before
+a set of configured structures is located.
+StructuresLocateEvent.Result
+Result for
+StructuresLocateEvent
+.
+StructureTagKeys
+Vanilla keys for
+RegistryKey.STRUCTURE
+.
+StructureType
+Represent a StructureType of a
+Structure
+.
+StructureType
+Deprecated.
+This class does not represent the structures of a world well.
+StructureTypeKeys
+Vanilla keys for
+RegistryKey.STRUCTURE_TYPE
+.
+StyledFormat
+A scoreboard number format that applies a custom formatting to the score number.
+SuspiciousEffectEntry
+Represents a
+PotionEffectType
+paired with a duration.
+SuspiciousSand
+Deprecated, for removal: This API element is subject to removal in a future version.
+SuspiciousStewEffects
+Holds the effects that will be applied when consuming Suspicious Stew.
+SuspiciousStewEffects.Builder
+Builder for
+SuspiciousStewEffects
+.
+SuspiciousStewMeta
+Represents a suspicious stew that can have custom effects.
+Switch
+Switch.Face
+Deprecated.
+use
+FaceAttachable.AttachedFace
+TabCompleteEvent
+Called when a
+CommandSender
+of any description (ie: player or
+ console) attempts to tab complete.
+TabCompleter
+Represents a class which can suggest tab completions for commands.
+TabExecutor
+This class is provided as a convenience to implement both TabCompleter and
+ CommandExecutor.
+Tadpole
+A baby
+Frog
+.
+Tag<T>
+A named
+RegistryKeySet
+which are created
+ via the datapack tag system.
+Tag<T>
+Represents a tag that may be defined by the server or a resource pack to
+ group like things together.
+TagEntry<T>
+An entry is a pre-flattened tag.
+TagEventTypeProvider
+Provides event types for tag registration.
+TagKey<T>
+Tameable
+TameableDeathMessageEvent
+Called when a
+Tameable
+dies and sends a death message.
+TargetBlockInfo
+Deprecated, for removal: This API element is subject to removal in a future version.
+use
+RayTraceResult
+TargetBlockInfo.FluidMode
+Deprecated, for removal: This API element is subject to removal in a future version.
+use
+FluidCollisionMode
+TargetEntityInfo
+Deprecated, for removal: This API element is subject to removal in a future version.
+use
+RayTraceResult
+TargetHitEvent
+Called when a Target Block is hit by a projectile.
+Team
+A team on a scoreboard that has a common display theme and other
+ properties.
+Team.Option
+Represents an option which may be applied to this team.
+Team.OptionStatus
+How an option may be applied to members of this team.
+TechnicalPiston
+'type' represents the type of piston which this (technical) block corresponds
+ to.
+TechnicalPiston.Type
+Different piston variants.
+TeleportFlag
+Represents a flag that can be set on teleportation that may
+ slightly modify the behavior.
+TeleportFlag.EntityState
+Represents flags that effect the entity's state on
+ teleportation.
+TeleportFlag.Relative
+Note: These flags only work on
+Player
+entities.
+TextDisplay
+Represents a text display entity.
+TextDisplay.TextAlignment
+Represents possible text alignments for this display.
+TexturedMaterial
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+ThrowableProjectile
+ThrownEggHatchEvent
+Called when a thrown egg might hatch.
+ThrownExpBottle
+Represents a thrown Experience bottle.
+ThrownPotion
+Represents a thrown potion bottle
+ThunderChangeEvent
+Stores data for thunder state changing in a world
+ThunderChangeEvent.Cause
+Tick
+A TemporalUnit that represents the target length of one server tick.
+TileState
+Represents a block state that also hosts a tile entity at the given location.
+TileStateInventoryHolder
+Represents a
+TileState
+block that has an inventory.
+TimedEventExecutor
+Deprecated, for removal: This API element is subject to removal in a future version.
+Timings will be removed in the future
+TimedRegisteredListener
+Extends RegisteredListener to include timing information
+TimeSkipEvent
+Called when the time skips in a world.
+TimeSkipEvent.SkipReason
+An enum specifying the reason the time skipped.
+Timing
+Deprecated, for removal: This API element is subject to removal in a future version.
+Timings will be removed in the future
+TimingHistory
+Deprecated, for removal: This API element is subject to removal in a future version.
+Timings will be removed in the future
+Timings
+Deprecated, for removal: This API element is subject to removal in a future version.
+Timings will be removed in the future
+TimingsCommand
+Deprecated, for removal: This API element is subject to removal in a future version.
+Timings will be removed in the future
+TimingsManager
+Deprecated, for removal: This API element is subject to removal in a future version.
+Timings will be removed in the future
+TimingsReportListener
+Deprecated, for removal: This API element is subject to removal in a future version.
+Timings will be removed in the future
+TippedArrow
+Deprecated.
+tipped status depends only on base potion type not being
+ UNCRAFTABLE and effects being empty.
+Title
+Deprecated.
+use
+Title
+Title.Builder
+A builder for creating titles
+TNT
+'unstable' indicates whether this TNT will explode on punching.
+TNTPrimed
+Represents a Primed TNT.
+TNTPrimeEvent
+Deprecated, for removal: This API element is subject to removal in a future version.
+use
+TNTPrimeEvent
+TNTPrimeEvent
+Called when a block of TNT in the world become primed.
+TNTPrimeEvent.PrimeCause
+An enum to represent the cause of a TNT block becoming primed.
+TNTPrimeEvent.PrimeReason
+Tool
+Controls the behavior of the item as a tool.
+Tool.Builder
+Builder for
+Tool
+.
+Tool.Rule
+ToolComponent
+Represents a component which can turn any item into a tool.
+ToolComponent.ToolRule
+A rule governing use of this tool and overriding attributes per-block.
+TooltipContext
+Context for computing itemstack tooltips via
+ItemStack.computeTooltipLines(TooltipContext, Player)
+Torch
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+TraderLlama
+Represents a trader Llama.
+TradeSelectEvent
+This event is called whenever a player clicks a new trade on the trades
+ sidebar.
+Transformation
+Represents an arbitrary affine transformation.
+TransformingRandomAccessList<F,
+T>
+Modified version of the Guava class with the same name to support add operations.
+Translatable
+Deprecated, for removal: This API element is subject to removal in a future version.
+use
+Translatable
+TransmuteRecipe
+Represents a recipe which will change the type of the input material when
+ combined with an additional material, but preserve all custom data.
+TrapDoor
+TrapDoor
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+Tree
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+TreeSpecies
+Deprecated, for removal: This API element is subject to removal in a future version.
+Deprecated, see usage methods for replacement(s)
+TreeType
+Tree and organic structure types.
+TrialSpawner
+'trial_spawner_state' indicates the current operational phase of the spawner.
+TrialSpawner
+Represents a captured state of a trial spawner.
+TrialSpawner.State
+TrialSpawnerConfiguration
+Represents one of the configurations of a trial spawner.
+TrialSpawnerSpawnEvent
+Called when an entity is spawned into a world by a trial spawner.
+Trident
+Represents a thrown trident.
+TrimMaterial
+Represents a material that may be used in an
+ArmorTrim
+.
+TrimMaterialKeys
+Vanilla keys for
+RegistryKey.TRIM_MATERIAL
+.
+TrimPattern
+Represents a pattern that may be used in an
+ArmorTrim
+.
+TrimPatternKeys
+Vanilla keys for
+RegistryKey.TRIM_PATTERN
+.
+Tripwire
+'disarmed' denotes that the tripwire was broken with shears and will not
+ subsequently produce a current when destroyed.
+Tripwire
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+TripwireHook
+TripwireHook
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+TropicalFish
+Tropical fish.
+TropicalFish.Pattern
+Enumeration of all different fish patterns.
+TropicalFishBucketMeta
+Represents a bucket of tropical fish.
+Turtle
+Represents a turtle.
+TurtleEgg
+'eggs' is the number of eggs which appear in this block.
+TurtleGoHomeEvent
+Fired when a Turtle decides to go home
+TurtleLayEggEvent
+Fired when a Turtle lays eggs
+TurtleStartDiggingEvent
+Fired when a Turtle starts digging to lay eggs
+TypedKey<T>
+Represents a key for a value in a specific registry.
+Unbreakable
+If set, the item will not lose any durability when used.
+Unbreakable.Builder
+Builder for
+Unbreakable
+.
+UndefinedNullability
+Deprecated.
+This should generally not be used in any new API code as it
+ suggests a bad API design.
+UnknownCommandEvent
+Thrown when a player executes a command that is not defined
+UnknownDependencyException
+Thrown when attempting to load an invalid Plugin file
+UnsafeValues
+Deprecated.
+UsageMode
+Represents how a
+Structure
+can be used.
+UseCooldown
+Holds the contents of cooldown information when an item is used.
+UseCooldown.Builder
+UseCooldownComponent
+Represents a component which determines the cooldown applied when using this item before it is available for use again.
+UseRemainder
+Holds the contents of item transformation information when an item is used.
+Utility
+This annotation indicates a method (and sometimes constructor) will chain
+ its internal operations.
+ValidatingPrompt
+ValidatingPrompt is the base class for any prompt that requires validation.
+VanillaGoal<T>
+Vanilla keys for Mob Goals.
+Vault
+'vault_state' indicates the current operational phase of the vault block.
+Vault
+Represents a captured state of a vault.
+Vault.State
+VaultDisplayItemEvent
+Called when a vault in a trial chamber is about to display an item.
+Vector
+Represents a mutable vector.
+Vehicle
+Represents a vehicle entity.
+VehicleBlockCollisionEvent
+Raised when a vehicle collides with a block.
+VehicleCollisionEvent
+Raised when a vehicle collides.
+VehicleCreateEvent
+Raised when a vehicle is created.
+VehicleDamageEvent
+Raised when a vehicle receives damage.
+VehicleDestroyEvent
+Raised when a vehicle is destroyed, which could be caused by either a
+ player or the environment.
+VehicleEnterEvent
+Raised when an entity enters a vehicle.
+VehicleEntityCollisionEvent
+Raised when a vehicle collides with an entity.
+VehicleEvent
+Represents a vehicle-related event.
+VehicleExitEvent
+Raised when a living entity exits a vehicle.
+VehicleMoveEvent
+Raised when a vehicle moves.
+VehicleUpdateEvent
+Called when a vehicle updates
+VersionCommand
+VersionFetcher
+VersionFetcher.DummyVersionFetcher
+Vex
+Represents a Vex.
+Vibration
+Represents a vibration from a Skulk sensor.
+Vibration.Destination
+Vibration.Destination.BlockDestination
+Vibration.Destination.EntityDestination
+Villager
+Represents a villager NPC
+Villager.Profession
+Represents the various different Villager professions there may be.
+Villager.Type
+Represents Villager type, usually corresponding to what biome they spawn
+ in.
+VillagerAcquireTradeEvent
+Called whenever a villager acquires a new trade.
+VillagerCareerChangeEvent
+VillagerCareerChangeEvent.ChangeReason
+Reasons for the villager's profession changing.
+VillagerProfessionKeys
+Vanilla keys for
+RegistryKey.VILLAGER_PROFESSION
+.
+VillagerReplenishTradeEvent
+Called when a
+Villager
+is about to restock one of its trades.
+VillagerTypeKeys
+Vanilla keys for
+RegistryKey.VILLAGER_TYPE
+.
+Vindicator
+Represents a Vindicator.
+Vine
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+VoxelShape
+A shape made out of voxels.
+Wall
+This class encompasses the 'north', 'east', 'south', 'west', height flags
+ which are used to set the height of a wall.
+Wall.Height
+The different heights a face of a wall may have.
+WallHangingSign
+WallSign
+WallSkull
+WanderingTrader
+Represents a wandering trader NPC
+Warden
+A Warden.
+Warden.AngerLevel
+WardenAngerChangeEvent
+Called when a Warden's anger level has changed due to another entity.
+Warning
+This designates the warning state for a specific item.
+Warning.WarningState
+This represents the states that server verbose for warnings may be.
+WaterBottleSplashEvent
+Called when a splash water potion "splashes" and affects
+ different entities in different ways.
+Waterlogged
+'waterlogged' denotes whether this block has fluid in it.
+WaterMob
+Represents a Water Mob
+WeatherChangeEvent
+Stores data for weather changing in a world
+WeatherChangeEvent.Cause
+WeatherEvent
+Represents a Weather-related event
+WeatherType
+An enum of all current weather types
+WhitelistStateUpdateEvent
+This event gets called when the whitelist status of a player is changed
+WhitelistStateUpdateEvent.WhitelistStatus
+Enum for the whitelist status changes
+WhitelistToggleEvent
+This event is fired when whitelist is toggled
+WindCharge
+Represents a Wind Charge.
+Witch
+Represents a Witch
+WitchConsumePotionEvent
+Fired when a witch consumes the potion in their hand to buff themselves.
+WitchReadyPotionEvent
+WitchThrowPotionEvent
+Fired when a witch throws a potion at a player
+Wither
+Represents a Wither boss
+Wither.Head
+Represents one of the Wither's heads.
+WitherSkeleton
+Represents a WitherSkeleton - variant of
+AbstractSkeleton
+.
+WitherSkull
+Represents a wither skull
+Fireball
+.
+Wolf
+Represents a Wolf
+Wolf.Variant
+Represents the variant of a wolf.
+WolfVariantKeys
+Vanilla keys for
+RegistryKey.WOLF_VARIANT
+.
+Wood
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+WoodenStep
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+Wool
+Deprecated, for removal: This API element is subject to removal in a future version.
+all usage of MaterialData is deprecated and subject to removal.
+World
+Represents a world, which may contain entities, chunks and blocks
+World.ChunkLoadCallback
+Deprecated.
+Use either the Future or the Consumer based methods
+World.Environment
+Represents various map environment types that a world may be
+World.Spigot
+Deprecated, for removal: This API element is subject to removal in a future version.
+WorldBorder
+WorldBorderBoundsChangeEvent
+Called when a world border changes its bounds, either over time, or instantly.
+WorldBorderBoundsChangeEvent.Type
+WorldBorderBoundsChangeFinishEvent
+Called when a moving world border has finished its move.
+WorldBorderCenterChangeEvent
+Called when a world border's center is changed.
+WorldBorderEvent
+WorldCreator
+Represents various types of options that may be used to create a world.
+WorldEvent
+Represents events within a world
+WorldGameRuleChangeEvent
+Called when a world's gamerule is changed, either by command or by api.
+WorldInfo
+Holds various information of a World
+WorldInitEvent
+Called when a World is initializing.
+WorldLoadEvent
+Called when a World is loaded
+WorldSaveEvent
+Called when a World is saved.
+WorldType
+Represents various types of worlds that may exist
+WorldUnloadEvent
+Called when a World is unloaded
+WritableBookContent
+Holds the pages for a writable book.
+WritableBookContent.Builder
+Builder for
+WritableBookContent
+.
+WritableBookMeta
+Represents a book (
+Material.WRITABLE_BOOK
+) that can have pages.
+WritableRegistry<T,
+B>
+A registry which supports registering new objects.
+WrittenBookContent
+Holds the contents and metadata of a Written Book.
+WrittenBookContent.Builder
+Builder for
+WrittenBookContent
+.
+YamlConfiguration
+An implementation of
+Configuration
+which saves all files in Yaml.
+YamlConfigurationOptions
+Various settings for controlling the input and output of a
+YamlConfiguration
+YamlConstructor
+YamlRepresenter
+Zoglin
+Represents a Zoglin.
+Zombie
+Represents a Zombie.
+ZombieHorse
+Represents a ZombieHorse - variant of
+AbstractHorse
+.
+ZombieVillager
+Represents a
+Zombie
+which was once a
+Villager
+.

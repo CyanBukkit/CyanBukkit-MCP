@@ -1,0 +1,15 @@
+{
+  "class_name": "org.bukkit.event.entity.EntityUnleashEvent",
+  "methods": [
+    "public org.bukkit.event.entity.EntityUnleashEvent(org.bukkit.entity.Entity, org.bukkit.event.entity.EntityUnleashEvent$UnleashReason)",
+    "public org.bukkit.event.entity.EntityUnleashEvent(org.bukkit.entity.Entity, org.bukkit.event.entity.EntityUnleashEvent$UnleashReason, boolean)",
+    "public org.bukkit.event.entity.EntityUnleashEvent$UnleashReason getReason()",
+    "public boolean isDropLeash()",
+    "public void setDropLeash(boolean)",
+    "public boolean isCancelled()",
+    "public void setCancelled(boolean)",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 9
+}

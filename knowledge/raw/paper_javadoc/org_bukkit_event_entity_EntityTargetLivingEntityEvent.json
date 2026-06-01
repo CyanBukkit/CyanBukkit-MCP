@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.event.entity.EntityTargetLivingEntityEvent",
+  "methods": [
+    "public org.bukkit.event.entity.EntityTargetLivingEntityEvent(org.bukkit.entity.Entity, org.bukkit.entity.LivingEntity, org.bukkit.event.entity.EntityTargetEvent$TargetReason)",
+    "public org.bukkit.entity.LivingEntity getTarget()",
+    "public void setTarget(org.bukkit.entity.Entity)",
+    "public org.bukkit.entity.Entity getTarget()"
+  ],
+  "method_count": 4
+}

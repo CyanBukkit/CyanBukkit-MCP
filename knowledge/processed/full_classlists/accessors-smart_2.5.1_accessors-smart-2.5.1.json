@@ -1,0 +1,21 @@
+{
+  "jar": "D:\\Program Files\\gradle\\repo\\caches\\paperweight-userdev\\v2\\work\\extractFromBundler_e491abcda02ea198ba2fc0478772abd926c959c560babfab2b2a490c7102d114\\minecraftLibraries\\net\\minidev\\accessors-smart\\2.5.1\\accessors-smart-2.5.1.jar",
+  "artifact": "accessors-smart/2.5.1/accessors-smart-2.5.1",
+  "class_count": 13,
+  "all_classes": [
+    "net.minidev.asm.ASMUtil",
+    "net.minidev.asm.Accessor",
+    "net.minidev.asm.BasicFiledFilter",
+    "net.minidev.asm.BeansAccess",
+    "net.minidev.asm.BeansAccessBuilder",
+    "net.minidev.asm.BeansAccessConfig",
+    "net.minidev.asm.ConvertDate$StringCmpNS",
+    "net.minidev.asm.ConvertDate",
+    "net.minidev.asm.DefaultConverter",
+    "net.minidev.asm.DynamicClassLoader",
+    "net.minidev.asm.FieldFilter",
+    "net.minidev.asm.ex.ConvertException",
+    "net.minidev.asm.ex.NoSuchFieldException"
+  ],
+  "truncated": false
+}

@@ -1,0 +1,31 @@
+{
+  "class_name": "org.bukkit.entity.Mob",
+  "methods": [
+    "public abstract boolean shouldDespawnInPeaceful()",
+    "public abstract void setDespawnInPeacefulOverride(net.kyori.adventure.util.TriState)",
+    "public abstract net.kyori.adventure.util.TriState getDespawnInPeacefulOverride()",
+    "public abstract org.bukkit.inventory.EntityEquipment getEquipment()",
+    "public abstract com.destroystokyo.paper.entity.Pathfinder getPathfinder()",
+    "public abstract boolean isInDaylight()",
+    "public abstract void lookAt(org.bukkit.Location)",
+    "public abstract void lookAt(org.bukkit.Location, float, float)",
+    "public abstract void lookAt(org.bukkit.entity.Entity)",
+    "public abstract void lookAt(org.bukkit.entity.Entity, float, float)",
+    "public abstract void lookAt(double, double, double)",
+    "public abstract void lookAt(double, double, double, float, float)",
+    "public abstract int getHeadRotationSpeed()",
+    "public abstract int getMaxHeadPitch()",
+    "public abstract void setTarget(org.bukkit.entity.LivingEntity)",
+    "public abstract org.bukkit.entity.LivingEntity getTarget()",
+    "public abstract void setAware(boolean)",
+    "public abstract boolean isAware()",
+    "public abstract org.bukkit.Sound getAmbientSound()",
+    "public default void setLootTable(org.bukkit.loot.LootTable, long)",
+    "public abstract boolean isAggressive()",
+    "public abstract void setAggressive(boolean)",
+    "public abstract boolean isLeftHanded()",
+    "public abstract void setLeftHanded(boolean)",
+    "public abstract int getPossibleExperienceReward()"
+  ],
+  "method_count": 25
+}

@@ -1,0 +1,13 @@
+{
+  "class_name": "org.bukkit.profile.PlayerProfile",
+  "methods": [
+    "public abstract java.util.UUID getUniqueId()",
+    "public abstract java.lang.String getName()",
+    "public abstract org.bukkit.profile.PlayerTextures getTextures()",
+    "public abstract void setTextures(org.bukkit.profile.PlayerTextures)",
+    "public abstract boolean isComplete()",
+    "public abstract java.util.concurrent.CompletableFuture<? extends org.bukkit.profile.PlayerProfile> update()",
+    "public abstract org.bukkit.profile.PlayerProfile clone()"
+  ],
+  "method_count": 7
+}

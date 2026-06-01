@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.inventory.CreativeCategory",
+  "methods": [
+    "public static org.bukkit.inventory.CreativeCategory[] values()",
+    "public static org.bukkit.inventory.CreativeCategory valueOf(java.lang.String)",
+    "public java.lang.String translationKey()"
+  ],
+  "method_count": 3
+}

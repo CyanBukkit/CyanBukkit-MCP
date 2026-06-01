@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.material.Directional",
+  "methods": [
+    "public abstract void setFacingDirection(org.bukkit.block.BlockFace)",
+    "public abstract org.bukkit.block.BlockFace getFacing()"
+  ],
+  "method_count": 2
+}

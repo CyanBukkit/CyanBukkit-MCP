@@ -1,0 +1,11 @@
+{
+  "class_name": "org.bukkit.inventory.meta.ArmorMeta",
+  "methods": [
+    "public abstract boolean hasTrim()",
+    "public abstract void setTrim(org.bukkit.inventory.meta.trim.ArmorTrim)",
+    "public abstract org.bukkit.inventory.meta.trim.ArmorTrim getTrim()",
+    "public abstract org.bukkit.inventory.meta.ArmorMeta clone()",
+    "public default org.bukkit.inventory.meta.ItemMeta clone()"
+  ],
+  "method_count": 5
+}

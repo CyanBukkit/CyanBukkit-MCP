@@ -1,0 +1,14 @@
+{
+  "class_name": "org.bukkit.event.entity.EntityChangeBlockEvent",
+  "methods": [
+    "public org.bukkit.event.entity.EntityChangeBlockEvent(org.bukkit.entity.Entity, org.bukkit.block.Block, org.bukkit.block.data.BlockData)",
+    "public org.bukkit.block.Block getBlock()",
+    "public org.bukkit.Material getTo()",
+    "public org.bukkit.block.data.BlockData getBlockData()",
+    "public boolean isCancelled()",
+    "public void setCancelled(boolean)",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 8
+}

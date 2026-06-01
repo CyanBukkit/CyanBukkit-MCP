@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.entity.Strider",
+  "methods": [
+    "public abstract boolean isShivering()",
+    "public abstract void setShivering(boolean)"
+  ],
+  "method_count": 2
+}

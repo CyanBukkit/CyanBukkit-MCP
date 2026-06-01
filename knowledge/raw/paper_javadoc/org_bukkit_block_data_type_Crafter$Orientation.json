@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.data.type.Crafter$Orientation",
+  "methods": [
+    "public static org.bukkit.block.data.type.Crafter$Orientation[] values()",
+    "public static org.bukkit.block.data.type.Crafter$Orientation valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

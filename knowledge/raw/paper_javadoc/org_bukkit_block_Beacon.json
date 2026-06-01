@@ -1,0 +1,15 @@
+{
+  "class_name": "org.bukkit.block.Beacon",
+  "methods": [
+    "public abstract java.util.Collection<org.bukkit.entity.LivingEntity> getEntitiesInRange()",
+    "public abstract int getTier()",
+    "public abstract org.bukkit.potion.PotionEffect getPrimaryEffect()",
+    "public abstract void setPrimaryEffect(org.bukkit.potion.PotionEffectType)",
+    "public abstract org.bukkit.potion.PotionEffect getSecondaryEffect()",
+    "public abstract void setSecondaryEffect(org.bukkit.potion.PotionEffectType)",
+    "public abstract double getEffectRange()",
+    "public abstract void setEffectRange(double)",
+    "public abstract void resetEffectRange()"
+  ],
+  "method_count": 9
+}

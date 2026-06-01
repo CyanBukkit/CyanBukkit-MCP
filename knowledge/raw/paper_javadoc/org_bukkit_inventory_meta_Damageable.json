@@ -1,0 +1,16 @@
+{
+  "class_name": "org.bukkit.inventory.meta.Damageable",
+  "methods": [
+    "public abstract boolean hasDamage()",
+    "public abstract int getDamage()",
+    "public abstract void setDamage(int)",
+    "public abstract boolean hasDamageValue()",
+    "public abstract void resetDamage()",
+    "public abstract boolean hasMaxDamage()",
+    "public abstract int getMaxDamage()",
+    "public abstract void setMaxDamage(java.lang.Integer)",
+    "public abstract org.bukkit.inventory.meta.Damageable clone()",
+    "public default org.bukkit.inventory.meta.ItemMeta clone()"
+  ],
+  "method_count": 10
+}

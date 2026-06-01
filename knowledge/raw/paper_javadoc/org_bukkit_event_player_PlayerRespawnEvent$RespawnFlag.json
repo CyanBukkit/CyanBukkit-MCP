@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.event.player.PlayerRespawnEvent$RespawnFlag",
+  "methods": [
+    "public static org.bukkit.event.player.PlayerRespawnEvent$RespawnFlag[] values()",
+    "public static org.bukkit.event.player.PlayerRespawnEvent$RespawnFlag valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

@@ -1,0 +1,15 @@
+{
+  "class_name": "org.bukkit.inventory.EmptyRecipeChoice",
+  "methods": [
+    "public org.bukkit.inventory.ItemStack getItemStack()",
+    "public org.bukkit.inventory.RecipeChoice clone()",
+    "public boolean test(org.bukkit.inventory.ItemStack)",
+    "public org.bukkit.inventory.RecipeChoice validate(boolean)",
+    "public final java.lang.String toString()",
+    "public final int hashCode()",
+    "public final boolean equals(java.lang.Object)",
+    "public java.lang.Object clone()",
+    "public boolean test(java.lang.Object)"
+  ],
+  "method_count": 9
+}

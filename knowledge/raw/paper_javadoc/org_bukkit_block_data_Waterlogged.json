@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.data.Waterlogged",
+  "methods": [
+    "public abstract boolean isWaterlogged()",
+    "public abstract void setWaterlogged(boolean)"
+  ],
+  "method_count": 2
+}

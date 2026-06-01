@@ -1,0 +1,14 @@
+{
+  "class_name": "org.bukkit.entity.ShulkerBullet",
+  "methods": [
+    "public abstract org.bukkit.entity.Entity getTarget()",
+    "public abstract void setTarget(org.bukkit.entity.Entity)",
+    "public abstract org.bukkit.util.Vector getTargetDelta()",
+    "public abstract void setTargetDelta(org.bukkit.util.Vector)",
+    "public abstract org.bukkit.block.BlockFace getCurrentMovementDirection()",
+    "public abstract void setCurrentMovementDirection(org.bukkit.block.BlockFace)",
+    "public abstract int getFlightSteps()",
+    "public abstract void setFlightSteps(int)"
+  ],
+  "method_count": 8
+}

@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.event.block.BlockEvent",
+  "methods": [
+    "protected org.bukkit.event.block.BlockEvent(org.bukkit.block.Block)",
+    "public final org.bukkit.block.Block getBlock()"
+  ],
+  "method_count": 2
+}

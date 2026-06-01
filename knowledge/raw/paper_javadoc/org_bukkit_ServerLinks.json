@@ -1,0 +1,14 @@
+{
+  "class_name": "org.bukkit.ServerLinks",
+  "methods": [
+    "public abstract org.bukkit.ServerLinks$ServerLink getLink(org.bukkit.ServerLinks$Type)",
+    "public abstract java.util.List<org.bukkit.ServerLinks$ServerLink> getLinks()",
+    "public abstract org.bukkit.ServerLinks$ServerLink setLink(org.bukkit.ServerLinks$Type, java.net.URI)",
+    "public abstract org.bukkit.ServerLinks$ServerLink addLink(org.bukkit.ServerLinks$Type, java.net.URI)",
+    "public abstract org.bukkit.ServerLinks$ServerLink addLink(net.kyori.adventure.text.Component, java.net.URI)",
+    "public abstract org.bukkit.ServerLinks$ServerLink addLink(java.lang.String, java.net.URI)",
+    "public abstract boolean removeLink(org.bukkit.ServerLinks$ServerLink)",
+    "public abstract org.bukkit.ServerLinks copy()"
+  ],
+  "method_count": 8
+}

@@ -1,0 +1,13 @@
+{
+  "class_name": "org.bukkit.StructureType",
+  "methods": [
+    "public java.lang.String getName()",
+    "public org.bukkit.map.MapCursor$Type getMapIcon()",
+    "public boolean equals(java.lang.Object)",
+    "public int hashCode()",
+    "public java.lang.String toString()",
+    "public static java.util.Map<java.lang.String, org.bukkit.StructureType> getStructureTypes()",
+    "public org.bukkit.NamespacedKey getKey()"
+  ],
+  "method_count": 7
+}

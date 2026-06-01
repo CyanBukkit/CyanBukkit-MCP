@@ -1,0 +1,18 @@
+{
+  "class_name": "org.bukkit.entity.Projectile",
+  "methods": [
+    "public abstract org.bukkit.projectiles.ProjectileSource getShooter()",
+    "public abstract void setShooter(org.bukkit.projectiles.ProjectileSource)",
+    "public abstract boolean doesBounce()",
+    "public abstract void setBounce(boolean)",
+    "public abstract boolean hasLeftShooter()",
+    "public abstract void setHasLeftShooter(boolean)",
+    "public abstract boolean hasBeenShot()",
+    "public abstract void setHasBeenShot(boolean)",
+    "public abstract boolean canHitEntity(org.bukkit.entity.Entity)",
+    "public abstract void hitEntity(org.bukkit.entity.Entity)",
+    "public abstract void hitEntity(org.bukkit.entity.Entity, org.bukkit.util.Vector)",
+    "public abstract java.util.UUID getOwnerUniqueId()"
+  ],
+  "method_count": 12
+}

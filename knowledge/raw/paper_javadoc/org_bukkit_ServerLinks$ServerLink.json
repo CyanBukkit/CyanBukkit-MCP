@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.ServerLinks$ServerLink",
+  "methods": [
+    "public abstract org.bukkit.ServerLinks$Type getType()",
+    "public abstract net.kyori.adventure.text.Component displayName()",
+    "public abstract java.lang.String getDisplayName()",
+    "public abstract java.net.URI getUrl()"
+  ],
+  "method_count": 4
+}

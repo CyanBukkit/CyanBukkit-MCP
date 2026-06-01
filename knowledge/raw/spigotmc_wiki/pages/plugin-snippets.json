@@ -1,0 +1,5 @@
+{
+  "title": "Plugin Snippets",
+  "url": "https://www.spigotmc.org/wiki/plugin-snippets/",
+  "content": "Plugin Snippets\n\nUser-contributed code examples for simple plugins.\n\nAvailable snippets:\n- Asynchronously working with a database\n- Auto-Selling Items\n- Basic Chat Muting\n- Bypassing Player Slot Limits\n- Colored Particles\n- Connecting to databases - MySQL\n- Creating a GUI Inventory\n- Creating a Simple Command\n- Creating an Anti-Swear Listener\n- Creating Join Messages\n- Custom Item Models in 1.9 and Up\n- Enderbow: An easy first plugin\n- Feature/Command Cooldowns\n- Flat File Generic Save/Load\n- Hook Into Vault\n- How to make custom rank system\n- Interactive Books\n- Making Scoreboard with Teams (No flicker)\n- MongoDB Guide\n- NMS on different versions (without reflection)\n- Recipe Example\n- Save & Load Data Files\n- Signs - Editing, Getting, Using\n- Sound enum and others in multiple versions\n- Stop Baby Zombies Example\n- Using MongoDB\n- Using Redis (Jedis)\n- Vector Programming for Beginners\n- Working with Configuration Files\n- XPBoost API"
+}

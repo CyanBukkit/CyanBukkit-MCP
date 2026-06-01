@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.entity.Camel",
+  "methods": [
+    "public abstract boolean isDashing()",
+    "public abstract void setDashing(boolean)"
+  ],
+  "method_count": 2
+}

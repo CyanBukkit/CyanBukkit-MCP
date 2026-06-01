@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.event.entity.EntityDamageByBlockEvent",
+  "methods": [
+    "public org.bukkit.event.entity.EntityDamageByBlockEvent(org.bukkit.block.Block, org.bukkit.entity.Entity, org.bukkit.event.entity.EntityDamageEvent$DamageCause, double)",
+    "public org.bukkit.event.entity.EntityDamageByBlockEvent(org.bukkit.block.Block, org.bukkit.block.BlockState, org.bukkit.entity.Entity, org.bukkit.event.entity.EntityDamageEvent$DamageCause, org.bukkit.damage.DamageSource, double)",
+    "public org.bukkit.block.Block getDamager()",
+    "public org.bukkit.block.BlockState getDamagerBlockState()"
+  ],
+  "method_count": 4
+}

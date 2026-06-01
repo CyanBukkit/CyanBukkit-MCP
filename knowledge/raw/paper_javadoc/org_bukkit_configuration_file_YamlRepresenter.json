@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.configuration.file.YamlRepresenter",
+  "methods": [
+    "public org.bukkit.configuration.file.YamlRepresenter()",
+    "public org.bukkit.configuration.file.YamlRepresenter(org.yaml.snakeyaml.DumperOptions)"
+  ],
+  "method_count": 2
+}

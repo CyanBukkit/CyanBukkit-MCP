@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.event.weather.WeatherEvent",
+  "methods": [
+    "protected org.bukkit.event.weather.WeatherEvent(org.bukkit.World)",
+    "public final org.bukkit.World getWorld()"
+  ],
+  "method_count": 2
+}

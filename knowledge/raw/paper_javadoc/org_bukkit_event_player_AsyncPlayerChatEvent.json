@@ -1,0 +1,16 @@
+{
+  "class_name": "org.bukkit.event.player.AsyncPlayerChatEvent",
+  "methods": [
+    "public org.bukkit.event.player.AsyncPlayerChatEvent(boolean, org.bukkit.entity.Player, java.lang.String, java.util.Set<org.bukkit.entity.Player>)",
+    "public java.lang.String getMessage()",
+    "public void setMessage(java.lang.String)",
+    "public java.lang.String getFormat()",
+    "public void setFormat(java.lang.String)",
+    "public java.util.Set<org.bukkit.entity.Player> getRecipients()",
+    "public boolean isCancelled()",
+    "public void setCancelled(boolean)",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 10
+}

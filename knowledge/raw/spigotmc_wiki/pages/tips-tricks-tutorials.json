@@ -1,0 +1,7 @@
+{
+  "title": "Tips, Tricks & Tutorials",
+  "url": "https://www.spigotmc.org/wiki/tips-tricks-tutorials/",
+  "content": "Mar 15, 2023\nDiscussion (15)\nPage\nHistory\nEditors\nTips, Tricks & Tutorials\nTips & Tricks\nHow to get more out of Spigot\nDisable Netty\n(for builds #1138 and below)\nIsolating crashes\nDiscouraging world downloaders\nDisabled \"/timings\" commands\n(for builds #1261 - #1537)\nTutorials\nCommunity-contributed tutorials and guides\nHow to take a timings report\nUnderstanding timings\nDisabling structure saving\nChanging PermGen size\nCloning, building and compiling Spigot\nUsing the Minecraft Region Fixer\nPreventing debug messages in your console and logs\n(for builds #1578 - #1608)\nGetting Spigot's Bukkit 1.8 Build (Mac) Without BuildTools\nUnderstanding stack traces\nVector tutorial for beginners\nSerialization of ItemStacks\nSerializing & deserializing Location objects\nUnderstanding stacktraces\nReducing Lag\nConfiguring Port Forwarding (NAT)\nConfigure Essentials Messages/Colors\nLoading...\nView\nLoading...\nView\n(99915 Views)\nLast Modified: Mar 15, 2023 at 6:12 PM",
+  "content_length": 953,
+  "method": "bs4"
+}

@@ -1,0 +1,22 @@
+{
+  "class_name": "org.bukkit.plugin.java.PluginClassLoader",
+  "methods": [
+    "public org.bukkit.plugin.java.PluginClassLoader(java.lang.ClassLoader, org.bukkit.plugin.PluginDescriptionFile, java.io.File, java.io.File, java.lang.ClassLoader, java.util.jar.JarFile, io.papermc.paper.plugin.provider.entrypoint.DependencyContext)",
+    "public java.net.URL getResource(java.lang.String)",
+    "public java.util.Enumeration<java.net.URL> getResources(java.lang.String)",
+    "public java.lang.Class<?> loadClass(java.lang.String, boolean, boolean, boolean)",
+    "public io.papermc.paper.plugin.configuration.PluginMeta getConfiguration()",
+    "public void init(org.bukkit.plugin.java.JavaPlugin)",
+    "public org.bukkit.plugin.java.JavaPlugin getPlugin()",
+    "protected java.lang.Class<?> loadClass(java.lang.String, boolean)",
+    "java.lang.Class<?> loadClass0(java.lang.String, boolean, boolean, boolean)",
+    "protected java.lang.Class<?> findClass(java.lang.String)",
+    "public void close()",
+    "java.util.Collection<java.lang.Class<?>> getClasses()",
+    "public synchronized void initialize(org.bukkit.plugin.java.JavaPlugin)",
+    "public java.lang.String toString()",
+    "void setClass(java.lang.String, java.lang.Class<?>)",
+    "public io.papermc.paper.plugin.provider.classloader.PluginClassLoaderGroup getGroup()"
+  ],
+  "method_count": 16
+}

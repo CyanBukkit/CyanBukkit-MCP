@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.data.Snowable",
+  "methods": [
+    "public abstract boolean isSnowy()",
+    "public abstract void setSnowy(boolean)"
+  ],
+  "method_count": 2
+}

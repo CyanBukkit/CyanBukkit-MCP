@@ -1,0 +1,14 @@
+{
+  "class_name": "org.bukkit.entity.minecart.ExplosiveMinecart",
+  "methods": [
+    "public abstract void setFuseTicks(int)",
+    "public abstract int getFuseTicks()",
+    "public abstract float getExplosionSpeedFactor()",
+    "public abstract void setExplosionSpeedFactor(float)",
+    "public abstract void ignite()",
+    "public abstract boolean isIgnited()",
+    "public abstract void explode()",
+    "public abstract void explode(double)"
+  ],
+  "method_count": 8
+}

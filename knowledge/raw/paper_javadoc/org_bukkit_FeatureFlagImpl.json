@@ -1,0 +1,12 @@
+{
+  "class_name": "org.bukkit.FeatureFlagImpl",
+  "methods": [
+    "public org.bukkit.NamespacedKey getKey()",
+    "public final java.lang.String toString()",
+    "public final int hashCode()",
+    "public final boolean equals(java.lang.Object)",
+    "public org.bukkit.NamespacedKey key()",
+    "public net.kyori.adventure.key.Key key()"
+  ],
+  "method_count": 6
+}

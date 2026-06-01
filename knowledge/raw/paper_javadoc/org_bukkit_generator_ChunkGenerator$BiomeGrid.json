@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.generator.ChunkGenerator$BiomeGrid",
+  "methods": [
+    "public abstract org.bukkit.block.Biome getBiome(int, int)",
+    "public abstract org.bukkit.block.Biome getBiome(int, int, int)",
+    "public abstract void setBiome(int, int, org.bukkit.block.Biome)",
+    "public abstract void setBiome(int, int, int, org.bukkit.block.Biome)"
+  ],
+  "method_count": 4
+}

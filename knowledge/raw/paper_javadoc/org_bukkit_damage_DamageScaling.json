@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.damage.DamageScaling",
+  "methods": [
+    "public static org.bukkit.damage.DamageScaling[] values()",
+    "public static org.bukkit.damage.DamageScaling valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

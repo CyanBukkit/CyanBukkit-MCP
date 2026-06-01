@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.event.entity.EntityPotionEffectEvent$Action",
+  "methods": [
+    "public static org.bukkit.event.entity.EntityPotionEffectEvent$Action[] values()",
+    "public static org.bukkit.event.entity.EntityPotionEffectEvent$Action valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

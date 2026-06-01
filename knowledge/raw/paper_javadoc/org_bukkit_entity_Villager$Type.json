@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.entity.Villager$Type",
+  "methods": [
+    "public static org.bukkit.entity.Villager$Type valueOf(java.lang.String)",
+    "public static org.bukkit.entity.Villager$Type[] values()"
+  ],
+  "method_count": 2
+}

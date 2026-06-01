@@ -1,0 +1,28 @@
+{
+  "class_name": "org.bukkit.inventory.ShapelessRecipe",
+  "methods": [
+    "public org.bukkit.inventory.ShapelessRecipe(org.bukkit.inventory.ItemStack)",
+    "public org.bukkit.inventory.ShapelessRecipe(org.bukkit.NamespacedKey, org.bukkit.inventory.ItemStack)",
+    "public org.bukkit.inventory.ShapelessRecipe addIngredient(org.bukkit.material.MaterialData)",
+    "public org.bukkit.inventory.ShapelessRecipe addIngredient(org.bukkit.Material)",
+    "public org.bukkit.inventory.ShapelessRecipe addIngredient(org.bukkit.Material, int)",
+    "public org.bukkit.inventory.ShapelessRecipe addIngredient(int, org.bukkit.material.MaterialData)",
+    "public org.bukkit.inventory.ShapelessRecipe addIngredient(int, org.bukkit.Material)",
+    "public org.bukkit.inventory.ShapelessRecipe addIngredient(int, org.bukkit.Material, int)",
+    "public org.bukkit.inventory.ShapelessRecipe addIngredient(org.bukkit.inventory.RecipeChoice)",
+    "public org.bukkit.inventory.ShapelessRecipe addIngredient(org.bukkit.inventory.ItemStack)",
+    "public org.bukkit.inventory.ShapelessRecipe addIngredient(int, org.bukkit.inventory.ItemStack)",
+    "public org.bukkit.inventory.ShapelessRecipe removeIngredient(org.bukkit.inventory.ItemStack)",
+    "public org.bukkit.inventory.ShapelessRecipe removeIngredient(int, org.bukkit.inventory.ItemStack)",
+    "public org.bukkit.inventory.ShapelessRecipe removeIngredient(org.bukkit.inventory.RecipeChoice)",
+    "public org.bukkit.inventory.ShapelessRecipe removeIngredient(org.bukkit.Material)",
+    "public org.bukkit.inventory.ShapelessRecipe removeIngredient(org.bukkit.material.MaterialData)",
+    "public org.bukkit.inventory.ShapelessRecipe removeIngredient(int, org.bukkit.Material)",
+    "public org.bukkit.inventory.ShapelessRecipe removeIngredient(int, org.bukkit.material.MaterialData)",
+    "public org.bukkit.inventory.ShapelessRecipe removeIngredient(org.bukkit.Material, int)",
+    "public org.bukkit.inventory.ShapelessRecipe removeIngredient(int, org.bukkit.Material, int)",
+    "public java.util.List<org.bukkit.inventory.ItemStack> getIngredientList()",
+    "public java.util.List<org.bukkit.inventory.RecipeChoice> getChoiceList()"
+  ],
+  "method_count": 22
+}

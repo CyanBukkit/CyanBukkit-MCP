@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.block.Lidded",
+  "methods": [
+    "public abstract void open()",
+    "public abstract void close()",
+    "public abstract boolean isOpen()"
+  ],
+  "method_count": 3
+}

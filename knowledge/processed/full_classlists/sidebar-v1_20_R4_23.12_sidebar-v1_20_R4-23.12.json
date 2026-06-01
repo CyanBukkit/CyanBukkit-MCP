@@ -1,0 +1,11 @@
+{
+  "jar": "C:\\Users\\SmallXY\\.m2\\repository\\com\\andrei1058\\spigot\\sidebar\\sidebar-v1_20_R4\\23.12\\sidebar-v1_20_R4-23.12.jar",
+  "artifact": "sidebar-v1_20_R4/23.12/sidebar-v1_20_R4-23.12",
+  "class_count": 3,
+  "all_classes": [
+    "com.andrei1058.spigot.sidebar.v1_20_R4.PlayerListImpl",
+    "com.andrei1058.spigot.sidebar.v1_20_R4.SidebarImpl",
+    "com.andrei1058.spigot.sidebar.v1_20_R4.ProviderImpl"
+  ],
+  "truncated": false
+}

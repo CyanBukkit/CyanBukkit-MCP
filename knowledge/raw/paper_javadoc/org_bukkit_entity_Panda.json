@@ -1,0 +1,30 @@
+{
+  "class_name": "org.bukkit.entity.Panda",
+  "methods": [
+    "public abstract org.bukkit.entity.Panda$Gene getMainGene()",
+    "public abstract void setMainGene(org.bukkit.entity.Panda$Gene)",
+    "public abstract org.bukkit.entity.Panda$Gene getHiddenGene()",
+    "public abstract void setHiddenGene(org.bukkit.entity.Panda$Gene)",
+    "public abstract boolean isRolling()",
+    "public abstract void setRolling(boolean)",
+    "public abstract boolean isSneezing()",
+    "public abstract void setSneezing(boolean)",
+    "public abstract boolean isOnBack()",
+    "public abstract void setOnBack(boolean)",
+    "public abstract boolean isEating()",
+    "public abstract void setEating(boolean)",
+    "public abstract boolean isScared()",
+    "public abstract int getUnhappyTicks()",
+    "public abstract void setSneezeTicks(int)",
+    "public abstract int getSneezeTicks()",
+    "public abstract void setEatingTicks(int)",
+    "public abstract int getEatingTicks()",
+    "public abstract void setUnhappyTicks(int)",
+    "public default void setIsOnBack(boolean)",
+    "public default void setIsSitting(boolean)",
+    "public abstract void setSitting(boolean)",
+    "public abstract boolean isSitting()",
+    "public abstract org.bukkit.entity.Panda$Gene getCombinedGene()"
+  ],
+  "method_count": 24
+}

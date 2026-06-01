@@ -1,0 +1,12 @@
+{
+  "jar": "D:\\Program Files\\gradle\\repo\\caches\\paperweight-userdev\\v2\\work\\extractFromBundler_e491abcda02ea198ba2fc0478772abd926c959c560babfab2b2a490c7102d114\\minecraftLibraries\\com\\github\\stephenc\\jcip\\jcip-annotations\\1.0-1\\jcip-annotations-1.0-1.jar",
+  "artifact": "jcip-annotations/1.0-1/jcip-annotations-1.0-1",
+  "class_count": 4,
+  "all_classes": [
+    "net.jcip.annotations.GuardedBy",
+    "net.jcip.annotations.Immutable",
+    "net.jcip.annotations.NotThreadSafe",
+    "net.jcip.annotations.ThreadSafe"
+  ],
+  "truncated": false
+}

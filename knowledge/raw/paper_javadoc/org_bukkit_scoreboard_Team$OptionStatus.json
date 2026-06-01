@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.scoreboard.Team$OptionStatus",
+  "methods": [
+    "public static org.bukkit.scoreboard.Team$OptionStatus[] values()",
+    "public static org.bukkit.scoreboard.Team$OptionStatus valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

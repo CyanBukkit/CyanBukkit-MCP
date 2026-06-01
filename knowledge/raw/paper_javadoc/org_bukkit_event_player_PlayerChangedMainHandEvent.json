@@ -1,0 +1,11 @@
+{
+  "class_name": "org.bukkit.event.player.PlayerChangedMainHandEvent",
+  "methods": [
+    "public org.bukkit.event.player.PlayerChangedMainHandEvent(org.bukkit.entity.Player, org.bukkit.inventory.MainHand)",
+    "public org.bukkit.inventory.MainHand getMainHand()",
+    "public org.bukkit.inventory.MainHand getNewMainHand()",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 5
+}

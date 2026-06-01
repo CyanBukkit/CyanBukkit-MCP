@@ -1,0 +1,18 @@
+{
+  "class_name": "org.bukkit.conversations.ConversationFactory",
+  "methods": [
+    "public org.bukkit.conversations.ConversationFactory(org.bukkit.plugin.Plugin)",
+    "public org.bukkit.conversations.ConversationFactory withModality(boolean)",
+    "public org.bukkit.conversations.ConversationFactory withLocalEcho(boolean)",
+    "public org.bukkit.conversations.ConversationFactory withPrefix(org.bukkit.conversations.ConversationPrefix)",
+    "public org.bukkit.conversations.ConversationFactory withTimeout(int)",
+    "public org.bukkit.conversations.ConversationFactory withFirstPrompt(org.bukkit.conversations.Prompt)",
+    "public org.bukkit.conversations.ConversationFactory withInitialSessionData(java.util.Map<java.lang.Object, java.lang.Object>)",
+    "public org.bukkit.conversations.ConversationFactory withEscapeSequence(java.lang.String)",
+    "public org.bukkit.conversations.ConversationFactory withConversationCanceller(org.bukkit.conversations.ConversationCanceller)",
+    "public org.bukkit.conversations.ConversationFactory thatExcludesNonPlayersWithMessage(java.lang.String)",
+    "public org.bukkit.conversations.ConversationFactory addConversationAbandonedListener(org.bukkit.conversations.ConversationAbandonedListener)",
+    "public org.bukkit.conversations.Conversation buildConversation(org.bukkit.conversations.Conversable)"
+  ],
+  "method_count": 12
+}

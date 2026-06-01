@@ -1,0 +1,13 @@
+{
+  "class_name": "org.bukkit.Effect",
+  "methods": [
+    "public static org.bukkit.Effect[] values()",
+    "public static org.bukkit.Effect valueOf(java.lang.String)",
+    "public int getId()",
+    "public org.bukkit.Effect$Type getType()",
+    "public java.lang.Class<?> getData()",
+    "public boolean isApplicable(java.lang.Object)",
+    "public static org.bukkit.Effect getById(int)"
+  ],
+  "method_count": 7
+}

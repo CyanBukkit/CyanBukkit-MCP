@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.event.block.TNTPrimeEvent$PrimeCause",
+  "methods": [
+    "public static org.bukkit.event.block.TNTPrimeEvent$PrimeCause[] values()",
+    "public static org.bukkit.event.block.TNTPrimeEvent$PrimeCause valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

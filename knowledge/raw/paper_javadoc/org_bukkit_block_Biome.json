@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.block.Biome",
+  "methods": [
+    "public static org.bukkit.block.Biome valueOf(java.lang.String)",
+    "public static org.bukkit.block.Biome[] values()",
+    "public default java.lang.String translationKey()"
+  ],
+  "method_count": 3
+}

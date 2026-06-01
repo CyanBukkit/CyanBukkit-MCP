@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.persistence.PersistentDataContainer",
+  "methods": [
+    "public abstract <P, C> void set(org.bukkit.NamespacedKey, org.bukkit.persistence.PersistentDataType<P, C>, C)",
+    "public abstract void remove(org.bukkit.NamespacedKey)",
+    "public abstract void readFromBytes(byte[], boolean)",
+    "public default void readFromBytes(byte[])"
+  ],
+  "method_count": 4
+}

@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.entity.Ghast",
+  "methods": [
+    "public abstract boolean isCharging()",
+    "public abstract void setCharging(boolean)",
+    "public abstract int getExplosionPower()",
+    "public abstract void setExplosionPower(int)"
+  ],
+  "method_count": 4
+}

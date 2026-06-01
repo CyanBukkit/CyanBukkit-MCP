@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.command.CommandException",
+  "methods": [
+    "public org.bukkit.command.CommandException()",
+    "public org.bukkit.command.CommandException(java.lang.String)",
+    "public org.bukkit.command.CommandException(java.lang.String, java.lang.Throwable)"
+  ],
+  "method_count": 3
+}

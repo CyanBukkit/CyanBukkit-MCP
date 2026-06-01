@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.material.Colorable",
+  "methods": [
+    "public abstract org.bukkit.DyeColor getColor()",
+    "public abstract void setColor(org.bukkit.DyeColor)"
+  ],
+  "method_count": 2
+}

@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.Particle$Trail",
+  "methods": [
+    "public org.bukkit.Particle$Trail(org.bukkit.Location, org.bukkit.Color, int)",
+    "public org.bukkit.Location getTarget()",
+    "public org.bukkit.Color getColor()",
+    "public int getDuration()"
+  ],
+  "method_count": 4
+}

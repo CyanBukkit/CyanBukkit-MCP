@@ -1,0 +1,40 @@
+[
+  {
+    "jar": "C:\\Users\\SmallXY\\.m2\\repository\\io\\papermc\\paperlib\\1.0.8\\paperlib-1.0.8.jar",
+    "artifact": "paperlib/1.0.8/paperlib-1.0.8",
+    "class_count": 30,
+    "classes_sample": [
+      "io.papermc.lib.environments.CraftBukkitEnvironment",
+      "io.papermc.lib.environments.Environment",
+      "io.papermc.lib.environments.PaperEnvironment",
+      "io.papermc.lib.environments.SpigotEnvironment",
+      "io.papermc.lib.features.inventoryholdersnapshot.InventoryHolderSnapshotOptionalSnapshots",
+      "io.papermc.lib.features.inventoryholdersnapshot.InventoryHolderSnapshotNoOption",
+      "io.papermc.lib.features.inventoryholdersnapshot.InventoryHolderSnapshot",
+      "io.papermc.lib.features.inventoryholdersnapshot.InventoryHolderSnapshotResult",
+      "io.papermc.lib.features.inventoryholdersnapshot.InventoryHolderSnapshotBeforeSnapshots",
+      "io.papermc.lib.features.asyncchunks.AsyncChunks",
+      "io.papermc.lib.features.asyncchunks.AsyncChunksSync",
+      "io.papermc.lib.features.asyncchunks.AsyncChunksPaper_9_12",
+      "io.papermc.lib.features.asyncchunks.AsyncChunksPaper_13",
+      "io.papermc.lib.features.asyncchunks.AsyncChunksPaper_15",
+      "io.papermc.lib.features.bedspawnlocation.BedSpawnLocationSync",
+      "io.papermc.lib.features.bedspawnlocation.BedSpawnLocationPaper",
+      "io.papermc.lib.features.bedspawnlocation.BedSpawnLocation",
+      "io.papermc.lib.features.chunkisgenerated.ChunkIsGeneratedUnknown",
+      "io.papermc.lib.features.chunkisgenerated.ChunkIsGeneratedApiExists",
+      "io.papermc.lib.features.chunkisgenerated.ChunkIsGenerated",
+      "io.papermc.lib.features.blockstatesnapshot.BlockStateSnapshotOptionalSnapshots",
+      "io.papermc.lib.features.blockstatesnapshot.BlockStateSnapshotBeforeSnapshots",
+      "io.papermc.lib.features.blockstatesnapshot.BlockStateSnapshotResult",
+      "io.papermc.lib.features.blockstatesnapshot.BlockStateSnapshot",
+      "io.papermc.lib.features.blockstatesnapshot.BlockStateSnapshotNoOption",
+      "io.papermc.lib.features.asyncteleport.AsyncTeleport",
+      "io.papermc.lib.features.asyncteleport.AsyncTeleportSync",
+      "io.papermc.lib.features.asyncteleport.AsyncTeleportPaper_13",
+      "io.papermc.lib.features.asyncteleport.AsyncTeleportPaper",
+      "io.papermc.lib.PaperLib"
+    ],
+    "truncated": false
+  }
+]

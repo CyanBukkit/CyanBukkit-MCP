@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.entity.AnimalTamer",
+  "methods": [
+    "public abstract java.lang.String getName()",
+    "public abstract java.util.UUID getUniqueId()"
+  ],
+  "method_count": 2
+}

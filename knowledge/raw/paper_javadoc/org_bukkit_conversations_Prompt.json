@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.conversations.Prompt",
+  "methods": [
+    "public abstract java.lang.String getPromptText(org.bukkit.conversations.ConversationContext)",
+    "public abstract boolean blocksForInput(org.bukkit.conversations.ConversationContext)",
+    "public abstract org.bukkit.conversations.Prompt acceptInput(org.bukkit.conversations.ConversationContext, java.lang.String)"
+  ],
+  "method_count": 3
+}

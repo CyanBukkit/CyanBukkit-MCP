@@ -1,0 +1,8 @@
+{
+  "id": "spigot-plugin-development",
+  "url": "https://www.spigotmc.org/wiki/spigot-plugin-development/",
+  "title": "Spigot Plugin Development",
+  "content": "Spigot Plugin Development\n\nUsing the Spigot-API\n\nThis section is dedicated to Spigot plugin developers. This guide assumes that the reader has no prior modding experience in Minecraft. Hence, the guides can/should be read in a progressive order. Experienced modders, feel free to skip ahead. Where applicable, Eclipse and IntelliJ version of each guide is shown.\n\n## Guides\n\n- Crash Course to Java\n- Creating a blank plugin with:\n  - IntelliJ IDEA and Maven\n  - IntelliJ IDEA and Gradle\n  - IntelliJ IDEA (manual API loading, not recommended)\n  - Eclipse (manual API loading, not recommended)\n  - NetBeans (manual API loading, not recommended)\n- Creating offline Javadoc (optional)\n- Create and register a basic command\n- Using the Event API\n- Creating a Config File\n- Plugin debug with Eclipse\n- IntelliJ IDEA Plugin Debug\n- NoSQL/MongoDB integration with your plugin\n- MongoDB with Morphia (Easy Database Storage)\n- MySQL database integration with your plugin\n- Plugin.yml\n\n## Additional Resources\n\n- Spigot Source Code\n- Spigot Javadoc\n- User contributed resources and guides from the Spigot Plugin Development forum section. They provide explanations, short code sections or full libraries that might aid you with developing your plugins or provide inspiration.\n\n(536449 Views)\nLast Modified: Feb 3, 2024 at 3:03 AM",
+  "scraped_at": "2026-05-27 21:26:00",
+  "content_length": 2761
+}

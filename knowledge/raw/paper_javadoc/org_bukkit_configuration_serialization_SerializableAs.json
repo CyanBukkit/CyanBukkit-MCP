@@ -1,0 +1,7 @@
+{
+  "class_name": "org.bukkit.configuration.serialization.SerializableAs",
+  "methods": [
+    "public abstract java.lang.String value()"
+  ],
+  "method_count": 1
+}

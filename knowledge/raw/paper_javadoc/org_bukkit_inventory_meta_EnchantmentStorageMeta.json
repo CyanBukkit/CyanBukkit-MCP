@@ -1,0 +1,15 @@
+{
+  "class_name": "org.bukkit.inventory.meta.EnchantmentStorageMeta",
+  "methods": [
+    "public abstract boolean hasStoredEnchants()",
+    "public abstract boolean hasStoredEnchant(org.bukkit.enchantments.Enchantment)",
+    "public abstract int getStoredEnchantLevel(org.bukkit.enchantments.Enchantment)",
+    "public abstract java.util.Map<org.bukkit.enchantments.Enchantment, java.lang.Integer> getStoredEnchants()",
+    "public abstract boolean addStoredEnchant(org.bukkit.enchantments.Enchantment, int, boolean)",
+    "public abstract boolean removeStoredEnchant(org.bukkit.enchantments.Enchantment)",
+    "public abstract boolean hasConflictingStoredEnchant(org.bukkit.enchantments.Enchantment)",
+    "public abstract org.bukkit.inventory.meta.EnchantmentStorageMeta clone()",
+    "public default org.bukkit.inventory.meta.ItemMeta clone()"
+  ],
+  "method_count": 9
+}

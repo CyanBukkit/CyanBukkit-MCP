@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.block.data.type.DriedGhast",
+  "methods": [
+    "public abstract int getHydration()",
+    "public abstract void setHydration(int)",
+    "public abstract int getMaximumHydration()"
+  ],
+  "method_count": 3
+}

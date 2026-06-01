@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.event.world.WorldEvent",
+  "methods": [
+    "protected org.bukkit.event.world.WorldEvent(org.bukkit.World)",
+    "protected org.bukkit.event.world.WorldEvent(org.bukkit.World, boolean)",
+    "public org.bukkit.World getWorld()"
+  ],
+  "method_count": 3
+}

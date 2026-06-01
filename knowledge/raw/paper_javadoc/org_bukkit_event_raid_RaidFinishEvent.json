@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.event.raid.RaidFinishEvent",
+  "methods": [
+    "public org.bukkit.event.raid.RaidFinishEvent(org.bukkit.Raid, org.bukkit.World, java.util.List<org.bukkit.entity.Player>)",
+    "public java.util.List<org.bukkit.entity.Player> getWinners()",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 4
+}

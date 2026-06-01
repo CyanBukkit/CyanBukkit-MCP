@@ -1,0 +1,21 @@
+[
+  {
+    "jar": "C:\\Users\\SmallXY\\.m2\\repository\\de\\simonsator\\DevelopmentPAFSpigot\\1.0.67\\DevelopmentPAFSpigot-1.0.67.jar",
+    "artifact": "DevelopmentPAFSpigot/1.0.67/DevelopmentPAFSpigot-1.0.67",
+    "class_count": 11,
+    "classes_sample": [
+      "de.simonsator.partyandfriends.api.pafplayers.OnlinePAFPlayer",
+      "de.simonsator.partyandfriends.api.pafplayers.PAFPlayer",
+      "de.simonsator.partyandfriends.api.pafplayers.PAFPlayerManager",
+      "de.simonsator.partyandfriends.api.party.PartyManager",
+      "de.simonsator.partyandfriends.api.party.PlayerParty",
+      "de.simonsator.partyandfriendsgui.api.datarequest.DataRequestPlayerInfo",
+      "de.simonsator.partyandfriendsgui.api.datarequest.party.PartyData",
+      "de.simonsator.partyandfriendsgui.api.datarequest.party.PartyDataCallBackRunnable",
+      "de.simonsator.partyandfriendsgui.api.datarequest.party.PartyDataProperties",
+      "de.simonsator.partyandfriendsgui.api.datarequest.party.PartyDataRequestCallbackAPI",
+      "de.simonsator.partyandfriendsgui.communication.tasks.CommunicationTask"
+    ],
+    "truncated": false
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "class_name": "org.bukkit.event.entity.EntityDeathEvent",
+  "methods": [
+    "public org.bukkit.event.entity.EntityDeathEvent(org.bukkit.entity.LivingEntity, org.bukkit.damage.DamageSource, java.util.List<org.bukkit.inventory.ItemStack>)",
+    "public org.bukkit.event.entity.EntityDeathEvent(org.bukkit.entity.LivingEntity, org.bukkit.damage.DamageSource, java.util.List<org.bukkit.inventory.ItemStack>, int)",
+    "public org.bukkit.entity.LivingEntity getEntity()",
+    "public org.bukkit.damage.DamageSource getDamageSource()",
+    "public int getDroppedExp()",
+    "public void setDroppedExp(int)",
+    "public java.util.List<org.bukkit.inventory.ItemStack> getDrops()",
+    "public double getReviveHealth()",
+    "public void setReviveHealth(double)",
+    "public boolean shouldPlayDeathSound()",
+    "public void setShouldPlayDeathSound(boolean)",
+    "public org.bukkit.Sound getDeathSound()",
+    "public void setDeathSound(org.bukkit.Sound)",
+    "public org.bukkit.SoundCategory getDeathSoundCategory()",
+    "public void setDeathSoundCategory(org.bukkit.SoundCategory)",
+    "public float getDeathSoundVolume()",
+    "public void setDeathSoundVolume(float)",
+    "public float getDeathSoundPitch()",
+    "public void setDeathSoundPitch(float)",
+    "public boolean isCancelled()",
+    "public void setCancelled(boolean)",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()",
+    "public org.bukkit.entity.Entity getEntity()"
+  ],
+  "method_count": 24
+}

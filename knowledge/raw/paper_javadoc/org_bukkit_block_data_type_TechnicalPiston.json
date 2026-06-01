@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.data.type.TechnicalPiston",
+  "methods": [
+    "public abstract org.bukkit.block.data.type.TechnicalPiston$Type getType()",
+    "public abstract void setType(org.bukkit.block.data.type.TechnicalPiston$Type)"
+  ],
+  "method_count": 2
+}

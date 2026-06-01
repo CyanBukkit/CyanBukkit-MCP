@@ -1,0 +1,7 @@
+{
+  "class_name": "org.bukkit.command.BlockCommandSender",
+  "methods": [
+    "public abstract org.bukkit.block.Block getBlock()"
+  ],
+  "method_count": 1
+}

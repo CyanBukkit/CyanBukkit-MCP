@@ -1,0 +1,26 @@
+{
+  "class_name": "org.bukkit.inventory.InventoryView",
+  "methods": [
+    "public abstract org.bukkit.inventory.Inventory getTopInventory()",
+    "public abstract org.bukkit.inventory.Inventory getBottomInventory()",
+    "public abstract org.bukkit.entity.HumanEntity getPlayer()",
+    "public abstract org.bukkit.event.inventory.InventoryType getType()",
+    "public abstract void setItem(int, org.bukkit.inventory.ItemStack)",
+    "public abstract org.bukkit.inventory.ItemStack getItem(int)",
+    "public abstract void setCursor(org.bukkit.inventory.ItemStack)",
+    "public abstract org.bukkit.inventory.ItemStack getCursor()",
+    "public abstract org.bukkit.inventory.Inventory getInventory(int)",
+    "public abstract int convertSlot(int)",
+    "public abstract org.bukkit.event.inventory.InventoryType$SlotType getSlotType(int)",
+    "public abstract void open()",
+    "public abstract void close()",
+    "public abstract int countSlots()",
+    "public abstract boolean setProperty(org.bukkit.inventory.InventoryView$Property, int)",
+    "public default net.kyori.adventure.text.Component title()",
+    "public abstract java.lang.String getTitle()",
+    "public abstract java.lang.String getOriginalTitle()",
+    "public abstract void setTitle(java.lang.String)",
+    "public abstract org.bukkit.inventory.MenuType getMenuType()"
+  ],
+  "method_count": 20
+}

@@ -1,0 +1,13 @@
+{
+  "class_name": "org.bukkit.event.inventory.HopperInventorySearchEvent",
+  "methods": [
+    "public org.bukkit.event.inventory.HopperInventorySearchEvent(org.bukkit.inventory.Inventory, org.bukkit.event.inventory.HopperInventorySearchEvent$ContainerType, org.bukkit.block.Block, org.bukkit.block.Block)",
+    "public void setInventory(org.bukkit.inventory.Inventory)",
+    "public org.bukkit.inventory.Inventory getInventory()",
+    "public org.bukkit.event.inventory.HopperInventorySearchEvent$ContainerType getContainerType()",
+    "public org.bukkit.block.Block getSearchBlock()",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 7
+}

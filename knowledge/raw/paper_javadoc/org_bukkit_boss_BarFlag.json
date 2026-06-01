@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.boss.BarFlag",
+  "methods": [
+    "public static org.bukkit.boss.BarFlag[] values()",
+    "public static org.bukkit.boss.BarFlag valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

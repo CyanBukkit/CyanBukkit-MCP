@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.util.VoxelShape",
+  "methods": [
+    "public abstract java.util.Collection<org.bukkit.util.BoundingBox> getBoundingBoxes()",
+    "public abstract boolean overlaps(org.bukkit.util.BoundingBox)"
+  ],
+  "method_count": 2
+}

@@ -1,0 +1,7 @@
+{
+  "class_name": "org.bukkit.util.BlockTransformer",
+  "methods": [
+    "public abstract org.bukkit.block.BlockState transform(org.bukkit.generator.LimitedRegion, int, int, int, org.bukkit.block.BlockState, org.bukkit.util.BlockTransformer$TransformationState)"
+  ],
+  "method_count": 1
+}

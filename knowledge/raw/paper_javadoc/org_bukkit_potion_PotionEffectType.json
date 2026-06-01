@@ -1,0 +1,21 @@
+{
+  "class_name": "org.bukkit.potion.PotionEffectType",
+  "methods": [
+    "public org.bukkit.potion.PotionEffectType()",
+    "public abstract org.bukkit.potion.PotionEffect createEffect(int, int)",
+    "public abstract boolean isInstant()",
+    "public abstract org.bukkit.potion.PotionEffectTypeCategory getCategory()",
+    "public abstract org.bukkit.Color getColor()",
+    "public abstract double getDurationModifier()",
+    "public abstract int getId()",
+    "public abstract java.lang.String getName()",
+    "public static org.bukkit.potion.PotionEffectType getByKey(org.bukkit.NamespacedKey)",
+    "public static org.bukkit.potion.PotionEffectType getById(int)",
+    "public static org.bukkit.potion.PotionEffectType getByName(java.lang.String)",
+    "public static org.bukkit.potion.PotionEffectType[] values()",
+    "public abstract java.util.Map<org.bukkit.attribute.Attribute, org.bukkit.attribute.AttributeModifier> getEffectAttributes()",
+    "public abstract double getAttributeModifierAmount(org.bukkit.attribute.Attribute, int)",
+    "public abstract org.bukkit.potion.PotionEffectType$Category getEffectCategory()"
+  ],
+  "method_count": 15
+}

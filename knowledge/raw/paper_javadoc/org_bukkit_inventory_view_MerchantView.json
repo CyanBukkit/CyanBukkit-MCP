@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.inventory.view.MerchantView",
+  "methods": [
+    "public abstract org.bukkit.inventory.MerchantInventory getTopInventory()",
+    "public abstract org.bukkit.inventory.Merchant getMerchant()",
+    "public default org.bukkit.inventory.Inventory getTopInventory()"
+  ],
+  "method_count": 3
+}

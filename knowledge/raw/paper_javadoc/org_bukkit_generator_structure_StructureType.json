@@ -1,0 +1,7 @@
+{
+  "class_name": "org.bukkit.generator.structure.StructureType",
+  "methods": [
+    "public org.bukkit.generator.structure.StructureType()"
+  ],
+  "method_count": 1
+}

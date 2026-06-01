@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.util.noise.PerlinOctaveGenerator",
+  "methods": [
+    "public org.bukkit.util.noise.PerlinOctaveGenerator(org.bukkit.World, int)",
+    "public org.bukkit.util.noise.PerlinOctaveGenerator(long, int)",
+    "public org.bukkit.util.noise.PerlinOctaveGenerator(java.util.Random, int)"
+  ],
+  "method_count": 3
+}

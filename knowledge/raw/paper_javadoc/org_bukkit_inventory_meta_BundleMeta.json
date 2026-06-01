@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.inventory.meta.BundleMeta",
+  "methods": [
+    "public abstract boolean hasItems()",
+    "public abstract java.util.List<org.bukkit.inventory.ItemStack> getItems()",
+    "public abstract void setItems(java.util.List<org.bukkit.inventory.ItemStack>)",
+    "public abstract void addItem(org.bukkit.inventory.ItemStack)"
+  ],
+  "method_count": 4
+}

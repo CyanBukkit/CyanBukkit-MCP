@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.FireworkEffect$Type",
+  "methods": [
+    "public static org.bukkit.FireworkEffect$Type[] values()",
+    "public static org.bukkit.FireworkEffect$Type valueOf(java.lang.String)",
+    "public java.lang.String translationKey()"
+  ],
+  "method_count": 3
+}

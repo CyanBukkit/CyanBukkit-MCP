@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.inventory.DoubleChestInventory",
+  "methods": [
+    "public abstract org.bukkit.inventory.Inventory getLeftSide()",
+    "public abstract org.bukkit.inventory.Inventory getRightSide()",
+    "public abstract org.bukkit.block.DoubleChest getHolder()",
+    "public default org.bukkit.inventory.InventoryHolder getHolder()"
+  ],
+  "method_count": 4
+}

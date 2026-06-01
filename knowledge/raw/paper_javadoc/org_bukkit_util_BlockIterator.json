@@ -1,0 +1,16 @@
+{
+  "class_name": "org.bukkit.util.BlockIterator",
+  "methods": [
+    "public org.bukkit.util.BlockIterator(org.bukkit.World, org.bukkit.util.Vector, org.bukkit.util.Vector, double, int)",
+    "public org.bukkit.util.BlockIterator(org.bukkit.Location, double, int)",
+    "public org.bukkit.util.BlockIterator(org.bukkit.Location, double)",
+    "public org.bukkit.util.BlockIterator(org.bukkit.Location)",
+    "public org.bukkit.util.BlockIterator(org.bukkit.entity.LivingEntity, int)",
+    "public org.bukkit.util.BlockIterator(org.bukkit.entity.LivingEntity)",
+    "public boolean hasNext()",
+    "public org.bukkit.block.Block next()",
+    "public void remove()",
+    "public java.lang.Object next()"
+  ],
+  "method_count": 10
+}

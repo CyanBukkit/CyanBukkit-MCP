@@ -1,0 +1,12 @@
+{
+  "class_name": "org.bukkit.event.player.PlayerResourcePackStatusEvent",
+  "methods": [
+    "public org.bukkit.event.player.PlayerResourcePackStatusEvent(org.bukkit.entity.Player, java.util.UUID, org.bukkit.event.player.PlayerResourcePackStatusEvent$Status)",
+    "public java.util.UUID getID()",
+    "public org.bukkit.event.player.PlayerResourcePackStatusEvent$Status getStatus()",
+    "public java.lang.String getHash()",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 6
+}

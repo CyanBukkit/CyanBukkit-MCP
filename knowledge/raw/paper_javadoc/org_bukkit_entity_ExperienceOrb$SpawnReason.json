@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.entity.ExperienceOrb$SpawnReason",
+  "methods": [
+    "public static org.bukkit.entity.ExperienceOrb$SpawnReason[] values()",
+    "public static org.bukkit.entity.ExperienceOrb$SpawnReason valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

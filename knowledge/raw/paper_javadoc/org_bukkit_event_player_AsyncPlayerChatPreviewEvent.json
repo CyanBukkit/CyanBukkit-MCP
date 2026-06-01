@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.event.player.AsyncPlayerChatPreviewEvent",
+  "methods": [
+    "public org.bukkit.event.player.AsyncPlayerChatPreviewEvent(boolean, org.bukkit.entity.Player, java.lang.String, java.util.Set<org.bukkit.entity.Player>)",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 3
+}

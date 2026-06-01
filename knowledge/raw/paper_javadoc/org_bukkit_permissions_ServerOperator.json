@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.permissions.ServerOperator",
+  "methods": [
+    "public abstract boolean isOp()",
+    "public abstract void setOp(boolean)"
+  ],
+  "method_count": 2
+}

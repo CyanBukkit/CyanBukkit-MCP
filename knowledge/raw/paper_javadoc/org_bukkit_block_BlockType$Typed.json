@@ -1,0 +1,11 @@
+{
+  "class_name": "org.bukkit.block.BlockType$Typed",
+  "methods": [
+    "public abstract java.lang.Class<B> getBlockDataClass()",
+    "public abstract B createBlockData(java.util.function.Consumer<? super B>)",
+    "public abstract B createBlockData()",
+    "public abstract java.util.Collection<B> createBlockDataStates()",
+    "public abstract B createBlockData(java.lang.String)"
+  ],
+  "method_count": 5
+}

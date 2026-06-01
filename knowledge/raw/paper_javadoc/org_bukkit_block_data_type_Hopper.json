@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.data.type.Hopper",
+  "methods": [
+    "public abstract boolean isEnabled()",
+    "public abstract void setEnabled(boolean)"
+  ],
+  "method_count": 2
+}

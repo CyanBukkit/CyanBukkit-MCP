@@ -1,0 +1,11 @@
+{
+  "class_name": "org.bukkit.event.inventory.FurnaceStartSmeltEvent",
+  "methods": [
+    "public org.bukkit.event.inventory.FurnaceStartSmeltEvent(org.bukkit.block.Block, org.bukkit.inventory.ItemStack, org.bukkit.inventory.CookingRecipe<?>)",
+    "public org.bukkit.event.inventory.FurnaceStartSmeltEvent(org.bukkit.block.Block, org.bukkit.inventory.ItemStack, org.bukkit.inventory.CookingRecipe<?>, int)",
+    "public org.bukkit.inventory.CookingRecipe<?> getRecipe()",
+    "public int getTotalCookTime()",
+    "public void setTotalCookTime(int)"
+  ],
+  "method_count": 5
+}

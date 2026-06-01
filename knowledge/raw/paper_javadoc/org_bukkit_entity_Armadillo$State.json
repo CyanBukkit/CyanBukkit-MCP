@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.entity.Armadillo$State",
+  "methods": [
+    "public static org.bukkit.entity.Armadillo$State[] values()",
+    "public static org.bukkit.entity.Armadillo$State valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

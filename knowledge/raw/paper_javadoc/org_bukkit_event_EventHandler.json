@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.event.EventHandler",
+  "methods": [
+    "public abstract org.bukkit.event.EventPriority priority()",
+    "public abstract boolean ignoreCancelled()"
+  ],
+  "method_count": 2
+}

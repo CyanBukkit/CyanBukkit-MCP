@@ -1,0 +1,18 @@
+{
+  "class_name": "org.bukkit.event.entity.LingeringPotionSplashEvent",
+  "methods": [
+    "public org.bukkit.event.entity.LingeringPotionSplashEvent(org.bukkit.entity.ThrownPotion, org.bukkit.entity.AreaEffectCloud)",
+    "public org.bukkit.event.entity.LingeringPotionSplashEvent(org.bukkit.entity.ThrownPotion, org.bukkit.entity.Entity, org.bukkit.block.Block, org.bukkit.block.BlockFace, org.bukkit.entity.AreaEffectCloud)",
+    "public org.bukkit.entity.ThrownPotion getEntity()",
+    "public org.bukkit.entity.AreaEffectCloud getAreaEffectCloud()",
+    "public void allowsEmptyCreation(boolean)",
+    "public boolean allowsEmptyCreation()",
+    "public boolean isCancelled()",
+    "public void setCancelled(boolean)",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()",
+    "public org.bukkit.entity.Projectile getEntity()",
+    "public org.bukkit.entity.Entity getEntity()"
+  ],
+  "method_count": 12
+}

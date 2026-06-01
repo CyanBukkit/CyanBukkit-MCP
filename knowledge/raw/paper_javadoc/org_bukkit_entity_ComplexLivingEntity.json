@@ -1,0 +1,7 @@
+{
+  "class_name": "org.bukkit.entity.ComplexLivingEntity",
+  "methods": [
+    "public abstract java.util.Set<org.bukkit.entity.ComplexEntityPart> getParts()"
+  ],
+  "method_count": 1
+}

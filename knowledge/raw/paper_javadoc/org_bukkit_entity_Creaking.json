@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.entity.Creaking",
+  "methods": [
+    "public abstract org.bukkit.Location getHome()",
+    "public abstract void activate(org.bukkit.entity.Player)",
+    "public abstract void deactivate()",
+    "public abstract boolean isActive()"
+  ],
+  "method_count": 4
+}

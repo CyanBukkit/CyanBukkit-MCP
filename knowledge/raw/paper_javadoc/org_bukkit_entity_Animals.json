@@ -1,0 +1,13 @@
+{
+  "class_name": "org.bukkit.entity.Animals",
+  "methods": [
+    "public abstract java.util.UUID getBreedCause()",
+    "public abstract void setBreedCause(java.util.UUID)",
+    "public abstract boolean isLoveMode()",
+    "public abstract int getLoveModeTicks()",
+    "public abstract void setLoveModeTicks(int)",
+    "public abstract boolean isBreedItem(org.bukkit.inventory.ItemStack)",
+    "public abstract boolean isBreedItem(org.bukkit.Material)"
+  ],
+  "method_count": 7
+}

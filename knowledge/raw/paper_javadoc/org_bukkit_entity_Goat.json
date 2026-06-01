@@ -1,0 +1,13 @@
+{
+  "class_name": "org.bukkit.entity.Goat",
+  "methods": [
+    "public abstract boolean hasLeftHorn()",
+    "public abstract void setLeftHorn(boolean)",
+    "public abstract boolean hasRightHorn()",
+    "public abstract void setRightHorn(boolean)",
+    "public abstract boolean isScreaming()",
+    "public abstract void setScreaming(boolean)",
+    "public abstract void ram(org.bukkit.entity.LivingEntity)"
+  ],
+  "method_count": 7
+}

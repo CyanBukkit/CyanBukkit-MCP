@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.SandstoneType",
+  "methods": [
+    "public static org.bukkit.SandstoneType[] values()",
+    "public static org.bukkit.SandstoneType valueOf(java.lang.String)",
+    "public byte getData()",
+    "public static org.bukkit.SandstoneType getByData(byte)"
+  ],
+  "method_count": 4
+}

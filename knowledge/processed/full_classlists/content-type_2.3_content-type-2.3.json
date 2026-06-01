@@ -1,0 +1,11 @@
+{
+  "jar": "D:\\Program Files\\gradle\\repo\\caches\\paperweight-userdev\\v2\\work\\extractFromBundler_e491abcda02ea198ba2fc0478772abd926c959c560babfab2b2a490c7102d114\\minecraftLibraries\\com\\nimbusds\\content-type\\2.3\\content-type-2.3.jar",
+  "artifact": "content-type/2.3/content-type-2.3",
+  "class_count": 3,
+  "all_classes": [
+    "com.nimbusds.common.contenttype.package-info",
+    "com.nimbusds.common.contenttype.ContentType",
+    "com.nimbusds.common.contenttype.ContentType$Parameter"
+  ],
+  "truncated": false
+}

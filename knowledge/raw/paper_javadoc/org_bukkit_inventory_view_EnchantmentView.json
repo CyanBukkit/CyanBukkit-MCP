@@ -1,0 +1,12 @@
+{
+  "class_name": "org.bukkit.inventory.view.EnchantmentView",
+  "methods": [
+    "public abstract org.bukkit.inventory.EnchantingInventory getTopInventory()",
+    "public abstract int getEnchantmentSeed()",
+    "public abstract void setEnchantmentSeed(int)",
+    "public abstract org.bukkit.enchantments.EnchantmentOffer[] getOffers()",
+    "public abstract void setOffers(org.bukkit.enchantments.EnchantmentOffer[])",
+    "public default org.bukkit.inventory.Inventory getTopInventory()"
+  ],
+  "method_count": 6
+}

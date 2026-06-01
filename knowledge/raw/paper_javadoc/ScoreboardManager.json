@@ -1,0 +1,9 @@
+{
+  "class_name": "ScoreboardManager",
+  "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/scoreboard/ScoreboardManager.html",
+  "description": "public interface\nScoreboardManager\nManager of Scoreboards",
+  "methods": [],
+  "nested_classes": [],
+  "full_text": "Package\norg.bukkit.scoreboard\nInterface ScoreboardManager\npublic interface\nScoreboardManager\nManager of Scoreboards\nMethod Summary\nAll Methods\nInstance Methods\nAbstract Methods\nModifier and Type\nMethod\nDescription\n@NotNull\nScoreboard\ngetMainScoreboard\n()\nGets the primary Scoreboard controlled by the server.\n@NotNull\nScoreboard\ngetNewScoreboard\n()\nGets a new Scoreboard to be tracked by the server.\nMethod Details\ngetMainScoreboard\n@NotNull\n@NotNull\nScoreboard\ngetMainScoreboard\n()\nGets the primary Scoreboard controlled by the server.\nThis Scoreboard is saved by the server, is affected by the /scoreboard\n command, and is the scoreboard shown by default to players.\nReturns:\nthe default server scoreboard\ngetNewScoreboard\n@NotNull\n@NotNull\nScoreboard\ngetNewScoreboard\n()\nGets a new Scoreboard to be tracked by the server. This scoreboard will\n be tracked as long as a reference is kept, either by a player or by a\n plugin.\nReturns:\nthe registered Scoreboard\nSee Also:\nWeakReference",
+  "method_count": 0
+}

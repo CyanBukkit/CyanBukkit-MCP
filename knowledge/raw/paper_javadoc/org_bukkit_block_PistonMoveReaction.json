@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.block.PistonMoveReaction",
+  "methods": [
+    "public static org.bukkit.block.PistonMoveReaction[] values()",
+    "public static org.bukkit.block.PistonMoveReaction valueOf(java.lang.String)",
+    "public int getId()",
+    "public static org.bukkit.block.PistonMoveReaction getById(int)"
+  ],
+  "method_count": 4
+}

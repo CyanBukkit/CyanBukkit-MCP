@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.event.player.PlayerTeleportEvent$TeleportCause",
+  "methods": [
+    "public static org.bukkit.event.player.PlayerTeleportEvent$TeleportCause[] values()",
+    "public static org.bukkit.event.player.PlayerTeleportEvent$TeleportCause valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

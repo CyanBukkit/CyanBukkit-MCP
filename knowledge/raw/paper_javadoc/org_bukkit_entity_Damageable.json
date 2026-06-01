@@ -1,0 +1,18 @@
+{
+  "class_name": "org.bukkit.entity.Damageable",
+  "methods": [
+    "public abstract void damage(double)",
+    "public abstract void damage(double, org.bukkit.entity.Entity)",
+    "public abstract void damage(double, org.bukkit.damage.DamageSource)",
+    "public abstract double getHealth()",
+    "public abstract void setHealth(double)",
+    "public default void heal(double)",
+    "public abstract void heal(double, org.bukkit.event.entity.EntityRegainHealthEvent$RegainReason)",
+    "public abstract double getAbsorptionAmount()",
+    "public abstract void setAbsorptionAmount(double)",
+    "public abstract double getMaxHealth()",
+    "public abstract void setMaxHealth(double)",
+    "public abstract void resetMaxHealth()"
+  ],
+  "method_count": 12
+}

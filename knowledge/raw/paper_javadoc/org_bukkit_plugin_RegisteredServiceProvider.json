@@ -1,0 +1,13 @@
+{
+  "class_name": "org.bukkit.plugin.RegisteredServiceProvider",
+  "methods": [
+    "public org.bukkit.plugin.RegisteredServiceProvider(java.lang.Class<T>, T, org.bukkit.plugin.ServicePriority, org.bukkit.plugin.Plugin)",
+    "public java.lang.Class<T> getService()",
+    "public org.bukkit.plugin.Plugin getPlugin()",
+    "public T getProvider()",
+    "public org.bukkit.plugin.ServicePriority getPriority()",
+    "public int compareTo(org.bukkit.plugin.RegisteredServiceProvider<?>)",
+    "public int compareTo(java.lang.Object)"
+  ],
+  "method_count": 7
+}

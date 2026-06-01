@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.entity.WitherSkull",
+  "methods": [
+    "public abstract void setCharged(boolean)",
+    "public abstract boolean isCharged()"
+  ],
+  "method_count": 2
+}

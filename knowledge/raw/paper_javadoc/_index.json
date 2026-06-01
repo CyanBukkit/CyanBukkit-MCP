@@ -1,0 +1,296 @@
+{
+  "Bukkit": {
+    "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/Bukkit.html",
+    "method_count": 0,
+    "has_description": true,
+    "file": "Bukkit.json"
+  },
+  "Server": {
+    "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/Server.html",
+    "method_count": 0,
+    "has_description": true,
+    "file": "Server.json"
+  },
+  "World": {
+    "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/World.html",
+    "method_count": 0,
+    "has_description": true,
+    "file": "World.json"
+  },
+  "Player": {
+    "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/entity/Player.html",
+    "method_count": 0,
+    "has_description": true,
+    "file": "Player.json"
+  },
+  "Entity": {
+    "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/entity/Entity.html",
+    "method_count": 0,
+    "has_description": true,
+    "file": "Entity.json"
+  },
+  "LivingEntity": {
+    "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/entity/LivingEntity.html",
+    "method_count": 0,
+    "has_description": true,
+    "file": "LivingEntity.json"
+  },
+  "Event": {
+    "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/event/Event.html",
+    "method_count": 0,
+    "has_description": true,
+    "file": "Event.json"
+  },
+  "EventHandler": {
+    "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/event/EventHandler.html",
+    "method_count": 0,
+    "has_description": true,
+    "file": "EventHandler.json"
+  },
+  "Listener": {
+    "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/event/Listener.html",
+    "method_count": 0,
+    "has_description": true,
+    "file": "Listener.json"
+  },
+  "PlayerJoinEvent": {
+    "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/event/player/PlayerJoinEvent.html",
+    "method_count": 0,
+    "has_description": true,
+    "file": "PlayerJoinEvent.json"
+  },
+  "PlayerQuitEvent": {
+    "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/event/player/PlayerQuitEvent.html",
+    "method_count": 0,
+    "has_description": true,
+    "file": "PlayerQuitEvent.json"
+  },
+  "PlayerMoveEvent": {
+    "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/event/player/PlayerMoveEvent.html",
+    "method_count": 0,
+    "has_description": true,
+    "file": "PlayerMoveEvent.json"
+  },
+  "AsyncPlayerChatEvent": {
+    "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/event/player/AsyncPlayerChatEvent.html",
+    "method_count": 0,
+    "has_description": true,
+    "file": "AsyncPlayerChatEvent.json"
+  },
+  "PlayerInteractEvent": {
+    "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/event/player/PlayerInteractEvent.html",
+    "method_count": 0,
+    "has_description": true,
+    "file": "PlayerInteractEvent.json"
+  },
+  "BlockBreakEvent": {
+    "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/event/block/BlockBreakEvent.html",
+    "method_count": 0,
+    "has_description": true,
+    "file": "BlockBreakEvent.json"
+  },
+  "BlockPlaceEvent": {
+    "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/event/block/BlockPlaceEvent.html",
+    "method_count": 0,
+    "has_description": true,
+    "file": "BlockPlaceEvent.json"
+  },
+  "EntityDamageEvent": {
+    "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/event/entity/EntityDamageEvent.html",
+    "method_count": 0,
+    "has_description": true,
+    "file": "EntityDamageEvent.json"
+  },
+  "EntityDeathEvent": {
+    "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/event/entity/EntityDeathEvent.html",
+    "method_count": 0,
+    "has_description": true,
+    "file": "EntityDeathEvent.json"
+  },
+  "PlayerDeathEvent": {
+    "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/event/entity/PlayerDeathEvent.html",
+    "method_count": 0,
+    "has_description": true,
+    "file": "PlayerDeathEvent.json"
+  },
+  "PluginEnableEvent": {
+    "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/event/server/PluginEnableEvent.html",
+    "method_count": 0,
+    "has_description": true,
+    "file": "PluginEnableEvent.json"
+  },
+  "Plugin": {
+    "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/plugin/Plugin.html",
+    "method_count": 0,
+    "has_description": true,
+    "file": "Plugin.json"
+  },
+  "PluginManager": {
+    "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/plugin/PluginManager.html",
+    "method_count": 0,
+    "has_description": true,
+    "file": "PluginManager.json"
+  },
+  "BukkitRunnable": {
+    "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/scheduler/BukkitRunnable.html",
+    "method_count": 0,
+    "has_description": true,
+    "file": "BukkitRunnable.json"
+  },
+  "BukkitScheduler": {
+    "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/scheduler/BukkitScheduler.html",
+    "method_count": 0,
+    "has_description": true,
+    "file": "BukkitScheduler.json"
+  },
+  "Command": {
+    "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/command/Command.html",
+    "method_count": 0,
+    "has_description": true,
+    "file": "Command.json"
+  },
+  "CommandSender": {
+    "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/command/CommandSender.html",
+    "method_count": 0,
+    "has_description": true,
+    "file": "CommandSender.json"
+  },
+  "CommandExecutor": {
+    "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/command/CommandExecutor.html",
+    "method_count": 0,
+    "has_description": true,
+    "file": "CommandExecutor.json"
+  },
+  "TabCompleter": {
+    "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/command/TabCompleter.html",
+    "method_count": 0,
+    "has_description": true,
+    "file": "TabCompleter.json"
+  },
+  "TabExecutor": {
+    "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/command/TabExecutor.html",
+    "method_count": 0,
+    "has_description": true,
+    "file": "TabExecutor.json"
+  },
+  "Inventory": {
+    "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/inventory/Inventory.html",
+    "method_count": 0,
+    "has_description": true,
+    "file": "Inventory.json"
+  },
+  "ItemStack": {
+    "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/inventory/ItemStack.html",
+    "method_count": 0,
+    "has_description": true,
+    "file": "ItemStack.json"
+  },
+  "InventoryHolder": {
+    "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/inventory/InventoryHolder.html",
+    "method_count": 0,
+    "has_description": true,
+    "file": "InventoryHolder.json"
+  },
+  "PlayerInventory": {
+    "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/inventory/PlayerInventory.html",
+    "method_count": 0,
+    "has_description": true,
+    "file": "PlayerInventory.json"
+  },
+  "YamlConfiguration": {
+    "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/configuration/file/YamlConfiguration.html",
+    "method_count": 0,
+    "has_description": true,
+    "file": "YamlConfiguration.json"
+  },
+  "FileConfiguration": {
+    "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/configuration/file/FileConfiguration.html",
+    "method_count": 0,
+    "has_description": true,
+    "file": "FileConfiguration.json"
+  },
+  "ConfigurationSection": {
+    "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/configuration/ConfigurationSection.html",
+    "method_count": 0,
+    "has_description": true,
+    "file": "ConfigurationSection.json"
+  },
+  "Material": {
+    "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/Material.html",
+    "method_count": 0,
+    "has_description": true,
+    "file": "Material.json"
+  },
+  "ItemMeta": {
+    "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/inventory/meta/ItemMeta.html",
+    "method_count": 0,
+    "has_description": true,
+    "file": "ItemMeta.json"
+  },
+  "Location": {
+    "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/Location.html",
+    "method_count": 0,
+    "has_description": true,
+    "file": "Location.json"
+  },
+  "Chunk": {
+    "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/Chunk.html",
+    "method_count": 0,
+    "has_description": true,
+    "file": "Chunk.json"
+  },
+  "Scoreboard": {
+    "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/scoreboard/Scoreboard.html",
+    "method_count": 0,
+    "has_description": true,
+    "file": "Scoreboard.json"
+  },
+  "ScoreboardManager": {
+    "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/scoreboard/ScoreboardManager.html",
+    "method_count": 0,
+    "has_description": true,
+    "file": "ScoreboardManager.json"
+  },
+  "BossBar": {
+    "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/boss/BossBar.html",
+    "method_count": 0,
+    "has_description": true,
+    "file": "BossBar.json"
+  },
+  "PersistentDataHolder": {
+    "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/persistence/PersistentDataHolder.html",
+    "method_count": 0,
+    "has_description": true,
+    "file": "PersistentDataHolder.json"
+  },
+  "PersistentDataContainer": {
+    "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/persistence/PersistentDataContainer.html",
+    "method_count": 0,
+    "has_description": true,
+    "file": "PersistentDataContainer.json"
+  },
+  "Particle": {
+    "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/Particle.html",
+    "method_count": 0,
+    "has_description": true,
+    "file": "Particle.json"
+  },
+  "Sound": {
+    "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/Sound.html",
+    "method_count": 0,
+    "has_description": true,
+    "file": "Sound.json"
+  },
+  "PotionEffect": {
+    "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/potion/PotionEffect.html",
+    "method_count": 0,
+    "has_description": true,
+    "file": "PotionEffect.json"
+  },
+  "PotionEffectType": {
+    "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/potion/PotionEffectType.html",
+    "method_count": 0,
+    "has_description": true,
+    "file": "PotionEffectType.json"
+  }
+}

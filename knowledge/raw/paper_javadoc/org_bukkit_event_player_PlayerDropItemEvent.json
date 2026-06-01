@@ -1,0 +1,12 @@
+{
+  "class_name": "org.bukkit.event.player.PlayerDropItemEvent",
+  "methods": [
+    "public org.bukkit.event.player.PlayerDropItemEvent(org.bukkit.entity.Player, org.bukkit.entity.Item)",
+    "public org.bukkit.entity.Item getItemDrop()",
+    "public boolean isCancelled()",
+    "public void setCancelled(boolean)",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 6
+}

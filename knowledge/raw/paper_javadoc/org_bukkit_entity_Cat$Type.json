@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.entity.Cat$Type",
+  "methods": [
+    "public static org.bukkit.entity.Cat$Type[] values()",
+    "public static org.bukkit.entity.Cat$Type valueOf(java.lang.String)",
+    "public org.bukkit.NamespacedKey getKey()"
+  ],
+  "method_count": 3
+}

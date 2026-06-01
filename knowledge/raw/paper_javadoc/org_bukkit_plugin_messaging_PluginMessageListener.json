@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.plugin.messaging.PluginMessageListener",
+  "methods": [
+    "public abstract void onPluginMessageReceived(java.lang.String, org.bukkit.entity.Player, byte[])",
+    "public default void onPluginMessageReceived(java.lang.String, io.papermc.paper.connection.PlayerConnection, byte[])"
+  ],
+  "method_count": 2
+}

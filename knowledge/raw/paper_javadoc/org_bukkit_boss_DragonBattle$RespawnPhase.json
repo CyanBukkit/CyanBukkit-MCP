@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.boss.DragonBattle$RespawnPhase",
+  "methods": [
+    "public static org.bukkit.boss.DragonBattle$RespawnPhase[] values()",
+    "public static org.bukkit.boss.DragonBattle$RespawnPhase valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

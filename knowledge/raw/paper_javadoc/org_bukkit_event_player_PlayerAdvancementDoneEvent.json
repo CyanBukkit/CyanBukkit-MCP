@@ -1,0 +1,13 @@
+{
+  "class_name": "org.bukkit.event.player.PlayerAdvancementDoneEvent",
+  "methods": [
+    "public org.bukkit.event.player.PlayerAdvancementDoneEvent(org.bukkit.entity.Player, org.bukkit.advancement.Advancement)",
+    "public org.bukkit.event.player.PlayerAdvancementDoneEvent(org.bukkit.entity.Player, org.bukkit.advancement.Advancement, net.kyori.adventure.text.Component)",
+    "public org.bukkit.advancement.Advancement getAdvancement()",
+    "public net.kyori.adventure.text.Component message()",
+    "public void message(net.kyori.adventure.text.Component)",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 7
+}

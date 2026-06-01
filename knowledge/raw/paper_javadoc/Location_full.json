@@ -1,0 +1,308 @@
+{
+  "class_name": "Location",
+  "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/Location.html",
+  "description": "All Implemented Interfaces:\nFinePosition\n,\nPosition\n,\nCloneable\n,\nConfigurationSerializable\npublic class\nLocation\nextends\nObject\nimplements\nCloneable\n,\nConfigurationSerializable\n,\nFinePosition\nRepresents a 3-dimensional position in a world.\nNo constraints are placed on any angular values other than that they be\n specified in degrees. This means that negative angles or angles of greater\n magnitude than 360 are valid, but may be normalized to any other equivalent\n representation by the implementation.",
+  "methods": [
+    {
+      "name": "Location",
+      "signature": "Position BLOCK_ZERO , FINE_ZERO Constructor Summary Constructors Constructor Description Location(World world, double x, double y, double z)",
+      "return_type": "Position\nBLOCK_ZERO\n,\nFINE_ZERO\nConstructor Summary\nConstruc",
+      "params": [
+        "World world",
+        "double x",
+        "double y",
+        "double z"
+      ],
+      "description": "Const"
+    },
+    {
+      "name": "Location",
+      "signature": "ructs a new Location with the given coordinates Location(World world, double x, double y, double z, float yaw, float pitch)",
+      "return_type": "ructs a new Location with the given coordinates",
+      "params": [
+        "World world",
+        "double x",
+        "double y",
+        "double z",
+        "float yaw",
+        "float pitch"
+      ],
+      "description": "Constructs a new Location with the given coordinates and direction"
+    },
+    {
+      "name": "add",
+      "signature": "NotNull Location add(double x, double y, double z)",
+      "return_type": "NotNull\nLocation",
+      "params": [
+        "double x",
+        "double y",
+        "double z"
+      ],
+      "description": "Adds the location by another."
+    },
+    {
+      "name": "add",
+      "signature": "NotNull Location add(@NotNull Location vec)",
+      "return_type": "NotNull\nLocation",
+      "params": [
+        "@NotNull Location vec"
+      ],
+      "description": "Adds the location by another."
+    },
+    {
+      "name": "add",
+      "signature": "NotNull Location add(@NotNull Location base, double x, double y, double z)",
+      "return_type": "NotNull\nLocation",
+      "params": [
+        "@NotNull Location base",
+        "double x",
+        "double y",
+        "double z"
+      ],
+      "description": "Takes the x/y/z from base and adds the specified x/y/z to it and returns self"
+    },
+    {
+      "name": "add",
+      "signature": "NotNull Location add(@NotNull Vector vec)",
+      "return_type": "NotNull\nLocation",
+      "params": [
+        "@NotNull Vector vec"
+      ],
+      "description": "Adds the location by a vector."
+    },
+    {
+      "name": "addRotation",
+      "signature": "NotNull Location addRotation(float yaw, float pitch)",
+      "return_type": "NotNull\nLocation",
+      "params": [
+        "float yaw",
+        "float pitch"
+      ],
+      "description": "Adds rotation in the form of yaw and patch to this location."
+    },
+    {
+      "name": "addRotation",
+      "signature": "NotNull Location addRotation(@NotNull Rotation rotation)",
+      "return_type": "NotNull\nLocation",
+      "params": [
+        "@NotNull Rotation rotation"
+      ],
+      "description": "Adds rotation to this location."
+    },
+    {
+      "name": "checkFinite",
+      "signature": "void checkFinite()",
+      "return_type": "void",
+      "params": [],
+      "description": "Check if each component of this Location is finite."
+    },
+    {
+      "name": "clone",
+      "signature": "NotNull Location clone()",
+      "return_type": "NotNull\nLocation",
+      "params": [],
+      "description": "boole"
+    },
+    {
+      "name": "createExplosion",
+      "signature": "an createExplosion(float power)",
+      "return_type": "an",
+      "params": [
+        "float power"
+      ],
+      "description": "Creat"
+    },
+    {
+      "name": "createExplosion",
+      "signature": "es explosion at this location with given power boolean createExplosion(float power, boolean setFire)",
+      "return_type": "es explosion at this location with given power\nboolean",
+      "params": [
+        "float power",
+        "boolean setFire"
+      ],
+      "description": "Creates explosion at this location with given power and optionally"
+    },
+    {
+      "name": "createExplosion",
+      "signature": "boolean createExplosion(float power, boolean setFire, boolean breakBlocks)",
+      "return_type": "boolean",
+      "params": [
+        "float power",
+        "boolean setFire",
+        "boolean breakBlocks"
+      ],
+      "description": "Creates explosion at this location with given power and optionally"
+    },
+    {
+      "name": "createExplosion",
+      "signature": "boolean createExplosion(@Nullable Entity source, float power)",
+      "return_type": "boolean",
+      "params": [
+        "@Nullable Entity source",
+        "float power"
+      ],
+      "description": "Creates explosion at this location with given power, with the specified entity as the source."
+    },
+    {
+      "name": "createExplosion",
+      "signature": "boolean createExplosion(@Nullable Entity source, float power, boolean setFire)",
+      "return_type": "boolean",
+      "params": [
+        "@Nullable Entity source",
+        "float power",
+        "boolean setFire"
+      ],
+      "description": "Creates explosion at this location with given power and optionally"
+    },
+    {
+      "name": "createExplosion",
+      "signature": "boolean createExplosion(@Nullable Entity source, float power, boolean setFire, boolean breakBlocks)",
+      "return_type": "boolean",
+      "params": [
+        "@Nullable Entity source",
+        "float power",
+        "boolean setFire",
+        "boolean breakBlocks"
+      ],
+      "description": "Creates explosion at this location with given power and optionally"
+    },
+    {
+      "name": "deserialize",
+      "signature": "NotNull Location deserialize(@NotNull Map < String, Object > args)",
+      "return_type": "NotNull\nLocation",
+      "params": [
+        "@NotNull Map < String",
+        "Object > args"
+      ],
+      "description": "Requi"
+    },
+    {
+      "name": "distance",
+      "signature": "red method for deserialization double distance(@NotNull Location o)",
+      "return_type": "red method for deserialization\ndouble",
+      "params": [
+        "@NotNull Location o"
+      ],
+      "description": "Get the distance between this location and another."
+    },
+    {
+      "name": "distanceSquared",
+      "signature": "double distanceSquared(@NotNull Location o)",
+      "return_type": "double",
+      "params": [
+        "@NotNull Location o"
+      ],
+      "description": "Get the squared distance between this location and another."
+    },
+    {
+      "name": "equals",
+      "signature": "boolean equals(Object obj)",
+      "return_type": "boolean",
+      "params": [
+        "Object obj"
+      ],
+      "description": "@NotN"
+    },
+    {
+      "name": "getBlock",
+      "signature": "ull Block getBlock()",
+      "return_type": "ull\nBlock",
+      "params": [],
+      "description": "Gets"
+    },
+    {
+      "name": "getBlockX",
+      "signature": "the block at the represented location int getBlockX()",
+      "return_type": "the block at the represented location\nint",
+      "params": [],
+      "description": "Gets the floored value of the X component, indicating the block that"
+    },
+    {
+      "name": "getBlockY",
+      "signature": "int getBlockY()",
+      "return_type": "int",
+      "params": [],
+      "description": "Gets the floored value of the Y component, indicating the block that"
+    },
+    {
+      "name": "getBlockZ",
+      "signature": "int getBlockZ()",
+      "return_type": "int",
+      "params": [],
+      "description": "Gets the floored value of the Z component, indicating the block that"
+    },
+    {
+      "name": "getChunk",
+      "signature": "NotNull Chunk getChunk()",
+      "return_type": "NotNull\nChunk",
+      "params": [],
+      "description": "Gets the chunk at the represented location"
+    },
+    {
+      "name": "getDirection",
+      "signature": "NotNull Vector getDirection()",
+      "return_type": "NotNull\nVector",
+      "params": [],
+      "description": "Gets a unit-vector pointing in the direction that this Location is"
+    },
+    {
+      "name": "getNearbyEntities",
+      "signature": "NotNull Collection < Entity > getNearbyEntities(double x, double y, double z)",
+      "return_type": "NotNull\nCollection\n<\nEntity\n>",
+      "params": [
+        "double x",
+        "double y",
+        "double z"
+      ],
+      "description": "Returns a list of entities within a bounding box centered around a Location."
+    },
+    {
+      "name": "getNearbyEntitiesByType",
+      "signature": "NotNull Collection <T> getNearbyEntitiesByType(@Nullable Class <? extends Entity > clazz, double xRadius, double yRadius, double zRadius, @Nullable Predicate <? super T> predicate)",
+      "return_type": "NotNull\nCollection\n<T>",
+      "params": [
+        "@Nullable Class <? extends Entity > clazz",
+        "double xRadius",
+        "double yRadius",
+        "double zRadius",
+        "@Nullable Predicate <? super T> predicate"
+      ],
+      "description": "Gets all nearby entities of the specified type, within the specified radius (bounding box)"
+    },
+    {
+      "name": "getNearbyEntitiesByType",
+      "signature": "NotNull Collection <T> getNearbyEntitiesByType(@Nullable Class <? extends T> clazz, double radius)",
+      "return_type": "NotNull\nCollection\n<T>",
+      "params": [
+        "@Nullable Class <? extends T> clazz",
+        "double radius"
+      ],
+      "description": "Gets all nearby entities of the specified type, within the specified radius (bounding box)"
+    },
+    {
+      "name": "getNearbyEntitiesByType",
+      "signature": "NotNull Collection <T> getNearbyEntitiesByType(@Nullable Class <? extends T> clazz, double xzRadius, double yRadius)",
+      "return_type": "NotNull\nCollection\n<T>",
+      "params": [
+        "@Nullable Class <? extends T> clazz",
+        "double xzRadius",
+        "double yRadius"
+      ],
+      "description": "Gets all nearby entities of the specified type, within the specified radius, with x and x radius matching (bounding box)"
+    },
+    {
+      "name": "getNearbyEntitiesByType",
+      "signature": "NotNull Collection <T> getNearbyEntitiesByType(@Nullable Class <? extends T> clazz, double xRadius, double yRadius, double zRadius)",
+      "return_type": "NotNull\nCollection\n<T>",
+      "params": [
+        "@Nullable Class <? extends T> clazz",
+        "double xRadius",
+        "double yRadius",
+        "double zRadius"
+      ],
+      "description": "Gets all nearby entities of the specified type, within the specified radius (bounding box)"
+    }
+  ],
+  "method_count": 31,
+  "full_text": "Package\norg.bukkit\nClass Location\njava.lang.Object\norg.bukkit.Location\nAll Implemented Interfaces:\nFinePosition\n,\nPosition\n,\nCloneable\n,\nConfigurationSerializable\npublic class\nLocation\nextends\nObject\nimplements\nCloneable\n,\nConfigurationSerializable\n,\nFinePosition\nRepresents a 3-dimensional position in a world.\nNo constraints are placed on any angular values other than that they be\n specified in degrees. This means that negative angles or angles of greater\n magnitude than 360 are valid, but may be normalized to any other equivalent\n representation by the implementation.\nField Summary\nFields inherited from interface io.papermc.paper.math.\nPosition\nBLOCK_ZERO\n,\nFINE_ZERO\nConstructor Summary\nConstructors\nConstructor\nDescription\nLocation\n(\nWorld\nworld,\n double x,\n double y,\n double z)\nConstructs a new Location with the given coordinates\nLocation\n(\nWorld\nworld,\n double x,\n double y,\n double z,\n float yaw,\n float pitch)\nConstructs a new Location with the given coordinates and direction\nMethod Summary\nAll Methods\nStatic Methods\nInstance Methods\nConcrete Methods\nDeprecated Methods\nModifier and Type\nMethod\nDescription\n@NotNull\nLocation\nadd\n(double x,\n double y,\n double z)\nAdds the location by another.\n@NotNull\nLocation\nadd\n(\n@NotNull\nLocation\nvec)\nAdds the location by another.\n@NotNull\nLocation\nadd\n(\n@NotNull\nLocation\nbase,\n double x,\n double y,\n double z)\nTakes the x/y/z from base and adds the specified x/y/z to it and returns self\n@NotNull\nLocation\nadd\n(\n@NotNull\nVector\nvec)\nAdds the location by a vector.\n@NotNull\nLocation\naddRotation\n(float yaw,\n float pitch)\nAdds rotation in the form of yaw and patch to this location.\n@NotNull\nLocation\naddRotation\n(\n@NotNull\nRotation\nrotation)\nAdds rotation to this location.\nvoid\ncheckFinite\n()\nCheck if each component of this Location is finite.\n@NotNull\nLocation\nclone\n()\nboolean\ncreateExplosion\n(float power)\nCreates explosion at this location with given power\nboolean\ncreateExplosion\n(float power,\n boolean setFire)\nCreates explosion at this location with given power and optionally\n setting blocks on fire.\nboolean\ncreateExplosion\n(float power,\n boolean setFire,\n boolean breakBlocks)\nCreates explosion at this location with given power and optionally\n setting blocks on fire.\nboolean\ncreateExplosion\n(\n@Nullable\nEntity\nsource,\n float power)\nCreates explosion at this location with given power, with the specified entity as the source.\nboolean\ncreateExplosion\n(\n@Nullable\nEntity\nsource,\n float power,\n boolean setFire)\nCreates explosion at this location with given power and optionally\n setting blocks on fire, with the specified entity as the source.\nboolean\ncreateExplosion\n(\n@Nullable\nEntity\nsource,\n float power,\n boolean setFire,\n boolean breakBlocks)\nCreates explosion at this location with given power and optionally\n setting blocks on fire, with the specified entity as the source.\nstatic\n@NotNull\nLocation\ndeserialize\n(\n@NotNull\nMap\n<\nString\n,\nObject\n> args)\nRequired method for deserialization\ndouble\ndistance\n(\n@NotNull\nLocation\no)\nGet the distance between this location and another.\ndouble\ndistanceSquared\n(\n@NotNull\nLocation\no)\nGet the squared distance between this location and another.\nboolean\nequals\n(\nObject\nobj)\n@NotNull\nBlock\ngetBlock\n()\nGets the block at the represented location\nint\ngetBlockX\n()\nGets the floored value of the X component, indicating the block that\n this location is contained with.\nint\ngetBlockY\n()\nGets the floored value of the Y component, indicating the block that\n this location is contained with.\nint\ngetBlockZ\n()\nGets the floored value of the Z component, indicating the block that\n this location is contained with.\n@NotNull\nChunk\ngetChunk\n()\nGets the chunk at the represented location\n@NotNull\nVector\ngetDirection\n()\nGets a unit-vector pointing in the direction that this Location is\n facing.\n@NotNull\nCollection\n<\nEntity\n>\ngetNearbyEntities\n(double x,\n double y,\n double z)\nReturns a list of entities within a bounding box centered around a Location.\n<T extends\nEntity\n>\n@NotNull\nCollection\n<T>\ngetNearbyEntitiesByType\n(\n@Nullable\nClass\n<? extends\nEntity\n> clazz,\n double xRadius,\n double yRadius,\n double zRadius,\n@Nullable\nPredicate\n<? super T> predicate)\nGets all nearby entities of the specified type, within the specified radius (bounding box)\n<T extends\nEntity\n>\n@NotNull\nCollection\n<T>\ngetNearbyEntitiesByType\n(\n@Nullable\nClass\n<? extends T> clazz,\n double radius)\nGets all nearby entities of the specified type, within the specified radius (bounding box)\n<T extends\nEntity\n>\n@NotNull\nCollection\n<T>\ngetNearbyEntitiesByType\n(\n@Nullable\nClass\n<? extends T> clazz,\n double xzRadius,\n double yRadius)\nGets all nearby entities of the specified type, within the specified radius, with x and x radius matching (bounding box)\n<T extends\nEntity\n>\n@NotNull\nCollection\n<T>\ngetNearbyEntitiesByType\n(\n@Nullable\nClass\n<? extends T> clazz,\n double xRadius,\n double yRadius,\n double zRadius)\nGets all nearby entities of the specified type, within the specified radius (bounding box)\n<T extends\nEntity"
+}

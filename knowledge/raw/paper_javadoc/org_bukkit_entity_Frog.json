@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.entity.Frog",
+  "methods": [
+    "public abstract org.bukkit.entity.Entity getTongueTarget()",
+    "public abstract void setTongueTarget(org.bukkit.entity.Entity)",
+    "public abstract org.bukkit.entity.Frog$Variant getVariant()",
+    "public abstract void setVariant(org.bukkit.entity.Frog$Variant)"
+  ],
+  "method_count": 4
+}

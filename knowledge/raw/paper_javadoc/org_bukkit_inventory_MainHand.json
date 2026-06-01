@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.inventory.MainHand",
+  "methods": [
+    "public static org.bukkit.inventory.MainHand[] values()",
+    "public static org.bukkit.inventory.MainHand valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

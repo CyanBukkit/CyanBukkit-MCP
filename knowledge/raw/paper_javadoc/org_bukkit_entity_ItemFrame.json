@@ -1,0 +1,17 @@
+{
+  "class_name": "org.bukkit.entity.ItemFrame",
+  "methods": [
+    "public abstract org.bukkit.inventory.ItemStack getItem()",
+    "public abstract void setItem(org.bukkit.inventory.ItemStack)",
+    "public abstract void setItem(org.bukkit.inventory.ItemStack, boolean)",
+    "public abstract float getItemDropChance()",
+    "public abstract void setItemDropChance(float)",
+    "public abstract org.bukkit.Rotation getRotation()",
+    "public abstract void setRotation(org.bukkit.Rotation)",
+    "public abstract boolean isVisible()",
+    "public abstract void setVisible(boolean)",
+    "public abstract boolean isFixed()",
+    "public abstract void setFixed(boolean)"
+  ],
+  "method_count": 11
+}

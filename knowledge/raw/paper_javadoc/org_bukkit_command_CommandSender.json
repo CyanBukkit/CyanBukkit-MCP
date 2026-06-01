@@ -1,0 +1,20 @@
+{
+  "class_name": "org.bukkit.command.CommandSender",
+  "methods": [
+    "public abstract void sendMessage(java.lang.String)",
+    "public abstract void sendMessage(java.lang.String...)",
+    "public abstract void sendMessage(java.util.UUID, java.lang.String)",
+    "public abstract void sendMessage(java.util.UUID, java.lang.String...)",
+    "public abstract org.bukkit.Server getServer()",
+    "public abstract java.lang.String getName()",
+    "public abstract org.bukkit.command.CommandSender$Spigot spigot()",
+    "public abstract net.kyori.adventure.text.Component name()",
+    "public default void sendMessage(net.kyori.adventure.identity.Identity, net.kyori.adventure.text.Component, net.kyori.adventure.audience.MessageType)",
+    "public default void sendRichMessage(java.lang.String)",
+    "public default void sendRichMessage(java.lang.String, net.kyori.adventure.text.minimessage.tag.resolver.TagResolver...)",
+    "public default void sendPlainMessage(java.lang.String)",
+    "public default void sendMessage(net.md_5.bungee.api.chat.BaseComponent)",
+    "public default void sendMessage(net.md_5.bungee.api.chat.BaseComponent...)"
+  ],
+  "method_count": 14
+}

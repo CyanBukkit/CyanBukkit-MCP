@@ -1,0 +1,23 @@
+{
+  "jar": "C:\\Users\\SmallXY\\.m2\\repository\\de\\simonsator\\Party-and-Friends-MySQL-Edition-Spigot-API\\1.5.4-RELEASE\\Party-and-Friends-MySQL-Edition-Spigot-API-1.5.4-RELEASE.jar",
+  "artifact": "Party-and-Friends-MySQL-Edition-Spigot-API/1.5.4-RELEASE/Party-and-Friends-MySQL-Edition-Spigot-API-1.5.4-RELEASE",
+  "class_count": 15,
+  "all_classes": [
+    "de.simonsator.partyandfriends.spigot.api.FriendCountPlaceHolder",
+    "de.simonsator.partyandfriends.spigot.api.FriendRequestCountPlaceHolder",
+    "de.simonsator.partyandfriends.spigot.api.pafplayers.PAFPlayer",
+    "de.simonsator.partyandfriends.spigot.api.pafplayers.PAFPlayerClass",
+    "de.simonsator.partyandfriends.spigot.api.pafplayers.PAFPlayerManager",
+    "de.simonsator.partyandfriends.spigot.communication.sql.MySQLData",
+    "de.simonsator.partyandfriends.spigot.communication.sql.SQLCommunication",
+    "de.simonsator.partyandfriends.spigot.error.ErrorReporter",
+    "de.simonsator.partyandfriends.spigot.main.Main",
+    "de.simonsator.partyandfriends.spigot.mysql.MySQL",
+    "de.simonsator.partyandfriends.spigot.pafplayers.manager.PAFPlayerManagerMySQL",
+    "de.simonsator.partyandfriends.spigot.pafplayers.mysql.PAFPlayerMySQL",
+    "de.simonsator.partyandfriends.spigot.placeholders.placeholderapi.FriendCountPlaceHolderPlaceholderAPI",
+    "de.simonsator.partyandfriends.spigot.utilities.disable.Deactivated",
+    "de.simonsator.partyandfriends.spigot.utilities.disable.Disabler"
+  ],
+  "truncated": false
+}

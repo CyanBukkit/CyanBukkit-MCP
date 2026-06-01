@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.entity.Vehicle",
+  "methods": [
+    "public abstract org.bukkit.util.Vector getVelocity()",
+    "public abstract void setVelocity(org.bukkit.util.Vector)"
+  ],
+  "method_count": 2
+}

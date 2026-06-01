@@ -1,0 +1,9 @@
+{
+  "class_name": "TabCompleter",
+  "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/command/TabCompleter.html",
+  "description": "All Known Subinterfaces:\nPlugin\n,\nTabExecutor\nAll Known Implementing Classes:\nJavaPlugin\n,\nPluginBase\npublic interface\nTabCompleter\nRepresents a class which can suggest tab completions for commands.",
+  "methods": [],
+  "nested_classes": [],
+  "full_text": "Package\norg.bukkit.command\nInterface TabCompleter\nAll Known Subinterfaces:\nPlugin\n,\nTabExecutor\nAll Known Implementing Classes:\nJavaPlugin\n,\nPluginBase\npublic interface\nTabCompleter\nRepresents a class which can suggest tab completions for commands.\nMethod Summary\nAll Methods\nInstance Methods\nAbstract Methods\nModifier and Type\nMethod\nDescription\n@Nullable\nList\n<\nString\n>\nonTabComplete\n(\n@NotNull\nCommandSender\nsender,\n@NotNull\nCommand\ncommand,\n@NotNull\nString\nlabel,\n@NotNull\nString\n@NotNull\n[] args)\nRequests a list of possible completions for a command argument.\nMethod Details\nonTabComplete\n@Nullable\n@Nullable\nList\n<\nString\n>\nonTabComplete\n(\n@NotNull\n@NotNull\nCommandSender\nsender,\n@NotNull\n@NotNull\nCommand\ncommand,\n@NotNull\n@NotNull\nString\nlabel,\n@NotNull\n@NotNull\nString\n@NotNull\n[] args)\nRequests a list of possible completions for a command argument.\nParameters:\nsender\n- Source of the command.  For players tab-completing a\n     command inside of a command block, this will be the player, not\n     the command block.\ncommand\n- Command which was executed\nlabel\n- Alias of the command which was used\nargs\n- The arguments passed to the command, including final\n     partial argument to be completed\nReturns:\nA List of possible completions for the final argument, or null\n     to default to the command executor",
+  "method_count": 0
+}

@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.data.type.Dispenser",
+  "methods": [
+    "public abstract boolean isTriggered()",
+    "public abstract void setTriggered(boolean)"
+  ],
+  "method_count": 2
+}

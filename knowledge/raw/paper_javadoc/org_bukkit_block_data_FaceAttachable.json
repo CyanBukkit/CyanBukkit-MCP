@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.data.FaceAttachable",
+  "methods": [
+    "public abstract org.bukkit.block.data.FaceAttachable$AttachedFace getAttachedFace()",
+    "public abstract void setAttachedFace(org.bukkit.block.data.FaceAttachable$AttachedFace)"
+  ],
+  "method_count": 2
+}

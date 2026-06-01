@@ -1,0 +1,7 @@
+{
+  "class_name": "org.bukkit.plugin.java.JavaPluginLoader$1",
+  "methods": [
+    "public void execute(org.bukkit.event.Listener, org.bukkit.event.Event)"
+  ],
+  "method_count": 1
+}

@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.plugin.PluginAwareness$Flags",
+  "methods": [
+    "public static org.bukkit.plugin.PluginAwareness$Flags[] values()",
+    "public static org.bukkit.plugin.PluginAwareness$Flags valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

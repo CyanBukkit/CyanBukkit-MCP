@@ -1,0 +1,15 @@
+{
+  "class_name": "org.bukkit.event.block.BlockShearEntityEvent",
+  "methods": [
+    "public org.bukkit.event.block.BlockShearEntityEvent(org.bukkit.block.Block, org.bukkit.entity.Entity, org.bukkit.inventory.ItemStack, java.util.List<org.bukkit.inventory.ItemStack>)",
+    "public org.bukkit.entity.Entity getEntity()",
+    "public org.bukkit.inventory.ItemStack getTool()",
+    "public java.util.List<org.bukkit.inventory.ItemStack> getDrops()",
+    "public void setDrops(java.util.List<org.bukkit.inventory.ItemStack>)",
+    "public boolean isCancelled()",
+    "public void setCancelled(boolean)",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 9
+}

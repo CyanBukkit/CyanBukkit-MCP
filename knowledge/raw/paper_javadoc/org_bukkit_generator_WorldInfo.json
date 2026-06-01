@@ -1,0 +1,13 @@
+{
+  "class_name": "org.bukkit.generator.WorldInfo",
+  "methods": [
+    "public abstract java.lang.String getName()",
+    "public abstract java.util.UUID getUID()",
+    "public abstract org.bukkit.World$Environment getEnvironment()",
+    "public abstract long getSeed()",
+    "public abstract int getMinHeight()",
+    "public abstract int getMaxHeight()",
+    "public abstract org.bukkit.generator.BiomeProvider vanillaBiomeProvider()"
+  ],
+  "method_count": 7
+}

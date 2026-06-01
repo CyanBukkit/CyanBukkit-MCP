@@ -3,3 +3,14 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 .ruff_cache/
+
+# Build artifacts
+build/
+dist/
+*.spec
+build_entrypoint.py
+assets/icon.ico
+
+# Local logs / scratch outputs
+stdout.txt
+stderr.txt

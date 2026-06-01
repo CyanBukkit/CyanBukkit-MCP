@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.boss.BarStyle",
+  "methods": [
+    "public static org.bukkit.boss.BarStyle[] values()",
+    "public static org.bukkit.boss.BarStyle valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

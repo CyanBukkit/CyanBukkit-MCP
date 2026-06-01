@@ -1,0 +1,7 @@
+{
+  "class_name": "org.bukkit.conversations.InactivityConversationCanceller$1",
+  "methods": [
+    "public void run()"
+  ],
+  "method_count": 1
+}

@@ -1,0 +1,18 @@
+{
+  "class_name": "org.bukkit.event.server.TabCompleteEvent",
+  "methods": [
+    "public org.bukkit.event.server.TabCompleteEvent(org.bukkit.command.CommandSender, java.lang.String, java.util.List<java.lang.String>)",
+    "public org.bukkit.event.server.TabCompleteEvent(org.bukkit.command.CommandSender, java.lang.String, java.util.List<java.lang.String>, boolean, org.bukkit.Location)",
+    "public org.bukkit.command.CommandSender getSender()",
+    "public java.lang.String getBuffer()",
+    "public java.util.List<java.lang.String> getCompletions()",
+    "public void setCompletions(java.util.List<java.lang.String>)",
+    "public boolean isCommand()",
+    "public org.bukkit.Location getLocation()",
+    "public boolean isCancelled()",
+    "public void setCancelled(boolean)",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 12
+}

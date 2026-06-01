@@ -1,0 +1,14 @@
+{
+  "class_name": "org.bukkit.inventory.SmithingRecipe",
+  "methods": [
+    "public org.bukkit.inventory.SmithingRecipe(org.bukkit.NamespacedKey, org.bukkit.inventory.ItemStack, org.bukkit.inventory.RecipeChoice, org.bukkit.inventory.RecipeChoice)",
+    "public org.bukkit.inventory.SmithingRecipe(org.bukkit.NamespacedKey, org.bukkit.inventory.ItemStack, org.bukkit.inventory.RecipeChoice, org.bukkit.inventory.RecipeChoice, boolean)",
+    "public org.bukkit.inventory.RecipeChoice getBase()",
+    "public org.bukkit.inventory.RecipeChoice getAddition()",
+    "public org.bukkit.inventory.ItemStack getResult()",
+    "public org.bukkit.NamespacedKey getKey()",
+    "public boolean willCopyNbt()",
+    "public boolean willCopyDataComponents()"
+  ],
+  "method_count": 8
+}

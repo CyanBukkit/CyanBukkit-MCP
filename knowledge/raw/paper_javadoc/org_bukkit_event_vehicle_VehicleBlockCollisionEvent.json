@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.event.vehicle.VehicleBlockCollisionEvent",
+  "methods": [
+    "public org.bukkit.event.vehicle.VehicleBlockCollisionEvent(org.bukkit.entity.Vehicle, org.bukkit.block.Block)",
+    "public org.bukkit.event.vehicle.VehicleBlockCollisionEvent(org.bukkit.entity.Vehicle, org.bukkit.block.Block, org.bukkit.util.Vector)",
+    "public org.bukkit.block.Block getBlock()",
+    "public org.bukkit.util.Vector getVelocity()"
+  ],
+  "method_count": 4
+}

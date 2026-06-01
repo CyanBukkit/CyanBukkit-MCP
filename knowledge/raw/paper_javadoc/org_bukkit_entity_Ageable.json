@@ -1,0 +1,15 @@
+{
+  "class_name": "org.bukkit.entity.Ageable",
+  "methods": [
+    "public abstract int getAge()",
+    "public abstract void setAge(int)",
+    "public abstract void setAgeLock(boolean)",
+    "public abstract boolean getAgeLock()",
+    "public abstract void setBaby()",
+    "public abstract void setAdult()",
+    "public abstract boolean isAdult()",
+    "public abstract boolean canBreed()",
+    "public abstract void setBreed(boolean)"
+  ],
+  "method_count": 9
+}

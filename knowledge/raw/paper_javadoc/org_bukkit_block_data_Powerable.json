@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.data.Powerable",
+  "methods": [
+    "public abstract boolean isPowered()",
+    "public abstract void setPowered(boolean)"
+  ],
+  "method_count": 2
+}

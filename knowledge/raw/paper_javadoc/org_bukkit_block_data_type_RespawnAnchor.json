@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.block.data.type.RespawnAnchor",
+  "methods": [
+    "public abstract int getCharges()",
+    "public abstract void setCharges(int)",
+    "public abstract int getMaximumCharges()"
+  ],
+  "method_count": 3
+}

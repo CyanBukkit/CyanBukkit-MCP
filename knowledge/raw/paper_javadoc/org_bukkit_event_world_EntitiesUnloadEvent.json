@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.event.world.EntitiesUnloadEvent",
+  "methods": [
+    "public org.bukkit.event.world.EntitiesUnloadEvent(org.bukkit.Chunk, java.util.List<org.bukkit.entity.Entity>)",
+    "public java.util.List<org.bukkit.entity.Entity> getEntities()",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 4
+}

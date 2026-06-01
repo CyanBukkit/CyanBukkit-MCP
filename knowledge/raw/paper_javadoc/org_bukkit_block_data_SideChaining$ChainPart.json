@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.data.SideChaining$ChainPart",
+  "methods": [
+    "public static org.bukkit.block.data.SideChaining$ChainPart[] values()",
+    "public static org.bukkit.block.data.SideChaining$ChainPart valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

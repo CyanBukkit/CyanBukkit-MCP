@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.data.type.Stairs$Shape",
+  "methods": [
+    "public static org.bukkit.block.data.type.Stairs$Shape[] values()",
+    "public static org.bukkit.block.data.type.Stairs$Shape valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

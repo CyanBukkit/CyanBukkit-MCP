@@ -1,0 +1,13 @@
+{
+  "class_name": "org.bukkit.block.EntityBlockStorage",
+  "methods": [
+    "public abstract boolean isFull()",
+    "public abstract int getEntityCount()",
+    "public abstract int getMaxEntities()",
+    "public abstract void setMaxEntities(int)",
+    "public abstract java.util.List<T> releaseEntities()",
+    "public abstract void addEntity(T)",
+    "public abstract void clearEntities()"
+  ],
+  "method_count": 7
+}

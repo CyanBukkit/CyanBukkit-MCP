@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.data.type.PistonHead",
+  "methods": [
+    "public abstract boolean isShort()",
+    "public abstract void setShort(boolean)"
+  ],
+  "method_count": 2
+}

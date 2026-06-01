@@ -1,0 +1,422 @@
+{
+  "origin": "https://www.spigotmc.org/wiki/event-api/",
+  "refs": {
+    "e1": {
+      "name": "Event API",
+      "role": "heading"
+    },
+    "e10": {
+      "name": "Wiki",
+      "role": "link"
+    },
+    "e100": {
+      "name": "Page List",
+      "role": "link"
+    },
+    "e101": {
+      "name": "Recent Activity",
+      "role": "link"
+    },
+    "e102": {
+      "name": "",
+      "role": "generic"
+    },
+    "e103": {
+      "name": "Enter your search and hit enter",
+      "role": "searchbox"
+    },
+    "e104": {
+      "name": "Search...",
+      "role": "searchbox"
+    },
+    "e11": {
+      "name": "BungeeCord",
+      "role": "link"
+    },
+    "e12": {
+      "name": "BungeeCord Plugin Development",
+      "role": "link"
+    },
+    "e13": {
+      "name": "SpigotMC \uf0d7",
+      "role": "link"
+    },
+    "e14": {
+      "name": "FAQ",
+      "role": "link"
+    },
+    "e15": {
+      "name": "Contact Us",
+      "role": "link"
+    },
+    "e16": {
+      "name": "Terms",
+      "role": "link"
+    },
+    "e17": {
+      "name": "Rules",
+      "role": "link"
+    },
+    "e18": {
+      "name": "Privacy Policy",
+      "role": "link"
+    },
+    "e19": {
+      "name": "\uf0e0",
+      "role": "link"
+    },
+    "e2": {
+      "name": "\uf0e8",
+      "role": "link"
+    },
+    "e20": {
+      "name": "\uf09e",
+      "role": "link"
+    },
+    "e21": {
+      "name": "ThemeHouse",
+      "role": "link"
+    },
+    "e22": {
+      "name": "SpigotMC - High Performance Minecraft Software",
+      "role": "link"
+    },
+    "e23": {
+      "name": "here",
+      "role": "link"
+    },
+    "e24": {
+      "name": "Page",
+      "role": "link"
+    },
+    "e25": {
+      "name": "History",
+      "role": "link"
+    },
+    "e26": {
+      "name": "Editors",
+      "role": "link"
+    },
+    "e27": {
+      "name": "Contents",
+      "role": "heading"
+    },
+    "e28": {
+      "name": "Creating your own listener (top)",
+      "role": "heading"
+    },
+    "e29": {
+      "name": "see a full list of events here",
+      "role": "link"
+    },
+    "e3": {
+      "name": "Home",
+      "role": "link"
+    },
+    "e30": {
+      "name": "full list of events",
+      "role": "link"
+    },
+    "e31": {
+      "name": "Create your own event (top)",
+      "role": "heading"
+    },
+    "e32": {
+      "name": "\uf004 SPONSORS",
+      "role": "heading"
+    },
+    "e33": {
+      "name": "Sign up now!",
+      "role": "link"
+    },
+    "e34": {
+      "name": "\uf152 WIKI NAVIGATION",
+      "role": "heading"
+    },
+    "e35": {
+      "name": "\uf152 WIKI INDEX",
+      "role": "heading"
+    },
+    "e36": {
+      "name": "\uf152 TOP EDITORS",
+      "role": "heading"
+    },
+    "e37": {
+      "name": "\uf152 WIKI STATISTICS",
+      "role": "heading"
+    },
+    "e38": {
+      "name": "TextComponent",
+      "role": "link"
+    },
+    "e39": {
+      "name": "Event",
+      "role": "link"
+    },
+    "e4": {
+      "name": "Wiki",
+      "role": "link"
+    },
+    "e40": {
+      "name": "String",
+      "role": "link"
+    },
+    "e41": {
+      "name": "String",
+      "role": "link"
+    },
+    "e42": {
+      "name": "String",
+      "role": "link"
+    },
+    "e43": {
+      "name": "Minecraft Server List",
+      "role": "link"
+    },
+    "e44": {
+      "name": "Aternos",
+      "role": "link"
+    },
+    "e45": {
+      "name": "Tebex Donation Plugin & Webstore",
+      "role": "link"
+    },
+    "e46": {
+      "name": "WIKI INDEX",
+      "role": "link"
+    },
+    "e47": {
+      "name": "Enter your search and hit enter",
+      "role": "searchbox"
+    },
+    "e48": {
+      "name": "",
+      "role": "listitem"
+    },
+    "e49": {
+      "name": "",
+      "role": "listitem"
+    },
+    "e5": {
+      "name": "BungeeCord",
+      "role": "link"
+    },
+    "e50": {
+      "name": "",
+      "role": "listitem"
+    },
+    "e51": {
+      "name": "",
+      "role": "listitem"
+    },
+    "e52": {
+      "name": "",
+      "role": "listitem"
+    },
+    "e53": {
+      "name": "",
+      "role": "listitem"
+    },
+    "e54": {
+      "name": "Creating your own listener",
+      "role": "link"
+    },
+    "e55": {
+      "name": "Create your own event",
+      "role": "link"
+    },
+    "e56": {
+      "name": "top",
+      "role": "link"
+    },
+    "e57": {
+      "name": "top",
+      "role": "link"
+    },
+    "e58": {
+      "name": "BungeeCord Plugin Development",
+      "role": "link"
+    },
+    "e59": {
+      "name": "Bukkit & BungeeCord Plugin Messaging Channel",
+      "role": "link"
+    },
+    "e6": {
+      "name": "BungeeCord Plugin Development",
+      "role": "link"
+    },
+    "e60": {
+      "name": "Common Development Pitfalls",
+      "role": "link"
+    },
+    "e61": {
+      "name": "Create your first BungeeCord plugin (Proxy)",
+      "role": "link"
+    },
+    "e62": {
+      "name": "Create your first BungeeCord plugin with Gradle",
+      "role": "link"
+    },
+    "e63": {
+      "name": "Creating a plugin of Bungee(without Maven)",
+      "role": "link"
+    },
+    "e64": {
+      "name": "Scoreboard (Not API)",
+      "role": "link"
+    },
+    "e65": {
+      "name": "Sending a custom plugin message from BungeeCord",
+      "role": "link"
+    },
+    "e66": {
+      "name": "Sending players between servers in BungeeCord",
+      "role": "link"
+    },
+    "e67": {
+      "name": "The Chat Component API",
+      "role": "link"
+    },
+    "e68": {
+      "name": "The Chat Component API (German)",
+      "role": "link"
+    },
+    "e69": {
+      "name": "Using the Bungee Configuration System",
+      "role": "link"
+    },
+    "e7": {
+      "name": "",
+      "role": "LabelText"
+    },
+    "e70": {
+      "name": "BungeeCord",
+      "role": "link"
+    },
+    "e71": {
+      "name": "Forums",
+      "role": "link"
+    },
+    "e72": {
+      "name": "Spigot",
+      "role": "link"
+    },
+    "e73": {
+      "name": "Mineplugins",
+      "role": "link"
+    },
+    "e74": {
+      "name": "smmmadden",
+      "role": "link"
+    },
+    "e75": {
+      "name": "Jeppa",
+      "role": "link"
+    },
+    "e76": {
+      "name": "RockinChaos",
+      "role": "link"
+    },
+    "e77": {
+      "name": "Maximvdw",
+      "role": "link"
+    },
+    "e78": {
+      "name": "Blackixx",
+      "role": "link"
+    },
+    "e79": {
+      "name": "Indyuce",
+      "role": "link"
+    },
+    "e8": {
+      "name": "\uf0e8",
+      "role": "link"
+    },
+    "e80": {
+      "name": "BrettPlays",
+      "role": "link"
+    },
+    "e81": {
+      "name": "Phoenix616",
+      "role": "link"
+    },
+    "e82": {
+      "name": "Zrips",
+      "role": "link"
+    },
+    "e83": {
+      "name": "Home",
+      "role": "link"
+    },
+    "e84": {
+      "name": "\uf0d7",
+      "role": "link"
+    },
+    "e85": {
+      "name": "Forums",
+      "role": "link"
+    },
+    "e86": {
+      "name": "\uf0d7",
+      "role": "link"
+    },
+    "e87": {
+      "name": "Resources",
+      "role": "link"
+    },
+    "e88": {
+      "name": "\uf0d7",
+      "role": "link"
+    },
+    "e89": {
+      "name": "Wiki",
+      "role": "link"
+    },
+    "e9": {
+      "name": "Home",
+      "role": "link"
+    },
+    "e90": {
+      "name": "Team",
+      "role": "link"
+    },
+    "e91": {
+      "name": "\uf0d7",
+      "role": "link"
+    },
+    "e92": {
+      "name": "Downloads",
+      "role": "link"
+    },
+    "e93": {
+      "name": "\uf0d7",
+      "role": "link"
+    },
+    "e94": {
+      "name": "Discord",
+      "role": "link"
+    },
+    "e95": {
+      "name": "Hub",
+      "role": "link"
+    },
+    "e96": {
+      "name": "Issues",
+      "role": "link"
+    },
+    "e97": {
+      "name": "\uf141",
+      "role": "link"
+    },
+    "e98": {
+      "name": "Log in",
+      "role": "link"
+    },
+    "e99": {
+      "name": "Wiki Index",
+      "role": "link"
+    }
+  },
+  "snapshot": "- link \"SpigotMC - High Performance Minecraft Software\" [ref=e22]\n- link \"here\" [ref=e23]\n- listitem \"Home\" [level=1, ref=e48] clickable [cursor:pointer]\n  - link \"Home\" [ref=e83]\n  - link \"\uf0d7\" [ref=e84]\n- listitem \"Forums\" [level=1, ref=e49] clickable [cursor:pointer]\n  - link \"Forums\" [ref=e85]\n  - link \"\uf0d7\" [ref=e86]\n- listitem \"Resources\" [level=1, ref=e50] clickable [cursor:pointer]\n  - link \"Resources\" [ref=e87]\n  - link \"\uf0d7\" [ref=e88]\n- link \"Wiki\" [ref=e89]\n- link \"Wiki Index\" [ref=e99]\n- link \"Page List\" [ref=e100]\n- link \"Recent Activity\" [ref=e101]\n- generic [ref=e102] clickable [cursor:pointer, onclick]\n- searchbox \"Enter your search and hit enter\" [ref=e103]\n- searchbox \"Search...\" [ref=e104]\n- listitem \"Team\" [level=1, ref=e51] clickable [cursor:pointer]\n  - link \"Team\" [ref=e90]\n  - link \"\uf0d7\" [ref=e91]\n- listitem \"Downloads\" [level=1, ref=e52] clickable [cursor:pointer]\n  - link \"Downloads\" [ref=e92]\n  - link \"\uf0d7\" [ref=e93]\n- link \"Discord\" [ref=e94]\n- link \"Hub\" [ref=e95]\n- link \"Issues\" [ref=e96]\n- listitem \"Menu\" [level=1, ref=e53] clickable [cursor:pointer]\n  - link \"\uf141\" [ref=e97]\n- link \"Log in\" [ref=e98]\n- link \"\uf0e8\" [ref=e2]\n- link \"Home\" [ref=e3]\n- link \"Wiki\" [ref=e4]\n- link \"BungeeCord\" [ref=e5]\n- link \"BungeeCord Plugin Development\" [ref=e6]\n- heading \"Event API\" [level=1, ref=e1]\n- link \"Page\" [ref=e24]\n- link \"History\" [ref=e25]\n- link \"Editors\" [ref=e26]\n- heading \"Contents\" [level=2, ref=e27]\n- link \"Creating your own listener\" [ref=e54]\n- link \"Create your own event\" [ref=e55]\n- heading \"Creating your own listener (top)\" [level=2, ref=e28]\n  - link \"top\" [ref=e56]\n- link \"see a full list of events here\" [ref=e29]\n- link \"TextComponent\" [ref=e38]\n- link \"full list of events\" [ref=e30]\n- heading \"Create your own event (top)\" [level=2, ref=e31]\n  - link \"top\" [ref=e57]\n- link \"Event\" [ref=e39]\n- link \"String\" [ref=e40]\n- link \"String\" [ref=e41]\n- link \"String\" [ref=e42]\n- heading \"\uf004 SPONSORS\" [level=3, ref=e32]\n- link \"Minecraft Server List\" [ref=e43]\n- link \"Aternos\" [ref=e44]\n- link \"Tebex Donation Plugin & Webstore\" [ref=e45]\n- LabelText \"Sign up now!\" [ref=e7] clickable [cursor:pointer]\n  - link \"Sign up now!\" [ref=e33]\n- heading \"\uf152 WIKI NAVIGATION\" [level=3, ref=e34]\n- link \"BungeeCord Plugin Development\" [ref=e58]\n- link \"Bukkit & BungeeCord Plugin Messaging Channel\" [ref=e59]\n- link \"Common Development Pitfalls\" [ref=e60]\n- link \"Create your first BungeeCord plugin (Proxy)\" [ref=e61]\n- link \"Create your first BungeeCord plugin with Gradle\" [ref=e62]\n- link \"Creating a plugin of Bungee(without Maven)\" [ref=e63]\n- link \"Scoreboard (Not API)\" [ref=e64]\n- link \"Sending a custom plugin message from BungeeCord\" [ref=e65]\n- link \"Sending players between servers in BungeeCord\" [ref=e66]\n- link \"The Chat Component API\" [ref=e67]\n- link \"The Chat Component API (German)\" [ref=e68]\n- link \"Using the Bungee Configuration System\" [ref=e69]\n- heading \"\uf152 WIKI INDEX\" [level=3, ref=e35]\n  - link \"WIKI INDEX\" [ref=e46]\n- link \"BungeeCord\" [ref=e70]\n- link \"Forums\" [ref=e71]\n- link \"Spigot\" [ref=e72]\n- searchbox \"Enter your search and hit enter\" [ref=e47]\n- heading \"\uf152 TOP EDITORS\" [level=3, ref=e36]\n- link \"Mineplugins\" [ref=e73]\n- link \"smmmadden\" [ref=e74]\n- link \"Jeppa\" [ref=e75]\n- link \"RockinChaos\" [ref=e76]\n- link \"Maximvdw\" [ref=e77]\n- link \"Blackixx\" [ref=e78]\n- link \"Indyuce\" [ref=e79]\n- link \"BrettPlays\" [ref=e80]\n- link \"Phoenix616\" [ref=e81]\n- link \"Zrips\" [ref=e82]\n- heading \"\uf152 WIKI STATISTICS\" [level=3, ref=e37]\n- link \"\uf0e8\" [ref=e8]\n- link \"Home\" [ref=e9]\n- link \"Wiki\" [ref=e10]\n- link \"BungeeCord\" [ref=e11]\n- link \"BungeeCord Plugin Development\" [ref=e12]\n- link \"SpigotMC \uf0d7\" [ref=e13]\n- link \"FAQ\" [ref=e14]\n- link \"Contact Us\" [ref=e15]\n- link \"Terms\" [ref=e16]\n- link \"Rules\" [ref=e17]\n- link \"Privacy Policy\" [ref=e18]\n- link \"\uf0e0\" [ref=e19]\n- link \"\uf09e\" [ref=e20]\n- link \"ThemeHouse\" [ref=e21]"
+}

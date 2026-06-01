@@ -1,0 +1,12 @@
+{
+  "class_name": "org.bukkit.block.EndGateway",
+  "methods": [
+    "public abstract org.bukkit.Location getExitLocation()",
+    "public abstract void setExitLocation(org.bukkit.Location)",
+    "public abstract boolean isExactTeleport()",
+    "public abstract void setExactTeleport(boolean)",
+    "public abstract long getAge()",
+    "public abstract void setAge(long)"
+  ],
+  "method_count": 6
+}

@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.entity.OminousItemSpawner",
+  "methods": [
+    "public abstract org.bukkit.inventory.ItemStack getItem()",
+    "public abstract void setItem(org.bukkit.inventory.ItemStack)",
+    "public abstract long getSpawnItemAfterTicks()",
+    "public abstract void setSpawnItemAfterTicks(long)"
+  ],
+  "method_count": 4
+}

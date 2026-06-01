@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.data.type.SculkSensor$Phase",
+  "methods": [
+    "public static org.bukkit.block.data.type.SculkSensor$Phase[] values()",
+    "public static org.bukkit.block.data.type.SculkSensor$Phase valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

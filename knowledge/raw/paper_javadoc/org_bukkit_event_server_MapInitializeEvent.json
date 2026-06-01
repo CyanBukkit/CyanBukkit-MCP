@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.event.server.MapInitializeEvent",
+  "methods": [
+    "public org.bukkit.event.server.MapInitializeEvent(org.bukkit.map.MapView)",
+    "public org.bukkit.map.MapView getMap()",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 4
+}

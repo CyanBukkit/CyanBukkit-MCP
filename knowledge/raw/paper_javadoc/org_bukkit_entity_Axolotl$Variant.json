@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.entity.Axolotl$Variant",
+  "methods": [
+    "public static org.bukkit.entity.Axolotl$Variant[] values()",
+    "public static org.bukkit.entity.Axolotl$Variant valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

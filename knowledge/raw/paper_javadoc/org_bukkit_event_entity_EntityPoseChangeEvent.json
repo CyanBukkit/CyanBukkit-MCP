@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.event.entity.EntityPoseChangeEvent",
+  "methods": [
+    "public org.bukkit.event.entity.EntityPoseChangeEvent(org.bukkit.entity.Entity, org.bukkit.entity.Pose)",
+    "public org.bukkit.entity.Pose getPose()",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 4
+}

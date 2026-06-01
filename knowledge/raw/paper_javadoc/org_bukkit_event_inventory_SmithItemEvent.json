@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.event.inventory.SmithItemEvent",
+  "methods": [
+    "public org.bukkit.event.inventory.SmithItemEvent(org.bukkit.inventory.InventoryView, org.bukkit.event.inventory.InventoryType$SlotType, int, org.bukkit.event.inventory.ClickType, org.bukkit.event.inventory.InventoryAction)",
+    "public org.bukkit.event.inventory.SmithItemEvent(org.bukkit.inventory.InventoryView, org.bukkit.event.inventory.InventoryType$SlotType, int, org.bukkit.event.inventory.ClickType, org.bukkit.event.inventory.InventoryAction, int)",
+    "public org.bukkit.inventory.SmithingInventory getInventory()",
+    "public org.bukkit.inventory.Inventory getInventory()"
+  ],
+  "method_count": 4
+}

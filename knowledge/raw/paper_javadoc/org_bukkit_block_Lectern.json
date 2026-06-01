@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.Lectern",
+  "methods": [
+    "public abstract int getPage()",
+    "public abstract void setPage(int)"
+  ],
+  "method_count": 2
+}

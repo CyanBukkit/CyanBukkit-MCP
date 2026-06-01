@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.block.data.type.TurtleEgg",
+  "methods": [
+    "public abstract int getEggs()",
+    "public abstract void setEggs(int)",
+    "public abstract int getMinimumEggs()",
+    "public abstract int getMaximumEggs()"
+  ],
+  "method_count": 4
+}

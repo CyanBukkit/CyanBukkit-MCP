@@ -1,0 +1,14 @@
+{
+  "class_name": "org.bukkit.Registry$NotARegistry",
+  "methods": [
+    "public org.bukkit.Registry$NotARegistry()",
+    "public java.util.stream.Stream<A> stream()",
+    "public java.util.stream.Stream<org.bukkit.NamespacedKey> keyStream()",
+    "public int size()",
+    "public org.bukkit.NamespacedKey getKey(A)",
+    "public boolean hasTag(io.papermc.paper.registry.tag.TagKey<A>)",
+    "public io.papermc.paper.registry.tag.Tag<A> getTag(io.papermc.paper.registry.tag.TagKey<A>)",
+    "public java.util.Collection<io.papermc.paper.registry.tag.Tag<A>> getTags()"
+  ],
+  "method_count": 8
+}

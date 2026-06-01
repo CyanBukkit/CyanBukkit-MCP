@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.entity.Horse$Variant",
+  "methods": [
+    "public static org.bukkit.entity.Horse$Variant[] values()",
+    "public static org.bukkit.entity.Horse$Variant valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

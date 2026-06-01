@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.entity.CopperGolem$Oxidizing",
+  "methods": [
+    "public static org.bukkit.entity.CopperGolem$Oxidizing waxed()",
+    "public static org.bukkit.entity.CopperGolem$Oxidizing unset()",
+    "public static org.bukkit.entity.CopperGolem$Oxidizing$AtTime atTime(long)"
+  ],
+  "method_count": 3
+}

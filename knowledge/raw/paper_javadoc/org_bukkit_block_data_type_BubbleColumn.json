@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.data.type.BubbleColumn",
+  "methods": [
+    "public abstract boolean isDrag()",
+    "public abstract void setDrag(boolean)"
+  ],
+  "method_count": 2
+}

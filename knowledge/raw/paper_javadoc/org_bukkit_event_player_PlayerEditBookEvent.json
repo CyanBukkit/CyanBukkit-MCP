@@ -1,0 +1,17 @@
+{
+  "class_name": "org.bukkit.event.player.PlayerEditBookEvent",
+  "methods": [
+    "public org.bukkit.event.player.PlayerEditBookEvent(org.bukkit.entity.Player, int, org.bukkit.inventory.meta.BookMeta, org.bukkit.inventory.meta.BookMeta, boolean)",
+    "public org.bukkit.inventory.meta.BookMeta getPreviousBookMeta()",
+    "public org.bukkit.inventory.meta.BookMeta getNewBookMeta()",
+    "public int getSlot()",
+    "public void setNewBookMeta(org.bukkit.inventory.meta.BookMeta)",
+    "public boolean isSigning()",
+    "public void setSigning(boolean)",
+    "public boolean isCancelled()",
+    "public void setCancelled(boolean)",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 11
+}

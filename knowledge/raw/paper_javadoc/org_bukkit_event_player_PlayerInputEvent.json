@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.event.player.PlayerInputEvent",
+  "methods": [
+    "public org.bukkit.event.player.PlayerInputEvent(org.bukkit.entity.Player, org.bukkit.Input)",
+    "public org.bukkit.Input getInput()",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 4
+}

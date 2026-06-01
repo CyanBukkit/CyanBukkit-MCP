@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.event.player.PlayerEvent",
+  "methods": [
+    "protected org.bukkit.event.player.PlayerEvent(org.bukkit.entity.Player)",
+    "protected org.bukkit.event.player.PlayerEvent(org.bukkit.entity.Player, boolean)",
+    "public final org.bukkit.entity.Player getPlayer()"
+  ],
+  "method_count": 3
+}

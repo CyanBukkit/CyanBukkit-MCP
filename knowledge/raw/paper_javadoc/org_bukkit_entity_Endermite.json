@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.entity.Endermite",
+  "methods": [
+    "public abstract boolean isPlayerSpawned()",
+    "public abstract void setPlayerSpawned(boolean)",
+    "public abstract void setLifetimeTicks(int)",
+    "public abstract int getLifetimeTicks()"
+  ],
+  "method_count": 4
+}

@@ -1,0 +1,11 @@
+{
+  "class_name": "org.bukkit.event.raid.RaidSpawnWaveEvent",
+  "methods": [
+    "public org.bukkit.event.raid.RaidSpawnWaveEvent(org.bukkit.Raid, org.bukkit.World, org.bukkit.entity.Raider, java.util.List<org.bukkit.entity.Raider>)",
+    "public java.util.List<org.bukkit.entity.Raider> getRaiders()",
+    "public org.bukkit.entity.Raider getPatrolLeader()",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 5
+}

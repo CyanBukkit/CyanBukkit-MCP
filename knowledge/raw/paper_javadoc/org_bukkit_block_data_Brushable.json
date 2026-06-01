@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.block.data.Brushable",
+  "methods": [
+    "public abstract int getDusted()",
+    "public abstract void setDusted(int)",
+    "public abstract int getMaximumDusted()"
+  ],
+  "method_count": 3
+}

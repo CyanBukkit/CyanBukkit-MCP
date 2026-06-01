@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.block.data.MultipleFacing",
+  "methods": [
+    "public abstract boolean hasFace(org.bukkit.block.BlockFace)",
+    "public abstract void setFace(org.bukkit.block.BlockFace, boolean)",
+    "public abstract java.util.Set<org.bukkit.block.BlockFace> getFaces()",
+    "public abstract java.util.Set<org.bukkit.block.BlockFace> getAllowedFaces()"
+  ],
+  "method_count": 4
+}

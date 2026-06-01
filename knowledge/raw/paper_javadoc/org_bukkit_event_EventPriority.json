@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.event.EventPriority",
+  "methods": [
+    "public static org.bukkit.event.EventPriority[] values()",
+    "public static org.bukkit.event.EventPriority valueOf(java.lang.String)",
+    "public int getSlot()"
+  ],
+  "method_count": 3
+}

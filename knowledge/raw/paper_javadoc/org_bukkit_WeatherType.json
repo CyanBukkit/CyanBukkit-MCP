@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.WeatherType",
+  "methods": [
+    "public static org.bukkit.WeatherType[] values()",
+    "public static org.bukkit.WeatherType valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

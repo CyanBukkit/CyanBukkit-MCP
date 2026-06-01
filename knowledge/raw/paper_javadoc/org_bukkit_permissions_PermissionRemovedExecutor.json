@@ -1,0 +1,7 @@
+{
+  "class_name": "org.bukkit.permissions.PermissionRemovedExecutor",
+  "methods": [
+    "public abstract void attachmentRemoved(org.bukkit.permissions.PermissionAttachment)"
+  ],
+  "method_count": 1
+}

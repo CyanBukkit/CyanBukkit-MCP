@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.data.Rail$Shape",
+  "methods": [
+    "public static org.bukkit.block.data.Rail$Shape[] values()",
+    "public static org.bukkit.block.data.Rail$Shape valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

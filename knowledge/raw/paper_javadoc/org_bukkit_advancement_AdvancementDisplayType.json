@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.advancement.AdvancementDisplayType",
+  "methods": [
+    "public static org.bukkit.advancement.AdvancementDisplayType[] values()",
+    "public static org.bukkit.advancement.AdvancementDisplayType valueOf(java.lang.String)",
+    "public org.bukkit.ChatColor getColor()"
+  ],
+  "method_count": 3
+}

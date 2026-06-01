@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.BlockSupport",
+  "methods": [
+    "public static org.bukkit.block.BlockSupport[] values()",
+    "public static org.bukkit.block.BlockSupport valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.event.player.PlayerExpCooldownChangeEvent$ChangeReason",
+  "methods": [
+    "public static org.bukkit.event.player.PlayerExpCooldownChangeEvent$ChangeReason[] values()",
+    "public static org.bukkit.event.player.PlayerExpCooldownChangeEvent$ChangeReason valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

@@ -1,0 +1,11 @@
+{
+  "class_name": "org.bukkit.conversations.ManuallyAbandonedConversationCanceller",
+  "methods": [
+    "public org.bukkit.conversations.ManuallyAbandonedConversationCanceller()",
+    "public void setConversation(org.bukkit.conversations.Conversation)",
+    "public boolean cancelBasedOnInput(org.bukkit.conversations.ConversationContext, java.lang.String)",
+    "public org.bukkit.conversations.ConversationCanceller clone()",
+    "public java.lang.Object clone()"
+  ],
+  "method_count": 5
+}

@@ -1,0 +1,26 @@
+{
+  "class_name": "org.bukkit.command.MessageCommandSender",
+  "methods": [
+    "public default void sendMessage(java.lang.String[])",
+    "public default void sendMessage(java.util.UUID, java.lang.String)",
+    "public default void sendMessage(java.util.UUID, java.lang.String[])",
+    "public default org.bukkit.Server getServer()",
+    "public default net.kyori.adventure.text.Component name()",
+    "public default java.lang.String getName()",
+    "public default boolean isOp()",
+    "public default void setOp(boolean)",
+    "public default boolean isPermissionSet(java.lang.String)",
+    "public default boolean isPermissionSet(org.bukkit.permissions.Permission)",
+    "public default boolean hasPermission(java.lang.String)",
+    "public default boolean hasPermission(org.bukkit.permissions.Permission)",
+    "public default org.bukkit.permissions.PermissionAttachment addAttachment(org.bukkit.plugin.Plugin, java.lang.String, boolean)",
+    "public default org.bukkit.permissions.PermissionAttachment addAttachment(org.bukkit.plugin.Plugin)",
+    "public default org.bukkit.permissions.PermissionAttachment addAttachment(org.bukkit.plugin.Plugin, java.lang.String, boolean, int)",
+    "public default org.bukkit.permissions.PermissionAttachment addAttachment(org.bukkit.plugin.Plugin, int)",
+    "public default void removeAttachment(org.bukkit.permissions.PermissionAttachment)",
+    "public default void recalculatePermissions()",
+    "public default java.util.Set<org.bukkit.permissions.PermissionAttachmentInfo> getEffectivePermissions()",
+    "public default org.bukkit.command.CommandSender$Spigot spigot()"
+  ],
+  "method_count": 20
+}

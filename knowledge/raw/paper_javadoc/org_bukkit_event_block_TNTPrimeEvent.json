@@ -1,0 +1,14 @@
+{
+  "class_name": "org.bukkit.event.block.TNTPrimeEvent",
+  "methods": [
+    "public org.bukkit.event.block.TNTPrimeEvent(org.bukkit.block.Block, org.bukkit.event.block.TNTPrimeEvent$PrimeCause, org.bukkit.entity.Entity, org.bukkit.block.Block)",
+    "public org.bukkit.event.block.TNTPrimeEvent$PrimeCause getCause()",
+    "public org.bukkit.entity.Entity getPrimingEntity()",
+    "public org.bukkit.block.Block getPrimingBlock()",
+    "public boolean isCancelled()",
+    "public void setCancelled(boolean)",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 8
+}

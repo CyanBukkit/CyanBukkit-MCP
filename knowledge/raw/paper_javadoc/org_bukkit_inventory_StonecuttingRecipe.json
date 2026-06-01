@@ -1,0 +1,16 @@
+{
+  "class_name": "org.bukkit.inventory.StonecuttingRecipe",
+  "methods": [
+    "public org.bukkit.inventory.StonecuttingRecipe(org.bukkit.NamespacedKey, org.bukkit.inventory.ItemStack, org.bukkit.Material)",
+    "public org.bukkit.inventory.StonecuttingRecipe(org.bukkit.NamespacedKey, org.bukkit.inventory.ItemStack, org.bukkit.inventory.RecipeChoice)",
+    "public org.bukkit.inventory.StonecuttingRecipe setInput(org.bukkit.Material)",
+    "public org.bukkit.inventory.ItemStack getInput()",
+    "public org.bukkit.inventory.StonecuttingRecipe setInputChoice(org.bukkit.inventory.RecipeChoice)",
+    "public org.bukkit.inventory.RecipeChoice getInputChoice()",
+    "public org.bukkit.inventory.ItemStack getResult()",
+    "public org.bukkit.NamespacedKey getKey()",
+    "public java.lang.String getGroup()",
+    "public void setGroup(java.lang.String)"
+  ],
+  "method_count": 10
+}

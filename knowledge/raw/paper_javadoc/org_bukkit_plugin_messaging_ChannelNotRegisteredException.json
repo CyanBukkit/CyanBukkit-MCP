@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.plugin.messaging.ChannelNotRegisteredException",
+  "methods": [
+    "public org.bukkit.plugin.messaging.ChannelNotRegisteredException()",
+    "public org.bukkit.plugin.messaging.ChannelNotRegisteredException(java.lang.String)"
+  ],
+  "method_count": 2
+}

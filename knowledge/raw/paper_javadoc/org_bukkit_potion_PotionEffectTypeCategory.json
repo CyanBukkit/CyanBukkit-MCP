@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.potion.PotionEffectTypeCategory",
+  "methods": [
+    "public static org.bukkit.potion.PotionEffectTypeCategory[] values()",
+    "public static org.bukkit.potion.PotionEffectTypeCategory valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

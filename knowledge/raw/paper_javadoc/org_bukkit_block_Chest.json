@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.Chest",
+  "methods": [
+    "public abstract org.bukkit.inventory.Inventory getBlockInventory()",
+    "public abstract boolean isBlocked()"
+  ],
+  "method_count": 2
+}

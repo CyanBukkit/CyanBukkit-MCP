@@ -1,0 +1,20 @@
+{
+  "class_name": "org.bukkit.event.player.PlayerMoveEvent",
+  "methods": [
+    "public org.bukkit.event.player.PlayerMoveEvent(org.bukkit.entity.Player, org.bukkit.Location, org.bukkit.Location)",
+    "public org.bukkit.Location getFrom()",
+    "public void setFrom(org.bukkit.Location)",
+    "public org.bukkit.Location getTo()",
+    "public void setTo(org.bukkit.Location)",
+    "public boolean hasChangedPosition()",
+    "public boolean hasExplicitlyChangedPosition()",
+    "public boolean hasChangedBlock()",
+    "public boolean hasExplicitlyChangedBlock()",
+    "public boolean hasChangedOrientation()",
+    "public boolean isCancelled()",
+    "public void setCancelled(boolean)",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 14
+}

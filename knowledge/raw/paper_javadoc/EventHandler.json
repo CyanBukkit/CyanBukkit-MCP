@@ -1,0 +1,9 @@
+{
+  "class_name": "EventHandler",
+  "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/event/EventHandler.html",
+  "description": "@Target\n(\nMETHOD\n)\n@Retention\n(\nRUNTIME\n)\npublic @interface\nEventHandler\nAn annotation to mark methods as being event handler methods",
+  "methods": [],
+  "nested_classes": [],
+  "full_text": "Package\norg.bukkit.event\nAnnotation Interface EventHandler\n@Target\n(\nMETHOD\n)\n@Retention\n(\nRUNTIME\n)\npublic @interface\nEventHandler\nAn annotation to mark methods as being event handler methods\nOptional Element Summary\nOptional Elements\nModifier and Type\nOptional Element\nDescription\nboolean\nignoreCancelled\nDefine if the handler ignores a cancelled event.\nEventPriority\npriority\nDefine the priority of the event.\nElement Details\npriority\nEventPriority\npriority\nDefine the priority of the event.\nFirst priority to the last priority executed:\nLOWEST\nLOW\nNORMAL\nHIGH\nHIGHEST\nMONITOR\nReturns:\nthe priority\nDefault:\nNORMAL\nignoreCancelled\nboolean\nignoreCancelled\nDefine if the handler ignores a cancelled event.\nIf ignoreCancelled is true and the event is cancelled, the method is\n not called. Otherwise, the method is always called.\nReturns:\nwhether cancelled events should be ignored\nDefault:\nfalse",
+  "method_count": 0
+}

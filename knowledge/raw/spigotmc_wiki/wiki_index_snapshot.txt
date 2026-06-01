@@ -1,0 +1,317 @@
+{
+  "ok": true,
+  "command": "run",
+  "data": {
+    "browser_command": "snapshot",
+    "result": {
+      "success": true,
+      "data": {
+        "origin": "https://www.spigotmc.org/wiki/page-list/",
+        "refs": {
+          "e1": {
+            "name": "page-list",
+            "role": "heading"
+          },
+          "e10": {
+            "name": "Home",
+            "role": "link"
+          },
+          "e11": {
+            "name": "Wiki",
+            "role": "link"
+          },
+          "e12": {
+            "name": "SpigotMC ",
+            "role": "link"
+          },
+          "e13": {
+            "name": "FAQ",
+            "role": "link"
+          },
+          "e14": {
+            "name": "Contact Us",
+            "role": "link"
+          },
+          "e15": {
+            "name": "Terms",
+            "role": "link"
+          },
+          "e16": {
+            "name": "Rules",
+            "role": "link"
+          },
+          "e17": {
+            "name": "Privacy Policy",
+            "role": "link"
+          },
+          "e18": {
+            "name": "",
+            "role": "link"
+          },
+          "e19": {
+            "name": "",
+            "role": "link"
+          },
+          "e2": {
+            "name": "Search Wiki: page-list",
+            "role": "link"
+          },
+          "e20": {
+            "name": "ThemeHouse",
+            "role": "link"
+          },
+          "e21": {
+            "name": "SpigotMC - High Performance Minecraft Software",
+            "role": "link"
+          },
+          "e22": {
+            "name": "here",
+            "role": "link"
+          },
+          "e23": {
+            "name": "Advertisement",
+            "role": "Iframe"
+          },
+          "e24": {
+            "name": " SPONSORS",
+            "role": "heading"
+          },
+          "e25": {
+            "name": "Sign up now!",
+            "role": "link"
+          },
+          "e26": {
+            "name": " WIKI INDEX",
+            "role": "heading"
+          },
+          "e27": {
+            "name": " TOP EDITORS",
+            "role": "heading"
+          },
+          "e28": {
+            "name": " WIKI STATISTICS",
+            "role": "heading"
+          },
+          "e29": {
+            "name": "Minecraft Server List",
+            "role": "link"
+          },
+          "e3": {
+            "name": "Search Forums: page-list",
+            "role": "link"
+          },
+          "e30": {
+            "name": "Aternos",
+            "role": "link"
+          },
+          "e31": {
+            "name": "Tebex Donation Plugin & Webstore",
+            "role": "link"
+          },
+          "e32": {
+            "name": "WIKI INDEX",
+            "role": "link"
+          },
+          "e33": {
+            "name": "Enter your search and hit enter",
+            "role": "searchbox"
+          },
+          "e34": {
+            "name": "Advertisement",
+            "role": "Iframe"
+          },
+          "e35": {
+            "name": "",
+            "role": "listitem"
+          },
+          "e36": {
+            "name": "",
+            "role": "listitem"
+          },
+          "e37": {
+            "name": "",
+            "role": "listitem"
+          },
+          "e38": {
+            "name": "",
+            "role": "listitem"
+          },
+          "e39": {
+            "name": "",
+            "role": "listitem"
+          },
+          "e4": {
+            "name": "Search Everything: page-list",
+            "role": "link"
+          },
+          "e40": {
+            "name": "",
+            "role": "listitem"
+          },
+          "e41": {
+            "name": "BungeeCord",
+            "role": "link"
+          },
+          "e42": {
+            "name": "Forums",
+            "role": "link"
+          },
+          "e43": {
+            "name": "Spigot",
+            "role": "link"
+          },
+          "e44": {
+            "name": "Mineplugins",
+            "role": "link"
+          },
+          "e45": {
+            "name": "smmmadden",
+            "role": "link"
+          },
+          "e46": {
+            "name": "Jeppa",
+            "role": "link"
+          },
+          "e47": {
+            "name": "RockinChaos",
+            "role": "link"
+          },
+          "e48": {
+            "name": "Maximvdw",
+            "role": "link"
+          },
+          "e49": {
+            "name": "Blackixx",
+            "role": "link"
+          },
+          "e5": {
+            "name": "",
+            "role": "link"
+          },
+          "e50": {
+            "name": "Indyuce",
+            "role": "link"
+          },
+          "e51": {
+            "name": "BrettPlays",
+            "role": "link"
+          },
+          "e52": {
+            "name": "Phoenix616",
+            "role": "link"
+          },
+          "e53": {
+            "name": "Zrips",
+            "role": "link"
+          },
+          "e54": {
+            "name": "Home",
+            "role": "link"
+          },
+          "e55": {
+            "name": "",
+            "role": "link"
+          },
+          "e56": {
+            "name": "Forums",
+            "role": "link"
+          },
+          "e57": {
+            "name": "",
+            "role": "link"
+          },
+          "e58": {
+            "name": "Resources",
+            "role": "link"
+          },
+          "e59": {
+            "name": "",
+            "role": "link"
+          },
+          "e6": {
+            "name": "Home",
+            "role": "link"
+          },
+          "e60": {
+            "name": "Wiki",
+            "role": "link"
+          },
+          "e61": {
+            "name": "Team",
+            "role": "link"
+          },
+          "e62": {
+            "name": "",
+            "role": "link"
+          },
+          "e63": {
+            "name": "Downloads",
+            "role": "link"
+          },
+          "e64": {
+            "name": "",
+            "role": "link"
+          },
+          "e65": {
+            "name": "Discord",
+            "role": "link"
+          },
+          "e66": {
+            "name": "Hub",
+            "role": "link"
+          },
+          "e67": {
+            "name": "Issues",
+            "role": "link"
+          },
+          "e68": {
+            "name": "",
+            "role": "link"
+          },
+          "e69": {
+            "name": "Log in",
+            "role": "link"
+          },
+          "e7": {
+            "name": "Wiki",
+            "role": "link"
+          },
+          "e70": {
+            "name": "Wiki Index",
+            "role": "link"
+          },
+          "e71": {
+            "name": "Page List",
+            "role": "link"
+          },
+          "e72": {
+            "name": "Recent Activity",
+            "role": "link"
+          },
+          "e73": {
+            "name": "",
+            "role": "generic"
+          },
+          "e74": {
+            "name": "Enter your search and hit enter",
+            "role": "searchbox"
+          },
+          "e75": {
+            "name": "Search...",
+            "role": "searchbox"
+          },
+          "e8": {
+            "name": "",
+            "role": "LabelText"
+          },
+          "e9": {
+            "name": "",
+            "role": "link"
+          }
+        },
+        "snapshot": "- generic\n  - generic\n    - generic\n  - generic\n    - generic\n      - generic\n        - generic\n          - banner\n            - generic\n              - link \"SpigotMC - High Performance Minecraft Software\" [ref=e21]\n                - image \"SpigotMC - High Performance Minecraft Software\"\n              - insertion\n                - Iframe \"Advertisement\" [ref=e34]\n              - paragraph\n                - StaticText \"Want a better Minecraft server?\"\n                - LineBreak \"\\n\"\n                - StaticText \"Read about SpigotMC \"\n                - link \"here\" [ref=e22]\n                - StaticText \"!\"\n              - navigation\n                - list\n                  - listitem [level=1, ref=e35] clickable [cursor:pointer]\n                    - link \"Home\" [ref=e54]\n                    - link \"\" [ref=e55]\n                      - StaticText \"\"\n                  - listitem [level=1, ref=e36] clickable [cursor:pointer]\n                    - link \"Forums\" [ref=e56]\n                    - link \"\" [ref=e57]\n                      - StaticText \"\"\n                  - listitem [level=1, ref=e37] clickable [cursor:pointer]\n                    - link \"Resources\" [ref=e58]\n                    - link \"\" [ref=e59]\n                      - StaticText \"\"\n                  - listitem [level=1]\n                    - link \"Wiki\" [ref=e60]\n                    - generic\n                      - list\n                        - listitem [level=2]\n                          - link \"Wiki Index\" [ref=e70]\n                        - listitem [level=2]\n                          - link \"Page List\" [ref=e71]\n                        - listitem [level=2]\n                          - link \"Recent Activity\" [ref=e72]\n                      - group\n                        - form\n                          - generic\n                            - generic [ref=e73] clickable [cursor:pointer, onclick]\n                              - StaticText \"\"\n                            - searchbox \"Enter your search and hit enter\" [ref=e74]\n                      - form\n                        - searchbox \"Search...\" [ref=e75]\n                  - listitem [level=1, ref=e38] clickable [cursor:pointer]\n                    - link \"Team\" [ref=e61]\n                    - link \"\" [ref=e62]\n                      - StaticText \"\"\n                  - listitem [level=1, ref=e39] clickable [cursor:pointer]\n                    - link \"Downloads\" [ref=e63]\n                    - link \"\" [ref=e64]\n                      - StaticText \"\"\n                  - listitem [level=1]\n                    - link \"Discord\" [ref=e65]\n                  - listitem [level=1]\n                    - link \"Hub\" [ref=e66]\n                  - listitem [level=1]\n                    - link \"Issues\" [ref=e67]\n                  - listitem [level=1, ref=e40] clickable [cursor:pointer]\n                    - link \"\" [ref=e68]\n                      - StaticText \"\"\n                - list\n                  - listitem [level=1]\n                    - link \"Log in\" [ref=e69]\n                      - strong\n                        - StaticText \"Log in\"\n          - navigation\n            - group\n              - link \"\" [ref=e5]\n                - StaticText \"\"\n              - link \"Home\" [ref=e6]\n                - StaticText \"Home\"\n              - StaticText \"\"\n              - link \"Wiki\" [ref=e7]\n                - StaticText \"Wiki\"\n          - heading \"page-list\" [level=1, ref=e1]\n          - StaticText \"page-list\"\n          - generic\n            - StaticText \"The requested page could not be found.\"\n            - LineBreak \"\\n\"\n            - LineBreak \"\\n\"\n            - link \"Search Wiki: page-list\" [ref=e2]\n            - LineBreak \"\\n\"\n            - link \"Search Forums: page-list\" [ref=e3]\n            - LineBreak \"\\n\"\n            - link \"Search Everything: page-list\" [ref=e4]\n          - insertion\n            - Iframe \"Advertisement\" [ref=e23]\n          - complementary\n            - heading \" SPONSORS\" [level=3, ref=e24]\n              - StaticText \"\"\n              - StaticText \"SPONSORS\"\n            - generic\n              - link \"Minecraft Server List\" [ref=e29]\n                - image \"Minecraft Server List\"\n              - link \"Aternos\" [ref=e30]\n                - image \"Aternos\"\n              - link \"Tebex Donation Plugin & Webstore\" [ref=e31]\n                - image \"Tebex Donation Plugin & Webstore\"\n            - LabelText [ref=e8] clickable [cursor:pointer]\n              - link \"Sign up now!\" [ref=e25]\n            - generic\n              - heading \" WIKI INDEX\" [level=3, ref=e26]\n                - StaticText \"\"\n                - link \"WIKI INDEX\" [ref=e32]\n              - list\n                - listitem [level=1]\n                  - link \"BungeeCord\" [ref=e41]\n                - listitem [level=1]\n                  - link \"Forums\" [ref=e42]\n                - listitem [level=1]\n                  - link \"Spigot\" [ref=e43]\n              - form\n                - searchbox \"Enter your search and hit enter\" [ref=e33]\n            - generic\n              - heading \" TOP EDITORS\" [level=3, ref=e27]\n                - StaticText \"\"\n                - StaticText \"TOP EDITORS\"\n              - DescriptionList\n                - term \"Mineplugins\"\n                  - link \"Mineplugins\" [ref=e44]\n                - definition\n                  - StaticText \"386\"\n              - DescriptionList\n                - term \"smmmadden\"\n                  - link \"smmmadden\" [ref=e45]\n                - definition\n                  - StaticText \"375\"\n              - DescriptionList\n                - term \"Jeppa\"\n                  - link \"Jeppa\" [ref=e46]\n                - definition\n                  - StaticText \"373\"\n              - DescriptionList\n                - term \"RockinChaos\"\n                  - link \"RockinChaos\" [ref=e47]\n                - definition\n                  - StaticText \"343\"\n              - DescriptionList\n                - term \"Maximvdw\"\n                  - link \"Maximvdw\" [ref=e48]\n                - definition\n                  - StaticText \"325\"\n              - DescriptionList\n                - term \"Blackixx\"\n                  - link \"Blackixx\" [ref=e49]\n                - definition\n                  - StaticText \"235\"\n              - DescriptionList\n                - term \"Indyuce\"\n                  - link \"Indyuce\" [ref=e50]\n                - definition\n                  - StaticText \"230\"\n              - DescriptionList\n                - term \"BrettPlays\"\n                  - link \"BrettPlays\" [ref=e51]\n                - definition\n                  - StaticText \"205\"\n              - DescriptionList\n                - term \"Phoenix616\"\n                  - link \"Phoenix616\" [ref=e52]\n                - definition\n                  - StaticText \"191\"\n              - DescriptionList\n                - term \"Zrips\"\n                  - link \"Zrips\" [ref=e53]\n                - definition\n                  - StaticText \"179\"\n            - generic\n              - heading \" WIKI STATISTICS\" [level=3, ref=e28]\n                - StaticText \"\"\n                - StaticText \"WIKI STATISTICS\"\n              - DescriptionList\n                - term \"Pages:\"\n                - definition\n                  - StaticText \"1,407\"\n              - DescriptionList\n                - term \"Edits:\"\n                - definition\n                  - StaticText \"13,453\"\n              - DescriptionList\n                - term \"Likes:\"\n                - definition\n                  - StaticText \"0\"\n              - DescriptionList\n                - term \"Views:\"\n                - definition\n                  - StaticText \"39,846,351\"\n              - DescriptionList\n                - term \"Attached Files:\"\n                - definition\n                  - StaticText \"13 (318.6 KB)\"\n          - navigation\n            - group\n              - link \"\" [ref=e9]\n                - StaticText \"\"\n              - link \"Home\" [ref=e10]\n                - StaticText \"Home\"\n              - StaticText \"\"\n              - link \"Wiki\" [ref=e11]\n                - StaticText \"Wiki\"\n        - contentinfo\n          - generic\n            - DescriptionList\n              - definition\n                - link \"SpigotMC \" [ref=e12]\n                  - StaticText \"SpigotMC\"\n                  - StaticText \"\"\n            - list\n              - listitem [level=1]\n                - link \"FAQ\" [ref=e13]\n              - listitem [level=1]\n                - StaticText \"|\"\n                - link \"Contact Us\" [ref=e14]\n              - listitem [level=1]\n                - StaticText \"|\"\n                - link \"Terms\" [ref=e15]\n              - listitem [level=1]\n                - StaticText \"|\"\n                - link \"Rules\" [ref=e16]\n              - listitem [level=1]\n                - StaticText \"|\"\n                - link \"Privacy Policy\" [ref=e17]\n          - generic\n            - list\n              - listitem [level=1]\n                - link \"\" [ref=e18]\n                  - StaticText \"\"\n              - listitem [level=1]\n                - link \"\" [ref=e19]\n                  - StaticText \"\"\n            - generic\n              - StaticText \"© 2012-2026 SpigotMC Pty. Ltd.\"\n              - LineBreak \"\\n\"\n              - StaticText \"Not an official Minecraft product or service. Not approved by Mojang or Microsoft.\"\n              - generic\n                - StaticText \"Theme designed by \"\n                - link \"ThemeHouse\" [ref=e20]\n                - StaticText \".\""
+      },
+      "error": null
+    }
+  }
+}

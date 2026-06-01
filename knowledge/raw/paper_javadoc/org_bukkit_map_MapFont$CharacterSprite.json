@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.map.MapFont$CharacterSprite",
+  "methods": [
+    "public org.bukkit.map.MapFont$CharacterSprite(int, int, boolean[])",
+    "public boolean get(int, int)",
+    "public int getWidth()",
+    "public int getHeight()"
+  ],
+  "method_count": 4
+}

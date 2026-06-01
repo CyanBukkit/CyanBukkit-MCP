@@ -1,0 +1,461 @@
+{
+  "class_name": "JavaPlugin",
+  "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/plugin/java/JavaPlugin.html",
+  "methods": [
+    {
+      "name": "JavaPlugin",
+      "signature": "Constructor Summary Constructors Modifier Constructor Description JavaPlugin()",
+      "return_type": "Constructor Summary\nConstructors\nModifier\nConstructor\nDescri",
+      "params": [],
+      "description": "prote"
+    },
+    {
+      "name": "JavaPlugin",
+      "signature": "cted JavaPlugin(JavaPluginLoader loader, PluginDescriptionFile description, File dataFolder, File file)",
+      "return_type": "cted",
+      "params": [
+        "JavaPluginLoader loader",
+        "PluginDescriptionFile description",
+        "File dataFolder",
+        "File file"
+      ],
+      "description": "Deprecated, for removal: This API element is subject to removal in a future version."
+    },
+    {
+      "name": "getCommand",
+      "signature": "Nullable PluginCommand getCommand(String name)",
+      "return_type": "Nullable\nPluginCommand",
+      "params": [
+        "String name"
+      ],
+      "description": "Gets the command with the given name, specific to this plugin."
+    },
+    {
+      "name": "getConfig",
+      "signature": "FileConfiguration getConfig()",
+      "return_type": "FileConfiguration",
+      "params": [],
+      "description": "Gets a"
+    },
+    {
+      "name": "getDataFolder",
+      "signature": "final File getDataFolder()",
+      "return_type": "final\nFile",
+      "params": [],
+      "description": "Returns the folder that the plugin data files are located in."
+    },
+    {
+      "name": "getDefaultBiomeProvider",
+      "signature": "Nullable BiomeProvider getDefaultBiomeProvider(String worldName, @Nullable String id)",
+      "return_type": "Nullable\nBiomeProvider",
+      "params": [
+        "String worldName",
+        "@Nullable String id"
+      ],
+      "description": "Gets a"
+    },
+    {
+      "name": "getDefaultWorldGenerator",
+      "signature": "Nullable ChunkGenerator getDefaultWorldGenerator(String worldName, @Nullable String id)",
+      "return_type": "Nullable\nChunkGenerator",
+      "params": [
+        "String worldName",
+        "@Nullable String id"
+      ],
+      "description": "Gets"
+    },
+    {
+      "name": "getFile",
+      "signature": "No longer applicable to all types of plugins protected File getFile()",
+      "return_type": "No longer applicable to all types of plugins\nprotected\nFile",
+      "params": [],
+      "description": "Retur"
+    },
+    {
+      "name": "getLifecycleManager",
+      "signature": "ns the file which contains this plugin final LifecycleEventManager < Plugin > getLifecycleManager()",
+      "return_type": "ns the file which contains this plugin\nfinal\nLifecycleEventM",
+      "params": [],
+      "description": "Get the lifecycle event manager for registering handlers"
+    },
+    {
+      "name": "getLogger",
+      "signature": "Logger getLogger()",
+      "return_type": "Logger",
+      "params": [],
+      "description": "Returns the plugin logger associated with this server's logger."
+    },
+    {
+      "name": "getPlugin",
+      "signature": "static <T extends JavaPlugin > T getPlugin(Class <T> clazz)",
+      "return_type": "static <T extends\nJavaPlugin\n>\nT",
+      "params": [
+        "Class <T> clazz"
+      ],
+      "description": "This method provides fast access to the plugin that has"
+    },
+    {
+      "name": "getPluginLoader",
+      "signature": "final PluginLoader getPluginLoader()",
+      "return_type": "final\nPluginLoader",
+      "params": [],
+      "description": "Deprecated, for removal: This API element is subject to removal in a future version."
+    },
+    {
+      "name": "getPluginMeta",
+      "signature": "final PluginMeta getPluginMeta()",
+      "return_type": "final\nPluginMeta",
+      "params": [],
+      "description": "Gets the plugin meta for this plugin."
+    },
+    {
+      "name": "getProvidingPlugin",
+      "signature": "static JavaPlugin getProvidingPlugin(Class <?> clazz)",
+      "return_type": "static\nJavaPlugin",
+      "params": [
+        "Class <?> clazz"
+      ],
+      "description": "This method provides fast access to the plugin that has provided the"
+    },
+    {
+      "name": "getResource",
+      "signature": "Nullable InputStream getResource(String filename)",
+      "return_type": "Nullable\nInputStream",
+      "params": [
+        "String filename"
+      ],
+      "description": "Gets"
+    },
+    {
+      "name": "getServer",
+      "signature": "an embedded resource in this plugin final Server getServer()",
+      "return_type": "an embedded resource in this plugin\nfinal\nServer",
+      "params": [],
+      "description": "Returns the Server instance currently running this plugin"
+    },
+    {
+      "name": "getTextResource",
+      "signature": "Nullable Reader getTextResource(String file)",
+      "return_type": "Nullable\nReader",
+      "params": [
+        "String file"
+      ],
+      "description": "Provides a reader for a text file located inside the jar."
+    },
+    {
+      "name": "init",
+      "signature": "final void init(PluginLoader loader, Server server, PluginDescriptionFile description, File dataFolder, File file, ClassLoader classLoader)",
+      "return_type": "final void",
+      "params": [
+        "PluginLoader loader",
+        "Server server",
+        "PluginDescriptionFile description",
+        "File dataFolder",
+        "File file",
+        "ClassLoader classLoader"
+      ],
+      "description": "final"
+    },
+    {
+      "name": "init",
+      "signature": "void init(Server server, PluginDescriptionFile description, File dataFolder, File file, ClassLoader classLoader, @Nullable PluginMeta configuration, Logger logger)",
+      "return_type": "void",
+      "params": [
+        "Server server",
+        "PluginDescriptionFile description",
+        "File dataFolder",
+        "File file",
+        "ClassLoader classLoader",
+        "@Nullable PluginMeta configuration",
+        "Logger logger"
+      ],
+      "description": "final"
+    },
+    {
+      "name": "isEnabled",
+      "signature": "boolean isEnabled()",
+      "return_type": "boolean",
+      "params": [],
+      "description": "Retur"
+    },
+    {
+      "name": "isNaggable",
+      "signature": "ns a value indicating whether this plugin is currently enabled final boolean isNaggable()",
+      "return_type": "ns a value indicating whether this plugin is currently enabl",
+      "params": [],
+      "description": "Simpl"
+    },
+    {
+      "name": "onCommand",
+      "signature": "e boolean if we can still nag to the logs about things boolean onCommand(CommandSender sender, Command command, String label, String [] args)",
+      "return_type": "e boolean if we can still nag to the logs about things\nboole",
+      "params": [
+        "CommandSender sender",
+        "Command command",
+        "String label",
+        "String [] args"
+      ],
+      "description": "Executes the given command, returning its success."
+    },
+    {
+      "name": "onDisable",
+      "signature": "void onDisable()",
+      "return_type": "void",
+      "params": [],
+      "description": "Calle"
+    },
+    {
+      "name": "onEnable",
+      "signature": "d when this plugin is disabled void onEnable()",
+      "return_type": "d when this plugin is disabled\nvoid",
+      "params": [],
+      "description": "Calle"
+    },
+    {
+      "name": "onLoad",
+      "signature": "d when this plugin is enabled void onLoad()",
+      "return_type": "d when this plugin is enabled\nvoid",
+      "params": [],
+      "description": "Called after a plugin is loaded but before it has been enabled."
+    },
+    {
+      "name": "onTabComplete",
+      "signature": "Nullable List < String > onTabComplete(CommandSender sender, Command command, String alias, String [] args)",
+      "return_type": "Nullable\nList\n<\nString\n>",
+      "params": [
+        "CommandSender sender",
+        "Command command",
+        "String alias",
+        "String [] args"
+      ],
+      "description": "Requests a list of possible completions for a command argument."
+    },
+    {
+      "name": "registerCommand",
+      "signature": "void registerCommand(String label, BasicCommand basicCommand)",
+      "return_type": "void",
+      "params": [
+        "String label",
+        "BasicCommand basicCommand"
+      ],
+      "description": "Registers a command for this plugin."
+    },
+    {
+      "name": "registerCommand",
+      "signature": "void registerCommand(String label, @Nullable String description, BasicCommand basicCommand)",
+      "return_type": "void",
+      "params": [
+        "String label",
+        "@Nullable String description",
+        "BasicCommand basicCommand"
+      ],
+      "description": "Registers a command for this plugin."
+    },
+    {
+      "name": "registerCommand",
+      "signature": "void registerCommand(String label, @Nullable String description, Collection < String > aliases, BasicCommand basicCommand)",
+      "return_type": "void",
+      "params": [
+        "String label",
+        "@Nullable String description",
+        "Collection < String > aliases",
+        "BasicCommand basicCommand"
+      ],
+      "description": "Registers a command for this plugin."
+    },
+    {
+      "name": "registerCommand",
+      "signature": "void registerCommand(String label, Collection < String > aliases, BasicCommand basicCommand)",
+      "return_type": "void",
+      "params": [
+        "String label",
+        "Collection < String > aliases",
+        "BasicCommand basicCommand"
+      ],
+      "description": "Registers a command for this plugin."
+    },
+    {
+      "name": "reloadConfig",
+      "signature": "void reloadConfig()",
+      "return_type": "void",
+      "params": [],
+      "description": "Discards any data in"
+    },
+    {
+      "name": "saveConfig",
+      "signature": "void saveConfig()",
+      "return_type": "void",
+      "params": [],
+      "description": "Saves the"
+    },
+    {
+      "name": "saveDefaultConfig",
+      "signature": "void saveDefaultConfig()",
+      "return_type": "void",
+      "params": [],
+      "description": "Saves the raw contents of the default config.yml file to the location"
+    },
+    {
+      "name": "saveResource",
+      "signature": "void saveResource(String resourcePath, boolean replace)",
+      "return_type": "void",
+      "params": [
+        "String resourcePath",
+        "boolean replace"
+      ],
+      "description": "Saves the raw contents of any resource embedded with a plugin's .jar"
+    },
+    {
+      "name": "setEnabled",
+      "signature": "final void setEnabled(boolean enabled)",
+      "return_type": "final void",
+      "params": [
+        "boolean enabled"
+      ],
+      "description": "Sets"
+    },
+    {
+      "name": "setNaggable",
+      "signature": "the enabled state of this plugin final void setNaggable(boolean canNag)",
+      "return_type": "the enabled state of this plugin\nfinal void",
+      "params": [
+        "boolean canNag"
+      ],
+      "description": "Set n"
+    },
+    {
+      "name": "toString",
+      "signature": "aggable state String toString()",
+      "return_type": "aggable state\nString",
+      "params": [],
+      "description": "Methods inherited from class org.bukkit.plugin."
+    },
+    {
+      "name": "JavaPlugin",
+      "signature": "protected JavaPlugin(JavaPluginLoader loader, PluginDescriptionFile description, File dataFolder, File file)",
+      "return_type": "protected",
+      "params": [
+        "JavaPluginLoader loader",
+        "PluginDescriptionFile description",
+        "File dataFolder",
+        "File file"
+      ],
+      "description": "Deprecated, for removal: This API element is subject to removal in a future version."
+    },
+    {
+      "name": "getDataFolder",
+      "signature": "Method Details getDataFolder public final File getDataFolder()",
+      "return_type": "Method Details\ngetDataFolder\npublic final\nFile",
+      "params": [],
+      "description": "Returns the folder that the plugin data files are located in. The"
+    },
+    {
+      "name": "getPluginLoader",
+      "signature": "public final PluginLoader getPluginLoader()",
+      "return_type": "public final\nPluginLoader",
+      "params": [],
+      "description": "Deprecated, for removal: This API element is subject to removal in a future version."
+    },
+    {
+      "name": "getServer",
+      "signature": "PluginLoader that controls this plugin getServer public final Server getServer()",
+      "return_type": "PluginLoader that controls this plugin\ngetServer\npublic fina",
+      "params": [],
+      "description": "Returns the Server instance currently running this plugin"
+    },
+    {
+      "name": "isEnabled",
+      "signature": "Server running this plugin isEnabled public final boolean isEnabled()",
+      "return_type": "Server running this plugin\nisEnabled\npublic final\nboolean",
+      "params": [],
+      "description": "Returns a value indicating whether this plugin is currently enabled"
+    },
+    {
+      "name": "getFile",
+      "signature": "true if this plugin is enabled, otherwise false getFile protected File getFile()",
+      "return_type": "true if this plugin is enabled, otherwise false\ngetFile\nprot",
+      "params": [],
+      "description": "Returns the file which contains this plugin"
+    },
+    {
+      "name": "getDescription",
+      "signature": "Deprecated public final PluginDescriptionFile getDescription()",
+      "return_type": "Deprecated\npublic final\nPluginDescriptionFile",
+      "params": [],
+      "description": "Deprecated."
+    },
+    {
+      "name": "getPluginMeta",
+      "signature": "getPluginMeta public final PluginMeta getPluginMeta()",
+      "return_type": "getPluginMeta\npublic final\nPluginMeta",
+      "params": [],
+      "description": "Description copied from interface:"
+    },
+    {
+      "name": "getConfig",
+      "signature": "configuration getConfig public FileConfiguration getConfig()",
+      "return_type": "configuration\ngetConfig\npublic\nFileConfiguration",
+      "params": [],
+      "description": "Description copied from interface:"
+    },
+    {
+      "name": "getResource",
+      "signature": "null if getResource(String)",
+      "return_type": "null if",
+      "params": [
+        "String"
+      ],
+      "description": "returns null"
+    },
+    {
+      "name": "reloadConfig",
+      "signature": "reloadConfig public void reloadConfig()",
+      "return_type": "reloadConfig\npublic\nvoid",
+      "params": [],
+      "description": "Description copied from interface:"
+    },
+    {
+      "name": "saveConfig",
+      "signature": "saveConfig public void saveConfig()",
+      "return_type": "saveConfig\npublic\nvoid",
+      "params": [],
+      "description": "Description copied from interface:"
+    },
+    {
+      "name": "saveDefaultConfig",
+      "signature": "saveDefaultConfig public void saveDefaultConfig()",
+      "return_type": "saveDefaultConfig\npublic\nvoid",
+      "params": [],
+      "description": "Description copied from interface:"
+    },
+    {
+      "name": "saveResource",
+      "signature": "saveResource public void saveResource(String resourcePath, boolean replace)",
+      "return_type": "saveResource\npublic\nvoid",
+      "params": [
+        "String resourcePath",
+        "boolean replace"
+      ],
+      "description": "Description copied from interface:"
+    },
+    {
+      "name": "getClassLoader",
+      "signature": "File if found, otherwise null getClassLoader protected final ClassLoader getClassLoader()",
+      "return_type": "File if found, otherwise null\ngetClassLoader\nprotected final",
+      "params": [],
+      "description": "Returns the ClassLoader which holds this plugin"
+    },
+    {
+      "name": "setEnabled",
+      "signature": "Internal public final void setEnabled(boolean enabled)",
+      "return_type": "Internal\npublic final\nvoid",
+      "params": [
+        "boolean enabled"
+      ],
+      "description": "Sets the ena"
+    }
+  ],
+  "method_count": 53,
+  "full_text": "JavaPlugin (paper-api 1.21.4-R0.1-SNAPSHOT API)\nJavaScript is disabled on your browser.\nYou are looking at old Javadocs for Paper 1.21.4.\n    Click here to look at Paper 26.1.2 instead.\nSkip navigation links\nOverview\nPackage\nClass\nUse\nTree\nDeprecated\nIndex\nHelp\nSummary:\nNested\nField\nConstr\nMethod\nDetail:\nField\nConstr\nMethod\nSummary:\nNested |\nField |\nConstr\n|\nMethod\nDetail:\nField |\nConstr\n|\nMethod\nSEARCH\nPackage\norg.bukkit.plugin.java\nClass JavaPlugin\njava.lang.Object\norg.bukkit.plugin.PluginBase\norg.bukkit.plugin.java.JavaPlugin\nAll Implemented Interfaces:\nLifecycleEventOwner\n,\nCommandExecutor\n,\nTabCompleter\n,\nTabExecutor\n,\nPlugin\n@NullMarked\npublic abstract class\nJavaPlugin\nextends\nPluginBase\nRepresents a Java plugin and its main class. It contains fundamental methods\n and fields for a plugin to be loaded and work properly. This is an indirect\n implementation of\nPlugin\n.\nConstructor Summary\nConstructors\nModifier\nConstructor\nDescription\nJavaPlugin\n()\nprotected\nJavaPlugin\n(\nJavaPluginLoader\nloader,\nPluginDescriptionFile\ndescription,\nFile\ndataFolder,\nFile\nfile)\nDeprecated, for removal: This API element is subject to removal in a future version.\nMethod Summary\nAll Methods\nStatic Methods\nInstance Methods\nConcrete Methods\nDeprecated Methods\nModifier and Type\nMethod\nDescription\nprotected final\nClassLoader\ngetClassLoader\n()\nReturns the ClassLoader which holds this plugin\n@Nullable\nPluginCommand\ngetCommand\n(\nString\nname)\nGets the command with the given name, specific to this plugin.\nFileConfiguration\ngetConfig\n()\nGets a\nFileConfiguration\nfor this plugin, read through\n \"config.yml\"\nfinal\nFile\ngetDataFolder\n()\nReturns the folder that the plugin data files are located in.\n@Nullable\nBiomeProvider\ngetDefaultBiomeProvider\n(\nString\nworldName,\n@Nullable\nString\nid)\nGets a\nBiomeProvider\nfor use in a default world, as specified\n in the server configuration\n@Nullable\nChunkGenerator\ngetDefaultWorldGenerator\n(\nString\nworldName,\n@Nullable\nString\nid)\nGets a\nChunkGenerator\nfor use in a default world, as specified\n in the server configuration\nfinal\nPluginDescriptionFile\ngetDescription\n()\nDeprecated.\nNo longer applicable to all types of plugins\nprotected\nFile\ngetFile\n()\nReturns the file which contains this plugin\nfinal\nLifecycleEventManager\n<\nPlugin\n>\ngetLifecycleManager\n()\nGet the lifecycle event manager for registering handlers\n for lifecycle events allowed on the\nPlugin\n.\nLogger\ngetLogger\n()\nReturns the plugin logger associated with this server's logger.\nstatic <T extends\nJavaPlugin\n>\nT\ngetPlugin\n(\nClass\n<T> clazz)\nThis method provides fast access to the plugin that has\nprovided\nthe given plugin class, which is\n usually the plugin that implemented it.\nfinal\nPluginLoader\ngetPluginLoader\n()\nDeprecated, for removal: This API element is subject to removal in a future version.\nPlugin loading now occurs at a point which makes it impossible to expose this\n behavior.\nfinal\nPluginMeta\ngetPluginMeta\n()\nGets the plugin meta for this plugin.\nstatic\nJavaPlugin\ngetProvidingPlugin\n(\nClass\n<?> clazz)\nThis method provides fast access to the plugin that has provided the\n given class.\n@Nullable\nInputStream\ngetResource\n(\nString\nfilename)\nGets an embedded resource in this plugin\nfinal\nServer\ngetServer\n()\nReturns the Server instance currently running this plugin\nprotected final\n@Nullable\nReader\ngetTextResource\n(\nString\nfile)\nProvides a reader for a text file located inside the jar.\nfinal void\ninit\n(\nPluginLoader\nloader,\nServer\nserver,\nPluginDescriptionFile\ndescription,\nFile\ndataFolder,\nFile\nfile,\nClassLoader\nclassLoader)\nfinal void\ninit\n(\nServer\nserver,\nPluginDescriptionFile\ndescription,\nFile\ndataFolder,\nFile\nfile,\nClassLoader\nclassLoader,\n@Nullable\nPluginMeta\nconfiguration,\nLogger\nlogger)\nfinal boolean\nisEnabled\n()\nReturns a value indicating whether this plugin is currently enabled\nfinal boolean\nisNaggable\n()\nSimple boolean if we can still nag to the logs about things\nboolean\nonCommand\n(\nCommandSender\nsender,\nCommand\ncommand,\nString\nlabel,\nString\n[] args)\nExecutes the given command, returning its success.\nvoid\nonDisable\n()\nCalled when this plugin is disabled\nvoid\nonEnable\n()\nCalled when this plugin is enabled\nvoid\nonLoad\n()\nCalled after a plugin is loaded but before it has been enabled.\n@Nullable\nList\n<\nString\n>\nonTabComplete\n(\nCommandSender\nsender,\nCommand\ncommand,\nString\nalias,\nString\n[] args)\nRequests a list of possible completions for a command argument.\nvoid\nregisterCommand\n(\nString\nlabel,\nBasicCommand\nbasicCommand)\nRegisters a command for this plugin.\nvoid\nregisterCommand\n(\nString\nlabel,\n@Nullable\nString\ndescription,\nBasicCommand\nbasicCommand)\nRegisters a command for this plugin.\nvoid\nregisterCommand\n(\nString\nlabel,\n@Nullable\nString\ndescription,\nCollection\n<\nString\n> aliases,\nBasicCommand\nbasicCommand)\nRegisters a command for this plugin.\nvoid\nregisterCommand\n(\nString\nlabel,\nCollection\n<\nString\n> aliases,\nBasicCommand\nbasicCommand)\nRegisters a command for this plugin.\nvoid\nreloadConfig\n()\nDiscards any data in\nPlugin.getConfig()\nand reloads from disk.\nvoid\nsaveConfig\n()\nSaves the\nFileConfiguration\nretrievable by\nPlugin.getConfig()\n.\nvoid\nsaveDefaultConfig\n()\nSaves the raw contents of the default config.yml file to the location\n retrievable by\nPlugin.getConfig()\n.\nvoid\nsaveResource\n(\nString\nresourcePath,\n boolean replace)\nSaves the raw contents of any resource embedded with a plugin's .jar\n file assuming it can be found using\nPlugin.getResource(String)\n.\nfinal void\nsetEnabled\n(boolean enabled)\nSets the enabled state of this plugin\nfinal void\nsetNaggable\n(boolean canNag)\nSet naggable state\nString\ntoString\n()\nMethods inherited from class org.bukkit.plugin.\nPluginBase\nequals\n,\ngetName\n,\nhashCode\nMethods inherited from class java.lang.\nObject\nclone\n,\nfinalize\n,\ngetClass\n,\nnotify\n,\nnotifyAll\n,\nwait\n,\nwait\n,\nwait\nMethods inherited from interface org.bukkit.plugin.\nPlugin\ngetComponentLogger\n,\ngetDataPath\n,\ngetLog4JLogger\n,\ngetSLF4JLogger\nConstructor Details\nJavaPlugin\npublic\nJavaPlugin\n()\nJavaPlugin\n@Deprecated\n(\nforRemoval\n=true)\nprotected\nJavaPlugin\n(\nJavaPluginLoader\nloader,\nPluginDescriptionFile\ndescription,\nFile\ndataFolder,\nFile\nfile)\nDeprecated, for removal: This API element is subject to removal in a future version.\nMethod Details\ngetDataFolder\npublic final\nFile\ngetDataFolder\n()\nReturns the folder that the plugin data files are located in. The\n folder may not yet exist.\nReturns:\nThe folder.\ngetPluginLoader\n@Deprecated\n(\nforRemoval\n=true)\npublic final\nPluginLoader\ngetPluginLoader\n()\nDeprecated, for removal: This API element is subject to removal in a future version.\nPlugin loading now occurs at a point which makes it impossible to expose this\n behavior. This instance will only throw unsupported operation exceptions.\nGets the associated PluginLoader responsible for this plugin\nReturns:\nPluginLoader that controls this plugin\ngetServer\npublic final\nServer\ngetServer\n()\nReturns the Server instance currently running this plugin\nReturns:\nServer running this plugin\nisEnabled\npublic final\nboolean\nisEnabled\n()\nReturns a value indicating whether this plugin is currently enabled\nReturns:\ntrue if this plugin is enabled, otherwise false\ngetFile\nprotected\nFile\ngetFile\n()\nReturns the file which contains this plugin\nReturns:\nFile containing this plugin\ngetDescription\n@Deprecated\npublic final\nPluginDescriptionFile\ngetDescription\n()\nDeprecated.\nNo longer applicable to all types of plugins\nReturns the plugin.yml file containing the details for this plugin\nReturns:\nContents of the plugin.yml file\nSee Also:\nPlugin.getPluginMeta()\ngetPluginMeta\npublic final\nPluginMeta\ngetPluginMeta\n()\nDescription copied from interface:\nPlugin\nGets the plugin meta for this plugin.\nReturns:\nconfiguration\ngetConfig\npublic\nFileConfiguration\ngetConfig\n()\nDescription copied from interface:\nPlugin\nGets a\nFileConfiguration\nfor this plugin, read through\n \"config.yml\"\nIf there is a default config.yml embedded in this plugin, it will be\n provided as a default for this Configuration.\nReturns:\nPlugin configuration\ngetTextResource\nprotected final\n@Nullable\nReader\ngetTextResource\n(\nString\nfile)\nProvides a reader for a text file located inside the jar.\nThe returned reader will read text with the UTF-8 charset.\nParameters:\nfile\n- the filename of the resource to load\nReturns:\nnull if\ngetResource(String)\nreturns null\nThrows:\nIllegalArgumentException\n- if file is null\nSee Also:\nClassLoader.getResourceAsStream(String)\nreloadConfig\npublic\nvoid\nreloadConfig\n()\nDescription copied from interface:\nPlugin\nDiscards any data in\nPlugin.getConfig()\nand reloads from disk.\nsaveConfig\npublic\nvoid\nsaveConfig\n()\nDescription copied from interface:\nPlugin\nSaves the\nFileConfiguration\nretrievable by\nPlugin.getConfig()\n.\nsaveDefaultConfig\npublic\nvoid\nsaveDefaultConfig\n()\nDescription copied from interface:\nPlugin\nSaves the raw contents of the default config.yml file to the location\n retrievable by\nPlugin.getConfig()\n.\nThis should fail silently if the config.yml already exists.\nsaveResource\npublic\nvoid\nsaveResource\n(\nString\nresourcePath,\n boolean replace)\nDescription copied from interface:\nPlugin\nSaves the raw contents of any resource embedded with a plugin's .jar\n file assuming it can be found using\nPlugin.getResource(String)\n.\nThe resource is saved into the plugin's data folder using the same\n hierarchy as the .jar file (subdirectories are preserved).\nParameters:\nresourcePath\n- the embedded resource path to look for within the\n     plugin's .jar file. (No preceding slash).\nreplace\n- if true, the embedded resource will overwrite the\n     contents of an existing file.\ngetResource\npublic\n@Nullable\nInputStream\ngetResource\n(\nString\nfilename)\nDescription copied from interface:\nPlugin\nGets an embedded resource in this plugin\nParameters:\nfilename\n- Filename of the resource\nReturns:\nFile if found, otherwise null\ngetClassLoader\nprotected final\nClassLoader\ngetClassLoader\n()\nReturns the ClassLoader which holds this plugin\nReturns:\nClassLoader holding this plugin\nsetEnabled\n@Internal\npublic final\nvoid\nsetEnabled\n(boolean enabled)\nSets the ena",
+  "description": "java.lang.Object org.bukkit.plugin.PluginBase org.bukkit.plugin.java.JavaPlugin LifecycleEventOwner"
+}

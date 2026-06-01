@@ -1,0 +1,7 @@
+{
+  "class_name": "org.bukkit.enchantments.EnchantmentTarget$8",
+  "methods": [
+    "public boolean includes(org.bukkit.Material)"
+  ],
+  "method_count": 1
+}

@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.command.FormattedCommandAlias",
+  "methods": [
+    "public org.bukkit.command.FormattedCommandAlias(java.lang.String, java.lang.String[])",
+    "public boolean execute(org.bukkit.command.CommandSender, java.lang.String, java.lang.String[])",
+    "public java.lang.String getTimingName()"
+  ],
+  "method_count": 3
+}

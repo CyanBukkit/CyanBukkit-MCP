@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.block.SculkSensor",
+  "methods": [
+    "public abstract int getLastVibrationFrequency()",
+    "public abstract void setLastVibrationFrequency(int)",
+    "public abstract int getListenerRange()",
+    "public abstract void setListenerRange(int)"
+  ],
+  "method_count": 4
+}

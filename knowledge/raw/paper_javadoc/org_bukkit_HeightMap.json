@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.HeightMap",
+  "methods": [
+    "public static org.bukkit.HeightMap[] values()",
+    "public static org.bukkit.HeightMap valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

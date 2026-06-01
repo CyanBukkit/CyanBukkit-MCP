@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.Particle$Spell",
+  "methods": [
+    "public org.bukkit.Particle$Spell(org.bukkit.Color, float)",
+    "public org.bukkit.Color getColor()",
+    "public float getPower()"
+  ],
+  "method_count": 3
+}

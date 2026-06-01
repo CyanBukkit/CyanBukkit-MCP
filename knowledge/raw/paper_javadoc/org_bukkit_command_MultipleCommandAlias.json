@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.command.MultipleCommandAlias",
+  "methods": [
+    "public org.bukkit.command.MultipleCommandAlias(java.lang.String, org.bukkit.command.Command[])",
+    "public org.bukkit.command.Command[] getCommands()",
+    "public boolean execute(org.bukkit.command.CommandSender, java.lang.String, java.lang.String[])"
+  ],
+  "method_count": 3
+}

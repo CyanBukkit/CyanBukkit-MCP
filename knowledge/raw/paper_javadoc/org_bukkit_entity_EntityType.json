@@ -1,0 +1,21 @@
+{
+  "class_name": "org.bukkit.entity.EntityType",
+  "methods": [
+    "public static org.bukkit.entity.EntityType[] values()",
+    "public static org.bukkit.entity.EntityType valueOf(java.lang.String)",
+    "public java.lang.String getName()",
+    "public org.bukkit.NamespacedKey getKey()",
+    "public java.lang.Class<? extends org.bukkit.entity.Entity> getEntityClass()",
+    "public short getTypeId()",
+    "public static org.bukkit.entity.EntityType fromName(java.lang.String)",
+    "public static org.bukkit.entity.EntityType fromId(int)",
+    "public boolean isSpawnable()",
+    "public boolean isAlive()",
+    "public java.lang.String getTranslationKey()",
+    "public java.lang.String translationKey()",
+    "public boolean hasDefaultAttributes()",
+    "public org.bukkit.attribute.Attributable getDefaultAttributes()",
+    "public boolean isEnabledByFeature(org.bukkit.World)"
+  ],
+  "method_count": 15
+}

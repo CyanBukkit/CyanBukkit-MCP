@@ -1,0 +1,16 @@
+{
+  "class_name": "org.bukkit.event.inventory.InventoryDragEvent",
+  "methods": [
+    "public org.bukkit.event.inventory.InventoryDragEvent(org.bukkit.inventory.InventoryView, org.bukkit.inventory.ItemStack, org.bukkit.inventory.ItemStack, boolean, java.util.Map<java.lang.Integer, org.bukkit.inventory.ItemStack>)",
+    "public org.bukkit.event.inventory.DragType getType()",
+    "public org.bukkit.inventory.ItemStack getCursor()",
+    "public void setCursor(org.bukkit.inventory.ItemStack)",
+    "public org.bukkit.inventory.ItemStack getOldCursor()",
+    "public java.util.Map<java.lang.Integer, org.bukkit.inventory.ItemStack> getNewItems()",
+    "public java.util.Set<java.lang.Integer> getRawSlots()",
+    "public java.util.Set<java.lang.Integer> getInventorySlots()",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 10
+}

@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.data.type.TNT",
+  "methods": [
+    "public abstract boolean isUnstable()",
+    "public abstract void setUnstable(boolean)"
+  ],
+  "method_count": 2
+}

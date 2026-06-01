@@ -1,0 +1,15 @@
+{
+  "class_name": "org.bukkit.command.CommandMap",
+  "methods": [
+    "public abstract void registerAll(java.lang.String, java.util.List<org.bukkit.command.Command>)",
+    "public abstract boolean register(java.lang.String, java.lang.String, org.bukkit.command.Command)",
+    "public abstract boolean register(java.lang.String, org.bukkit.command.Command)",
+    "public abstract boolean dispatch(org.bukkit.command.CommandSender, java.lang.String)",
+    "public abstract void clearCommands()",
+    "public abstract org.bukkit.command.Command getCommand(java.lang.String)",
+    "public abstract java.util.List<java.lang.String> tabComplete(org.bukkit.command.CommandSender, java.lang.String)",
+    "public abstract java.util.List<java.lang.String> tabComplete(org.bukkit.command.CommandSender, java.lang.String, org.bukkit.Location)",
+    "public abstract java.util.Map<java.lang.String, org.bukkit.command.Command> getKnownCommands()"
+  ],
+  "method_count": 9
+}

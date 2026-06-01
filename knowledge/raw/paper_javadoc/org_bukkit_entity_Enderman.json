@@ -1,0 +1,17 @@
+{
+  "class_name": "org.bukkit.entity.Enderman",
+  "methods": [
+    "public abstract boolean teleportRandomly()",
+    "public abstract org.bukkit.material.MaterialData getCarriedMaterial()",
+    "public abstract void setCarriedMaterial(org.bukkit.material.MaterialData)",
+    "public abstract org.bukkit.block.data.BlockData getCarriedBlock()",
+    "public abstract void setCarriedBlock(org.bukkit.block.data.BlockData)",
+    "public abstract boolean teleport()",
+    "public abstract boolean teleportTowards(org.bukkit.entity.Entity)",
+    "public abstract boolean isScreaming()",
+    "public abstract void setScreaming(boolean)",
+    "public abstract boolean hasBeenStaredAt()",
+    "public abstract void setHasBeenStaredAt(boolean)"
+  ],
+  "method_count": 11
+}

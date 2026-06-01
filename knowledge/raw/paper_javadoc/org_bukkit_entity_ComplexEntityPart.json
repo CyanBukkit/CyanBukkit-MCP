@@ -1,0 +1,7 @@
+{
+  "class_name": "org.bukkit.entity.ComplexEntityPart",
+  "methods": [
+    "public abstract org.bukkit.entity.ComplexLivingEntity getParent()"
+  ],
+  "method_count": 1
+}

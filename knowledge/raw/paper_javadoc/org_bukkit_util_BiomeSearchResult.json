@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.util.BiomeSearchResult",
+  "methods": [
+    "public abstract org.bukkit.block.Biome getBiome()",
+    "public abstract org.bukkit.Location getLocation()"
+  ],
+  "method_count": 2
+}

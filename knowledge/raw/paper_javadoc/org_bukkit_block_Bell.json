@@ -1,0 +1,14 @@
+{
+  "class_name": "org.bukkit.block.Bell",
+  "methods": [
+    "public abstract boolean ring(org.bukkit.entity.Entity, org.bukkit.block.BlockFace)",
+    "public default boolean ring(org.bukkit.entity.Entity)",
+    "public default boolean ring(org.bukkit.block.BlockFace)",
+    "public default boolean ring()",
+    "public abstract boolean isShaking()",
+    "public abstract int getShakingTicks()",
+    "public abstract boolean isResonating()",
+    "public abstract int getResonatingTicks()"
+  ],
+  "method_count": 8
+}

@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.entity.Snowman",
+  "methods": [
+    "public abstract boolean isDerp()",
+    "public abstract void setDerp(boolean)"
+  ],
+  "method_count": 2
+}

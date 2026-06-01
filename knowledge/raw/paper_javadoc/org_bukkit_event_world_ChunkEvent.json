@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.event.world.ChunkEvent",
+  "methods": [
+    "protected org.bukkit.event.world.ChunkEvent(org.bukkit.Chunk)",
+    "public org.bukkit.Chunk getChunk()"
+  ],
+  "method_count": 2
+}

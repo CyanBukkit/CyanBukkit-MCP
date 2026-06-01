@@ -1,0 +1,7 @@
+{
+  "class_name": "org.bukkit.persistence.ListPersistentDataType",
+  "methods": [
+    "public abstract org.bukkit.persistence.PersistentDataType<P, C> elementType()"
+  ],
+  "method_count": 1
+}

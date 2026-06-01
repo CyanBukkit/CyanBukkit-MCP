@@ -1,0 +1,12 @@
+{
+  "class_name": "org.bukkit.event.raid.RaidTriggerEvent",
+  "methods": [
+    "public org.bukkit.event.raid.RaidTriggerEvent(org.bukkit.Raid, org.bukkit.World, org.bukkit.entity.Player)",
+    "public org.bukkit.entity.Player getPlayer()",
+    "public boolean isCancelled()",
+    "public void setCancelled(boolean)",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 6
+}

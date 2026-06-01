@@ -1,0 +1,13 @@
+{
+  "class_name": "org.bukkit.GameRule",
+  "methods": [
+    "public java.lang.String getName()",
+    "public java.lang.Class<T> getType()",
+    "public boolean equals(java.lang.Object)",
+    "public java.lang.String toString()",
+    "public static org.bukkit.GameRule<?> getByName(java.lang.String)",
+    "public static org.bukkit.GameRule<?>[] values()",
+    "public java.lang.String translationKey()"
+  ],
+  "method_count": 7
+}

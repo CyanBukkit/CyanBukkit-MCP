@@ -1,0 +1,24 @@
+{
+  "class_name": "org.bukkit.entity.FallingBlock",
+  "methods": [
+    "public abstract org.bukkit.Material getMaterial()",
+    "public abstract org.bukkit.block.data.BlockData getBlockData()",
+    "public abstract void setBlockData(org.bukkit.block.data.BlockData)",
+    "public abstract org.bukkit.block.BlockState getBlockState()",
+    "public abstract void setBlockState(org.bukkit.block.BlockState)",
+    "public abstract boolean getDropItem()",
+    "public abstract void setDropItem(boolean)",
+    "public abstract boolean getCancelDrop()",
+    "public abstract void setCancelDrop(boolean)",
+    "public abstract boolean canHurtEntities()",
+    "public abstract void setHurtEntities(boolean)",
+    "public abstract float getDamagePerBlock()",
+    "public abstract void setDamagePerBlock(float)",
+    "public abstract int getMaxDamage()",
+    "public abstract void setMaxDamage(int)",
+    "public default org.bukkit.Location getSourceLoc()",
+    "public abstract boolean doesAutoExpire()",
+    "public abstract void shouldAutoExpire(boolean)"
+  ],
+  "method_count": 18
+}

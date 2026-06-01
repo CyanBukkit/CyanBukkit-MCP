@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.inventory.meta.BlockDataMeta",
+  "methods": [
+    "public abstract boolean hasBlockData()",
+    "public abstract org.bukkit.block.data.BlockData getBlockData(org.bukkit.Material)",
+    "public abstract void setBlockData(org.bukkit.block.data.BlockData)"
+  ],
+  "method_count": 3
+}

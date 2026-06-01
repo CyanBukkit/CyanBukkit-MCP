@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.entity.Salmon$Variant",
+  "methods": [
+    "public static org.bukkit.entity.Salmon$Variant[] values()",
+    "public static org.bukkit.entity.Salmon$Variant valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

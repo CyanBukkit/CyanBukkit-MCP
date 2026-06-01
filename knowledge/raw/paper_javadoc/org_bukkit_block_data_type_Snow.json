@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.block.data.type.Snow",
+  "methods": [
+    "public abstract int getLayers()",
+    "public abstract void setLayers(int)",
+    "public abstract int getMinimumLayers()",
+    "public abstract int getMaximumLayers()"
+  ],
+  "method_count": 4
+}

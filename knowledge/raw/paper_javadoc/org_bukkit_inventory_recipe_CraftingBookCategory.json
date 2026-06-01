@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.inventory.recipe.CraftingBookCategory",
+  "methods": [
+    "public static org.bukkit.inventory.recipe.CraftingBookCategory[] values()",
+    "public static org.bukkit.inventory.recipe.CraftingBookCategory valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.event.block.BlockFormEvent",
+  "methods": [
+    "public org.bukkit.event.block.BlockFormEvent(org.bukkit.block.Block, org.bukkit.block.BlockState)",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 3
+}

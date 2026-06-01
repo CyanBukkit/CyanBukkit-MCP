@@ -1,0 +1,14 @@
+{
+  "class_name": "org.bukkit.ban.ProfileBanList",
+  "methods": [
+    "public abstract <E extends org.bukkit.BanEntry<? super com.destroystokyo.paper.profile.PlayerProfile>> E addBan(org.bukkit.profile.PlayerProfile, java.lang.String, java.util.Date, java.lang.String)",
+    "public abstract org.bukkit.BanEntry<com.destroystokyo.paper.profile.PlayerProfile> addBan(com.destroystokyo.paper.profile.PlayerProfile, java.lang.String, java.util.Date, java.lang.String)",
+    "public abstract <E extends org.bukkit.BanEntry<? super com.destroystokyo.paper.profile.PlayerProfile>> E getBanEntry(org.bukkit.profile.PlayerProfile)",
+    "public abstract boolean isBanned(org.bukkit.profile.PlayerProfile)",
+    "public abstract void pardon(org.bukkit.profile.PlayerProfile)",
+    "public abstract <E extends org.bukkit.BanEntry<? super com.destroystokyo.paper.profile.PlayerProfile>> E addBan(org.bukkit.profile.PlayerProfile, java.lang.String, java.time.Instant, java.lang.String)",
+    "public abstract <E extends org.bukkit.BanEntry<? super com.destroystokyo.paper.profile.PlayerProfile>> E addBan(org.bukkit.profile.PlayerProfile, java.lang.String, java.time.Duration, java.lang.String)",
+    "public default org.bukkit.BanEntry addBan(java.lang.Object, java.lang.String, java.util.Date, java.lang.String)"
+  ],
+  "method_count": 8
+}

@@ -1,0 +1,7 @@
+{
+  "title": "Server Icon",
+  "url": "https://www.spigotmc.org/wiki/server-icon/",
+  "content": "Jan 19, 2020\nPage\nAttachments (1)\nHistory\nEditors\nServer Icon\nServer Icon\nInformation on Server Icons for Spigot and BungeeCord\nContents\nWhat is the server icon\nInstallation\nWhat is the server icon\n(\ntop\n)\nThe server icon is a small .png image that is shown next to the server if a user adds the server to their server list.\nThe server icon may also be downloaded by \"Minecraft server list\" websites that use it as a picture for the server.\nUsing a server icon helps users to easily recognize the server when scrolling through their server list.\nInstallation\n(\ntop\n)\nOpen an image maker/editor of your choice, and create an icon that is\n64x64\npixels. Export it in the\nPNG\nformat.\nThe file must be called\nserver-icon.png\nin order to be recognized by the server\nPlace the server-icon.png in the server's root directory (the same folder as the Spigot or Bungeecord .jar file, or the working directory of your server if it is changed).\nYou must restart the server after you place the file in the folder in order for the server to load it.\nLoading...\nView\nLoading...\nView\nLoading...\nView\n(181555 Views)\nLast Modified: Jan 19, 2020 at 2:40 AM",
+  "content_length": 1136,
+  "method": "bs4"
+}

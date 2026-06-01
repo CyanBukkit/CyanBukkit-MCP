@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.block.data.AnaloguePowerable",
+  "methods": [
+    "public abstract int getPower()",
+    "public abstract void setPower(int)",
+    "public abstract int getMaximumPower()"
+  ],
+  "method_count": 3
+}

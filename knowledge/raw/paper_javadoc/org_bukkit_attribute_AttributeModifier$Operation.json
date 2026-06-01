@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.attribute.AttributeModifier$Operation",
+  "methods": [
+    "public static org.bukkit.attribute.AttributeModifier$Operation[] values()",
+    "public static org.bukkit.attribute.AttributeModifier$Operation valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

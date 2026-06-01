@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.event.server.RemoteServerCommandEvent",
+  "methods": [
+    "public org.bukkit.event.server.RemoteServerCommandEvent(org.bukkit.command.CommandSender, java.lang.String)",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 3
+}

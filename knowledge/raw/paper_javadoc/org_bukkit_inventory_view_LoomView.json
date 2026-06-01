@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.inventory.view.LoomView",
+  "methods": [
+    "public abstract org.bukkit.inventory.LoomInventory getTopInventory()",
+    "public abstract java.util.List<org.bukkit.block.banner.PatternType> getSelectablePatterns()",
+    "public abstract int getSelectedPatternIndex()",
+    "public default org.bukkit.inventory.Inventory getTopInventory()"
+  ],
+  "method_count": 4
+}

@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.event.entity.EntityTransformEvent$TransformReason",
+  "methods": [
+    "public static org.bukkit.event.entity.EntityTransformEvent$TransformReason[] values()",
+    "public static org.bukkit.event.entity.EntityTransformEvent$TransformReason valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

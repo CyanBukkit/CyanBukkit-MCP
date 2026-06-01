@@ -1,0 +1,13 @@
+{
+  "class_name": "org.bukkit.EntityEffect",
+  "methods": [
+    "public static org.bukkit.EntityEffect[] values()",
+    "public static org.bukkit.EntityEffect valueOf(java.lang.String)",
+    "public byte getData()",
+    "public java.lang.Class<? extends org.bukkit.entity.Entity> getApplicable()",
+    "public java.util.Set<java.lang.Class<? extends org.bukkit.entity.Entity>> getApplicableClasses()",
+    "public boolean isApplicableTo(org.bukkit.entity.Entity)",
+    "public boolean isApplicableTo(java.lang.Class<? extends org.bukkit.entity.Entity>)"
+  ],
+  "method_count": 7
+}

@@ -1,0 +1,19 @@
+{
+  "class_name": "org.bukkit.entity.Piglin",
+  "methods": [
+    "public abstract boolean isAbleToHunt()",
+    "public abstract void setIsAbleToHunt(boolean)",
+    "public abstract boolean addBarterMaterial(org.bukkit.Material)",
+    "public abstract boolean removeBarterMaterial(org.bukkit.Material)",
+    "public abstract boolean addMaterialOfInterest(org.bukkit.Material)",
+    "public abstract boolean removeMaterialOfInterest(org.bukkit.Material)",
+    "public abstract java.util.Set<org.bukkit.Material> getInterestList()",
+    "public abstract java.util.Set<org.bukkit.Material> getBarterList()",
+    "public abstract void setChargingCrossbow(boolean)",
+    "public abstract boolean isChargingCrossbow()",
+    "public abstract void setDancing(boolean)",
+    "public abstract void setDancing(long)",
+    "public abstract boolean isDancing()"
+  ],
+  "method_count": 13
+}

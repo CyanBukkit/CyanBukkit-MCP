@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.block.data.Ageable",
+  "methods": [
+    "public abstract int getAge()",
+    "public abstract void setAge(int)",
+    "public abstract int getMaximumAge()"
+  ],
+  "method_count": 3
+}

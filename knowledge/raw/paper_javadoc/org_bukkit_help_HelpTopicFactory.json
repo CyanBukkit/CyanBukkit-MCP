@@ -1,0 +1,7 @@
+{
+  "class_name": "org.bukkit.help.HelpTopicFactory",
+  "methods": [
+    "public abstract org.bukkit.help.HelpTopic createTopic(TCommand)"
+  ],
+  "method_count": 1
+}

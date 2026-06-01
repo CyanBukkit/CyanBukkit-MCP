@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.event.entity.VillagerCareerChangeEvent$ChangeReason",
+  "methods": [
+    "public static org.bukkit.event.entity.VillagerCareerChangeEvent$ChangeReason[] values()",
+    "public static org.bukkit.event.entity.VillagerCareerChangeEvent$ChangeReason valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

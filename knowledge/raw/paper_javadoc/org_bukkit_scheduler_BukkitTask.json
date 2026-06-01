@@ -1,0 +1,11 @@
+{
+  "class_name": "org.bukkit.scheduler.BukkitTask",
+  "methods": [
+    "public abstract int getTaskId()",
+    "public abstract org.bukkit.plugin.Plugin getOwner()",
+    "public abstract boolean isSync()",
+    "public abstract boolean isCancelled()",
+    "public abstract void cancel()"
+  ],
+  "method_count": 5
+}

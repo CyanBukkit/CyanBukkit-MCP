@@ -1,0 +1,12 @@
+{
+  "jar": "C:\\Users\\SmallXY\\.m2\\repository\\su\\nightexpress\\nightcore\\paper\\2.7.8\\paper-2.7.8.jar",
+  "artifact": "paper/2.7.8/paper-2.7.8",
+  "class_count": 4,
+  "all_classes": [
+    "su.nightexpress.nightcore.bridge.paper.PaperBridge",
+    "su.nightexpress.nightcore.bridge.paper.PaperComponent$1",
+    "su.nightexpress.nightcore.bridge.paper.PaperComponent",
+    "su.nightexpress.nightcore.bridge.paper.PaperProfile"
+  ],
+  "truncated": false
+}

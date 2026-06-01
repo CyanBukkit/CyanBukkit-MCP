@@ -1,0 +1,17 @@
+{
+  "class_name": "org.bukkit.entity.Player$Spigot",
+  "methods": [
+    "public org.bukkit.entity.Player$Spigot()",
+    "public java.net.InetSocketAddress getRawAddress()",
+    "public void respawn()",
+    "public java.util.Set<org.bukkit.entity.Player> getHiddenPlayers()",
+    "public void sendMessage(net.md_5.bungee.api.chat.BaseComponent)",
+    "public void sendMessage(net.md_5.bungee.api.chat.BaseComponent...)",
+    "public void sendMessage(net.md_5.bungee.api.ChatMessageType, net.md_5.bungee.api.chat.BaseComponent)",
+    "public void sendMessage(net.md_5.bungee.api.ChatMessageType, net.md_5.bungee.api.chat.BaseComponent...)",
+    "public void sendMessage(net.md_5.bungee.api.ChatMessageType, java.util.UUID, net.md_5.bungee.api.chat.BaseComponent)",
+    "public void sendMessage(net.md_5.bungee.api.ChatMessageType, java.util.UUID, net.md_5.bungee.api.chat.BaseComponent...)",
+    "public int getPing()"
+  ],
+  "method_count": 11
+}

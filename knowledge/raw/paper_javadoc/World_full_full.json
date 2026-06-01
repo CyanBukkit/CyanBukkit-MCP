@@ -1,0 +1,520 @@
+{
+  "class_name": "World",
+  "url": "https://jd.papermc.io/paper/1.21.4/org/bukkit/World.html",
+  "description": "ForwardingAudience Represents a world, which may contain entities, chunks and blocks Nested Class Summary Nested Classes Modifier and Type Interface Description static interface World",
+  "methods": [
+    {
+      "name": "audiences",
+      "signature": "extends Audience > audiences()",
+      "return_type": "extends\nAudience\n>",
+      "params": [],
+      "description": "Gets the audiences."
+    },
+    {
+      "name": "canGenerateStructures",
+      "signature": "boolean canGenerateStructures()",
+      "return_type": "boolean",
+      "params": [],
+      "description": "Gets whether or not structures are being generated."
+    },
+    {
+      "name": "createExplosion",
+      "signature": "boolean createExplosion(double x, double y, double z, float power)",
+      "return_type": "boolean",
+      "params": [
+        "double x",
+        "double y",
+        "double z",
+        "float power"
+      ],
+      "description": "Creat"
+    },
+    {
+      "name": "createExplosion",
+      "signature": "es explosion at given coordinates with given power boolean createExplosion(double x, double y, double z, float power, boolean setFire)",
+      "return_type": "es explosion at given coordinates with given power\nboolean",
+      "params": [
+        "double x",
+        "double y",
+        "double z",
+        "float power",
+        "boolean setFire"
+      ],
+      "description": "Creates explosion at given coordinates with given power and optionally"
+    },
+    {
+      "name": "createExplosion",
+      "signature": "boolean createExplosion(double x, double y, double z, float power, boolean setFire, boolean breakBlocks)",
+      "return_type": "boolean",
+      "params": [
+        "double x",
+        "double y",
+        "double z",
+        "float power",
+        "boolean setFire",
+        "boolean breakBlocks"
+      ],
+      "description": "Creates explosion at given coordinates with given power and optionally"
+    },
+    {
+      "name": "createExplosion",
+      "signature": "boolean createExplosion(double x, double y, double z, float power, boolean setFire, boolean breakBlocks, @Nullable Entity source)",
+      "return_type": "boolean",
+      "params": [
+        "double x",
+        "double y",
+        "double z",
+        "float power",
+        "boolean setFire",
+        "boolean breakBlocks",
+        "@Nullable Entity source"
+      ],
+      "description": "Creates explosion at given coordinates with given power and optionally"
+    },
+    {
+      "name": "createExplosion",
+      "signature": "boolean createExplosion(@NotNull Location loc, float power)",
+      "return_type": "boolean",
+      "params": [
+        "@NotNull Location loc",
+        "float power"
+      ],
+      "description": "Creat"
+    },
+    {
+      "name": "createExplosion",
+      "signature": "es explosion at given coordinates with given power boolean createExplosion(@NotNull Location loc, float power, boolean setFire)",
+      "return_type": "es explosion at given coordinates with given power\nboolean",
+      "params": [
+        "@NotNull Location loc",
+        "float power",
+        "boolean setFire"
+      ],
+      "description": "Creates explosion at given coordinates with given power and optionally"
+    },
+    {
+      "name": "createExplosion",
+      "signature": "boolean createExplosion(@NotNull Location loc, float power, boolean setFire, boolean breakBlocks)",
+      "return_type": "boolean",
+      "params": [
+        "@NotNull Location loc",
+        "float power",
+        "boolean setFire",
+        "boolean breakBlocks"
+      ],
+      "description": "Creates explosion at given coordinates with given power and optionally"
+    },
+    {
+      "name": "createExplosion",
+      "signature": "boolean createExplosion(@NotNull Location loc, float power, boolean setFire, boolean breakBlocks, @Nullable Entity source)",
+      "return_type": "boolean",
+      "params": [
+        "@NotNull Location loc",
+        "float power",
+        "boolean setFire",
+        "boolean breakBlocks",
+        "@Nullable Entity source"
+      ],
+      "description": "Creates explosion at given coordinates with given power and optionally"
+    },
+    {
+      "name": "createExplosion",
+      "signature": "default boolean createExplosion(@NotNull Entity source, float power)",
+      "return_type": "default boolean",
+      "params": [
+        "@NotNull Entity source",
+        "float power"
+      ],
+      "description": "Creates explosion at given entities location with given power and optionally"
+    },
+    {
+      "name": "createExplosion",
+      "signature": "default boolean createExplosion(@NotNull Entity source, float power, boolean setFire)",
+      "return_type": "default boolean",
+      "params": [
+        "@NotNull Entity source",
+        "float power",
+        "boolean setFire"
+      ],
+      "description": "Creates explosion at given entities location with given power and optionally"
+    },
+    {
+      "name": "createExplosion",
+      "signature": "default boolean createExplosion(@NotNull Entity source, float power, boolean setFire, boolean breakBlocks)",
+      "return_type": "default boolean",
+      "params": [
+        "@NotNull Entity source",
+        "float power",
+        "boolean setFire",
+        "boolean breakBlocks"
+      ],
+      "description": "Creates explosion at given entities location with given power and optionally"
+    },
+    {
+      "name": "createExplosion",
+      "signature": "default boolean createExplosion(@Nullable Entity source, @NotNull Location loc, float power)",
+      "return_type": "default boolean",
+      "params": [
+        "@Nullable Entity source",
+        "@NotNull Location loc",
+        "float power"
+      ],
+      "description": "Creates explosion at given location with given power, with the specified entity as the source."
+    },
+    {
+      "name": "createExplosion",
+      "signature": "default boolean createExplosion(@Nullable Entity source, @NotNull Location loc, float power, boolean setFire)",
+      "return_type": "default boolean",
+      "params": [
+        "@Nullable Entity source",
+        "@NotNull Location loc",
+        "float power",
+        "boolean setFire"
+      ],
+      "description": "Creates explosion at given location with given power and optionally"
+    },
+    {
+      "name": "createExplosion",
+      "signature": "default boolean createExplosion(@Nullable Entity source, @NotNull Location loc, float power, boolean setFire, boolean breakBlocks)",
+      "return_type": "default boolean",
+      "params": [
+        "@Nullable Entity source",
+        "@NotNull Location loc",
+        "float power",
+        "boolean setFire",
+        "boolean breakBlocks"
+      ],
+      "description": "Creates explosion at given location with given power and optionally"
+    },
+    {
+      "name": "createExplosion",
+      "signature": "boolean createExplosion(@Nullable Entity source, @NotNull Location loc, float power, boolean setFire, boolean breakBlocks, boolean excludeSourceFromDamage)",
+      "return_type": "boolean",
+      "params": [
+        "@Nullable Entity source",
+        "@NotNull Location loc",
+        "float power",
+        "boolean setFire",
+        "boolean breakBlocks",
+        "boolean excludeSourceFromDamage"
+      ],
+      "description": "Creates explosion at given location with given power and optionally"
+    },
+    {
+      "name": "dropItem",
+      "signature": "NotNull Item dropItem(@NotNull Location location, @NotNull ItemStack item)",
+      "return_type": "NotNull\nItem",
+      "params": [
+        "@NotNull Location location",
+        "@NotNull ItemStack item"
+      ],
+      "description": "Drops an item at the specified"
+    },
+    {
+      "name": "dropItem",
+      "signature": "NotNull Item dropItem(@NotNull Location location, @NotNull ItemStack item, @Nullable Consumer <? super Item > function)",
+      "return_type": "NotNull\nItem",
+      "params": [
+        "@NotNull Location location",
+        "@NotNull ItemStack item",
+        "@Nullable Consumer <? super Item > function"
+      ],
+      "description": "Drops an item at the specified"
+    },
+    {
+      "name": "dropItemNaturally",
+      "signature": "NotNull Item dropItemNaturally(@NotNull Location location, @NotNull ItemStack item)",
+      "return_type": "NotNull\nItem",
+      "params": [
+        "@NotNull Location location",
+        "@NotNull ItemStack item"
+      ],
+      "description": "Drops an item at the specified"
+    },
+    {
+      "name": "dropItemNaturally",
+      "signature": "NotNull Item dropItemNaturally(@NotNull Location location, @NotNull ItemStack item, @Nullable Consumer <? super Item > function)",
+      "return_type": "NotNull\nItem",
+      "params": [
+        "@NotNull Location location",
+        "@NotNull ItemStack item",
+        "@Nullable Consumer <? super Item > function"
+      ],
+      "description": "Drops an item at the specified"
+    },
+    {
+      "name": "findLightningRod",
+      "signature": "Nullable Location findLightningRod(@NotNull Location location)",
+      "return_type": "Nullable\nLocation",
+      "params": [
+        "@NotNull Location location"
+      ],
+      "description": "Finds the location of the nearest unobstructed Lightning Rod in a 128-block"
+    },
+    {
+      "name": "findLightningTarget",
+      "signature": "Nullable Location findLightningTarget(@NotNull Location location)",
+      "return_type": "Nullable\nLocation",
+      "params": [
+        "@NotNull Location location"
+      ],
+      "description": "Finds a target"
+    },
+    {
+      "name": "generateTree",
+      "signature": "boolean generateTree(@NotNull Location location, @NotNull TreeType type)",
+      "return_type": "boolean",
+      "params": [
+        "@NotNull Location location",
+        "@NotNull TreeType type"
+      ],
+      "description": "Creat"
+    },
+    {
+      "name": "generateTree",
+      "signature": "es a tree at the given Location boolean generateTree(@NotNull Location loc, @NotNull TreeType type, @NotNull BlockChangeDelegate delegate)",
+      "return_type": "es a tree at the given\nLocation\nboolean",
+      "params": [
+        "@NotNull Location loc",
+        "@NotNull TreeType type",
+        "@NotNull BlockChangeDelegate delegate"
+      ],
+      "description": "Deprecated."
+    },
+    {
+      "name": "getAllowAnimals",
+      "signature": "boolean getAllowAnimals()",
+      "return_type": "boolean",
+      "params": [],
+      "description": "Gets whether animals can spawn in this world."
+    },
+    {
+      "name": "getAllowMonsters",
+      "signature": "boolean getAllowMonsters()",
+      "return_type": "boolean",
+      "params": [],
+      "description": "Gets whether monsters can spawn in this world."
+    },
+    {
+      "name": "getAmbientSpawnLimit",
+      "signature": "int getAmbientSpawnLimit()",
+      "return_type": "int",
+      "params": [],
+      "description": "Deprecated."
+    },
+    {
+      "name": "getSpawnLimit",
+      "signature": "Deprecated in favor of getSpawnLimit(SpawnCategory)",
+      "return_type": "Deprecated in favor of",
+      "params": [
+        "SpawnCategory"
+      ],
+      "description": "int getAnimalSpawnLimit"
+    },
+    {
+      "name": "getBiome",
+      "signature": "ull Biome getBiome(int x, int z)",
+      "return_type": "ull\nBiome",
+      "params": [
+        "int x",
+        "int z"
+      ],
+      "description": "Deprecated."
+    },
+    {
+      "name": "getBiomeProvider",
+      "signature": "Nullable BiomeProvider getBiomeProvider()",
+      "return_type": "Nullable\nBiomeProvider",
+      "params": [],
+      "description": "Gets the biome provider for this world"
+    },
+    {
+      "name": "getBlockAt",
+      "signature": "NotNull Block getBlockAt(int x, int y, int z)",
+      "return_type": "NotNull\nBlock",
+      "params": [
+        "int x",
+        "int y",
+        "int z"
+      ],
+      "description": "Gets the"
+    },
+    {
+      "name": "getBlockAt",
+      "signature": "NotNull Block getBlockAt(@NotNull Location location)",
+      "return_type": "NotNull\nBlock",
+      "params": [
+        "@NotNull Location location"
+      ],
+      "description": "Gets the"
+    },
+    {
+      "name": "getBlockAtKey",
+      "signature": "NotNull Block getBlockAtKey(long key)",
+      "return_type": "NotNull\nBlock",
+      "params": [
+        "long key"
+      ],
+      "description": "Deprecated."
+    },
+    {
+      "name": "getChunkAt",
+      "signature": "NotNull Chunk getChunkAt(int x, int z)",
+      "return_type": "NotNull\nChunk",
+      "params": [
+        "int x",
+        "int z"
+      ],
+      "description": "Gets the"
+    },
+    {
+      "name": "getChunkAt",
+      "signature": "NotNull Chunk getChunkAt(int x, int z, boolean generate)",
+      "return_type": "NotNull\nChunk",
+      "params": [
+        "int x",
+        "int z",
+        "boolean generate"
+      ],
+      "description": "Gets the"
+    },
+    {
+      "name": "getChunkAt",
+      "signature": "NotNull Chunk getChunkAt(long chunkKey)",
+      "return_type": "NotNull\nChunk",
+      "params": [
+        "long chunkKey"
+      ],
+      "description": "Gets the chunk at the specified chunk key, which is the X and Z packed into a long."
+    },
+    {
+      "name": "getChunkAt",
+      "signature": "NotNull Chunk getChunkAt(long chunkKey, boolean generate)",
+      "return_type": "NotNull\nChunk",
+      "params": [
+        "long chunkKey",
+        "boolean generate"
+      ],
+      "description": "Gets the chunk at the specified chunk key, which is the X and Z packed into a long."
+    },
+    {
+      "name": "getChunkAt",
+      "signature": "NotNull Chunk getChunkAt(@NotNull Location location)",
+      "return_type": "NotNull\nChunk",
+      "params": [
+        "@NotNull Location location"
+      ],
+      "description": "Gets the"
+    },
+    {
+      "name": "getChunkAt",
+      "signature": "NotNull Chunk getChunkAt(@NotNull Block block)",
+      "return_type": "NotNull\nChunk",
+      "params": [
+        "@NotNull Block block"
+      ],
+      "description": "Gets"
+    },
+    {
+      "name": "getChunkAtAsync",
+      "signature": "the Chunk that contains the given Block default CompletableFuture < Chunk > getChunkAtAsync(int x, int z)",
+      "return_type": "the\nChunk\nthat contains the given\nBlock\ndefault\nCompletableF",
+      "params": [
+        "int x",
+        "int z"
+      ],
+      "description": "Requests a"
+    },
+    {
+      "name": "getChunkAtAsync",
+      "signature": "default CompletableFuture < Chunk > getChunkAtAsync(int x, int z, boolean gen)",
+      "return_type": "default\nCompletableFuture\n<\nChunk\n>",
+      "params": [
+        "int x",
+        "int z",
+        "boolean gen"
+      ],
+      "description": "Requests a"
+    },
+    {
+      "name": "getChunkAtAsync",
+      "signature": "default CompletableFuture < Chunk > getChunkAtAsync(int x, int z, boolean gen, boolean urgent)",
+      "return_type": "default\nCompletableFuture\n<\nChunk\n>",
+      "params": [
+        "int x",
+        "int z",
+        "boolean gen",
+        "boolean urgent"
+      ],
+      "description": "Requests a"
+    },
+    {
+      "name": "getChunkAtAsync",
+      "signature": "void getChunkAtAsync(int x, int z, boolean gen, boolean urgent, @NotNull Consumer <? super Chunk > cb)",
+      "return_type": "void",
+      "params": [
+        "int x",
+        "int z",
+        "boolean gen",
+        "boolean urgent",
+        "@NotNull Consumer <? super Chunk > cb"
+      ],
+      "description": "Requests a"
+    },
+    {
+      "name": "getChunkAtAsync",
+      "signature": "default void getChunkAtAsync(int x, int z, boolean gen, @NotNull Consumer <? super Chunk > cb)",
+      "return_type": "default void",
+      "params": [
+        "int x",
+        "int z",
+        "boolean gen",
+        "@NotNull Consumer <? super Chunk > cb"
+      ],
+      "description": "Requests a"
+    },
+    {
+      "name": "getChunkAtAsync",
+      "signature": "default void getChunkAtAsync(int x, int z, @NotNull Consumer <? super Chunk > cb)",
+      "return_type": "default void",
+      "params": [
+        "int x",
+        "int z",
+        "@NotNull Consumer <? super Chunk > cb"
+      ],
+      "description": "Requests a"
+    },
+    {
+      "name": "getChunkAtAsync",
+      "signature": "default void getChunkAtAsync(int x, int z, @NotNull World.ChunkLoadCallback cb)",
+      "return_type": "default void",
+      "params": [
+        "int x",
+        "int z",
+        "@NotNull World.ChunkLoadCallback cb"
+      ],
+      "description": "Deprecated."
+    },
+    {
+      "name": "getChunkAtAsync",
+      "signature": "Use either the Future or the Consumer based methods default CompletableFuture < Chunk > getChunkAtAsync(@NotNull Location loc)",
+      "return_type": "Use either the Future or the Consumer based methods\ndefault\n",
+      "params": [
+        "@NotNull Location loc"
+      ],
+      "description": "Requests a"
+    },
+    {
+      "name": "getChunkAtAsync",
+      "signature": "default CompletableFuture < Chunk > getChunkAtAsync(@NotNull Location loc, boolean gen)",
+      "return_type": "default\nCompletableFuture\n<\nChunk\n>",
+      "params": [
+        "@NotNull Location loc",
+        "boolean gen"
+      ],
+      "description": "Requests a"
+    }
+  ],
+  "method_count": 49,
+  "full_text": "World (paper-api 1.21.4-R0.1-SNAPSHOT API)\nJavaScript is disabled on your browser.\nYou are looking at old Javadocs for Paper 1.21.4.\n    Click here to look at Paper 26.1.2 instead.\nSkip navigation links\nOverview\nPackage\nClass\nUse\nTree\nDeprecated\nIndex\nHelp\nSummary:\nNested\nField\nConstr\nMethod\nDetail:\nField\nConstr\nMethod\nSummary:\nNested\n|\nField |\nConstr |\nMethod\nDetail:\nField |\nConstr |\nMethod\nSEARCH\nPackage\norg.bukkit\nInterface World\nAll Superinterfaces:\nAudience\n,\nFeatureFlagSetHolder\n,\nForwardingAudience\n,\nKeyed\n,\nKeyed\n,\nMetadatable\n,\nPersistentDataHolder\n,\nPersistentDataViewHolder\n,\nPluginMessageRecipient\n,\nPointered\n,\nRegionAccessor\n,\nWorldInfo\npublic interface\nWorld\nextends\nRegionAccessor\n,\nWorldInfo\n,\nPluginMessageRecipient\n,\nMetadatable\n,\nPersistentDataHolder\n,\nKeyed\n,\nForwardingAudience\nRepresents a world, which may contain entities, chunks and blocks\nNested Class Summary\nNested Classes\nModifier and Type\nInterface\nDescription\nstatic interface\nWorld.ChunkLoadCallback\nDeprecated.\nUse either the Future or the Consumer based methods\nstatic enum\nWorld.Environment\nRepresents various map environment types that a world may be\nstatic class\nWorld.Spigot\nDeprecated, for removal: This API element is subject to removal in a future version.\nNested classes/interfaces inherited from interface net.kyori.adventure.audience.\nForwardingAudience\nForwardingAudience.Single\nMethod Summary\nAll Methods\nInstance Methods\nAbstract Methods\nDefault Methods\nDeprecated Methods\nModifier and Type\nMethod\nDescription\nboolean\naddPluginChunkTicket\n(int x,\n int z,\n@NotNull\nPlugin\nplugin)\nAdds a plugin ticket for the specified chunk, loading the chunk if it is\n not already loaded.\ndefault\n@NotNull\nIterable\n<? extends\nAudience\n>\naudiences\n()\nGets the audiences.\nboolean\ncanGenerateStructures\n()\nGets whether or not structures are being generated.\nboolean\ncreateExplosion\n(double x,\n double y,\n double z,\n float power)\nCreates explosion at given coordinates with given power\nboolean\ncreateExplosion\n(double x,\n double y,\n double z,\n float power,\n boolean setFire)\nCreates explosion at given coordinates with given power and optionally\n setting blocks on fire.\nboolean\ncreateExplosion\n(double x,\n double y,\n double z,\n float power,\n boolean setFire,\n boolean breakBlocks)\nCreates explosion at given coordinates with given power and optionally\n setting blocks on fire or breaking blocks.\nboolean\ncreateExplosion\n(double x,\n double y,\n double z,\n float power,\n boolean setFire,\n boolean breakBlocks,\n@Nullable\nEntity\nsource)\nCreates explosion at given coordinates with given power and optionally\n setting blocks on fire or breaking blocks.\nboolean\ncreateExplosion\n(\n@NotNull\nLocation\nloc,\n float power)\nCreates explosion at given coordinates with given power\nboolean\ncreateExplosion\n(\n@NotNull\nLocation\nloc,\n float power,\n boolean setFire)\nCreates explosion at given coordinates with given power and optionally\n setting blocks on fire.\nboolean\ncreateExplosion\n(\n@NotNull\nLocation\nloc,\n float power,\n boolean setFire,\n boolean breakBlocks)\nCreates explosion at given coordinates with given power and optionally\n setting blocks on fire or breaking blocks.\nboolean\ncreateExplosion\n(\n@NotNull\nLocation\nloc,\n float power,\n boolean setFire,\n boolean breakBlocks,\n@Nullable\nEntity\nsource)\nCreates explosion at given coordinates with given power and optionally\n setting blocks on fire or breaking blocks.\ndefault boolean\ncreateExplosion\n(\n@NotNull\nEntity\nsource,\n float power)\nCreates explosion at given entities location with given power and optionally\n setting blocks on fire, with the specified entity as the source.\ndefault boolean\ncreateExplosion\n(\n@NotNull\nEntity\nsource,\n float power,\n boolean setFire)\nCreates explosion at given entities location with given power and optionally\n setting blocks on fire, with the specified entity as the source.\ndefault boolean\ncreateExplosion\n(\n@NotNull\nEntity\nsource,\n float power,\n boolean setFire,\n boolean breakBlocks)\nCreates explosion at given entities location with given power and optionally\n setting blocks on fire, with the specified entity as the source.\ndefault boolean\ncreateExplosion\n(\n@Nullable\nEntity\nsource,\n@NotNull\nLocation\nloc,\n float power)\nCreates explosion at given location with given power, with the specified entity as the source.\ndefault boolean\ncreateExplosion\n(\n@Nullable\nEntity\nsource,\n@NotNull\nLocation\nloc,\n float power,\n boolean setFire)\nCreates explosion at given location with given power and optionally\n setting blocks on fire, with the specified entity as the source.\ndefault boolean\ncreateExplosion\n(\n@Nullable\nEntity\nsource,\n@NotNull\nLocation\nloc,\n float power,\n boolean setFire,\n boolean breakBlocks)\nCreates explosion at given location with given power and optionally\n setting blocks on fire, with the specified entity as the source.\nboolean\ncreateExplosion\n(\n@Nullable\nEntity\nsource,\n@NotNull\nLocation\nloc,\n float power,\n boolean setFire,\n boolean breakBlocks,\n boolean excludeSourceFromDamage)\nCreates explosion at given location with given power and optionally\n setting blocks on fire, with the specified entity as the source.\n@NotNull\nItem\ndropItem\n(\n@NotNull\nLocation\nlocation,\n@NotNull\nItemStack\nitem)\nDrops an item at the specified\nLocation\n@NotNull\nItem\ndropItem\n(\n@NotNull\nLocation\nlocation,\n@NotNull\nItemStack\nitem,\n@Nullable\nConsumer\n<? super\nItem\n> function)\nDrops an item at the specified\nLocation\nNote that functions will run before the entity is spawned\n@NotNull\nItem\ndropItemNaturally\n(\n@NotNull\nLocation\nlocation,\n@NotNull\nItemStack\nitem)\nDrops an item at the specified\nLocation\nwith a random offset\n@NotNull\nItem\ndropItemNaturally\n(\n@NotNull\nLocation\nlocation,\n@NotNull\nItemStack\nitem,\n@Nullable\nConsumer\n<? super\nItem\n> function)\nDrops an item at the specified\nLocation\nwith a random offset\n Note that functions will run before the entity is spawned\n@Nullable\nLocation\nfindLightningRod\n(\n@NotNull\nLocation\nlocation)\nFinds the location of the nearest unobstructed Lightning Rod in a 128-block\n radius around the given location.\n@Nullable\nLocation\nfindLightningTarget\n(\n@NotNull\nLocation\nlocation)\nFinds a target\nLocation\nfor lightning to strike.\nboolean\ngenerateTree\n(\n@NotNull\nLocation\nlocation,\n@NotNull\nTreeType\ntype)\nCreates a tree at the given\nLocation\nboolean\ngenerateTree\n(\n@NotNull\nLocation\nloc,\n@NotNull\nTreeType\ntype,\n@NotNull\nBlockChangeDelegate\ndelegate)\nDeprecated.\nthis method does not handle tile entities (bee nests)\nboolean\ngetAllowAnimals\n()\nGets whether animals can spawn in this world.\nboolean\ngetAllowMonsters\n()\nGets whether monsters can spawn in this world.\nint\ngetAmbientSpawnLimit\n()\nDeprecated.\nDeprecated in favor of\ngetSpawnLimit(SpawnCategory)\nint\ngetAnimalSpawnLimit\n()\nDeprecated.\nDeprecated in favor of\ngetSpawnLimit(SpawnCategory)\n@NotNull\nBiome\ngetBiome\n(int x,\n int z)\nDeprecated.\nbiomes are now 3-dimensional\n@Nullable\nBiomeProvider\ngetBiomeProvider\n()\nGets the biome provider for this world\n@NotNull\nBlock\ngetBlockAt\n(int x,\n int y,\n int z)\nGets the\nBlock\nat the given coordinates\n@NotNull\nBlock\ngetBlockAt\n(\n@NotNull\nLocation\nlocation)\nGets the\nBlock\nat the given\nLocation\ndefault\n@NotNull\nBlock\ngetBlockAtKey\n(long key)\nDeprecated.\nonly encodes y block ranges from -512 to 511 and represents an already changed implementation detail\n@NotNull\nChunk\ngetChunkAt\n(int x,\n int z)\nGets the\nChunk\nat the given coordinates\n@NotNull\nChunk\ngetChunkAt\n(int x,\n int z,\n boolean generate)\nGets the\nChunk\nat the given coordinates\ndefault\n@NotNull\nChunk\ngetChunkAt\n(long chunkKey)\nGets the chunk at the specified chunk key, which is the X and Z packed into a long.\ndefault\n@NotNull\nChunk\ngetChunkAt\n(long chunkKey,\n boolean generate)\nGets the chunk at the specified chunk key, which is the X and Z packed into a long.\n@NotNull\nChunk\ngetChunkAt\n(\n@NotNull\nLocation\nlocation)\nGets the\nChunk\nat the given\nLocation\n@NotNull\nChunk\ngetChunkAt\n(\n@NotNull\nBlock\nblock)\nGets the\nChunk\nthat contains the given\nBlock\ndefault\nCompletableFuture\n<\nChunk\n>\ngetChunkAtAsync\n(int x,\n int z)\nRequests a\nChunk\nto be loaded at the given coordinates\n\n This method makes no guarantee on how fast the chunk will load,\n and will return the chunk to the callback at a later time.\ndefault\nCompletableFuture\n<\nChunk\n>\ngetChunkAtAsync\n(int x,\n int z,\n boolean gen)\nRequests a\nChunk\nto be loaded at the given coordinates\n\n This method makes no guarantee on how fast the chunk will load,\n and will return the chunk to the callback at a later time.\ndefault\nCompletableFuture\n<\nChunk\n>\ngetChunkAtAsync\n(int x,\n int z,\n boolean gen,\n boolean urgent)\nRequests a\nChunk\nto be loaded at the given coordinates.\nvoid\ngetChunkAtAsync\n(int x,\n int z,\n boolean gen,\n boolean urgent,\n@NotNull\nConsumer\n<? super\nChunk\n> cb)\nRequests a\nChunk\nto be loaded at the given coordinates\n\n This method makes no guarantee on how fast the chunk will load,\n and will return the chunk to the callback at a later time.\ndefault void\ngetChunkAtAsync\n(int x,\n int z,\n boolean gen,\n@NotNull\nConsumer\n<? super\nChunk\n> cb)\nRequests a\nChunk\nto be loaded at the given coordinates\n\n This method makes no guarantee on how fast the chunk will load,\n and will return the chunk to the callback at a later time.\ndefault void\ngetChunkAtAsync\n(int x,\n int z,\n@NotNull\nConsumer\n<? super\nChunk\n> cb)\nRequests a\nChunk\nto be loaded at the given coordinates\n\n This method makes no guarantee on how fast the chunk will load,\n and will return the chunk to the callback at a later time.\ndefault void\ngetChunkAtAsync\n(int x,\n int z,\n@NotNull\nWorld.ChunkLoadCallback\ncb)\nDeprecated.\nUse either the Future or the Consumer based methods\ndefault\nCompletableFuture\n<\nChunk\n>\ngetChunkAtAsync\n(\n@NotNull\nLocation\nloc)\nRequests a\nChunk\nto be loaded at the given coordinates\n\n This method makes no guarantee on how fast the chunk will load,\n and will return the chunk to the callback at a later time.\ndefault\nCompletableFuture\n<\nChunk\n>\ngetChunkAtAsync\n(\n@NotNull\nLocation\nloc,\n boolean gen)\nRequests a\nChunk\nto be loaded at the given coordinates\n\n This method makes no guarantee on "
+}

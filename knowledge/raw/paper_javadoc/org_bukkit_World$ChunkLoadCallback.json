@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.World$ChunkLoadCallback",
+  "methods": [
+    "public abstract void onLoad(org.bukkit.Chunk)",
+    "public default void accept(org.bukkit.Chunk)",
+    "public default void accept(java.lang.Object)"
+  ],
+  "method_count": 3
+}

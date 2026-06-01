@@ -1,0 +1,17 @@
+{
+  "class_name": "org.bukkit.enchantments.EnchantmentWrapper",
+  "methods": [
+    "protected org.bukkit.enchantments.EnchantmentWrapper()",
+    "public org.bukkit.enchantments.Enchantment getEnchantment()",
+    "public net.kyori.adventure.text.Component displayName(int)",
+    "public java.lang.String translationKey()",
+    "public boolean isTradeable()",
+    "public boolean isDiscoverable()",
+    "public int getMinModifiedCost(int)",
+    "public int getMaxModifiedCost(int)",
+    "public io.papermc.paper.enchantments.EnchantmentRarity getRarity()",
+    "public float getDamageIncrease(int, org.bukkit.entity.EntityCategory)",
+    "public java.util.Set<org.bukkit.inventory.EquipmentSlot> getActiveSlots()"
+  ],
+  "method_count": 11
+}

@@ -1,0 +1,16 @@
+{
+  "class_name": "org.bukkit.event.player.PlayerAttemptPickupItemEvent",
+  "methods": [
+    "public org.bukkit.event.player.PlayerAttemptPickupItemEvent(org.bukkit.entity.Player, org.bukkit.entity.Item)",
+    "public org.bukkit.event.player.PlayerAttemptPickupItemEvent(org.bukkit.entity.Player, org.bukkit.entity.Item, int)",
+    "public org.bukkit.entity.Item getItem()",
+    "public int getRemaining()",
+    "public void setFlyAtPlayer(boolean)",
+    "public boolean getFlyAtPlayer()",
+    "public boolean isCancelled()",
+    "public void setCancelled(boolean)",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 10
+}

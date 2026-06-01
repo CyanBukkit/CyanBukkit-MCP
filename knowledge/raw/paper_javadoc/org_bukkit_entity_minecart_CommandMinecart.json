@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.entity.minecart.CommandMinecart",
+  "methods": [
+    "public abstract java.lang.String getCommand()",
+    "public abstract void setCommand(java.lang.String)",
+    "public abstract void setName(java.lang.String)"
+  ],
+  "method_count": 3
+}

@@ -1,0 +1,16 @@
+{
+  "class_name": "org.bukkit.event.command.UnknownCommandEvent",
+  "methods": [
+    "public org.bukkit.event.command.UnknownCommandEvent(io.papermc.paper.command.brigadier.CommandSourceStack, java.lang.String, net.kyori.adventure.text.Component)",
+    "public org.bukkit.command.CommandSender getSender()",
+    "public io.papermc.paper.command.brigadier.CommandSourceStack getCommandSource()",
+    "public java.lang.String getCommandLine()",
+    "public java.lang.String getMessage()",
+    "public void setMessage(java.lang.String)",
+    "public net.kyori.adventure.text.Component message()",
+    "public void message(net.kyori.adventure.text.Component)",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 10
+}

@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.plugin.InvalidPluginException",
+  "methods": [
+    "public org.bukkit.plugin.InvalidPluginException(java.lang.Throwable)",
+    "public org.bukkit.plugin.InvalidPluginException()",
+    "public org.bukkit.plugin.InvalidPluginException(java.lang.String, java.lang.Throwable)",
+    "public org.bukkit.plugin.InvalidPluginException(java.lang.String)"
+  ],
+  "method_count": 4
+}

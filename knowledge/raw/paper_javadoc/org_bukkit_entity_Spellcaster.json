@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.entity.Spellcaster",
+  "methods": [
+    "public abstract org.bukkit.entity.Spellcaster$Spell getSpell()",
+    "public abstract void setSpell(org.bukkit.entity.Spellcaster$Spell)"
+  ],
+  "method_count": 2
+}

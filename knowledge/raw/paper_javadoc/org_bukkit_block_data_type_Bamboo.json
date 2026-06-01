@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.data.type.Bamboo",
+  "methods": [
+    "public abstract org.bukkit.block.data.type.Bamboo$Leaves getLeaves()",
+    "public abstract void setLeaves(org.bukkit.block.data.type.Bamboo$Leaves)"
+  ],
+  "method_count": 2
+}

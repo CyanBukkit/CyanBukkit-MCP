@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.inventory.ItemRarity",
+  "methods": [
+    "public static org.bukkit.inventory.ItemRarity[] values()",
+    "public static org.bukkit.inventory.ItemRarity valueOf(java.lang.String)",
+    "public net.kyori.adventure.text.format.TextColor color()"
+  ],
+  "method_count": 3
+}

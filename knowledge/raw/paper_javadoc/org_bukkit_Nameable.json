@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.Nameable",
+  "methods": [
+    "public abstract net.kyori.adventure.text.Component customName()",
+    "public abstract void customName(net.kyori.adventure.text.Component)",
+    "public abstract java.lang.String getCustomName()",
+    "public abstract void setCustomName(java.lang.String)"
+  ],
+  "method_count": 4
+}

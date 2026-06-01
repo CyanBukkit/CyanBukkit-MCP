@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.entity.PolarBear",
+  "methods": [
+    "public abstract boolean isStanding()",
+    "public abstract void setStanding(boolean)"
+  ],
+  "method_count": 2
+}

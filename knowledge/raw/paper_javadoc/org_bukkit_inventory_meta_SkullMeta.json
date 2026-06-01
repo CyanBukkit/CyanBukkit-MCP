@@ -1,0 +1,19 @@
+{
+  "class_name": "org.bukkit.inventory.meta.SkullMeta",
+  "methods": [
+    "public abstract java.lang.String getOwner()",
+    "public abstract boolean hasOwner()",
+    "public abstract boolean setOwner(java.lang.String)",
+    "public abstract void setPlayerProfile(com.destroystokyo.paper.profile.PlayerProfile)",
+    "public abstract com.destroystokyo.paper.profile.PlayerProfile getPlayerProfile()",
+    "public abstract org.bukkit.OfflinePlayer getOwningPlayer()",
+    "public abstract boolean setOwningPlayer(org.bukkit.OfflinePlayer)",
+    "public abstract org.bukkit.profile.PlayerProfile getOwnerProfile()",
+    "public abstract void setOwnerProfile(org.bukkit.profile.PlayerProfile)",
+    "public abstract void setNoteBlockSound(org.bukkit.NamespacedKey)",
+    "public abstract org.bukkit.NamespacedKey getNoteBlockSound()",
+    "public abstract org.bukkit.inventory.meta.SkullMeta clone()",
+    "public default org.bukkit.inventory.meta.ItemMeta clone()"
+  ],
+  "method_count": 13
+}

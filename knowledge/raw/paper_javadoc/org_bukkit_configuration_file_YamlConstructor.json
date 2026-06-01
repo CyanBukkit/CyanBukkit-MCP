@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.configuration.file.YamlConstructor",
+  "methods": [
+    "public org.bukkit.configuration.file.YamlConstructor()",
+    "public org.bukkit.configuration.file.YamlConstructor(org.yaml.snakeyaml.LoaderOptions)",
+    "public void flattenMapping(org.yaml.snakeyaml.nodes.MappingNode)",
+    "public java.lang.Object construct(org.yaml.snakeyaml.nodes.Node)"
+  ],
+  "method_count": 4
+}

@@ -1,0 +1,12 @@
+{
+  "class_name": "org.bukkit.configuration.Configuration",
+  "methods": [
+    "public abstract void addDefault(java.lang.String, java.lang.Object)",
+    "public abstract void addDefaults(java.util.Map<java.lang.String, java.lang.Object>)",
+    "public abstract void addDefaults(org.bukkit.configuration.Configuration)",
+    "public abstract void setDefaults(org.bukkit.configuration.Configuration)",
+    "public abstract org.bukkit.configuration.Configuration getDefaults()",
+    "public abstract org.bukkit.configuration.ConfigurationOptions options()"
+  ],
+  "method_count": 6
+}

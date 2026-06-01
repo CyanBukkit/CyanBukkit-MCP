@@ -1,0 +1,19 @@
+{
+  "class_name": "org.bukkit.entity.Mannequin",
+  "methods": [
+    "public static io.papermc.paper.datacomponent.item.ResolvableProfile defaultProfile()",
+    "public static net.kyori.adventure.text.Component defaultDescription()",
+    "public abstract io.papermc.paper.datacomponent.item.ResolvableProfile getProfile()",
+    "public abstract void setProfile(io.papermc.paper.datacomponent.item.ResolvableProfile)",
+    "public abstract com.destroystokyo.paper.SkinParts$Mutable getSkinParts()",
+    "public abstract void setSkinParts(com.destroystokyo.paper.SkinParts)",
+    "public abstract boolean isImmovable()",
+    "public abstract void setImmovable(boolean)",
+    "public abstract net.kyori.adventure.text.Component getDescription()",
+    "public abstract void setDescription(net.kyori.adventure.text.Component)",
+    "public abstract org.bukkit.inventory.MainHand getMainHand()",
+    "public abstract void setMainHand(org.bukkit.inventory.MainHand)",
+    "public abstract org.bukkit.inventory.EntityEquipment getEquipment()"
+  ],
+  "method_count": 13
+}

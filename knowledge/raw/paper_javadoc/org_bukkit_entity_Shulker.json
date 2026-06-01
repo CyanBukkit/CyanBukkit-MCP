@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.entity.Shulker",
+  "methods": [
+    "public abstract float getPeek()",
+    "public abstract void setPeek(float)",
+    "public abstract org.bukkit.block.BlockFace getAttachedFace()",
+    "public abstract void setAttachedFace(org.bukkit.block.BlockFace)"
+  ],
+  "method_count": 4
+}

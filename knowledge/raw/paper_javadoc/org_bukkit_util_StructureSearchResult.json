@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.util.StructureSearchResult",
+  "methods": [
+    "public abstract org.bukkit.generator.structure.Structure getStructure()",
+    "public abstract org.bukkit.Location getLocation()"
+  ],
+  "method_count": 2
+}

@@ -1,0 +1,13 @@
+{
+  "class_name": "org.bukkit.entity.Steerable",
+  "methods": [
+    "public abstract boolean hasSaddle()",
+    "public abstract void setSaddle(boolean)",
+    "public abstract int getBoostTicks()",
+    "public abstract void setBoostTicks(int)",
+    "public abstract int getCurrentBoostTicks()",
+    "public abstract void setCurrentBoostTicks(int)",
+    "public abstract org.bukkit.Material getSteerMaterial()"
+  ],
+  "method_count": 7
+}

@@ -1,0 +1,15 @@
+{
+  "jar": "C:\\Users\\SmallXY\\.m2\\repository\\com\\andrei1058\\spigot\\sidebar\\sidebar-v1_20_R3\\24.2\\sidebar-v1_20_R3-24.2.jar",
+  "artifact": "sidebar-v1_20_R3/24.2/sidebar-v1_20_R3-24.2",
+  "class_count": 7,
+  "all_classes": [
+    "com.andrei1058.spigot.sidebar.v1_20_R3.PlayerListImpl$1",
+    "com.andrei1058.spigot.sidebar.v1_20_R3.SidebarImpl$NarniaScoreLine$TeamLine",
+    "com.andrei1058.spigot.sidebar.v1_20_R3.SidebarImpl$NarniaSidebarObjective",
+    "com.andrei1058.spigot.sidebar.v1_20_R3.SidebarImpl$NarniaScoreLine",
+    "com.andrei1058.spigot.sidebar.v1_20_R3.ProviderImpl",
+    "com.andrei1058.spigot.sidebar.v1_20_R3.SidebarImpl",
+    "com.andrei1058.spigot.sidebar.v1_20_R3.PlayerListImpl"
+  ],
+  "truncated": false
+}

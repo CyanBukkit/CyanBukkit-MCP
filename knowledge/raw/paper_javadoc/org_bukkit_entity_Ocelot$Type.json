@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.entity.Ocelot$Type",
+  "methods": [
+    "public static org.bukkit.entity.Ocelot$Type[] values()",
+    "public static org.bukkit.entity.Ocelot$Type valueOf(java.lang.String)",
+    "public int getId()",
+    "public static org.bukkit.entity.Ocelot$Type getType(int)"
+  ],
+  "method_count": 4
+}

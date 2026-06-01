@@ -1,0 +1,16 @@
+{
+  "class_name": "org.bukkit.scheduler.BukkitRunnable",
+  "methods": [
+    "public org.bukkit.scheduler.BukkitRunnable()",
+    "public synchronized boolean isCancelled()",
+    "public synchronized void cancel()",
+    "public synchronized org.bukkit.scheduler.BukkitTask runTask(org.bukkit.plugin.Plugin)",
+    "public synchronized org.bukkit.scheduler.BukkitTask runTaskAsynchronously(org.bukkit.plugin.Plugin)",
+    "public synchronized org.bukkit.scheduler.BukkitTask runTaskLater(org.bukkit.plugin.Plugin, long)",
+    "public synchronized org.bukkit.scheduler.BukkitTask runTaskLaterAsynchronously(org.bukkit.plugin.Plugin, long)",
+    "public synchronized org.bukkit.scheduler.BukkitTask runTaskTimer(org.bukkit.plugin.Plugin, long, long)",
+    "public synchronized org.bukkit.scheduler.BukkitTask runTaskTimerAsynchronously(org.bukkit.plugin.Plugin, long, long)",
+    "public synchronized int getTaskId()"
+  ],
+  "method_count": 10
+}

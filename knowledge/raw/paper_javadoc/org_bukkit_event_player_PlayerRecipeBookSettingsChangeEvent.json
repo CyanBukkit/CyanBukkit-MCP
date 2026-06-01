@@ -1,0 +1,12 @@
+{
+  "class_name": "org.bukkit.event.player.PlayerRecipeBookSettingsChangeEvent",
+  "methods": [
+    "public org.bukkit.event.player.PlayerRecipeBookSettingsChangeEvent(org.bukkit.entity.Player, org.bukkit.event.player.PlayerRecipeBookSettingsChangeEvent$RecipeBookType, boolean, boolean)",
+    "public org.bukkit.event.player.PlayerRecipeBookSettingsChangeEvent$RecipeBookType getRecipeBookType()",
+    "public boolean isOpen()",
+    "public boolean isFiltering()",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 6
+}

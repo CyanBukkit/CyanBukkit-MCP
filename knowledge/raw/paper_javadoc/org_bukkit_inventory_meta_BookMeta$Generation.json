@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.inventory.meta.BookMeta$Generation",
+  "methods": [
+    "public static org.bukkit.inventory.meta.BookMeta$Generation[] values()",
+    "public static org.bukkit.inventory.meta.BookMeta$Generation valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

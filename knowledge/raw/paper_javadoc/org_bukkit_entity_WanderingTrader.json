@@ -1,0 +1,14 @@
+{
+  "class_name": "org.bukkit.entity.WanderingTrader",
+  "methods": [
+    "public abstract int getDespawnDelay()",
+    "public abstract void setDespawnDelay(int)",
+    "public abstract void setCanDrinkPotion(boolean)",
+    "public abstract boolean canDrinkPotion()",
+    "public abstract void setCanDrinkMilk(boolean)",
+    "public abstract boolean canDrinkMilk()",
+    "public abstract org.bukkit.Location getWanderingTowards()",
+    "public abstract void setWanderingTowards(org.bukkit.Location)"
+  ],
+  "method_count": 8
+}

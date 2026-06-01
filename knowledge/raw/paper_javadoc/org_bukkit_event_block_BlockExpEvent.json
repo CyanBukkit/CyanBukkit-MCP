@@ -1,0 +1,11 @@
+{
+  "class_name": "org.bukkit.event.block.BlockExpEvent",
+  "methods": [
+    "public org.bukkit.event.block.BlockExpEvent(org.bukkit.block.Block, int)",
+    "public int getExpToDrop()",
+    "public void setExpToDrop(int)",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 5
+}

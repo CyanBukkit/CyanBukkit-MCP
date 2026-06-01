@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.data.type.Tripwire",
+  "methods": [
+    "public abstract boolean isDisarmed()",
+    "public abstract void setDisarmed(boolean)"
+  ],
+  "method_count": 2
+}

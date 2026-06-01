@@ -1,0 +1,12 @@
+{
+  "class_name": "org.bukkit.block.CommandBlock",
+  "methods": [
+    "public abstract java.lang.String getCommand()",
+    "public abstract void setCommand(java.lang.String)",
+    "public abstract java.lang.String getName()",
+    "public abstract void setName(java.lang.String)",
+    "public abstract net.kyori.adventure.text.Component name()",
+    "public abstract void name(net.kyori.adventure.text.Component)"
+  ],
+  "method_count": 6
+}

@@ -1,0 +1,17 @@
+{
+  "class_name": "org.bukkit.MusicInstrument",
+  "methods": [
+    "public org.bukkit.MusicInstrument()",
+    "public static org.bukkit.MusicInstrument create(java.util.function.Consumer<io.papermc.paper.registry.RegistryBuilderFactory<org.bukkit.MusicInstrument, ? extends io.papermc.paper.registry.data.InstrumentRegistryEntry$Builder>>)",
+    "public static org.bukkit.MusicInstrument getByKey(org.bukkit.NamespacedKey)",
+    "public static java.util.Collection<org.bukkit.MusicInstrument> values()",
+    "public abstract float getDuration()",
+    "public abstract float getRange()",
+    "public abstract net.kyori.adventure.text.Component description()",
+    "public abstract org.bukkit.Sound getSound()",
+    "public abstract org.bukkit.NamespacedKey getKey()",
+    "public net.kyori.adventure.key.Key key()",
+    "public abstract java.lang.String translationKey()"
+  ],
+  "method_count": 11
+}

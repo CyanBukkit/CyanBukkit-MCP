@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.entity.SpectralArrow",
+  "methods": [
+    "public abstract int getGlowingTicks()",
+    "public abstract void setGlowingTicks(int)"
+  ],
+  "method_count": 2
+}

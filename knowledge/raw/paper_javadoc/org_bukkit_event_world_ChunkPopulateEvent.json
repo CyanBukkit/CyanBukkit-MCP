@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.event.world.ChunkPopulateEvent",
+  "methods": [
+    "public org.bukkit.event.world.ChunkPopulateEvent(org.bukkit.Chunk)",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 3
+}

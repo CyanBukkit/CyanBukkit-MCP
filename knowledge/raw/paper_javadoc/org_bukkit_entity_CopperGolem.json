@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.entity.CopperGolem",
+  "methods": [
+    "public abstract io.papermc.paper.world.WeatheringCopperState getWeatheringState()",
+    "public abstract void setWeatheringState(io.papermc.paper.world.WeatheringCopperState)",
+    "public abstract org.bukkit.entity.CopperGolem$Oxidizing getOxidizing()",
+    "public abstract void setOxidizing(org.bukkit.entity.CopperGolem$Oxidizing)"
+  ],
+  "method_count": 4
+}

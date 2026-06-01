@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.event.world.ChunkLoadEvent",
+  "methods": [
+    "public org.bukkit.event.world.ChunkLoadEvent(org.bukkit.Chunk, boolean)",
+    "public boolean isNewChunk()",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 4
+}

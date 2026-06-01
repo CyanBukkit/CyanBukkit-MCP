@@ -1,0 +1,11 @@
+{
+  "class_name": "org.bukkit.block.data.type.Scaffolding",
+  "methods": [
+    "public abstract boolean isBottom()",
+    "public abstract void setBottom(boolean)",
+    "public abstract int getDistance()",
+    "public abstract void setDistance(int)",
+    "public abstract int getMaximumDistance()"
+  ],
+  "method_count": 5
+}

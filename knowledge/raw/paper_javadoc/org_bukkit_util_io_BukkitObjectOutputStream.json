@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.util.io.BukkitObjectOutputStream",
+  "methods": [
+    "protected org.bukkit.util.io.BukkitObjectOutputStream()",
+    "public org.bukkit.util.io.BukkitObjectOutputStream(java.io.OutputStream)",
+    "protected java.lang.Object replaceObject(java.lang.Object)"
+  ],
+  "method_count": 3
+}

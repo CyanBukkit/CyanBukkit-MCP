@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.event.inventory.HopperInventorySearchEvent$ContainerType",
+  "methods": [
+    "public static org.bukkit.event.inventory.HopperInventorySearchEvent$ContainerType[] values()",
+    "public static org.bukkit.event.inventory.HopperInventorySearchEvent$ContainerType valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

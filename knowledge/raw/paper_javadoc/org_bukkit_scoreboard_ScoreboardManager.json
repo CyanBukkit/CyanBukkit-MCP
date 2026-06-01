@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.scoreboard.ScoreboardManager",
+  "methods": [
+    "public abstract org.bukkit.scoreboard.Scoreboard getMainScoreboard()",
+    "public abstract org.bukkit.scoreboard.Scoreboard getNewScoreboard()"
+  ],
+  "method_count": 2
+}

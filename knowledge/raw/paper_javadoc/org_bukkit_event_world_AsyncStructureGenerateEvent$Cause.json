@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.event.world.AsyncStructureGenerateEvent$Cause",
+  "methods": [
+    "public static org.bukkit.event.world.AsyncStructureGenerateEvent$Cause[] values()",
+    "public static org.bukkit.event.world.AsyncStructureGenerateEvent$Cause valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.event.server.PluginEvent",
+  "methods": [
+    "protected org.bukkit.event.server.PluginEvent(org.bukkit.plugin.Plugin)",
+    "public org.bukkit.plugin.Plugin getPlugin()"
+  ],
+  "method_count": 2
+}

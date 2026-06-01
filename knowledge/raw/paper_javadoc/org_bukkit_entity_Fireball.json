@@ -1,0 +1,12 @@
+{
+  "class_name": "org.bukkit.entity.Fireball",
+  "methods": [
+    "public abstract void setDirection(org.bukkit.util.Vector)",
+    "public abstract org.bukkit.util.Vector getDirection()",
+    "public abstract void setAcceleration(org.bukkit.util.Vector)",
+    "public abstract org.bukkit.util.Vector getAcceleration()",
+    "public abstract void setPower(org.bukkit.util.Vector)",
+    "public abstract org.bukkit.util.Vector getPower()"
+  ],
+  "method_count": 6
+}

@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.event.player.PlayerAnimationType",
+  "methods": [
+    "public static org.bukkit.event.player.PlayerAnimationType[] values()",
+    "public static org.bukkit.event.player.PlayerAnimationType valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

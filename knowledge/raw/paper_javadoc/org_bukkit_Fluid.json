@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.Fluid",
+  "methods": [
+    "public static org.bukkit.Fluid valueOf(java.lang.String)",
+    "public static org.bukkit.Fluid[] values()"
+  ],
+  "method_count": 2
+}

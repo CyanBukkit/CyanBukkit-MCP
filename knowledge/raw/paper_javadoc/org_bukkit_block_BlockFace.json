@@ -1,0 +1,14 @@
+{
+  "class_name": "org.bukkit.block.BlockFace",
+  "methods": [
+    "public static org.bukkit.block.BlockFace[] values()",
+    "public static org.bukkit.block.BlockFace valueOf(java.lang.String)",
+    "public int getModX()",
+    "public int getModY()",
+    "public int getModZ()",
+    "public org.bukkit.util.Vector getDirection()",
+    "public boolean isCartesian()",
+    "public org.bukkit.block.BlockFace getOppositeFace()"
+  ],
+  "method_count": 8
+}

@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.conversations.FixedSetPrompt",
+  "methods": [
+    "public org.bukkit.conversations.FixedSetPrompt(java.lang.String...)",
+    "protected boolean isInputValid(org.bukkit.conversations.ConversationContext, java.lang.String)",
+    "protected java.lang.String formatFixedSet()"
+  ],
+  "method_count": 3
+}

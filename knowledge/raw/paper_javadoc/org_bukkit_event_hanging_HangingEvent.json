@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.event.hanging.HangingEvent",
+  "methods": [
+    "protected org.bukkit.event.hanging.HangingEvent(org.bukkit.entity.Hanging)",
+    "public org.bukkit.entity.Hanging getEntity()"
+  ],
+  "method_count": 2
+}

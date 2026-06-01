@@ -1,0 +1,19 @@
+{
+  "class_name": "org.bukkit.attribute.AttributeInstance",
+  "methods": [
+    "public abstract org.bukkit.attribute.Attribute getAttribute()",
+    "public abstract double getBaseValue()",
+    "public abstract void setBaseValue(double)",
+    "public abstract java.util.Collection<org.bukkit.attribute.AttributeModifier> getModifiers()",
+    "public abstract org.bukkit.attribute.AttributeModifier getModifier(net.kyori.adventure.key.Key)",
+    "public abstract void removeModifier(net.kyori.adventure.key.Key)",
+    "public abstract org.bukkit.attribute.AttributeModifier getModifier(java.util.UUID)",
+    "public abstract void removeModifier(java.util.UUID)",
+    "public abstract void addModifier(org.bukkit.attribute.AttributeModifier)",
+    "public abstract void addTransientModifier(org.bukkit.attribute.AttributeModifier)",
+    "public abstract void removeModifier(org.bukkit.attribute.AttributeModifier)",
+    "public abstract double getValue()",
+    "public abstract double getDefaultValue()"
+  ],
+  "method_count": 13
+}

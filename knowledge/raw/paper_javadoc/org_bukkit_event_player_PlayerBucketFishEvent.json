@@ -1,0 +1,11 @@
+{
+  "class_name": "org.bukkit.event.player.PlayerBucketFishEvent",
+  "methods": [
+    "public org.bukkit.event.player.PlayerBucketFishEvent(org.bukkit.entity.Player, org.bukkit.entity.Fish, org.bukkit.inventory.ItemStack, org.bukkit.inventory.ItemStack, org.bukkit.inventory.EquipmentSlot)",
+    "public org.bukkit.entity.Fish getEntity()",
+    "public org.bukkit.inventory.ItemStack getWaterBucket()",
+    "public org.bukkit.inventory.ItemStack getFishBucket()",
+    "public org.bukkit.entity.Entity getEntity()"
+  ],
+  "method_count": 5
+}

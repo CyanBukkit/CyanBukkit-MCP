@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.entity.Sittable",
+  "methods": [
+    "public abstract boolean isSitting()",
+    "public abstract void setSitting(boolean)"
+  ],
+  "method_count": 2
+}

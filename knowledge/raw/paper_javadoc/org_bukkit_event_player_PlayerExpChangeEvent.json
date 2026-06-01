@@ -1,0 +1,13 @@
+{
+  "class_name": "org.bukkit.event.player.PlayerExpChangeEvent",
+  "methods": [
+    "public org.bukkit.event.player.PlayerExpChangeEvent(org.bukkit.entity.Player, int)",
+    "public org.bukkit.event.player.PlayerExpChangeEvent(org.bukkit.entity.Player, org.bukkit.entity.Entity, int)",
+    "public org.bukkit.entity.Entity getSource()",
+    "public int getAmount()",
+    "public void setAmount(int)",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 7
+}

@@ -1,0 +1,29 @@
+{
+  "class_name": "org.bukkit.inventory.ItemFactory",
+  "methods": [
+    "public abstract org.bukkit.inventory.meta.ItemMeta getItemMeta(org.bukkit.Material)",
+    "public abstract boolean isApplicable(org.bukkit.inventory.meta.ItemMeta, org.bukkit.inventory.ItemStack)",
+    "public abstract boolean isApplicable(org.bukkit.inventory.meta.ItemMeta, org.bukkit.Material)",
+    "public abstract boolean equals(org.bukkit.inventory.meta.ItemMeta, org.bukkit.inventory.meta.ItemMeta)",
+    "public abstract org.bukkit.inventory.meta.ItemMeta asMetaFor(org.bukkit.inventory.meta.ItemMeta, org.bukkit.inventory.ItemStack)",
+    "public abstract org.bukkit.inventory.meta.ItemMeta asMetaFor(org.bukkit.inventory.meta.ItemMeta, org.bukkit.Material)",
+    "public abstract org.bukkit.Color getDefaultLeatherColor()",
+    "public abstract org.bukkit.inventory.ItemStack createItemStack(java.lang.String)",
+    "public abstract org.bukkit.Material getSpawnEgg(org.bukkit.entity.EntityType)",
+    "public abstract org.bukkit.inventory.ItemStack enchantItem(org.bukkit.entity.Entity, org.bukkit.inventory.ItemStack, int, boolean)",
+    "public abstract org.bukkit.inventory.ItemStack enchantItem(org.bukkit.World, org.bukkit.inventory.ItemStack, int, boolean)",
+    "public abstract org.bukkit.inventory.ItemStack enchantItem(org.bukkit.inventory.ItemStack, int, boolean)",
+    "public abstract net.kyori.adventure.text.event.HoverEvent<net.kyori.adventure.text.event.HoverEvent$ShowItem> asHoverEvent(org.bukkit.inventory.ItemStack, java.util.function.UnaryOperator<net.kyori.adventure.text.event.HoverEvent$ShowItem>)",
+    "public abstract net.kyori.adventure.text.Component displayName(org.bukkit.inventory.ItemStack)",
+    "public abstract java.lang.String getI18NDisplayName(org.bukkit.inventory.ItemStack)",
+    "public abstract org.bukkit.inventory.ItemStack ensureServerConversions(org.bukkit.inventory.ItemStack)",
+    "public abstract net.md_5.bungee.api.chat.hover.content.Content hoverContentOf(org.bukkit.inventory.ItemStack)",
+    "public abstract net.md_5.bungee.api.chat.hover.content.Content hoverContentOf(org.bukkit.entity.Entity)",
+    "public abstract net.md_5.bungee.api.chat.hover.content.Content hoverContentOf(org.bukkit.entity.Entity, java.lang.String)",
+    "public abstract net.md_5.bungee.api.chat.hover.content.Content hoverContentOf(org.bukkit.entity.Entity, net.md_5.bungee.api.chat.BaseComponent)",
+    "public abstract net.md_5.bungee.api.chat.hover.content.Content hoverContentOf(org.bukkit.entity.Entity, net.md_5.bungee.api.chat.BaseComponent[])",
+    "public abstract org.bukkit.inventory.ItemStack enchantWithLevels(org.bukkit.inventory.ItemStack, int, boolean, java.util.Random)",
+    "public abstract org.bukkit.inventory.ItemStack enchantWithLevels(org.bukkit.inventory.ItemStack, int, io.papermc.paper.registry.set.RegistryKeySet<org.bukkit.enchantments.Enchantment>, java.util.Random)"
+  ],
+  "method_count": 23
+}

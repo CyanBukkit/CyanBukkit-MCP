@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.block.data.Orientable",
+  "methods": [
+    "public abstract org.bukkit.Axis getAxis()",
+    "public abstract void setAxis(org.bukkit.Axis)",
+    "public abstract java.util.Set<org.bukkit.Axis> getAxes()"
+  ],
+  "method_count": 3
+}

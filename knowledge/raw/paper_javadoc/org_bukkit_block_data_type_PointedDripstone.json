@@ -1,0 +1,11 @@
+{
+  "class_name": "org.bukkit.block.data.type.PointedDripstone",
+  "methods": [
+    "public abstract org.bukkit.block.BlockFace getVerticalDirection()",
+    "public abstract void setVerticalDirection(org.bukkit.block.BlockFace)",
+    "public abstract java.util.Set<org.bukkit.block.BlockFace> getVerticalDirections()",
+    "public abstract org.bukkit.block.data.type.PointedDripstone$Thickness getThickness()",
+    "public abstract void setThickness(org.bukkit.block.data.type.PointedDripstone$Thickness)"
+  ],
+  "method_count": 5
+}

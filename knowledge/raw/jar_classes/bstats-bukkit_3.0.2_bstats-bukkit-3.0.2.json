@@ -1,0 +1,11 @@
+[
+  {
+    "jar": "C:\\Users\\SmallXY\\.m2\\repository\\org\\bstats\\bstats-bukkit\\3.0.2\\bstats-bukkit-3.0.2.jar",
+    "artifact": "bstats-bukkit/3.0.2/bstats-bukkit-3.0.2",
+    "class_count": 1,
+    "classes_sample": [
+      "org.bstats.bukkit.Metrics"
+    ],
+    "truncated": false
+  }
+]

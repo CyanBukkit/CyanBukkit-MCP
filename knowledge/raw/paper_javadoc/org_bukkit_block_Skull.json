@@ -1,0 +1,25 @@
+{
+  "class_name": "org.bukkit.block.Skull",
+  "methods": [
+    "public abstract io.papermc.paper.datacomponent.item.ResolvableProfile getProfile()",
+    "public abstract void setProfile(io.papermc.paper.datacomponent.item.ResolvableProfile)",
+    "public abstract boolean hasOwner()",
+    "public abstract java.lang.String getOwner()",
+    "public abstract boolean setOwner(java.lang.String)",
+    "public abstract org.bukkit.OfflinePlayer getOwningPlayer()",
+    "public abstract void setOwningPlayer(org.bukkit.OfflinePlayer)",
+    "public abstract void setPlayerProfile(com.destroystokyo.paper.profile.PlayerProfile)",
+    "public abstract com.destroystokyo.paper.profile.PlayerProfile getPlayerProfile()",
+    "public abstract org.bukkit.profile.PlayerProfile getOwnerProfile()",
+    "public abstract void setOwnerProfile(org.bukkit.profile.PlayerProfile)",
+    "public abstract org.bukkit.NamespacedKey getNoteBlockSound()",
+    "public abstract void setNoteBlockSound(org.bukkit.NamespacedKey)",
+    "public abstract org.bukkit.block.BlockFace getRotation()",
+    "public abstract void setRotation(org.bukkit.block.BlockFace)",
+    "public abstract org.bukkit.SkullType getSkullType()",
+    "public abstract void setSkullType(org.bukkit.SkullType)",
+    "public abstract net.kyori.adventure.text.Component customName()",
+    "public abstract void customName(net.kyori.adventure.text.Component)"
+  ],
+  "method_count": 19
+}

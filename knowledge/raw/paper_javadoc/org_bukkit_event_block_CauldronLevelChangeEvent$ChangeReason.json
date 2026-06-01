@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.event.block.CauldronLevelChangeEvent$ChangeReason",
+  "methods": [
+    "public static org.bukkit.event.block.CauldronLevelChangeEvent$ChangeReason[] values()",
+    "public static org.bukkit.event.block.CauldronLevelChangeEvent$ChangeReason valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

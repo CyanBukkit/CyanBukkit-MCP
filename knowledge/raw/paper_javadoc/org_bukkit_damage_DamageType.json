@@ -1,0 +1,11 @@
+{
+  "class_name": "org.bukkit.damage.DamageType",
+  "methods": [
+    "public abstract java.lang.String getTranslationKey()",
+    "public abstract org.bukkit.damage.DamageScaling getDamageScaling()",
+    "public abstract org.bukkit.damage.DamageEffect getDamageEffect()",
+    "public abstract org.bukkit.damage.DeathMessageType getDeathMessageType()",
+    "public abstract float getExhaustion()"
+  ],
+  "method_count": 5
+}

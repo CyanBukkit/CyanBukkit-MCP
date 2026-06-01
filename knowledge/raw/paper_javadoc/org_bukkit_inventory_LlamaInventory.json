@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.inventory.LlamaInventory",
+  "methods": [
+    "public abstract org.bukkit.inventory.ItemStack getDecor()",
+    "public abstract void setDecor(org.bukkit.inventory.ItemStack)"
+  ],
+  "method_count": 2
+}

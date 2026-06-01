@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.inventory.meta.trim.TrimMaterial",
+  "methods": [
+    "public abstract net.kyori.adventure.text.Component description()",
+    "public abstract java.lang.String getTranslationKey()",
+    "public abstract org.bukkit.NamespacedKey getKey()",
+    "public default net.kyori.adventure.key.Key key()"
+  ],
+  "method_count": 4
+}

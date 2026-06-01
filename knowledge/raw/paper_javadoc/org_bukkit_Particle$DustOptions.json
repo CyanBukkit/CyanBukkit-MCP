@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.Particle$DustOptions",
+  "methods": [
+    "public org.bukkit.Particle$DustOptions(org.bukkit.Color, float)",
+    "public org.bukkit.Color getColor()",
+    "public float getSize()"
+  ],
+  "method_count": 3
+}

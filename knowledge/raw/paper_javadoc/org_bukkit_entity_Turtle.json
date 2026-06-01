@@ -1,0 +1,13 @@
+{
+  "class_name": "org.bukkit.entity.Turtle",
+  "methods": [
+    "public abstract boolean hasEgg()",
+    "public abstract boolean isLayingEgg()",
+    "public abstract org.bukkit.Location getHome()",
+    "public abstract void setHome(org.bukkit.Location)",
+    "public abstract boolean isGoingHome()",
+    "public default boolean isDigging()",
+    "public abstract void setHasEgg(boolean)"
+  ],
+  "method_count": 7
+}

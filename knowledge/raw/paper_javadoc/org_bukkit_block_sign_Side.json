@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.sign.Side",
+  "methods": [
+    "public static org.bukkit.block.sign.Side[] values()",
+    "public static org.bukkit.block.sign.Side valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

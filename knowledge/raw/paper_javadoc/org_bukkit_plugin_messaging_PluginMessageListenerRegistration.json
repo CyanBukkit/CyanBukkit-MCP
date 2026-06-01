@@ -1,0 +1,13 @@
+{
+  "class_name": "org.bukkit.plugin.messaging.PluginMessageListenerRegistration",
+  "methods": [
+    "public org.bukkit.plugin.messaging.PluginMessageListenerRegistration(org.bukkit.plugin.messaging.Messenger, org.bukkit.plugin.Plugin, java.lang.String, org.bukkit.plugin.messaging.PluginMessageListener)",
+    "public java.lang.String getChannel()",
+    "public org.bukkit.plugin.messaging.PluginMessageListener getListener()",
+    "public org.bukkit.plugin.Plugin getPlugin()",
+    "public boolean isValid()",
+    "public boolean equals(java.lang.Object)",
+    "public int hashCode()"
+  ],
+  "method_count": 7
+}

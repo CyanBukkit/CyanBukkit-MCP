@@ -1,0 +1,21 @@
+{
+  "class_name": "org.bukkit.entity.MushroomCow",
+  "methods": [
+    "public abstract boolean hasEffectsForNextStew()",
+    "public abstract java.util.List<org.bukkit.potion.PotionEffect> getEffectsForNextStew()",
+    "public abstract boolean addEffectToNextStew(org.bukkit.potion.PotionEffect, boolean)",
+    "public abstract boolean addEffectToNextStew(io.papermc.paper.potion.SuspiciousEffectEntry, boolean)",
+    "public abstract boolean removeEffectFromNextStew(org.bukkit.potion.PotionEffectType)",
+    "public abstract boolean hasEffectForNextStew(org.bukkit.potion.PotionEffectType)",
+    "public abstract void clearEffectsForNextStew()",
+    "public abstract org.bukkit.entity.MushroomCow$Variant getVariant()",
+    "public abstract void setVariant(org.bukkit.entity.MushroomCow$Variant)",
+    "public default int getStewEffectDuration()",
+    "public default void setStewEffectDuration(int)",
+    "public default org.bukkit.potion.PotionEffectType getStewEffectType()",
+    "public default void setStewEffect(org.bukkit.potion.PotionEffectType)",
+    "public abstract java.util.List<io.papermc.paper.potion.SuspiciousEffectEntry> getStewEffects()",
+    "public abstract void setStewEffects(java.util.List<io.papermc.paper.potion.SuspiciousEffectEntry>)"
+  ],
+  "method_count": 15
+}

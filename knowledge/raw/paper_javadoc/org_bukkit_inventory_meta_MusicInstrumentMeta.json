@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.inventory.meta.MusicInstrumentMeta",
+  "methods": [
+    "public abstract void setInstrument(org.bukkit.MusicInstrument)",
+    "public abstract org.bukkit.MusicInstrument getInstrument()",
+    "public abstract org.bukkit.inventory.meta.MusicInstrumentMeta clone()",
+    "public default org.bukkit.inventory.meta.ItemMeta clone()"
+  ],
+  "method_count": 4
+}

@@ -1,0 +1,20 @@
+{
+  "class_name": "org.bukkit.material.TrapDoor",
+  "methods": [
+    "public org.bukkit.material.TrapDoor()",
+    "public org.bukkit.material.TrapDoor(org.bukkit.Material)",
+    "public org.bukkit.material.TrapDoor(org.bukkit.Material, byte)",
+    "public boolean isOpen()",
+    "public void setOpen(boolean)",
+    "public boolean isInverted()",
+    "public void setInverted(boolean)",
+    "public org.bukkit.block.BlockFace getAttachedFace()",
+    "public void setFacingDirection(org.bukkit.block.BlockFace)",
+    "public java.lang.String toString()",
+    "public org.bukkit.material.TrapDoor clone()",
+    "public org.bukkit.material.SimpleAttachableMaterialData clone()",
+    "public org.bukkit.material.MaterialData clone()",
+    "public java.lang.Object clone()"
+  ],
+  "method_count": 14
+}

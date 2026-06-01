@@ -1,0 +1,24 @@
+{
+  "class_name": "org.bukkit.entity.Item",
+  "methods": [
+    "public abstract org.bukkit.inventory.ItemStack getItemStack()",
+    "public abstract void setItemStack(org.bukkit.inventory.ItemStack)",
+    "public abstract int getPickupDelay()",
+    "public abstract void setPickupDelay(int)",
+    "public abstract void setUnlimitedLifetime(boolean)",
+    "public abstract boolean isUnlimitedLifetime()",
+    "public abstract void setOwner(java.util.UUID)",
+    "public abstract java.util.UUID getOwner()",
+    "public abstract void setThrower(java.util.UUID)",
+    "public abstract java.util.UUID getThrower()",
+    "public abstract boolean canMobPickup()",
+    "public abstract void setCanMobPickup(boolean)",
+    "public abstract boolean canPlayerPickup()",
+    "public abstract void setCanPlayerPickup(boolean)",
+    "public abstract boolean willAge()",
+    "public abstract void setWillAge(boolean)",
+    "public abstract int getHealth()",
+    "public abstract void setHealth(int)"
+  ],
+  "method_count": 18
+}

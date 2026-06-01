@@ -1,0 +1,20 @@
+{
+  "jar": "D:\\Program Files\\gradle\\repo\\caches\\paperweight-userdev\\v2\\work\\extractFromBundler_76ce26545e6ad0e31753656bfd91609f0ca604b3fa7d8584126382f5e06b0629\\minecraftLibraries\\org\\apache\\logging\\log4j\\log4j-slf4j2-impl\\2.22.1\\log4j-slf4j2-impl-2.22.1.jar",
+  "artifact": "log4j-slf4j2-impl/2.22.1/log4j-slf4j2-impl-2.22.1",
+  "class_count": 12,
+  "all_classes": [
+    "org.apache.logging.slf4j.Log4jEventBuilder",
+    "org.apache.logging.slf4j.Log4jLogger",
+    "org.apache.logging.slf4j.Log4jLoggerFactory",
+    "org.apache.logging.slf4j.Log4jMDCAdapter$1",
+    "org.apache.logging.slf4j.Log4jMDCAdapter$ThreadLocalMapOfStacks",
+    "org.apache.logging.slf4j.Log4jMDCAdapter",
+    "org.apache.logging.slf4j.Log4jMarker",
+    "org.apache.logging.slf4j.Log4jMarkerFactory",
+    "org.apache.logging.slf4j.SLF4JLoggingException",
+    "org.apache.logging.slf4j.SLF4JServiceProvider",
+    "org.apache.logging.slf4j.package-info",
+    "module-info"
+  ],
+  "truncated": false
+}

@@ -1,0 +1,12 @@
+{
+  "class_name": "org.bukkit.entity.minecart.PoweredMinecart",
+  "methods": [
+    "public abstract int getFuel()",
+    "public abstract void setFuel(int)",
+    "public abstract double getPushX()",
+    "public abstract double getPushZ()",
+    "public abstract void setPushX(double)",
+    "public abstract void setPushZ(double)"
+  ],
+  "method_count": 6
+}

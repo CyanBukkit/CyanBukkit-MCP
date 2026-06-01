@@ -1,0 +1,11 @@
+{
+  "class_name": "org.bukkit.entity.CopperGolem$Oxidizing$AtTimeImpl",
+  "methods": [
+    "public org.bukkit.entity.CopperGolem$Oxidizing$AtTimeImpl(long)",
+    "public final java.lang.String toString()",
+    "public final int hashCode()",
+    "public final boolean equals(java.lang.Object)",
+    "public long time()"
+  ],
+  "method_count": 5
+}

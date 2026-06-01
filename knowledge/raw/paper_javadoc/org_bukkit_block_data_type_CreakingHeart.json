@@ -1,0 +1,12 @@
+{
+  "class_name": "org.bukkit.block.data.type.CreakingHeart",
+  "methods": [
+    "public default boolean isActive()",
+    "public default void setActive(boolean)",
+    "public abstract org.bukkit.block.data.type.CreakingHeart$State getCreakingHeartState()",
+    "public abstract void setCreakingHeartState(org.bukkit.block.data.type.CreakingHeart$State)",
+    "public abstract boolean isNatural()",
+    "public abstract void setNatural(boolean)"
+  ],
+  "method_count": 6
+}

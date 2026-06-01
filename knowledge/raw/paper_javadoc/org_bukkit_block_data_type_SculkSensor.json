@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.block.data.type.SculkSensor",
+  "methods": [
+    "public default org.bukkit.block.data.type.SculkSensor$Phase getPhase()",
+    "public default void setPhase(org.bukkit.block.data.type.SculkSensor$Phase)",
+    "public abstract org.bukkit.block.data.type.SculkSensor$Phase getSculkSensorPhase()",
+    "public abstract void setSculkSensorPhase(org.bukkit.block.data.type.SculkSensor$Phase)"
+  ],
+  "method_count": 4
+}

@@ -1,0 +1,11 @@
+{
+  "class_name": "org.bukkit.plugin.UnknownDependencyException",
+  "methods": [
+    "public org.bukkit.plugin.UnknownDependencyException(java.lang.Throwable)",
+    "public org.bukkit.plugin.UnknownDependencyException(java.lang.String)",
+    "public org.bukkit.plugin.UnknownDependencyException(java.lang.Throwable, java.lang.String)",
+    "public org.bukkit.plugin.UnknownDependencyException()",
+    "public org.bukkit.plugin.UnknownDependencyException(java.util.Collection<java.lang.String>, java.lang.String)"
+  ],
+  "method_count": 5
+}

@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.util.BlockTransformer$TransformationState",
+  "methods": [
+    "public abstract org.bukkit.block.BlockState getOriginal()",
+    "public abstract org.bukkit.block.BlockState getWorld()"
+  ],
+  "method_count": 2
+}

@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.event.inventory.PrepareSmithingEvent",
+  "methods": [
+    "public org.bukkit.event.inventory.PrepareSmithingEvent(org.bukkit.inventory.InventoryView, org.bukkit.inventory.ItemStack)",
+    "public org.bukkit.inventory.SmithingInventory getInventory()",
+    "public org.bukkit.inventory.Inventory getInventory()"
+  ],
+  "method_count": 3
+}

@@ -1,0 +1,23 @@
+{
+  "class_name": "org.bukkit.entity.Fox",
+  "methods": [
+    "public abstract org.bukkit.entity.Fox$Type getFoxType()",
+    "public abstract void setFoxType(org.bukkit.entity.Fox$Type)",
+    "public abstract boolean isCrouching()",
+    "public abstract void setCrouching(boolean)",
+    "public abstract void setSleeping(boolean)",
+    "public abstract org.bukkit.entity.AnimalTamer getFirstTrustedPlayer()",
+    "public abstract void setFirstTrustedPlayer(org.bukkit.entity.AnimalTamer)",
+    "public abstract org.bukkit.entity.AnimalTamer getSecondTrustedPlayer()",
+    "public abstract void setSecondTrustedPlayer(org.bukkit.entity.AnimalTamer)",
+    "public abstract boolean isFaceplanted()",
+    "public abstract void setInterested(boolean)",
+    "public abstract boolean isInterested()",
+    "public abstract void setLeaping(boolean)",
+    "public abstract boolean isLeaping()",
+    "public abstract void setDefending(boolean)",
+    "public abstract boolean isDefending()",
+    "public abstract void setFaceplanted(boolean)"
+  ],
+  "method_count": 17
+}

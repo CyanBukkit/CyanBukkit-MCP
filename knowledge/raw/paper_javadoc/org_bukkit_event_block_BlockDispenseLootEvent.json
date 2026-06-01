@@ -1,0 +1,15 @@
+{
+  "class_name": "org.bukkit.event.block.BlockDispenseLootEvent",
+  "methods": [
+    "public org.bukkit.event.block.BlockDispenseLootEvent(org.bukkit.entity.Player, org.bukkit.block.Block, java.util.List<org.bukkit.inventory.ItemStack>, org.bukkit.loot.LootTable)",
+    "public java.util.List<org.bukkit.inventory.ItemStack> getDispensedLoot()",
+    "public void setDispensedLoot(java.util.List<org.bukkit.inventory.ItemStack>)",
+    "public org.bukkit.loot.LootTable getLootTable()",
+    "public org.bukkit.entity.Player getPlayer()",
+    "public boolean isCancelled()",
+    "public void setCancelled(boolean)",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 9
+}

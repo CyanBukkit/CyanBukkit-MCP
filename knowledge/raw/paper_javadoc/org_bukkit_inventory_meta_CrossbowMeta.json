@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.inventory.meta.CrossbowMeta",
+  "methods": [
+    "public abstract boolean hasChargedProjectiles()",
+    "public abstract java.util.List<org.bukkit.inventory.ItemStack> getChargedProjectiles()",
+    "public abstract void setChargedProjectiles(java.util.List<org.bukkit.inventory.ItemStack>)",
+    "public abstract void addChargedProjectile(org.bukkit.inventory.ItemStack)"
+  ],
+  "method_count": 4
+}

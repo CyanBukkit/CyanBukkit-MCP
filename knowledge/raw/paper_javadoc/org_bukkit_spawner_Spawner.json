@@ -1,0 +1,18 @@
+{
+  "class_name": "org.bukkit.spawner.Spawner",
+  "methods": [
+    "public abstract void setDelay(int)",
+    "public abstract int getMinSpawnDelay()",
+    "public abstract void setMinSpawnDelay(int)",
+    "public abstract int getMaxSpawnDelay()",
+    "public abstract void setMaxSpawnDelay(int)",
+    "public abstract int getSpawnCount()",
+    "public abstract void setSpawnCount(int)",
+    "public abstract int getMaxNearbyEntities()",
+    "public abstract void setMaxNearbyEntities(int)",
+    "public abstract boolean isActivated()",
+    "public abstract void resetTimer()",
+    "public abstract void setSpawnedItem(org.bukkit.inventory.ItemStack)"
+  ],
+  "method_count": 12
+}

@@ -1,0 +1,11 @@
+{
+  "class_name": "org.bukkit.event.player.PlayerLocaleChangeEvent",
+  "methods": [
+    "public org.bukkit.event.player.PlayerLocaleChangeEvent(org.bukkit.entity.Player, java.lang.String)",
+    "public java.lang.String getLocale()",
+    "public java.util.Locale locale()",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 5
+}

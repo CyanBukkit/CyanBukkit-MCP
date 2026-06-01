@@ -1,0 +1,17 @@
+{
+  "class_name": "org.bukkit.material.Wood",
+  "methods": [
+    "public org.bukkit.material.Wood()",
+    "public org.bukkit.material.Wood(org.bukkit.TreeSpecies)",
+    "public org.bukkit.material.Wood(org.bukkit.Material)",
+    "public org.bukkit.material.Wood(org.bukkit.Material, org.bukkit.TreeSpecies)",
+    "public org.bukkit.material.Wood(org.bukkit.Material, byte)",
+    "public org.bukkit.TreeSpecies getSpecies()",
+    "public void setSpecies(org.bukkit.TreeSpecies)",
+    "public java.lang.String toString()",
+    "public org.bukkit.material.Wood clone()",
+    "public org.bukkit.material.MaterialData clone()",
+    "public java.lang.Object clone()"
+  ],
+  "method_count": 11
+}

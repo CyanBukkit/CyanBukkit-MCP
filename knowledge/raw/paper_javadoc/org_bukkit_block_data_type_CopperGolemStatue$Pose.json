@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.data.type.CopperGolemStatue$Pose",
+  "methods": [
+    "public static org.bukkit.block.data.type.CopperGolemStatue$Pose[] values()",
+    "public static org.bukkit.block.data.type.CopperGolemStatue$Pose valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

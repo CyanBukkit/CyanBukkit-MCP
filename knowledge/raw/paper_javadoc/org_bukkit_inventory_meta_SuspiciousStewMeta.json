@@ -1,0 +1,15 @@
+{
+  "class_name": "org.bukkit.inventory.meta.SuspiciousStewMeta",
+  "methods": [
+    "public abstract boolean hasCustomEffects()",
+    "public abstract java.util.List<org.bukkit.potion.PotionEffect> getCustomEffects()",
+    "public abstract boolean addCustomEffect(org.bukkit.potion.PotionEffect, boolean)",
+    "public abstract boolean addCustomEffect(io.papermc.paper.potion.SuspiciousEffectEntry, boolean)",
+    "public abstract boolean removeCustomEffect(org.bukkit.potion.PotionEffectType)",
+    "public abstract boolean hasCustomEffect(org.bukkit.potion.PotionEffectType)",
+    "public abstract boolean clearCustomEffects()",
+    "public abstract org.bukkit.inventory.meta.SuspiciousStewMeta clone()",
+    "public default org.bukkit.inventory.meta.ItemMeta clone()"
+  ],
+  "method_count": 9
+}

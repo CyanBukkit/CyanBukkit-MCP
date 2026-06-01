@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.block.SculkShrieker",
+  "methods": [
+    "public abstract int getWarningLevel()",
+    "public abstract void setWarningLevel(int)",
+    "public abstract void tryShriek(org.bukkit.entity.Player)"
+  ],
+  "method_count": 3
+}

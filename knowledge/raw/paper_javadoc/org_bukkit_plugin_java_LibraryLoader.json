@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.plugin.java.LibraryLoader",
+  "methods": [
+    "public org.bukkit.plugin.java.LibraryLoader(java.util.logging.Logger)",
+    "public java.lang.ClassLoader createLoader(org.bukkit.plugin.PluginDescriptionFile)",
+    "public java.lang.ClassLoader createLoader(org.bukkit.plugin.PluginDescriptionFile, java.util.List<java.nio.file.Path>)"
+  ],
+  "method_count": 3
+}

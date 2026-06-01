@@ -1,0 +1,19 @@
+{
+  "class_name": "org.bukkit.inventory.AnvilInventory",
+  "methods": [
+    "public abstract java.lang.String getRenameText()",
+    "public abstract int getRepairCostAmount()",
+    "public abstract void setRepairCostAmount(int)",
+    "public abstract int getRepairCost()",
+    "public abstract void setRepairCost(int)",
+    "public abstract int getMaximumRepairCost()",
+    "public abstract void setMaximumRepairCost(int)",
+    "public default org.bukkit.inventory.ItemStack getFirstItem()",
+    "public default void setFirstItem(org.bukkit.inventory.ItemStack)",
+    "public default org.bukkit.inventory.ItemStack getSecondItem()",
+    "public default void setSecondItem(org.bukkit.inventory.ItemStack)",
+    "public default org.bukkit.inventory.ItemStack getResult()",
+    "public default void setResult(org.bukkit.inventory.ItemStack)"
+  ],
+  "method_count": 13
+}

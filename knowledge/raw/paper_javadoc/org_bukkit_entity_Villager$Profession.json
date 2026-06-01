@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.entity.Villager$Profession",
+  "methods": [
+    "public static org.bukkit.entity.Villager$Profession[] values()",
+    "public static org.bukkit.entity.Villager$Profession valueOf(java.lang.String)",
+    "public org.bukkit.NamespacedKey getKey()",
+    "public java.lang.String translationKey()"
+  ],
+  "method_count": 4
+}

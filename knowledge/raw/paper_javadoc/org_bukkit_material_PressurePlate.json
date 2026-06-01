@@ -1,0 +1,14 @@
+{
+  "class_name": "org.bukkit.material.PressurePlate",
+  "methods": [
+    "public org.bukkit.material.PressurePlate()",
+    "public org.bukkit.material.PressurePlate(org.bukkit.Material)",
+    "public org.bukkit.material.PressurePlate(org.bukkit.Material, byte)",
+    "public boolean isPressed()",
+    "public java.lang.String toString()",
+    "public org.bukkit.material.PressurePlate clone()",
+    "public org.bukkit.material.MaterialData clone()",
+    "public java.lang.Object clone()"
+  ],
+  "method_count": 8
+}

@@ -1,0 +1,33 @@
+{
+  "class_name": "org.bukkit.potion.PotionEffect",
+  "methods": [
+    "public org.bukkit.potion.PotionEffect(org.bukkit.potion.PotionEffectType, int, int, boolean, boolean, boolean, org.bukkit.potion.PotionEffect)",
+    "public org.bukkit.potion.PotionEffect(org.bukkit.potion.PotionEffectType, int, int, boolean, boolean, boolean)",
+    "public org.bukkit.potion.PotionEffect(org.bukkit.potion.PotionEffectType, int, int, boolean, boolean)",
+    "public org.bukkit.potion.PotionEffect(org.bukkit.potion.PotionEffectType, int, int, boolean)",
+    "public org.bukkit.potion.PotionEffect(org.bukkit.potion.PotionEffectType, int, int)",
+    "public org.bukkit.potion.PotionEffect(java.util.Map<java.lang.String, java.lang.Object>)",
+    "public org.bukkit.potion.PotionEffect withType(org.bukkit.potion.PotionEffectType)",
+    "public org.bukkit.potion.PotionEffect withDuration(int)",
+    "public org.bukkit.potion.PotionEffect withAmplifier(int)",
+    "public org.bukkit.potion.PotionEffect withAmbient(boolean)",
+    "public org.bukkit.potion.PotionEffect withParticles(boolean)",
+    "public org.bukkit.potion.PotionEffect withIcon(boolean)",
+    "public org.bukkit.potion.PotionEffect getHiddenPotionEffect()",
+    "public java.util.Map<java.lang.String, java.lang.Object> serialize()",
+    "public boolean apply(org.bukkit.entity.LivingEntity)",
+    "public boolean equals(java.lang.Object)",
+    "public int getAmplifier()",
+    "public int getDuration()",
+    "public boolean isInfinite()",
+    "public boolean isShorterThan(org.bukkit.potion.PotionEffect)",
+    "public org.bukkit.potion.PotionEffectType getType()",
+    "public boolean isAmbient()",
+    "public boolean hasParticles()",
+    "public org.bukkit.Color getColor()",
+    "public boolean hasIcon()",
+    "public int hashCode()",
+    "public java.lang.String toString()"
+  ],
+  "method_count": 27
+}

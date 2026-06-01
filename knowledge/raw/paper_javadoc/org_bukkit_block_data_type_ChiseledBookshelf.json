@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.block.data.type.ChiseledBookshelf",
+  "methods": [
+    "public abstract boolean isSlotOccupied(int)",
+    "public abstract void setSlotOccupied(int, boolean)",
+    "public abstract java.util.Set<java.lang.Integer> getOccupiedSlots()",
+    "public abstract int getMaximumOccupiedSlots()"
+  ],
+  "method_count": 4
+}

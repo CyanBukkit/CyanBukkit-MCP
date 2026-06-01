@@ -1,0 +1,19 @@
+{
+  "class_name": "org.bukkit.inventory.meta.BookMeta$BookMetaBuilder",
+  "methods": [
+    "public abstract org.bukkit.inventory.meta.BookMeta$BookMetaBuilder title(net.kyori.adventure.text.Component)",
+    "public abstract org.bukkit.inventory.meta.BookMeta$BookMetaBuilder author(net.kyori.adventure.text.Component)",
+    "public abstract org.bukkit.inventory.meta.BookMeta$BookMetaBuilder addPage(net.kyori.adventure.text.Component)",
+    "public abstract org.bukkit.inventory.meta.BookMeta$BookMetaBuilder pages(net.kyori.adventure.text.Component...)",
+    "public abstract org.bukkit.inventory.meta.BookMeta$BookMetaBuilder pages(java.util.Collection<net.kyori.adventure.text.Component>)",
+    "public abstract org.bukkit.inventory.meta.BookMeta build()",
+    "public default net.kyori.adventure.inventory.Book build()",
+    "public default net.kyori.adventure.inventory.Book$Builder pages(java.util.Collection)",
+    "public default net.kyori.adventure.inventory.Book$Builder pages(net.kyori.adventure.text.Component[])",
+    "public default net.kyori.adventure.inventory.Book$Builder addPage(net.kyori.adventure.text.Component)",
+    "public default net.kyori.adventure.inventory.Book$Builder author(net.kyori.adventure.text.Component)",
+    "public default net.kyori.adventure.inventory.Book$Builder title(net.kyori.adventure.text.Component)",
+    "public default java.lang.Object build()"
+  ],
+  "method_count": 13
+}

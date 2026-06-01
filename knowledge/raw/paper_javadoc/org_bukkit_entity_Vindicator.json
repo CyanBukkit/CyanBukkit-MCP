@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.entity.Vindicator",
+  "methods": [
+    "public abstract boolean isJohnny()",
+    "public abstract void setJohnny(boolean)"
+  ],
+  "method_count": 2
+}

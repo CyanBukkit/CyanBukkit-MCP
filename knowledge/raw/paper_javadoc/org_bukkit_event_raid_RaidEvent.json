@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.event.raid.RaidEvent",
+  "methods": [
+    "protected org.bukkit.event.raid.RaidEvent(org.bukkit.Raid, org.bukkit.World)",
+    "public org.bukkit.Raid getRaid()"
+  ],
+  "method_count": 2
+}

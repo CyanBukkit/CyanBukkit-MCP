@@ -1,0 +1,13 @@
+{
+  "class_name": "org.bukkit.Input",
+  "methods": [
+    "public abstract boolean isForward()",
+    "public abstract boolean isBackward()",
+    "public abstract boolean isLeft()",
+    "public abstract boolean isRight()",
+    "public abstract boolean isJump()",
+    "public abstract boolean isSneak()",
+    "public abstract boolean isSprint()"
+  ],
+  "method_count": 7
+}

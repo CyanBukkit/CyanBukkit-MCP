@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.block.Lockable",
+  "methods": [
+    "public abstract boolean isLocked()",
+    "public abstract java.lang.String getLock()",
+    "public abstract void setLock(java.lang.String)",
+    "public abstract void setLockItem(org.bukkit.inventory.ItemStack)"
+  ],
+  "method_count": 4
+}

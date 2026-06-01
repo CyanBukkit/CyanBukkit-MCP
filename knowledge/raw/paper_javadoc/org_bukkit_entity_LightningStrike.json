@@ -1,0 +1,19 @@
+{
+  "class_name": "org.bukkit.entity.LightningStrike",
+  "methods": [
+    "public abstract boolean isEffect()",
+    "public abstract int getFlashes()",
+    "public abstract void setFlashes(int)",
+    "public abstract int getLifeTicks()",
+    "public abstract void setLifeTicks(int)",
+    "public abstract org.bukkit.entity.Player getCausingPlayer()",
+    "public abstract void setCausingPlayer(org.bukkit.entity.Player)",
+    "public abstract org.bukkit.entity.LightningStrike$Spigot spigot()",
+    "public abstract int getFlashCount()",
+    "public abstract void setFlashCount(int)",
+    "public abstract org.bukkit.entity.Entity getCausingEntity()",
+    "public default org.bukkit.entity.Entity$Spigot spigot()",
+    "public default org.bukkit.command.CommandSender$Spigot spigot()"
+  ],
+  "method_count": 13
+}

@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.Keyed",
+  "methods": [
+    "public abstract org.bukkit.NamespacedKey getKey()",
+    "public default net.kyori.adventure.key.Key key()"
+  ],
+  "method_count": 2
+}

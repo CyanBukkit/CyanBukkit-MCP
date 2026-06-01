@@ -1,0 +1,17 @@
+{
+  "class_name": "org.bukkit.FireworkEffect",
+  "methods": [
+    "public static org.bukkit.FireworkEffect$Builder builder()",
+    "public boolean hasFlicker()",
+    "public boolean hasTrail()",
+    "public java.util.List<org.bukkit.Color> getColors()",
+    "public java.util.List<org.bukkit.Color> getFadeColors()",
+    "public org.bukkit.FireworkEffect$Type getType()",
+    "public static org.bukkit.configuration.serialization.ConfigurationSerializable deserialize(java.util.Map<java.lang.String, java.lang.Object>)",
+    "public java.util.Map<java.lang.String, java.lang.Object> serialize()",
+    "public java.lang.String toString()",
+    "public int hashCode()",
+    "public boolean equals(java.lang.Object)"
+  ],
+  "method_count": 11
+}

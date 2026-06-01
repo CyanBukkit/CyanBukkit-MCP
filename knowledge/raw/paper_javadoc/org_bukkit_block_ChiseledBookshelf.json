@@ -1,0 +1,13 @@
+{
+  "class_name": "org.bukkit.block.ChiseledBookshelf",
+  "methods": [
+    "public abstract int getLastInteractedSlot()",
+    "public abstract void setLastInteractedSlot(int)",
+    "public abstract org.bukkit.inventory.ChiseledBookshelfInventory getInventory()",
+    "public abstract org.bukkit.inventory.ChiseledBookshelfInventory getSnapshotInventory()",
+    "public abstract int getSlot(org.bukkit.util.Vector)",
+    "public default org.bukkit.inventory.Inventory getSnapshotInventory()",
+    "public default org.bukkit.inventory.Inventory getInventory()"
+  ],
+  "method_count": 7
+}

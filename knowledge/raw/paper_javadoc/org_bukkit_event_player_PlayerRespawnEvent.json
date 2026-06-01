@@ -1,0 +1,12 @@
+{
+  "class_name": "org.bukkit.event.player.PlayerRespawnEvent",
+  "methods": [
+    "public org.bukkit.event.player.PlayerRespawnEvent(org.bukkit.entity.Player, org.bukkit.Location, boolean)",
+    "public org.bukkit.event.player.PlayerRespawnEvent(org.bukkit.entity.Player, org.bukkit.Location, boolean, boolean)",
+    "public org.bukkit.event.player.PlayerRespawnEvent(org.bukkit.entity.Player, org.bukkit.Location, boolean, boolean, boolean, org.bukkit.event.player.PlayerRespawnEvent$RespawnReason)",
+    "public void setRespawnLocation(org.bukkit.Location)",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 6
+}

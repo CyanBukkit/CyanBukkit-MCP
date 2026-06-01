@@ -1,0 +1,12 @@
+{
+  "class_name": "org.bukkit.inventory.meta.components.FoodComponent",
+  "methods": [
+    "public abstract int getNutrition()",
+    "public abstract void setNutrition(int)",
+    "public abstract float getSaturation()",
+    "public abstract void setSaturation(float)",
+    "public abstract boolean canAlwaysEat()",
+    "public abstract void setCanAlwaysEat(boolean)"
+  ],
+  "method_count": 6
+}

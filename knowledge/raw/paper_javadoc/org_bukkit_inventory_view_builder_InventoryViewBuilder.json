@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.inventory.view.builder.InventoryViewBuilder",
+  "methods": [
+    "public abstract org.bukkit.inventory.view.builder.InventoryViewBuilder<V> copy()",
+    "public abstract org.bukkit.inventory.view.builder.InventoryViewBuilder<V> title(net.kyori.adventure.text.Component)",
+    "public abstract V build(org.bukkit.entity.HumanEntity)"
+  ],
+  "method_count": 3
+}

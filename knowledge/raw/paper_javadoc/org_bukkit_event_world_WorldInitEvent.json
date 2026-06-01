@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.event.world.WorldInitEvent",
+  "methods": [
+    "public org.bukkit.event.world.WorldInitEvent(org.bukkit.World)",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 3
+}

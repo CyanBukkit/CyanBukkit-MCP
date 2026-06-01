@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.persistence.PersistentDataType$PrimitivePersistentDataType",
+  "methods": [
+    "public java.lang.Class<P> getPrimitiveType()",
+    "public java.lang.Class<P> getComplexType()",
+    "public P toPrimitive(P, org.bukkit.persistence.PersistentDataAdapterContext)",
+    "public P fromPrimitive(P, org.bukkit.persistence.PersistentDataAdapterContext)"
+  ],
+  "method_count": 4
+}

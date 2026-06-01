@@ -1,0 +1,13 @@
+{
+  "class_name": "org.bukkit.block.banner.Pattern",
+  "methods": [
+    "public org.bukkit.block.banner.Pattern(org.bukkit.DyeColor, org.bukkit.block.banner.PatternType)",
+    "public org.bukkit.block.banner.Pattern(java.util.Map<java.lang.String, java.lang.Object>)",
+    "public java.util.Map<java.lang.String, java.lang.Object> serialize()",
+    "public org.bukkit.DyeColor getColor()",
+    "public org.bukkit.block.banner.PatternType getPattern()",
+    "public int hashCode()",
+    "public boolean equals(java.lang.Object)"
+  ],
+  "method_count": 7
+}

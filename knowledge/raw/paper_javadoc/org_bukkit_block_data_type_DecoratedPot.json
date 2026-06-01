@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.data.type.DecoratedPot",
+  "methods": [
+    "public abstract boolean isCracked()",
+    "public abstract void setCracked(boolean)"
+  ],
+  "method_count": 2
+}

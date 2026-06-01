@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.data.SideChaining",
+  "methods": [
+    "public abstract org.bukkit.block.data.SideChaining$ChainPart getSideChain()",
+    "public abstract void setSideChain(org.bukkit.block.data.SideChaining$ChainPart)"
+  ],
+  "method_count": 2
+}

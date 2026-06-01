@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.data.type.Lectern",
+  "methods": [
+    "public abstract boolean hasBook()",
+    "public abstract void setHasBook(boolean)"
+  ],
+  "method_count": 2
+}

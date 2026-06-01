@@ -1,0 +1,29 @@
+{
+  "class_name": "org.bukkit.entity.Villager",
+  "methods": [
+    "public abstract org.bukkit.entity.Villager$Profession getProfession()",
+    "public abstract void setProfession(org.bukkit.entity.Villager$Profession)",
+    "public abstract org.bukkit.entity.Villager$Type getVillagerType()",
+    "public abstract void setVillagerType(org.bukkit.entity.Villager$Type)",
+    "public abstract int getVillagerLevel()",
+    "public abstract void setVillagerLevel(int)",
+    "public abstract int getVillagerExperience()",
+    "public abstract void setVillagerExperience(int)",
+    "public abstract boolean increaseLevel(int)",
+    "public abstract boolean addTrades(int)",
+    "public abstract int getRestocksToday()",
+    "public abstract void setRestocksToday(int)",
+    "public abstract boolean sleep(org.bukkit.Location)",
+    "public abstract void wakeup()",
+    "public abstract void shakeHead()",
+    "public abstract org.bukkit.entity.ZombieVillager zombify()",
+    "public abstract com.destroystokyo.paper.entity.villager.Reputation getReputation(java.util.UUID)",
+    "public abstract java.util.Map<java.util.UUID, com.destroystokyo.paper.entity.villager.Reputation> getReputations()",
+    "public abstract void setReputation(java.util.UUID, com.destroystokyo.paper.entity.villager.Reputation)",
+    "public abstract void setReputations(java.util.Map<java.util.UUID, com.destroystokyo.paper.entity.villager.Reputation>)",
+    "public abstract void clearReputations()",
+    "public abstract void updateDemand()",
+    "public abstract void restock()"
+  ],
+  "method_count": 23
+}

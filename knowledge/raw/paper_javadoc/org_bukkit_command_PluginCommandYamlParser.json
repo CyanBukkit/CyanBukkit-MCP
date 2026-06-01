@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.command.PluginCommandYamlParser",
+  "methods": [
+    "public org.bukkit.command.PluginCommandYamlParser()",
+    "public static java.util.List<org.bukkit.command.Command> parse(org.bukkit.plugin.Plugin)"
+  ],
+  "method_count": 2
+}

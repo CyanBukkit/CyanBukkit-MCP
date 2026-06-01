@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.block.data.type.EndPortalFrame",
+  "methods": [
+    "public abstract boolean hasEye()",
+    "public abstract void setEye(boolean)"
+  ],
+  "method_count": 2
+}

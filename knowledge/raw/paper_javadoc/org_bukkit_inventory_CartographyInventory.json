@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.inventory.CartographyInventory",
+  "methods": [
+    "public default org.bukkit.inventory.ItemStack getResult()",
+    "public default void setResult(org.bukkit.inventory.ItemStack)"
+  ],
+  "method_count": 2
+}

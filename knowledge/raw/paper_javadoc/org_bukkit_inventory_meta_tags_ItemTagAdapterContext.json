@@ -1,0 +1,7 @@
+{
+  "class_name": "org.bukkit.inventory.meta.tags.ItemTagAdapterContext",
+  "methods": [
+    "public abstract org.bukkit.inventory.meta.tags.CustomItemTagContainer newTagContainer()"
+  ],
+  "method_count": 1
+}

@@ -1,0 +1,11 @@
+{
+  "class_name": "org.bukkit.command.CommandSender$Spigot",
+  "methods": [
+    "public org.bukkit.command.CommandSender$Spigot()",
+    "public void sendMessage(net.md_5.bungee.api.chat.BaseComponent)",
+    "public void sendMessage(net.md_5.bungee.api.chat.BaseComponent...)",
+    "public void sendMessage(java.util.UUID, net.md_5.bungee.api.chat.BaseComponent)",
+    "public void sendMessage(java.util.UUID, net.md_5.bungee.api.chat.BaseComponent...)"
+  ],
+  "method_count": 5
+}

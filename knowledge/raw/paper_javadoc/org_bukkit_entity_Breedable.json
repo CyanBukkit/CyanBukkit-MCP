@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.entity.Breedable",
+  "methods": [
+    "public abstract void setAgeLock(boolean)",
+    "public abstract boolean getAgeLock()",
+    "public abstract boolean canBreed()",
+    "public abstract void setBreed(boolean)"
+  ],
+  "method_count": 4
+}

@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.entity.Skeleton$SkeletonType",
+  "methods": [
+    "public static org.bukkit.entity.Skeleton$SkeletonType[] values()",
+    "public static org.bukkit.entity.Skeleton$SkeletonType valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

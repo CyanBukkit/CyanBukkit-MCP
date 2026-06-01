@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.event.player.PlayerGameModeChangeEvent$Cause",
+  "methods": [
+    "public static org.bukkit.event.player.PlayerGameModeChangeEvent$Cause[] values()",
+    "public static org.bukkit.event.player.PlayerGameModeChangeEvent$Cause valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

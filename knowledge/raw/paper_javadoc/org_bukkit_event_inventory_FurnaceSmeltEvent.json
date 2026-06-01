@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.event.inventory.FurnaceSmeltEvent",
+  "methods": [
+    "public org.bukkit.event.inventory.FurnaceSmeltEvent(org.bukkit.block.Block, org.bukkit.inventory.ItemStack, org.bukkit.inventory.ItemStack)",
+    "public org.bukkit.event.inventory.FurnaceSmeltEvent(org.bukkit.block.Block, org.bukkit.inventory.ItemStack, org.bukkit.inventory.ItemStack, org.bukkit.inventory.CookingRecipe<?>)"
+  ],
+  "method_count": 2
+}

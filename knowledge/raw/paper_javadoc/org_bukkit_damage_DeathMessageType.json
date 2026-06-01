@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.damage.DeathMessageType",
+  "methods": [
+    "public static org.bukkit.damage.DeathMessageType[] values()",
+    "public static org.bukkit.damage.DeathMessageType valueOf(java.lang.String)"
+  ],
+  "method_count": 2
+}

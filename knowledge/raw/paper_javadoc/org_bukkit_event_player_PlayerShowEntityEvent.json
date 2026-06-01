@@ -1,0 +1,10 @@
+{
+  "class_name": "org.bukkit.event.player.PlayerShowEntityEvent",
+  "methods": [
+    "public org.bukkit.event.player.PlayerShowEntityEvent(org.bukkit.entity.Player, org.bukkit.entity.Entity)",
+    "public org.bukkit.entity.Entity getEntity()",
+    "public org.bukkit.event.HandlerList getHandlers()",
+    "public static org.bukkit.event.HandlerList getHandlerList()"
+  ],
+  "method_count": 4
+}

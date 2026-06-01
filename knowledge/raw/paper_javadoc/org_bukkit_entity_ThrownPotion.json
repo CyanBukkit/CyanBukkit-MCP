@@ -1,0 +1,12 @@
+{
+  "class_name": "org.bukkit.entity.ThrownPotion",
+  "methods": [
+    "public abstract java.util.Collection<org.bukkit.potion.PotionEffect> getEffects()",
+    "public abstract org.bukkit.inventory.ItemStack getItem()",
+    "public abstract void setItem(org.bukkit.inventory.ItemStack)",
+    "public abstract org.bukkit.inventory.meta.PotionMeta getPotionMeta()",
+    "public abstract void setPotionMeta(org.bukkit.inventory.meta.PotionMeta)",
+    "public abstract void splash()"
+  ],
+  "method_count": 6
+}

@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.event.entity.SpawnerSpawnEvent",
+  "methods": [
+    "public org.bukkit.event.entity.SpawnerSpawnEvent(org.bukkit.entity.Entity, org.bukkit.block.CreatureSpawner)",
+    "public org.bukkit.block.CreatureSpawner getSpawner()"
+  ],
+  "method_count": 2
+}

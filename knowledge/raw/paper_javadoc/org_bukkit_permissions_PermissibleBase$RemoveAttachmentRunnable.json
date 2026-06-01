@@ -1,0 +1,8 @@
+{
+  "class_name": "org.bukkit.permissions.PermissibleBase$RemoveAttachmentRunnable",
+  "methods": [
+    "public org.bukkit.permissions.PermissibleBase$RemoveAttachmentRunnable(org.bukkit.permissions.PermissionAttachment)",
+    "public void run()"
+  ],
+  "method_count": 2
+}

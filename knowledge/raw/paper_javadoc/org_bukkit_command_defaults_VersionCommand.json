@@ -1,0 +1,9 @@
+{
+  "class_name": "org.bukkit.command.defaults.VersionCommand",
+  "methods": [
+    "public org.bukkit.command.defaults.VersionCommand(java.lang.String)",
+    "public boolean execute(org.bukkit.command.CommandSender, java.lang.String, java.lang.String[])",
+    "public java.util.List<java.lang.String> tabComplete(org.bukkit.command.CommandSender, java.lang.String, java.lang.String[])"
+  ],
+  "method_count": 3
+}

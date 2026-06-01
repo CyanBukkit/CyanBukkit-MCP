@@ -1,0 +1,297 @@
+{
+  "name": "ZNPCsPlus",
+  "version": "unknown",
+  "source": "GitHub Wiki",
+  "source_url": "https://github.com/Pyrbu/ZNPCsPlus/wiki/API",
+  "platform": "Bukkit/Spigot/Paper",
+  "language": "java",
+  "description": "ZNPCsPlus NPC plugin API for creating and managing NPCs in Minecraft servers",
+  "sections": [
+    {
+      "title": "Insights",
+      "content": "API\nD3v1s0m edited this page  · 4 revisions\nZNPCsPlus API Documentation",
+      "tags": [
+        "API",
+        "D3v1s0m",
+        "Documentation",
+        "ZNPCsPlus"
+      ]
+    },
+    {
+      "title": "Maven Repository",
+      "content": "To use the ZNPCsPlus API in your project, add the following Maven repository to your pom.xml:\n\n<repository>\n  <id>pyr-snapshots</id>\n  <name>Pyr's Repo</name>\n  <url>https://repo.pyr.lol/snapshots</url>\n</repository>",
+      "tags": [
+        "API",
+        "Maven",
+        "Pyr",
+        "Repo",
+        "To",
+        "ZNPCsPlus"
+      ]
+    },
+    {
+      "title": "Add the following Maven dependency to your pom.xml:",
+      "content": "<dependency>\n  <groupId>lol.pyr</groupId>\n  <artifactId>znpcsplus-api</artifactId>\n  <version>{version}</version>\n  <scope>provided</scope>\n</dependency>",
+      "tags": []
+    },
+    {
+      "title": "For Gradle projects, add the following repository to your build.gradle:",
+      "content": "maven {\n    name \"pyrSnapshots\"\n    url \"https://repo.pyr.lol/snapshots\"\n}",
+      "tags": []
+    },
+    {
+      "title": "Add the following dependency to your build.gradle:",
+      "content": "compileOnly \"lol.pyr:znpcsplus-api:{version}\"",
+      "tags": []
+    },
+    {
+      "title": "Before creating an NPC, retrieve the desired NPC type:",
+      "content": "NpcType playerNpcType = npcApi.getNpcTypeRegistry().getByName(\"player\"); // Case-insensitive\nif (playerNpcType == null) {\n    System.out.println(\"NPC type does not exist or is not available on this server version.\");\n    return;\n}",
+      "tags": [
+        "Case",
+        "NPC",
+        "NpcType",
+        "System",
+        "getByName",
+        "getNpcTypeRegistry",
+        "println"
+      ]
+    },
+    {
+      "title": "NpcEntry playerNpc = npcApi.getNpcRegistry().create(",
+      "content": "\"npc1\", // NPC ID\n    Bukkit.getWorlds().get(0), // World instance\n    playerNpcType, // NPC type\n    new NpcLocation(0, 100, 0, 0, 0) // x, y, z, yaw, pitch\n);\n\n// Enable the NPC to be processed by the plugin\nplayerNpc.setProcessed(true);\n/*\n * If you need custom logic for NPC visibility per player, keep \"processed\" disabled.\n * Note: Disabling \"processed\" will prevent certain properties (e.g., look behavior, \n * view distance, permission-based visibility, and knockback properties) from functioning.\n */\n\n// Enable the NPC to be saved in the plugins storage\nplayerNpc.setSave(true);\n\n// Enable the NPC to be modified by commands\nplayerNpc.setAllowCommandModification(true);\n\n// Alternatively, you can use the following method to enable all of the above at once\nplayerNpc.enableEverything();",
+      "tags": [
+        "Alternatively",
+        "Bukkit",
+        "Disabling",
+        "Enable",
+        "ID",
+        "If",
+        "NPC",
+        "Note",
+        "NpcLocation",
+        "World",
+        "enableEverything",
+        "get",
+        "getWorlds",
+        "setAllowCommandModification",
+        "setProcessed",
+        "setSave"
+      ]
+    },
+    {
+      "title": "NpcEntry retrievedNpc = npcApi.getNpcRegistry().getById(\"npc1\");",
+      "content": "if (retrievedNpc != null) {\n    System.out.println(\"NPC found: \" + retrievedNpc.getId());\n}",
+      "tags": [
+        "NPC",
+        "System",
+        "getId",
+        "println"
+      ]
+    },
+    {
+      "title": "Remove an NPC from the registry:",
+      "content": "npcApi.getNpcRegistry().delete(\"npc1\");",
+      "tags": [
+        "delete",
+        "getNpcRegistry"
+      ]
+    },
+    {
+      "title": "Customize an NPC by applying a property:",
+      "content": "// Get the \"dinnerbone\" property (makes entities appear upside down)\nEntityProperty<Boolean> dinnerboneProperty = npcApi.getPropertyRegistry().getByName(\"dinnerbone\", Boolean.class);\n\n// Apply the property to an NPC",
+      "tags": [
+        "Apply",
+        "Boolean",
+        "EntityProperty",
+        "Get",
+        "NPC",
+        "getByName",
+        "getPropertyRegistry"
+      ]
+    },
+    {
+      "title": "NpcEntry zombieNpc = npcApi.getNpcRegistry().getById(\"zombie1\");",
+      "content": "if (zombieNpc != null) {\n    zombieNpc.getNpc().setProperty(dinnerboneProperty, true);\n}",
+      "tags": [
+        "getNpc",
+        "setProperty"
+      ]
+    },
+    {
+      "title": "Register a dummy property for testing:",
+      "content": "npcApi.getPropertyRegistry().registerDummy(\"my_property\", Boolean.class);",
+      "tags": [
+        "Boolean",
+        "getPropertyRegistry",
+        "registerDummy"
+      ]
+    },
+    {
+      "title": "Create a MessageAction and assign it to an NPC:",
+      "content": "// Create an action that sends a message when left-clicked",
+      "tags": [
+        "Create"
+      ]
+    },
+    {
+      "title": "InteractionAction action = npcApi.getActionFactory().createMessageAction(",
+      "content": "\"Hello, world!\", // Message\n    InteractionType.LEFT_CLICK, // Interaction type\n    5, // Cooldown in seconds\n    0 // Delay in ticks\n);\n\n// Assign the action to the NPC\nzombieNpc.getNpc().addAction(action);",
+      "tags": [
+        "Assign",
+        "Cooldown",
+        "Delay",
+        "Hello",
+        "Interaction",
+        "InteractionType",
+        "Message",
+        "NPC",
+        "addAction",
+        "getNpc"
+      ]
+    },
+    {
+      "title": "Setting NPC Skins",
+      "content": "Skins are only available for player NPC types. Here's how to set different skin types:",
+      "tags": [
+        "Here",
+        "NPC",
+        "Skins"
+      ]
+    },
+    {
+      "title": "Mirror Player Skin",
+      "content": "SkinDescriptor mirrorDescriptor = npcApi.getSkinDescriptorFactory().createMirrorDescriptor();",
+      "tags": [
+        "SkinDescriptor",
+        "createMirrorDescriptor",
+        "getSkinDescriptorFactory"
+      ]
+    },
+    {
+      "title": "Static Skin (Using a Player Name)",
+      "content": "SkinDescriptor staticSteveDescriptor = npcApi.getSkinDescriptorFactory().createStaticDescriptor(\"steve\");",
+      "tags": [
+        "SkinDescriptor",
+        "createStaticDescriptor",
+        "getSkinDescriptorFactory"
+      ]
+    },
+    {
+      "title": "Static Skin (Using a Texture value and signature)",
+      "content": "SkinDescriptor staticTextureDescriptor = npcAPI.getSkinDescriptorFactory().createStaticDescriptor(\"ewogICJ0aW1lc3RhbXAiIDogMTczNTExNzEzNzY0MSwKICAicHJvZmlsZUlkIiA6ICIxNmQ4NjI4NzYzMWY0NDY2OGQ0NDM2ZTJlY2IwNTllNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZXphVG91cm5leSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81ODc0Nzk0OWMxOTUyMWEwYTAwOTgwYjNhMGVkODJjYzIzNmVkMjc5OWIzMGNiZDY4Nzk1ZGNiMDg5NTE5Y2NhIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=\", \"ZzIpWZCCCT6H95QQk0SCwF8hWjWL+J764KqH8hhpmTl5SfCHnoj8W4wZnPevrO+q213NgzGmZVEVucR16stX/39+H+NmLFILOBh+FDbRQgEhheyZGYEIj+25gvKRHddHW5eLIS+fOrXDXFffktLR8ImEtFQzFNWVQ8YHb6jmth2OUJgVTxz76UYZ0RVo/8dYbARijWyypTc95+8rOImoJl2f77qiIsPptxeorHdJ6+i0LfFQnbQzGO9GDVjShso/B1UMdoFEITO4MVG8RYpV7F1Awd7891N2vdhIAPWptIADAK/VFU6HG5dyOJoB8FEjPK5vpV/qaH5MQ5JqO2tjT6re1BEeKamymRX+LsgNJYq360gJAsf93tR1Q7oI8GtJ/6KGymGNRH5X6dPVNAgIx6yRvqbBDFW12bYlWFGvdY3kTYn50xe5oFtm6gas5CHJdnGL86m4iunNVtE7GKvYrXtxcAEP2HzfZ5b4eOyK5LOi8A55Z2rNmCKn/5YPX50OjpooNsZivrOvu4+qrs7EMa7JOqqKeq8WE+duLykJr1qXoURY4cz7JDGqHLJrE7E2FaQf4JoMdzdxNZIfvwFzhIh9TcQ/6iSOf439lc54d6vJuGcXLXBjmSq7GNAawxNTy7d3V/Bo0bnrQEh1EKE1LlkUP3ubnw+CW7jJcx9pPd8=\");",
+      "tags": [
+        "B1UMdoFEITO4MVG8RYpV7F1Awd7891N2vdhIAPWptIADAK",
+        "Bo0bnrQEh1EKE1LlkUP3ubnw",
+        "CW7jJcx9pPd8",
+        "FDbRQgEhheyZGYEIj",
+        "J764KqH8hhpmTl5SfCHnoj8W4wZnPevrO",
+        "LsgNJYq360gJAsf93tR1Q7oI8GtJ",
+        "NmLFILOBh",
+        "SkinDescriptor",
+        "VFU6HG5dyOJoB8FEjPK5vpV",
+        "ZzIpWZCCCT6H95QQk0SCwF8hWjWL",
+        "createStaticDescriptor",
+        "getSkinDescriptorFactory"
+      ]
+    },
+    {
+      "title": "Dynamic/Refreshing Skin (Using static player name)",
+      "content": "SkinDescriptor dynamicSteveDescriptor = npcAPI.getSkinDescriptorFactory().createRefreshingDescriptor(\"Steve\");",
+      "tags": [
+        "SkinDescriptor",
+        "Steve",
+        "createRefreshingDescriptor",
+        "getSkinDescriptorFactory"
+      ]
+    },
+    {
+      "title": "Dynamic/Refreshing Skin (Using placeholder)",
+      "content": "SkinDescriptor dynamicPlaceholderDescriptor = npcAPI.getSkinDescriptorFactory().createRefreshingDescriptor(\"%top_player_1_name%\");\nURL Skin\nSkinDescriptor urlDescriptor = npcApi.getSkinDescriptorFactory().createUrlDescriptor(\n    \"https://www.minecraftskins.com/uploads/skins/2024/12/24/iceman-22953593.png?v737\",\n    \"slim\"\n);",
+      "tags": [
+        "Skin",
+        "SkinDescriptor",
+        "URL",
+        "createRefreshingDescriptor",
+        "createUrlDescriptor",
+        "getSkinDescriptorFactory"
+      ]
+    },
+    {
+      "title": "File Skin",
+      "content": "SkinDescriptor fileDescriptor = npcAPI.getSkinDescriptorFactory().createFileDescriptor(\"skin2.png\");",
+      "tags": [
+        "SkinDescriptor",
+        "createFileDescriptor",
+        "getSkinDescriptorFactory"
+      ]
+    },
+    {
+      "title": "Applying the Skin",
+      "content": "// Get the \"skin\" property\nEntityProperty<SkinDescriptor> skinProperty = npcApi.getPropertyRegistry().getByName(\"skin\", SkinDescriptor.class);\n\n// Apply the skin to the NPC\nplayerNpc.getNpc().setProperty(skinProperty, staticSteveDescriptor);",
+      "tags": [
+        "Apply",
+        "EntityProperty",
+        "Get",
+        "NPC",
+        "SkinDescriptor",
+        "getByName",
+        "getNpc",
+        "getPropertyRegistry",
+        "setProperty"
+      ]
+    },
+    {
+      "title": "Save an NPC to a YAML format:",
+      "content": "NpcSerializer<YamlConfiguration> yamlSerializer = npcApi.getNpcSerializerRegistry().getSerializer(YamlConfiguration.class);",
+      "tags": [
+        "NpcSerializer",
+        "YamlConfiguration",
+        "getNpcSerializerRegistry",
+        "getSerializer"
+      ]
+    },
+    {
+      "title": "Load an NPC from YAML and register it:",
+      "content": "NpcEntry deserializedPlayerNpc = yamlSerializer.deserialize(serializedPlayerNpc);\nnpcApi.getNpcRegistry().register(deserializedPlayerNpc);",
+      "tags": [
+        "NpcEntry",
+        "deserialize",
+        "getNpcRegistry",
+        "register"
+      ]
+    },
+    {
+      "title": "Permissions: Permissions and Access Control",
+      "content": "NPC Types: Information about Different NPC Types",
+      "tags": [
+        "Different",
+        "Information",
+        "NPC",
+        "Types"
+      ]
+    },
+    {
+      "title": "Properties: Customization Options",
+      "content": "API Docs: Documentation of API",
+      "tags": [
+        "API",
+        "Docs",
+        "Documentation"
+      ]
+    },
+    {
+      "title": "Other: Additional Resources and Information",
+      "content": "Feel free to click on any of the links above to access the corresponding page for detailed information on that topic. If you have any questions or need further assistance, please don't hesitate to reach out on our Discord server",
+      "tags": [
+        "Discord",
+        "Feel",
+        "If"
+      ]
+    }
+  ],
+  "full_text": "# API · Pyrbu/ZNPCsPlus Wiki · GitHub\n\nPyrbu\n/\nZNPCsPlus\nPublic\nNotifications\nFork 45\n Star 151\nCode\nIssues\n28\nPull requests\n2\nActions\nProjects\nWiki\nSecurity\nInsights\nAPI\nD3v1s0m edited this page  · 4 revisions\nZNPCsPlus API Documentation\nMaven Repository\n\nTo use the ZNPCsPlus API in your project, add the following Maven repository to your pom.xml:\n\n<repository>\n  <id>pyr-snapshots</id>\n  <name>Pyr's Repo</name>\n  <url>https://repo.pyr.lol/snapshots</url>\n</repository>\n\nAdd the following Maven dependency to your pom.xml:\n\n<dependency>\n  <groupId>lol.pyr</groupId>\n  <artifactId>znpcsplus-api</artifactId>\n  <version>{version}</version>\n  <scope>provided</scope>\n</dependency>\n\nReplace {version} with \n\nGradle Repository\n\nFor Gradle projects, add the following repository to your build.gradle:\n\nmaven {\n    name \"pyrSnapshots\"\n    url \"https://repo.pyr.lol/snapshots\"\n}\n\nAdd the following dependency to your build.gradle:\n\ncompileOnly \"lol.pyr:znpcsplus-api:{version}\"\n\nReplace {version} with \n\nJavaDoc\n\nExplore the API structure of ZNPCsPlus by referring to the concise JavaDoc here\n\nBasic Implementation\nGetting the NpcApi Instance\n\nTo start working with the API, obtain an instance of NpcApi:\n\nNpcApi npcApi = NpcApiProvider.get();\nGetting NPC Types\n\nBefore creating an NPC, retrieve the desired NPC type:\n\nNpcType playerNpcType = npcApi.getNpcTypeRegistry().getByName(\"player\"); // Case-insensitive\nif (playerNpcType == null) {\n    System.out.println(\"NPC type does not exist or is not available on this server version.\");\n    return;\n}\nCreating and Registering an NPC\n\nCreate an NPC with the desired type, location, and settings:\n\nNpcEntry playerNpc = npcApi.getNpcRegistry().create(\n    \"npc1\", // NPC ID\n    Bukkit.getWorlds().get(0), // World instance\n    playerNpcType, // NPC type\n    new NpcLocation(0, 100, 0, 0, 0) // x, y, z, yaw, pitch\n);\n\n// Enable the NPC to be processed by the plugin\nplayerNpc.setProcessed(true);\n/*\n * If you need custom logic for NPC visibility per player, keep \"processed\" disabled.\n * Note: Disabling \"processed\" will prevent certain properties (e.g., look behavior, \n * view distance, permission-based visibility, and knockback properties) from functioning.\n */\n\n// Enable the NPC to be saved in the plugins storage\nplayerNpc.setSave(true);\n\n// Enable the NPC to be modified by commands\nplayerNpc.setAllowCommandModification(true);\n\n// Alternatively, you can use the following method to enable all of the above at once\nplayerNpc.enableEverything();\nRetrieving an NPC by ID\n\nRetrieve an NPC that is already registered using its ID:\n\nNpcEntry retrievedNpc = npcApi.getNpcRegistry().getById(\"npc1\");\nif (retrievedNpc != null) {\n    System.out.println(\"NPC found: \" + retrievedNpc.getId());\n}\nDeleting an NPC\n\nRemove an NPC from the registry:\n\nnpcApi.getNpcRegistry().delete(\"npc1\");\nApplying a Property to an NPC\n\nCustomize an NPC by applying a property:\n\n// Get the \"dinnerbone\" property (makes entities appear upside down)\nEntityProperty<Boolean> dinnerboneProperty = npcApi.getPropertyRegistry().getByName(\"dinnerbone\", Boolean.class);\n\n// Apply the property to an NPC\nNpcEntry zombieNpc = npcApi.getNpcRegistry().getById(\"zombie1\");\nif (zombieNpc != null) {\n    zombieNpc.getNpc().setProperty(dinnerboneProperty, true);\n}\nRegistering a Dummy Property\n\nRegister a dummy property for testing:\n\nnpcApi.getPropertyRegistry().registerDummy(\"my_property\", Boolean.class);\nCreating and Assigning Actions\n\nCreate a MessageAction and assign it to an NPC:\n\n// Create an action that sends a message when left-clicked\nInteractionAction action = npcApi.getActionFactory().createMessageAction(\n    \"Hello, world!\", // Message\n    InteractionType.LEFT_CLICK, // Interaction type\n    5, // Cooldown in seconds\n    0 // Delay in ticks\n);\n\n// Assign the action to the NPC\nzombieNpc.getNpc().addAction(action);\nSetting NPC Skins\n\nSkins are only available for player NPC types. Here's how to set different skin types:\n\nMirror Player Skin\nSkinDescriptor mirrorDescriptor = npcApi.getSkinDescriptorFactory().createMirrorDescriptor();\nStatic Skin (Using a Player Name)\nSkinDescriptor staticSteveDescriptor = npcApi.getSkinDescriptorFactory().createStaticDescriptor(\"steve\");\nStatic Skin (Using a Texture value and signature)\nSkinDescriptor staticTextureDescriptor = npcAPI.getSkinDescriptorFactory().createStaticDescriptor(\"ewogICJ0aW1lc3RhbXAiIDogMTczNTExNzEzNzY0MSwKICAicHJvZmlsZUlkIiA6ICIxNmQ4NjI4NzYzMWY0NDY2OGQ0NDM2ZTJlY2IwNTllNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZXphVG91cm5leSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81ODc0Nzk0OWMxOTUyMWEwYTAwOTgwYjNhMGVkODJjYzIzNmVkMjc5OWIzMGNiZDY4Nzk1ZGNiMDg5NTE5Y2NhIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=\", \"ZzIpWZCCCT6H95QQk0SCwF8hWjWL+J764KqH8hhpmTl5SfCHnoj8W4wZnPevrO+q213NgzGmZVEVucR16stX/39+H+NmLFILOBh+FDbRQgEhheyZGYEIj+25gvKRHddHW5eLIS+fOrXDXFffktLR8ImEtFQzFNWVQ8YHb6jmth2OUJgVTxz76UYZ0RVo/8dYbARijWyypTc95+8rOImoJl2f77qiIsPptxeorHdJ6+i0LfFQnbQzGO9GDVjShso/B1UMdoFEITO4MVG8RYpV7F1Awd7891N2vdhIAPWptIADAK/VFU6HG5dyOJoB8FEjPK5vpV/qaH5MQ5JqO2tjT6re1BEeKamymRX+LsgNJYq360gJAsf93tR1Q7oI8GtJ/6KGymGNRH5X6dPVNAgIx6yRvqbBDFW12bYlWFGvdY3kTYn50xe5oFtm6gas5CHJdnGL86m4iunNVtE7GKvYrXtxcAEP2HzfZ5b4eOyK5LOi8A55Z2rNmCKn/5YPX50OjpooNsZivrOvu4+qrs7EMa7JOqqKeq8WE+duLykJr1qXoURY4cz7JDGqHLJrE7E2FaQf4JoMdzdxNZIfvwFzhIh9TcQ/6iSOf439lc54d6vJuGcXLXBjmSq7GNAawxNTy7d3V/Bo0bnrQEh1EKE1LlkUP3ubnw+CW7jJcx9pPd8=\");\nDynamic/Refreshing Skin (Using static player name)\nSkinDescriptor dynamicSteveDescriptor = npcAPI.getSkinDescriptorFactory().createRefreshingDescriptor(\"Steve\");\nDynamic/Refreshing Skin (Using placeholder)\nSkinDescriptor dynamicPlaceholderDescriptor = npcAPI.getSkinDescriptorFactory().createRefreshingDescriptor(\"%top_player_1_name%\");\nURL Skin\nSkinDescriptor urlDescriptor = npcApi.getSkinDescriptorFactory().createUrlDescriptor(\n    \"https://www.minecraftskins.com/uploads/skins/2024/12/24/iceman-22953593.png?v737\",\n    \"slim\"\n);\nFile Skin\nSkinDescriptor fileDescriptor = npcAPI.getSkinDescriptorFactory().createFileDescriptor(\"skin2.png\");\n\nNote: the file should be in the folder, ./plugins/ZNPCsPlus/skins\n\nApplying the Skin\n// Get the \"skin\" property\nEntityProperty<SkinDescriptor> skinProperty = npcApi.getPropertyRegistry().getByName(\"skin\", SkinDescriptor.class);\n\n// Apply the skin to the NPC\nplayerNpc.getNpc().setProperty(skinProperty, staticSteveDescriptor);\nSerializing an NPC\n\nSave an NPC to a YAML format:\n\nNpcSerializer<YamlConfiguration> yamlSerializer = npcApi.getNpcSerializerRegistry().getSerializer(YamlConfiguration.class);\nYamlConfiguration serializedPlayerNpc = yamlSerializer.serialize(playerNpc);\nDeserializing and Registering an NPC\n\nLoad an NPC from YAML and register it:\n\nNpcEntry deserializedPlayerNpc = yamlSerializer.deserialize(serializedPlayerNpc);\nnpcApi.getNpcRegistry().register(deserializedPlayerNpc);\n\nFor guidance, join our Discord community.\n\nThank you for using ZNPCsPlus!\n\n    \n\nPages 8\nZNPCsPlus Wiki\n\nWelcome to the documentation for ZNPCsPlus!\n\nHome: Introduction and Overview\nSetup: Installation and Configuration\nConverting: Migrating from Older Versions or Other Plugins\nCommands: List of Available Commands\nPermissions: Permissions and Access Control\nNPC Types: Information about Different NPC Types\nProperties: Customization Options\nAPI Docs: Documentation of API\nOther: Additional Resources and Information\n\nFeel free to click on any of the links above to access the corresponding page for detailed information on that topic. If you have any questions or need further assistance, please don't hesitate to reach out on our Discord server\n\nClone this wiki locally",
+  "section_count": 27,
+  "artifact": "lol.pyr:znpcsplus-api",
+  "repository": "https://repo.pyr.lol/snapshots"
+}
